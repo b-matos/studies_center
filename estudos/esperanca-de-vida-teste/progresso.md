@@ -73,3 +73,25 @@ crise da dívida por não haver fonte que ligasse a série concreta a esses even
 Falhou: nada — nenhuma ligação forçada sem fonte.
 
 Precisa de mim: nada por agora.
+
+## Fase 6 — Redação
+
+Feito: `relatorio.pt.qmd`/`relatorio.en.qmd` (resumo, uma secção por pergunta, metodologia e
+limitações — incluindo a limitação do INE só ter um período transversal — e fontes) e
+`afirmacoes.csv` com 33 afirmações (c001–c033), todas marcadas no texto com `.claim`,
+linguagem ajustada ao grau nas ligações (A: "contribuiu para"/"contributed to"; B: "pode ter
+contribuído"/"may have contributed to").
+
+Falhou (corrigido): a primeira passagem do `comum.checks` fase 6 falhou com 2 falsos
+positivos — números dentro de um bloco de código `{ojs}` (nome de ficheiro
+`regional_snapshot_2022.json`) e uma referência cruzada "Pergunta 5" a serem apanhados pelo
+detetor de números sem marca `.claim`. Corrigi o próprio `comum/checks.py` (ignora conteúdo
+dentro de blocos ```` ``` ````/```` ```{ojs} ```` e referências "Pergunta/Figura/Tabela N") em
+vez de forçar o redator a contornar um falso positivo do verificador.
+
+Nota a acompanhar na fase 7: o redator sinalizou que as afirmações c022/c023 (queda atribuída
+à pandemia) citam magnitudes ligeiramente diferentes consoante a fonte (INE/Eurostat vs. o
+cálculo direto sobre a série usada neste estudo) — mantidas separadas e atribuídas às fontes
+certas, mas vale a pena o verificador confirmar com atenção.
+
+Precisa de mim: nada que bloqueie.

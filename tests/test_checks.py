@@ -138,6 +138,40 @@ def test_fase_6_flags_claim_id_missing_from_afirmacoes(study_dir: Path) -> None:
     assert any("c001" in p for p in problems)
 
 
+def test_fase_6_ignores_code_fences_and_cross_references(study_dir: Path) -> None:
+    write_csv(
+        study_dir / "afirmacoes.csv",
+        Afirmacao,
+        [
+            Afirmacao(
+                id="c001",
+                tipo="dado",
+                texto_pt="x",
+                texto_en="x",
+                fonte_id="f1",
+                url="https://x",
+                data_acesso="2026-01-01",
+                excerto="algo",
+                natureza_fonte="primaria",
+                localizacao="intro",
+                estado_verificacao="confirmada",
+            )
+        ],
+    )
+    body = (
+        'Ver Pergunta 5 para mais detalhe sobre [82,5 anos]{.claim id="c001"}.\n\n'
+        "```{ojs}\n"
+        'dados = FileAttachment("regional_snapshot_2022.json").json()\n'
+        "```\n\n"
+    ) + "Texto de enchimento para passar o limite mínimo de tamanho do relatório. " * 5
+    (study_dir / "relatorio.pt.qmd").write_text(body, encoding="utf-8")
+    (study_dir / "relatorio.en.qmd").write_text(body, encoding="utf-8")
+    (study_dir / "verificacao.md").write_text("tudo confirmado", encoding="utf-8")
+
+    ok, problems = checks.check_fase_6("teste")
+    assert ok, problems
+
+
 def test_fase_7_flags_pending_afirmacoes(study_dir: Path) -> None:
     write_csv(
         study_dir / "afirmacoes.csv",

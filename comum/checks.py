@@ -159,6 +159,13 @@ def check_fase_6(slug: str) -> tuple[bool, list[str]]:
     return not problems, problems
 
 
+# Cross-references to a section/figure/table/note by number aren't factual claims.
+_CROSS_REFERENCE_PATTERN = re.compile(
+    r"\b(Pergunta|Question|Figura|Figure|Tabela|Table|Nota|Note|Secção|Section)\s+\d+\b",
+    re.IGNORECASE,
+)
+
+
 def _numbers_outside_claims(text: str) -> list[str]:
     # Remove claim spans (and their inner text) before looking for stray numbers.
     spans = []
@@ -170,9 +177,21 @@ def _numbers_outside_claims(text: str) -> list[str]:
         stripped.append(text[last:start])
         last = end
     stripped.append(text[last:])
-    remainder = " ".join(stripped)
-    # ignore headings/code fences roughly by dropping lines starting with # or ```
-    lines = [l for l in remainder.splitlines() if not l.strip().startswith(("#", "```"))]
+    remainder = _CROSS_REFERENCE_PATTERN.sub("", " ".join(stripped))
+
+    # Drop headings and the full contents of fenced code blocks (``` ... ```, including
+    # ```{ojs} chunks) — code (e.g. a FileAttachment filename) is not prose with claims.
+    lines = []
+    in_fence = False
+    for line in remainder.splitlines():
+        stripped_line = line.strip()
+        if stripped_line.startswith("```"):
+            in_fence = not in_fence
+            continue
+        if in_fence or stripped_line.startswith("#"):
+            continue
+        lines.append(line)
+
     found = []
     for line in lines:
         found.extend(NUMBER_PATTERN.findall(line))
