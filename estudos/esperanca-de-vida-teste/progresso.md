@@ -59,3 +59,17 @@ no total registadas em `quebras.csv` para o historiador avaliar.
 Falhou: nada.
 
 Precisa de mim: nada por agora.
+
+## Fase 5 — Eventos
+
+Feito: 2 eventos novos no catálogo partilhado (pandemia de COVID-19, grau A; época gripal
+grave de 2014/2015 na Europa, grau B). Das 17 quebras: 7 ligadas (o pico de 2020 em Portugal
+e os picos de 2020-2023 na UE-27 → COVID-19, grau A, com fonte INE/Eurostat que atribui
+diretamente a queda à pandemia; o pico de 2015 na UE → gripe 2014/2015, grau B) e 10 sem
+evento identificado (quebras de nível mais antigas em Portugal e alguns picos nos anos 60/70
+— o historiador considerou e rejeitou candidatos como a Revolução de 1974, a adesão à CEE e a
+crise da dívida por não haver fonte que ligasse a série concreta a esses eventos).
+
+Falhou: nada — nenhuma ligação forçada sem fonte.
+
+Precisa de mim: nada por agora.
