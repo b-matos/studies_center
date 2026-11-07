@@ -23,8 +23,8 @@ id="c033"} ([82.5]{.claim id="c002"} against [81.5]{.claim id="c009"} years). Th
 between mainland NUTS II regions widened, from [0.8 years in 1992]{.claim id="c030"} to
 [about 2.0 years in 2022]{.claim id="c031"}. Automatic break detection identified
 seventeen candidate changes in the Portugal and EU series — [17]{.claim id="c020"} in
-total —, of which [7]{.claim id="c020"} were linked to a concrete, dated event (almost all
-related to the [COVID-19]{.claim id="c021"} pandemic) and [10]{.claim id="c020"} were recorded with no
+total —, of which [6]{.claim id="c020"} were linked to a concrete, dated event (almost all
+related to the [COVID-19]{.claim id="c021"} pandemic) and [11]{.claim id="c020"} were recorded with no
 identified event — a result of the verification process, not a failure of the analysis.
 
 ## Question 1 — Evolution of total life expectancy in Portugal
@@ -137,8 +137,8 @@ recent year available in this source.*
 
 Automatic break detection (see `quebras.csv`) identified [17]{.claim id="c020"} candidate
 changes in the Portugal and EU series — level shifts, slope changes and spikes in the
-year-over-year variation. Of those [17]{.claim id="c020"}, only [7]{.claim id="c020"} were
-linked to a concrete, dated event with a credible source; the other [10]{.claim id="c020"}
+year-over-year variation. Of those [17]{.claim id="c020"}, only [6]{.claim id="c020"} were
+linked to a concrete, dated event with a credible source; the other [11]{.claim id="c020"}
 were recorded with no identified event. This is treated as a result of the analysis, not a
 failure: in several cases, namely isolated spikes in the older decades of the series and
 level shifts in more recent years, no source establishes a concrete causal relationship
@@ -148,16 +148,23 @@ assessed and discarded is documented in `ligacoes_eventos.csv`.
 
 The clearest and best-documented break is the one at the start of the twenty-twenties. In
 Portugal, total life expectancy fell from [82.0 years in 2019]{.claim id="c016"} to
-[81.4 years in 2020]{.claim id="c017"}; in the EU, it fell from [81.1 years in 2019]{.claim
-id="c018"} to [80.3 years in 2020]{.claim id="c019"} over the same period. The
-[COVID-19]{.claim id="c021"} pandemic, [declared by the World Health Organization on
-11 March 2020]{.claim id="c021"}, **contributed to** this break in Portugal ([grade A]{.claim
-id="c022"}) and **contributed to** the equivalent break in the EU ([grade A]{.claim
-id="c023"}), according to INE and Eurostat sources that directly attribute the drop to
-deaths related to the disease. The subsequent recovery of life expectancy in the EU over the
-following two years is also attributed by Eurostat to the easing of the pandemic's acute
-impact (**contributed to** the recovery, [grade A]{.claim id="c024"} and [grade A]{.claim
-id="c025"}).
+[81.4 years in 2020]{.claim id="c017"} — [a break of about 0.6 years]{.claim id="c022"};
+in the series used in this study for the EU, it fell from [81.1 years in 2019]{.claim
+id="c018"} to [80.3 years in 2020]{.claim id="c019"} — [a break of about 0.8 years]{.claim
+id="c023"}. The [COVID-19]{.claim id="c021"} pandemic, [declared by the World Health
+Organization on 11 March 2020]{.claim id="c021"}, **contributed to** this break in
+Portugal ([grade A]{.claim id="c022"}): this is the same year in which Eurostat, in its
+*Statistics Explained* article on mortality and life expectancy, directly documents that
+the pandemic **contributed to** a decline of [about 0.9 years (to 80.4 years)]{.claim
+id="c023"} in life expectancy for the EU as a whole ([grade A]{.claim id="c023"}).
+[This magnitude of 0.9 years]{.claim id="c023"}, published by Eurostat in a data version
+that may already include later revisions, is not identical to [the 0.8 years]{.claim
+id="c023"} computed directly from the `demo_mlexpec` series extracted for this study — the
+difference reflects distinct data vintages between the Eurostat publication and the
+extract used here, not two different phenomena. The subsequent recovery of life
+expectancy in the EU over the following two years is also attributed by Eurostat to the
+easing of the pandemic's acute impact (**contributed to** the recovery, [grade A]{.claim
+id="c024"} and [grade A]{.claim id="c025"}).
 
 A second, weaker-evidence candidate is the [severe 2014/2015 winter flu season in
 Europe]{.claim id="c026"}, documented in an ECDC article on excess mortality among elderly

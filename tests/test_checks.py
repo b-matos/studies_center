@@ -172,6 +172,35 @@ def test_fase_6_ignores_code_fences_and_cross_references(study_dir: Path) -> Non
     assert ok, problems
 
 
+def test_fase_6_grau_language_tolerates_an_adverb(study_dir: Path) -> None:
+    write_csv(
+        study_dir / "afirmacoes.csv",
+        Afirmacao,
+        [
+            Afirmacao(
+                id="c001",
+                tipo="ligacao",
+                texto_pt="a pandemia contribuiu também para esta quebra em Portugal.",
+                texto_en="the pandemic also contributed to this break in Portugal.",
+                fonte_id="f1",
+                url="https://x",
+                data_acesso="2026-01-01",
+                excerto="algo",
+                natureza_fonte="primaria",
+                localizacao="intro",
+                grau="A",
+                estado_verificacao="confirmada",
+            )
+        ],
+    )
+    body = 'Texto com [a ligação]{.claim id="c001"}. ' + "Enchimento. " * 30
+    (study_dir / "relatorio.pt.qmd").write_text(body, encoding="utf-8")
+    (study_dir / "relatorio.en.qmd").write_text(body, encoding="utf-8")
+
+    ok, problems = checks.check_fase_6("teste")
+    assert ok, problems
+
+
 def test_fase_7_flags_pending_afirmacoes(study_dir: Path) -> None:
     write_csv(
         study_dir / "afirmacoes.csv",

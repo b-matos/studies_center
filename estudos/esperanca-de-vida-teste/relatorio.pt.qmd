@@ -22,9 +22,9 @@ ligeiramente abaixo da média da União Europeia a vinte e sete no início da s�
 [81,5]{.claim id="c009"} anos). O leque entre as regiões NUTS II do Continente alargou-se,
 de [0,8 anos em 1992]{.claim id="c030"} para [cerca de 2,0 anos em 2022]{.claim id="c031"}.
 A deteção automática de quebras identificou dezassete mudanças candidatas nas séries de
-Portugal e da UE — [17]{.claim id="c020"} no total —, das quais [7]{.claim id="c020"}
+Portugal e da UE — [17]{.claim id="c020"} no total —, das quais [6]{.claim id="c020"}
 foram associadas a um evento concreto e datado (quase todas relacionadas com a pandemia de
-[COVID-19]{.claim id="c021"}) e [10]{.claim id="c020"} ficaram registadas sem evento identificado — um resultado
+[COVID-19]{.claim id="c021"}) e [11]{.claim id="c020"} ficaram registadas sem evento identificado — um resultado
 do processo de verificação, não uma falha da análise.
 
 ## Pergunta 1 — Evolução da esperança de vida total em Portugal
@@ -137,8 +137,8 @@ disponível nesta fonte.*
 
 A deteção automática de quebras (ver `quebras.csv`) identificou [17]{.claim id="c020"}
 mudanças candidatas nas séries de Portugal e da UE — mudanças de nível, de declive e
-picos na variação ano a ano. Dessas [17]{.claim id="c020"}, apenas [7]{.claim id="c020"}
-foram ligadas a um evento concreto e datado com fonte credível; as outras [10]{.claim
+picos na variação ano a ano. Dessas [17]{.claim id="c020"}, apenas [6]{.claim id="c020"}
+foram ligadas a um evento concreto e datado com fonte credível; as outras [11]{.claim
 id="c020"} ficaram registadas sem evento identificado. Isto é tratado como um resultado da
 análise e não como uma falha: em vários casos, nomeadamente picos isolados nas décadas mais
 antigas da série e mudanças de nível em anos mais recentes, não existe uma fonte que
@@ -149,15 +149,24 @@ documentado em `ligacoes_eventos.csv`.
 
 A quebra mais clara e mais bem documentada é a do início da década de dois mil e vinte. Em
 Portugal, a esperança de vida total desceu de [82,0 anos em 2019]{.claim id="c016"} para
-[81,4 anos em 2020]{.claim id="c017"}; na UE, desceu de [81,1 anos em 2019]{.claim
-id="c018"} para [80,3 anos em 2020]{.claim id="c019"} no mesmo período. A pandemia de
-[COVID-19]{.claim id="c021"}, [declarada pela Organização Mundial da Saúde a 11 de março de 2020]{.claim
-id="c021"}, **contribuiu para** esta quebra em Portugal ([grau A]{.claim id="c022"}) e
-**contribuiu para** a quebra equivalente na UE ([grau A]{.claim id="c023"}), segundo
-fontes do INE e do Eurostat que atribuem diretamente a queda às mortes associadas à doença.
-A recuperação subsequente da esperança de vida na UE nos dois anos seguintes também é
-atribuída pelo Eurostat ao abrandamento do impacto agudo da pandemia (**contribuiu para** a
-recuperação, [grau A]{.claim id="c024"} e [grau A]{.claim id="c025"}).
+[81,4 anos em 2020]{.claim id="c017"} — [uma quebra de cerca de 0,6 anos]{.claim
+id="c022"}; na série usada neste estudo para a UE, desceu de [81,1 anos em 2019]{.claim
+id="c018"} para [80,3 anos em 2020]{.claim id="c019"} — [uma quebra de cerca de 0,8
+anos]{.claim id="c023"}. A pandemia de [COVID-19]{.claim id="c021"}, [declarada pela
+Organização Mundial da Saúde a 11 de março de 2020]{.claim id="c021"}, **contribuiu para**
+esta quebra em Portugal ([grau A]{.claim id="c022"}): este é o mesmo ano em que o Eurostat,
+no seu artigo *Statistics Explained* sobre mortalidade e esperança de vida, documenta
+diretamente que a pandemia **contribuiu para** uma quebra de [cerca de 0,9 anos (para 80,4
+anos)]{.claim id="c023"} na esperança de vida da UE como um todo ([grau A]{.claim
+id="c023"}). [Esta magnitude de 0,9 anos]{.claim id="c023"}, publicada pelo Eurostat numa
+versão dos dados que pode já incluir revisões posteriores, não é idêntica [aos 0,8 anos]{.claim
+id="c023"} calculados diretamente a partir da série `demo_mlexpec` extraída para este
+estudo — a diferença reflete vintages de
+dados distintos entre a publicação do Eurostat e o extrato usado aqui, e não dois
+fenómenos diferentes. A recuperação subsequente da esperança de vida na UE nos dois anos
+seguintes também é atribuída pelo Eurostat ao abrandamento do impacto agudo da pandemia
+(**contribuiu para** a recuperação, [grau A]{.claim id="c024"} e [grau A]{.claim
+id="c025"}).
 
 Um segundo candidato, de evidência mais fraca, é a [época gripal grave do inverno de
 2014/2015 na Europa]{.claim id="c026"}, documentada num artigo do ECDC sobre excesso de

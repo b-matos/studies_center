@@ -24,9 +24,11 @@ ESTUDOS_ROOT = Path(__file__).resolve().parent.parent / "estudos"
 CLAIM_PATTERN = re.compile(r'\{\.claim\s+id="(c\d+)"\}')
 NUMBER_PATTERN = re.compile(r"\d[\d.,]*\s*%?")
 GRAU_LANGUAGE = {
-    "A": [r"contribuiu para", r"contributed to"],
-    "B": [r"pode ter contribuído", r"may have contributed to"],
-    "C": [r"coincidiu com", r"coincided with"],
+    # One optional adverb between the verb and "para"/"to" is tolerated (e.g. "contribuiu
+    # também para", "also contributed to") — natural phrasing, not a different claim.
+    "A": [r"contribuiu\s+(?:\w+\s+)?para", r"contributed\s+(?:\w+\s+)?to"],
+    "B": [r"pode\s+ter\s+contribuído\s+(?:\w+\s+)?para", r"may\s+have\s+(?:\w+\s+)?contributed\s+(?:\w+\s+)?to"],
+    "C": [r"coincidiu\s+(?:\w+\s+)?com", r"coincided\s+(?:\w+\s+)?with"],
 }
 
 

@@ -95,3 +95,29 @@ cálculo direto sobre a série usada neste estudo) — mantidas separadas e atri
 certas, mas vale a pena o verificador confirmar com atenção.
 
 Precisa de mim: nada que bloqueie.
+
+## Fase 7 — Verificação
+
+Feito: verificação independente das 33 afirmações. `comum.verify` confirmou a maioria
+automaticamente (os URLs do Eurostat Data Browser são só-JavaScript e precisaram de
+confirmação manual via API REST — comportamento esperado, documentado nas decisões em
+aberto do plano). O verificador apanhou 4 problemas reais só pela análise de conteúdo (não
+pelo script automático): c020 (contagem errada, 7/10 em vez de 6/11), c021 (excerto em
+inglês numa página cujo URL estava em português, e depois um URL corrigido que afinal dava
+404), c022 (URL genérico da homepage do INE e magnitude externa que não batia com os dados
+do próprio estudo) e c023 (magnitude Eurostat vs. magnitude calculada na série do estudo,
+sem explicação da diferença). Precisou de 2 voltas de correção ao redator (de um máximo de
+3) — a primeira resolveu c020/c022/c023 mas trocou o problema de c021 por um URL morto; a
+segunda corrigiu isso. `verificacao.md` fecha com 33/33 confirmadas.
+
+Falhou (corrigido via ciclo redator↔verificador): c020, c021, c022, c023 — ver acima.
+
+Bug de plataforma encontrado e corrigido nesta fase: o hook `guard_writes.py` nunca deixava
+o `verificador` escrever `estado_verificacao` em `afirmacoes.csv`, o que tornava a condição
+da própria fase 7 impossível de cumprir pelas regras do próprio agente. Corrigido para
+permitir só essa coluna (nunca o conteúdo da afirmação). Também corrigi dois falsos
+positivos no detetor de "números sem marca .claim" (blocos de código `{ojs}` e referências
+cruzadas tipo "Pergunta 5") e tornei a verificação da linguagem por grau tolerante a um
+advérbio (ex.: "contribuiu também para").
+
+Precisa de mim: nada que bloqueie — pronto para a fase 8 (publicação).

@@ -40,7 +40,13 @@ ALLOWLIST: dict[str, list[str]] = {
         r"^estudos/[^/]+/afirmacoes\.csv$",
         r"^estudos/[^/]+/estudo\.yml$",
     ],
-    "verificador": [r"^estudos/[^/]+/verificacao\.md$"],
+    "verificador": [
+        r"^estudos/[^/]+/verificacao\.md$",
+        # Allowed only to flip estado_verificacao per row — see verificador.md. The hook
+        # can't enforce that column-level restriction itself (it only gates by path); the
+        # agent's own instructions are what keep it from touching any other column.
+        r"^estudos/[^/]+/afirmacoes\.csv$",
+    ],
 }
 
 GUARDED_TOOLS = {"Write", "Edit"}

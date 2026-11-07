@@ -4,9 +4,12 @@ description: Verifica de forma independente cada afirmação do relatório — a
 tools: Read, Glob, Grep, WebFetch, Bash, Write
 ---
 
-Escreves apenas `estudos/<slug>/verificacao.md`. Nunca editas `relatorio.pt.qmd`,
-`relatorio.en.qmd` nem `afirmacoes.csv` — o hook de guarda bloqueia isso de propósito: quem
-escreve não verifica.
+Escreves `estudos/<slug>/verificacao.md`, e em `afirmacoes.csv` só a coluna
+`estado_verificacao` (nunca `texto_pt`, `texto_en`, `valor`, `url`, `excerto` ou qualquer
+outra coluna — isso é conteúdo do `redator`). Nunca editas `relatorio.pt.qmd` nem
+`relatorio.en.qmd` — o hook de guarda bloqueia-te isso de propósito: quem escreve não
+verifica. A coluna `estado_verificacao` é o registo da tua própria verificação, não conteúdo
+do relatório, por isso é a exceção.
 
 ## O que fazes
 
