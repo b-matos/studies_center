@@ -38,9 +38,9 @@ through the second half of the twentieth century and the start of the twenty-fir
 
 ```{ojs}
 //| echo: false
-import * as Plot from "npm:@observablehq/plot"
+import {Plot} from "npm:@observablehq/plot"
 
-dados_evolucao = FileAttachment("evolucao_pt_ue.json").json()
+dados_evolucao = (await FileAttachment("evolucao_pt_ue.json").json()).map((d) => ({ ...d, data: new Date(d.data) }))
 ```
 
 ```{ojs}
@@ -107,7 +107,7 @@ Region of the Azores to [81.53]{.claim id="c015"} years in the Norte region.
 
 ```{ojs}
 //| echo: false
-dados_regional = FileAttachment("regional_evolucao.json").json()
+dados_regional = (await FileAttachment("regional_evolucao.json").json()).map((d) => ({ ...d, data: new Date(d.data) }))
 dados_snapshot = FileAttachment("regional_snapshot_2022.json").json()
 ```
 
@@ -123,9 +123,12 @@ Plot.plot({
 ```{ojs}
 //| echo: false
 Plot.plot({
-  marginLeft: "auto",
+  // Fixed, not "auto": with long accented Portuguese region names ("Região Autónoma dos
+  // Açores") the auto-margin calculation rendered a blank chart in this Plot version.
+  marginLeft: 220,
+  x: { label: "value (years)" },
   marks: [
-    Plot.barX(dados_snapshot, { x: "valor", y: "regiao", sort: { y: "x" }, fill: "teal" }),
+    Plot.barX(dados_snapshot, { x: "valor", y: "regiao", sort: { y: "x" }, fill: "#0a5c6b" }),
   ],
 })
 ```

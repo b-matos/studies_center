@@ -121,3 +121,28 @@ cruzadas tipo "Pergunta 5") e tornei a verificação da linguagem por grau toler
 advérbio (ex.: "contribuiu também para").
 
 Precisa de mim: nada que bloqueie — pronto para a fase 8 (publicação).
+
+## Fase 8 — Publicação
+
+Feito: `site/build.py` compilou o site nas duas línguas sem erros; a página do estudo
+aparece em `/pt/estudos/esperanca-de-vida-teste/` e `/en/estudos/esperanca-de-vida-teste/`
+(fora do índice público, por ter `estado: teste`). Verificação visual no browser: resumo,
+5 perguntas, 4 gráficos interativos (evolução PT/UE, por sexo, regional NUTS II em série e
+em retrato, todos com afirmações marcadas e sublinhadas), metodologia e fontes.
+
+Falhou (corrigido): a verificação visual encontrou 3 bugs reais de plataforma que nenhum
+`comum.checks` apanhava (não validam JavaScript renderizado):
+1. `import * as Plot from "npm:@observablehq/plot"` é rejeitado pelo motor OJS do Quarto
+   ("Unexpected token") — tem de ser `import {Plot} from ...` (import nomeado).
+2. Passar a coluna `data` (string "AAAA-01-01") diretamente como campo do eixo X faz o
+   Plot tratá-la como escala categórica, com um tick ilegível por cada linha da série —
+   corrigido em `site/assets/charts.js` (acessor que converte para `Date`) e nos scripts
+   OJS deste relatório.
+3. `marginLeft: "auto"` produziu um gráfico de barras em branco com os nomes de região
+   longos e acentuados ("Região Autónoma dos Açores") — trocado por um valor fixo (220).
+
+Documentei as 3 regras no agente `redator` para não se repetirem nos próximos estudos.
+
+Precisa de mim: nada que bloqueie — o estudo de teste está completo e verificado de ponta
+a ponta (CLI + site + servidor). Pronto para usares como referência ao correr
+`/estudo saude-portugal`.

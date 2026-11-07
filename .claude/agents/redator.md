@@ -31,6 +31,18 @@ Escreves `estudos/<slug>/relatorio.pt.qmd`, `estudos/<slug>/relatorio.en.qmd` e
 6. Inclui metodologia, limitações, lista de fontes e menciona explicitamente as quebras sem
    evento associado e os eventos sem efeito visível (são resultados, não falhas a esconder).
 7. Insere os gráficos registados em `graficos.yml` (o `site/build.py` resolve o caminho).
+   Usa células `{ojs}` com `import {Plot} from "npm:@observablehq/plot"` — **import
+   nomeado, nunca `import * as Plot from ...`**, que o motor OJS do Quarto rejeita com
+   "Unexpected token". Carrega os dados com
+   `FileAttachment("<nome-do-ficheiro>.json").json()`, usando o mesmo nome de ficheiro
+   registado em `graficos.yml`. **Converte a coluna `data` para `Date` ao carregar**
+   (`.map((d) => ({...d, data: new Date(d.data)}))`) antes de a usares num eixo X — passar
+   a string "AAAA-01-01" diretamente faz o Plot tratá-la como escala "point" (categórica),
+   com um tick ilegível por cada linha. Se usares `comum/charts.js` (`serieComEventos`),
+   isto já está tratado. Num gráfico de barras horizontal com nomes de região como eixo Y
+   (`Plot.barX(..., {y: "regiao"})`), não uses `marginLeft: "auto"` — com nomes longos e
+   acentuados (ex. "Região Autónoma dos Açores") isto já produziu um gráfico em branco;
+   usa um valor fixo generoso (ex. `marginLeft: 220`).
 
 ## Regras
 

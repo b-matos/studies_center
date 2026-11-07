@@ -28,21 +28,27 @@ export function serieComEventos(Plot, data, eventos = [], opts = {}) {
     colorField = null,
   } = opts;
 
+  // Accessor functions (not field-name strings) so Plot treats the x axis as a real time
+  // scale — passing "data" as a bare string left dates as point-scale strings, producing
+  // unreadable one-tick-per-row axes (every raw "YYYY-01-01" value got its own tick).
+  const xDate = (d) => new Date(d.data);
+  const xEventDate = (d) => new Date(d.data_inicio);
+
   const marks = [
     Plot.ruleY([0]),
     Plot.lineY(data, {
-      x: "data",
+      x: xDate,
       y: "valor",
       stroke: colorField || "#0a5c6b",
       strokeWidth: 2,
     }),
-    Plot.dot(data, { x: "data", y: "valor", fill: colorField || "#0a5c6b", r: 2 }),
+    Plot.dot(data, { x: xDate, y: "valor", fill: colorField || "#0a5c6b", r: 2 }),
   ];
 
   if (eventos.length) {
     marks.push(
       Plot.ruleX(eventos, {
-        x: "data_inicio",
+        x: xEventDate,
         stroke: (d) => AMBITO_COLOR[d.ambito] || "#999",
         strokeOpacity: 0.55,
         strokeDasharray: (d) => (d.grau === "C" ? "2,2" : null),
@@ -52,7 +58,7 @@ export function serieComEventos(Plot, data, eventos = [], opts = {}) {
       Plot.tip(
         eventos,
         Plot.pointerX({
-          x: "data_inicio",
+          x: xEventDate,
           title: (d) =>
             `${d.titulo_pt || d.titulo_en}\n` +
             `âmbito: ${d.ambito}${d.grau ? " · grau " + d.grau + " (" + GRAU_LABEL[d.grau] + ")" : ""}\n` +
