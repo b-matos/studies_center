@@ -16,9 +16,13 @@
   document.addEventListener("DOMContentLoaded", function () {
     const target = equivalentPath(window.location.pathname);
     if (!target) return;
+    // Quarto rewrites the navbar's "/en/"/"/pt/" href at build and/or load time into
+    // something resolved against the CURRENT profile's own output tree (e.g. ending up
+    // as ".../pt/en/" while already inside /pt/), so matching on the href is unreliable.
+    // The language toggle is identified by its fixed label text instead.
     document.querySelectorAll(".navbar-nav a.nav-link").forEach((a) => {
-      const href = a.getAttribute("href") || "";
-      if (href === "/en/" || href === "/pt/") {
+      const label = (a.querySelector(".menu-text") || a).textContent.trim();
+      if (label === "EN" || label === "PT") {
         a.setAttribute("href", target);
       }
     });

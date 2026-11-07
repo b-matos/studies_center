@@ -93,6 +93,32 @@ def test_copy_study_pages_injects_output_file_front_matter(build_mod) -> None:
     assert "# Relatório" in pt_copy
 
 
+def test_copy_shared_assets_excludes_scss_and_survives_rerender(build_mod) -> None:
+    mod, site_dir, _ = build_mod
+    assets_src = site_dir / "assets"
+    assets_src.mkdir()
+    (assets_src / "lang-switch.js").write_text("// js", encoding="utf-8")
+    (assets_src / "styles.scss").write_text("/* scss */", encoding="utf-8")
+    (site_dir / "_site").mkdir()
+
+    mod.copy_shared_assets()
+    dest = site_dir / "_site" / "assets"
+    assert (dest / "lang-switch.js").exists()
+    assert not (dest / "styles.scss").exists()
+
+    # a second call (as happens on every rebuild) must not fail on an existing dest
+    mod.copy_shared_assets()
+    assert (dest / "lang-switch.js").exists()
+
+
+def test_write_root_redirect(build_mod) -> None:
+    mod, site_dir, _ = build_mod
+    (site_dir / "_site").mkdir()
+    mod.write_root_redirect()
+    text = (site_dir / "_site" / "index.html").read_text(encoding="utf-8")
+    assert "/pt/" in text
+
+
 def test_export_eventos_json(build_mod) -> None:
     mod, site_dir, _ = build_mod
     mod.export_eventos_json()

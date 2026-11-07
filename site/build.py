@@ -142,6 +142,32 @@ def export_eventos_json() -> None:
     out.write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
 
 
+def copy_shared_assets() -> None:
+    """Copy site/assets/ to _site/assets/, shared across languages.
+
+    Pages reference shared scripts (e.g. lang-switch.js) via a root-absolute path like
+    "/assets/lang-switch.js" so the same reference works whether the browser is on a /pt/
+    or /en/ page. Quarto itself only ever writes into each profile's own output-dir
+    (_site/pt or _site/en), so this top-level copy survives repeated `quarto render` runs.
+    """
+    src = SITE_DIR / "assets"
+    dest = SITE_DIR / "_site" / "assets"
+    if dest.exists():
+        shutil.rmtree(dest)
+    shutil.copytree(src, dest, ignore=shutil.ignore_patterns("*.scss"))
+
+
+def write_root_redirect() -> None:
+    """Write _site/index.html so visiting the server's bare root lands on /pt/."""
+    out = SITE_DIR / "_site" / "index.html"
+    out.write_text(
+        '<!doctype html><html><head><meta charset="utf-8">'
+        '<meta http-equiv="refresh" content="0; url=/pt/"></head>'
+        '<body><a href="/pt/">Estudos sobre Portugal</a></body></html>',
+        encoding="utf-8",
+    )
+
+
 def render(profile: str) -> None:
     result = subprocess.run(
         ["quarto", "render", "--profile", profile],
@@ -170,6 +196,8 @@ def main() -> None:
 
     render("pt")
     render("en")
+    copy_shared_assets()
+    write_root_redirect()
 
 
 if __name__ == "__main__":
