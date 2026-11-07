@@ -8,7 +8,12 @@ _CLIENT = sdmx.Client("ESTAT")
 
 
 def fetch_dataset(dataset_code: str, key: dict[str, str] | None = None, params: dict[str, str] | None = None) -> pd.DataFrame:
-    """Fetch an Eurostat dataset (e.g. 'hlth_cd_asdr2') and return it as a long DataFrame."""
-    message = _CLIENT.data(dataset_code, key=key or {}, params=params or {})
+    """Fetch an Eurostat dataset (e.g. 'DEMO_MLEXPEC') and return it as a long DataFrame.
+
+    Eurostat's own catalogue lists codes in lowercase, but the sdmx1 client only resolves
+    them in uppercase (a lowercase code raises a confusing KeyError) — normalized here so
+    callers don't need to know that.
+    """
+    message = _CLIENT.data(dataset_code.upper(), key=key or {}, params=params or {})
     data = sdmx.to_pandas(message)
     return data.reset_index(name="valor")
