@@ -45,3 +45,17 @@ plano ficam cobertas pelo Eurostat), mas limita a pergunta 4 (regional) a um ún
 
 Precisa de mim: nada que bloqueie — é uma limitação de dados a mencionar no relatório, não
 uma decisão a tomar agora.
+
+## Fase 4 — Análise
+
+Feito: 2 scripts (`evolucao_pt_ue.py`, `regional.py`), 3 gráficos registados. Resultados:
+esperança de vida total em Portugal subiu de 64,0 (1960) para 82,5 anos (2024); diferença
+mulheres-homens estável em ~5,5 anos; Portugal passou de 0,20 anos abaixo da média da UE-27
+em 2002 para 1,00 ano acima em 2024; leque regional (NUTS II) alargou de 0,8 para 2,0 anos
+entre 1992 e 2022. Deteção de quebras (`comum.breaks`) encontrou um pico negativo claro em
+2020 em Portugal e na UE, candidato óbvio a ligar à pandemia na fase seguinte — 17 quebras
+no total registadas em `quebras.csv` para o historiador avaliar.
+
+Falhou: nada.
+
+Precisa de mim: nada por agora.

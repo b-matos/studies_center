@@ -1,0 +1,2182 @@
+[
+{
+"data": "1960-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 64.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1961-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 62.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1962-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 64.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1963-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 64.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1964-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 64.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1965-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 65.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1966-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 65.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1967-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 66.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1968-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 66.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1969-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 66.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1970-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 66.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1971-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 66.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1972-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 68.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1973-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 67.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1974-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 68.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1975-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 68.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1976-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 69.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1977-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 70.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1978-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 70.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1979-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 71.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1980-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 71.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1981-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 71.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1982-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 72.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1983-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 72.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1984-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 72.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1985-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 73.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1986-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 73.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1987-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 73.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1988-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 73.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1989-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 74.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1990-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 74.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1991-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 74.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1992-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 74.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1993-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 74.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1994-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 75.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1995-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 75.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1996-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 75.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1997-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 75.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1998-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 76.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1999-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 76.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2000-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 76.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2001-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 77.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2002-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 77.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2003-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 77.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 81.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 81.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 81.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 81.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 81.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 82.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 81.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 81.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 81.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 82.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 82.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1960-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 66.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1960-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 61.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1961-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 65.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1961-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 59.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1962-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 61.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1962-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 67.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1963-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 67.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1963-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 61.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1964-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 62.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1964-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 67.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1965-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 62.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1965-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 68.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1966-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 62.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1966-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 68.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1967-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 62.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1967-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 69.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1968-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 69.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1968-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 63.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1969-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 62.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1969-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 69.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1970-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 63.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1970-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 69.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1971-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 63.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1971-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 69.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1972-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 71.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1972-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 65.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1973-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 70.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1973-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 64.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1974-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 64.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1974-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 71.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1975-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 64.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1975-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 72.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1976-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 65.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1976-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 72.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1977-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 73.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1977-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 66.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1978-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 67.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1978-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 73.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1979-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 67.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1979-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 74.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1980-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 67.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1980-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 74.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1981-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 68.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1981-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 75.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1982-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 69.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1982-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 76.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1983-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 69.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1983-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 75.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1984-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 69.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1984-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 76.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1985-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 76.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1985-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 69.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1986-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 69.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1986-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 76.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1987-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 70.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1987-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 77.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1988-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 77.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1988-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 70.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1989-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 70.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1989-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 77.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1990-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 70.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1990-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 77.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1991-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 70.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1991-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 77.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1992-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 71.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1992-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1993-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 71.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1993-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1994-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 72.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1994-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1995-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1995-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 71.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1996-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1996-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 71.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1997-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1997-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 72.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1998-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 72.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1998-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1999-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "1999-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 72.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2000-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 73.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2000-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2001-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2001-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 73.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2002-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 73.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2002-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2003-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2003-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 74.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 75.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 81.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 74.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 81.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 75.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 82.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 82.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 75.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 76.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 82.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 76.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 82.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 76.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 83.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 83.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 77.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 77.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 83.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 77.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 84.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 84.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 84.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 84.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 84.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 84.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 84.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 84.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 84.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 84.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 85.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 85.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2002-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 77.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2003-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 77.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2004-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2005-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.4,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2006-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 78.9,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2007-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2008-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2009-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2010-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 79.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2011-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2012-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2013-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2014-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2015-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.5,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2016-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2017-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.7,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2018-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.8,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2019-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 81.1,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2020-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.3,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2021-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.0,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2022-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 80.6,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2023-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 81.2,
+"unidade": "anos",
+"fonte_id": "f02"
+},
+{
+"data": "2024-01-01",
+"regiao": "União Europeia (27 países, 2020)",
+"sexo": "T",
+"idade": "",
+"indicador": "esperanca_vida_nascenca",
+"valor": 81.5,
+"unidade": "anos",
+"fonte_id": "f02"
+}
+]
