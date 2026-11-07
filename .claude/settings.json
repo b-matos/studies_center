@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "WebSearch",
+      "WebFetch",
+      "Agent",
+      "Skill",
+      "Bash(uv run *)",
+      "Bash(uv sync*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(quarto render*)",
+      "Bash(quarto preview*)"
+    ],
+    "deny": [
+      "Bash(rm *)",
+      "Bash(git push*)",
+      "Bash(git reset*)",
+      "Bash(curl *)",
+      "Bash(sudo *)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run python .claude/hooks/guard_writes.py"
+          }
+        ]
+      }
+    ]
+  }
+}

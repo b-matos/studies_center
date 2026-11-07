@@ -1,0 +1,52 @@
+[project]
+name = "studies-center"
+version = "0.1.0"
+description = "Local platform for producing and publishing data-driven studies about Portugal"
+authors = [
+    { name = "b-matos" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2",
+    "pyarrow>=18.0",
+    "numpy>=2.0",
+    "scipy>=1.14",
+    "statsmodels>=0.14",
+    "ruptures>=1.1",
+    "httpx>=0.27",
+    "sdmx1>=2.20",
+    "openpyxl>=3.1",
+    "pyyaml>=6.0",
+    "pydantic>=2.9",
+    "python-slugify>=8.0",
+    "pypdf>=5.0",
+    "beautifulsoup4>=4.12",
+    "rapidfuzz>=3.10",
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.32",
+    "sse-starlette>=2.1",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=8.3",
+    "pytest-asyncio>=0.24",
+    "ruff>=0.7",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.ruff.lint]
+ignore = [
+    "UP047",  # TypeVar-based generics are intentional here (broad Python version support)
+    "BLE001", # deliberate broad except at trust boundaries: network fetches, subprocess runs
+    "PLW1510", # subprocess.run's `check` is handled explicitly via returncode below
+]
+

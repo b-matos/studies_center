@@ -1,0 +1,23 @@
+project:
+  output-dir: _site/en
+  render:
+    - "index.en.qmd"
+    - "eventos.en.qmd"
+    - "novo.en.qmd"
+    - "estudos/*/index.en.qmd"
+
+lang: en
+
+website:
+  title: "Studies on Portugal"
+  navbar:
+    left:
+      - href: index.en.qmd
+        text: Studies
+      - href: eventos.en.qmd
+        text: Events
+      - href: novo.en.qmd
+        text: New study
+    right:
+      - text: "PT"
+        href: "/pt/"

@@ -1,0 +1,14 @@
+project:
+  type: website
+  output-dir: _site
+
+format:
+  html:
+    theme: [cosmo, assets/styles.scss]
+    toc: true
+    code-fold: true
+    include-in-header:
+      text: '<script src="/assets/lang-switch.js"></script>'
+
+execute:
+  freeze: auto

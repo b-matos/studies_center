@@ -1,0 +1,50 @@
+---
+title: "Eventos"
+output-file: eventos.html
+---
+
+Catálogo completo de eventos sociais e políticos usados para explicar mudanças de tendência
+nos estudos. Cada evento tem uma fonte primária (ou está marcado como fonte secundária,
+enquanto não for confirmado). Filtra por tipo, âmbito, tema ou período.
+
+```{ojs}
+eventos = FileAttachment("eventos.json").json()
+```
+
+```{ojs}
+//| echo: false
+viewof filtroTipo = Inputs.select(
+  ["Todos", ...new Set(eventos.map((d) => d.tipo))],
+  { label: "Tipo" }
+)
+viewof filtroAmbito = Inputs.select(
+  ["Todos", "PT", "UE", "Mundo"],
+  { label: "Âmbito" }
+)
+viewof filtroTema = Inputs.select(
+  ["Todos", ...new Set(eventos.flatMap((d) => (d.temas || "").split(";").map((t) => t.trim()).filter(Boolean)))],
+  { label: "Tema" }
+)
+```
+
+```{ojs}
+//| echo: false
+eventosFiltrados = eventos.filter((d) => {
+  if (filtroTipo !== "Todos" && d.tipo !== filtroTipo) return false;
+  if (filtroAmbito !== "Todos" && d.ambito !== filtroAmbito) return false;
+  if (filtroTema !== "Todos" && !(d.temas || "").split(";").map((t) => t.trim()).includes(filtroTema)) return false;
+  return true;
+})
+
+Inputs.table(eventosFiltrados, {
+  columns: ["data_inicio", "ambito", "tipo", "titulo_pt", "fonte_primaria_url", "verificado"],
+  header: {
+    data_inicio: "Data",
+    ambito: "Âmbito",
+    tipo: "Tipo",
+    titulo_pt: "Título",
+    fonte_primaria_url: "Fonte primária",
+    verificado: "Verificado",
+  },
+})
+```

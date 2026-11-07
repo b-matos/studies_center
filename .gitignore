@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Raw source files (kept out of git on purpose; see dados/raw_manifest.csv)
+estudos/*/dados/raw/
+
+# Quarto build output
+site/_site/
+site/.quarto/
+/.quarto/
+
+# Server logs and run history
+logs/
+
+# Editor / OS
+.DS_Store
+.vscode/
