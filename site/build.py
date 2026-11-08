@@ -14,6 +14,7 @@ What it does, in order:
 """
 from __future__ import annotations
 
+import html
 import re
 import shutil
 import subprocess
@@ -46,33 +47,71 @@ def load_studies() -> list[dict]:
     return studies
 
 
+INDEX_COPY = {
+    "pt": {
+        "pagetitle": "Estudos sobre Portugal",
+        "eyebrow": "Dados abertos · fontes verificadas",
+        "headline": "Estudos sobre Portugal, com dados e fontes à vista",
+        "lede": (
+            "Cada estudo cruza séries oficiais com os eventos políticos e sociais que "
+            "coincidem com as mudanças de tendência — e diz, em cada caso, quão forte é "
+            "a evidência."
+        ),
+        "empty": "Ainda não há estudos publicados.",
+        "read": "Ler estudo",
+    },
+    "en": {
+        "pagetitle": "Studies on Portugal",
+        "eyebrow": "Open data · verified sources",
+        "headline": "Studies on Portugal, with the data and sources in plain sight",
+        "lede": (
+            "Each study sets official series against the political and social events that "
+            "coincide with trend changes — and states, case by case, how strong the "
+            "evidence is."
+        ),
+        "empty": "No studies published yet.",
+        "read": "Read the study",
+    },
+}
+
+
 def write_index(studies: list[dict], lang: str) -> None:
+    copy = INDEX_COPY[lang]
     visible = [s for s in studies if s.get("estado") != "teste"]
-    title_key = f"titulo_{lang}"
-    resumo_key = f"resumo_{lang}"
     lines = [
         "---",
-        "title: " + ("Estudos" if lang == "pt" else "Studies"),
+        f'pagetitle: "{copy["pagetitle"]}"',
         "output-file: index.html",
+        "toc: false",
         "---",
+        "",
+        '<section class="hero">',
+        f'<p class="hero-eyebrow">{html.escape(copy["eyebrow"])}</p>',
+        f'<h1 class="hero-title">{html.escape(copy["headline"])}</h1>',
+        f'<p class="hero-lede">{html.escape(copy["lede"])}</p>',
+        "</section>",
         "",
     ]
     if not visible:
-        lines.append("_Ainda não há estudos publicados._" if lang == "pt" else "_No studies published yet._")
-    for s in visible:
-        slug = s["slug"]
-        titulo = s.get(title_key, slug)
-        resumo = s.get(resumo_key, "")
-        data = s.get("data", "")
-        estado = s.get("estado", "")
-        lines.append(f"## [{titulo}](estudos/{slug}/index.{lang}.qmd)")
-        lines.append("")
-        if data:
-            lines.append(f"*{data} · {estado}*")
-            lines.append("")
-        lines.append(resumo)
-        lines.append("")
-    (SITE_DIR / f"index.{lang}.qmd").write_text("\n".join(lines), encoding="utf-8")
+        lines.append(f'<p class="empty-state">{html.escape(copy["empty"])}</p>')
+    else:
+        lines.append('<div class="study-grid">')
+        for s in visible:
+            slug = s["slug"]
+            titulo = html.escape(str(s.get(f"titulo_{lang}", slug)))
+            resumo = html.escape(str(s.get(f"resumo_{lang}", "")))
+            data = html.escape(str(s.get("data", "")))
+            estado = html.escape(str(s.get("estado", "")))
+            lines.append(
+                f'<a class="study-card" href="estudos/{slug}/index.html">'
+                f'<span class="study-card-meta"><span class="badge-estado badge-{estado}">{estado}</span>'
+                f"<span>{data}</span></span>"
+                f'<span class="study-card-title">{titulo}</span>'
+                f'<span class="study-card-summary">{resumo}</span>'
+                f'<span class="study-card-cta">{html.escape(copy["read"])} →</span></a>'
+            )
+        lines.append("</div>")
+    (SITE_DIR / f"index.{lang}.qmd").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def _ensure_output_file(qmd_text: str) -> str:
@@ -82,6 +121,61 @@ def _ensure_output_file(qmd_text: str) -> str:
             return qmd_text[:end] + "\noutput-file: index.html" + qmd_text[end:]
         return qmd_text
     return "---\noutput-file: index.html\n---\n\n" + qmd_text
+
+
+STUDY_HEADER = {
+    "pt": {"download": "Descarregar dados (CSV)", "date": "Publicado", "tests": "estudo de teste"},
+    "en": {"download": "Download data (CSV)", "date": "Published", "tests": "test study"},
+}
+
+
+def _inject_study_header(qmd_text: str, study: dict, lang: str, has_data: bool) -> str:
+    """Insert a meta bar (status badge, date, data download) right after the front matter."""
+    copy = STUDY_HEADER[lang]
+    estado = html.escape(str(study.get("estado", "")))
+    parts = [
+        f'<span class="badge-estado badge-{estado}">{estado}</span>',
+        f'<span>{copy["date"]} {html.escape(str(study.get("data", "")))}</span>',
+    ]
+    if has_data:
+        parts.append(f'<a class="btn-download" href="dados_abertos.csv" download>{copy["download"]}</a>')
+    bar = '\n<div class="study-meta">' + "".join(parts) + "</div>\n"
+    end = qmd_text.find("\n---", 3)
+    close = end + len("\n---")
+    return qmd_text[:close] + "\n" + bar + qmd_text[close:]
+
+
+def export_linked_events(study: dict, out_dir: Path) -> None:
+    """Write eventos_ligados.json: events linked (estado == ligado) to this study's breaks,
+    each with its best evidence grade, for the chart overlay."""
+    import csv
+    import json
+
+    study_dir: Path = study["_dir"]
+    ligacoes_csv = study_dir / "ligacoes_eventos.csv"
+    out = out_dir / "eventos_ligados.json"
+    if not ligacoes_csv.exists() or not EVENTOS_CSV.exists():
+        out.write_text("[]", encoding="utf-8")
+        return
+    with EVENTOS_CSV.open(newline="", encoding="utf-8") as f:
+        eventos = {row["id"]: row for row in csv.DictReader(f)}
+    with ligacoes_csv.open(newline="", encoding="utf-8") as f:
+        ligacoes = [row for row in csv.DictReader(f) if row["estado"] == "ligado" and row["evento_id"]]
+
+    best: dict[str, dict] = {}
+    for lig in ligacoes:
+        ev = eventos.get(lig["evento_id"])
+        if ev is None:
+            continue
+        entry = best.setdefault(lig["evento_id"], {**ev, "grau": lig["grau"], "n_quebras": 0})
+        entry["n_quebras"] += 1
+        entry["grau"] = min(entry["grau"], lig["grau"])  # "A" < "B" < "C": keep the strongest
+    keep = ["id", "data_inicio", "data_fim", "ambito", "tipo", "titulo_pt", "titulo_en",
+            "fonte_primaria_url", "verificado", "grau", "n_quebras"]
+    out.write_text(
+        json.dumps([{k: (e[k] or None) for k in keep} for e in best.values()], ensure_ascii=False),
+        encoding="utf-8",
+    )
 
 
 def copy_study_pages(study: dict) -> None:
@@ -95,6 +189,8 @@ def copy_study_pages(study: dict) -> None:
         if not src.exists():
             continue
         text = _ensure_output_file(src.read_text(encoding="utf-8"))
+        has_data = (study["_dir"] / "dados" / "clean").exists()
+        text = _inject_study_header(text, study, lang, has_data)
         (out_dir / f"index.{lang}.qmd").write_text(text, encoding="utf-8")
 
     analise_out = study_dir / "analise" / "out"
@@ -103,6 +199,7 @@ def copy_study_pages(study: dict) -> None:
             shutil.copy2(chart_file, out_dir / chart_file.name)
 
     export_open_clean_data(study, out_dir)
+    export_linked_events(study, out_dir)
 
 
 def export_open_clean_data(study: dict, out_dir: Path) -> None:

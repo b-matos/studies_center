@@ -37,22 +37,33 @@ consistent with gradual improvements in sanitation, nutrition and access to heal
 through the second half of the twentieth century and the start of the twenty-first.
 
 ```{ojs}
-//| echo: false
-import {Plot} from "npm:@observablehq/plot"
-
-dados_evolucao = (await FileAttachment("evolucao_pt_ue.json").json()).map((d) => ({ ...d, data: new Date(d.data) }))
+Plotly = require("plotly.js-dist-min@2.35.2")
+```
+```{ojs}
+import {serieTemporal, ranking} from "../../assets/charts.js"
+```
+```{ojs}
+lang = "en"
+```
+```{ojs}
+dados_evolucao = FileAttachment("evolucao_pt_ue.json").json()
+```
+```{ojs}
+dados_regional = FileAttachment("regional_evolucao.json").json()
+```
+```{ojs}
+dados_snapshot = FileAttachment("regional_snapshot_2022.json").json()
+```
+```{ojs}
+eventos_ligados = FileAttachment("eventos_ligados.json").json()
 ```
 
 ```{ojs}
-//| echo: false
-Plot.plot({
-  marks: [
-    Plot.lineY(
-      dados_evolucao.filter((d) => d.sexo === "T"),
-      { x: "data", y: "valor", stroke: "regiao" }
-    ),
-  ],
-})
+viewof sexo = Inputs.radio(new Map([["Total","T"],["Women","F"],["Men","M"]]), {value: "T", label: "Sex"})
+```
+
+```{ojs}
+serieTemporal(Plotly, dados_evolucao.filter((d) => d.sexo === sexo), {groupBy: "regiao", labels: {"União Europeia (27 países, 2020)": "UE-27"}, yTitle: "Years", eventos: eventos_ligados, lang})
 ```
 
 *Chart: life expectancy at birth in Portugal (total and by sex) and in the EU.*
@@ -67,15 +78,7 @@ stayed roughly constant, with no clear trend of convergence or divergence betwee
 sexes.
 
 ```{ojs}
-//| echo: false
-Plot.plot({
-  marks: [
-    Plot.lineY(
-      dados_evolucao.filter((d) => d.regiao === "Portugal" && (d.sexo === "F" || d.sexo === "M")),
-      { x: "data", y: "valor", stroke: "sexo" }
-    ),
-  ],
-})
+serieTemporal(Plotly, dados_evolucao.filter((d) => d.regiao === "Portugal" && d.sexo !== "T"), {groupBy: "sexo", labels: {F:"Women", M:"Men"}, yTitle: "Years", eventos: eventos_ligados, lang})
 ```
 
 *Chart: life expectancy at birth in Portugal, by sex.*
@@ -105,32 +108,15 @@ picture from INE for the year [2022]{.claim id="c014"}, which also includes the 
 regions, shows an even wider gap: from [78.04]{.claim id="c014"} years in the Autonomous
 Region of the Azores to [81.53]{.claim id="c015"} years in the Norte region.
 
-```{ojs}
-//| echo: false
-dados_regional = (await FileAttachment("regional_evolucao.json").json()).map((d) => ({ ...d, data: new Date(d.data) }))
-dados_snapshot = FileAttachment("regional_snapshot_2022.json").json()
-```
 
 ```{ojs}
-//| echo: false
-Plot.plot({
-  marks: [Plot.lineY(dados_regional, { x: "data", y: "valor", stroke: "regiao" })],
-})
+serieTemporal(Plotly, dados_regional, {groupBy: "regiao", yTitle: "Years", eventos: eventos_ligados, lang})
 ```
 
 *Chart: life expectancy at birth by mainland NUTS II region, annual series.*
 
 ```{ojs}
-//| echo: false
-Plot.plot({
-  // Fixed, not "auto": with long accented Portuguese region names ("Região Autónoma dos
-  // Açores") the auto-margin calculation rendered a blank chart in this Plot version.
-  marginLeft: 220,
-  x: { label: "value (years)" },
-  marks: [
-    Plot.barX(dados_snapshot, { x: "valor", y: "regiao", sort: { y: "x" }, fill: "#0a5c6b" }),
-  ],
-})
+ranking(Plotly, dados_snapshot, {xTitle: "Years", lang})
 ```
 
 *Chart: life expectancy at birth by region, INE's cross-sectional picture for the most

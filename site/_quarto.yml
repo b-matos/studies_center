@@ -4,11 +4,24 @@ project:
 
 format:
   html:
-    theme: [cosmo, assets/styles.scss]
+    theme: [default, assets/styles.scss]
     toc: true
-    code-fold: true
+    toc-title: ""
+    toc-depth: 2
+    title-block-banner: "#f0fdfa"
+    title-block-banner-color: "#134e4a"
+    smooth-scroll: true
     include-in-header:
-      text: '<script src="/assets/lang-switch.js"></script>'
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+        <script src="/assets/lang-switch.js"></script>
+
+website:
+  page-footer:
+    center: "Dados abertos · cada afirmação tem fonte, excerto e data de acesso"
 
 execute:
+  echo: false
   freeze: auto

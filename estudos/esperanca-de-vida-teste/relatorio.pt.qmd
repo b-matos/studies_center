@@ -37,22 +37,33 @@ sustentado, consistente com melhorias graduais em saneamento, nutrição e acess
 de saúde ao longo da segunda metade do século XX e do início do século XXI.
 
 ```{ojs}
-//| echo: false
-import {Plot} from "npm:@observablehq/plot"
-
-dados_evolucao = (await FileAttachment("evolucao_pt_ue.json").json()).map((d) => ({ ...d, data: new Date(d.data) }))
+Plotly = require("plotly.js-dist-min@2.35.2")
+```
+```{ojs}
+import {serieTemporal, ranking} from "../../assets/charts.js"
+```
+```{ojs}
+lang = "pt"
+```
+```{ojs}
+dados_evolucao = FileAttachment("evolucao_pt_ue.json").json()
+```
+```{ojs}
+dados_regional = FileAttachment("regional_evolucao.json").json()
+```
+```{ojs}
+dados_snapshot = FileAttachment("regional_snapshot_2022.json").json()
+```
+```{ojs}
+eventos_ligados = FileAttachment("eventos_ligados.json").json()
 ```
 
 ```{ojs}
-//| echo: false
-Plot.plot({
-  marks: [
-    Plot.lineY(
-      dados_evolucao.filter((d) => d.sexo === "T"),
-      { x: "data", y: "valor", stroke: "regiao" }
-    ),
-  ],
-})
+viewof sexo = Inputs.radio(new Map([["Total","T"],["Mulheres","F"],["Homens","M"]]), {value: "T", label: "Sexo"})
+```
+
+```{ojs}
+serieTemporal(Plotly, dados_evolucao.filter((d) => d.sexo === sexo), {groupBy: "regiao", labels: {"União Europeia (27 países, 2020)": "UE-27"}, yTitle: "Anos", eventos: eventos_ligados, lang})
 ```
 
 *Gráfico: esperança de vida à nascença em Portugal (total e por sexo) e na UE.*
@@ -67,15 +78,7 @@ id="c029"}. Ao longo de toda a série, esta diferença manteve-se aproximadament
 sem uma tendência clara de convergência ou divergência entre os sexos.
 
 ```{ojs}
-//| echo: false
-Plot.plot({
-  marks: [
-    Plot.lineY(
-      dados_evolucao.filter((d) => d.regiao === "Portugal" && (d.sexo === "F" || d.sexo === "M")),
-      { x: "data", y: "valor", stroke: "sexo" }
-    ),
-  ],
-})
+serieTemporal(Plotly, dados_evolucao.filter((d) => d.regiao === "Portugal" && d.sexo !== "T"), {groupBy: "sexo", labels: {F:"Mulheres", M:"Homens"}, yTitle: "Anos", eventos: eventos_ligados, lang})
 ```
 
 *Gráfico: esperança de vida à nascença em Portugal, por sexo.*
@@ -105,32 +108,15 @@ id="c013"} anos no Alentejo a [82,3]{.claim id="c012"} anos no Norte — [um leq
 maior: de [78,04]{.claim id="c014"} anos na Região Autónoma dos Açores a [81,53]{.claim
 id="c015"} anos na região Norte.
 
-```{ojs}
-//| echo: false
-dados_regional = (await FileAttachment("regional_evolucao.json").json()).map((d) => ({ ...d, data: new Date(d.data) }))
-dados_snapshot = FileAttachment("regional_snapshot_2022.json").json()
-```
 
 ```{ojs}
-//| echo: false
-Plot.plot({
-  marks: [Plot.lineY(dados_regional, { x: "data", y: "valor", stroke: "regiao" })],
-})
+serieTemporal(Plotly, dados_regional, {groupBy: "regiao", yTitle: "Anos", eventos: eventos_ligados, lang})
 ```
 
 *Gráfico: esperança de vida à nascença por região NUTS II do Continente, série anual.*
 
 ```{ojs}
-//| echo: false
-Plot.plot({
-  // Fixed, not "auto": with long accented Portuguese region names ("Região Autónoma dos
-  // Açores") the auto-margin calculation rendered a blank chart in this Plot version.
-  marginLeft: 220,
-  x: { label: "valor (anos)" },
-  marks: [
-    Plot.barX(dados_snapshot, { x: "valor", y: "regiao", sort: { y: "x" }, fill: "#0a5c6b" }),
-  ],
-})
+ranking(Plotly, dados_snapshot, {xTitle: "Anos", lang})
 ```
 
 *Gráfico: esperança de vida à nascença por região, retrato do INE para o ano mais recente

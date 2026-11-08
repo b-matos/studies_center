@@ -5,8 +5,14 @@ project:
     - "eventos.pt.qmd"
     - "novo.pt.qmd"
     - "estudos/*/index.pt.qmd"
+  resources:
+    - "estudos/*/dados_abertos.csv"
 
 lang: pt
+
+format:
+  html:
+    toc-title: "Nesta página"
 
 website:
   title: "Estudos sobre Portugal"

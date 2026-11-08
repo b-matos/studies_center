@@ -5,11 +5,19 @@ project:
     - "eventos.en.qmd"
     - "novo.en.qmd"
     - "estudos/*/index.en.qmd"
+  resources:
+    - "estudos/*/dados_abertos.csv"
 
 lang: en
 
+format:
+  html:
+    toc-title: "On this page"
+
 website:
   title: "Studies on Portugal"
+  page-footer:
+    center: "Open data · every claim carries a source, an excerpt and an access date"
   navbar:
     left:
       - href: index.en.qmd

@@ -1,35 +1,137 @@
 /*-- scss:defaults --*/
-$body-bg: #fbfaf8;
-$body-color: #1f2328;
-$link-color: #0a5c6b;
-$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-$navbar-bg: #0a5c6b;
-$navbar-fg: #fbfaf8;
-$navbar-hl: #ffffff;
+$ink: #1c1917;
+$muted: #57534e;
+$line: #e7e5e4;
+$accent: #0f766e;
+$accent-deep: #134e4a;
+$accent-soft: #ccfbf1;
+$paper: #fafaf9;
+
+$body-bg: $paper;
+$body-color: $ink;
+$link-color: $accent;
+$link-hover-color: $accent-deep;
+$link-decoration: none;
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$headings-font-family: "Fraunces", "Iowan Old Style", Georgia, "Times New Roman", serif;
+$headings-font-weight: 600;
+$headings-color: $ink;
+$font-size-root: 17px;
+$line-height-base: 1.7;
+$navbar-bg: #ffffff;
+$navbar-fg: $muted;
+$navbar-hl: $accent;
+$code-color: $accent-deep;
+$border-radius: 0.6rem;
 
 /*-- scss:rules --*/
+:root { --accent: #{$accent}; --line: #{$line}; --muted: #{$muted}; }
+
+body { -webkit-font-smoothing: antialiased; }
+
+/* ---- Navbar ---------------------------------------------------------------- */
+.navbar {
+  border-bottom: 1px solid $line;
+  box-shadow: none;
+  .navbar-brand { font-family: $headings-font-family; font-weight: 600; color: $ink !important; letter-spacing: -0.01em; }
+  .nav-link { font-weight: 500; font-size: 0.92rem; border-radius: 999px; padding: 0.35rem 0.85rem !important; }
+  .nav-link:hover { background: $accent-soft; color: $accent-deep !important; }
+  .nav-link.active { color: $accent !important; background: rgba($accent, 0.1); }
+}
+/* the language toggle (last item on the right) reads as a pill */
+.navbar-nav.ms-auto .nav-item:first-child .nav-link {
+  border: 1px solid $line; font-weight: 600; letter-spacing: 0.04em;
+}
+
+/* ---- Article typography ------------------------------------------------------ */
+main.content { max-width: 100%; }
+#quarto-document-content { max-width: 46rem; }
+h1, h2, h3 { letter-spacing: -0.015em; }
+h2 { margin-top: 2.6rem; padding-bottom: 0; border-bottom: 0; font-size: 1.55rem; }
+h2::after { content: ""; display: block; width: 2.4rem; height: 3px; background: $accent; border-radius: 3px; margin-top: 0.45rem; }
+p { margin-bottom: 1.05rem; }
+
+#title-block-header.quarto-title-block.default .quarto-title h1.title,
+.quarto-title-banner .title { font-size: clamp(1.7rem, 4vw, 2.5rem); line-height: 1.15; }
+.quarto-title-banner { padding: 2.2rem 0 1.6rem; border-bottom: 1px solid $line; }
+
+blockquote {
+  margin: 1.4rem 0; padding: 0.9rem 1.15rem; border: 0; border-left: 4px solid #d97706;
+  background: #fffbeb; border-radius: 0 $border-radius $border-radius 0; color: #78350f; font-size: 0.95rem;
+  p:last-child { margin-bottom: 0; }
+}
+
+/* Claim spans: every sourced figure is quietly marked */
 .claim {
-  border-bottom: 1px dotted $link-color;
-  cursor: help;
+  background: rgba($accent, 0.07); border-bottom: 1px solid rgba($accent, 0.45);
+  border-radius: 3px; padding: 0 0.12em; transition: background 0.15s;
+  &:hover { background: rgba($accent, 0.16); }
 }
 
-.evidencia-A { color: #0a6b2a; font-weight: 600; }
-.evidencia-B { color: #8a6d00; font-weight: 600; }
-.evidencia-C { color: #6b6b6b; font-weight: 600; }
-
-.estado-teste::after {
-  content: " (teste)";
-  font-style: italic;
-  opacity: 0.6;
+/* ---- Study meta bar -------------------------------------------------------- */
+.study-meta {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem 1rem;
+  margin: 1.2rem 0 1.6rem; font-size: 0.88rem; color: $muted;
+}
+.badge-estado {
+  display: inline-block; padding: 0.15rem 0.65rem; border-radius: 999px; font-size: 0.74rem;
+  font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;
+  background: #e0f2fe; color: #075985;
+  &.badge-publicado { background: #dcfce7; color: #166534; }
+  &.badge-teste { background: #fef3c7; color: #92400e; }
+}
+.btn-download {
+  margin-left: auto; padding: 0.4rem 0.95rem; border: 1px solid $accent; border-radius: 999px;
+  font-weight: 600; font-size: 0.85rem; color: $accent;
+  &:hover { background: $accent; color: #fff; }
 }
 
-table.dados-acessiveis {
-  font-size: 0.85rem;
-  max-height: 16rem;
-  overflow-y: auto;
-  display: block;
+/* ---- Home -------------------------------------------------------------------- */
+.hero {
+  margin: 0 0 2.4rem; padding: clamp(1.6rem, 5vw, 3.2rem); border-radius: 1.2rem; border: 1px solid $line;
+  background: radial-gradient(1200px 400px at 90% -20%, rgba($accent, 0.16), transparent 60%), #fff;
 }
+.hero-eyebrow { margin: 0 0 0.6rem; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: $accent; }
+.hero-title { margin: 0 0 0.9rem; font-size: clamp(1.8rem, 4.6vw, 2.9rem); line-height: 1.12; max-width: 22ch; }
+.hero-lede { margin: 0; max-width: 56ch; color: $muted; font-size: 1.08rem; }
 
-@media (max-width: 500px) {
-  .quarto-title-banner { padding: 1rem 0.5rem; }
+.study-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); gap: 1.2rem; }
+.study-card {
+  display: flex; flex-direction: column; gap: 0.55rem; padding: 1.3rem 1.35rem; background: #fff;
+  border: 1px solid $line; border-radius: 1rem; color: $ink;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+  &:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(28, 25, 23, 0.09); border-color: rgba($accent, 0.5); color: $ink; }
+}
+.study-card-meta { display: flex; align-items: center; gap: 0.7rem; font-size: 0.8rem; color: $muted; }
+.study-card-title { font-family: $headings-font-family; font-size: 1.28rem; font-weight: 600; line-height: 1.25; }
+.study-card-summary { color: $muted; font-size: 0.95rem; }
+.study-card-cta { margin-top: auto; padding-top: 0.4rem; font-weight: 600; font-size: 0.9rem; color: $accent; }
+.empty-state { padding: 2rem; text-align: center; color: $muted; border: 1px dashed $line; border-radius: 1rem; }
+
+/* ---- Charts -------------------------------------------------------------------- */
+.chart-block {
+  margin: 1.4rem 0 0.4rem; padding: 0.9rem 0.9rem 0.5rem; background: #fff;
+  border: 1px solid $line; border-radius: 1rem;
+}
+.chart-plot { width: 100%; }
+.chart-hint { padding: 0.2rem 0 0.4rem; font-size: 0.76rem; color: #78716c; text-align: center; }
+.cell-output-display + p > em, figure figcaption { font-size: 0.86rem; color: $muted; }
+
+/* OJS inputs (filters) */
+form.oi-3a86ea { margin: 1rem 0; }
+.cell-output-ojs form label, .cell-output-ojs form select, .cell-output-ojs form input { accent-color: $accent; font-size: 0.9rem; }
+
+table.dados-acessiveis { font-size: 0.85rem; max-height: 16rem; overflow-y: auto; display: block; }
+
+.evidencia-A { color: #166534; font-weight: 600; }
+.evidencia-B { color: #92400e; font-weight: 600; }
+.evidencia-C { color: #57534e; font-weight: 600; }
+
+/* ---- Footer / misc --------------------------------------------------------------- */
+.nav-footer { border-top: 1px solid $line; color: $muted; font-size: 0.85rem; }
+#quarto-margin-sidebar .sidebar-navigation a, #TOC a { font-size: 0.84rem; }
+
+@media (max-width: 575px) {
+  .btn-download { margin-left: 0; }
+  .chart-block { padding: 0.5rem 0.4rem 0.3rem; border-radius: 0.8rem; }
 }
