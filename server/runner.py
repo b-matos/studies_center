@@ -160,7 +160,7 @@ async def run_study(run_id: str, topic: str, on_event: OnEvent) -> RunResult:
     LOGS_DIR.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
     log_path = LOGS_DIR / f"{timestamp}_{run_id}.jsonl"
-    tracker = UsageTracker(run_id=run_id)
+    tracker = UsageTracker(run_id=f"{run_id}-{timestamp}")  # unique per run: a resumed item has several
 
     process = await asyncio.create_subprocess_exec(
         *_claude_command(topic),
