@@ -101,12 +101,12 @@ export function timeSeries(Plotly, data, opts = {}) {
   const groups = [...new Set(data.map((d) => d[groupBy]))];
 
   const traces = groups.map((g, i) => {
-    const rows = data.filter((d) => d[groupBy] === g).sort((a, b) => (a.data < b.data ? -1 : 1));
+    const rows = data.filter((d) => d[groupBy] === g).sort((a, b) => (a.date < b.date ? -1 : 1));
     return {
       type: "scatter",
       mode: "lines+markers",
       name: labels[g] || g,
-      x: rows.map((r) => r.data),
+      x: rows.map((r) => r.date),
       y: rows.map((r) => r.value),
       line: { color: PALETTE[i % PALETTE.length], width: 2.5 },
       marker: { size: 5, color: PALETTE[i % PALETTE.length] },
@@ -115,7 +115,7 @@ export function timeSeries(Plotly, data, opts = {}) {
   });
 
   const values = data.map((d) => d.value).filter((v) => Number.isFinite(v));
-  const xs = data.map((d) => d.data).sort();
+  const xs = data.map((d) => d.date).sort();
   const yMin = Math.min(...values);
   const yMax = Math.max(...values);
   const pad = (yMax - yMin) * 0.08 || 1;
@@ -139,7 +139,7 @@ export function timeSeries(Plotly, data, opts = {}) {
       marker: { symbol: GRADE_SYMBOL[grade], size: 13, color: colors, line: { width: 2, color: colors } },
       text: evs.map(
         (e) =>
-          `<b>${e[`titulo_${lang}`] || e.title_pt}</b><br>` +
+          `<b>${e[`title_${lang}`] || e.title_pt}</b><br>` +
           `${t.scope}: ${SCOPE_LABEL[lang][e.scope] || e.scope} · ${GRADE_LABEL[lang][grade]}<br>` +
           `${e.start_date}${e.end_date ? " → " + e.end_date : ""}<br>` +
           `${t.source}: ${(e.primary_source_url || "").replace(/^https?:\/\//, "").slice(0, 60)}`

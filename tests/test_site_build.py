@@ -158,3 +158,15 @@ def test_export_open_clean_data_excludes_nc_licensed_sources(build_mod) -> None:
     assert out_csv.exists()
     df = pd.read_csv(out_csv)
     assert set(df["source_id"]) == {"f1"}
+
+
+def test_charts_js_only_reads_canonical_column_names() -> None:
+    """charts.js reads the long-format JSON rows; a stale column name silently empties every chart."""
+    import re
+
+    from common.normalize import CANONICAL_COLUMNS
+
+    js = (REPO_ROOT / "site" / "assets" / "charts.js").read_text(encoding="utf-8")
+    used = set(re.findall(r"\b[abdr]\.(\w+)\b", js))
+    row_fields = used & {"data", "date", "valor", "value", "regiao", "region", "unidade", "unit", "sexo", "sex"}
+    assert row_fields <= set(CANONICAL_COLUMNS), f"stale column names in charts.js: {row_fields - set(CANONICAL_COLUMNS)}"
