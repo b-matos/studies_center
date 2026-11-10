@@ -17,9 +17,9 @@ const SCOPE_LABEL = {
 const GRADE_SYMBOL = { A: "diamond", B: "diamond-open", C: "circle-open" };
 const GRADE_LABEL = {
   pt: {
-    A: "Event · grade A (source estabelece a relação)",
-    B: "Event · grade B (mecanismo plausível)",
-    C: "Event · grade C (só coincidência temporal)",
+    A: "Evento · grau A (a fonte estabelece a relação)",
+    B: "Evento · grau B (mecanismo plausível)",
+    C: "Evento · grau C (só coincidência temporal)",
   },
   en: {
     A: "Event · grade A (source establishes the link)",

@@ -167,8 +167,7 @@ def unit_start(slug: str, phase: int, unit: str) -> dict:
     p = _phase(state, phase)
     if unit not in p["units"]:
         raise StateError(f"unit '{unit}' is not planned for phase {phase}")
-    if p["units"][unit] != "done":
-        p["units"][unit] = "in_progress"
+    p["units"][unit] = "in_progress"  # also for a unit redone after a failed check
     save(slug, state)
     return state
 

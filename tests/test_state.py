@@ -214,3 +214,15 @@ def test_init_creates_the_study_folder_and_yml_once(studies_root: Path) -> None:
     assert (studies_root / "new-study" / "state.json").exists()
     state.main(["init", "new-study", "--title-pt", "Other"])  # idempotent: nothing is overwritten
     assert yaml.safe_load((studies_root / "new-study" / "study.yml").read_text(encoding="utf-8"))["title_pt"] == "Saúde"
+
+
+def test_unit_start_reopens_a_done_unit_that_is_being_redone() -> None:
+    state.init(SLUG)
+    _complete_through(1)
+    state.start_phase(SLUG, 2)
+    state.plan_units(SLUG, 2, ["mortality"])
+    s = state.load(SLUG)
+    s["phases"]["2"]["units"]["mortality"] = "done"
+    state.save(SLUG, s)
+    state.unit_start(SLUG, 2, "mortality")  # the check failed and the orchestrator relaunches it
+    assert state.load(SLUG)["phases"]["2"]["units"]["mortality"] == "in_progress"
