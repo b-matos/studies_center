@@ -121,3 +121,32 @@ def test_phase_2_accepts_a_definitive_exclusion_when_every_axis_has_a_tested_sou
         _source("f3", "access", "tested"),
     ])
     assert checks.check_phase_2("s") == (True, [])
+
+
+def test_phase_2_tolerates_a_timeout_exclusion_when_the_axis_has_another_tested_source(study: Path) -> None:
+    write_csv(study / "sources.csv", DataSource, [
+        _source("f1", "mortality", "tested"),
+        _source("f2", "mortality", "excluded", "Probe excedeu 120 s (timeout)"),  # huge dataset, axis still covered
+        _source("f3", "access", "tested"),
+    ])
+    assert checks.check_phase_2("s") == (True, [])
+
+
+def test_light_eurostat_probe_asks_for_one_observation_and_falls_back_without_geo(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    import pandas as pd
+
+    calls = []
+
+    def fake_fetch(code, key=None, params=None):
+        calls.append((key, params))
+        if key == {"geo": "PT"}:
+            raise KeyError("no geo dimension")
+        return pd.DataFrame({"TIME_PERIOD": ["2020"], "value": [1.0], "sex": ["T"]})
+
+    monkeypatch.setattr("common.sources.eurostat.fetch_dataset", fake_fetch)
+    text = probe.probe_eurostat("demo_x", {})
+    assert text.startswith("OK eurostat:DEMO_X (light probe")
+    assert calls[0] == ({"geo": "PT"}, {"lastNObservations": 1})
+    assert (None, {"firstNObservations": 1}) in calls

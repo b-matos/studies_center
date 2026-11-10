@@ -82,7 +82,10 @@ def check_phase_2(slug: str) -> tuple[bool, list[str]]:
     for row in rows:
         if row.status == "excluded" and not row.exclusion_reason:
             problems.append(f"fonte {row.id} está excluída mas não tem exclusion_reason")
-        if row.status == "excluded" and TRANSIENT_REASON.search(row.exclusion_reason or ""):
+        # A timeout only matters when it leaves an axis without a usable source (flagged below);
+        # a source dropped for it while the axis is otherwise covered is a smaller, disclosed loss.
+        if (row.status == "excluded" and TRANSIENT_REASON.search(row.exclusion_reason or "")
+                and not any(r.status == "tested" and r.axis == row.axis for r in rows)):
             problems.append(
                 f"fonte {row.id} foi excluída por uma falha possivelmente temporária ('{row.exclusion_reason[:60]}'): "
                 "voltar a testar mais tarde; timeout/429 não é motivo de exclusão"

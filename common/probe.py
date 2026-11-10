@@ -42,14 +42,33 @@ def is_transient(exc: Exception) -> bool:
 
 
 def probe_eurostat(code: str, key: dict[str, str]) -> str:
+    """Light access test: only the first and the latest observation of each series, and Portugal
+    only when the dataset has a `geo` dimension. A full download of a big dataset (weekly
+    regional mortality, for one) takes minutes and proves nothing more than this does.
+    A key given on the command line replaces the default `geo=PT` filter."""
     from common.sources.eurostat import fetch_dataset
 
-    df = fetch_dataset(code, key=key or None)
-    period = "TIME_PERIOD" if "TIME_PERIOD" in df.columns else None
-    lines = [f"OK eurostat:{code.upper()} rows={len(df)} columns={list(df.columns)}"]
+    keys = [key] if key else [{"geo": "PT"}, None]
+    latest = first = None
+    for attempt in keys:
+        try:
+            latest = fetch_dataset(code, key=attempt, params={"lastNObservations": 1})
+            first = fetch_dataset(code, key=attempt, params={"firstNObservations": 1})
+            break
+        except ValueError:
+            raise
+        except Exception:
+            if attempt is keys[-1]:
+                raise  # e.g. the dataset has no `geo` dimension: the unfiltered attempt decides
+    period = "TIME_PERIOD" if "TIME_PERIOD" in latest.columns else None
+    header = (
+        f"OK eurostat:{code.upper()} (light probe: geo=PT, first/latest observation) "
+        f"series-rows={len(latest)} columns={list(latest.columns)}"
+    )
+    lines = [header]
     if period:
-        lines.append(f"time range: {df[period].min()} .. {df[period].max()}")
-    lines += _dims(df, {period, "value"} - {None})
+        lines.append(f"time range: {first[period].min()} .. {latest[period].max()}")
+    lines += _dims(latest, {period, "value"} - {None})
     return "\n".join(lines)
 
 
