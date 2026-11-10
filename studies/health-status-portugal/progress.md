@@ -11,3 +11,6 @@ Três unidades (`ine-life-mortality`, `ine-health`, `eurostat-access`) registada
 
 ## Fase 4 (análise)
 28 gráficos (`charts.yml`) e 51 quebras (`breaks.csv`) em seis eixos; `complete-phase 4` passou. Sem quebras em fatores de risco (séries com menos de 8 pontos) nem em suicídio. Pergunta 5 (mortalidade semanal) sem análise: limitação. O valor 0 de `eac12` (PT, 2023) é real (taxa Y70-Y82 arredondada). Cautelas: tratável 2021 = 2022 (74,53) possivelmente provisório; queda circulatória em 2021 em `ilm08` pode ser alteração de codificação; série de suicídio junta duas tabelas INE. Sem dados: escolaridade, antidepressivos, comparação UE em fatores de risco, médicos/enfermeiros UE-27.
+
+## Fase 5 (eventos)
+`event_links.csv` com 53 linhas (20 `linked`, todas grau C; 32 `break_without_event`; 1 `event_without_effect`) e 5 eventos novos em `events/events.csv`, todos `verified = no` (páginas do Diário da República não carregaram; o verifier/fase 7 deve confirmá-los). Nenhum grau A ou B: nenhuma fonte encontrada afirma o efeito. Várias quebras (2021 em `ilm08`, 2014/2019 em morbilidade, médicos/enfermeiros, camas) parecem artefactos de método, não confirmado. `complete-phase 5` passou.
