@@ -8,23 +8,23 @@
     pt: {
       add: "Adicionar à fila", placeholder: "Tema do estudo, por exemplo: saúde em Portugal",
       run: "Executar", runNext: "Executar a seguir", resume: "Retomar", remove: "Remover", queued: "Na fila",
-      flagged: "A seguir", running: "A correr", done: "Concluído", failed: "Falhou", interrupted: "Interrompido", needs_you: "Precisa de ti", thisRun: "nesta execução", live: "em curso", decide: "Decisão pedida pelo estudo", answerPh: "A tua resposta (ou escolhe uma opção)", answer: "Responder e retomar",
+      flagged: "A seguir", running: "A correr", done: "Concluído", failed: "Falhou", interrupted: "Interrompido", needs_you: "Precisa de ti", decide: "Decisão pedida pelo estudo", answerPh: "A tua resposta (ou escolhe uma opção)", answer: "Responder e retomar",
       empty: "A fila está vazia. Adiciona um tema acima.", noRun: "Nada a correr neste momento.",
       plan: "Plano", h5: "5 h", week: "7 dias", resets: "renova às", limit: "Limite atingido",
       phases: ["Plano", "Fontes", "Extração", "Análise", "Eventos", "Redação", "Verificação", "Publicação"],
       tokens: "tokens", cost: "custo", phase: "Fase", study: "Estudo", total: "Total", noUsage: "Ainda sem consumo registado.",
-      estimate: "Tokens e custo totais de cada estudo (o custo é o equivalente ao preço de lista da API; não é necessariamente o que a subscrição cobra).",
+      estimate: "Tokens e custo totais de cada estudo, contabilizados só das sessões já terminadas (a sessão em curso entra quando acabar). O custo é o equivalente ao preço de lista da API; não é necessariamente o que a subscrição cobra.",
       offline: "Sem ligação ao servidor local. Inicia-o com: uv run python -m server.app", doing: "A fazer",
     },
     en: {
       add: "Add to queue", placeholder: "Study topic, for example: health in Portugal",
       run: "Run", runNext: "Run next", resume: "Resume", remove: "Remove", queued: "Queued",
-      flagged: "Up next", running: "Running", done: "Done", failed: "Failed", interrupted: "Interrupted", needs_you: "Needs you", thisRun: "this run", live: "in progress", decide: "Decision requested by the study", answerPh: "Your answer (or pick an option)", answer: "Answer and resume",
+      flagged: "Up next", running: "Running", done: "Done", failed: "Failed", interrupted: "Interrupted", needs_you: "Needs you", decide: "Decision requested by the study", answerPh: "Your answer (or pick an option)", answer: "Answer and resume",
       empty: "The queue is empty. Add a topic above.", noRun: "Nothing is running right now.",
       plan: "Plan", h5: "5 h", week: "7 days", resets: "resets at", limit: "Limit reached",
       phases: ["Plan", "Sources", "Extraction", "Analysis", "Events", "Writing", "Verification", "Publication"],
       tokens: "tokens", cost: "cost", phase: "Phase", study: "Study", total: "Total", noUsage: "No usage recorded yet.",
-      estimate: "Total tokens and cost of each study (cost is the API list-price equivalent; not necessarily what a subscription bills).",
+      estimate: "Total tokens and cost of each study, counting only sessions that have already finished (the running session is added when it ends). Cost is the API list-price equivalent; not necessarily what a subscription bills.",
       offline: "No connection to the local server. Start it with: uv run python -m server.app", doing: "Doing",
     },
   }[lang];
@@ -95,7 +95,7 @@
     const box = $("q-progress");
     box.replaceChildren();
     if (!p) { box.append(el("p", { class: "q-empty" }, T.noRun)); return; }
-    box.append(el("p", { class: "q-slug" }, p.slug, el("span", { class: "q-meta" }, ` · ${fmt(p.tokens)} ${T.tokens} ${T.thisRun}`)));
+    box.append(el("p", { class: "q-slug" }, p.slug, el("span", { class: "q-meta" }, ` · ${fmt(p.tokens)} ${T.tokens}`)));
     const rows = el("ol", { class: "q-phases" });
     for (const ph of p.phases) {
       const mark = ph.status === "completed" ? "✓" : ph.status === "in_progress" ? "●" : ph.status === "blocked" ? "✕" : "○";
@@ -120,18 +120,14 @@
     $("q-plan").textContent = parts.join(" · ");
   }
 
-  let lastStudies = [];
-  let live = null; // tokens of the run in progress: usage.csv is only written when a run ends
-
   function renderUsage(studies) {
-    lastStudies = studies;
     const box = $("q-usage");
     box.replaceChildren();
     if (!studies.length) { box.append(el("p", { class: "q-empty" }, T.noUsage)); return; }
     const table = el("table", { class: "q-table" },
       el("thead", {}, el("tr", {}, el("th", {}, T.study), el("th", {}, T.tokens), el("th", {}, T.cost))));
     const body = el("tbody");
-    for (const s of studies) body.append(el("tr", {}, el("td", {}, s.slug), el("td", {}, fmt(tokensOf(s)), live && live.slug === s.slug ? el("span", { class: "q-meta" }, ` + ${fmt(live.tokens)} ${T.live}`) : ""), el("td", {}, usd(s.cost_usd))));
+    for (const s of studies) body.append(el("tr", {}, el("td", {}, s.slug), el("td", {}, fmt(tokensOf(s))), el("td", {}, usd(s.cost_usd))));
     table.append(body);
     box.append(table, el("p", { class: "q-meta" }, T.estimate));
   }
@@ -143,10 +139,10 @@
 
   function handle(e) {
     if (e.type === "queue") { items = e.items; renderQueue(); }
-    else if (e.type === "progress") { renderProgress(e); live = { slug: e.slug, tokens: e.tokens }; renderUsage(lastStudies); }
+    else if (e.type === "progress") renderProgress(e);
     else if (e.type === "activity") { const a = $("q-activity"); if (a) a.textContent = `${T.doing}: ${e.text}`; }
     else if (e.type === "plan_usage") renderPlan(e);
-    else if (e.type === "usage") { live = null; renderUsage(e.studies); }
+    else if (e.type === "usage") renderUsage(e.studies);
     else if (e.type === "limit") $("q-error").textContent = e.text;
     else if (e.type === "error") $("q-error").textContent = e.text;
   }
