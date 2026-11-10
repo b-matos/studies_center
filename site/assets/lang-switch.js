@@ -8,8 +8,8 @@
     const other = lang === "pt" ? "en" : "pt";
     const renamed = rest
       .replace(/^index\.html?$/, "index.html")
-      .replace(/^eventos\.html$/, "eventos.html")
-      .replace(/^novo\.html$/, "novo.html");
+      .replace(/^events\.html$/, "events.html")
+      .replace(/^new\.html$/, "new.html");
     return `/${other}/${renamed}`;
   }
 

@@ -45,61 +45,61 @@ def test_unscoped_agent_type_is_allowed(guard, monkeypatch: pytest.MonkeyPatch) 
     # The main orchestrating session has no agent_type in ALLOWLIST, so it is never gated.
     code = _run(
         guard, monkeypatch, agent_type=None, tool_name="Write",
-        file_path=str(REPO_ROOT / "estudos" / "x" / "estado.json"),
+        file_path=str(REPO_ROOT / "studies" / "x" / "state.json"),
     )
     assert code == 0
 
 
 def test_non_write_edit_tool_is_allowed(guard, monkeypatch: pytest.MonkeyPatch) -> None:
     code = _run(
-        guard, monkeypatch, agent_type="redator", tool_name="Read",
-        file_path=str(REPO_ROOT / "estudos" / "x" / "dados" / "clean" / "f1.parquet"),
+        guard, monkeypatch, agent_type="writer", tool_name="Read",
+        file_path=str(REPO_ROOT / "studies" / "x" / "data" / "clean" / "f1.parquet"),
     )
     assert code == 0
 
 
 def test_redator_can_write_its_own_files(guard, monkeypatch: pytest.MonkeyPatch) -> None:
-    for rel in ["estudos/x/relatorio.pt.qmd", "estudos/x/relatorio.en.qmd", "estudos/x/afirmacoes.csv"]:
-        code = _run(guard, monkeypatch, agent_type="redator", tool_name="Write", file_path=str(REPO_ROOT / rel))
+    for rel in ["studies/x/report.pt.qmd", "studies/x/report.en.qmd", "studies/x/claims.csv"]:
+        code = _run(guard, monkeypatch, agent_type="writer", tool_name="Write", file_path=str(REPO_ROOT / rel))
         assert code == 0, rel
 
 
-def test_redator_cannot_write_quebras(guard, monkeypatch: pytest.MonkeyPatch) -> None:
+def test_redator_cannot_write_breaks(guard, monkeypatch: pytest.MonkeyPatch) -> None:
     code = _run(
-        guard, monkeypatch, agent_type="redator", tool_name="Write",
-        file_path=str(REPO_ROOT / "estudos" / "x" / "quebras.csv"),
+        guard, monkeypatch, agent_type="writer", tool_name="Write",
+        file_path=str(REPO_ROOT / "studies" / "x" / "breaks.csv"),
     )
     assert code == 2
 
 
-def test_verificador_can_update_afirmacoes_but_not_the_report(guard, monkeypatch: pytest.MonkeyPatch) -> None:
+def test_verificador_can_update_claims_but_not_the_report(guard, monkeypatch: pytest.MonkeyPatch) -> None:
     ok_code = _run(
-        guard, monkeypatch, agent_type="verificador", tool_name="Write",
-        file_path=str(REPO_ROOT / "estudos" / "x" / "afirmacoes.csv"),
+        guard, monkeypatch, agent_type="verifier", tool_name="Write",
+        file_path=str(REPO_ROOT / "studies" / "x" / "claims.csv"),
     )
     assert ok_code == 0
 
     ok_code = _run(
-        guard, monkeypatch, agent_type="verificador", tool_name="Write",
-        file_path=str(REPO_ROOT / "estudos" / "x" / "verificacao.md"),
+        guard, monkeypatch, agent_type="verifier", tool_name="Write",
+        file_path=str(REPO_ROOT / "studies" / "x" / "verification.md"),
     )
     assert ok_code == 0
 
     blocked_code = _run(
-        guard, monkeypatch, agent_type="verificador", tool_name="Edit",
-        file_path=str(REPO_ROOT / "estudos" / "x" / "relatorio.pt.qmd"),
+        guard, monkeypatch, agent_type="verifier", tool_name="Edit",
+        file_path=str(REPO_ROOT / "studies" / "x" / "report.pt.qmd"),
     )
     assert blocked_code == 2
 
 
 def test_path_outside_project_root_is_blocked(guard, monkeypatch: pytest.MonkeyPatch) -> None:
-    code = _run(guard, monkeypatch, agent_type="redator", tool_name="Write", file_path="/etc/passwd")
+    code = _run(guard, monkeypatch, agent_type="writer", tool_name="Write", file_path="/etc/passwd")
     assert code == 2
 
 
-def test_historiador_can_write_shared_eventos_catalogue(guard, monkeypatch: pytest.MonkeyPatch) -> None:
+def test_historiador_can_write_shared_events_catalogue(guard, monkeypatch: pytest.MonkeyPatch) -> None:
     code = _run(
-        guard, monkeypatch, agent_type="historiador", tool_name="Write",
-        file_path=str(REPO_ROOT / "eventos" / "eventos.csv"),
+        guard, monkeypatch, agent_type="historian", tool_name="Write",
+        file_path=str(REPO_ROOT / "events" / "events.csv"),
     )
     assert code == 0

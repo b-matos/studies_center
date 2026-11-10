@@ -1,6 +1,6 @@
 import pandas as pd
 
-from comum.normalize import to_long, write_clean
+from common.normalize import to_long, write_clean
 
 
 def test_to_long_basic_reshape() -> None:
@@ -13,23 +13,23 @@ def test_to_long_basic_reshape() -> None:
     )
     long_df = to_long(
         source,
-        indicador="obitos_totais",
-        fonte_id="f1",
-        unidade="numero",
-        data_col="ano",
-        valor_col="obitos",
-        regiao_col="regiao_nuts2",
+        indicator="obitos_totais",
+        source_id="f1",
+        unit="numero",
+        date_col="ano",
+        value_col="obitos",
+        region_col="regiao_nuts2",
     )
-    assert list(long_df.columns) == ["data", "regiao", "sexo", "idade", "indicador", "valor", "unidade", "fonte_id"]
-    assert long_df.loc[0, "valor"] == 1000
-    assert long_df.loc[0, "regiao"] == "PT11"
-    assert long_df.loc[0, "sexo"] == ""
+    assert list(long_df.columns) == ["date", "region", "sex", "age", "indicator", "value", "unit", "source_id"]
+    assert long_df.loc[0, "value"] == 1000
+    assert long_df.loc[0, "region"] == "PT11"
+    assert long_df.loc[0, "sex"] == ""
 
 
 def test_write_clean_requires_canonical_columns(tmp_path) -> None:
     import pytest
 
-    bad_df = pd.DataFrame({"data": ["2020-01-01"], "valor": [1]})
+    bad_df = pd.DataFrame({"date": ["2020-01-01"], "value": [1]})
     with pytest.raises(ValueError):
         write_clean(bad_df, tmp_path / "out.parquet")
 
@@ -37,17 +37,17 @@ def test_write_clean_requires_canonical_columns(tmp_path) -> None:
 def test_write_clean_round_trip(tmp_path) -> None:
     df = pd.DataFrame(
         {
-            "data": ["2020-01-01"],
-            "regiao": [""],
-            "sexo": [""],
-            "idade": [""],
-            "indicador": ["obitos_totais"],
-            "valor": [1000.0],
-            "unidade": ["numero"],
-            "fonte_id": ["f1"],
+            "date": ["2020-01-01"],
+            "region": [""],
+            "sex": [""],
+            "age": [""],
+            "indicator": ["obitos_totais"],
+            "value": [1000.0],
+            "unit": ["numero"],
+            "source_id": ["f1"],
         }
     )
     out_path = tmp_path / "out.parquet"
     write_clean(df, out_path)
     reloaded = pd.read_parquet(out_path)
-    assert reloaded.loc[0, "valor"] == 1000.0
+    assert reloaded.loc[0, "value"] == 1000.0

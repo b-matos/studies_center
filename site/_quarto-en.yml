@@ -2,11 +2,11 @@ project:
   output-dir: _site/en
   render:
     - "index.en.qmd"
-    - "eventos.en.qmd"
-    - "novo.en.qmd"
-    - "estudos/*/index.en.qmd"
+    - "events.en.qmd"
+    - "new.en.qmd"
+    - "studies/*/index.en.qmd"
   resources:
-    - "estudos/*/dados_abertos.csv"
+    - "studies/*/open_data.csv"
 
 lang: en
 
@@ -22,9 +22,9 @@ website:
     left:
       - href: index.en.qmd
         text: Studies
-      - href: eventos.en.qmd
+      - href: events.en.qmd
         text: Events
-      - href: novo.en.qmd
+      - href: new.en.qmd
         text: New study
     right:
       - text: "PT"

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""PreToolUse hook: restrict each estudo subagent to its own output files.
+"""PreToolUse hook: restrict each study subagent to its own output files.
 
 Reads the hook JSON (agent_type, tool_name, tool_input) from stdin. For Write/Edit calls
 made by one of our named subagents, the target path must match that agent's allowlist
@@ -20,32 +20,32 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 # Each pattern is a regex matched against the path relative to PROJECT_ROOT (posix separators).
 ALLOWLIST: dict[str, list[str]] = {
-    "planeador": [r"^estudos/[^/]+/plano\.md$"],
-    "pesquisador-dados": [r"^estudos/[^/]+/fontes\.csv$"],
-    "extrator": [
-        r"^estudos/[^/]+/dados/raw/.+$",
-        r"^estudos/[^/]+/dados/raw_manifest\.csv$",
-        r"^estudos/[^/]+/dados/clean/.+\.parquet$",
+    "planner": [r"^studies/[^/]+/plan\.md$"],
+    "data-researcher": [r"^studies/[^/]+/sources\.csv$"],
+    "extractor": [
+        r"^studies/[^/]+/data/raw/.+$",
+        r"^studies/[^/]+/data/raw_manifest\.csv$",
+        r"^studies/[^/]+/data/clean/.+\.parquet$",
     ],
-    "analista": [
-        r"^estudos/[^/]+/analise/.+$",
-        r"^estudos/[^/]+/quebras\.csv$",
+    "analyst": [
+        r"^studies/[^/]+/analysis/.+$",
+        r"^studies/[^/]+/breaks\.csv$",
     ],
-    "historiador": [
-        r"^eventos/eventos\.csv$",
-        r"^estudos/[^/]+/ligacoes_eventos\.csv$",
+    "historian": [
+        r"^events/events\.csv$",
+        r"^studies/[^/]+/event_links\.csv$",
     ],
-    "redator": [
-        r"^estudos/[^/]+/relatorio\.(pt|en)\.qmd$",
-        r"^estudos/[^/]+/afirmacoes\.csv$",
-        r"^estudos/[^/]+/estudo\.yml$",
+    "writer": [
+        r"^studies/[^/]+/report\.(pt|en)\.qmd$",
+        r"^studies/[^/]+/claims\.csv$",
+        r"^studies/[^/]+/study\.yml$",
     ],
-    "verificador": [
-        r"^estudos/[^/]+/verificacao\.md$",
-        # Allowed only to flip estado_verificacao per row — see verificador.md. The hook
+    "verifier": [
+        r"^studies/[^/]+/verification\.md$",
+        # Allowed only to flip verification_status per row — see verifier.md. The hook
         # can't enforce that column-level restriction itself (it only gates by path); the
         # agent's own instructions are what keep it from touching any other column.
-        r"^estudos/[^/]+/afirmacoes\.csv$",
+        r"^studies/[^/]+/claims\.csv$",
     ],
 }
 

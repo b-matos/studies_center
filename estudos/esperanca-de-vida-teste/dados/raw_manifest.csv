@@ -1,4 +1,0 @@
-url,ficheiro,data_download,sha256,bytes
-https://www.ine.pt/ine/json_indicador/pindica.jsp?op=2&varcd=0008459&lang=PT,f01_ine_0008459.json,2026-11-07,434ace1c9fc46c11d7b1c962d8de660c1c874df1535f25e4f43d229b596f9887,8156
-https://ec.europa.eu/eurostat/databrowser/view/demo_mlexpec/default/table?lang=en,f02_eurostat_demo_mlexpec.csv,2026-11-07,72fe736ee872a2124b6e60bb5773cc5789a300e54c82713eda5a647ff418796a,7387
-https://ec.europa.eu/eurostat/databrowser/view/demo_r_mlifexp/default/table?lang=en,f03_eurostat_demo_r_mlifexp.csv,2026-11-07,ac9d9346cca63175c7dbb5fbc61562ce3d2d6ebf6e89ebf6706644f18c1c9a22,5458

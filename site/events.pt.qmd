@@ -1,0 +1,50 @@
+---
+title: "Eventos"
+output-file: events.html
+---
+
+Catálogo completo de eventos sociais e políticos usados para explicar mudanças de tendência
+nos estudos. Cada evento tem uma fonte primária (ou está marcado como fonte secundária,
+enquanto não for confirmado). Filtra por tipo, âmbito, tema ou período.
+
+```{ojs}
+events = FileAttachment("events.json").json()
+```
+
+```{ojs}
+//| echo: false
+viewof typeFilter = Inputs.select(
+  ["Todos", ...new Set(events.map((d) => d.type))],
+  { label: "Tipo" }
+)
+viewof scopeFilter = Inputs.select(
+  ["Todos", "PT", "EU", "World"],
+  { label: "Âmbito" }
+)
+viewof topicFilter = Inputs.select(
+  ["Todos", ...new Set(events.flatMap((d) => (d.topics || "").split(";").map((t) => t.trim()).filter(Boolean)))],
+  { label: "Tema" }
+)
+```
+
+```{ojs}
+//| echo: false
+filteredEvents = events.filter((d) => {
+  if (typeFilter !== "Todos" && d.type !== typeFilter) return false;
+  if (scopeFilter !== "Todos" && d.scope !== scopeFilter) return false;
+  if (topicFilter !== "Todos" && !(d.topics || "").split(";").map((t) => t.trim()).includes(topicFilter)) return false;
+  return true;
+})
+
+Inputs.table(filteredEvents, {
+  columns: ["start_date", "scope", "type", "title_pt", "primary_source_url", "verified"],
+  header: {
+    start_date: "Data",
+    scope: "Âmbito",
+    type: "Tipo",
+    title_pt: "Título",
+    primary_source_url: "Fonte primária",
+    verified: "Verificado",
+  },
+})
+```

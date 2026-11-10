@@ -1,0 +1,82 @@
+[
+{
+"date": "2022-01-01",
+"region": "Região Autónoma dos Açores",
+"sex": "",
+"age": "",
+"indicator": "esperanca_vida_nascenca",
+"value": 78.04,
+"unit": "anos",
+"source_id": "f01"
+},
+{
+"date": "2022-01-01",
+"region": "Região Autónoma da Madeira",
+"sex": "",
+"age": "",
+"indicator": "esperanca_vida_nascenca",
+"value": 78.77,
+"unit": "anos",
+"source_id": "f01"
+},
+{
+"date": "2022-01-01",
+"region": "Algarve",
+"sex": "",
+"age": "",
+"indicator": "esperanca_vida_nascenca",
+"value": 79.99,
+"unit": "anos",
+"source_id": "f01"
+},
+{
+"date": "2022-01-01",
+"region": "Alentejo",
+"sex": "",
+"age": "",
+"indicator": "esperanca_vida_nascenca",
+"value": 80.09,
+"unit": "anos",
+"source_id": "f01"
+},
+{
+"date": "2022-01-01",
+"region": "Área Metropolitana de Lisboa",
+"sex": "",
+"age": "",
+"indicator": "esperanca_vida_nascenca",
+"value": 80.65,
+"unit": "anos",
+"source_id": "f01"
+},
+{
+"date": "2022-01-01",
+"region": "Continente",
+"sex": "",
+"age": "",
+"indicator": "esperanca_vida_nascenca",
+"value": 81.07,
+"unit": "anos",
+"source_id": "f01"
+},
+{
+"date": "2022-01-01",
+"region": "Centro",
+"sex": "",
+"age": "",
+"indicator": "esperanca_vida_nascenca",
+"value": 81.34,
+"unit": "anos",
+"source_id": "f01"
+},
+{
+"date": "2022-01-01",
+"region": "Norte",
+"sex": "",
+"age": "",
+"indicator": "esperanca_vida_nascenca",
+"value": 81.53,
+"unit": "anos",
+"source_id": "f01"
+}
+]

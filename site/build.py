@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-"""Generate the Quarto site sources from estudos/ and eventos/, then render both languages.
+"""Generate the Quarto site sources from studies/ and events/, then render both languages.
 
 Run as: uv run python site/build.py
 
 What it does, in order:
-1. Reads estudos/*/estudo.yml and (re)writes index.pt.qmd / index.en.qmd — studies with
+1. Reads studies/*/study.yml and (re)writes index.pt.qmd / index.en.qmd — studies with
    estado == "teste" are excluded from the public index, per the platform's own rule.
-2. Copies each study's relatorio.<lang>.qmd into site/estudos/<slug>/index.<lang>.qmd,
-   along with the chart JSON files it references (from analise/out/) and an open-license
-   CSV export of its clean data, so relative paths inside the copied .qmd keep working.
-3. Exports the shared eventos.csv catalogue as site/eventos.json for the Eventos page.
+2. Copies each study's report.<lang>.qmd into site/studies/<slug>/index.<lang>.qmd,
+   along with the chart JSON files it references (from analysis/out/) and an open-license
+   CSV export of its clean date, so relative paths inside the copied .qmd keep working.
+3. Exports the shared events.csv catalogue as site/events.json for the Eventos page.
 4. Runs `quarto render --profile pt` and `--profile en`.
 """
 from __future__ import annotations
@@ -26,21 +26,21 @@ import yaml
 
 SITE_DIR = Path(__file__).resolve().parent
 ROOT = SITE_DIR.parent
-ESTUDOS_DIR = ROOT / "estudos"
-EVENTOS_CSV = ROOT / "eventos" / "eventos.csv"
+STUDIES_DIR = ROOT / "studies"
+EVENTS_CSV = ROOT / "events" / "events.csv"
 
 NC_LICENSE_PATTERN = re.compile(r"\bNC\b|n[aã]o[\s-]comercial", re.IGNORECASE)
 
 
 def load_studies() -> list[dict]:
     studies = []
-    if not ESTUDOS_DIR.exists():
+    if not STUDIES_DIR.exists():
         return studies
-    for study_dir in sorted(ESTUDOS_DIR.iterdir()):
-        estudo_yml = study_dir / "estudo.yml"
-        if not estudo_yml.exists():
+    for study_dir in sorted(STUDIES_DIR.iterdir()):
+        study_yml = study_dir / "study.yml"
+        if not study_yml.exists():
             continue
-        meta = yaml.safe_load(estudo_yml.read_text(encoding="utf-8")) or {}
+        meta = yaml.safe_load(study_yml.read_text(encoding="utf-8")) or {}
         meta["slug"] = study_dir.name
         meta["_dir"] = study_dir
         studies.append(meta)
@@ -77,7 +77,7 @@ INDEX_COPY = {
 
 def write_index(studies: list[dict], lang: str) -> None:
     copy = INDEX_COPY[lang]
-    visible = [s for s in studies if s.get("estado") != "teste"]
+    visible = [s for s in studies if s.get("status") != "test"]
     lines = [
         "---",
         f'pagetitle: "{copy["pagetitle"]}"',
@@ -100,12 +100,12 @@ def write_index(studies: list[dict], lang: str) -> None:
             slug = s["slug"]
             titulo = html.escape(str(s.get(f"titulo_{lang}", slug)))
             resumo = html.escape(str(s.get(f"resumo_{lang}", "")))
-            data = html.escape(str(s.get("data", "")))
-            estado = html.escape(str(s.get("estado", "")))
+            date = html.escape(str(s.get("date", "")))
+            status = html.escape(str(s.get("status", "")))
             lines.append(
-                f'<a class="study-card" href="estudos/{slug}/index.html">'
-                f'<span class="study-card-meta"><span class="badge-estado badge-{estado}">{estado}</span>'
-                f"<span>{data}</span></span>"
+                f'<a class="study-card" href="studies/{slug}/index.html">'
+                f'<span class="study-card-meta"><span class="badge-estado badge-{status}">{status}</span>'
+                f"<span>{date}</span></span>"
                 f'<span class="study-card-title">{titulo}</span>'
                 f'<span class="study-card-summary">{resumo}</span>'
                 f'<span class="study-card-cta">{html.escape(copy["read"])} →</span></a>'
@@ -132,13 +132,13 @@ STUDY_HEADER = {
 def _inject_study_header(qmd_text: str, study: dict, lang: str, has_data: bool) -> str:
     """Insert a meta bar (status badge, date, data download) right after the front matter."""
     copy = STUDY_HEADER[lang]
-    estado = html.escape(str(study.get("estado", "")))
+    status = html.escape(str(study.get("status", "")))
     parts = [
-        f'<span class="badge-estado badge-{estado}">{estado}</span>',
-        f'<span>{copy["date"]} {html.escape(str(study.get("data", "")))}</span>',
+        f'<span class="badge-estado badge-{status}">{status}</span>',
+        f'<span>{copy["date"]} {html.escape(str(study.get("date", "")))}</span>',
     ]
     if has_data:
-        parts.append(f'<a class="btn-download" href="dados_abertos.csv" download>{copy["download"]}</a>')
+        parts.append(f'<a class="btn-download" href="open_data.csv" download>{copy["download"]}</a>')
     bar = '\n<div class="study-meta">' + "".join(parts) + "</div>\n"
     end = qmd_text.find("\n---", 3)
     close = end + len("\n---")
@@ -146,32 +146,32 @@ def _inject_study_header(qmd_text: str, study: dict, lang: str, has_data: bool) 
 
 
 def export_linked_events(study: dict, out_dir: Path) -> None:
-    """Write eventos_ligados.json: events linked (estado == ligado) to this study's breaks,
+    """Write linked_events.json: events linked (estado == ligado) to this study's breaks,
     each with its best evidence grade, for the chart overlay."""
     import csv
     import json
 
     study_dir: Path = study["_dir"]
-    ligacoes_csv = study_dir / "ligacoes_eventos.csv"
-    out = out_dir / "eventos_ligados.json"
-    if not ligacoes_csv.exists() or not EVENTOS_CSV.exists():
+    links_csv = study_dir / "event_links.csv"
+    out = out_dir / "linked_events.json"
+    if not links_csv.exists() or not EVENTS_CSV.exists():
         out.write_text("[]", encoding="utf-8")
         return
-    with EVENTOS_CSV.open(newline="", encoding="utf-8") as f:
-        eventos = {row["id"]: row for row in csv.DictReader(f)}
-    with ligacoes_csv.open(newline="", encoding="utf-8") as f:
-        ligacoes = [row for row in csv.DictReader(f) if row["estado"] == "ligado" and row["evento_id"]]
+    with EVENTS_CSV.open(newline="", encoding="utf-8") as f:
+        events = {row["id"]: row for row in csv.DictReader(f)}
+    with links_csv.open(newline="", encoding="utf-8") as f:
+        links = [row for row in csv.DictReader(f) if row["status"] == "linked" and row["event_id"]]
 
     best: dict[str, dict] = {}
-    for lig in ligacoes:
-        ev = eventos.get(lig["evento_id"])
+    for lig in links:
+        ev = events.get(lig["event_id"])
         if ev is None:
             continue
-        entry = best.setdefault(lig["evento_id"], {**ev, "grau": lig["grau"], "n_quebras": 0})
+        entry = best.setdefault(lig["event_id"], {**ev, "grade": lig["grade"], "n_quebras": 0})
         entry["n_quebras"] += 1
-        entry["grau"] = min(entry["grau"], lig["grau"])  # "A" < "B" < "C": keep the strongest
-    keep = ["id", "data_inicio", "data_fim", "ambito", "tipo", "titulo_pt", "titulo_en",
-            "fonte_primaria_url", "verificado", "grau", "n_quebras"]
+        entry["grade"] = min(entry["grade"], lig["grade"])  # "A" < "B" < "C": keep the strongest
+    keep = ["id", "start_date", "end_date", "scope", "type", "title_pt", "title_en",
+            "primary_source_url", "verified", "grade", "n_quebras"]
     out.write_text(
         json.dumps([{k: (e[k] or None) for k in keep} for e in best.values()], ensure_ascii=False),
         encoding="utf-8",
@@ -181,21 +181,21 @@ def export_linked_events(study: dict, out_dir: Path) -> None:
 def copy_study_pages(study: dict) -> None:
     slug = study["slug"]
     study_dir: Path = study["_dir"]
-    out_dir = SITE_DIR / "estudos" / slug
+    out_dir = SITE_DIR / "studies" / slug
     out_dir.mkdir(parents=True, exist_ok=True)
 
     for lang in ["pt", "en"]:
-        src = study_dir / f"relatorio.{lang}.qmd"
+        src = study_dir / f"report.{lang}.qmd"
         if not src.exists():
             continue
         text = _ensure_output_file(src.read_text(encoding="utf-8"))
-        has_data = (study["_dir"] / "dados" / "clean").exists()
+        has_data = (study["_dir"] / "data" / "clean").exists()
         text = _inject_study_header(text, study, lang, has_data)
         (out_dir / f"index.{lang}.qmd").write_text(text, encoding="utf-8")
 
-    analise_out = study_dir / "analise" / "out"
-    if analise_out.exists():
-        for chart_file in analise_out.glob("*.json"):
+    analysis_out = study_dir / "analysis" / "out"
+    if analysis_out.exists():
+        for chart_file in analysis_out.glob("*.json"):
             shutil.copy2(chart_file, out_dir / chart_file.name)
 
     export_open_clean_data(study, out_dir)
@@ -204,37 +204,37 @@ def copy_study_pages(study: dict) -> None:
 
 def export_open_clean_data(study: dict, out_dir: Path) -> None:
     study_dir: Path = study["_dir"]
-    fontes_csv = study_dir / "fontes.csv"
-    clean_dir = study_dir / "dados" / "clean"
-    if not fontes_csv.exists() or not clean_dir.exists():
+    sources_csv = study_dir / "sources.csv"
+    clean_dir = study_dir / "data" / "clean"
+    if not sources_csv.exists() or not clean_dir.exists():
         return
 
-    fontes = pd.read_csv(fontes_csv)
-    open_ids = set(fontes.loc[~fontes["licenca"].fillna("").str.contains(NC_LICENSE_PATTERN), "id"])
+    sources = pd.read_csv(sources_csv)
+    open_ids = set(sources.loc[~sources["license"].fillna("").str.contains(NC_LICENSE_PATTERN), "id"])
 
     frames = []
     for parquet_file in clean_dir.glob("*.parquet"):
         df = pd.read_parquet(parquet_file)
-        if "fonte_id" in df.columns:
-            df = df[df["fonte_id"].isin(open_ids)]
+        if "source_id" in df.columns:
+            df = df[df["source_id"].isin(open_ids)]
         frames.append(df)
     if not frames:
         return
     combined = pd.concat(frames, ignore_index=True)
     if combined.empty:
         return
-    combined.to_csv(out_dir / "dados_abertos.csv", index=False)
+    combined.to_csv(out_dir / "open_data.csv", index=False)
 
 
-def export_eventos_json() -> None:
+def export_events_json() -> None:
     import csv
     import json
 
-    out = SITE_DIR / "eventos.json"
-    if not EVENTOS_CSV.exists():
+    out = SITE_DIR / "events.json"
+    if not EVENTS_CSV.exists():
         out.write_text("[]", encoding="utf-8")
         return
-    with EVENTOS_CSV.open(newline="", encoding="utf-8") as f:
+    with EVENTS_CSV.open(newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
     out.write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
 
@@ -284,7 +284,7 @@ def main() -> None:
     write_index(studies, "en")
     for study in studies:
         copy_study_pages(study)
-    export_eventos_json()
+    export_events_json()
 
     if shutil.which("quarto") is None:
         print("quarto não está instalado — as páginas .qmd foram geradas, mas não compiladas.", file=sys.stderr)

@@ -1,10 +1,10 @@
 import pytest
 
-from servidor.validation import TemaInvalido, validar_tema
+from server.validation import InvalidTopic, validate_topic
 
 
 @pytest.mark.parametrize(
-    "tema",
+    "topic",
     [
         "saude-portugal",
         "Saúde em Portugal",
@@ -12,12 +12,12 @@ from servidor.validation import TemaInvalido, validar_tema
         "a" * 80,
     ],
 )
-def test_valid_temas_pass(tema: str) -> None:
-    assert validar_tema(tema) == tema.strip()
+def test_valid_topics_pass(topic: str) -> None:
+    assert validate_topic(topic) == topic.strip()
 
 
 @pytest.mark.parametrize(
-    "tema",
+    "topic",
     [
         "ab",  # too short
         "a" * 81,  # too long
@@ -32,6 +32,6 @@ def test_valid_temas_pass(tema: str) -> None:
         "   ",
     ],
 )
-def test_invalid_temas_rejected(tema: str) -> None:
-    with pytest.raises(TemaInvalido):
-        validar_tema(tema)
+def test_invalid_topics_rejected(topic: str) -> None:
+    with pytest.raises(InvalidTopic):
+        validate_topic(topic)

@@ -2,159 +2,159 @@ from pathlib import Path
 
 import pytest
 
-from comum import checks
-from comum.csv_io import write_csv
-from comum.schemas import Afirmacao, FonteDados, LigacaoEvento, Quebra
+from common import checks
+from common.csv_io import write_csv
+from common.schemas import Claim, DataSource, EventLink, Break
 
 
 @pytest.fixture
 def study_dir(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
-    root = tmp_path / "estudos"
-    monkeypatch.setattr(checks, "ESTUDOS_ROOT", root)
-    d = root / "teste"
+    root = tmp_path / "studies"
+    monkeypatch.setattr(checks, "STUDIES_ROOT", root)
+    d = root / "test"
     d.mkdir(parents=True)
     return d
 
 
-def test_fase_1_requires_5_to_10_questions_with_eixo_and_fonte(study_dir: Path) -> None:
-    (study_dir / "plano.md").write_text(
+def test_phase_1_requires_5_to_10_questions_with_axis_and_source(study_dir: Path) -> None:
+    (study_dir / "plan.md").write_text(
         "\n".join(f"{i}. Pergunta {i}? Eixo: mortalidade. Fonte candidata: INE." for i in range(1, 6)),
         encoding="utf-8",
     )
-    ok, problems = checks.check_fase_1("teste")
+    ok, problems = checks.check_phase_1("test")
     assert ok, problems
 
 
-def test_fase_1_fails_with_too_few_questions(study_dir: Path) -> None:
-    (study_dir / "plano.md").write_text("1. Só uma pergunta? Eixo: x. Fonte: y.", encoding="utf-8")
-    ok, problems = checks.check_fase_1("teste")
+def test_phase_1_fails_with_too_few_questions(study_dir: Path) -> None:
+    (study_dir / "plan.md").write_text("1. Só uma pergunta? Eixo: x. Fonte: y.", encoding="utf-8")
+    ok, problems = checks.check_phase_1("test")
     assert not ok
     assert any("perguntas" in p for p in problems)
 
 
-def test_fase_2_fonte_testada_needs_required_fields(study_dir: Path) -> None:
+def test_phase_2_source_testada_needs_required_fields(study_dir: Path) -> None:
     write_csv(
-        study_dir / "fontes.csv",
-        FonteDados,
+        study_dir / "sources.csv",
+        DataSource,
         [
-            FonteDados(
+            DataSource(
                 id="f1",
-                eixo="mortalidade",
-                nome="x",
-                organismo="INE",
+                axis="mortalidade",
+                name="x",
+                organisation="INE",
                 url="",
-                formato="",
-                licenca="",
-                cobertura_temporal="",
-                cobertura_geografica="PT",
-                estado="testada",
+                format="",
+                license="",
+                temporal_coverage="",
+                geographic_coverage="PT",
+                status="tested",
             )
         ],
     )
-    ok, problems = checks.check_fase_2("teste")
+    ok, problems = checks.check_phase_2("test")
     assert not ok
     assert problems
 
 
-def test_fase_2_fonte_excluida_needs_motivo(study_dir: Path) -> None:
+def test_phase_2_source_excluida_needs_motivo(study_dir: Path) -> None:
     write_csv(
-        study_dir / "fontes.csv",
-        FonteDados,
+        study_dir / "sources.csv",
+        DataSource,
         [
-            FonteDados(
+            DataSource(
                 id="f1",
-                eixo="mortalidade",
-                nome="x",
-                organismo="INE",
+                axis="mortalidade",
+                name="x",
+                organisation="INE",
                 url="https://x",
-                formato="csv",
-                licenca="CC-BY",
-                cobertura_temporal="2000-2020",
-                cobertura_geografica="PT",
-                estado="excluida",
-                motivo_exclusao=None,
+                format="csv",
+                license="CC-BY",
+                temporal_coverage="2000-2020",
+                geographic_coverage="PT",
+                status="excluded",
+                exclusion_reason=None,
             )
         ],
     )
-    ok, problems = checks.check_fase_2("teste")
+    ok, problems = checks.check_phase_2("test")
     assert not ok
-    assert "motivo_exclusao" in problems[0]
+    assert "exclusion_reason" in problems[0]
 
 
-def test_fase_4_requires_graficos_and_quebras(study_dir: Path) -> None:
-    ok, problems = checks.check_fase_4("teste")
+def test_phase_4_requires_charts_and_breaks(study_dir: Path) -> None:
+    ok, problems = checks.check_phase_4("test")
     assert not ok
     assert len(problems) == 2
 
 
-def test_fase_5_flags_quebra_without_ligacao(study_dir: Path) -> None:
+def test_phase_5_flags_break_without_link(study_dir: Path) -> None:
     write_csv(
-        study_dir / "quebras.csv",
-        Quebra,
-        [Quebra(id="q1", serie="mortalidade", eixo="mortalidade", data="2010-01-01", tipo="nivel", magnitude=1.0, metodo="pelt")],
+        study_dir / "breaks.csv",
+        Break,
+        [Break(id="q1", series="mortalidade", axis="mortalidade", date="2010-01-01", type="level", magnitude=1.0, method="pelt")],
     )
-    write_csv(study_dir / "ligacoes_eventos.csv", LigacaoEvento, [])
-    ok, problems = checks.check_fase_5("teste")
+    write_csv(study_dir / "event_links.csv", EventLink, [])
+    ok, problems = checks.check_phase_5("test")
     assert not ok
     assert "q1" in problems[0]
 
 
-def test_fase_5_passes_with_sem_evento_note(study_dir: Path) -> None:
+def test_phase_5_passes_with_sem_event_note(study_dir: Path) -> None:
     write_csv(
-        study_dir / "quebras.csv",
-        Quebra,
-        [Quebra(id="q1", serie="mortalidade", eixo="mortalidade", data="2010-01-01", tipo="nivel", magnitude=1.0, metodo="pelt")],
+        study_dir / "breaks.csv",
+        Break,
+        [Break(id="q1", series="mortalidade", axis="mortalidade", date="2010-01-01", type="level", magnitude=1.0, method="pelt")],
     )
     write_csv(
-        study_dir / "ligacoes_eventos.csv",
-        LigacaoEvento,
+        study_dir / "event_links.csv",
+        EventLink,
         [
-            LigacaoEvento(
+            EventLink(
                 id="l1",
-                quebra_id="q1",
-                evento_id=None,
-                estado="quebra_sem_evento",
-                grau=None,
-                janela_justificacao="procurado 5 anos antes/depois, nada encontrado",
-                justificacao_pt="sem evento identificado",
-                justificacao_en="no event identified",
+                break_id="q1",
+                event_id=None,
+                status="break_without_event",
+                grade=None,
+                justification_window="procurado 5 anos antes/depois, nada encontrado",
+                justification_pt="sem evento identificado",
+                justification_en="no event identified",
             )
         ],
     )
-    ok, problems = checks.check_fase_5("teste")
+    ok, problems = checks.check_phase_5("test")
     assert ok, problems
 
 
-def test_fase_6_flags_claim_id_missing_from_afirmacoes(study_dir: Path) -> None:
-    write_csv(study_dir / "afirmacoes.csv", Afirmacao, [])
-    (study_dir / "relatorio.pt.qmd").write_text(
+def test_phase_6_flags_claim_id_missing_from_claims(study_dir: Path) -> None:
+    write_csv(study_dir / "claims.csv", Claim, [])
+    (study_dir / "report.pt.qmd").write_text(
         'Em 2020 houve [10 mil óbitos]{.claim id="c001"}.' + " " * 200, encoding="utf-8"
     )
-    (study_dir / "relatorio.en.qmd").write_text(
+    (study_dir / "report.en.qmd").write_text(
         'In 2020 there were [10 thousand deaths]{.claim id="c001"}.' + " " * 200, encoding="utf-8"
     )
-    ok, problems = checks.check_fase_6("teste")
+    ok, problems = checks.check_phase_6("test")
     assert not ok
     assert any("c001" in p for p in problems)
 
 
-def test_fase_6_ignores_code_fences_and_cross_references(study_dir: Path) -> None:
+def test_phase_6_ignores_code_fences_and_cross_references(study_dir: Path) -> None:
     write_csv(
-        study_dir / "afirmacoes.csv",
-        Afirmacao,
+        study_dir / "claims.csv",
+        Claim,
         [
-            Afirmacao(
+            Claim(
                 id="c001",
-                tipo="dado",
-                texto_pt="x",
-                texto_en="x",
-                fonte_id="f1",
+                type="data",
+                text_pt="x",
+                text_en="x",
+                source_id="f1",
                 url="https://x",
-                data_acesso="2026-01-01",
-                excerto="algo",
-                natureza_fonte="primaria",
-                localizacao="intro",
-                estado_verificacao="confirmada",
+                access_date="2026-01-01",
+                excerpt="algo",
+                source_nature="primary",
+                location="intro",
+                verification_status="confirmed",
             )
         ],
     )
@@ -164,64 +164,64 @@ def test_fase_6_ignores_code_fences_and_cross_references(study_dir: Path) -> Non
         'dados = FileAttachment("regional_snapshot_2022.json").json()\n'
         "```\n\n"
     ) + "Texto de enchimento para passar o limite mínimo de tamanho do relatório. " * 5
-    (study_dir / "relatorio.pt.qmd").write_text(body, encoding="utf-8")
-    (study_dir / "relatorio.en.qmd").write_text(body, encoding="utf-8")
-    (study_dir / "verificacao.md").write_text("tudo confirmado", encoding="utf-8")
+    (study_dir / "report.pt.qmd").write_text(body, encoding="utf-8")
+    (study_dir / "report.en.qmd").write_text(body, encoding="utf-8")
+    (study_dir / "verification.md").write_text("tudo confirmado", encoding="utf-8")
 
-    ok, problems = checks.check_fase_6("teste")
+    ok, problems = checks.check_phase_6("test")
     assert ok, problems
 
 
-def test_fase_6_grau_language_tolerates_an_adverb(study_dir: Path) -> None:
+def test_phase_6_grade_language_tolerates_an_adverb(study_dir: Path) -> None:
     write_csv(
-        study_dir / "afirmacoes.csv",
-        Afirmacao,
+        study_dir / "claims.csv",
+        Claim,
         [
-            Afirmacao(
+            Claim(
                 id="c001",
-                tipo="ligacao",
-                texto_pt="a pandemia contribuiu também para esta quebra em Portugal.",
-                texto_en="the pandemic also contributed to this break in Portugal.",
-                fonte_id="f1",
+                type="link",
+                text_pt="a pandemia contribuiu também para esta quebra em Portugal.",
+                text_en="the pandemic also contributed to this break in Portugal.",
+                source_id="f1",
                 url="https://x",
-                data_acesso="2026-01-01",
-                excerto="algo",
-                natureza_fonte="primaria",
-                localizacao="intro",
-                grau="A",
-                estado_verificacao="confirmada",
+                access_date="2026-01-01",
+                excerpt="algo",
+                source_nature="primary",
+                location="intro",
+                grade="A",
+                verification_status="confirmed",
             )
         ],
     )
     body = 'Texto com [a ligação]{.claim id="c001"}. ' + "Enchimento. " * 30
-    (study_dir / "relatorio.pt.qmd").write_text(body, encoding="utf-8")
-    (study_dir / "relatorio.en.qmd").write_text(body, encoding="utf-8")
+    (study_dir / "report.pt.qmd").write_text(body, encoding="utf-8")
+    (study_dir / "report.en.qmd").write_text(body, encoding="utf-8")
 
-    ok, problems = checks.check_fase_6("teste")
+    ok, problems = checks.check_phase_6("test")
     assert ok, problems
 
 
-def test_fase_7_flags_pending_afirmacoes(study_dir: Path) -> None:
+def test_phase_7_flags_pending_claims(study_dir: Path) -> None:
     write_csv(
-        study_dir / "afirmacoes.csv",
-        Afirmacao,
+        study_dir / "claims.csv",
+        Claim,
         [
-            Afirmacao(
+            Claim(
                 id="c001",
-                tipo="facto",
-                texto_pt="x",
-                texto_en="x",
-                fonte_id="f1",
+                type="fact",
+                text_pt="x",
+                text_en="x",
+                source_id="f1",
                 url="https://x",
-                data_acesso="2026-01-01",
-                excerto="algo",
-                natureza_fonte="primaria",
-                localizacao="intro",
-                estado_verificacao="pendente",
+                access_date="2026-01-01",
+                excerpt="algo",
+                source_nature="primary",
+                location="intro",
+                verification_status="pending",
             )
         ],
     )
-    (study_dir / "verificacao.md").write_text("Todas as afirmações foram confirmadas ou corrigidas.", encoding="utf-8")
-    ok, problems = checks.check_fase_7("teste")
+    (study_dir / "verification.md").write_text("Todas as afirmações foram confirmadas ou corrigidas.", encoding="utf-8")
+    ok, problems = checks.check_phase_7("test")
     assert not ok
     assert any("c001" in p for p in problems)

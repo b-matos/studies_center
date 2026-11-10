@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from comum.breaks import detect_level_shifts, detect_slope_changes, detect_spikes
+from common.breaks import detect_level_shifts, detect_slope_changes, detect_spikes
 
 
 def _dates(n: int) -> pd.Series:
@@ -13,7 +13,7 @@ def test_detects_known_level_shift() -> None:
     breaks = detect_level_shifts(_dates(30), values, penalty=2.0)
     assert len(breaks) >= 1
     # the detected break should land close to index 15 (year 2015)
-    years = [b.data.year for b in breaks]
+    years = [b.date.year for b in breaks]
     assert any(abs(y - 2015) <= 2 for y in years)
 
 
@@ -29,7 +29,7 @@ def test_detects_spike() -> None:
     values = pd.Series([10.0] * 10 + [10.0] * 9 + [1000.0])
     breaks = detect_spikes(_dates(20), values)
     assert len(breaks) == 1
-    assert breaks[0].tipo == "pico"
+    assert breaks[0].type == "peak"
 
 
 def test_short_series_returns_nothing() -> None:

@@ -1,0 +1,215 @@
+---
+title: "Esperança de vida à nascença em Portugal (estudo de teste)"
+---
+
+> **Nota**: este é um estudo de **teste** da plataforma, usado para validar o pipeline
+> `/estudo` de ponta a ponta. Não se destina a publicação como análise substantiva e os
+> números devem ser lidos com as limitações descritas na secção de metodologia.
+
+## Resumo
+
+Entre [1960]{.claim id="c001"} e [2024]{.claim id="c002"}, a esperança de vida à nascença
+em Portugal subiu de [64,0]{.claim id="c001"} para [82,5]{.claim id="c002"} anos, numa
+trajetória de crescimento quase contínuo ao longo de mais de seis décadas. A diferença entre
+mulheres e homens manteve-se relativamente estável ao longo de toda a série: era de
+[5,6 anos em 1960]{.claim id="c028"} (mulheres [66,7]{.claim id="c003"}, homens
+[61,1]{.claim id="c004"}) e de [5,5 anos em 2024]{.claim id="c029"} (mulheres
+[85,2]{.claim id="c005"}, homens [79,7]{.claim id="c006"}). Portugal passou de estar
+ligeiramente abaixo da média da União Europeia a vinte e sete no início da série comparável
+— [cerca de 0,2 anos abaixo em 2002]{.claim id="c032"} ([77,4]{.claim id="c007"} contra
+[77,6]{.claim id="c008"} anos) — para estar acima dela mais recentemente —
+[cerca de 1,0 ano acima em 2024]{.claim id="c033"} ([82,5]{.claim id="c002"} contra
+[81,5]{.claim id="c009"} anos). O leque entre as regiões NUTS II do Continente alargou-se,
+de [0,8 anos em 1992]{.claim id="c030"} para [cerca de 2,0 anos em 2022]{.claim id="c031"}.
+A deteção automática de quebras identificou dezassete mudanças candidatas nas séries de
+Portugal e da UE — [17]{.claim id="c020"} no total —, das quais [6]{.claim id="c020"}
+foram associadas a um evento concreto e datado (quase todas relacionadas com a pandemia de
+[COVID-19]{.claim id="c021"}) e [11]{.claim id="c020"} ficaram registadas sem evento identificado — um resultado
+do processo de verificação, não uma falha da análise.
+
+## Pergunta 1 — Evolução da esperança de vida total em Portugal
+
+A série mais longa disponível (Eurostat, `demo_mlexpec`) mostra um crescimento quase
+contínuo da esperança de vida à nascença em Portugal: de [64,0 anos em 1960]{.claim
+id="c001"} para [82,5 anos em 2024]{.claim id="c002"}. A tendência é interrompida por
+algumas oscilações pontuais (ver Pergunta 5), mas o padrão dominante é de crescimento
+sustentado, consistente com melhorias graduais em saneamento, nutrição e acesso a cuidados
+de saúde ao longo da segunda metade do século XX e do início do século XXI.
+
+```{ojs}
+Plotly = require("plotly.js-dist-min@2.35.2")
+```
+```{ojs}
+import {timeSeries, ranking} from "../../assets/charts.js"
+```
+```{ojs}
+lang = "pt"
+```
+```{ojs}
+evolution_data = FileAttachment("evolucao_pt_ue.json").json()
+```
+```{ojs}
+regional_data = FileAttachment("regional_evolucao.json").json()
+```
+```{ojs}
+snapshot_data = FileAttachment("regional_snapshot_2022.json").json()
+```
+```{ojs}
+linked_events = FileAttachment("linked_events.json").json()
+```
+
+```{ojs}
+viewof sex = Inputs.radio(new Map([["Total","T"],["Mulheres","F"],["Homens","M"]]), {value: "T", label: "Sexo"})
+```
+
+```{ojs}
+timeSeries(Plotly, evolution_data.filter((d) => d.sex === sex), {groupBy: "region", labels: {"União Europeia (27 países, 2020)": "UE-27"}, yTitle: "Anos", events: linked_events, lang})
+```
+
+*Gráfico: esperança de vida à nascença em Portugal (total e por sexo) e na UE.*
+
+## Pergunta 2 — Diferença entre mulheres e homens
+
+Em mil novecentos e sessenta, a esperança de vida das mulheres era de [66,7]{.claim
+id="c003"} anos, contra [61,1]{.claim id="c004"} anos para os homens — uma diferença de
+[5,6 anos]{.claim id="c028"}. Mais recentemente, os valores eram de [85,2]{.claim id="c005"}
+e [79,7]{.claim id="c006"} anos, respetivamente — uma diferença de [5,5 anos]{.claim
+id="c029"}. Ao longo de toda a série, esta diferença manteve-se aproximadamente constante,
+sem uma tendência clara de convergência ou divergência entre os sexos.
+
+```{ojs}
+timeSeries(Plotly, evolution_data.filter((d) => d.region === "Portugal" && d.sex !== "T"), {groupBy: "sex", labels: {F:"Mulheres", M:"Homens"}, yTitle: "Anos", events: linked_events, lang})
+```
+
+*Gráfico: esperança de vida à nascença em Portugal, por sexo.*
+
+## Pergunta 3 — Portugal face à União Europeia
+
+No primeiro ano em que a série da UE está disponível no Eurostat, Portugal estava
+ligeiramente abaixo da média europeia: [77,4]{.claim id="c007"} anos contra [77,6]{.claim
+id="c008"} anos em [2002]{.claim id="c007"}, [uma diferença de cerca de 0,2 anos]{.claim
+id="c032"}. No ano mais recente da série, a posição inverteu-se: Portugal estava acima da
+média da UE, com [82,5]{.claim id="c002"} anos contra [81,5]{.claim id="c009"} anos em
+[2024]{.claim id="c002"}, [uma diferença de cerca de 1,0 ano]{.claim id="c033"}. Isto sugere
+uma trajetória de convergência seguida de uma ligeira vantagem de Portugal face à média
+europeia nas últimas duas décadas, embora o indicador agregado da UE misture países com
+trajetórias muito diferentes entre si.
+
+## Pergunta 4 — Diferenças regionais (NUTS II)
+
+Usando a série anual do Eurostat para as cinco regiões NUTS II do Continente, o leque entre
+a região com menor e a região com maior esperança de vida alargou-se ao longo do tempo: em
+[1992]{.claim id="c010"} ia de [74,5]{.claim id="c010"} anos no Norte a [75,3]{.claim
+id="c011"} anos no Alentejo — [um leque de 0,8 anos]{.claim id="c030"}; em [2022]{.claim
+id="c012"}, a posição relativa inverteu-se e o leque alargou-se, indo de [80,3]{.claim
+id="c013"} anos no Alentejo a [82,3]{.claim id="c012"} anos no Norte — [um leque de cerca de
+2,0 anos]{.claim id="c031"}. Um retrato transversal mais completo do INE para o ano de
+[2022]{.claim id="c014"}, que inclui também as regiões autónomas, mostra um leque ainda
+maior: de [78,04]{.claim id="c014"} anos na Região Autónoma dos Açores a [81,53]{.claim
+id="c015"} anos na região Norte.
+
+
+```{ojs}
+timeSeries(Plotly, regional_data, {groupBy: "region", yTitle: "Anos", events: linked_events, lang})
+```
+
+*Gráfico: esperança de vida à nascença por região NUTS II do Continente, série anual.*
+
+```{ojs}
+ranking(Plotly, snapshot_data, {xTitle: "Anos", lang})
+```
+
+*Gráfico: esperança de vida à nascença por região, retrato do INE para o ano mais recente
+disponível nesta fonte.*
+
+## Pergunta 5 — Quebras, estagnações e a pandemia de COVID-19
+
+A deteção automática de quebras (ver `quebras.csv`) identificou [17]{.claim id="c020"}
+mudanças candidatas nas séries de Portugal e da UE — mudanças de nível, de declive e
+picos na variação ano a ano. Dessas [17]{.claim id="c020"}, apenas [6]{.claim id="c020"}
+foram ligadas a um evento concreto e datado com fonte credível; as outras [11]{.claim
+id="c020"} ficaram registadas sem evento identificado. Isto é tratado como um resultado da
+análise e não como uma falha: em vários casos, nomeadamente picos isolados nas décadas mais
+antigas da série e mudanças de nível em anos mais recentes, não existe uma fonte que
+estabeleça uma relação causal concreta com um facto datado, apesar de terem sido
+considerados candidatos plausíveis — mudanças políticas, adesão a blocos económicos, crises
+económicas e choques petrolíferos. O detalhe de cada candidato avaliado e descartado está
+documentado em `ligacoes_eventos.csv`.
+
+A quebra mais clara e mais bem documentada é a do início da década de dois mil e vinte. Em
+Portugal, a esperança de vida total desceu de [82,0 anos em 2019]{.claim id="c016"} para
+[81,4 anos em 2020]{.claim id="c017"} — [uma quebra de cerca de 0,6 anos]{.claim
+id="c022"}; na série usada neste estudo para a UE, desceu de [81,1 anos em 2019]{.claim
+id="c018"} para [80,3 anos em 2020]{.claim id="c019"} — [uma quebra de cerca de 0,8
+anos]{.claim id="c023"}. A pandemia de [COVID-19]{.claim id="c021"}, [declarada pela
+Organização Mundial da Saúde a 11 de março de 2020]{.claim id="c021"}, **contribuiu para**
+esta quebra em Portugal ([grau A]{.claim id="c022"}): este é o mesmo ano em que o Eurostat,
+no seu artigo *Statistics Explained* sobre mortalidade e esperança de vida, documenta
+diretamente que a pandemia **contribuiu para** uma quebra de [cerca de 0,9 anos (para 80,4
+anos)]{.claim id="c023"} na esperança de vida da UE como um todo ([grau A]{.claim
+id="c023"}). [Esta magnitude de 0,9 anos]{.claim id="c023"}, publicada pelo Eurostat numa
+versão dos dados que pode já incluir revisões posteriores, não é idêntica [aos 0,8 anos]{.claim
+id="c023"} calculados diretamente a partir da série `demo_mlexpec` extraída para este
+estudo — a diferença reflete vintages de
+dados distintos entre a publicação do Eurostat e o extrato usado aqui, e não dois
+fenómenos diferentes. A recuperação subsequente da esperança de vida na UE nos dois anos
+seguintes também é atribuída pelo Eurostat ao abrandamento do impacto agudo da pandemia
+(**contribuiu para** a recuperação, [grau A]{.claim id="c024"} e [grau A]{.claim
+id="c025"}).
+
+Um segundo candidato, de evidência mais fraca, é a [época gripal grave do inverno de
+2014/2015 na Europa]{.claim id="c026"}, documentada num artigo do ECDC sobre excesso de
+mortalidade em pessoas idosas em [14 países europeus]{.claim id="c026"}. Como o artigo não
+quantifica diretamente o efeito no indicador de esperança de vida agregado da UE, esta
+gripe **pode ter contribuído** para o pico negativo observado na série da UE no ano seguinte
+([grau B]{.claim id="c027"}), em vez de se afirmar uma relação causal direta.
+
+Note-se ainda que nenhum dos candidatos avaliados mas não confirmados (por exemplo, uma vaga
+de calor europeia ou um inverno ameno sem crise sanitária) foi registado como "evento sem
+efeito" por termos encontrado uma fonte a demonstrar ausência de efeito — fomos nós que não
+encontrámos uma fonte credível a estabelecer o efeito, o que é uma distinção importante e
+está documentada caso a caso em `ligacoes_eventos.csv`.
+
+## Metodologia e limitações
+
+- As séries de Portugal e da UE (total e por sexo) vêm do Eurostat (`demo_mlexpec`),
+  disponíveis anualmente desde [1960]{.claim id="c001"} para Portugal e desde [2002]{.claim
+  id="c007"} para o agregado europeu utilizado. As séries regionais NUTS II vêm de um dataset
+  Eurostat distinto (`demo_r_mlifexp`), coberto neste estudo entre [1992]{.claim id="c010"}
+  e [2022]{.claim id="c012"}.
+- O retrato regional mais detalhado, que inclui as regiões autónomas dos Açores e da
+  Madeira, vem do INE (indicador [`0008459`]{.claim id="c014"}). **Esta fonte do INE só foi
+  confirmada como disponível para um único período transversal recente**, o ano de
+  [2022]{.claim id="c014"}, nesta fase do estudo — não foi possível confirmar, dentro do
+  âmbito deste teste, uma série histórica longa por região a partir desta API do INE, o que
+  limita a nossa capacidade de comparar a evolução regional completa com o ano mais recente
+  na mesma fonte. Por isso, as duas fontes (Eurostat e INE) são apresentadas em gráficos
+  separados, sem serem fundidas numa única série.
+- Não foi identificada, nesta fase de recolha, uma fonte do INE com desagregação por sexo a
+  nível nacional via API estruturada; essa desagregação ficou coberta apenas pela fonte
+  Eurostat testada.
+- A deteção de quebras usa três métodos complementares (mudanças de nível, mudanças de
+  declive e picos na variação ano a ano), o que explica por que razão a quebra mais recente
+  aparece como um pico na variação anual e não como uma mudança de nível de longo prazo.
+- As ligações entre quebras e eventos seguem uma escala de confiança (grau A, B ou C) e a
+  linguagem usada no texto reflete sempre esse grau: "contribuiu para" quando uma fonte
+  estabelece diretamente a relação causal (grau A), "pode ter contribuído" quando o
+  mecanismo é plausível mas não há demonstração direta do efeito no indicador (grau B), e
+  "coincidiu com" quando apenas há coincidência temporal sem fonte que sustente um
+  mecanismo (grau C — não usado neste estudo).
+- Por se tratar de um estudo de teste da plataforma, o número de perguntas e de fontes foi
+  mantido reduzido; não deve ser lido como uma análise exaustiva da literatura demográfica
+  sobre esperança de vida em Portugal.
+
+## Fontes
+
+- [Eurostat — *Life expectancy by age and sex* (`demo_mlexpec`), base da evolução nacional e
+  da comparação com a UE-27, consultado via API REST do Eurostat.]{.claim id="c001"}
+- [Eurostat — *Life expectancy by age, sex and NUTS II region* (`demo_r_mlifexp`), base da
+  evolução regional por NUTS II do Continente.]{.claim id="c010"}
+- [INE — *Esperança de vida à nascença (Metodologia 2007) por local de residência (NUTS
+  2013)*, indicador `0008459`, base do retrato regional transversal incluindo as regiões
+  autónomas.]{.claim id="c014"}
+- [Organização Mundial da Saúde — declaração da pandemia de COVID-19.]{.claim id="c021"}
+- [ECDC / Eurosurveillance — artigo sobre a época gripal grave na Europa.]{.claim
+  id="c026"}

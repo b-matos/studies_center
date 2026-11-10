@@ -1,0 +1,50 @@
+---
+title: "Events"
+output-file: events.html
+---
+
+Full catalogue of social and political events used to explain trend changes across the
+studies. Every event has a primary source (or is flagged as secondary-sourced until
+confirmed). Filter by type, scope, theme, or period.
+
+```{ojs}
+events = FileAttachment("events.json").json()
+```
+
+```{ojs}
+//| echo: false
+viewof typeFilter = Inputs.select(
+  ["All", ...new Set(events.map((d) => d.type))],
+  { label: "Type" }
+)
+viewof scopeFilter = Inputs.select(
+  ["All", "PT", "EU", "World"],
+  { label: "Scope" }
+)
+viewof topicFilter = Inputs.select(
+  ["All", ...new Set(events.flatMap((d) => (d.topics || "").split(";").map((t) => t.trim()).filter(Boolean)))],
+  { label: "Theme" }
+)
+```
+
+```{ojs}
+//| echo: false
+filteredEvents = events.filter((d) => {
+  if (typeFilter !== "All" && d.type !== typeFilter) return false;
+  if (scopeFilter !== "All" && d.scope !== scopeFilter) return false;
+  if (topicFilter !== "All" && !(d.topics || "").split(";").map((t) => t.trim()).includes(topicFilter)) return false;
+  return true;
+})
+
+Inputs.table(filteredEvents, {
+  columns: ["start_date", "scope", "type", "titulo_en", "primary_source_url", "verified"],
+  header: {
+    start_date: "Date",
+    scope: "Scope",
+    type: "Type",
+    titulo_en: "Title",
+    primary_source_url: "Primary source",
+    verified: "Verified",
+  },
+})
+```

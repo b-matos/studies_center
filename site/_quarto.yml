@@ -20,7 +20,7 @@ format:
 
 website:
   page-footer:
-    center: "Dados abertos · cada afirmação tem fonte, excerto e data de acesso"
+    center: "Dados abertos · cada afirmação tem source, excerpt e data de acesso"
 
 execute:
   echo: false

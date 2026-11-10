@@ -30,49 +30,49 @@ def build_mod(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
     mod = _load_build_module()
     site_dir = tmp_path / "site"
     site_dir.mkdir()
-    estudos_dir = tmp_path / "estudos"
-    estudos_dir.mkdir()
-    eventos_csv = tmp_path / "eventos" / "eventos.csv"
-    eventos_csv.parent.mkdir()
-    eventos_csv.write_text(
-        "id,data_inicio,data_fim,ambito,tipo,titulo_pt,titulo_en,descricao_pt,descricao_en,"
-        "fonte_primaria_url,fonte_secundaria_url,data_acesso,temas,verificado\n"
+    studies_dir = tmp_path / "studies"
+    studies_dir.mkdir()
+    events_csv = tmp_path / "events" / "events.csv"
+    events_csv.parent.mkdir()
+    events_csv.write_text(
+        "id,start_date,end_date,ambito,tipo,title_pt,title_en,description_pt,description_en,"
+        "primary_source_url,secondary_source_url,access_date,temas,verificado\n"
         "e1,2020-03-01,,PT,pandemia_ou_crise_sanitaria,Covid,Covid,x,x,https://dgs.pt,,2026-01-01,saude,sim\n",
         encoding="utf-8",
     )
     monkeypatch.setattr(mod, "SITE_DIR", site_dir)
     monkeypatch.setattr(mod, "ROOT", tmp_path)
-    monkeypatch.setattr(mod, "ESTUDOS_DIR", estudos_dir)
-    monkeypatch.setattr(mod, "EVENTOS_CSV", eventos_csv)
-    return mod, site_dir, estudos_dir
+    monkeypatch.setattr(mod, "STUDIES_DIR", studies_dir)
+    monkeypatch.setattr(mod, "EVENTS_CSV", events_csv)
+    return mod, site_dir, studies_dir
 
 
-def _make_study(estudos_dir: Path, slug: str, estado: str = "publicado") -> Path:
-    study_dir = estudos_dir / slug
+def _make_study(studies_dir: Path, slug: str, status: str = "published") -> Path:
+    study_dir = studies_dir / slug
     study_dir.mkdir()
-    (study_dir / "estudo.yml").write_text(
+    (study_dir / "study.yml").write_text(
         yaml.safe_dump(
             {
-                "titulo_pt": f"Estudo {slug}",
-                "titulo_en": f"Study {slug}",
-                "resumo_pt": "Resumo.",
-                "resumo_en": "Summary.",
-                "data": "2026-11-07",
-                "estado": estado,
+                "title_pt": f"Estudo {slug}",
+                "title_en": f"Study {slug}",
+                "summary_pt": "Resumo.",
+                "summary_en": "Summary.",
+                "date": "2026-11-07",
+                "status": status,
             },
             allow_unicode=True,
         ),
         encoding="utf-8",
     )
-    (study_dir / "relatorio.pt.qmd").write_text("# Relatório\n\nTexto.", encoding="utf-8")
-    (study_dir / "relatorio.en.qmd").write_text("# Report\n\nText.", encoding="utf-8")
+    (study_dir / "report.pt.qmd").write_text("# Relatório\n\nTexto.", encoding="utf-8")
+    (study_dir / "report.en.qmd").write_text("# Report\n\nText.", encoding="utf-8")
     return study_dir
 
 
 def test_write_index_excludes_teste_studies(build_mod) -> None:
-    mod, site_dir, estudos_dir = build_mod
-    _make_study(estudos_dir, "publicado-1", estado="publicado")
-    _make_study(estudos_dir, "teste-1", estado="teste")
+    mod, site_dir, studies_dir = build_mod
+    _make_study(studies_dir, "publicado-1", status="published")
+    _make_study(studies_dir, "teste-1", status="test")
 
     studies = mod.load_studies()
     mod.write_index(studies, "pt")
@@ -83,12 +83,12 @@ def test_write_index_excludes_teste_studies(build_mod) -> None:
 
 
 def test_copy_study_pages_injects_output_file_front_matter(build_mod) -> None:
-    mod, site_dir, estudos_dir = build_mod
-    _make_study(estudos_dir, "saude-portugal")
+    mod, site_dir, studies_dir = build_mod
+    _make_study(studies_dir, "saude-portugal")
     studies = mod.load_studies()
     mod.copy_study_pages(studies[0])
 
-    pt_copy = (site_dir / "estudos" / "saude-portugal" / "index.pt.qmd").read_text(encoding="utf-8")
+    pt_copy = (site_dir / "studies" / "saude-portugal" / "index.pt.qmd").read_text(encoding="utf-8")
     assert "output-file: index.html" in pt_copy
     assert "# Relatório" in pt_copy
 
@@ -119,42 +119,42 @@ def test_write_root_redirect(build_mod) -> None:
     assert "/pt/" in text
 
 
-def test_export_eventos_json(build_mod) -> None:
+def test_export_events_json(build_mod) -> None:
     mod, site_dir, _ = build_mod
-    mod.export_eventos_json()
-    data = json.loads((site_dir / "eventos.json").read_text(encoding="utf-8"))
+    mod.export_events_json()
+    data = json.loads((site_dir / "events.json").read_text(encoding="utf-8"))
     assert len(data) == 1
     assert data[0]["id"] == "e1"
 
 
 def test_export_open_clean_data_excludes_nc_licensed_sources(build_mod) -> None:
-    mod, site_dir, estudos_dir = build_mod
-    study_dir = _make_study(estudos_dir, "saude-portugal")
-    (study_dir / "fontes.csv").write_text(
-        "id,eixo,nome,organismo,url,formato,licenca,cobertura_temporal,cobertura_geografica,estado,motivo_exclusao,data_verificacao\n"
-        "f1,mortalidade,x,INE,https://ine.pt,csv,CC-BY,2000-2020,PT,testada,,2026-01-01\n"
-        "f2,mortalidade,y,OMS,https://who.int,csv,CC-BY-NC,2000-2020,PT,testada,,2026-01-01\n",
+    mod, site_dir, studies_dir = build_mod
+    study_dir = _make_study(studies_dir, "saude-portugal")
+    (study_dir / "sources.csv").write_text(
+        "id,axis,name,organisation,url,format,license,temporal_coverage,geographic_coverage,status,exclusion_reason,verification_date\n"
+        "f1,mortalidade,x,INE,https://ine.pt,csv,CC-BY,2000-2020,PT,tested,,2026-01-01\n"
+        "f2,mortalidade,y,OMS,https://who.int,csv,CC-BY-NC,2000-2020,PT,tested,,2026-01-01\n",
         encoding="utf-8",
     )
-    clean_dir = study_dir / "dados" / "clean"
+    clean_dir = study_dir / "data" / "clean"
     clean_dir.mkdir(parents=True)
     pd.DataFrame(
         {
-            "data": ["2020-01-01", "2020-01-01"],
-            "regiao": ["", ""],
-            "sexo": ["", ""],
-            "idade": ["", ""],
-            "indicador": ["x", "y"],
-            "valor": [1.0, 2.0],
-            "unidade": ["n", "n"],
-            "fonte_id": ["f1", "f2"],
+            "date": ["2020-01-01", "2020-01-01"],
+            "region": ["", ""],
+            "sex": ["", ""],
+            "age": ["", ""],
+            "indicator": ["x", "y"],
+            "value": [1.0, 2.0],
+            "unit": ["n", "n"],
+            "source_id": ["f1", "f2"],
         }
     ).to_parquet(clean_dir / "dados.parquet")
 
     studies = mod.load_studies()
     mod.copy_study_pages(studies[0])
 
-    out_csv = site_dir / "estudos" / "saude-portugal" / "dados_abertos.csv"
+    out_csv = site_dir / "studies" / "saude-portugal" / "open_data.csv"
     assert out_csv.exists()
     df = pd.read_csv(out_csv)
-    assert set(df["fonte_id"]) == {"f1"}
+    assert set(df["source_id"]) == {"f1"}
