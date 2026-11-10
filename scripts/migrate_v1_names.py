@@ -90,11 +90,11 @@ def migrate_csv(path: Path) -> bool:
     out_rows = []
     for row in rows:
         new = {COLUMNS.get(k, k): v for k, v in row.items()}
-        for col in new:
+        for col, value in list(new.items()):
             mapping = VALUES.get((path.name, col))
-            if mapping and new[col] in mapping:
-                new[col] = mapping[new[col]]
-        if "calculation" in new and new["calculation"]:
+            if mapping and value in mapping:
+                new[col] = mapping[value]
+        if new.get("calculation"):
             new["calculation"] = migrate_calculation(new["calculation"])
         out_rows.append(new)
     if new_fields == old_fields and out_rows == rows:
@@ -153,7 +153,7 @@ def migrate_state(path: Path) -> bool:
         "current_phase": old.get("fase_atual", 1),
         "completed_phases": old.get("fases_concluidas", []),
         "phases": {},
-        "usage": {},
+        "updated_at": "2026-11-10T00:00:00Z",
     }
     path.write_text(json.dumps(new, indent=2) + "\n", encoding="utf-8")
     return True

@@ -4,7 +4,7 @@ import pytest
 
 from common import checks
 from common.csv_io import write_csv
-from common.schemas import Claim, DataSource, EventLink, Break
+from common.schemas import Break, Claim, DataSource, EventLink
 
 
 @pytest.fixture

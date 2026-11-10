@@ -10,8 +10,8 @@ responsible for linking them to events (that is the historian's job).
 """
 from __future__ import annotations
 
-from dataclasses import dataclass
 import datetime as dt
+from dataclasses import dataclass
 
 import numpy as np
 import pandas as pd

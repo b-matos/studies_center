@@ -21,7 +21,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 # Each pattern is a regex matched against the path relative to PROJECT_ROOT (posix separators).
 ALLOWLIST: dict[str, list[str]] = {
     "planner": [r"^studies/[^/]+/plan\.md$"],
-    "data-researcher": [r"^studies/[^/]+/sources\.csv$"],
+    "data-researcher": [r"^studies/[^/]+/sources\.d/[^/]+\.csv$"],
     "extractor": [
         r"^studies/[^/]+/data/raw/.+$",
         r"^studies/[^/]+/data/raw_manifest\.csv$",

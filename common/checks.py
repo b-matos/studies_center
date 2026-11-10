@@ -17,7 +17,7 @@ import yaml
 
 from common.csv_io import read_csv
 from common.download import verify_manifest
-from common.schemas import Claim, DataSource, EventLink, Break
+from common.schemas import Break, Claim, DataSource, EventLink
 
 STUDIES_ROOT = Path(__file__).resolve().parent.parent / "studies"
 
