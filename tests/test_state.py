@@ -203,3 +203,14 @@ def test_phases_cannot_be_skipped() -> None:
     state.init(SLUG)
     with pytest.raises(state.StateError, match=r"not completed"):
         state.start_phase(SLUG, 3)
+
+
+def test_init_creates_the_study_folder_and_yml_once(studies_root: Path) -> None:
+    import yaml
+
+    assert state.main(["init", "new-study", "--title-pt", "Saúde", "--title-en", "Health"]) == 0
+    meta = yaml.safe_load((studies_root / "new-study" / "study.yml").read_text(encoding="utf-8"))
+    assert (meta["title_pt"], meta["title_en"], meta["status"], meta["current_phase"]) == ("Saúde", "Health", "in_progress", 1)
+    assert (studies_root / "new-study" / "state.json").exists()
+    state.main(["init", "new-study", "--title-pt", "Other"])  # idempotent: nothing is overwritten
+    assert yaml.safe_load((studies_root / "new-study" / "study.yml").read_text(encoding="utf-8"))["title_pt"] == "Saúde"

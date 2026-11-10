@@ -8,7 +8,7 @@
     pt: {
       add: "Adicionar à fila", placeholder: "Tema do estudo, por exemplo: saúde em Portugal",
       run: "Executar", runNext: "Executar a seguir", resume: "Retomar", remove: "Remover", queued: "Na fila",
-      flagged: "A seguir", running: "A correr", done: "Concluído", failed: "Falhou", interrupted: "Interrompido",
+      flagged: "A seguir", running: "A correr", done: "Concluído", failed: "Falhou", interrupted: "Interrompido", needs_you: "Precisa de ti",
       empty: "A fila está vazia. Adiciona um tema acima.", noRun: "Nada a correr neste momento.",
       plan: "Plano: 5 h", week: "7 dias", resets: "renova às", limit: "Limite atingido",
       phases: ["Plano", "Fontes", "Extração", "Análise", "Eventos", "Redação", "Verificação", "Publicação"],
@@ -19,7 +19,7 @@
     en: {
       add: "Add to queue", placeholder: "Study topic, for example: health in Portugal",
       run: "Run", runNext: "Run next", resume: "Resume", remove: "Remove", queued: "Queued",
-      flagged: "Up next", running: "Running", done: "Done", failed: "Failed", interrupted: "Interrupted",
+      flagged: "Up next", running: "Running", done: "Done", failed: "Failed", interrupted: "Interrupted", needs_you: "Needs you",
       empty: "The queue is empty. Add a topic above.", noRun: "Nothing is running right now.",
       plan: "Plan: 5 h", week: "7 days", resets: "resets at", limit: "Limit reached",
       phases: ["Plan", "Sources", "Extraction", "Analysis", "Events", "Writing", "Verification", "Publication"],
@@ -68,10 +68,11 @@
       if (item.slug) meta.push(item.slug);
       if (item.tokens) meta.push(`${fmt(item.tokens)} ${T.tokens} · ${usd(item.cost_usd)}`);
       if (item.status === "interrupted" && item.resets_at) meta.push(`${T.limit} · ${T.resets} ${clock(item.resets_at)}`);
-      const canRun = ["queued", "interrupted", "failed"].includes(item.status) && !item.run_next;
+      const canRun = ["queued", "interrupted", "failed", "needs_you"].includes(item.status) && !item.run_next;
       const label = item.status === "queued" ? (busy ? T.runNext : T.run) : (busy ? T.runNext : T.resume);
       list.append(el("div", { class: `q-item q-${status}` },
-        el("div", { class: "q-main" }, el("strong", {}, item.topic), el("span", { class: "q-meta" }, meta.join(" · "))),
+        el("div", { class: "q-main" }, el("strong", {}, item.topic), el("span", { class: "q-meta" }, meta.join(" · ")),
+          item.note ? el("span", { class: "q-note" }, item.note) : ""),
         el("span", { class: `badge-estado q-badge-${status}` }, T[status] || status),
         canRun ? el("button", { onclick: () => act(() => api(`/api/queue/${item.id}/run`, "POST")) }, label) : "",
         item.status !== "running" ? el("button", { class: "q-secondary", onclick: () => act(() => api(`/api/queue/${item.id}`, "DELETE")) }, T.remove) : ""));

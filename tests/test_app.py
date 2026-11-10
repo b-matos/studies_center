@@ -20,12 +20,13 @@ def client(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> httpx.AsyncClient
     return httpx.AsyncClient(transport=ASGITransport(app=app_module.app), base_url="http://testserver")
 
 
-def _fake_run(gate: asyncio.Event | None = None, *, returncode: int = 0, interrupted: bool = False):
+def _fake_run(gate: asyncio.Event | None = None, *, status: str = "done", note: str = ""):
     async def fake(run_id, topic, on_event):
         await on_event({"type": "activity", "text": f"working on {topic}"})
         if gate:
             await gate.wait()
-        return runner.RunResult(returncode, "demo-study", interrupted, 1794338400 if interrupted else None, 1.25, 1000)
+        resets = 1794338400 if status == "interrupted" else None
+        return runner.RunResult(0 if status == "done" else 1, status, note, "demo-study", resets, 1.25, 1000)
     return fake
 
 
@@ -96,7 +97,7 @@ async def test_second_item_waits_and_starts_after_the_first(
 async def test_plan_limit_interrupts_and_does_not_start_the_next(
     monkeypatch: pytest.MonkeyPatch, client: httpx.AsyncClient
 ) -> None:
-    monkeypatch.setattr(runner, "run_study", _fake_run(returncode=1, interrupted=True))
+    monkeypatch.setattr(runner, "run_study", _fake_run(status="interrupted"))
     async with client as c:
         a = (await c.post("/api/queue", json={"topic": "tema um"})).json()
         b = (await c.post("/api/queue", json={"topic": "tema dois"})).json()
@@ -128,3 +129,38 @@ def test_runner_command_is_valid_for_headless_stream_json() -> None:
 def test_runner_detects_usage_limit_text() -> None:
     assert runner.LIMIT_PATTERN.search("Claude AI usage limit reached|1731000000")
     assert not runner.LIMIT_PATTERN.search("tudo bem")
+
+
+@pytest.mark.asyncio
+async def test_failed_run_keeps_its_reason_and_can_be_run_again(
+    monkeypatch: pytest.MonkeyPatch, client: httpx.AsyncClient
+) -> None:
+    monkeypatch.setattr(runner, "run_study", _fake_run(status="failed", note="Permissão recusada"))
+    async with client as c:
+        item = (await c.post("/api/queue", json={"topic": "habitacao"})).json()
+        await c.post(f"/api/queue/{item['id']}/run")
+        await _wait_for(lambda: app_module.hub.queue.get(item["id"])["status"] == "failed")
+        assert app_module.hub.queue.get(item["id"])["note"] == "Permissão recusada"
+        assert (await c.post(f"/api/queue/{item['id']}/run")).json()["started"] is True  # retry allowed
+
+
+def test_outcome_is_judged_on_the_study_not_on_the_exit_code(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    from common import state
+
+    monkeypatch.setattr(state, "STUDIES_ROOT", tmp_path)
+    denied = {"permission_denials": [{"tool_name": "Bash", "tool_input": {"command": "mkdir x && cat > y"}}]}
+    status, note = runner._outcome(0, False, denied, "s", "")
+    assert status == "failed" and "Permissão recusada" in note and "mkdir x" in note  # exit code 0, still a failure
+
+    assert runner._outcome(0, False, {}, None, "")[0] == "failed"  # never started a study
+    assert runner._outcome(1, True, {}, "s", "")[0] == "interrupted"
+
+    state.init("s")
+    assert runner._outcome(0, False, {}, "s", "")[0] == "failed"  # exited cleanly with phases missing
+    (tmp_path / "s" / "pending.md").write_text("decision", encoding="utf-8")
+    assert runner._outcome(0, False, {}, "s", "")[0] == "needs_you"
+    s = state.load("s")
+    s["completed_phases"] = list(range(1, 9))
+    state.save("s", s)
+    (tmp_path / "s" / "pending.md").unlink()
+    assert runner._outcome(0, False, {}, "s", "")[0] == "done"

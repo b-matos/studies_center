@@ -14,6 +14,14 @@ conversa: `studies/<slug>/state.json` (escrito só por `common.state`), os fiche
 fase e um commit por fase. Se a sessão morrer, o utilizador volta a correr `/study <tema>` e
 o estudo continua de onde parou; só a unidade de trabalho em curso é refeita.
 
+## Comandos Bash (obrigatório)
+
+Em modo headless só são permitidos `uv run ...`, `git add ...`, `git commit ...` e
+`quarto render ...`. **Um comando por chamada**: nada de `&&`, `;`, `|` para outros programas,
+heredocs, `mkdir`, `cat`, `ls` ou redirecionamentos (a chamada inteira é recusada e o estudo
+não arranca). Ficheiros criam-se com Write/Edit; o `git add` e o `git commit` são chamadas
+separadas. Se uma chamada for recusada, para e diz porquê; não contornes.
+
 ## Disciplina de tokens (obrigatória)
 
 - Tu és só o orquestrador: despachas, corres comandos e lês resultados curtos. Nunca leias
@@ -34,9 +42,9 @@ o estudo continua de onde parou; só a unidade de trabalho em curso é refeita.
 ## 0. Preparação e retoma
 
 1. Deriva o `slug` do tema **em inglês** (traduz o tema; minúsculas, hífens, sem acentos — `python-slugify`), porque os nomes de pastas são técnicos.
-2. Se `studies/<slug>/` não existir: cria `study.yml` (`title_pt`, `title_en`, `summary_pt`,
-   `summary_en`, `date`, `status: in_progress`, `current_phase: 1`) e corre
-   `uv run python -m common.state init <slug>`.
+2. Se `studies/<slug>/` não existir, corre **um** comando que cria a pasta, o `study.yml` e o
+   `state.json`: `uv run python -m common.state init <slug> --title-pt "..." --title-en "..."
+   --summary-pt "..." --summary-en "..."`.
 3. Corre **sempre** `uv run python -m common.state resume <slug>`. Imprime a próxima fase, as
    unidades feitas e por fazer, as tentativas gastas e os últimos problemas.
    - `BLOCKED`: lê `pending.md`, informa o utilizador e para.

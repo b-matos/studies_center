@@ -9,7 +9,7 @@ language, a claim), so an interrupted run loses at most the unit that was in fli
 
 CLI (all commands print a short result; exit 1 when the command refuses):
 
-    uv run python -m common.state init <slug>
+    uv run python -m common.state init <slug> [--title-pt T --title-en T --summary-pt S --summary-en S]
     uv run python -m common.state resume <slug>
     uv run python -m common.state start-phase <slug> <phase>
     uv run python -m common.state plan-units <slug> <phase> <unit> [<unit> ...]
@@ -28,6 +28,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 import pandas as pd
+import yaml
 
 from common.checks import CHECKS, STUDIES_ROOT
 from common.csv_io import read_csv, write_csv
@@ -102,12 +103,36 @@ def _phase(state: dict, phase: int) -> dict:
     )
 
 
-def init(slug: str) -> dict:
+def init(slug: str, titles: dict[str, str] | None = None) -> dict:
+    """Create the study folder, study.yml (if missing) and state.json (if missing)."""
+    study_dir = STUDIES_ROOT / slug
+    study_dir.mkdir(parents=True, exist_ok=True)
+    study_yml = study_dir / "study.yml"
+    if not study_yml.exists():
+        titles = titles or {}
+        meta = {
+            "title_pt": titles.get("title_pt", slug), "title_en": titles.get("title_en", slug),
+            "summary_pt": titles.get("summary_pt", ""), "summary_en": titles.get("summary_en", ""),
+            "date": datetime.now(UTC).strftime("%Y-%m-%d"), "status": "in_progress", "current_phase": 1,
+        }
+        study_yml.write_text(yaml.safe_dump(meta, allow_unicode=True, sort_keys=False), encoding="utf-8")
     if state_path(slug).exists():
         return load(slug)
     state = _empty_state()
     save(slug, state)
     return state
+
+
+def needs_user(slug: str) -> bool:
+    """True when the pipeline stopped on a decision that is the user's (pending.md or a blocked phase)."""
+    study_dir = STUDIES_ROOT / slug
+    if (study_dir / "pending.md").exists():
+        return True
+    return any(p.get("status") == "blocked" for p in load(slug)["phases"].values()) if state_path(slug).exists() else False
+
+
+def is_complete(slug: str) -> bool:
+    return state_path(slug).exists() and len(load(slug)["completed_phases"]) == len(PHASE_NAMES)
 
 
 def start_phase(slug: str, phase: int) -> dict:
@@ -311,8 +336,9 @@ def main(argv: list[str] | None = None) -> int:
     cmd, slug, rest = args[0], args[1], args[2:]
     try:
         if cmd == "init":
-            init(slug)
-            print(f"state ready for '{slug}'")
+            options = {k: rest[i + 1] for i, k in enumerate(rest) if k.startswith("--") and i + 1 < len(rest)}
+            init(slug, {k[2:].replace("-", "_"): v for k, v in options.items()})
+            print(f"study and state ready for '{slug}'")
         elif cmd == "resume":
             print(resume(slug))
         elif cmd == "start-phase":

@@ -49,7 +49,7 @@ ALLOWED_TOOLS = [
 OnEvent = Callable[[dict], Awaitable[None]]
 
 LIMIT_PATTERN = re.compile(r"usage limit|limit reached|rate.?limit|429|overloaded|quota", re.IGNORECASE)
-RUNS_HEADER = "timestamp,topic,slug,result,input_tokens,output_tokens,cost_usd"
+RUNS_HEADER = "timestamp,topic,slug,status,input_tokens,output_tokens,cost_usd"
 LIMIT_MESSAGE = (
     "Limite do plano atingido. O progresso está guardado em studies/<slug>/state.json: "
     "quando o limite renovar, volta a executar este estudo na fila e continua de onde parou."
@@ -58,12 +58,41 @@ LIMIT_MESSAGE = (
 
 @dataclass
 class RunResult:
+    """status: done (all 8 phases completed) | interrupted (plan limit) | needs_you | failed."""
+
     returncode: int
+    status: str
+    note: str
     slug: str | None
-    interrupted: bool
     resets_at: int | None
     cost_usd: float
     tokens: int
+
+
+def _denials(result_event: dict) -> str:
+    denied = result_event.get("permission_denials") or []
+    if not denied:
+        return ""
+    first = denied[0]
+    command = str((first.get("tool_input") or {}).get("command", ""))[:100]
+    return f"Permissão recusada ao Claude Code ({first.get('tool_name')}: {command}). O pipeline não chegou a arrancar."
+
+
+def _outcome(returncode: int, interrupted: bool, result_event: dict, slug: str | None, stderr: str) -> tuple[str, str]:
+    """Success is judged on the study (all 8 phases completed in state.json), not on the exit code."""
+    if interrupted:
+        return "interrupted", ""
+    if denial := _denials(result_event):
+        return "failed", denial
+    if returncode != 0:
+        return "failed", f"claude terminou com código {returncode}. {stderr.strip()[-200:]}".strip()
+    if not slug:
+        return "failed", "O Claude não chegou a iniciar nenhum estudo (ver o último registo em logs/)."
+    if state.is_complete(slug):
+        return "done", ""
+    if state.needs_user(slug):
+        return "needs_you", "O pipeline parou numa decisão tua: ver studies/<slug>/pending.md."
+    return "failed", "Terminou sem concluir as 8 fases; volta a executar para retomar."
 
 
 def _claude_command(topic: str) -> list[str]:
@@ -166,7 +195,7 @@ async def run_study(run_id: str, topic: str, on_event: OnEvent) -> RunResult:
             log_file.write(f"STDERR: {stderr}\n")
 
     rows = tracker.finish(result_event)
-    if tracker.slug:
+    if tracker.slug and state.state_path(tracker.slug).parent.exists():  # never create a study folder
         append_rows(tracker.slug, rows)
     cost = round(sum(r["cost_usd"] for r in rows), 4)
     tokens = sum(r[f] for r in rows for f in ("input_tokens", "cache_read_tokens", "cache_creation_tokens", "output_tokens"))
@@ -174,30 +203,27 @@ async def run_study(run_id: str, topic: str, on_event: OnEvent) -> RunResult:
         LIMIT_PATTERN.search(f"{result_event.get('result', '')} {stderr}")
         or (last_plan and last_plan.get("status") == "rejected")
     )
-    _append_run_record(topic, tracker.slug, timestamp, returncode, rows, interrupted=interrupted)
+    status, note = _outcome(returncode, interrupted, result_event, tracker.slug, stderr)
+    _append_run_record(topic, tracker.slug, timestamp, status, rows)
     if interrupted:
         await on_event({"type": "limit", "text": LIMIT_MESSAGE, "resets_at": (last_plan or {}).get("resets_at")})
+    elif note:
+        await on_event({"type": "error", "text": note})
     return RunResult(
-        returncode=returncode, slug=tracker.slug, interrupted=interrupted,
+        returncode=returncode, status=status, note=note, slug=tracker.slug,
         resets_at=(last_plan or {}).get("resets_at") if interrupted else None, cost_usd=cost, tokens=tokens,
     )
 
 
-def _append_run_record(
-    topic: str, slug: str | None, timestamp: str, returncode: int, rows: list[dict], *, interrupted: bool
-) -> None:
+def _append_run_record(topic: str, slug: str | None, timestamp: str, status: str, rows: list[dict]) -> None:
     runs_csv = LOGS_DIR / "runs.csv"
     if runs_csv.exists() and runs_csv.read_text(encoding="utf-8").split("\n", 1)[0] != RUNS_HEADER:
-        runs_csv.rename(LOGS_DIR / "runs.old.csv")  # header from before slug/cost tracking
+        runs_csv.rename(LOGS_DIR / "runs.old.csv")  # header from before the outcome rules changed
     is_new = not runs_csv.exists()
-    if returncode == 0:
-        result = "sucesso"
-    else:
-        result = "interrompido_por_limite" if interrupted else f"falhou({returncode})"
     input_tokens = sum(r["input_tokens"] + r["cache_read_tokens"] + r["cache_creation_tokens"] for r in rows)
     output_tokens = sum(r["output_tokens"] for r in rows)
     cost = round(sum(r["cost_usd"] for r in rows), 4)
     with runs_csv.open("a", encoding="utf-8") as f:
         if is_new:
             f.write(RUNS_HEADER + "\n")
-        f.write(f"{timestamp},{topic!r},{slug or ''},{result},{input_tokens},{output_tokens},{cost}\n")
+        f.write(f"{timestamp},{topic!r},{slug or ''},{status},{input_tokens},{output_tokens},{cost}\n")

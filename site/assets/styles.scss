@@ -158,3 +158,6 @@ table.accessible-data { font-size: 0.85rem; max-height: 16rem; overflow-y: auto;
 .q-study-row td { font-weight: 600; padding-top: 0.6rem; }
 .q-phase-row td { color: #64748b; }
 .q-empty { color: #64748b; }
+
+.q-note { color: #b45309; font-size: 0.85rem; }
+.q-failed .q-note { color: #b91c1c; }

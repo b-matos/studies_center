@@ -68,24 +68,26 @@ class Hub:
         async def on_event(event: dict) -> None:
             await self.publish(event)
 
-        status, result = "failed", None
+        status, result, note = "failed", None, ""
         try:
             result = await runner.run_study(item["id"], item["topic"], on_event)
-            status = "done" if result.returncode == 0 else "interrupted" if result.interrupted else "failed"
+            status = result.status
         except FileNotFoundError:
-            await self.publish({"type": "error", "text": "comando 'claude' não encontrado"})
+            note = "comando 'claude' não encontrado"
+            await self.publish({"type": "error", "text": note})
         except Exception as exc:  # defensive: never let one bad run kill the server
-            await self.publish({"type": "error", "text": str(exc)})
+            note = str(exc)
+            await self.publish({"type": "error", "text": note})
         self.queue.finish(
             item["id"], status=status, slug=getattr(result, "slug", None),
             cost_usd=getattr(result, "cost_usd", 0.0), tokens=getattr(result, "tokens", 0),
-            resets_at=getattr(result, "resets_at", None),
+            resets_at=getattr(result, "resets_at", None), note=getattr(result, "note", "") or note,
         )
         await self.publish({"type": "end", "item_id": item["id"], "status": status})
         await self.publish_queue()
         await self.publish({"type": "usage", "studies": usage.summarize_all()})
         following = self.queue.next_flagged()
-        if following and status != "interrupted":  # after a plan-limit cut, wait for the user
+        if following and status in {"done", "failed"}:  # after a limit cut or a decision for the user, wait
             self.start(following["id"])
 
 

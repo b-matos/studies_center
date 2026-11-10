@@ -4,7 +4,7 @@ The queue is a backlog: adding a topic does not run it. The user picks what runs
 (`run`) from the page. Only one study runs at a time; picking another while one is running
 marks it `run_next`, and the server starts it when the current one ends.
 
-Item status: queued | running | done | failed | interrupted. An item that was running when
+Item status: queued | running | done | failed | interrupted | needs_you. An item that was running when
 the server stopped (or was cut by the plan's usage limit) is `interrupted` and can be run
 again: `/study` resumes from state.json.
 """
@@ -18,7 +18,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 QUEUE_PATH = Path(__file__).resolve().parent.parent / "queue.json"
-RUNNABLE = {"queued", "interrupted", "failed"}
+RUNNABLE = {"queued", "interrupted", "failed", "needs_you"}
 
 
 def _now() -> str:
@@ -71,7 +71,7 @@ class StudyQueue:
         item = {
             "id": uuid.uuid4().hex[:10], "topic": topic, "status": "queued", "run_next": False,
             "slug": None, "created_at": _now(), "started_at": None, "finished_at": None,
-            "resets_at": None, "cost_usd": 0.0, "tokens": 0,
+            "resets_at": None, "note": "", "cost_usd": 0.0, "tokens": 0,
         }
         self.items.append(item)
         self.save()
@@ -97,14 +97,14 @@ class StudyQueue:
 
     def mark_running(self, item_id: str) -> dict:
         item = self.get(item_id)
-        item.update(status="running", run_next=False, started_at=_now(), finished_at=None, resets_at=None)
+        item.update(status="running", run_next=False, started_at=_now(), finished_at=None, resets_at=None, note="")
         self.save()
         return item
 
     def finish(self, item_id: str, *, status: str, slug: str | None, cost_usd: float, tokens: int,
-               resets_at: int | None = None) -> dict:
+               resets_at: int | None = None, note: str = "") -> dict:
         item = self.get(item_id)
-        item.update(status=status, slug=slug or item["slug"], finished_at=_now(), resets_at=resets_at)
+        item.update(status=status, slug=slug or item["slug"], finished_at=_now(), resets_at=resets_at, note=note)
         item["cost_usd"] = round(item["cost_usd"] + cost_usd, 4)  # a resumed study adds to its total
         item["tokens"] += tokens
         self.save()
