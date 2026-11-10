@@ -6,3 +6,7 @@ run_id,timestamp,phase,model,input_tokens,cache_read_tokens,cache_creation_token
 9b8b0b8920,2026-11-10T15:44:53Z,1,claude-opus-5-5,10,46592,21092,36,0.142076
 9b8b0b8920,2026-11-10T15:44:53Z,unattributed,claude-opus-5-5,0,0,0,5420,0.081863
 9b8b0b8920,2026-11-10T15:44:53Z,unattributed,claude-haiku-5-5,248817,0,0,16572,0.173168
+9b8b0b8920,2026-11-10T16:43:17Z,prep,claude-sonnet-5-5,4,40861,18183,8,0.05748
+9b8b0b8920,2026-11-10T16:43:17Z,2,claude-sonnet-5-5,222,2564326,158200,5853,0.854931
+9b8b0b8920,2026-11-10T16:43:17Z,unattributed,claude-sonnet-5-5,0,0,0,31852,0.226053
+9b8b0b8920,2026-11-10T16:43:17Z,unattributed,claude-haiku-5-5,390820,0,0,24504,0.161334
