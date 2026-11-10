@@ -6,7 +6,6 @@ output-file: queue.html
 Junta temas à fila e escolhe tu o que corre a seguir. Só corre um estudo de cada vez; se atingires o limite do plano, o progresso fica guardado e podes retomar mais tarde.
 
 <div id="q-app">
-  <p id="q-plan" class="q-meta"></p>
   <form id="q-form" class="q-form"><input id="q-topic" type="text" required minlength="3" maxlength="80" autocomplete="off"><button id="q-add" type="submit"></button></form>
   <p id="q-error" class="q-error" role="alert"></p>
 
@@ -14,6 +13,7 @@ Junta temas à fila e escolhe tu o que corre a seguir. Só corre um estudo de ca
   <div id="q-list"></div>
 
   <h2>A correr</h2>
+  <p id="q-plan" class="q-meta"></p>
   <div id="q-progress"></div>
 
   <h2>Custo por estudo</h2>

@@ -13,7 +13,7 @@
       plan: "Plano: 5 h", week: "7 dias", resets: "renova às", limit: "Limite atingido",
       phases: ["Plano", "Fontes", "Extração", "Análise", "Eventos", "Redação", "Verificação", "Publicação"],
       tokens: "tokens", cost: "custo", phase: "Fase", study: "Estudo", total: "Total", noUsage: "Ainda sem consumo registado.",
-      estimate: "Custo total de cada estudo (equivalente ao preço de lista da API; não é necessariamente o que a subscrição cobra).",
+      estimate: "Tokens e custo totais de cada estudo (o custo é o equivalente ao preço de lista da API; não é necessariamente o que a subscrição cobra).",
       offline: "Sem ligação ao servidor local. Inicia-o com: uv run python -m server.app", doing: "A fazer",
     },
     en: {
@@ -24,7 +24,7 @@
       plan: "Plan: 5 h", week: "7 days", resets: "resets at", limit: "Limit reached",
       phases: ["Plan", "Sources", "Extraction", "Analysis", "Events", "Writing", "Verification", "Publication"],
       tokens: "tokens", cost: "cost", phase: "Phase", study: "Study", total: "Total", noUsage: "No usage recorded yet.",
-      estimate: "Total cost of each study (API list-price equivalent; not necessarily what a subscription bills).",
+      estimate: "Total tokens and cost of each study (cost is the API list-price equivalent; not necessarily what a subscription bills).",
       offline: "No connection to the local server. Start it with: uv run python -m server.app", doing: "Doing",
     },
   }[lang];
@@ -104,9 +104,9 @@
     box.replaceChildren();
     if (!studies.length) { box.append(el("p", { class: "q-empty" }, T.noUsage)); return; }
     const table = el("table", { class: "q-table" },
-      el("thead", {}, el("tr", {}, el("th", {}, T.study), el("th", {}, T.cost))));
+      el("thead", {}, el("tr", {}, el("th", {}, T.study), el("th", {}, T.tokens), el("th", {}, T.cost))));
     const body = el("tbody");
-    for (const s of studies) body.append(el("tr", {}, el("td", {}, s.slug), el("td", {}, usd(s.cost_usd))));
+    for (const s of studies) body.append(el("tr", {}, el("td", {}, s.slug), el("td", {}, fmt(tokensOf(s))), el("td", {}, usd(s.cost_usd))));
     table.append(body);
     box.append(table, el("p", { class: "q-meta" }, T.estimate));
   }

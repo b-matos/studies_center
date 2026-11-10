@@ -161,3 +161,5 @@ table.accessible-data { font-size: 0.85rem; max-height: 16rem; overflow-y: auto;
 
 .q-note { color: #b45309; font-size: 0.85rem; }
 .q-failed .q-note { color: #b91c1c; }
+
+.q-table td:nth-child(n+2), .q-table th:nth-child(n+2) { text-align: right; }
