@@ -27,6 +27,27 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE_DIR = ROOT / "site" / "_site"
 
 
+def plan_from_status(raw: str) -> str | None:
+    """Plan name from `claude auth status` JSON. Only the subscription type is kept: the same
+    output has the account email and organisation id, which must never reach the page."""
+    try:
+        kind = json.loads(raw).get("subscriptionType")
+    except (json.JSONDecodeError, AttributeError):
+        return None
+    return str(kind).capitalize() if kind else None
+
+
+async def detect_plan() -> str | None:
+    try:
+        process = await asyncio.create_subprocess_exec(
+            "claude", "auth", "status", stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.DEVNULL
+        )
+        out, _ = await asyncio.wait_for(process.communicate(), timeout=15)
+    except (FileNotFoundError, TimeoutError):
+        return None
+    return plan_from_status(out.decode("utf-8", errors="replace"))
+
+
 class TopicRequest(BaseModel):
     topic: str
 
@@ -39,6 +60,7 @@ class Hub:
         self.subscribers: list[asyncio.Queue[dict]] = []
         self.task: asyncio.Task | None = None
         self.last: dict[str, dict] = {}  # latest event of each kind, replayed to new subscribers
+        self.plan: str | None = None
 
     def subscribe(self) -> asyncio.Queue[dict]:
         subscriber: asyncio.Queue[dict] = asyncio.Queue()
@@ -98,6 +120,7 @@ hub: Hub | None = None
 async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     global hub
     hub = Hub()
+    hub.plan = await detect_plan()
     yield
     if hub.task:
         hub.task.cancel()
@@ -149,6 +172,11 @@ async def run_item(item_id: str) -> dict:
         _hub().start(item_id)
     await _hub().publish_queue()
     return {"id": item_id, "started": start_now}
+
+
+@app.get("/api/plan")
+async def get_plan() -> dict:
+    return {"plan": _hub().plan}
 
 
 @app.get("/api/usage")

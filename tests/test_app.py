@@ -182,3 +182,18 @@ def test_background_wait_timeout_is_named_as_the_cause_not_a_denied_command(
 
 def test_runner_environment_extends_the_background_wait() -> None:
     assert int(runner.BG_WAIT_CEILING_MS) >= 3_600_000
+
+
+def test_plan_name_keeps_only_the_subscription_type() -> None:
+    raw = '{"subscriptionType": "pro", "email": "someone@example.com", "orgId": "secret", "planTier": "pro"}'
+    assert app_module.plan_from_status(raw) == "Pro"
+    assert "example.com" not in str(app_module.plan_from_status(raw))
+    assert app_module.plan_from_status("not json") is None
+    assert app_module.plan_from_status('{"loggedIn": false}') is None
+
+
+@pytest.mark.asyncio
+async def test_plan_endpoint_returns_only_the_plan(client: httpx.AsyncClient) -> None:
+    app_module.hub.plan = "Pro"
+    async with client as c:
+        assert (await c.get("/api/plan")).json() == {"plan": "Pro"}

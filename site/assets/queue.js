@@ -10,7 +10,7 @@
       run: "Executar", runNext: "Executar a seguir", resume: "Retomar", remove: "Remover", queued: "Na fila",
       flagged: "A seguir", running: "A correr", done: "Concluído", failed: "Falhou", interrupted: "Interrompido", needs_you: "Precisa de ti",
       empty: "A fila está vazia. Adiciona um tema acima.", noRun: "Nada a correr neste momento.",
-      plan: "Plano: 5 h", week: "7 dias", resets: "renova às", limit: "Limite atingido",
+      plan: "Plano", h5: "5 h", week: "7 dias", resets: "renova às", limit: "Limite atingido",
       phases: ["Plano", "Fontes", "Extração", "Análise", "Eventos", "Redação", "Verificação", "Publicação"],
       tokens: "tokens", cost: "custo", phase: "Fase", study: "Estudo", total: "Total", noUsage: "Ainda sem consumo registado.",
       estimate: "Tokens e custo totais de cada estudo (o custo é o equivalente ao preço de lista da API; não é necessariamente o que a subscrição cobra).",
@@ -21,7 +21,7 @@
       run: "Run", runNext: "Run next", resume: "Resume", remove: "Remove", queued: "Queued",
       flagged: "Up next", running: "Running", done: "Done", failed: "Failed", interrupted: "Interrupted", needs_you: "Needs you",
       empty: "The queue is empty. Add a topic above.", noRun: "Nothing is running right now.",
-      plan: "Plan: 5 h", week: "7 days", resets: "resets at", limit: "Limit reached",
+      plan: "Plan", h5: "5 h", week: "7 days", resets: "resets at", limit: "Limit reached",
       phases: ["Plan", "Sources", "Extraction", "Analysis", "Events", "Writing", "Verification", "Publication"],
       tokens: "tokens", cost: "cost", phase: "Phase", study: "Study", total: "Total", noUsage: "No usage recorded yet.",
       estimate: "Total tokens and cost of each study (cost is the API list-price equivalent; not necessarily what a subscription bills).",
@@ -94,9 +94,19 @@
     box.append(rows, el("p", { class: "q-activity", id: "q-activity" }));
   }
 
-  function renderPlan(e) {
+  let planName = null;
+  let lastUsage = null;
+
+  function renderPlan(usage) {
+    if (usage) lastUsage = usage;
     const pct = (v) => (v == null ? "–" : Math.round(v * 100) + "%");
-    $("q-plan").textContent = `${T.plan} ${pct(e.five_hour)} · ${T.week} ${pct(e.seven_day)}` + (e.resets_at ? ` · ${T.resets} ${clock(e.resets_at)}` : "");
+    const parts = [];
+    if (planName) parts.push(`${T.plan} ${planName}`);
+    if (lastUsage) {
+      parts.push(`${T.h5} ${pct(lastUsage.five_hour)}`, `${T.week} ${pct(lastUsage.seven_day)}`);
+      if (lastUsage.resets_at) parts.push(`${T.resets} ${clock(lastUsage.resets_at)}`);
+    }
+    $("q-plan").textContent = parts.join(" · ");
   }
 
   function renderUsage(studies) {
@@ -137,6 +147,8 @@
       items = (await api("/api/queue")).items;
       renderQueue();
       renderUsage((await api("/api/usage")).studies);
+      planName = (await api("/api/plan")).plan;
+      renderPlan(null);
       const stream = new EventSource("/api/events");
       stream.onmessage = (m) => handle(JSON.parse(m.data));
     } catch (e) {
