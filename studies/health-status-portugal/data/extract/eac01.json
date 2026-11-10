@@ -1,0 +1,10 @@
+{
+  "fetch": {"kind": "eurostat", "dataset": "hlth_silc_08", "key": {"geo": "PT+EU27_2020"},
+            "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/HLTH_SILC_08",
+            "filename": "eac01_eurostat_hlth_silc_08.csv"},
+  "normalize": {
+    "indicator": "unmet_medical_needs", "unit": "percent",
+    "date": "TIME_PERIOD", "value": "value", "region": "geo", "sex": "sex", "age": "age",
+    "labels": {"geo": {"PT": "Portugal", "EU27_2020": "European Union (27)"}}
+  }
+}
