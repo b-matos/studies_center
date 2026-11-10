@@ -21,6 +21,7 @@ site/studies/
 
 # Server logs and run history
 logs/
+queue.json
 
 # Editor / OS
 .DS_Store

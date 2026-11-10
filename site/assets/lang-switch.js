@@ -9,7 +9,7 @@
     const renamed = rest
       .replace(/^index\.html?$/, "index.html")
       .replace(/^events\.html$/, "events.html")
-      .replace(/^new\.html$/, "new.html");
+      .replace(/^queue\.html$/, "queue.html");
     return `/${other}/${renamed}`;
   }
 

@@ -3,7 +3,7 @@ project:
   render:
     - "index.pt.qmd"
     - "events.pt.qmd"
-    - "new.pt.qmd"
+    - "queue.pt.qmd"
     - "studies/*/index.pt.qmd"
   resources:
     - "studies/*/open_data.csv"
@@ -22,8 +22,8 @@ website:
         text: Estudos
       - href: events.pt.qmd
         text: Eventos
-      - href: new.pt.qmd
-        text: Novo estudo
+      - href: queue.pt.qmd
+        text: Fila
     right:
       - text: "EN"
         href: "/en/"

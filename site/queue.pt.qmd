@@ -1,0 +1,23 @@
+---
+title: "Fila de estudos"
+output-file: queue.html
+---
+
+Junta temas à fila e escolhe tu o que corre a seguir. Só corre um estudo de cada vez; se atingires o limite do plano, o progresso fica guardado e podes retomar mais tarde.
+
+<div id="q-app">
+  <p id="q-plan" class="q-meta"></p>
+  <form id="q-form" class="q-form"><input id="q-topic" type="text" required minlength="3" maxlength="80" autocomplete="off"><button id="q-add" type="submit"></button></form>
+  <p id="q-error" class="q-error" role="alert"></p>
+
+  <h2>Fila</h2>
+  <div id="q-list"></div>
+
+  <h2>A correr</h2>
+  <div id="q-progress"></div>
+
+  <h2>Consumo por estudo</h2>
+  <div id="q-usage"></div>
+</div>
+
+<script src="/assets/queue.js" data-lang="pt"></script>

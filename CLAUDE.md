@@ -73,8 +73,14 @@ isso:
   (verificação de excertos e valores).
 - **Contexto curto:** subagentes devolvem resumos de ≤150 palavras; o orquestrador passa
   caminhos, não conteúdos; no máximo 2 subagentes em simultâneo.
-- O servidor regista tokens por execução em `logs/runs.csv` e marca como
-  `interrompido_por_limite` as execuções cortadas pelo limite do plano.
+- **Consumo e custo:** cada execução lançada pelo servidor grava tokens e custo em
+  `studies/<slug>/usage.csv` (por fase e modelo; custo total exato, divisão por fase estimada,
+  equivalente ao preço de lista da API) e em `logs/runs.csv`. Ver com
+  `uv run python -m common.usage [<slug>]` ou na página Fila. Sessões interativas não são
+  registadas.
+- **Fila local:** `queue.json` (gitignored) guarda os temas por fazer; só corre o que escolhes
+  na página Fila, um de cada vez. Se o limite do plano cortar uma execução, o item fica
+  `interrompido` com a hora de renovação e retoma de `state.json` quando o voltares a executar.
 
 ## Estrutura
 

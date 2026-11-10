@@ -1,14 +1,14 @@
-"""Local FastAPI server: serves the compiled Quarto site and exposes POST /api/studies.
+"""Local FastAPI server: serves the compiled Quarto site and the study queue API.
 
-Binds to 127.0.0.1 only (see run()). One /study run executes at a time; later requests
-queue up (asyncio.Queue + a single worker task). Progress is pushed to the browser as
-Server-Sent Events, keyed by run_id.
+Binds to 127.0.0.1 only (see run()). The queue is a persistent backlog (server/queue.py):
+nothing runs until you press "run" on an item. One study runs at a time; the next flagged
+one starts when it ends. Progress goes to every open page through one Server-Sent Events
+stream (/api/events); a page that connects late gets the current state first.
 """
 from __future__ import annotations
 
 import asyncio
 import json
-import uuid
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
 from pathlib import Path
@@ -18,98 +18,153 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from sse_starlette.sse import EventSourceResponse
 
+from common import usage
 from server import runner
+from server.queue import QueueError, StudyQueue
 from server.validation import InvalidTopic, validate_topic
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE_DIR = ROOT / "site" / "_site"
 
 
-class StudyRequest(BaseModel):
+class TopicRequest(BaseModel):
     topic: str
 
 
-class RunState:
+class Hub:
+    """Queue + fan-out of events to the open pages + the single running study."""
+
     def __init__(self) -> None:
-        self.queue: asyncio.Queue[tuple[str, str]] = asyncio.Queue()
-        self.subscribers: dict[str, list[asyncio.Queue[dict]]] = {}
-        self.worker_task: asyncio.Task | None = None
+        self.queue = StudyQueue()
+        self.subscribers: list[asyncio.Queue[dict]] = []
+        self.task: asyncio.Task | None = None
+        self.last: dict[str, dict] = {}  # latest event of each kind, replayed to new subscribers
 
-    def new_run(self, topic: str) -> str:
-        run_id = uuid.uuid4().hex[:12]
-        self.subscribers[run_id] = []
-        self.queue.put_nowait((run_id, topic))
-        return run_id
+    def subscribe(self) -> asyncio.Queue[dict]:
+        subscriber: asyncio.Queue[dict] = asyncio.Queue()
+        for event in self.last.values():
+            subscriber.put_nowait(event)
+        self.subscribers.append(subscriber)
+        return subscriber
 
-    def subscribe(self, run_id: str) -> asyncio.Queue[dict]:
-        subscriber_queue: asyncio.Queue[dict] = asyncio.Queue()
-        self.subscribers.setdefault(run_id, []).append(subscriber_queue)
-        return subscriber_queue
+    async def publish(self, event: dict) -> None:
+        if event["type"] in {"progress", "plan_usage", "limit", "queue"}:
+            self.last[event["type"]] = event
+        for subscriber in self.subscribers:
+            await subscriber.put(event)
 
-    async def publish(self, run_id: str, event: dict) -> None:
-        for subscriber_queue in self.subscribers.get(run_id, []):
-            await subscriber_queue.put(event)
+    async def publish_queue(self) -> None:
+        await self.publish({"type": "queue", "items": self.queue.items})
 
-    async def worker(self) -> None:
-        while True:
-            run_id, topic = await self.queue.get()
+    def start(self, item_id: str) -> None:
+        item = self.queue.mark_running(item_id)
+        self.last.pop("progress", None)
+        self.last.pop("limit", None)
+        self.task = asyncio.create_task(self._run(item))
 
-            async def on_event(event: dict, run_id: str = run_id) -> None:
-                await self.publish(run_id, event)
+    async def _run(self, item: dict) -> None:
+        await self.publish_queue()
 
-            try:
-                await runner.run_study(run_id, topic, on_event)
-            except FileNotFoundError:
-                await self.publish(run_id, {"type": "error", "text": "comando 'claude' não encontrado"})
-                await self.publish(run_id, {"type": "end", "text": "falhou"})
-            except Exception as exc:  # defensive: never let one bad run kill the worker loop
-                await self.publish(run_id, {"type": "error", "text": str(exc)})
-                await self.publish(run_id, {"type": "end", "text": "falhou"})
-            finally:
-                self.queue.task_done()
+        async def on_event(event: dict) -> None:
+            await self.publish(event)
+
+        status, result = "failed", None
+        try:
+            result = await runner.run_study(item["id"], item["topic"], on_event)
+            status = "done" if result.returncode == 0 else "interrupted" if result.interrupted else "failed"
+        except FileNotFoundError:
+            await self.publish({"type": "error", "text": "comando 'claude' não encontrado"})
+        except Exception as exc:  # defensive: never let one bad run kill the server
+            await self.publish({"type": "error", "text": str(exc)})
+        self.queue.finish(
+            item["id"], status=status, slug=getattr(result, "slug", None),
+            cost_usd=getattr(result, "cost_usd", 0.0), tokens=getattr(result, "tokens", 0),
+            resets_at=getattr(result, "resets_at", None),
+        )
+        await self.publish({"type": "end", "item_id": item["id"], "status": status})
+        await self.publish_queue()
+        await self.publish({"type": "usage", "studies": usage.summarize_all()})
+        following = self.queue.next_flagged()
+        if following and status != "interrupted":  # after a plan-limit cut, wait for the user
+            self.start(following["id"])
 
 
-state = RunState()
+hub: Hub | None = None
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncIterator[None]:
-    state.worker_task = asyncio.create_task(state.worker())
+    global hub
+    hub = Hub()
     yield
-    if state.worker_task:
-        state.worker_task.cancel()
+    if hub.task:
+        hub.task.cancel()
 
 
 app = FastAPI(lifespan=lifespan)
 
 
-@app.post("/api/studies")
-async def create_study(req: StudyRequest) -> dict:
+def _hub() -> Hub:
+    assert hub is not None
+    return hub
+
+
+@app.get("/api/queue")
+async def get_queue() -> dict:
+    return {"items": _hub().queue.items}
+
+
+@app.post("/api/queue")
+async def add_to_queue(req: TopicRequest) -> dict:
     try:
         topic = validate_topic(req.topic)
+        item = _hub().queue.add(topic)
     except InvalidTopic as exc:
         raise HTTPException(status_code=422, detail=str(exc)) from exc
-    run_id = state.new_run(topic)
-    return {"run_id": run_id, "topic": topic, "queue_position": state.queue.qsize()}
+    except QueueError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+    await _hub().publish_queue()
+    return item
 
 
-@app.get("/api/runs")
-async def list_runs() -> dict:
-    return {"em_fila_ou_a_correr": list(state.subscribers.keys())}
+@app.delete("/api/queue/{item_id}")
+async def remove_from_queue(item_id: str) -> dict:
+    try:
+        _hub().queue.remove(item_id)
+    except QueueError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+    await _hub().publish_queue()
+    return {"removed": item_id}
 
 
-@app.get("/api/runs/{run_id}/stream")
-async def stream_run(run_id: str) -> EventSourceResponse:
-    if run_id not in state.subscribers:
-        raise HTTPException(status_code=404, detail="run_id desconhecido")
-    subscriber_queue = state.subscribe(run_id)
+@app.post("/api/queue/{item_id}/run")
+async def run_item(item_id: str) -> dict:
+    try:
+        _item, start_now = _hub().queue.request_run(item_id)
+    except QueueError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+    if start_now:
+        _hub().start(item_id)
+    await _hub().publish_queue()
+    return {"id": item_id, "started": start_now}
+
+
+@app.get("/api/usage")
+async def get_usage() -> dict:
+    return {"studies": usage.summarize_all()}
+
+
+@app.get("/api/events")
+async def stream_events() -> EventSourceResponse:
+    subscriber = _hub().subscribe()
 
     async def event_generator() -> AsyncIterator[dict]:
-        while True:
-            event = await subscriber_queue.get()
-            yield {"data": json.dumps(event, ensure_ascii=False)}
-            if event.get("type") == "end":
-                break
+        try:
+            while True:
+                event = await subscriber.get()
+                yield {"data": json.dumps(event, ensure_ascii=False)}
+        finally:
+            _hub().subscribers.remove(subscriber)
 
     return EventSourceResponse(event_generator())
 

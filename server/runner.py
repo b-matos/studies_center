@@ -1,21 +1,34 @@
-"""Launch Claude Code headlessly for one /study run, streaming progress events.
+"""Launch Claude Code headlessly for one /study run and report what it is doing.
 
 Uses asyncio.create_subprocess_exec with an argument list — never a shell string — so the
-(already-validated) topic can never be interpreted by a shell. Parses --output-format
-stream-json's newline-delimited JSON and forwards a simplified event per line to the
-caller-supplied `on_event` callback, while also writing the raw line to a per-run log file.
+(already-validated) topic can never be interpreted by a shell. Every stream-json line goes to
+a per-run log file and to a `UsageTracker`, which turns it into three kinds of UI events:
+
+- `activity`: one short line with what Claude is doing right now;
+- `progress`: the per-phase picture read from studies/<slug>/state.json;
+- `plan_usage`: the plan's 5-hour / 7-day utilisation from rate_limit_event.
+
+When the run ends, tokens and cost are saved to studies/<slug>/usage.csv and logs/runs.csv.
 """
 from __future__ import annotations
 
 import asyncio
 import json
 import re
+import sys
 from collections.abc import Awaitable, Callable
+from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
 
+from common import state
+from common.usage import UsageTracker, append_rows
+
 ROOT = Path(__file__).resolve().parent.parent
 LOGS_DIR = ROOT / "logs"
+
+# The orchestrator only dispatches subagents and runs commands, so the cheaper model is enough.
+ORCHESTRATOR_MODEL = "sonnet"
 
 ALLOWED_TOOLS = [
     "Read",
@@ -35,20 +48,22 @@ ALLOWED_TOOLS = [
 
 OnEvent = Callable[[dict], Awaitable[None]]
 
-# Claude Code's headless messages when the plan's usage window is exhausted (or the API throttles).
 LIMIT_PATTERN = re.compile(r"usage limit|limit reached|rate.?limit|429|overloaded|quota", re.IGNORECASE)
-RUNS_HEADER = "timestamp,topic,result,input_tokens,output_tokens"
+RUNS_HEADER = "timestamp,topic,slug,result,input_tokens,output_tokens,cost_usd"
 LIMIT_MESSAGE = (
-    "Limite de tokens atingido. O progresso está guardado em studies/<slug>/state.json: "
-    "quando o limite renovar, lança o mesmo tema outra vez e o estudo continua de onde parou."
+    "Limite do plano atingido. O progresso está guardado em studies/<slug>/state.json: "
+    "quando o limite renovar, volta a executar este estudo na fila e continua de onde parou."
 )
 
 
-def _tokens(result_event: dict) -> tuple[int, int]:
-    usage = result_event.get("usage") or {}
-    input_tokens = sum(usage.get(k, 0) or 0 for k in (
-        "input_tokens", "cache_creation_input_tokens", "cache_read_input_tokens"))
-    return input_tokens, usage.get("output_tokens", 0) or 0
+@dataclass
+class RunResult:
+    returncode: int
+    slug: str | None
+    interrupted: bool
+    resets_at: int | None
+    cost_usd: float
+    tokens: int
 
 
 def _claude_command(topic: str) -> list[str]:
@@ -58,7 +73,9 @@ def _claude_command(topic: str) -> list[str]:
         f"/study {topic}",
         "--output-format",
         "stream-json",
-        "--include-partial-messages",
+        "--verbose",  # required by claude -p for stream-json
+        "--model",
+        ORCHESTRATOR_MODEL,
         "--permission-mode",
         "dontAsk",
         "--permission-prompts",
@@ -68,38 +85,54 @@ def _claude_command(topic: str) -> list[str]:
     ]
 
 
-def _simplify(event: dict) -> dict:
-    """Reduce one stream-json line to {type, text} for the browser's progress log."""
-    event_type = event.get("type", "unknown")
-    text = ""
-    if event_type == "assistant":
-        for block in event.get("message", {}).get("content", []):
-            if block.get("type") == "text":
-                text += block.get("text", "")
-            elif block.get("type") == "tool_use":
-                text += f"[ferramenta: {block.get('name')}]"
-    elif event_type == "result":
-        text = str(event.get("result", ""))
-    elif event_type == "system":
-        text = str(event.get("subtype", ""))
-    return {"type": event_type, "text": text}
+def _assistant_text(event: dict) -> str:
+    blocks = (event.get("message") or {}).get("content") or []
+    return "".join(b.get("text", "") for b in blocks if b.get("type") == "text").strip()
 
 
-async def run_study(run_id: str, topic: str, on_event: OnEvent) -> int:
-    """Run `/study <topic>` headlessly. Returns the subprocess exit code."""
+def _plan_usage(event: dict) -> dict | None:
+    info = event.get("rate_limit_info") or {}
+    windows = info.get("unifiedWindows") or {}
+    if not windows:
+        return None
+    return {
+        "type": "plan_usage",
+        "five_hour": (windows.get("five_hour") or {}).get("utilization"),
+        "seven_day": (windows.get("seven_day") or {}).get("utilization"),
+        "status": info.get("status"),
+        "resets_at": info.get("resetsAt"),
+    }
+
+
+def _snapshot(tracker: UsageTracker) -> dict | None:
+    """Per-phase progress from state.json, plus tokens so far; None until the study has a state."""
+    if not tracker.slug or not state.state_path(tracker.slug).exists():
+        return None
+    try:
+        return {**state.progress(tracker.slug), "tokens": tracker.total_tokens()}
+    except Exception:  # a half-written or foreign state file must never stop the run
+        return None
+
+
+async def run_study(run_id: str, topic: str, on_event: OnEvent) -> RunResult:
+    """Run `/study <topic>` headlessly and return what happened."""
     LOGS_DIR.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
     log_path = LOGS_DIR / f"{timestamp}_{run_id}.jsonl"
+    tracker = UsageTracker(run_id=run_id)
 
-    command = _claude_command(topic)
     process = await asyncio.create_subprocess_exec(
-        *command,
+        *_claude_command(topic),
         cwd=ROOT,
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE,
     )
+    if sys.platform == "darwin":  # keep the Mac awake for as long as the run lasts
+        await asyncio.create_subprocess_exec("caffeinate", "-i", "-w", str(process.pid))
 
     result_event: dict = {}
+    last_plan: dict | None = None
+    last_snapshot: dict | None = None
     with log_path.open("w", encoding="utf-8") as log_file:
         assert process.stdout is not None
         async for raw_line in process.stdout:
@@ -110,11 +143,21 @@ async def run_study(run_id: str, topic: str, on_event: OnEvent) -> int:
             try:
                 event = json.loads(line)
             except json.JSONDecodeError:
-                await on_event({"type": "raw", "text": line})
                 continue
-            if event.get("type") == "result":
+            kind = event.get("type")
+            if kind == "result":
                 result_event = event
-            await on_event(_simplify(event))
+            elif kind == "rate_limit_event" and (plan := _plan_usage(event)):
+                last_plan = plan
+                await on_event(plan)
+            elif tracker.observe(event):
+                await on_event({"type": "activity", "text": tracker.activity})
+                snapshot = _snapshot(tracker)
+                if snapshot and snapshot != last_snapshot:
+                    last_snapshot = snapshot
+                    await on_event({"type": "progress", **snapshot})
+                if text := _assistant_text(event):
+                    await on_event({"type": "log", "text": text[:500]})
 
     stderr = (await process.stderr.read()).decode("utf-8", errors="replace") if process.stderr else ""
     returncode = await process.wait()
@@ -122,28 +165,39 @@ async def run_study(run_id: str, topic: str, on_event: OnEvent) -> int:
         with log_path.open("a", encoding="utf-8") as log_file:
             log_file.write(f"STDERR: {stderr}\n")
 
+    rows = tracker.finish(result_event)
+    if tracker.slug:
+        append_rows(tracker.slug, rows)
+    cost = round(sum(r["cost_usd"] for r in rows), 4)
+    tokens = sum(r[f] for r in rows for f in ("input_tokens", "cache_read_tokens", "cache_creation_tokens", "output_tokens"))
     interrupted = returncode != 0 and bool(
         LIMIT_PATTERN.search(f"{result_event.get('result', '')} {stderr}")
+        or (last_plan and last_plan.get("status") == "rejected")
     )
-    _append_run_record(topic, timestamp, returncode, _tokens(result_event), interrupted=interrupted)
+    _append_run_record(topic, tracker.slug, timestamp, returncode, rows, interrupted=interrupted)
     if interrupted:
-        await on_event({"type": "limit", "text": LIMIT_MESSAGE})
-    await on_event({"type": "end", "text": f"terminado com código {returncode}"})
-    return returncode
+        await on_event({"type": "limit", "text": LIMIT_MESSAGE, "resets_at": (last_plan or {}).get("resets_at")})
+    return RunResult(
+        returncode=returncode, slug=tracker.slug, interrupted=interrupted,
+        resets_at=(last_plan or {}).get("resets_at") if interrupted else None, cost_usd=cost, tokens=tokens,
+    )
 
 
 def _append_run_record(
-    topic: str, timestamp: str, returncode: int, tokens: tuple[int, int] = (0, 0), *, interrupted: bool = False
+    topic: str, slug: str | None, timestamp: str, returncode: int, rows: list[dict], *, interrupted: bool
 ) -> None:
     runs_csv = LOGS_DIR / "runs.csv"
     if runs_csv.exists() and runs_csv.read_text(encoding="utf-8").split("\n", 1)[0] != RUNS_HEADER:
-        runs_csv.rename(LOGS_DIR / "runs.old.csv")  # header from before token tracking
+        runs_csv.rename(LOGS_DIR / "runs.old.csv")  # header from before slug/cost tracking
     is_new = not runs_csv.exists()
     if returncode == 0:
         result = "sucesso"
     else:
         result = "interrompido_por_limite" if interrupted else f"falhou({returncode})"
+    input_tokens = sum(r["input_tokens"] + r["cache_read_tokens"] + r["cache_creation_tokens"] for r in rows)
+    output_tokens = sum(r["output_tokens"] for r in rows)
+    cost = round(sum(r["cost_usd"] for r in rows), 4)
     with runs_csv.open("a", encoding="utf-8") as f:
         if is_new:
             f.write(RUNS_HEADER + "\n")
-        f.write(f"{timestamp},{topic!r},{result},{tokens[0]},{tokens[1]}\n")
+        f.write(f"{timestamp},{topic!r},{slug or ''},{result},{input_tokens},{output_tokens},{cost}\n")

@@ -286,6 +286,23 @@ def resume(slug: str) -> str:
     return "\n".join(lines[:10])
 
 
+def progress(slug: str) -> dict:
+    """Compact per-phase picture for the UI: status plus done/total units (claims for phase 7)."""
+    path = state_path(slug)
+    state = load(slug) if path.exists() else _empty_state()
+    phases = []
+    for n, name in PHASE_NAMES.items():
+        p = state["phases"].get(str(n), {})
+        status = "completed" if n in state["completed_phases"] else p.get("status", "pending")
+        units = p.get("units", {})
+        done, total = sum(1 for u in units.values() if u == "done"), len(units)
+        if n == 7 and status != "completed":
+            claims = read_csv(STUDIES_ROOT / slug / "claims.csv", Claim)
+            done, total = sum(1 for c in claims if c.verification_status == "confirmed"), len(claims)
+        phases.append({"n": n, "name": name, "status": status, "done": done, "total": total})
+    return {"slug": slug, "phases": phases, "current": state["current_phase"]}
+
+
 def main(argv: list[str] | None = None) -> int:
     args = sys.argv[1:] if argv is None else argv
     if len(args) < 2:
