@@ -147,10 +147,12 @@
       items = (await api("/api/queue")).items;
       renderQueue();
       renderUsage((await api("/api/usage")).studies);
-      planName = (await api("/api/plan")).plan;
-      renderPlan(null);
       const stream = new EventSource("/api/events");
       stream.onmessage = (m) => handle(JSON.parse(m.data));
+      try {  // optional: an older server has no /api/plan, and that must not break the page
+        planName = (await api("/api/plan")).plan;
+        renderPlan(null);
+      } catch (e) { /* plan name simply not shown */ }
     } catch (e) {
       $("q-error").textContent = T.offline;
     }
