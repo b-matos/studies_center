@@ -33,9 +33,12 @@ perguntas desses eixos):
 ## Bash
 
 Só `uv run ...`, **um comando por chamada**: sem `curl`, `for`, `sleep`, pipes, `&&` nem `;`
-(são recusados em modo headless). Não esperes nem repitas à espera de limites de pedidos: se
-uma API recusar (429, timeout), tenta no máximo mais uma vez noutro momento do trabalho; se
-persistir, regista a fonte como `excluded` com o motivo.
+(são recusados em modo headless). O `probe` já espaça e repete os pedidos ao INE. Se imprimir `TRANSIENT`, a fonte **não** está
+provada inexistente: não a marques `excluded` (timeout, 429 e "inacessível" não são motivo de
+exclusão; o `common.checks` rejeita-os). Segue para outra fonte e, no fim, **não escrevas**
+linha nenhuma para essa fonte: diz no resumo "INE inacessível (transitório)" para o
+orquestrador repetir a unidade mais tarde. Só é `excluded` o que é definitivo (404, licença
+incompatível, sem dados para Portugal).
 
 ## Regras
 

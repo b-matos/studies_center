@@ -55,6 +55,22 @@ def check_phase_1(slug: str) -> tuple[bool, list[str]]:
     return not problems, problems
 
 
+TRANSIENT_REASON = re.compile(
+    r"time-?out|timed out|\b429\b|too many requests|rate.?limit|temporar|tempor[aá]ri|connection (reset|refused)"
+    r"|inacess[ií]vel a partir",
+    re.IGNORECASE,
+)
+
+
+def _plan_axes(slug: str) -> list[str]:
+    """Axis slugs listed under '## Eixos' in plan.md (lines like: - `axis-slug` — organisation)."""
+    plan = _study_dir(slug) / "plan.md"
+    if not plan.exists():
+        return []
+    section = re.search(r"^## Eixos\s*\n(.*?)(?=^## |\Z)", plan.read_text(encoding="utf-8"), re.MULTILINE | re.DOTALL)
+    return re.findall(r"^\s*[-*]\s*`([a-z0-9-]+)`", section.group(1), re.MULTILINE) if section else []
+
+
 def check_phase_2(slug: str) -> tuple[bool, list[str]]:
     sources_path = _study_dir(slug) / "sources.csv"
     if not sources_path.exists():
@@ -66,8 +82,20 @@ def check_phase_2(slug: str) -> tuple[bool, list[str]]:
     for row in rows:
         if row.status == "excluded" and not row.exclusion_reason:
             problems.append(f"fonte {row.id} está excluída mas não tem exclusion_reason")
+        if row.status == "excluded" and TRANSIENT_REASON.search(row.exclusion_reason or ""):
+            problems.append(
+                f"fonte {row.id} foi excluída por uma falha possivelmente temporária ('{row.exclusion_reason[:60]}'): "
+                "voltar a testar mais tarde; timeout/429 não é motivo de exclusão"
+            )
         if row.status == "tested" and not (row.url and row.license and row.temporal_coverage and row.format):
             problems.append(f"fonte {row.id} está testada mas falta url/licenca/cobertura/formato")
+    tested_axes = {r.axis for r in rows if r.status == "tested"}
+    for axis in _plan_axes(slug):
+        if axis not in tested_axes:
+            problems.append(
+                f"eixo '{axis}' do plano não tem nenhuma fonte testada: repetir a procura ou, se for mesmo "
+                "indisponível, pedir decisão ao utilizador (excluir um eixo é difícil de reverter)"
+            )
     return not problems, problems
 
 

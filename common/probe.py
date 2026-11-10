@@ -31,6 +31,16 @@ def _dims(df: pd.DataFrame, skip: set[str]) -> list[str]:
     return lines
 
 
+def is_transient(exc: Exception) -> bool:
+    """Timeouts, connection errors, 429 and 5xx say nothing about whether a source exists."""
+    from common.sources.ine import IneUnavailable
+
+    if isinstance(exc, IneUnavailable | httpx.TimeoutException | httpx.ConnectError):
+        return True
+    response = getattr(exc, "response", None)
+    return response is not None and (response.status_code == 429 or response.status_code >= 500)
+
+
 def probe_eurostat(code: str, key: dict[str, str]) -> str:
     from common.sources.eurostat import fetch_dataset
 
@@ -90,6 +100,10 @@ def main() -> int:
         else:
             print(probe_url(target))
     except Exception as exc:
+        if is_transient(exc):
+            print(f"TRANSIENT {target}: {type(exc).__name__}. The source was NOT shown to be missing: "
+                  "do not mark it excluded; leave this unit unfinished and report it so it is retried later.")
+            return 3
         print(f"FAIL {target}: {type(exc).__name__}: {exc}"[:400])
         return 1
     return 0

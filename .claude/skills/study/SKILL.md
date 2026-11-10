@@ -78,6 +78,10 @@ Depois de `complete-phase` passar:
    falhou e foi corrigido, o que precisa do utilizador).
 2. `git add studies/<slug> events` e `git commit -m "fase <n> (<nome>): <slug>"`.
 
+Falhas de rede transitórias (timeout, 429) não são indisponibilidade de uma fonte: o
+`common.checks` da fase 2 rejeita exclusões com esse motivo e eixos sem nenhuma fonte testada.
+Nesses casos espera uns minutos antes de relançar a unidade.
+
 Se `complete-phase` falhar: lê os problemas, relança o subagente da fase (só as unidades
 afetadas) com esses problemas como contexto. **Máximo de 3 tentativas por fase**, contadas em
 `state.json` (sobrevivem a interrupções). À terceira o estado passa a `blocked`: escreve o
