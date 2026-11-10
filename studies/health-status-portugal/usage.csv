@@ -1,3 +1,0 @@
-run_id,timestamp,phase,model,input_tokens,cache_read_tokens,cache_creation_tokens,output_tokens,cost_usd
-cb739908fc,2026-11-10T15:23:08Z,prep,claude-sonnet-5-5,8,100012,20886,30,0.094846
-cb739908fc,2026-11-10T15:23:08Z,unattributed,claude-sonnet-5-5,0,0,0,1135,0.010365

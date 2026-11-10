@@ -16,7 +16,7 @@ Add topics to the queue and choose which one runs next. Only one study runs at a
   <h2>Running</h2>
   <div id="q-progress"></div>
 
-  <h2>Usage per study</h2>
+  <h2>Cost per study</h2>
   <div id="q-usage"></div>
 </div>
 

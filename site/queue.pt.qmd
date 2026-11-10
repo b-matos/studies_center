@@ -16,7 +16,7 @@ Junta temas à fila e escolhe tu o que corre a seguir. Só corre um estudo de ca
   <h2>A correr</h2>
   <div id="q-progress"></div>
 
-  <h2>Consumo por estudo</h2>
+  <h2>Custo por estudo</h2>
   <div id="q-usage"></div>
 </div>
 
