@@ -1,0 +1,7 @@
+series,date,type,magnitude,method,rel
+SDR_cancer_C00_C97_T_PT,2021-01-01,level,-22.349,ruptures.Pelt(l2),2.304407834606154
+SDR_cancer_C00_C97_T_PT,2021-01-01,peak,-12.755,robust_zscore(median/MAD),1.3151694451832994
+SDR_circulatory_T_PT,2021-01-01,level,-63.6687,ruptures.Pelt(l2),2.1049767948726448
+SDR_diabetes_T_PT,2021-01-01,level,-13.0463,ruptures.Pelt(l2),1.9264483749906496
+SDR_external_causes_T_PT,2016-01-01,level,4.3982,ruptures.Pelt(l2),1.4989428713854742
+SDR_respiratory_T_PT,2021-01-01,level,-29.6247,ruptures.Pelt(l2),1.8150136935141166

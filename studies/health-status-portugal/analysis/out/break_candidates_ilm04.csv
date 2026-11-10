@@ -1,0 +1,11 @@
+region,sex,date,type,magnitude,method
+Portugal,H,2007-01-01,level,-50.5656,ruptures.Pelt(l2)
+Portugal,H,2007-01-01,slope,20.9815,ruptures.Pelt(l2) on first differences
+Portugal,HM,2007-01-01,level,-47.1344,ruptures.Pelt(l2)
+Portugal,HM,2007-01-01,slope,15.887,ruptures.Pelt(l2) on first differences
+Portugal,HM,2004-01-01,peak,-21.7,robust_zscore(median/MAD)
+Portugal,HM,2006-01-01,peak,-21.8,robust_zscore(median/MAD)
+Portugal,HM,2020-01-01,peak,-28.0,robust_zscore(median/MAD)
+Portugal,HM,2021-01-01,peak,20.9,robust_zscore(median/MAD)
+Portugal,M,2007-01-01,level,-42.35,ruptures.Pelt(l2)
+Portugal,M,2007-01-01,slope,11.2889,ruptures.Pelt(l2) on first differences

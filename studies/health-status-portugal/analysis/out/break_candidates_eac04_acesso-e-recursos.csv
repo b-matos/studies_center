@@ -1,0 +1,9 @@
+series,date,type,magnitude,method,rel
+health_expenditure_pct_gdp_PT,2020-01-01,level,1.0543,ruptures.Pelt(l2),1.7780636010906716
+hospital_beds_per_100k_PT,2000-01-01,level,-51.0235,ruptures.Pelt(l2),1.9270600458370621
+household_out_of_pocket_pct_CHE_PT,2010-01-01,level,3.8732,ruptures.Pelt(l2),1.6986556910028061
+household_out_of_pocket_pct_CHE_PT,2012-01-01,peak,2.77,robust_zscore(median/MAD),1.2148134677797147
+household_out_of_pocket_pct_CHE_PT,2020-01-01,peak,-2.78,robust_zscore(median/MAD),1.2191990759666427
+nurses_active_per_100k_PT,2014-01-01,level,173.0768,ruptures.Pelt(l2),1.667397960060979
+physicians_licensed_per_100k_PT,1980-01-01,level,252.5551,ruptures.Pelt(l2),1.688384112616389
+physicians_licensed_per_100k_PT,2010-01-01,level,279.9344,ruptures.Pelt(l2),1.8714204256466846

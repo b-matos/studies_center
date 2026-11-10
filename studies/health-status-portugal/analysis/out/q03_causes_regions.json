@@ -1,0 +1,4286 @@
+[
+{
+"data": "2011-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 240.21,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 238.06,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 237.37,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 237.08,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 232.63,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 238.49,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 234.72,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 239.74,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 236.6,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 230.62,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 213.94,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 210.93,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 206.83,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 254.85,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 252.63,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 251.33,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 249.72,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 235.25,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 261.7,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 260.05,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 241.9,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 260.37,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 251.32,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 237.02,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 221.78,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 228.4,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 233.03,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 232.08,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 233.33,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 223.88,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 230.21,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 233.08,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 240.79,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 234.84,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 239.03,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 233.94,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 220.14,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 259.35,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 255.91,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 256.6,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 250.0,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 251.97,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 255.87,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 249.62,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 252.33,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 251.67,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 245.51,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 233.48,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 247.55,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 240.73,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 235.93,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 242.6,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 260.46,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 250.93,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 241.74,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 243.28,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 247.71,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 247.65,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 229.93,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 209.26,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 304.24,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 312.2,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 337.84,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 301.51,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 332.04,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 313.16,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 311.33,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 340.49,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 337.32,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 335.59,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 313.49,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 312.24,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 275.53,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 248.96,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 280.12,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 254.46,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 282.1,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 239.5,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 258.3,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 262.29,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 268.19,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 272.77,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 281.21,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 267.42,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 240.95,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "cancer_C00_C97",
+"valor": 234.55,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 43.97,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 45.15,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 43.66,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 34.88,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 36.38,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 32.86,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 32.64,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 32.35,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 29.46,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 30.29,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 22.64,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 22.88,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 19.88,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 31.69,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 33.93,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 35.06,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 30.86,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 33.04,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 29.57,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 27.81,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 28.39,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 23.7,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 26.44,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 21.9,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 22.05,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 19.4,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 41.94,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 46.46,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 42.14,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 40.43,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 39.93,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 40.51,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 37.14,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 39.64,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 34.1,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 34.91,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 28.24,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 40.08,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 43.5,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 37.81,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 37.74,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 37.71,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 37.48,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 35.18,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 35.03,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 28.72,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 30.63,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 26.66,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 58.18,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 61.5,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 50.89,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 47.87,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 50.57,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 50.98,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 46.78,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 47.1,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 43.09,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 51.86,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 37.74,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 23.31,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 95.61,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 65.38,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 92.93,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 69.03,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 79.62,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 74.44,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 76.06,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 74.98,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 65.75,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 60.54,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 42.17,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 49.6,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 38.51,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 68.81,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 65.17,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 60.63,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 67.25,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 53.97,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 60.23,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 50.17,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 59.74,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 54.7,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 44.58,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 42.56,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 42.12,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "diabetes",
+"valor": 39.45,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 298.07,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 310.83,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 305.08,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 293.51,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 292.3,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 283.74,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 285.29,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 284.57,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 266.9,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 268.63,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 226.45,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 215.9,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 204.22,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 291.39,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 287.88,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 262.78,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 267.12,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 263.23,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 271.01,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 286.16,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 293.19,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 275.6,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 275.64,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 249.32,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 233.66,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 226.51,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 303.89,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 316.37,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 297.24,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 293.26,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 279.87,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 284.08,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 279.03,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 281.69,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 274.35,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 281.93,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 240.25,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 335.93,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 327.26,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 308.93,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 303.3,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 306.44,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 300.98,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 284.78,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 298.66,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 291.36,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 288.6,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 256.52,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 0.03,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 366.91,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 356.96,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 328.31,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 327.54,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 332.05,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 324.39,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 299.44,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 323.68,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 309.32,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 317.26,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 285.97,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 206.87,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 501.93,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 451.37,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 462.35,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 475.68,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 485.98,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 497.96,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 443.53,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 421.06,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 405.15,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 385.98,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 335.28,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 374.4,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 300.92,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 368.5,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 379.55,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 343.95,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 423.57,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 396.66,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 378.42,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 357.94,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 411.99,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 399.31,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 392.62,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 335.77,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 298.42,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "circulatory",
+"valor": 273.93,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 127.0,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 141.77,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 122.21,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 111.34,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 127.96,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 120.22,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 121.01,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 121.53,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 113.62,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 101.02,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 80.28,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 92.51,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 98.39,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 109.4,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 138.83,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 117.73,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 112.38,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 123.44,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 128.18,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 128.61,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 129.82,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 99.39,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 91.58,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 76.42,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 82.93,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 91.58,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 127.31,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 144.81,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 132.24,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 122.5,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 132.42,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 125.66,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 119.16,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 128.28,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 110.01,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 96.06,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 81.51,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 100.45,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 112.92,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 101.57,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 91.94,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 99.21,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 99.49,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 88.88,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 93.98,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 87.28,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 75.82,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 68.16,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 117.18,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 144.63,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 136.46,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 130.54,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 134.88,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 143.36,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 124.79,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 127.78,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 110.65,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 97.24,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 89.18,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 93.09,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 224.08,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 188.22,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 211.11,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 215.75,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 177.48,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 200.41,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 172.51,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 187.56,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 139.61,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 131.02,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 119.54,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 139.53,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 132.31,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 235.7,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 271.93,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 273.73,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 288.9,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 304.38,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 288.33,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 260.36,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 294.02,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 235.58,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 211.7,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 179.58,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 172.65,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "respiratory",
+"valor": 163.41,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1009.19,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1034.53,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1023.61,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 957.09,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 971.53,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 973.58,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 969.12,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 902.86,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 842.91,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1035.43,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1064.49,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1049.14,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 998.57,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1003.76,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1073.83,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1086.43,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1005.47,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 973.82,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 976.76,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 988.63,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 979.8,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 931.63,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 958.05,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 949.92,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 924.99,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 843.22,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1436.54,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1318.92,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1454.45,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1376.41,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1432.89,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1455.9,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1314.45,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1333.77,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1144.65,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1298.14,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1345.62,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1269.25,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1428.85,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1425.87,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1318.44,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1263.13,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1188.81,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "all_causes",
+"valor": 1050.51,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 33.43,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 33.2,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 34.39,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 43.35,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 34.2,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 41.05,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 45.18,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 45.19,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 43.29,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 44.06,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 43.64,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 43.32,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Norte",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 42.36,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 48.34,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 44.76,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 48.26,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 46.09,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 54.87,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 52.96,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 55.31,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 61.1,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 61.36,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 54.88,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 58.35,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 56.04,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Algarve",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 62.28,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 43.13,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 40.86,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 49.2,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 49.68,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 48.75,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 51.01,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 53.72,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 54.16,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 51.51,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 48.76,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 44.69,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 33.07,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 31.55,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 31.52,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 37.07,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 38.55,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 35.07,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 37.6,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 38.86,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 36.3,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 37.62,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 38.05,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 0.04,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 57.67,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 54.74,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 54.4,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 50.56,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 74.34,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 55.37,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 60.36,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 52.3,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 55.77,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 57.22,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "Alentejo",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 57.89,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "Centro",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 47.33,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 53.17,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 45.86,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 43.83,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 57.58,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 82.6,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 54.55,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 50.64,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 47.49,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 46.11,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 48.31,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 58.63,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 61.95,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "R. A. Açores",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 55.12,
+"unidade": "RT"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 50.41,
+"unidade": "RT"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 46.53,
+"unidade": "RT"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 48.0,
+"unidade": "RT"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 47.54,
+"unidade": "RT"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 76.61,
+"unidade": "RT"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 48.0,
+"unidade": "RT"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 64.24,
+"unidade": "RT"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 59.63,
+"unidade": "RT"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 55.94,
+"unidade": "RT"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 51.91,
+"unidade": "RT"
+},
+{
+"data": "2021-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 51.08,
+"unidade": "RT"
+},
+{
+"data": "2022-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 56.78,
+"unidade": "RT"
+},
+{
+"data": "2023-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "T",
+"idade": "TOTAL",
+"indicador": "external_causes",
+"valor": 47.66,
+"unidade": "RT"
+}
+]

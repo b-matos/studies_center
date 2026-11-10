@@ -1,0 +1,5 @@
+series,date,type,magnitude,method,rel
+unmet_dental_T_16+_PT,2018-01-01,level,-3.615,ruptures.Pelt(l2),1.3497066477016226
+unmet_dental_T_16+_gap_PT_minus_EU,2020-01-01,level,-3.0367,ruptures.Pelt(l2),1.4835709860068873
+unmet_dental_T_16+_gap_PT_minus_EU,2012-01-01,peak,4.8,robust_zscore(median/MAD),2.3450518329856394
+unmet_medical_T_16+_gap_PT_minus_EU,2015-01-01,level,1.2764,ruptures.Pelt(l2),1.6549046308124766

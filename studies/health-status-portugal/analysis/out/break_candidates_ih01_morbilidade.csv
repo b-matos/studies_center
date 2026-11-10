@@ -1,0 +1,6 @@
+series,date,type,magnitude,method,rel
+chronic_HM_16 - 64 anos,2014-01-01,level,7.5467,ruptures.Pelt(l2),1.8155153119417735
+chronic_HM_16+,2014-01-01,level,8.645,ruptures.Pelt(l2),1.8314094727303127
+chronic_HM_65 e mais anos,2014-01-01,level,5.4117,ruptures.Pelt(l2),1.7390990250970502
+chronic_H_16+,2014-01-01,level,9.0233,ruptures.Pelt(l2),1.8321077396572445
+chronic_M_16+,2014-01-01,level,8.1533,ruptures.Pelt(l2),1.8135957851416107

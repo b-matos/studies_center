@@ -1,0 +1,506 @@
+[
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 582.07,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 573.54,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 566.87,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 562.26,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 556.84,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 553.21,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 550.44,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 546.15,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 542.74,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 538.88,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 531.77,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 527.52,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 524.74,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 516.75,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 510.65,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 507.35,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1985-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 395.92,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1986-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 395.39,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1987-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 402.27,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1988-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 402.3,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1989-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 407.01,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1990-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 404.51,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1991-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 400.54,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1992-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 400.65,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1993-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 395.5,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1994-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 392.52,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1995-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 391.87,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 398.44,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 392.92,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 385.62,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 374.46,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 370.9,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 364.86,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 356.65,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 358.16,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 358.91,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 355.81,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 347.88,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 343.55,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 339.1,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 337.19,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 337.14,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 336.94,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 340.08,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 338.72,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 331.32,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 336.07,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 338.31,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 338.03,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 342.62,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 348.57,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 346.84,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 348.74,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 343.15,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 333.76,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 330.98,
+"unidade": "P_HTHAB"
+}
+]

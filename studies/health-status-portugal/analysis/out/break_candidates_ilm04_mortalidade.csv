@@ -1,0 +1,6 @@
+series,date,type,magnitude,method,rel
+premature_30_70_HM,2007-01-01,level,-47.1344,ruptures.Pelt(l2),1.9767992747370122
+premature_30_70_HM,2004-01-01,peak,-21.7,robust_zscore(median/MAD),0.9100891029351954
+premature_30_70_HM,2006-01-01,peak,-21.8,robust_zscore(median/MAD),0.9142830619348953
+premature_30_70_HM,2020-01-01,peak,-28.0,robust_zscore(median/MAD),1.1743085199163787
+premature_30_70_HM,2021-01-01,peak,20.9,robust_zscore(median/MAD),0.8765374309375817

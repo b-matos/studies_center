@@ -1,0 +1,767 @@
+[
+{
+"data": "2021-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.3,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.4,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.7,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.8,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.8,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.8,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.0,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.0,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.0,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.1,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2021-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.3,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.4,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.7,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.8,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.8,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.8,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.1,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.1,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.3,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.3,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.3,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.3,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2022-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.3,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.3,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.3,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.3,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.3,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.8,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.8,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.1,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.1,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.1,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2023-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.5,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.5,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.5,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.7,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.7,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.7,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.8,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.8,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.0,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.5,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.5,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.1,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.2,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.3,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.7,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 2.9,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.0,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.0,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.5,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.5,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.5,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.6,
+"unidade": "per 1000 live births"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "",
+"idade": "",
+"indicador": "infant_mortality_rate_5y",
+"valor": 3.6,
+"unidade": "per 1000 live births"
+}
+]

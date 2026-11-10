@@ -1,0 +1,3440 @@
+[
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Diariamente",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Diariamente",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Diariamente",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Diariamente",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Diariamente",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Diariamente",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Diariamente",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Diariamente",
+"valor": 1.2155,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Diariamente",
+"valor": 0.7065,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Semanalmente",
+"valor": 4.197,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Semanalmente",
+"valor": 7.0377,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Semanalmente",
+"valor": 4.5745,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Semanalmente",
+"valor": 4.0304,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Semanalmente",
+"valor": 2.561,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Semanalmente",
+"valor": 3.9629,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Semanalmente",
+"valor": 2.6326,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Semanalmente",
+"valor": 4.3379,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Semanalmente",
+"valor": 2.8749,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Semanalmente",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Semanalmente",
+"valor": 4.433,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Semanalmente",
+"valor": 2.8793,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Mensalmente",
+"valor": 19.3447,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Mensalmente",
+"valor": 11.0475,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Mensalmente",
+"valor": 15.6043,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Mensalmente",
+"valor": 23.0958,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Mensalmente",
+"valor": 7.7584,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Mensalmente",
+"valor": 16.6982,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Mensalmente",
+"valor": 21.6914,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Mensalmente",
+"valor": 5.1109,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Mensalmente",
+"valor": 14.5532,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Mensalmente",
+"valor": 15.285,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Mensalmente",
+"valor": 10.0831,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Mensalmente",
+"valor": 12.3452,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Mensalmente",
+"valor": 8.2656,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Mensalmente",
+"valor": 3.9389,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Mensalmente",
+"valor": 3.1745,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Mensalmente",
+"valor": 15.553,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Mensalmente",
+"valor": 4.8999,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Mensalmente",
+"valor": 10.9524,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Ocasionalmente",
+"valor": 29.7516,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Ocasionalmente",
+"valor": 20.9719,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Ocasionalmente",
+"valor": 25.7937,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Ocasionalmente",
+"valor": 29.5187,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Ocasionalmente",
+"valor": 21.645,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ocasionalmente",
+"valor": 26.2345,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ocasionalmente",
+"valor": 26.1916,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Ocasionalmente",
+"valor": 11.7449,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ocasionalmente",
+"valor": 19.9721,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ocasionalmente",
+"valor": 25.3247,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ocasionalmente",
+"valor": 10.4357,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ocasionalmente",
+"valor": 18.6402,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ocasionalmente",
+"valor": 21.1613,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Ocasionalmente",
+"valor": 8.2389,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ocasionalmente",
+"valor": 15.7079,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ocasionalmente",
+"valor": 15.5249,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ocasionalmente",
+"valor": 11.5016,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ocasionalmente",
+"valor": 9.6491,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ocasionalmente",
+"valor": 7.5106,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ocasionalmente",
+"valor": 23.5305,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ocasionalmente",
+"valor": 12.3192,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ocasionalmente",
+"valor": 18.6889,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "binge_6plus_any",
+"valor": 55.7621,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "binge_6plus_any",
+"valor": 33.5468,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "binge_6plus_any",
+"valor": 45.7474,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "binge_6plus_any",
+"valor": 60.3021,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "binge_6plus_any",
+"valor": 30.5362,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "binge_6plus_any",
+"valor": 47.8861,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "binge_6plus_any",
+"valor": 52.7482,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "binge_6plus_any",
+"valor": 17.4731,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "binge_6plus_any",
+"valor": 37.5618,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "binge_6plus_any",
+"valor": 46.161,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "binge_6plus_any",
+"valor": 15.3277,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "binge_6plus_any",
+"valor": 32.3183,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "binge_6plus_any",
+"valor": 39.285,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "binge_6plus_any",
+"valor": 11.7885,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "binge_6plus_any",
+"valor": 27.6813,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "binge_6plus_any",
+"valor": 23.1448,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "binge_6plus_any",
+"valor": 16.9556,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "binge_6plus_any",
+"valor": 21.5292,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "binge_6plus_any",
+"valor": 14.7923,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "binge_6plus_any",
+"valor": 44.732,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "binge_6plus_any",
+"valor": 18.0913,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "binge_6plus_any",
+"valor": 33.2271,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 17.2879,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 18.1989,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 17.6984,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 25.4255,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 29.1382,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 26.9741,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 33.4512,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 33.3209,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 33.3951,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 37.6078,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 29.0791,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 33.7788,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 43.4082,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 22.4872,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 34.5794,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 58.2401,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 18.2577,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 42.2985,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 55.6522,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 15.97,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 39.0806,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 60.4773,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 35.1172,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 37.5031,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 25.2467,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 32.2102,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 26.8623,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 48.2544,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 36.5059,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 14.0424,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 40.2495,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 24.974,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 13.2337,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 48.8264,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 28.557,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 15.3251,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 55.3226,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 33.2821,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 16.9557,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 65.2745,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 37.3466,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 17.921,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 73.625,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 40.1311,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 22.8186,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 78.633,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 46.1272,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 72.7302,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 53.9289,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 17.3121,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 56.4074,
+"unidade": "%"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 34.1955,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Diariamente",
+"valor": 1.884,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Diariamente",
+"valor": 1.1681,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Semanalmente",
+"valor": 4.6635,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Semanalmente",
+"valor": 5.098,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Semanalmente",
+"valor": 2.7891,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Semanalmente",
+"valor": 3.0349,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Semanalmente",
+"valor": 6.3031,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Semanalmente",
+"valor": 2.2954,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Semanalmente",
+"valor": 4.4985,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Mensalmente",
+"valor": 28.2827,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Mensalmente",
+"valor": 22.6122,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Mensalmente",
+"valor": 25.5903,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Mensalmente",
+"valor": 24.8973,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Mensalmente",
+"valor": 15.5903,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Mensalmente",
+"valor": 20.8249,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Mensalmente",
+"valor": 23.5672,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Mensalmente",
+"valor": 11.385,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Mensalmente",
+"valor": 17.9841,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Mensalmente",
+"valor": 20.7624,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Mensalmente",
+"valor": 7.5591,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Mensalmente",
+"valor": 14.7684,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Mensalmente",
+"valor": 12.6174,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Mensalmente",
+"valor": 8.1987,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Mensalmente",
+"valor": 10.6488,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Mensalmente",
+"valor": 9.1565,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Mensalmente",
+"valor": 9.154,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Mensalmente",
+"valor": 18.2544,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Mensalmente",
+"valor": 10.8992,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Mensalmente",
+"valor": 14.9426,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Ocasionalmente",
+"valor": 26.9509,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Ocasionalmente",
+"valor": 26.6202,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Ocasionalmente",
+"valor": 26.7939,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Ocasionalmente",
+"valor": 30.2686,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Ocasionalmente",
+"valor": 23.4647,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ocasionalmente",
+"valor": 27.2915,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ocasionalmente",
+"valor": 34.0975,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Ocasionalmente",
+"valor": 21.7174,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ocasionalmente",
+"valor": 28.4238,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ocasionalmente",
+"valor": 29.8016,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ocasionalmente",
+"valor": 11.9143,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ocasionalmente",
+"valor": 21.6811,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ocasionalmente",
+"valor": 25.4798,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Ocasionalmente",
+"valor": 15.6385,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ocasionalmente",
+"valor": 21.0953,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ocasionalmente",
+"valor": 19.8309,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ocasionalmente",
+"valor": 15.3216,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ocasionalmente",
+"valor": 12.915,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ocasionalmente",
+"valor": 9.9686,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ocasionalmente",
+"valor": 26.5953,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ocasionalmente",
+"valor": 16.7999,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ocasionalmente",
+"valor": 22.1847,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "binge_6plus_any",
+"valor": 63.8346,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "binge_6plus_any",
+"valor": 52.689,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "binge_6plus_any",
+"valor": 58.5426,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "binge_6plus_any",
+"valor": 65.5674,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "binge_6plus_any",
+"valor": 43.0913,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "binge_6plus_any",
+"valor": 55.7328,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "binge_6plus_any",
+"valor": 66.3224,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "binge_6plus_any",
+"valor": 35.1945,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "binge_6plus_any",
+"valor": 52.0567,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "binge_6plus_any",
+"valor": 59.9803,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "binge_6plus_any",
+"valor": 22.0241,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "binge_6plus_any",
+"valor": 42.7489,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "binge_6plus_any",
+"valor": 45.1023,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "binge_6plus_any",
+"valor": 26.1462,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "binge_6plus_any",
+"valor": 36.657,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "binge_6plus_any",
+"valor": 35.3924,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "binge_6plus_any",
+"valor": 21.1597,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "binge_6plus_any",
+"valor": 29.0878,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "binge_6plus_any",
+"valor": 23.8625,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "binge_6plus_any",
+"valor": 18.2094,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "binge_6plus_any",
+"valor": 53.0367,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "binge_6plus_any",
+"valor": 30.2885,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "binge_6plus_any",
+"valor": 42.7938,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 14.6396,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 13.5117,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 25.8873,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 26.4443,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 26.131,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 20.0847,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 29.1129,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 24.2223,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 26.3732,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 32.3962,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 29.1075,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 36.2428,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 19.2668,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 28.6797,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 45.3016,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 18.3806,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 33.3765,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 53.8918,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 20.6003,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 40.0778,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 61.8263,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 44.7212,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 30.6323,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 24.0831,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 27.6834,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 21.4846,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 31.6121,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 26.2931,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 28.9991,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 16.5035,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 10.0764,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 34.3693,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 21.2097,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 11.1809,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 43.7002,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 25.944,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 14.3196,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 54.4277,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 32.1884,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 16.903,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 59.7586,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 35.8866,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 17.2186,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 66.8496,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 37.8129,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 62.7515,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 40.3106,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 13.3363,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 44.4576,
+"unidade": "%"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 27.3495,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Diariamente",
+"valor": 1.0391,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Diariamente",
+"valor": 0.6633,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Semanalmente",
+"valor": 4.6377,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Semanalmente",
+"valor": 6.2815,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Semanalmente",
+"valor": 4.963,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Semanalmente",
+"valor": 4.2805,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Semanalmente",
+"valor": 2.8929,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Semanalmente",
+"valor": 5.459,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Semanalmente",
+"valor": 3.4113,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Semanalmente",
+"valor": 4.5516,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Mensalmente",
+"valor": 29.7839,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Mensalmente",
+"valor": 23.7165,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Mensalmente",
+"valor": 27.6926,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Mensalmente",
+"valor": 18.1483,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Mensalmente",
+"valor": 23.8443,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Mensalmente",
+"valor": 21.1918,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Mensalmente",
+"valor": 13.7094,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Mensalmente",
+"valor": 18.0559,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Mensalmente",
+"valor": 20.3792,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Mensalmente",
+"valor": 11.0267,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Mensalmente",
+"valor": 15.9756,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Mensalmente",
+"valor": 16.7756,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Mensalmente",
+"valor": 12.0428,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Mensalmente",
+"valor": 12.6706,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Mensalmente",
+"valor": 9.6254,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Mensalmente",
+"valor": 6.2233,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Mensalmente",
+"valor": 4.0233,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Mensalmente",
+"valor": 19.4886,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Mensalmente",
+"valor": 10.3432,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Mensalmente",
+"valor": 15.4359,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Ocasionalmente",
+"valor": 29.4509,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Ocasionalmente",
+"valor": 33.3792,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Ocasionalmente",
+"valor": 31.1428,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Ocasionalmente",
+"valor": 31.2299,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Ocasionalmente",
+"valor": 26.4288,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ocasionalmente",
+"valor": 29.294,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ocasionalmente",
+"valor": 28.2263,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Ocasionalmente",
+"valor": 17.5201,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ocasionalmente",
+"valor": 23.7394,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ocasionalmente",
+"valor": 24.2904,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ocasionalmente",
+"valor": 14.359,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ocasionalmente",
+"valor": 19.6142,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ocasionalmente",
+"valor": 24.0949,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Ocasionalmente",
+"valor": 17.6179,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ocasionalmente",
+"valor": 21.0288,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ocasionalmente",
+"valor": 21.3494,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Ocasionalmente",
+"valor": 10.9899,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ocasionalmente",
+"valor": 16.9059,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ocasionalmente",
+"valor": 13.0266,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ocasionalmente",
+"valor": 25.176,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ocasionalmente",
+"valor": 17.7184,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ocasionalmente",
+"valor": 21.8713,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "binge_6plus_any",
+"valor": 70.8818,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "binge_6plus_any",
+"valor": 60.0646,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "binge_6plus_any",
+"valor": 66.2235,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "binge_6plus_any",
+"valor": 65.9307,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "binge_6plus_any",
+"valor": 46.6839,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "binge_6plus_any",
+"valor": 58.1705,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "binge_6plus_any",
+"valor": 54.5878,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "binge_6plus_any",
+"valor": 35.6552,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "binge_6plus_any",
+"valor": 46.6531,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "binge_6plus_any",
+"valor": 51.9574,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "binge_6plus_any",
+"valor": 28.8669,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "binge_6plus_any",
+"valor": 41.0851,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "binge_6plus_any",
+"valor": 47.0456,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "binge_6plus_any",
+"valor": 25.9292,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "binge_6plus_any",
+"valor": 37.0496,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "binge_6plus_any",
+"valor": 38.8848,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "binge_6plus_any",
+"valor": 18.4902,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "binge_6plus_any",
+"valor": 30.1372,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "binge_6plus_any",
+"valor": 26.6765,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "binge_6plus_any",
+"valor": 20.7382,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "binge_6plus_any",
+"valor": 51.1627,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "binge_6plus_any",
+"valor": 31.664,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "binge_6plus_any",
+"valor": 42.5221,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 12.2489,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 22.5506,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 33.9453,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 27.1449,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 32.6533,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 35.6413,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 33.9056,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 35.3805,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 29.21,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 32.475,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 32.9794,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 27.021,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 30.1588,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 39.8412,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 26.953,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 34.3134,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 47.2339,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 21.1863,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 35.4705,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 55.432,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 42.2749,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 32.4,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 27.6637,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Não consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 30.3012,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 28.6,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 20.2236,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 18.5615,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 13.5989,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 9.3353,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 26.2991,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 16.445,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 10.4759,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 38.9588,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 23.8871,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 15.843,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 45.9275,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 30.0845,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 18.552,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 50.9535,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 32.4494,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 21.3092,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 62.8133,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 40.0528,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 54.0782,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 38.7437,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 13.6839,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 38.5131,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
+"valor": 24.6867,
+"unidade": "%"
+}
+]

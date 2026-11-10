@@ -1,0 +1,5 @@
+series,date,type,magnitude,method,rel
+bad_health_T_16+_PT,2018-01-01,level,-4.6325,ruptures.Pelt(l2),1.7366599490670314
+bad_health_T_16+_PT,2011-01-01,peak,-2.2,robust_zscore(median/MAD),0.8247494631295124
+bad_health_T_16+_gap_PT_minus_EU,2020-01-01,level,-3.7067,ruptures.Pelt(l2),1.845277825888471
+bad_health_T_16+_gap_PT_minus_EU,2011-01-01,peak,-2.5,robust_zscore(median/MAD),1.2445668789715394

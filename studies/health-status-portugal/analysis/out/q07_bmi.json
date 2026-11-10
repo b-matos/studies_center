@@ -1,0 +1,10478 @@
+[
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "85 ou mais anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "85 ou mais anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "85 ou mais anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "85 ou mais anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "85 ou mais anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "85 ou mais anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "85 ou mais anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Baixo peso",
+"valor": 1.198,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Baixo peso",
+"valor": 2.0654,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Baixo peso",
+"valor": 2.4453,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Baixo peso",
+"valor": 1.8415,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Baixo peso",
+"valor": 2.1666,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Baixo peso",
+"valor": 1.6447,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Baixo peso",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 29.0157,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 32.6293,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 31.4688,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 30.0987,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 34.3927,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 24.2836,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 24.2836,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 24.2836,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 24.2836,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 28.2983,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 28.2983,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 28.2983,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 28.2983,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 30.0187,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 44.553,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 40.8272,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 40.9334,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 47.7171,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 41.4608,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 45.08,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 50.3552,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 29.8391,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 29.8391,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 29.8391,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 29.8391,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 36.2434,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 36.2434,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 36.2434,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 36.2434,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 44.1668,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 37.081,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 36.7575,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 35.5666,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 39.8347,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 35.9222,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 34.4579,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 42.5183,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 27.0773,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 27.0773,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 27.0773,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 27.0773,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 32.3505,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 32.3505,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 32.3505,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 32.3505,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Peso Normal",
+"valor": 37.2848,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 25.4651,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 33.4287,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 29.8286,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 34.0271,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 31.5201,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 20.263,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 36.2487,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 36.2487,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 36.2487,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 36.2487,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 27.6404,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 27.6404,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 27.6404,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 27.6404,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 26.1418,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 39.582,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 43.2699,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 34.6048,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 33.3956,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 35.7605,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 35.2737,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 29.9104,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 24.5048,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 24.5048,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 24.5048,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 24.5048,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 29.4861,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 29.4861,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 29.4861,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 29.4861,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 35.969,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 30.0608,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 34.7116,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 34.0477,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 31.7445,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 34.9575,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 33.4305,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 25.3243,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 30.3091,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 30.3091,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 30.3091,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 30.3091,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 28.6204,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 28.6204,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 28.6204,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 28.6204,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Peso Normal",
+"valor": 31.3356,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 33.8327,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 28.4819,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 25.0839,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 21.3204,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 26.8266,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 37.6186,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 37.6186,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 37.6186,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 37.6186,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 28.3538,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 28.3538,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 28.3538,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 28.3538,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 28.6162,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 36.6676,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 27.8712,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 27.3981,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 34.0889,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 28.2887,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 29.2404,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 17.503,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 17.503,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 17.503,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 17.503,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 29.5109,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 29.5109,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 29.5109,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 29.5109,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 31.4084,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 35.358,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 28.1743,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 27.9597,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 30.1494,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 18.0854,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 24.95,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 28.1071,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 27.2194,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 27.2194,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 27.2194,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 27.2194,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 28.9918,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 28.9918,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 28.9918,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 28.9918,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Peso Normal",
+"valor": 30.1205,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 33.7511,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 41.9991,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 30.858,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 32.2316,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 38.0524,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 25.5066,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 36.3069,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 36.3069,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 36.3069,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 36.3069,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 32.2172,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 36.3976,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 35.8969,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 37.0811,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 34.7094,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 35.7011,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 29.9269,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 30.1641,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 30.1641,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 30.1641,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 30.1641,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 33.0922,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 35.2542,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 38.8393,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 26.428,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 34.5025,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 33.6295,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 36.6907,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 28.0152,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 32.5276,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 32.5276,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 32.5276,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 32.5276,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Peso Normal",
+"valor": 32.7162,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 56.6168,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 42.9758,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 40.9,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 49.1025,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 49.0445,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 68.2102,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 47.1475,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 54.7622,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 46.0508,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 48.7031,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 52.5314,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 45.2054,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 51.8794,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 59.467,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 45.7607,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 54.819,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 39.6735,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 44.0779,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 38.6913,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 38.6913,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 38.6913,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 38.6913,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Peso Normal",
+"valor": 48.5167,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 36.4215,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 35.7802,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 36.4009,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 43.0657,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 37.6629,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 32.9809,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 37.6971,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 37.826,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 37.826,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 37.826,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 37.826,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 36.2564,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 36.2564,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 36.2564,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 36.2564,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 37.8574,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 45.7613,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 46.7384,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 41.7536,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 47.9947,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 40.9066,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 42.187,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 42.6121,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 32.1959,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 32.1959,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 32.1959,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 32.1959,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 39.7907,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 39.7907,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 39.7907,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 39.7907,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 44.4134,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 41.2855,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 41.1401,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 39.1984,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 45.582,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 39.3365,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 37.5186,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 40.2159,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 34.9352,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 34.9352,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 34.9352,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 34.9352,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 38.1247,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 38.1247,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 38.1247,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 38.1247,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Peso Normal",
+"valor": 41.234,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 81.7739,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 60.1643,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 80.6059,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 64.8685,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 60.4132,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 66.2774,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 66.2774,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 66.2774,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 66.2774,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 64.139,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 64.139,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 64.139,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 64.139,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 70.6346,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 63.7377,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 71.4441,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 77.5169,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 68.3411,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 62.7801,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 69.2432,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 53.2191,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 53.2191,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 53.2191,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 53.2191,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 74.3949,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 74.3949,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 74.3949,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 74.3949,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 65.4356,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 73.3746,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 65.2055,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 64.5432,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 74.9642,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 51.407,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 54.9372,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 64.7455,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 60.003,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 60.003,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 60.003,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 60.003,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 69.2293,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 69.2293,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 69.2293,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 69.2293,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Peso Normal",
+"valor": 68.1722,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 41.7986,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 38.0304,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 54.8773,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 46.5793,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 46.5195,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 58.9276,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 48.6453,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 48.6453,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 48.6453,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 48.6453,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 46.5122,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 46.5122,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 46.5122,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 46.5122,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 48.1678,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 57.5662,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 60.1204,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 61.0757,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 56.4192,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 43.3021,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 52.4222,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 44.2883,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 44.2883,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 44.2883,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 44.2883,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 42.5716,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 42.5716,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 42.5716,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 42.5716,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 55.7546,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 49.3672,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 47.4416,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 49.2656,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 57.6627,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 51.1929,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 45.2755,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 56.0407,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 46.4706,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 46.4706,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 46.4706,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 46.4706,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 44.613,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 44.613,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 44.613,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 44.613,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Peso Normal",
+"valor": 51.6684,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 33.6046,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 31.6811,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 42.9196,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 37.6678,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 30.1072,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 39.0723,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 33.3447,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 33.3447,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 33.3447,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 33.3447,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 36.0843,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 36.0843,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 36.0843,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 36.0843,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 36.5781,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 49.1661,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 55.8707,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 41.3403,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 54.8195,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 51.0061,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 52.9259,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 42.7649,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 35.3534,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 35.3534,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 35.3534,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 35.3534,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 51.0423,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 51.0423,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 51.0423,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 51.0423,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 49.1941,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 41.4105,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 43.0311,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 38.2132,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 48.5409,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 44.191,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 40.1197,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 40.8532,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 34.3565,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 34.3565,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 34.3565,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 34.3565,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 43.5613,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 43.5613,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 43.5613,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 43.5613,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Peso Normal",
+"valor": 42.7233,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 29.5139,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 21.1226,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 26.814,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 28.5015,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.684,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.6043,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.6043,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.6043,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.6043,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.2438,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.2438,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.2438,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.2438,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 26.8067,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.8134,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.0008,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 13.3087,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.2,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.2,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.2,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.2,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.6849,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.6849,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.6849,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.6849,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 15.9431,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.9594,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.5518,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.1349,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.8605,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 14.8729,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.7968,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.2953,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.9096,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.9096,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.9096,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.9096,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.9163,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.9163,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.9163,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.9163,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 21.2275,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 28.1056,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.0254,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.2215,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.1456,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.1005,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.1005,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.1005,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.1005,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.8304,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.8304,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.8304,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.8304,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 24.1439,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 21.5729,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.4377,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.2567,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.3545,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.3545,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.3545,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.3545,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.6803,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.6803,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.6803,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.6803,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.6039,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 24.6464,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 15.6486,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.2323,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 21.098,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.1645,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.8199,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.1054,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.7347,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.7347,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.7347,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.7347,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.7509,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.7509,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.7509,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.7509,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 21.2159,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 28.0794,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.6594,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 28.7596,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 24.7623,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.3772,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.5199,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.5199,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.5199,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.5199,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.5635,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.3483,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.8837,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 15.5258,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 27.0373,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.1816,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.3644,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.7447,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.7447,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.7447,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.7447,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.4675,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.8438,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.8969,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.1469,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.3342,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 27.8067,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.4159,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.9013,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 15.7165,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 15.7165,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 15.7165,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 15.7165,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.6445,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.6445,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.6445,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.6445,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.8954,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 28.1237,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 27.7695,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 29.5687,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 32.6807,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.6629,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 25.2872,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 25.2872,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 25.2872,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 25.2872,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 26.3246,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.5985,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 21.0142,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.4967,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.5384,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 24.2714,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.5584,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 26.0807,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.1851,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.8754,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.4191,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.4191,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.4191,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.4191,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.7199,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "85 ou mais anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 29.7531,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "85 ou mais anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 13.8367,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.5875,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.7735,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.3305,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 26.4315,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.1383,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.3265,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.233,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.0196,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 24.8619,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.261,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.3653,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.3653,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.3653,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.3653,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.0322,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.0322,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.0322,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.0322,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.9915,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.2555,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.1215,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 15.5161,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 14.1803,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.0021,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.2331,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 14.3375,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.0477,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.0477,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.0477,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.0477,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 15.9451,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 15.9451,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 15.9451,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 15.9451,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.4662,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.1736,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.6845,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.2445,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.143,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.4628,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 22.0874,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.2252,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.2022,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.2022,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.2022,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.2022,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.8712,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.8712,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.8712,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.8712,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.6308,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 12.0396,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 24.1405,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 12.8059,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.3689,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 14.274,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 28.9005,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.7331,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.7331,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.7331,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.7331,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 18.9107,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 32.3752,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.8944,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 29.5501,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 21.6314,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 20.6183,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 14.5817,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 17.6097,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 21.0463,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 26.8587,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 26.0443,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.3296,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 23.2246,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.4504,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.4504,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.4504,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.4504,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.1508,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.1508,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.1508,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 16.1508,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau I",
+"valor": 19.6725,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.9086,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.1371,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 30.0913,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 29.0718,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 29.0718,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 29.0718,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 29.0718,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 15.8591,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 15.8591,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 15.8591,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 15.8591,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.6689,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 17.1005,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.6715,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 17.7414,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.1716,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.1855,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.1855,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.1855,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.1855,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.5356,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.5793,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.782,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.8441,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 27.9979,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.7609,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 17.895,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.8701,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.8701,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.8701,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.8701,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.5957,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.5957,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.5957,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.5957,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.0325,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 34.2046,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.8983,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.1119,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 28.7507,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.5151,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.5151,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.5151,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.5151,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.7043,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.7043,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.7043,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.7043,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.8476,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.7194,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.1641,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 17.6743,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.8351,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.3638,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.7796,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.7796,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.7796,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.7796,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.7567,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.0048,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.5171,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.1872,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.3401,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.4225,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.9151,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.3023,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.0039,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.0039,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.0039,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.0039,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.2121,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.2121,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.2121,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.2121,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.6285,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 29.4143,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 36.747,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 37.0051,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 32.6408,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 28.7503,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.73,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.2618,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.576,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.576,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.576,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.576,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.2383,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.2383,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.2383,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.2383,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 30.8282,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.9937,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 27.892,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.5824,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.9225,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.8544,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.3273,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.6938,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.6938,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.6938,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.6938,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.095,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.095,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.095,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.095,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.4775,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.9595,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 32.2861,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 29.3706,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 27.1741,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 27.3367,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.7105,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.7656,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.6369,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.6369,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.6369,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.6369,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.2704,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.2704,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.2704,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.2704,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.868,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.6574,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 32.6073,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 32.5761,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.7564,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.1981,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.8002,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.325,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.6541,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.6541,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.6541,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.6541,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.5682,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.8395,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 16.4578,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 33.828,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.3884,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.3568,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.1902,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 27.3287,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 29.654,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 29.654,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 29.654,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 29.654,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.648,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.648,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.648,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.648,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 26.0788,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "85 ou mais anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.5825,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.8892,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.8369,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.8283,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.2051,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.3212,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.2899,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 23.6635,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.1109,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.5549,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.5549,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.5549,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.5549,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.5111,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.5111,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.5111,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.5111,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.7599,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 16.9767,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 17.4351,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.3256,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 16.4959,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.6722,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 17.5525,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.2293,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.3297,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.3297,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.3297,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.3297,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.0827,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.0827,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.0827,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.0827,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 17.604,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.7434,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.6793,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.1323,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.3684,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.9712,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.6516,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.6341,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.8984,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.8984,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.8984,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.8984,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.8133,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.8133,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.8133,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.8133,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.1044,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 8.3822,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 17.2546,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 10.5752,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 13.5732,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.1679,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.1679,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.1679,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.1679,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 14.1727,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.4843,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 25.6904,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 27.8196,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 27.8196,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 27.8196,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 27.8196,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 24.1842,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 16.0147,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 15.9572,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 15.9572,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 15.9572,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 15.9572,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 14.7595,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.5752,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 18.373,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.1085,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 21.3178,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 20.4044,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 17.9146,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 17.9146,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 17.9146,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 17.9146,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.3267,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.3267,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.3267,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 22.3267,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Excesso de peso - Grau II",
+"valor": 19.5934,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 25.3395,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 17.5801,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 22.5317,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 29.035,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 29.035,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 29.035,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 29.035,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 32.3701,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 32.3701,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 32.3701,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 32.3701,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 19.1612,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 20.1862,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 20.4912,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 26.876,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 26.876,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 26.876,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 26.876,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 19.8906,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 19.8906,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 19.8906,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 19.8906,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 19.9824,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 15.9175,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 22.7445,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 19.0792,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 20.1386,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 17.762,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 21.8192,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 27.9493,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 27.9493,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 27.9493,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 27.9493,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 26.0053,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 26.0053,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 26.0053,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 26.0053,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Obesidade",
+"valor": 19.5829,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 29.6686,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 26.647,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 33.0987,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 22.5501,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 27.3282,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 22.727,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 22.727,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 22.727,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 22.727,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 25.556,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 25.556,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 25.556,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 25.556,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 22.108,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 19.4729,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 16.0349,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 28.4934,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 24.8592,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 26.3482,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 31.9325,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 39.9149,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 39.9149,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 39.9149,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 39.9149,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 24.1354,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 24.1354,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 24.1354,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 24.1354,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 24.8145,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 18.1796,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 22.5893,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 24.1308,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 27.6391,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 28.6807,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 24.4846,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 29.7437,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 31.42,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 31.42,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 31.42,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 31.42,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 24.8011,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 24.8011,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 24.8011,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 24.8011,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Obesidade",
+"valor": 23.5384,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 22.6159,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 27.1905,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 26.5345,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 22.0695,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 22.0695,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 22.0695,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 22.0695,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 26.3466,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 26.3466,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 26.3466,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 26.3466,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 17.6756,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 21.7166,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 18.9111,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 29.9749,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 25.9015,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 26.5384,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 25.0282,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 44.0279,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 44.0279,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 44.0279,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 44.0279,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 23.6494,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 23.6494,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 23.6494,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 23.6494,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 24.7427,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 15.6911,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 19.4156,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 24.4553,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 24.4645,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 26.6187,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 26.0637,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 23.9824,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 33.4214,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 33.4214,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 33.4214,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 33.4214,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 24.8487,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 24.8487,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 24.8487,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 24.8487,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Obesidade",
+"valor": 21.483,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 14.2061,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 21.034,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 20.3611,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 27.8191,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 33.7548,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 33.7548,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 33.7548,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 33.7548,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 23.6126,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 18.3679,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 19.8915,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 21.4635,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 18.4891,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 17.9968,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 17.5944,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 23.6797,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 26.9253,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 26.9253,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 26.9253,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 26.9253,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 19.677,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 19.677,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 19.677,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 19.677,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Obesidade",
+"valor": 19.5705,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "85 ou mais anos",
+"indicador": "Obesidade",
+"valor": 9.3147,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 11.164,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 18.2504,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 14.6552,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 15.3851,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 21.3215,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 16.4529,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 19.9998,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 21.4686,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 21.4686,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 21.4686,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 21.4686,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 21.353,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 21.353,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 21.353,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 21.353,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 15.1932,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 18.1128,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 15.7978,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 21.9132,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 18.676,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 19.4289,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 18.7308,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 21.3886,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 31.3967,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 31.3967,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 31.3967,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 31.3967,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 20.4245,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 20.4245,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 20.4245,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 20.4245,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 19.451,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 14.7828,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 17.0508,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 18.4484,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 17.0652,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 20.345,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 17.5757,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 20.7115,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 26.5662,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 26.5662,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 26.5662,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 26.5662,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 20.862,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 20.862,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 20.862,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 20.862,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Obesidade",
+"valor": 17.3861,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "18 - 24 anos",
+"indicador": "Obesidade",
+"valor": 6.4579,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Obesidade",
+"valor": 8.3724,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Obesidade",
+"valor": 16.9368,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Obesidade",
+"valor": 10.8095,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Obesidade",
+"valor": 18.9927,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Obesidade",
+"valor": 18.9927,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Obesidade",
+"valor": 18.9927,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Obesidade",
+"valor": 18.9927,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Obesidade",
+"valor": 21.2581,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Obesidade",
+"valor": 21.2581,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Obesidade",
+"valor": 21.2581,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Obesidade",
+"valor": 21.2581,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Obesidade",
+"valor": 12.324,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 18.7012,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 28.4504,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 28.4504,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 28.4504,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 28.4504,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 17.2351,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 32.8834,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 32.8834,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 32.8834,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 32.8834,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 19.5854,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 19.5854,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 19.5854,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 19.5854,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 17.3657,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 17.9681,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 15.0151,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 16.1902,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 20.6259,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 13.0399,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 21.4275,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 30.6833,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 30.6833,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 30.6833,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 30.6833,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 17.3714,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 17.3714,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 17.3714,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 17.3714,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Obesidade",
+"valor": 17.2988,
+"unidade": "%"
+}
+]

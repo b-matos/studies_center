@@ -1,0 +1,11 @@
+series,date,type,magnitude,method,rel
+infant_mortality_EU,1971-01-01,level,-21.9011,ruptures.Pelt(l2),2.2114557835496313
+infant_mortality_EU,1991-01-01,level,-16.2304,ruptures.Pelt(l2),1.6388572443871658
+infant_mortality_Portugal,1975-01-01,level,-51.7113,ruptures.Pelt(l2),2.1364299079027917
+infant_mortality_Portugal,1961-01-01,peak,11.8,robust_zscore(median/MAD),0.48751156251858924
+infant_mortality_Portugal,1962-01-01,peak,-9.7,robust_zscore(median/MAD),0.4007510302059592
+infant_mortality_Portugal,1972-01-01,peak,-10.0,robust_zscore(median/MAD),0.41314539196490624
+infant_mortality_Portugal,1974-01-01,peak,-6.4,robust_zscore(median/MAD),0.26441305085753997
+neonatal_mortality_Portugal,1980-01-01,level,-18.4172,ruptures.Pelt(l2),1.9746129873379465
+neonatal_mortality_Portugal,1972-01-01,peak,-3.55,robust_zscore(median/MAD),0.3806152752281826
+perinatal_mortality_Portugal,1985-01-01,level,-25.7655,ruptures.Pelt(l2),1.8702481489499883

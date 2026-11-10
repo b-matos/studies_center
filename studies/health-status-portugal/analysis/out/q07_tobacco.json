@@ -1,0 +1,9776 @@
+[
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 82.8711,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 72.3689,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 67.0305,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 78.0915,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 73.748,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 70.3152,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 73.2533,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 70.1817,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 70.1817,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 70.1817,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 70.1817,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 82.7316,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 82.7316,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 82.7316,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 82.7316,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 76.5805,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 81.9395,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 75.2469,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 86.4419,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 80.222,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 86.2849,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 72.2032,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 90.8809,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 82.0268,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 82.0268,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 82.0268,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 82.0268,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 83.5151,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 83.5151,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 83.5151,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 83.5151,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 82.6292,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 82.4185,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 73.7126,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 76.4477,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 79.1212,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 79.7835,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 71.1815,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 81.5941,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 75.9415,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 75.9415,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 75.9415,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 75.9415,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 83.1108,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 83.1108,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 83.1108,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 83.1108,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Nunca fumaram",
+"valor": 79.494,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 47.2814,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 43.2642,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 55.1793,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 51.7807,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 44.1128,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 50.7373,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 51.4008,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 51.4008,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 51.4008,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 51.4008,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 40.888,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 40.888,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 40.888,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 40.888,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 50.2151,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 78.002,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 62.4977,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 66.7641,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 65.9213,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 63.7472,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 71.3404,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 60.7853,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 56.2793,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 56.2793,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 56.2793,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 56.2793,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 61.9864,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 61.9864,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 61.9864,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 61.9864,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 69.191,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 62.0273,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 51.4571,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 59.1988,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 60.006,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 57.3906,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 54.6402,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 55.1963,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.8358,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.8358,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.8358,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.8358,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 51.0534,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 51.0534,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 51.0534,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 51.0534,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Nunca fumaram",
+"valor": 58.9706,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 41.9534,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 33.2816,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 48.4741,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 56.439,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 49.5617,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 44.3107,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 42.26,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 35.266,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 35.266,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 35.266,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 35.266,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 52.6897,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 52.6897,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 52.6897,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 52.6897,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 46.7157,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 70.2066,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 57.2938,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 65.5095,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 58.8975,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 58.5452,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 52.0817,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 56.1879,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 68.8305,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 68.8305,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 68.8305,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 68.8305,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 64.8117,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 64.8117,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 64.8117,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 64.8117,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 63.3719,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 56.1258,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 44.5484,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 56.94,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 57.6003,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.9551,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 47.722,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 48.9782,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 52.1723,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 52.1723,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 52.1723,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 52.1723,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 58.7514,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 58.7514,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 58.7514,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 58.7514,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Nunca fumaram",
+"valor": 54.8288,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 54.0277,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 41.7505,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 47.8062,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 38.7572,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 46.5823,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 38.2874,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 42.7446,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 42.2566,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 42.2566,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 42.2566,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 42.2566,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 44.9552,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 44.9552,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 44.9552,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 44.9552,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 46.5306,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 68.5955,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 52.8466,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 71.3821,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 62.1958,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.6465,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 57.2876,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 59.9215,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 64.2348,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 64.2348,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 64.2348,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 64.2348,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 68.2713,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 68.2713,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 68.2713,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 68.2713,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 64.3967,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 61.5899,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 47.338,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 59.9497,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 50.8252,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 50.2034,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 47.5688,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 51.489,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.3087,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.3087,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.3087,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.3087,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 56.8469,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 56.8469,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 56.8469,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 56.8469,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Nunca fumaram",
+"valor": 55.7062,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 35.6041,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 34.857,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 47.5194,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 42.2623,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 30.4794,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 34.2743,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 33.4714,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 33.7745,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 33.7745,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 33.7745,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 33.7745,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 39.49,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 39.49,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 39.49,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 39.49,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 38.1652,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 77.0162,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 51.4796,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 79.8461,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 60.2429,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 59.2323,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 66.04,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 63.552,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 73.223,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 73.223,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 73.223,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 73.223,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 72.645,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 72.645,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 72.645,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 72.645,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 70.0617,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 57.533,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 43.4896,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 64.5338,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 51.9199,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 45.8967,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 50.4539,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 49.2525,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.726,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.726,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.726,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.726,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 57.0511,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 57.0511,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 57.0511,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 57.0511,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Nunca fumaram",
+"valor": 55.0228,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 43.7487,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 23.5271,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 39.9775,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 29.2109,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 34.236,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 41.2628,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 46.805,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 27.7778,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 27.7778,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 27.7778,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 27.7778,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 46.4693,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 46.4693,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 46.4693,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 46.4693,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 38.7399,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 87.1991,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 67.7229,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 85.6195,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 64.5338,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 76.575,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 81.082,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 75.5697,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 77.3663,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 77.3663,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 77.3663,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 77.3663,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 81.8287,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 81.8287,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 81.8287,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 81.8287,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 79.5196,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 67.1269,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 45.7933,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 64.139,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 49.0806,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 57.6596,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 62.0126,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 62.0761,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.4136,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.4136,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.4136,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 53.4136,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 66.0636,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 66.0636,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 66.0636,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 66.0636,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Nunca fumaram",
+"valor": 60.7103,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 50.0667,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 31.6442,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 50.0669,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 34.4188,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 36.6353,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 36.4189,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 41.621,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 43.3981,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 43.3981,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 43.3981,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 43.3981,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 43.264,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 94.3989,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 87.9854,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 93.0833,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 83.3891,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 81.9028,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 94.5486,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 91.3245,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 88.1551,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 88.1551,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 88.1551,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 88.1551,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 94.0044,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 94.0044,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 94.0044,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 94.0044,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 90.3813,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 75.2448,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 60.84,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 74.4588,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 63.098,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 62.1744,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 70.0841,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 69.8152,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 62.8329,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 62.8329,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 62.8329,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 62.8329,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 74.5334,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 74.5334,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 74.5334,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 74.5334,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Nunca fumaram",
+"valor": 70.1345,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 76.7484,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 47.8293,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 64.7077,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 49.0664,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 54.9938,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 77.6992,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 62.8322,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 94.2765,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 96.2047,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 96.21,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 84.2248,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 93.7581,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 94.8558,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 94.2623,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 97.9598,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 97.9598,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 97.9598,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 97.9598,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 94.1577,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 94.1577,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 94.1577,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 94.1577,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 92.8499,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 88.1834,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 78.1295,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 85.289,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 72.5258,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 72.9913,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 80.8194,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 88.5064,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 75.4966,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 75.4966,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 75.4966,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 75.4966,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 81.9915,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 81.9915,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 81.9915,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 81.9915,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Nunca fumaram",
+"valor": 82.4889,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 50.8662,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 40.2459,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 50.5536,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 49.961,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 47.2783,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 44.2922,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 48.0185,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 41.9655,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 41.9655,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 41.9655,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 41.9655,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 49.9071,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 49.9071,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 49.9071,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 49.9071,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 49.0228,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 79.3076,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 64.2473,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 79.267,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 67.5034,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 67.9772,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 71.6842,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 71.22,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 72.0711,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 72.0711,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 72.0711,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 72.0711,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 74.933,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 74.933,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 74.933,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 74.933,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 73.9818,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 65.6878,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 52.0058,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 65.5081,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 58.9392,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 57.9337,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 57.6903,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 59.8486,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 57.4098,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 57.4098,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 57.4098,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 57.4098,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 63.0708,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 63.0708,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 63.0708,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 63.0708,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Nunca fumaram",
+"valor": 61.8675,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Ex-fumadores",
+"valor": 11.5288,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Ex-fumadores",
+"valor": 9.9846,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.0148,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 17.5456,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.6356,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.3182,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 23.6669,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 18.7556,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 18.7556,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 18.7556,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 18.7556,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 20.1813,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 20.1813,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 20.1813,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 20.1813,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Ex-fumadores",
+"valor": 19.9527,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 32.8818,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.6947,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 26.2117,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 32.0008,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.3912,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.6126,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.6126,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.6126,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.6126,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 20.2091,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 20.2091,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 20.2091,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 20.2091,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.6114,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 23.7771,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.0023,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.5666,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 26.9021,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 15.8228,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 15.8228,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 15.8228,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 15.8228,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 24.2969,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 26.2546,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 26.3873,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 27.0578,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 29.0408,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.4681,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 26.0818,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 19.1926,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 19.1926,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 19.1926,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 19.1926,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 17.7422,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 17.7422,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 17.7422,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 17.7422,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Ex-fumadores",
+"valor": 26.5099,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 26.8974,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 34.3872,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 29.9391,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 24.0392,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.1395,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.1395,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.1395,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.1395,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 27.4859,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 27.4859,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 27.4859,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 27.4859,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 26.2944,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 23.4032,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.5049,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.4592,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 19.0598,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 18.2576,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 18.2576,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 18.2576,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 18.2576,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 12.6513,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 12.6513,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 12.6513,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 12.6513,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 19.453,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 15.8231,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 25.1379,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 29.2268,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.2696,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 25.4057,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 24.6247,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 21.0066,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 23.1676,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 23.1676,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 23.1676,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 23.1676,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 19.9199,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 19.9199,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 19.9199,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 19.9199,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.7808,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 39.3911,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 36.2348,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 31.9104,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 33.0039,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 44.911,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 38.7652,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 40.4784,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 34.8656,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 34.8656,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 34.8656,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 34.8656,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 31.0231,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 31.0231,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 31.0231,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 31.0231,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 36.9768,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 30.7241,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 26.357,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 18.7279,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 16.5157,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 23.8903,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 33.3734,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 21.7415,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 29.4341,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 31.5315,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.776,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 29.0675,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 23.635,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 23.635,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 23.635,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 23.635,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.3247,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.3247,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.3247,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.3247,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Ex-fumadores",
+"valor": 26.1628,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 42.1143,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 58.0663,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 49.6385,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 54.5785,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 52.4421,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 47.2521,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 39.1405,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 49.5176,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 49.5176,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 49.5176,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 49.5176,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 38.7509,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 38.7509,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 38.7509,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 38.7509,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 47.2147,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 21.1571,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 23.0669,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 13.8654,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 24.9967,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 39.4724,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.1325,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 36.8528,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 31.7278,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 28.4513,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 27.1264,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 30.567,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 30.567,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 30.567,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 30.567,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.7723,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.7723,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.7723,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 22.7723,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Ex-fumadores",
+"valor": 29.2475,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 40.4557,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 59.2701,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 49.9331,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 55.6567,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 57.2292,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 56.0214,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 53.0933,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 64.8615,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 64.8615,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 64.8615,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 64.8615,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 45.724,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 45.724,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 45.724,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 45.724,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 49.6444,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 7.5334,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 19.8928,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 33.2895,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 24.305,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 31.0993,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 33.4521,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 26.2671,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 26.4375,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 32.1584,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 32.1584,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 32.1584,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 32.1584,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 20.6865,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 20.6865,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 20.6865,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 20.6865,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Ex-fumadores",
+"valor": 25.629,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 50.9336,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 63.1294,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 40.4613,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 71.1347,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 71.1347,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 71.1347,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 71.1347,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 34.7802,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 18.6822,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 25.361,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 25.0625,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 22.0256,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 22.0256,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 22.0256,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 22.0256,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Ex-fumadores",
+"valor": 15.6694,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 29.4049,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 31.0314,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 32.3161,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 30.5723,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 31.1073,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 31.9552,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 29.6716,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 29.1838,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 29.1838,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 29.1838,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 29.1838,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 26.2944,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 26.2944,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 26.2944,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 26.2944,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 30.3915,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 11.5238,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 20.7305,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 13.2332,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 21.6133,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 18.8938,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 15.2521,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 15.915,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 13.7715,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 13.7715,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 13.7715,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 13.7715,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 12.3521,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 12.3521,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 12.3521,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 12.3521,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 15.5089,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 20.0865,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 25.9844,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 22.3774,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 25.9871,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 24.82,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 23.7853,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 22.6573,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 21.2773,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 21.2773,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 21.2773,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 21.2773,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 18.9607,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 18.9607,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 18.9607,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 18.9607,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Ex-fumadores",
+"valor": 22.7324,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Fumadores",
+"valor": 11.5394,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Fumadores",
+"valor": 10.0514,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 46.4294,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 21.4508,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 27.042,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 27.042,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 27.042,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 27.042,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 28.0695,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 28.0695,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 28.0695,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 28.0695,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 25.859,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 12.0763,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 31.6043,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 16.0204,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 24.0774,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 25.205,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 25.205,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 25.205,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 25.205,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 22.0848,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 22.0848,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 22.0848,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 22.0848,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumadores",
+"valor": 19.4996,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 35.7177,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 15.7401,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 24.2436,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 31.8193,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 40.5923,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 40.5923,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 40.5923,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 40.5923,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 26.2368,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 26.2368,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 26.2368,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 26.2368,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 23.6096,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 18.0743,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 18.838,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 18.838,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 18.838,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 18.838,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 11.5876,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 16.909,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 27.438,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 14.2707,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 16.2685,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 21.7756,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 24.6278,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 26.6349,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 26.6349,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 26.6349,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 26.6349,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 22.5369,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 22.5369,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 22.5369,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 22.5369,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumadores",
+"valor": 17.7537,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 27.76,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 28.2792,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 25.6602,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 29.5016,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 33.2163,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 27.7128,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 27.7128,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 27.7128,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 27.7128,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 25.4962,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 25.4962,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 25.4962,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 25.4962,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 26.0526,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 23.7502,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 13.9696,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 21.8371,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 21.9969,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 17.5077,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 17.5077,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 17.5077,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 17.5077,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 16.5537,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 16.5537,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 16.5537,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 16.5537,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 15.2864,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 21.4535,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 25.9986,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 19.641,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 23.2125,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 25.759,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 27.5052,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 22.581,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 22.581,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 22.581,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 22.581,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 20.9329,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 20.9329,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 20.9329,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 20.9329,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumadores",
+"valor": 20.5234,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 25.0049,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 26.2059,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 24.5478,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 26.9635,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 24.4813,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 27.6337,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 27.6337,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 27.6337,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 27.6337,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 29.3317,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 29.3317,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 29.3317,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 29.3317,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 24.4467,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 17.4378,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 12.3964,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 12.8494,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 18.4619,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 21.6531,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 18.0211,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 21.3775,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 20.2108,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 20.5345,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 20.1727,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 20.1727,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 20.1727,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 20.1727,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 20.2982,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 20.2982,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 20.2982,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 20.2982,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumadores",
+"valor": 18.3175,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Fumadores",
+"valor": 13.485,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Fumadores",
+"valor": 6.1555,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumadores",
+"valor": 7.8764,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumadores",
+"valor": 13.1485,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumadores",
+"valor": 13.0974,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumadores",
+"valor": 9.3807,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumadores",
+"valor": 10.0016,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumadores",
+"valor": 14.0272,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumadores",
+"valor": 14.0272,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumadores",
+"valor": 14.0272,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumadores",
+"valor": 14.0272,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumadores",
+"valor": 9.5362,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "75 - 84 anos",
+"indicador": "Fumadores",
+"valor": 3.3172,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Fumadores",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 19.2424,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 27.054,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 16.3301,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 18.3057,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 19.8516,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 22.8936,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 21.6616,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 26.6673,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 26.6673,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 26.6673,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 26.6673,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 21.4786,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 21.4786,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 21.4786,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 21.4786,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 19.6346,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 8.5918,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 13.8881,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 7.3847,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 9.9123,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 11.9444,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 12.4619,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 11.9769,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 12.6262,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 12.6262,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 12.6262,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 12.6262,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 11.0262,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 11.0262,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 11.0262,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 11.0262,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 9.7755,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 13.6921,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 20.6033,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 11.6712,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 14.01,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 15.7811,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 17.791,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 16.7235,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 19.4647,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 19.4647,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 19.4647,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 19.4647,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 15.9806,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 15.9806,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 15.9806,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 15.9806,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumadores",
+"valor": 14.5608,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15 - 24 anos",
+"indicador": "Fumador diário",
+"valor": 7.1684,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15 - 24 anos",
+"indicador": "Fumador diário",
+"valor": 6.0021,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "25 - 34 anos",
+"indicador": "Fumador diário",
+"valor": 22.2157,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "25 - 34 anos",
+"indicador": "Fumador diário",
+"valor": 10.19,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumador diário",
+"valor": 25.4575,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumador diário",
+"valor": 12.1745,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumador diário",
+"valor": 23.647,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumador diário",
+"valor": 23.647,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumador diário",
+"valor": 23.647,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumador diário",
+"valor": 23.647,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumador diário",
+"valor": 18.6012,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumador diário",
+"valor": 18.6012,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumador diário",
+"valor": 18.6012,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumador diário",
+"valor": 18.6012,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "25 - 34 anos",
+"indicador": "Fumador diário",
+"valor": 16.667,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 33.4094,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 13.5264,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 36.7838,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 36.7838,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 36.7838,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 36.7838,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 21.0702,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 17.7928,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 17.2847,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 17.2847,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 17.2847,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 17.2847,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 9.8571,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 15.2038,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 26.0807,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 12.1401,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 18.8538,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 20.8745,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 24.4372,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 24.4372,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 24.4372,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 24.4372,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 20.636,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 20.636,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 20.636,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 20.636,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "35 - 44 anos",
+"indicador": "Fumador diário",
+"valor": 15.6083,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 27.76,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 26.2029,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 21.1384,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 23.5518,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 28.2733,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 29.1491,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 26.6593,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 26.6593,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 26.6593,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 26.6593,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 24.1049,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 24.1049,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 24.1049,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 24.1049,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 23.7321,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 20.5918,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 12.5092,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 21.1456,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 19.0874,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 17.5077,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 17.5077,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 17.5077,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 17.5077,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 13.9198,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 21.4535,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 23.3774,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 16.6954,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 19.3328,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 24.7915,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 24.0266,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 22.0572,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 22.0572,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 22.0572,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 22.0572,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 18.1441,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 18.1441,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 18.1441,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 18.1441,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "45 - 54 anos",
+"indicador": "Fumador diário",
+"valor": 18.6928,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 24.1322,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 23.5651,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 26.2384,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 19.1137,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 25.237,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 25.237,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 25.237,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 25.237,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 24.5371,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 24.5371,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 24.5371,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 24.5371,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 22.6301,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 16.8949,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 11.6851,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 12.2082,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 18.0373,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 20.3742,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 17.1842,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 19.5212,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 16.203,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 18.9881,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 18.9881,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 18.9881,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 18.9881,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 17.8364,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 17.8364,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 17.8364,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 17.8364,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "55 - 64 anos",
+"indicador": "Fumador diário",
+"valor": 17.122,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "65 - 74 anos",
+"indicador": "Fumador diário",
+"valor": 12.4491,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "65 - 74 anos",
+"indicador": "Fumador diário",
+"valor": 5.5218,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumador diário",
+"valor": 12.8376,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumador diário",
+"valor": 11.5502,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumador diário",
+"valor": 9.1046,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumador diário",
+"valor": 12.1437,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumador diário",
+"valor": 12.1437,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumador diário",
+"valor": 12.1437,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumador diário",
+"valor": 12.1437,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "65 - 74 anos",
+"indicador": "Fumador diário",
+"valor": 8.717,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "85 e mais anos",
+"indicador": "Fumador diário",
+"valor": 0.0,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 18.1647,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 23.7447,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 15.0036,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 14.5593,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 15.7715,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 21.3283,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 17.4729,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 24.6393,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 24.6393,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 24.6393,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 24.6393,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 18.2023,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 18.2023,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 18.2023,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 18.2023,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "H",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 17.2541,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 7.1167,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 12.495,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 6.3841,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 8.5684,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 10.9023,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 11.2495,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 9.9424,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 11.9075,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 11.9075,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 11.9075,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 11.9075,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 9.559,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 9.559,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 9.559,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 9.559,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 8.4253,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 12.4072,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 18.2328,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 10.5144,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 11.4931,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 13.2649,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 16.3985,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 13.6332,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 18.1074,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 18.1074,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 18.1074,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 18.1074,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 13.6554,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 13.6554,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 13.6554,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 13.6554,
+"unidade": "%"
+},
+{
+"data": "2025-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "15+",
+"indicador": "Fumador diário",
+"valor": 12.7105,
+"unidade": "%"
+}
+]

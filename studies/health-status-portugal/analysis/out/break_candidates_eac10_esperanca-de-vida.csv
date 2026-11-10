@@ -1,0 +1,9 @@
+series,date,type,magnitude,method,rel
+HLY_LE_Y0_PC_T_PT,2014-01-01,peak,-8.25,robust_zscore(median/MAD),3.1395762668556935
+HLY_Y0_T_gap_PT_minus_EU,2014-01-01,peak,-6.4,robust_zscore(median/MAD),2.520480512400882
+HLY_Y65_T_PT,2009-01-01,level,1.8013,ruptures.Pelt(l2),1.3682907977626086
+HLY_Y65_T_PT,2012-01-01,peak,2.15,robust_zscore(median/MAD),1.6332131659623086
+HLY_Y65_T_PT,2014-01-01,peak,-3.55,robust_zscore(median/MAD),2.696700808914509
+HLY_Y65_T_gap_PT_minus_EU,2005-01-01,peak,2.2,robust_zscore(median/MAD),1.6275679288393752
+HLY_Y65_T_gap_PT_minus_EU,2012-01-01,peak,2.1,robust_zscore(median/MAD),1.5535875684375862
+HLY_Y65_T_gap_PT_minus_EU,2014-01-01,peak,-3.7,robust_zscore(median/MAD),2.737273334866223

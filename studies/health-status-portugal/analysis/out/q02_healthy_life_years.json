@@ -1,0 +1,6806 @@
+[
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 78.2,
+"unidade": "PC"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 75.6,
+"unidade": "PC"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 75.7,
+"unidade": "PC"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 75.5,
+"unidade": "PC"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 74.7,
+"unidade": "PC"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 74.3,
+"unidade": "PC"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 75.0,
+"unidade": "PC"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 74.2,
+"unidade": "PC"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 74.2,
+"unidade": "PC"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 73.3,
+"unidade": "PC"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 73.4,
+"unidade": "PC"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 75.9,
+"unidade": "PC"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 76.9,
+"unidade": "PC"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 76.9,
+"unidade": "PC"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 76.7,
+"unidade": "PC"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.5,
+"unidade": "PC"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.6,
+"unidade": "PC"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.4,
+"unidade": "PC"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 75.4,
+"unidade": "PC"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 75.4,
+"unidade": "PC"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.9,
+"unidade": "PC"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 64.1,
+"unidade": "PC"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 70.1,
+"unidade": "PC"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 70.3,
+"unidade": "PC"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 70.1,
+"unidade": "PC"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 69.6,
+"unidade": "PC"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 68.2,
+"unidade": "PC"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 68.1,
+"unidade": "PC"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 70.0,
+"unidade": "PC"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 74.9,
+"unidade": "PC"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 74.1,
+"unidade": "PC"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 65.7,
+"unidade": "PC"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 65.2,
+"unidade": "PC"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 68.1,
+"unidade": "PC"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 67.4,
+"unidade": "PC"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 68.0,
+"unidade": "PC"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 68.2,
+"unidade": "PC"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 69.8,
+"unidade": "PC"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 68.0,
+"unidade": "PC"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 68.7,
+"unidade": "PC"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 68.4,
+"unidade": "PC"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 75.0,
+"unidade": "PC"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 48.5,
+"unidade": "PC"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 41.9,
+"unidade": "PC"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 42.5,
+"unidade": "PC"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 41.7,
+"unidade": "PC"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 38.9,
+"unidade": "PC"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 38.1,
+"unidade": "PC"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 40.3,
+"unidade": "PC"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 38.3,
+"unidade": "PC"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 38.9,
+"unidade": "PC"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 38.6,
+"unidade": "PC"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 38.4,
+"unidade": "PC"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 43.5,
+"unidade": "PC"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 45.9,
+"unidade": "PC"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.7,
+"unidade": "PC"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.1,
+"unidade": "PC"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 47.8,
+"unidade": "PC"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 48.0,
+"unidade": "PC"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 47.5,
+"unidade": "PC"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 43.8,
+"unidade": "PC"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 44.0,
+"unidade": "PC"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 48.2,
+"unidade": "PC"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 19.2,
+"unidade": "PC"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 26.6,
+"unidade": "PC"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 29.3,
+"unidade": "PC"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 26.7,
+"unidade": "PC"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 27.1,
+"unidade": "PC"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 26.7,
+"unidade": "PC"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 27.6,
+"unidade": "PC"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 29.3,
+"unidade": "PC"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 42.2,
+"unidade": "PC"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 43.2,
+"unidade": "PC"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 25.6,
+"unidade": "PC"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 24.8,
+"unidade": "PC"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 29.3,
+"unidade": "PC"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 30.4,
+"unidade": "PC"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 31.2,
+"unidade": "PC"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 30.7,
+"unidade": "PC"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 33.0,
+"unidade": "PC"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 33.8,
+"unidade": "PC"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 32.9,
+"unidade": "PC"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 34.2,
+"unidade": "PC"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 41.6,
+"unidade": "PC"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 82.7,
+"unidade": "PC"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 80.2,
+"unidade": "PC"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 81.0,
+"unidade": "PC"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 80.8,
+"unidade": "PC"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 79.5,
+"unidade": "PC"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 79.4,
+"unidade": "PC"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 80.0,
+"unidade": "PC"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 79.4,
+"unidade": "PC"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 79.1,
+"unidade": "PC"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 78.6,
+"unidade": "PC"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 78.4,
+"unidade": "PC"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 80.3,
+"unidade": "PC"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 81.5,
+"unidade": "PC"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 81.3,
+"unidade": "PC"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 81.4,
+"unidade": "PC"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 81.8,
+"unidade": "PC"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 81.9,
+"unidade": "PC"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 81.7,
+"unidade": "PC"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 80.1,
+"unidade": "PC"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 79.8,
+"unidade": "PC"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 82.2,
+"unidade": "PC"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 73.8,
+"unidade": "PC"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 78.2,
+"unidade": "PC"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 79.4,
+"unidade": "PC"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.1,
+"unidade": "PC"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.8,
+"unidade": "PC"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 76.2,
+"unidade": "PC"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.2,
+"unidade": "PC"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 78.5,
+"unidade": "PC"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 83.4,
+"unidade": "PC"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 82.3,
+"unidade": "PC"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 74.8,
+"unidade": "PC"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 74.5,
+"unidade": "PC"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 76.7,
+"unidade": "PC"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 76.7,
+"unidade": "PC"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 76.4,
+"unidade": "PC"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.0,
+"unidade": "PC"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 78.0,
+"unidade": "PC"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 75.6,
+"unidade": "PC"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 76.3,
+"unidade": "PC"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 76.7,
+"unidade": "PC"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 82.5,
+"unidade": "PC"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 55.7,
+"unidade": "PC"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 49.9,
+"unidade": "PC"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 50.9,
+"unidade": "PC"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 50.4,
+"unidade": "PC"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.7,
+"unidade": "PC"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.3,
+"unidade": "PC"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 48.1,
+"unidade": "PC"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.4,
+"unidade": "PC"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.5,
+"unidade": "PC"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.5,
+"unidade": "PC"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.6,
+"unidade": "PC"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 51.8,
+"unidade": "PC"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 53.8,
+"unidade": "PC"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 53.5,
+"unidade": "PC"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 54.3,
+"unidade": "PC"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 55.2,
+"unidade": "PC"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 54.7,
+"unidade": "PC"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 54.7,
+"unidade": "PC"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 50.5,
+"unidade": "PC"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 50.3,
+"unidade": "PC"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 54.4,
+"unidade": "PC"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 31.5,
+"unidade": "PC"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 40.2,
+"unidade": "PC"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 42.4,
+"unidade": "PC"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 40.9,
+"unidade": "PC"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 39.3,
+"unidade": "PC"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 39.4,
+"unidade": "PC"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 41.3,
+"unidade": "PC"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 43.6,
+"unidade": "PC"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 56.5,
+"unidade": "PC"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 54.2,
+"unidade": "PC"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 38.3,
+"unidade": "PC"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 39.0,
+"unidade": "PC"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 43.0,
+"unidade": "PC"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 43.3,
+"unidade": "PC"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 42.8,
+"unidade": "PC"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 42.4,
+"unidade": "PC"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 47.0,
+"unidade": "PC"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.1,
+"unidade": "PC"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.1,
+"unidade": "PC"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 47.5,
+"unidade": "PC"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 53.6,
+"unidade": "PC"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 80.3,
+"unidade": "PC"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.7,
+"unidade": "PC"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 78.1,
+"unidade": "PC"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 78.0,
+"unidade": "PC"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.0,
+"unidade": "PC"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 76.7,
+"unidade": "PC"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.4,
+"unidade": "PC"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 76.7,
+"unidade": "PC"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 76.5,
+"unidade": "PC"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 75.8,
+"unidade": "PC"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 75.8,
+"unidade": "PC"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 78.1,
+"unidade": "PC"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 79.1,
+"unidade": "PC"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 79.0,
+"unidade": "PC"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 79.0,
+"unidade": "PC"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 79.5,
+"unidade": "PC"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 79.7,
+"unidade": "PC"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 79.5,
+"unidade": "PC"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.7,
+"unidade": "PC"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.5,
+"unidade": "PC"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 79.9,
+"unidade": "PC"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 68.7,
+"unidade": "PC"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 74.0,
+"unidade": "PC"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 74.7,
+"unidade": "PC"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 73.4,
+"unidade": "PC"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 73.5,
+"unidade": "PC"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 71.9,
+"unidade": "PC"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 72.4,
+"unidade": "PC"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 73.9,
+"unidade": "PC"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 78.9,
+"unidade": "PC"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 77.9,
+"unidade": "PC"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 69.9,
+"unidade": "PC"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 69.5,
+"unidade": "PC"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 72.1,
+"unidade": "PC"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 71.7,
+"unidade": "PC"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 71.9,
+"unidade": "PC"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 72.2,
+"unidade": "PC"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 73.6,
+"unidade": "PC"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 71.6,
+"unidade": "PC"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 72.2,
+"unidade": "PC"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 72.2,
+"unidade": "PC"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y0_PC",
+"valor": 78.6,
+"unidade": "PC"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 51.5,
+"unidade": "PC"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 45.2,
+"unidade": "PC"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.0,
+"unidade": "PC"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 45.3,
+"unidade": "PC"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 42.1,
+"unidade": "PC"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 41.5,
+"unidade": "PC"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 43.4,
+"unidade": "PC"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 41.7,
+"unidade": "PC"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 42.0,
+"unidade": "PC"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 42.0,
+"unidade": "PC"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 42.0,
+"unidade": "PC"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 47.0,
+"unidade": "PC"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 49.3,
+"unidade": "PC"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 49.6,
+"unidade": "PC"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 49.5,
+"unidade": "PC"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 51.0,
+"unidade": "PC"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 50.9,
+"unidade": "PC"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 50.6,
+"unidade": "PC"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.7,
+"unidade": "PC"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.6,
+"unidade": "PC"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 50.9,
+"unidade": "PC"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 24.3,
+"unidade": "PC"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 32.3,
+"unidade": "PC"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 34.7,
+"unidade": "PC"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 32.5,
+"unidade": "PC"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 32.1,
+"unidade": "PC"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 31.9,
+"unidade": "PC"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 33.1,
+"unidade": "PC"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 35.1,
+"unidade": "PC"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 48.2,
+"unidade": "PC"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 47.6,
+"unidade": "PC"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 30.7,
+"unidade": "PC"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 30.6,
+"unidade": "PC"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 34.9,
+"unidade": "PC"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 35.6,
+"unidade": "PC"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 35.9,
+"unidade": "PC"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 35.5,
+"unidade": "PC"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 38.8,
+"unidade": "PC"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 38.9,
+"unidade": "PC"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 38.5,
+"unidade": "PC"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 39.6,
+"unidade": "PC"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_LE_Y65_PC",
+"valor": 46.5,
+"unidade": "PC"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.7,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.6,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 62.1,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 62.1,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.6,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.3,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 62.2,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.7,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.7,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.1,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.4,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.3,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 64.4,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 64.3,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 64.2,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 65.1,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 64.5,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 64.2,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 62.8,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.3,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 65.5,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 52.4,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 57.1,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.0,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 57.9,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 57.6,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 56.5,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 56.7,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.6,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 62.6,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 62.2,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 55.4,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 55.0,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 57.4,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 57.0,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 57.5,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 57.8,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.7,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 57.4,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.0,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.3,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.9,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.7,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.4,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.7,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.6,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.1,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.0,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.5,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.2,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.2,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.3,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.3,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.3,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 10.0,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 10.0,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 10.0,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 10.4,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 10.1,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.9,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.2,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.6,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 10.5,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 3.8,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 5.2,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.0,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 5.4,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 5.6,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 5.6,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 5.8,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.3,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.0,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.3,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 5.6,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 5.4,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.4,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.7,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.9,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.9,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.1,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.4,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.3,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.8,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.4,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.5,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.5,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 82.0,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 82.2,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 82.4,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 82.6,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 82.9,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 83.1,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 83.1,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 83.3,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 83.7,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 83.3,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 83.7,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 83.6,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 83.7,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 84.0,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 83.2,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 82.9,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 83.3,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 84.0,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 84.1,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.8,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.5,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 82.5,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 82.5,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 82.7,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 82.8,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 83.2,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 83.8,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 83.6,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 84.0,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 84.4,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 84.3,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 84.3,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 84.6,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 84.5,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 84.8,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 84.1,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 84.4,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 84.5,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 85.3,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 85.2,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.0,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.0,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.4,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.6,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.7,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.9,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.0,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.3,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.1,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.4,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.7,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.3,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.7,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.5,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.6,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.8,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.0,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.9,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.1,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.8,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.8,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.0,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.7,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.5,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.4,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.6,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.8,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.0,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.6,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.3,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.6,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.9,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.7,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.8,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 22.1,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 22.0,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 22.3,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.6,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 22.0,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 22.1,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 22.7,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "F",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 22.6,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 62.0,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 60.2,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.2,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.3,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 60.5,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 60.6,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.3,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.1,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.0,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 60.9,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.1,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 62.4,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.6,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.5,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.7,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 64.2,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.5,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.1,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 62.4,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 62.8,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 64.8,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 55.3,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.6,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 60.0,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.5,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 59.2,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.3,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 59.3,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 60.7,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 64.5,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.9,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.4,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.2,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 59.9,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 60.1,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 59.8,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 60.6,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 60.8,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 59.3,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 60.2,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.0,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 65.8,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.1,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.1,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.5,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.5,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.9,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.0,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.4,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.2,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.1,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.3,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.4,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.2,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.7,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.7,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.8,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 10.2,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.5,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.5,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.9,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.2,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 10.0,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 5.1,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.5,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.0,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.9,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.7,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.8,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.1,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.8,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.9,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.6,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.9,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.0,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.7,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.9,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.8,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.9,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.4,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.4,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.6,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.1,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 10.3,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 75.0,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 75.1,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 75.6,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 75.8,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 76.1,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 76.4,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 76.7,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 77.0,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 77.1,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 77.5,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 77.9,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 77.7,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.0,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.1,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.2,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.5,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 77.5,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 77.2,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 77.9,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.7,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.9,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 75.0,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 74.9,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 75.5,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 75.9,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 76.2,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 76.5,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 76.8,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 77.3,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 77.3,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 77.6,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.0,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.1,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.1,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.4,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.3,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.7,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.0,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.5,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.9,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 79.5,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 79.7,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 16.3,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 16.3,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 16.7,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 16.9,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.0,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.2,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.4,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.6,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.5,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.8,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.1,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.8,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.1,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.1,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.1,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.4,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.4,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.3,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.7,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.3,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.4,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 16.3,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 16.1,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 16.6,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 16.8,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.0,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.2,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.2,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.8,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.6,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.8,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.1,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.0,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.0,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.3,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.2,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.5,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 17.8,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.3,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.7,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.2,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "M",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.3,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 62.9,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 60.9,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.6,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.7,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.0,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.0,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.8,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.4,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.3,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.0,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 61.3,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 62.8,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 64.0,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.9,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 64.0,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 64.6,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 64.0,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.6,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 62.6,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.1,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 65.2,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 53.9,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 57.8,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 59.0,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.2,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.4,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 57.3,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.0,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 59.6,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.6,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 63.0,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 56.9,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 56.5,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.6,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.5,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.6,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 59.2,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 59.7,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 58.3,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 59.1,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 59.6,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y0",
+"valor": 64.8,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.4,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.3,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.6,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.6,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.0,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.0,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.4,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.2,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.2,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.3,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.4,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.3,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.9,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.9,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.9,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 10.3,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.8,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.7,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.1,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.4,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 10.3,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 4.4,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 5.8,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.5,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.1,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.1,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.1,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.4,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.0,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.4,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.5,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.2,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 6.1,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.0,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.3,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.3,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.3,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.7,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.9,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 7.9,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 8.4,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=HLY_Y65",
+"valor": 9.8,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.3,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.4,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.9,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 79.1,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 79.3,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 79.5,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 79.8,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.1,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.2,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.5,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.8,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.5,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.9,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.9,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.0,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.3,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.4,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.1,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.6,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.4,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.5,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.4,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 78.2,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 79.0,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 79.3,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 79.5,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 79.7,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.1,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.7,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.6,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 80.9,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.3,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.3,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.3,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.6,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.5,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.9,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.1,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.5,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 81.8,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 82.5,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y0",
+"valor": 82.5,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.3,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.3,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.7,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.9,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.0,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.2,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.4,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.6,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.5,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.7,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.0,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.7,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.0,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.9,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.0,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.2,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.3,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.2,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.5,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.2,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "European Union (27)",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.2,
+"unidade": "YR"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.3,
+"unidade": "YR"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.0,
+"unidade": "YR"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.7,
+"unidade": "YR"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.8,
+"unidade": "YR"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 18.9,
+"unidade": "YR"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.2,
+"unidade": "YR"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.3,
+"unidade": "YR"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.9,
+"unidade": "YR"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.6,
+"unidade": "YR"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.9,
+"unidade": "YR"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.2,
+"unidade": "YR"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.0,
+"unidade": "YR"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.1,
+"unidade": "YR"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.4,
+"unidade": "YR"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.3,
+"unidade": "YR"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.6,
+"unidade": "YR"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 19.8,
+"unidade": "YR"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.3,
+"unidade": "YR"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 20.5,
+"unidade": "YR"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.1,
+"unidade": "YR"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "T",
+"idade": "",
+"indicador": "healthy_life_years|hlth_hle=LE_Y65",
+"valor": 21.1,
+"unidade": "YR"
+}
+]

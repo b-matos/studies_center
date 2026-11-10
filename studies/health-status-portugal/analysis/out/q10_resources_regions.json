@@ -1,0 +1,3791 @@
+[
+{
+"data": "1993-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 395.5,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1994-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 392.52,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1995-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 391.87,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 398.44,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 392.92,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 385.62,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 374.46,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 370.9,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 364.86,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 356.65,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 358.16,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 358.91,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 355.81,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 347.88,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 343.55,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 339.1,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 337.19,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 337.14,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 337.21,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 340.61,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 339.27,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 331.91,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 336.84,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 339.33,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 339.34,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 344.32,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 350.88,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 352.88,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1993-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 331.14,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1994-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 326.49,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1995-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 328.12,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 328.52,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 322.03,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 318.67,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 314.48,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 313.73,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 307.43,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 290.71,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 300.65,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 302.16,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 301.68,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 300.32,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 291.71,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 282.12,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 286.31,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 292.99,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 294.09,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 296.54,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 298.07,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 299.95,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 298.0,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 307.19,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 312.34,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 320.75,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 334.36,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 342.21,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1993-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 223.43,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1994-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 219.51,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1995-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 212.39,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 206.33,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 209.25,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 203.87,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 205.04,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 224.29,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 226.68,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 222.51,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 210.31,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 209.82,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 201.65,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 225.5,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 222.39,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 204.88,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 203.63,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 205.77,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 222.86,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 249.51,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 263.89,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 255.03,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 249.94,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 250.17,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 256.05,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 283.9,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 273.58,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 265.51,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 375.96,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 369.76,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 363.65,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 357.85,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 362.57,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 369.81,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 365.47,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 341.94,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 342.76,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 354.75,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 344.13,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 336.96,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 326.22,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 330.78,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 316.46,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 298.69,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 305.99,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 312.25,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 314.62,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 314.39,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 318.37,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 320.3,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 473.76,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 465.67,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 455.84,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 450.4,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 445.19,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 438.03,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 430.08,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 419.75,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 415.42,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 404.83,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 404.87,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 399.72,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 394.88,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 393.31,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 396.27,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 385.85,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 396.88,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 390.27,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 380.9,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 381.48,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 382.51,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 377.4,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 224.31,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 225.56,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 229.06,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 234.31,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 215.94,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 224.12,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 228.89,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 224.26,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 221.49,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 216.16,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 206.06,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 210.55,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 224.97,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 224.74,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 220.24,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 211.29,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 217.18,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 213.24,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 216.92,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 218.0,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 216.87,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 213.18,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1993-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 566.72,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1994-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 561.07,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1995-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 557.2,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 554.49,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 576.75,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 577.99,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 581.08,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 596.5,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 591.41,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 589.9,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 597.68,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 596.22,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 610.28,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 605.15,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 604.42,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 610.49,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 611.87,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 612.98,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 608.56,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 613.25,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 609.71,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 604.3,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 612.05,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 619.08,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 605.14,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 608.17,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 611.15,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 619.86,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1993-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 707.29,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1994-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 729.99,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1995-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 735.8,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 736.26,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 734.13,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 738.44,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 684.04,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 689.57,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 680.26,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 683.83,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 673.84,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 664.39,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 649.78,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 644.98,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 639.82,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 634.53,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 617.09,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 616.44,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 679.07,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 705.44,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 712.05,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 700.77,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 721.79,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 709.17,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 707.32,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 726.32,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 767.81,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "hospital_beds_total",
+"valor": 793.69,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1993-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 280.9,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1994-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 282.54,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1995-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 284.33,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 288.57,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 292.57,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 297.7,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 302.38,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 307.72,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 312.73,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 316.11,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 321.58,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 328.28,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 336.48,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 343.4,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 352.06,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 361.39,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 372.12,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 384.67,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 398.33,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 410.12,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 426.07,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 442.61,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 461.4,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 479.79,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 497.47,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 515.04,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 532.2,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 562.24,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1993-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 242.89,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1994-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 244.03,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1995-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 246.16,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 250.33,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 255.05,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 259.41,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 264.2,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 273.25,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 278.31,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 284.15,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 291.08,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 299.44,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 307.92,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 316.43,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 325.63,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 335.86,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 348.83,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 364.53,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 379.06,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 387.27,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 408.16,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 424.75,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 447.63,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 469.04,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 490.03,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 511.33,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 531.76,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 561.01,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1993-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 188.99,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1994-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 187.99,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1995-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 188.76,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 195.63,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 195.73,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 204.67,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 213.86,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 223.01,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 239.77,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 245.0,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 253.64,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 263.66,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 274.09,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 278.76,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 284.24,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 288.35,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 295.97,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 304.97,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 318.91,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 327.22,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 338.31,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 350.97,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 364.95,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 379.9,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 390.2,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 405.93,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 419.03,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 435.21,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 238.78,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 242.47,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 246.94,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 249.54,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 257.25,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 261.57,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 262.25,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 272.76,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 278.93,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 286.54,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 293.97,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 304.11,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 313.67,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 325.67,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 340.17,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 354.75,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 370.05,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 384.58,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 403.29,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 419.7,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 437.53,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 458.52,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 478.34,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 500.38,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 533.58,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 472.88,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 476.8,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 483.37,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 484.2,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 484.97,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 485.89,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 485.93,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 484.66,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 489.32,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 497.18,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 503.06,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 511.2,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 520.35,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 528.36,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 536.21,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 548.55,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 560.49,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 573.2,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 588.03,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 603.75,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 619.06,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 631.44,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 643.2,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 652.83,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 687.99,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 132.55,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 135.33,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 137.12,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 142.74,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 148.31,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 159.36,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 167.59,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 170.66,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 174.49,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 182.38,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 184.65,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 188.31,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 193.06,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 197.42,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 206.74,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 215.19,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 229.26,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 241.69,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 253.68,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 264.52,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 277.3,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 285.73,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 296.59,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 310.06,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 322.33,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1993-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 129.27,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1994-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 134.32,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1995-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 138.05,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 140.5,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 142.94,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 149.91,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 150.77,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 154.31,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 160.77,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 163.43,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 168.3,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 172.4,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 178.51,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 182.56,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 189.41,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 197.14,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 204.23,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 214.32,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 229.17,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 243.76,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 254.55,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 270.15,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 290.58,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 309.13,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 324.24,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 338.6,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 354.58,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Açores",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 376.45,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1993-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 150.73,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1994-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 153.92,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1995-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 157.18,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 159.88,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 163.87,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 169.55,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 179.55,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 185.64,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 192.21,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 193.49,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 195.98,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 203.83,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 209.73,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 213.58,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 220.77,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 231.18,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 244.8,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 253.24,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 263.06,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 281.04,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 294.43,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 321.15,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 352.55,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 376.3,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 403.34,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 422.97,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 442.35,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "R. A. Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "physicians",
+"valor": 474.72,
+"unidade": "P_HTHAB"
+}
+]

@@ -1,0 +1,542 @@
+[
+{
+"data": "2024-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "",
+"indicador": "Causas de morte externas",
+"valor": 59.4,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "",
+"indicador": "Causas de morte externas",
+"valor": 46.7,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "",
+"indicador": "Causas de morte externas",
+"valor": 33.3,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "",
+"indicador": "Causas de morte externas",
+"valor": 40.5,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "",
+"indicador": "Causas de morte externas",
+"valor": 47.7,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "",
+"indicador": "Causas de morte externas",
+"valor": 44.1,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "",
+"indicador": "Causas de morte externas",
+"valor": 39.5,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "",
+"indicador": "Causas de morte externas",
+"valor": 41.3,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "",
+"indicador": "Causas de morte externas",
+"valor": 36.5,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "",
+"indicador": "Causas de morte externas",
+"valor": 42.7,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "",
+"indicador": "Todas as causas de morte",
+"valor": 1011.6,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "",
+"indicador": "Todas as causas de morte",
+"valor": 936.6,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "",
+"indicador": "Todas as causas de morte",
+"valor": 820.3,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "",
+"indicador": "Todas as causas de morte",
+"valor": 929.1,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "",
+"indicador": "Todas as causas de morte",
+"valor": 1161.9,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "",
+"indicador": "Todas as causas de morte",
+"valor": 940.1,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "",
+"indicador": "Todas as causas de morte",
+"valor": 863.9,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "",
+"indicador": "Todas as causas de morte",
+"valor": 884.0,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "",
+"indicador": "Todas as causas de morte",
+"valor": 831.6,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "",
+"indicador": "Todas as causas de morte",
+"valor": 834.4,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "",
+"indicador": "Tumores malignos",
+"valor": 214.5,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "",
+"indicador": "Tumores malignos",
+"valor": 217.8,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "",
+"indicador": "Tumores malignos",
+"valor": 203.9,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "",
+"indicador": "Tumores malignos",
+"valor": 212.4,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "",
+"indicador": "Tumores malignos",
+"valor": 274.2,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "",
+"indicador": "Tumores malignos",
+"valor": 223.9,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "",
+"indicador": "Tumores malignos",
+"valor": 198.4,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "",
+"indicador": "Tumores malignos",
+"valor": 204.4,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "",
+"indicador": "Tumores malignos",
+"valor": 187.7,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "",
+"indicador": "Tumores malignos",
+"valor": 184.7,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "",
+"indicador": "Diabetes mellitus",
+"valor": 29.1,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "",
+"indicador": "Diabetes mellitus",
+"valor": 11.3,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "",
+"indicador": "Diabetes mellitus",
+"valor": 13.2,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "",
+"indicador": "Diabetes mellitus",
+"valor": 23.5,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "",
+"indicador": "Diabetes mellitus",
+"valor": 37.1,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "",
+"indicador": "Diabetes mellitus",
+"valor": 22.1,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "",
+"indicador": "Diabetes mellitus",
+"valor": 17.5,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "",
+"indicador": "Diabetes mellitus",
+"valor": 21.6,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "",
+"indicador": "Diabetes mellitus",
+"valor": 14.5,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "",
+"indicador": "Diabetes mellitus",
+"valor": 18.3,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho circulatório",
+"valor": 207.0,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho circulatório",
+"valor": 171.8,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho circulatório",
+"valor": 170.5,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho circulatório",
+"valor": 188.9,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho circulatório",
+"valor": 266.9,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho circulatório",
+"valor": 194.5,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho circulatório",
+"valor": 169.5,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho circulatório",
+"valor": 181.4,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho circulatório",
+"valor": 154.9,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho circulatório",
+"valor": 158.6,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Alentejo",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho respiratório",
+"valor": 72.1,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Algarve",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho respiratório",
+"valor": 79.6,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Grande Lisboa",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho respiratório",
+"valor": 64.2,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Península de Setúbal",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho respiratório",
+"valor": 69.6,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho respiratório",
+"valor": 96.4,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho respiratório",
+"valor": 113.9,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho respiratório",
+"valor": 75.2,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Oeste e Vale do Tejo",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho respiratório",
+"valor": 72.0,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Norte",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho respiratório",
+"valor": 78.0,
+"unidade": "per 100000"
+},
+{
+"data": "2024-01-01",
+"regiao": "Centro",
+"sexo": "HM",
+"idade": "",
+"indicador": "Doenças do aparelho respiratório",
+"valor": 78.4,
+"unidade": "per 100000"
+}
+]

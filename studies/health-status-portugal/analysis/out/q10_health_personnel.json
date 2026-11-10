@@ -1,0 +1,1406 @@
+[
+{
+"data": "1980-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 11.09,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1981-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 10.69,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1982-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 10.73,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1983-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 10.5,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1984-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 10.29,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1985-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 12.62,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1986-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 13.25,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1987-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 14.0,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1988-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 14.47,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1989-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 16.24,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1990-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 16.9,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1991-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 16.98,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1992-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 17.8,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1993-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 20.71,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1994-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 23.09,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1995-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 25.22,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 27.62,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 29.92,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 33.4,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 37.6,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 43.23,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 46.83,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 50.26,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 53.42,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 56.07,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 59.28,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 64.9,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 64.39,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 68.03,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 73.3,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 76.66,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 76.74,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 80.38,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 84.66,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 87.58,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 91.2,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 95.35,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 100.7,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 105.43,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 108.44,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 112.38,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 116.86,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 119.9,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 120.78,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "dentists_licensed",
+"valor": 123.54,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1960-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 75.65,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1961-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 80.87,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1962-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 80.99,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1963-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 79.28,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1964-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 79.43,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1965-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 82.55,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1966-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 80.69,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1967-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 83.57,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1968-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 91.35,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1969-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 86.93,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1970-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 89.3,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1971-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 92.62,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1972-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 99.03,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1973-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 101.78,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1974-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 112.8,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1975-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 115.18,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1976-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 120.78,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1977-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 140.07,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1978-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 160.93,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1979-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 180.96,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1980-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 191.71,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1981-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 207.14,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1982-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 216.0,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1983-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 224.06,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1984-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 235.12,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1985-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 237.34,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1986-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 250.17,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1987-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 256.97,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1988-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 262.06,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1989-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 269.63,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1990-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 274.17,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1991-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 277.94,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1992-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 281.25,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1993-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 280.9,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1994-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 282.54,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1995-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 284.33,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1996-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 288.57,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1997-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 292.57,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1998-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 297.7,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 302.38,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 307.72,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 312.73,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 316.11,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 321.58,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 328.28,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 336.48,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 343.4,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 352.06,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 361.39,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 372.12,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 384.67,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 398.02,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 409.47,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 425.39,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 441.82,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 460.34,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 478.36,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 495.55,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 512.51,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 528.7,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 544.14,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 557.58,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 570.21,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 580.66,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "physicians_licensed",
+"valor": 591.35,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 422.29,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 442.89,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 468.16,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 494.97,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 517.89,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 543.42,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 568.48,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 587.75,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 597.79,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2013-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 604.51,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 612.23,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 627.39,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 644.97,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 665.33,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 684.63,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 703.06,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 721.53,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 741.07,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 750.54,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 758.52,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "nurses_active",
+"valor": 767.54,
+"unidade": "P_HTHAB"
+},
+{
+"data": "1999-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 69.62,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2000-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 70.88,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2001-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 73.24,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2002-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 76.41,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2003-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 82.57,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2004-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 86.52,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2005-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 90.39,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2006-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 95.9,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2007-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 95.96,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2008-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 101.62,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2009-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 107.37,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2010-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 103.04,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2011-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 112.5,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2012-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 104.26,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2014-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 112.88,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2015-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 116.73,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2016-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 120.56,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2017-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 125.8,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2018-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 130.42,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2019-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 133.8,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2020-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 149.88,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2021-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 154.26,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2022-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 157.03,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2023-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 159.34,
+"unidade": "P_HTHAB"
+},
+{
+"data": "2024-01-01",
+"regiao": "Portugal",
+"sexo": "",
+"idade": "",
+"indicador": "pharmacists_active",
+"valor": 159.9,
+"unidade": "P_HTHAB"
+}
+]

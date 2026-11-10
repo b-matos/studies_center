@@ -1,0 +1,165 @@
+q01_life_expectancy:
+  axis: esperanca-de-vida
+  data_file: q01_life_expectancy.json
+  title_en: Life expectancy at birth and at 65, Portugal and EU-27 (1960-2024)
+  title_pt: Esperança de vida à nascença e aos 65 anos, Portugal e UE-27 (1960-2024)
+q01_life_expectancy_regions:
+  axis: esperanca-de-vida
+  data_file: q01_life_expectancy_regions.json
+  title_en: Life expectancy at birth by NUTS II region (three-year periods, INE)
+  title_pt: Esperança de vida à nascença por região NUTS II (triénios, INE)
+q02_healthy_life_years:
+  axis: esperanca-de-vida
+  data_file: q02_healthy_life_years.json
+  title_en: Healthy life years and share of life expectancy, Portugal and EU-27 (2004-2024)
+  title_pt: Anos de vida saudável e peso na esperança de vida, Portugal e UE-27 (2004-2024)
+q03_causes_pt_eu:
+  axis: mortalidade
+  data_file: q03_causes_pt_eu.json
+  title_en: Age-standardised death rate by cause, Portugal and EU-27 (2011-2023)
+  title_pt: Taxa de mortalidade padronizada por causa, Portugal e UE-27 (2011-2023)
+q03_causes_regions:
+  axis: mortalidade
+  data_file: q03_causes_regions.json
+  title_en: 'Standardised death rate by cause and NUTS II region (Eurostat, 2011-2023;
+    Centro: PT16 to 2021, PT19 in 2023)'
+  title_pt: 'Mortalidade padronizada por causa e região NUTS II (Eurostat, 2011-2023;
+    Centro: PT16 até 2021, PT19 em 2023)'
+q03_causes_regions_2024:
+  axis: mortalidade
+  data_file: q03_causes_regions_2024.json
+  title_en: Standardised mortality by cause and NUTS 2024 region (INE, 2024)
+  title_pt: Mortalidade padronizada por causa e região NUTS 2024 (INE, 2024)
+q03_premature_mortality:
+  axis: mortalidade
+  data_file: q03_premature_mortality.json
+  title_en: Premature (30-70) and under-75 mortality, Portugal (INE)
+  title_pt: Mortalidade prematura (30-70 anos) e antes dos 75 anos, Portugal (INE)
+q04_avoidable_mortality:
+  axis: mortalidade
+  data_file: q04_avoidable_mortality.json
+  title_en: Avoidable mortality (preventable and treatable) per 100,000, Portugal
+    and EU-27 (2011-2023)
+  title_pt: Mortalidade evitável (prevenível e tratável) por 100 000 hab., Portugal
+    e UE-27 (2011-2023)
+q04_infant_mortality:
+  axis: mortalidade
+  data_file: q04_infant_mortality.json
+  title_en: Infant, neonatal and perinatal mortality per 1,000 live births, Portugal
+    and EU-27 (1960-2024)
+  title_pt: Mortalidade infantil, neonatal e perinatal por 1000 nados-vivos, Portugal
+    e UE-27 (1960-2024)
+q04_infant_mortality_regions:
+  axis: mortalidade
+  data_file: q04_infant_mortality_regions.json
+  title_en: Five-year infant mortality rate by NUTS 2024 region (INE; date = last
+    year of the window)
+  title_pt: Taxa quinquenal de mortalidade infantil por região NUTS 2024 (INE; data
+    = último ano da janela)
+q06_chronic_condition:
+  axis: morbilidade
+  data_file: q06_chronic_condition.json
+  title_en: Chronic condition or long-standing health problem, 16+, by sex and age
+    (INE, 2004-2025)
+  title_pt: Doença crónica ou problema de saúde prolongado, 16+ anos, por sexo e idade
+    (INE, 2004-2025)
+q06_chronic_condition_regions:
+  axis: morbilidade
+  data_file: q06_chronic_condition_regions.json
+  title_en: Chronic condition, 16+, by NUTS 2024 region (INE, 2024-2025)
+  title_pt: Doença crónica, 16+ anos, por região NUTS 2024 (INE, 2024-2025)
+q06_self_perceived_health_eu:
+  axis: morbilidade
+  data_file: q06_self_perceived_health_eu.json
+  title_en: Self-perceived health (EU-SILC), Portugal and EU-27, by sex and age (2008-2025)
+  title_pt: Saúde autoavaliada (EU-SILC), Portugal e UE-27, por sexo e idade (2008-2025)
+q06_self_rated_health_ine:
+  axis: morbilidade
+  data_file: q06_self_rated_health_ine.json
+  title_en: Self-rated health, 16+, by sex and age (INE, 2004-2025)
+  title_pt: Autoapreciação do estado de saúde, 16+ anos, por sexo e idade (INE, 2004-2025)
+q07_alcohol:
+  axis: fatores-de-risco
+  data_file: q07_alcohol.json
+  title_en: 'Alcohol in past 12 months: 6+ drinks per occasion (INS 2014, 2019, 2025;
+    % of drinkers)'
+  title_pt: 'Consumo de álcool nos 12 meses anteriores: ocasiões de 6+ bebidas (INS
+    2014, 2019, 2025; % dos consumidores)'
+q07_bmi:
+  axis: fatores-de-risco
+  data_file: q07_bmi.json
+  title_en: Body mass index classes, 18+, by region, sex and age (INS, 2025; %)
+  title_pt: Classes de índice de massa corporal, 18+ anos, por região, sexo e idade
+    (INS, 2025; %)
+q07_daily_smokers_regions:
+  axis: fatores-de-risco
+  data_file: q07_daily_smokers_regions.json
+  title_en: Daily smokers, 15+, by NUTS 2024 region and sex (INS, 2025)
+  title_pt: Fumadores diários, 15+ anos, por região NUTS 2024 e sexo (INS, 2025)
+q07_tobacco:
+  axis: fatores-de-risco
+  data_file: q07_tobacco.json
+  title_en: Smoking status, 15+, by region, sex and age (INS, 2025; % of population)
+  title_pt: Condição perante o tabaco, 15+ anos, por região, sexo e idade (INS, 2025;
+    % da população)
+q08_depressive_symptoms:
+  axis: saude-mental
+  data_file: q08_depressive_symptoms.json
+  title_en: Depressive symptoms, 15+, by sex and age (INS 2014, 2019, 2025; % of population)
+  title_pt: Sintomas depressivos, 15+ anos, por sexo e idade (INS 2014, 2019, 2025;
+    % da população)
+q08_suicide:
+  axis: saude-mental
+  data_file: q08_suicide.json
+  title_en: Suicide mortality rate per 100,000, by region, sex and age (INE, 2002-2024)
+  title_pt: Taxa de mortalidade por suicídio por 100 000 hab., por região, sexo e
+    idade (INE, 2002-2024)
+q09_unmet_dental:
+  axis: acesso-e-recursos
+  data_file: q09_unmet_dental.json
+  title_en: Unmet dental care needs by reason and income quintile (EU-SILC, 2008-2025)
+  title_pt: Necessidades de cuidados dentários não satisfeitas por motivo e quintil
+    de rendimento (EU-SILC, 2008-2025)
+q09_unmet_medical:
+  axis: acesso-e-recursos
+  data_file: q09_unmet_medical.json
+  title_en: Unmet medical care needs by reason and income quintile (EU-SILC, 2008-2025)
+  title_pt: Necessidades de cuidados médicos não satisfeitas por motivo e quintil
+    de rendimento (EU-SILC, 2008-2025)
+q09_unmet_poverty:
+  axis: acesso-e-recursos
+  data_file: q09_unmet_poverty.json
+  title_en: Unmet needs by at-risk-of-poverty status (EU-SILC, 2021-2025)
+  title_pt: Necessidades não satisfeitas por limiar de risco de pobreza (EU-SILC,
+    2021-2025)
+q10_expenditure_by_function:
+  axis: acesso-e-recursos
+  data_file: q10_expenditure_by_function.json
+  title_en: Current health expenditure by function of care, % of total (1992-2025)
+  title_pt: Despesa corrente em saúde por função de cuidados, % do total (1992-2025)
+q10_health_expenditure:
+  axis: acesso-e-recursos
+  data_file: q10_health_expenditure.json
+  title_en: 'Current health expenditure: % of GDP, PPS per capita and financing mix
+    (1992-2025)'
+  title_pt: 'Despesa corrente em saúde: % do PIB, PPC por habitante e estrutura por
+    regime de financiamento (1992-2025)'
+q10_health_personnel:
+  axis: acesso-e-recursos
+  data_file: q10_health_personnel.json
+  title_en: Physicians, nurses, dentists and pharmacists per 100,000 inhabitants,
+    Portugal (Eurostat)
+  title_pt: Médicos, enfermeiros, dentistas e farmacêuticos por 100 000 hab., Portugal
+    (Eurostat)
+q10_hospital_beds:
+  axis: acesso-e-recursos
+  data_file: q10_hospital_beds.json
+  title_en: Hospital beds per 100,000 inhabitants, Portugal and EU-27 (Eurostat)
+  title_pt: Camas hospitalares por 100 000 hab., Portugal e UE-27 (Eurostat)
+q10_resources_regions:
+  axis: acesso-e-recursos
+  data_file: q10_resources_regions.json
+  title_en: Hospital beds and physicians per 100,000, by NUTS II region (Eurostat,
+    to 2020)
+  title_pt: Camas hospitalares e médicos por 100 000 hab., por região NUTS II (Eurostat,
+    até 2020)

@@ -1,0 +1,821 @@
+[
+{
+"data": "2008-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 75.86,
+"unidade": "years"
+},
+{
+"data": "2008-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 76.13,
+"unidade": "years"
+},
+{
+"data": "2008-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 78.58,
+"unidade": "years"
+},
+{
+"data": "2008-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 78.9,
+"unidade": "years"
+},
+{
+"data": "2008-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.29,
+"unidade": "years"
+},
+{
+"data": "2008-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.59,
+"unidade": "years"
+},
+{
+"data": "2008-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.64,
+"unidade": "years"
+},
+{
+"data": "2009-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 76.01,
+"unidade": "years"
+},
+{
+"data": "2009-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 76.54,
+"unidade": "years"
+},
+{
+"data": "2009-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.01,
+"unidade": "years"
+},
+{
+"data": "2009-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.43,
+"unidade": "years"
+},
+{
+"data": "2009-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.52,
+"unidade": "years"
+},
+{
+"data": "2009-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.9,
+"unidade": "years"
+},
+{
+"data": "2009-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.97,
+"unidade": "years"
+},
+{
+"data": "2010-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 76.32,
+"unidade": "years"
+},
+{
+"data": "2010-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 77.03,
+"unidade": "years"
+},
+{
+"data": "2010-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.26,
+"unidade": "years"
+},
+{
+"data": "2010-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.65,
+"unidade": "years"
+},
+{
+"data": "2010-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.67,
+"unidade": "years"
+},
+{
+"data": "2010-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.09,
+"unidade": "years"
+},
+{
+"data": "2010-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.14,
+"unidade": "years"
+},
+{
+"data": "2011-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 76.49,
+"unidade": "years"
+},
+{
+"data": "2011-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 77.49,
+"unidade": "years"
+},
+{
+"data": "2011-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.45,
+"unidade": "years"
+},
+{
+"data": "2011-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.0,
+"unidade": "years"
+},
+{
+"data": "2011-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.02,
+"unidade": "years"
+},
+{
+"data": "2011-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.24,
+"unidade": "years"
+},
+{
+"data": "2011-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.32,
+"unidade": "years"
+},
+{
+"data": "2012-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 76.82,
+"unidade": "years"
+},
+{
+"data": "2012-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 77.68,
+"unidade": "years"
+},
+{
+"data": "2012-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.81,
+"unidade": "years"
+},
+{
+"data": "2012-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.22,
+"unidade": "years"
+},
+{
+"data": "2012-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.32,
+"unidade": "years"
+},
+{
+"data": "2012-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.55,
+"unidade": "years"
+},
+{
+"data": "2012-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.55,
+"unidade": "years"
+},
+{
+"data": "2013-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 77.15,
+"unidade": "years"
+},
+{
+"data": "2013-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 77.76,
+"unidade": "years"
+},
+{
+"data": "2013-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.03,
+"unidade": "years"
+},
+{
+"data": "2013-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.38,
+"unidade": "years"
+},
+{
+"data": "2013-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.5,
+"unidade": "years"
+},
+{
+"data": "2013-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.69,
+"unidade": "years"
+},
+{
+"data": "2013-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.8,
+"unidade": "years"
+},
+{
+"data": "2014-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 77.28,
+"unidade": "years"
+},
+{
+"data": "2014-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 78.02,
+"unidade": "years"
+},
+{
+"data": "2014-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.04,
+"unidade": "years"
+},
+{
+"data": "2014-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.34,
+"unidade": "years"
+},
+{
+"data": "2014-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.71,
+"unidade": "years"
+},
+{
+"data": "2014-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.98,
+"unidade": "years"
+},
+{
+"data": "2014-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.99,
+"unidade": "years"
+},
+{
+"data": "2015-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 77.48,
+"unidade": "years"
+},
+{
+"data": "2015-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 78.18,
+"unidade": "years"
+},
+{
+"data": "2015-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.17,
+"unidade": "years"
+},
+{
+"data": "2015-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.19,
+"unidade": "years"
+},
+{
+"data": "2015-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.85,
+"unidade": "years"
+},
+{
+"data": "2015-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 81.07,
+"unidade": "years"
+},
+{
+"data": "2015-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 81.13,
+"unidade": "years"
+},
+{
+"data": "2016-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 77.85,
+"unidade": "years"
+},
+{
+"data": "2016-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 78.3,
+"unidade": "years"
+},
+{
+"data": "2016-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.93,
+"unidade": "years"
+},
+{
+"data": "2016-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.24,
+"unidade": "years"
+},
+{
+"data": "2016-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.94,
+"unidade": "years"
+},
+{
+"data": "2016-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 81.11,
+"unidade": "years"
+},
+{
+"data": "2016-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 81.18,
+"unidade": "years"
+},
+{
+"data": "2017-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 77.87,
+"unidade": "years"
+},
+{
+"data": "2017-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 78.36,
+"unidade": "years"
+},
+{
+"data": "2017-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.99,
+"unidade": "years"
+},
+{
+"data": "2017-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.35,
+"unidade": "years"
+},
+{
+"data": "2017-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 81.01,
+"unidade": "years"
+},
+{
+"data": "2017-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 81.23,
+"unidade": "years"
+},
+{
+"data": "2017-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 81.33,
+"unidade": "years"
+},
+{
+"data": "2018-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 78.0,
+"unidade": "years"
+},
+{
+"data": "2018-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 78.52,
+"unidade": "years"
+},
+{
+"data": "2018-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.14,
+"unidade": "years"
+},
+{
+"data": "2018-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.42,
+"unidade": "years"
+},
+{
+"data": "2018-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 81.14,
+"unidade": "years"
+},
+{
+"data": "2018-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 81.36,
+"unidade": "years"
+},
+{
+"data": "2018-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 81.46,
+"unidade": "years"
+},
+{
+"data": "2019-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 78.18,
+"unidade": "years"
+},
+{
+"data": "2019-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 78.55,
+"unidade": "years"
+},
+{
+"data": "2019-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.78,
+"unidade": "years"
+},
+{
+"data": "2019-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.83,
+"unidade": "years"
+},
+{
+"data": "2019-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.75,
+"unidade": "years"
+},
+{
+"data": "2019-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.98,
+"unidade": "years"
+},
+{
+"data": "2019-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 81.13,
+"unidade": "years"
+},
+{
+"data": "2020-01-01",
+"regiao": "Região Autónoma dos Açores",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 78.04,
+"unidade": "years"
+},
+{
+"data": "2020-01-01",
+"regiao": "Região Autónoma da Madeira",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 78.77,
+"unidade": "years"
+},
+{
+"data": "2020-01-01",
+"regiao": "Algarve",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 79.99,
+"unidade": "years"
+},
+{
+"data": "2020-01-01",
+"regiao": "Alentejo",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.09,
+"unidade": "years"
+},
+{
+"data": "2020-01-01",
+"regiao": "Área Metropolitana de Lisboa",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 80.65,
+"unidade": "years"
+},
+{
+"data": "2020-01-01",
+"regiao": "Centro",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 81.34,
+"unidade": "years"
+},
+{
+"data": "2020-01-01",
+"regiao": "Norte",
+"sexo": "",
+"idade": "",
+"indicador": "life_expectancy_at_birth",
+"valor": 81.53,
+"unidade": "years"
+}
+]
