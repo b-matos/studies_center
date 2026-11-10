@@ -8,7 +8,7 @@
     pt: {
       add: "Adicionar à fila", placeholder: "Tema do estudo, por exemplo: saúde em Portugal",
       run: "Executar", runNext: "Executar a seguir", resume: "Retomar", remove: "Remover", queued: "Na fila",
-      flagged: "A seguir", running: "A correr", done: "Concluído", failed: "Falhou", interrupted: "Interrompido", needs_you: "Precisa de ti",
+      flagged: "A seguir", running: "A correr", done: "Concluído", failed: "Falhou", interrupted: "Interrompido", needs_you: "Precisa de ti", decide: "Decisão pedida pelo estudo", answerPh: "A tua resposta (ou escolhe uma opção)", answer: "Responder e retomar",
       empty: "A fila está vazia. Adiciona um tema acima.", noRun: "Nada a correr neste momento.",
       plan: "Plano", h5: "5 h", week: "7 dias", resets: "renova às", limit: "Limite atingido",
       phases: ["Plano", "Fontes", "Extração", "Análise", "Eventos", "Redação", "Verificação", "Publicação"],
@@ -19,7 +19,7 @@
     en: {
       add: "Add to queue", placeholder: "Study topic, for example: health in Portugal",
       run: "Run", runNext: "Run next", resume: "Resume", remove: "Remove", queued: "Queued",
-      flagged: "Up next", running: "Running", done: "Done", failed: "Failed", interrupted: "Interrupted", needs_you: "Needs you",
+      flagged: "Up next", running: "Running", done: "Done", failed: "Failed", interrupted: "Interrupted", needs_you: "Needs you", decide: "Decision requested by the study", answerPh: "Your answer (or pick an option)", answer: "Answer and resume",
       empty: "The queue is empty. Add a topic above.", noRun: "Nothing is running right now.",
       plan: "Plan", h5: "5 h", week: "7 days", resets: "resets at", limit: "Limit reached",
       phases: ["Plan", "Sources", "Extraction", "Analysis", "Events", "Writing", "Verification", "Publication"],
@@ -76,8 +76,19 @@
         el("span", { class: `badge-estado q-badge-${status}` }, T[status] || status),
         canRun ? el("button", { onclick: () => act(() => api(`/api/queue/${item.id}/run`, "POST")) }, label) : "",
         item.status !== "running" ? el("button", { class: "q-secondary", onclick: () => act(() => api(`/api/queue/${item.id}`, "DELETE")) }, T.remove) : ""));
+      if (item.status === "needs_you" && item.question) list.append(decisionBox(item));
     }
     if (!busy) renderProgress(null);
+  }
+
+  function decisionBox(item) {
+    const input = el("textarea", { class: "q-answer", rows: "2", maxlength: "2000", placeholder: T.answerPh });
+    const send = () => act(() => api(`/api/queue/${item.id}/answer`, "POST", { answer: input.value }));
+    const options = item.question.options.map((o) =>
+      el("button", { class: "q-secondary", onclick: () => { input.value = `${o.n}. ${o.text}`; } }, `${o.n}`));
+    return el("div", { class: "q-decision" },
+      el("strong", {}, T.decide), el("pre", { class: "q-question" }, item.question.text),
+      el("div", { class: "q-options" }, options), input, el("button", { onclick: send }, T.answer));
   }
 
   function renderProgress(p) {

@@ -197,3 +197,65 @@ async def test_plan_endpoint_returns_only_the_plan(client: httpx.AsyncClient) ->
     app_module.hub.plan = "Pro"
     async with client as c:
         assert (await c.get("/api/plan")).json() == {"plan": "Pro"}
+
+
+@pytest.fixture
+def study_root(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
+    from server import decisions
+
+    root = tmp_path / "studies"
+    (root / "demo-study").mkdir(parents=True)
+    monkeypatch.setattr(decisions, "STUDIES_ROOT", root)
+    return root
+
+
+def test_read_question_returns_text_and_numbered_options(study_root: Path) -> None:
+    from server import decisions
+
+    (study_root / "demo-study" / "pending.md").write_text(
+        "# Pergunta 5 sem fonte\n\nContexto.\n\n1. **Retirar** as fontes - perde cobertura\n2. Tentar outra - 1 tentativa\n\nRecomendação: 2",
+        encoding="utf-8")
+    question = decisions.read_question("demo-study")
+    assert [o["n"] for o in question["options"]] == [1, 2]
+    assert question["options"][0]["text"].startswith("Retirar as fontes")
+    assert decisions.read_question("other") is None
+    assert decisions.read_question("../etc") is None  # slugs are validated before touching the disk
+
+
+def test_record_answer_archives_pending_and_appends_to_decisions(study_root: Path) -> None:
+    from server import decisions
+
+    study = study_root / "demo-study"
+    (study / "pending.md").write_text("# Decide isto\n1. a\n2. b", encoding="utf-8")
+    (study / "study.yml").write_text("status: pending_decision\ntitle_pt: x\n", encoding="utf-8")
+    decisions.record_answer("demo-study", "2. b")
+    assert not (study / "pending.md").exists()
+    assert list(study.glob("pending.resolved-*.md"))
+    assert "Resposta do utilizador: 2. b" in (study / "decisions.md").read_text(encoding="utf-8")
+    assert "status: in_progress" in (study / "study.yml").read_text(encoding="utf-8")
+    with pytest.raises(decisions.DecisionError, match="no pending decision"):
+        decisions.record_answer("demo-study", "again")
+    with pytest.raises(decisions.DecisionError):
+        decisions.record_answer("demo-study", "   ")
+
+
+@pytest.mark.asyncio
+async def test_answering_resumes_the_study_through_the_api(
+    monkeypatch: pytest.MonkeyPatch, client: httpx.AsyncClient, study_root: Path
+) -> None:
+    monkeypatch.setattr(runner, "run_study", _fake_run(status="needs_you"))
+    (study_root / "demo-study" / "pending.md").write_text("# Decide\n1. a\n2. b", encoding="utf-8")
+    async with client as c:
+        item = (await c.post("/api/queue", json={"topic": "tema de teste"})).json()
+        await c.post(f"/api/queue/{item['id']}/run")
+        await _wait_for(lambda: app_module.hub.queue.get(item["id"])["status"] == "needs_you")
+
+        shown = next(i for i in (await c.get("/api/queue")).json()["items"] if i["id"] == item["id"])
+        assert shown["question"]["options"][1]["n"] == 2  # the page gets the question and its options
+
+        assert (await c.post(f"/api/queue/{item['id']}/answer", json={"answer": ""})).status_code == 422
+        monkeypatch.setattr(runner, "run_study", _fake_run(status="done"))
+        assert (await c.post(f"/api/queue/{item['id']}/answer", json={"answer": "2. b"})).json()["started"] is True
+        await _wait_for(lambda: app_module.hub.queue.get(item["id"])["status"] == "done")
+        assert "2. b" in (study_root / "demo-study" / "decisions.md").read_text(encoding="utf-8")
+        assert (await c.post(f"/api/queue/{item['id']}/answer", json={"answer": "x"})).status_code == 409

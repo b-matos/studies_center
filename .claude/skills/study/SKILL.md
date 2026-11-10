@@ -48,7 +48,8 @@ separadas. Se uma chamada for recusada, para e diz porquê; não contornes.
 2. Se `studies/<slug>/` não existir, corre **um** comando que cria a pasta, o `study.yml` e o
    `state.json`: `uv run python -m common.state init <slug> --title-pt "..." --title-en "..."
    --summary-pt "..." --summary-en "..."`.
-3. Corre **sempre** `uv run python -m common.state resume <slug>`. Imprime a próxima fase, as
+3. Se existir `studies/<slug>/decisions.md`, lê-o: são decisões do utilizador, de cumprir.
+   Depois corre **sempre** `uv run python -m common.state resume <slug>`. Imprime a próxima fase, as
    unidades feitas e por fazer, as tentativas gastas e os últimos problemas.
    - `BLOCKED`: lê `pending.md`, informa o utilizador e para.
    - Tudo concluído: diz isso e termina.
@@ -102,12 +103,28 @@ impasse em `studies/<slug>/pending.md` e para — não inventes dados nem fontes
 
 Se, em qualquer fase, surgir uma decisão difícil de reverter (excluir um eixo inteiro por
 falta de dados, mudar o âmbito definido em `plan.md`, publicar uma afirmação de grau A sem
-fonte 100% clara):
+fonte 100% clara), **não a tomes tu e nunca termines o turno com uma pergunta** — numa
+execução lançada pelo servidor ninguém responde ao chat. Em vez disso:
 
-- Em **modo interativo**: pergunta diretamente ao utilizador antes de continuar.
-- Em **modo headless** (lançado pelo servidor): escreve a decisão em
-  `studies/<slug>/pending.md`, põe `status: pending_decision` em `study.yml`, e para a skill.
-  O servidor mostra isto na vista de progresso.
+1. Escreve `studies/<slug>/pending.md` neste formato (a página Fila mostra-o ao utilizador,
+   com um botão por opção):
+
+   ```
+   # <o que precisa de decisão, numa linha>
+
+   <contexto em 3-5 linhas: o que se tentou, o que falhou, o que está em jogo>
+
+   1. <opção A — consequência>
+   2. <opção B — consequência>
+
+   Recomendação: <número> — <porquê, numa linha>
+   ```
+2. Põe `status: pending_decision` em `study.yml`, diz o impasse numa frase e **para**.
+
+A resposta fica em `studies/<slug>/decisions.md` e o `pending.md` é arquivado. Ao retomar
+(passo 0) lê `decisions.md` antes de tudo, aplica o que lá está e não voltes a perguntar o
+que já foi decidido. Antes de pedir uma decisão, volta a correr `complete-phase`: a verificação
+por código pode já passar e o impasse desaparecer.
 
 ## 8. Publicação
 

@@ -19,7 +19,7 @@ from pydantic import BaseModel
 from sse_starlette.sse import EventSourceResponse
 
 from common import usage
-from server import runner
+from server import decisions, runner
 from server.queue import QueueError, StudyQueue
 from server.validation import InvalidTopic, validate_topic
 
@@ -75,8 +75,15 @@ class Hub:
         for subscriber in self.subscribers:
             await subscriber.put(event)
 
+    def items_view(self) -> list[dict]:
+        """Queue items; those waiting for the user carry the question read from pending.md."""
+        return [
+            {**i, "question": decisions.read_question(i["slug"])} if i["status"] == "needs_you" else i
+            for i in self.queue.items
+        ]
+
     async def publish_queue(self) -> None:
-        await self.publish({"type": "queue", "items": self.queue.items})
+        await self.publish({"type": "queue", "items": self.items_view()})
 
     def start(self, item_id: str) -> None:
         item = self.queue.mark_running(item_id)
@@ -136,7 +143,7 @@ def _hub() -> Hub:
 
 @app.get("/api/queue")
 async def get_queue() -> dict:
-    return {"items": _hub().queue.items}
+    return {"items": _hub().items_view()}
 
 
 @app.post("/api/queue")
@@ -166,6 +173,29 @@ async def remove_from_queue(item_id: str) -> dict:
 async def run_item(item_id: str) -> dict:
     try:
         _item, start_now = _hub().queue.request_run(item_id)
+    except QueueError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+    if start_now:
+        _hub().start(item_id)
+    await _hub().publish_queue()
+    return {"id": item_id, "started": start_now}
+
+
+class AnswerRequest(BaseModel):
+    answer: str
+
+
+@app.post("/api/queue/{item_id}/answer")
+async def answer_decision(item_id: str, req: AnswerRequest) -> dict:
+    """Record the user's answer to a pending decision and resume the study (or queue it next)."""
+    try:
+        item = _hub().queue.get(item_id)
+        if item["status"] != "needs_you":
+            raise QueueError("this item is not waiting for a decision")
+        decisions.record_answer(item["slug"], req.answer)
+        _item, start_now = _hub().queue.request_run(item_id)
+    except decisions.DecisionError as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
     except QueueError as exc:
         raise HTTPException(status_code=409, detail=str(exc)) from exc
     if start_now:
