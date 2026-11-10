@@ -149,8 +149,8 @@ def test_outcome_is_judged_on_the_study_not_on_the_exit_code(tmp_path: Path, mon
 
     monkeypatch.setattr(state, "STUDIES_ROOT", tmp_path)
     denied = {"permission_denials": [{"tool_name": "Bash", "tool_input": {"command": "mkdir x && cat > y"}}]}
-    status, note = runner._outcome(0, False, denied, "s", "")
-    assert status == "failed" and "Permissão recusada" in note and "mkdir x" in note  # exit code 0, still a failure
+    status, note = runner._outcome(0, False, denied, None, "")
+    assert status == "failed" and "recusado" in note and "mkdir x" in note  # exit code 0, still a failure
 
     assert runner._outcome(0, False, {}, None, "")[0] == "failed"  # never started a study
     assert runner._outcome(1, True, {}, "s", "")[0] == "interrupted"
@@ -164,3 +164,21 @@ def test_outcome_is_judged_on_the_study_not_on_the_exit_code(tmp_path: Path, mon
     state.save("s", s)
     (tmp_path / "s" / "pending.md").unlink()
     assert runner._outcome(0, False, {}, "s", "")[0] == "done"
+
+
+def test_background_wait_timeout_is_named_as_the_cause_not_a_denied_command(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    from common import state
+
+    monkeypatch.setattr(state, "STUDIES_ROOT", tmp_path)
+    state.init("s")
+    denied = {"permission_denials": [{"tool_name": "Bash", "tool_input": {"command": "curl x"}}]}
+    stderr = "Background tasks still running 10m after the last turn (subagent a); stopping them."
+    status, note = runner._outcome(0, False, denied, "s", stderr)
+    assert status == "failed"
+    assert note.startswith("Os subagentes demoraram") and "retomar" in note and "curl x" in note
+
+
+def test_runner_environment_extends_the_background_wait() -> None:
+    assert int(runner.BG_WAIT_CEILING_MS) >= 3_600_000

@@ -30,6 +30,13 @@ perguntas desses eixos):
 4. Nunca inventes um URL, formato ou licença. Se não tiveres a certeza da licença, melhor
    `excluded` do que um valor adivinhado.
 
+## Bash
+
+Só `uv run ...`, **um comando por chamada**: sem `curl`, `for`, `sleep`, pipes, `&&` nem `;`
+(são recusados em modo headless). Não esperes nem repitas à espera de limites de pedidos: se
+uma API recusar (429, timeout), tenta no máximo mais uma vez noutro momento do trabalho; se
+persistir, regista a fonte como `excluded` com o motivo.
+
 ## Regras
 
 - Não descarregas nem normalizas dados (isso é o `extractor`).

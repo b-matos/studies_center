@@ -29,6 +29,13 @@ Para cada pergunta de `plan.md`:
    falha antes de passar à pergunta seguinte. Imprime só o essencial (valores-chave), não
    tabelas inteiras.
 
+## Bash
+
+Só `uv run ...`, **um comando por chamada**: sem `curl`, `for`, `sleep`, pipes, `&&` nem `;`
+(são recusados em modo headless). Não esperes nem repitas à espera de limites de pedidos: se
+uma API recusar (429, timeout), tenta no máximo mais uma vez noutro momento do trabalho; se
+persistir, regista a fonte como `excluded` com o motivo.
+
 ## Regras
 
 - Não decides se uma quebra tem relação com um evento político ou social — isso é o

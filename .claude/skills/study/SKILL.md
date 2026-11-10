@@ -31,6 +31,9 @@ separadas. Se uma chamada for recusada, para e diz porquê; não contornes.
   problemas). Se devolver mais, ignora o excesso.
 - **No máximo 2 subagentes em simultâneo.** Agrupa trabalho do mesmo organismo (ex.: todos os
   eixos Eurostat num só `data-researcher`; até 4 fontes por `extractor`).
+- Os subagentes correm em segundo plano. Depois de os lançar, espera pelas notificações de
+  conclusão; não faças polling, `sleep` nem releituras de ficheiros à espera. Uma unidade só é
+  dada como feita com `unit-done`, nunca porque o texto do subagente diz que acabou.
 - Cálculo, normalização e verificação mecânica são scripts, não prompts: `common.probe`,
   `common.extract`, `common.breaks`, `common.verify`.
 - Num reenvio por falha, dá ao subagente só a lista de problemas impressa por

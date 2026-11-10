@@ -1,0 +1,8 @@
+run_id,timestamp,phase,model,input_tokens,cache_read_tokens,cache_creation_tokens,output_tokens,cost_usd
+9b8b0b8920,2026-11-10T15:44:53Z,prep,claude-sonnet-5-5,6,71278,18207,35,0.06047
+9b8b0b8920,2026-11-10T15:44:53Z,1,claude-sonnet-5-5,22,328341,3969,160,0.057526
+9b8b0b8920,2026-11-10T15:44:53Z,2,claude-sonnet-5-5,78,971855,62640,523,0.311401
+9b8b0b8920,2026-11-10T15:44:53Z,unattributed,claude-sonnet-5-5,0,0,0,11846,0.081917
+9b8b0b8920,2026-11-10T15:44:53Z,1,claude-opus-5-5,10,46592,21092,36,0.142076
+9b8b0b8920,2026-11-10T15:44:53Z,unattributed,claude-opus-5-5,0,0,0,5420,0.081863
+9b8b0b8920,2026-11-10T15:44:53Z,unattributed,claude-haiku-5-5,248817,0,0,16572,0.173168

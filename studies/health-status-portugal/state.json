@@ -12,7 +12,18 @@
       "last_problems": [],
       "started_at": "2026-11-10T15:33:23Z",
       "completed_at": "2026-11-10T15:34:25Z"
+    },
+    "2": {
+      "status": "in_progress",
+      "attempts": 0,
+      "units": {
+        "ine-life-mortality": "in_progress",
+        "ine-health": "in_progress",
+        "eurostat-access": "pending"
+      },
+      "last_problems": [],
+      "started_at": "2026-11-10T15:34:43Z"
     }
   },
-  "updated_at": "2026-11-10T15:34:25Z"
+  "updated_at": "2026-11-10T15:34:47Z"
 }

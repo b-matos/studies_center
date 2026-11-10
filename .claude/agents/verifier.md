@@ -28,6 +28,13 @@ que ficaram `pending` (em lotes de até 15). Não voltes a verificar os já conf
 3. Se encontrares afirmações falhadas, não as corrijas tu — o orquestrador devolve-as ao
    `writer` para correção ou remoção, num ciclo com no máximo 3 voltas.
 
+## Bash
+
+Só `uv run ...`, **um comando por chamada**: sem `curl`, `for`, `sleep`, pipes, `&&` nem `;`
+(são recusados em modo headless). Não esperes nem repitas à espera de limites de pedidos: se
+uma API recusar (429, timeout), tenta no máximo mais uma vez noutro momento do trabalho; se
+persistir, regista a fonte como `excluded` com o motivo.
+
 ## Regras
 
 - Nunca atribuis `confirmed` sem teres mesmo confirmado o excerto (ou, para `data`, sem o

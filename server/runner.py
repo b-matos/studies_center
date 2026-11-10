@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import os
 import re
 import sys
 from collections.abc import Awaitable, Callable
@@ -48,6 +49,11 @@ ALLOWED_TOOLS = [
 
 OnEvent = Callable[[dict], Awaitable[None]]
 
+# `claude -p` stops waiting for background subagents 10 minutes after the orchestrator's last
+# turn and kills them. Data-gathering phases routinely take longer, so wait up to one hour.
+BG_WAIT_CEILING_MS = "3600000"
+BG_WAIT_MESSAGE = "Background tasks still running"
+
 LIMIT_PATTERN = re.compile(r"usage limit|limit reached|rate.?limit|429|overloaded|quota", re.IGNORECASE)
 RUNS_HEADER = "timestamp,topic,slug,status,input_tokens,output_tokens,cost_usd"
 LIMIT_MESSAGE = (
@@ -73,26 +79,32 @@ def _denials(result_event: dict) -> str:
     denied = result_event.get("permission_denials") or []
     if not denied:
         return ""
-    first = denied[0]
-    command = str((first.get("tool_input") or {}).get("command", ""))[:100]
-    return f"Permissão recusada ao Claude Code ({first.get('tool_name')}: {command}). O pipeline não chegou a arrancar."
+    command = str((denied[0].get("tool_input") or {}).get("command", ""))[:80]
+    return f"{len(denied)} pedido(s) recusado(s) em modo headless (ex.: {denied[0].get('tool_name')}: {command})"
 
 
 def _outcome(returncode: int, interrupted: bool, result_event: dict, slug: str | None, stderr: str) -> tuple[str, str]:
-    """Success is judged on the study (all 8 phases completed in state.json), not on the exit code."""
+    """Success is judged on the study (all 8 phases completed in state.json), not on the exit code.
+
+    The note names the real cause first; refused commands are only a footnote, because a
+    subagent trying `curl` is harmless while the run itself may have died for another reason.
+    """
     if interrupted:
         return "interrupted", ""
-    if denial := _denials(result_event):
-        return "failed", denial
+    denial = _denials(result_event)
     if returncode != 0:
-        return "failed", f"claude terminou com código {returncode}. {stderr.strip()[-200:]}".strip()
+        return "failed", f"claude terminou com código {returncode}. {stderr.strip()[-200:]} {denial}".strip()
     if not slug:
-        return "failed", "O Claude não chegou a iniciar nenhum estudo (ver o último registo em logs/)."
+        return "failed", f"O Claude não chegou a iniciar nenhum estudo. {denial}".strip()
     if state.is_complete(slug):
         return "done", ""
     if state.needs_user(slug):
         return "needs_you", "O pipeline parou numa decisão tua: ver studies/<slug>/pending.md."
-    return "failed", "Terminou sem concluir as 8 fases; volta a executar para retomar."
+    if BG_WAIT_MESSAGE in stderr:
+        reason = "Os subagentes demoraram mais do que o Claude Code espera e foram parados."
+    else:
+        reason = "Terminou sem concluir as 8 fases."
+    return "failed", f"{reason} Volta a executar para retomar. {denial}".strip()
 
 
 def _claude_command(topic: str) -> list[str]:
@@ -155,6 +167,7 @@ async def run_study(run_id: str, topic: str, on_event: OnEvent) -> RunResult:
         cwd=ROOT,
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE,
+        env={**os.environ, "CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS": BG_WAIT_CEILING_MS},
     )
     if sys.platform == "darwin":  # keep the Mac awake for as long as the run lasts
         await asyncio.create_subprocess_exec("caffeinate", "-i", "-w", str(process.pid))

@@ -27,6 +27,13 @@ Para cada `source_id` que o orquestrador te der (fontes com `status = tested` em
 4. Usa os clientes em `common/sources/` apenas através do `common.extract`; nunca escrevas
    ficheiros em `raw/` à mão.
 
+## Bash
+
+Só `uv run ...`, **um comando por chamada**: sem `curl`, `for`, `sleep`, pipes, `&&` nem `;`
+(são recusados em modo headless). Não esperes nem repitas à espera de limites de pedidos: se
+uma API recusar (429, timeout), tenta no máximo mais uma vez noutro momento do trabalho; se
+persistir, regista a fonte como `excluded` com o motivo.
+
 ## Regras
 
 - Não editas `sources.csv` nem `plan.md`. Se uma fonte falhar de forma insanável (ficheiro
