@@ -1,4 +1,7 @@
 {
+  "env": {
+    "PYTHONPATH": "."
+  },
   "permissions": {
     "allow": [
       "Read",

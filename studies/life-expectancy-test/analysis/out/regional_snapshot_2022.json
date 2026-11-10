@@ -4,7 +4,7 @@
 "region": "Região Autónoma dos Açores",
 "sex": "",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.04,
 "unit": "anos",
 "source_id": "f01"
@@ -14,7 +14,7 @@
 "region": "Região Autónoma da Madeira",
 "sex": "",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.77,
 "unit": "anos",
 "source_id": "f01"
@@ -24,7 +24,7 @@
 "region": "Algarve",
 "sex": "",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.99,
 "unit": "anos",
 "source_id": "f01"
@@ -34,7 +34,7 @@
 "region": "Alentejo",
 "sex": "",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.09,
 "unit": "anos",
 "source_id": "f01"
@@ -44,7 +44,7 @@
 "region": "Área Metropolitana de Lisboa",
 "sex": "",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.65,
 "unit": "anos",
 "source_id": "f01"
@@ -54,7 +54,7 @@
 "region": "Continente",
 "sex": "",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.07,
 "unit": "anos",
 "source_id": "f01"
@@ -64,7 +64,7 @@
 "region": "Centro",
 "sex": "",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.34,
 "unit": "anos",
 "source_id": "f01"
@@ -74,7 +74,7 @@
 "region": "Norte",
 "sex": "",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.53,
 "unit": "anos",
 "source_id": "f01"

@@ -45,7 +45,7 @@ SEX_CANONICAL = {
 def canonical_sex(value: str) -> str:
     key = value.strip().lower()
     if key not in SEX_CANONICAL:
-        raise ValueError(f"unrecognized sexo value: {value!r}")
+        raise ValueError(f"unrecognized sex value: {value!r}")
     return SEX_CANONICAL[key]
 
 

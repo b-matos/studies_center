@@ -1,0 +1,31 @@
+{
+  "fetch": {
+    "kind": "http",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/demo_r_mlifexp/default/table?lang=en",
+    "filename": "f03_eurostat_demo_r_mlifexp.csv",
+    "format": "csv"
+  },
+  "normalize": {
+    "indicator": "life_expectancy_at_birth",
+    "unit": "anos",
+    "date": "TIME_PERIOD",
+    "value": "valor",
+    "region": "geo",
+    "sex": "sex",
+    "filters": {
+      "age": [
+        "Y_LT1"
+      ]
+    },
+    "labels": {
+      "geo": {
+        "PT": "Portugal",
+        "PT11": "Norte",
+        "PT15": "Algarve",
+        "PT16": "Centro",
+        "PT17": "Área Metropolitana de Lisboa",
+        "PT18": "Alentejo"
+      }
+    }
+  }
+}

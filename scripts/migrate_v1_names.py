@@ -69,6 +69,8 @@ VALUES = {
     ("events.csv", "type"): EVENT_TYPES,
 }
 
+INDICATORS = {"esperanca_vida_nascenca": "life_expectancy_at_birth"}
+
 QUERY_WORDS = {"regiao": "region", "sexo": "sex", "idade": "age", "indicador": "indicator",
                "valor": "value", "unidade": "unit"}
 
@@ -109,7 +111,9 @@ def migrate_csv(path: Path) -> bool:
 def migrate_parquet(path: Path) -> bool:
     df = pd.read_parquet(path)
     renamed = df.rename(columns=COLUMNS)
-    if list(renamed.columns) == list(df.columns):
+    if "indicator" in renamed.columns:
+        renamed["indicator"] = renamed["indicator"].replace(INDICATORS)
+    if renamed.equals(df):
         return False
     renamed.to_parquet(path, index=False)
     pd.testing.assert_frame_equal(pd.read_parquet(path), renamed)  # values must be untouched
@@ -120,7 +124,8 @@ def migrate_json_records(path: Path) -> bool:
     records = json.loads(path.read_text(encoding="utf-8"))
     if not (isinstance(records, list) and records and isinstance(records[0], dict)):
         return False
-    new = [{COLUMNS.get(k, k): v for k, v in r.items()} for r in records]
+    new = [{COLUMNS.get(k, k): INDICATORS.get(v, v) if k in ("indicator", "indicador") else v
+            for k, v in r.items()} for r in records]
     if new == records:
         return False
     path.write_text(json.dumps(new, ensure_ascii=False, indent=0), encoding="utf-8")

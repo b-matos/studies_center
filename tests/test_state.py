@@ -25,6 +25,13 @@ def studies_root(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
     return root
 
 
+def _complete_through(n: int) -> None:
+    """Mark phases 1..n as completed (as complete-phase would have done)."""
+    s = state.load(SLUG)
+    s["completed_phases"] = list(range(1, n + 1))
+    state.save(SLUG, s)
+
+
 def _make_source_file(root: Path, axis: str, source_id: str) -> None:
     write_csv(
         root / SLUG / "sources.d" / f"{axis}.csv",
@@ -81,9 +88,7 @@ def test_failed_save_keeps_previous_state(studies_root: Path, monkeypatch: pytes
 
 def test_resume_redoes_in_flight_units_and_lists_what_is_left(studies_root: Path) -> None:
     state.init(SLUG)
-    s = state.load(SLUG)
-    s["completed_phases"] = [1, 2]
-    state.save(SLUG, s)
+    _complete_through(2)
     state.start_phase(SLUG, 3)
     state.plan_units(SLUG, 3, ["s01", "s02", "s03"])
     _make_extraction(studies_root, "s01")
@@ -101,6 +106,7 @@ def test_resume_redoes_in_flight_units_and_lists_what_is_left(studies_root: Path
 
 def test_unit_done_is_refused_without_real_output(studies_root: Path) -> None:
     state.init(SLUG)
+    _complete_through(2)
     state.start_phase(SLUG, 3)
     state.plan_units(SLUG, 3, ["s01"])
     with pytest.raises(state.StateError, match="does not exist"):
@@ -109,6 +115,7 @@ def test_unit_done_is_refused_without_real_output(studies_root: Path) -> None:
 
 def test_unit_done_rejects_non_canonical_parquet(studies_root: Path) -> None:
     state.init(SLUG)
+    _complete_through(2)
     state.start_phase(SLUG, 3)
     state.plan_units(SLUG, 3, ["s01"])
     clean = studies_root / SLUG / "data" / "clean"
@@ -120,9 +127,7 @@ def test_unit_done_rejects_non_canonical_parquet(studies_root: Path) -> None:
 
 def test_attempts_persist_across_loads_and_block_after_three() -> None:
     state.init(SLUG)
-    s = state.load(SLUG)
-    s["completed_phases"] = [1, 2, 3]
-    state.save(SLUG, s)
+    _complete_through(3)
     state.start_phase(SLUG, 4)
     for _ in range(3):
         state.fail_attempt(SLUG, 4, ["charts.yml missing"])
@@ -136,6 +141,7 @@ def test_attempts_persist_across_loads_and_block_after_three() -> None:
 
 def test_phase_2_merges_per_axis_files_and_runs_the_check(studies_root: Path) -> None:
     state.init(SLUG)
+    _complete_through(1)
     state.start_phase(SLUG, 2)
     state.plan_units(SLUG, 2, ["mortality", "births"])
     _make_source_file(studies_root, "mortality", "f01")
@@ -145,11 +151,12 @@ def test_phase_2_merges_per_axis_files_and_runs_the_check(studies_root: Path) ->
     ok, problems = state.complete_phase(SLUG, 2)
     assert ok, problems
     assert (studies_root / SLUG / "sources.csv").read_text().count("\n") == 3  # header + 2 rows
-    assert state.load(SLUG)["completed_phases"] == [2]
+    assert state.load(SLUG)["completed_phases"] == [1, 2]
 
 
 def test_complete_phase_refuses_while_units_remain() -> None:
     state.init(SLUG)
+    _complete_through(1)
     state.start_phase(SLUG, 2)
     state.plan_units(SLUG, 2, ["mortality"])
     ok, problems = state.complete_phase(SLUG, 2)
@@ -164,6 +171,7 @@ def test_phase_7_unit_follows_claim_verification_status(studies_root: Path) -> N
     )
     write_csv(studies_root / SLUG / "claims.csv", Claim, [claim])
     state.init(SLUG)
+    _complete_through(6)
     state.start_phase(SLUG, 7)
     state.plan_units(SLUG, 7, ["c001"])
     with pytest.raises(state.StateError, match="pending"):
@@ -175,6 +183,7 @@ def test_phase_7_unit_follows_claim_verification_status(studies_root: Path) -> N
 
 def test_plan_units_keeps_existing_unit_state() -> None:
     state.init(SLUG)
+    _complete_through(2)
     state.start_phase(SLUG, 3)
     state.plan_units(SLUG, 3, ["s01"])
     state.unit_start(SLUG, 3, "s01")
@@ -188,3 +197,9 @@ def test_cli_resume_and_refusal(capsys: pytest.CaptureFixture[str]) -> None:
     state.init(SLUG)
     assert state.main(["unit-done", SLUG, "3", "nope"]) == 1
     assert "refused" in capsys.readouterr().err
+
+
+def test_phases_cannot_be_skipped() -> None:
+    state.init(SLUG)
+    with pytest.raises(state.StateError, match=r"not completed"):
+        state.start_phase(SLUG, 3)

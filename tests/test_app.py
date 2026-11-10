@@ -77,3 +77,10 @@ async def test_second_run_queues_behind_first(monkeypatch: pytest.MonkeyPatch, c
         assert second.json()["queue_position"] >= 1
         gate.set()
         await asyncio.sleep(0.05)
+
+
+def test_runner_detects_usage_limit_and_sums_tokens() -> None:
+    assert runner.LIMIT_PATTERN.search("Claude AI usage limit reached|1731000000")
+    assert not runner.LIMIT_PATTERN.search("tudo bem")
+    assert runner._tokens({"usage": {"input_tokens": 10, "cache_read_input_tokens": 5, "output_tokens": 3}}) == (15, 3)
+    assert runner._tokens({}) == (0, 0)

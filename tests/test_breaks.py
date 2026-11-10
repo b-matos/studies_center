@@ -37,3 +37,20 @@ def test_short_series_returns_nothing() -> None:
     assert detect_level_shifts(_dates(3), values) == []
     assert detect_slope_changes(_dates(3), values) == []
     assert detect_spikes(_dates(3), values) == []
+
+
+def test_detect_for_frame_returns_one_table_for_all_series() -> None:
+    import pandas as pd
+
+    from common.breaks import detect_for_frame
+
+    dates = pd.date_range("2000-01-01", periods=30, freq="YS")
+    rising = [10.0 + 0.1 * i for i in range(30)]
+    jump = [10.0] * 15 + [20.0] * 15
+    frame = pd.concat([
+        pd.DataFrame({"date": dates, "value": rising, "region": "A"}),
+        pd.DataFrame({"date": dates, "value": jump, "region": "B"}),
+    ])
+    table = detect_for_frame(frame, group_by=["region"])
+    assert set(table["region"]) == {"B"}  # only the real level shift is flagged
+    assert table.iloc[0]["type"] == "level" and table.iloc[0]["date"] == "2015-01-01"

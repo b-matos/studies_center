@@ -1,7 +1,7 @@
 """Normalize source data into the canonical long format used across data/clean/.
 
-Canonical columns: data, regiao, sexo, idade, indicador, valor, unidade, source_id.
-`data` is an ISO date (annual series use YYYY-01-01); `regiao`/`sexo`/`idade` are
+Canonical columns: date, region, sex, age, indicator, value, unit, source_id.
+`date` is an ISO date (annual series use YYYY-01-01); `region`/`sex`/`age` are
 optional ('' when the series has no such dimension).
 """
 from __future__ import annotations

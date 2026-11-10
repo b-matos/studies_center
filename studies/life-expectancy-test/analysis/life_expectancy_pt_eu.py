@@ -82,7 +82,7 @@ def detect_breaks_series(series: pd.DataFrame, *, series_id: str, source_note: s
             Break(
                 id=f"q_{series_id}_{seq:02d}",
                 series=series_id,
-                axis="esperanca-de-vida",
+                axis="life-expectancy",
                 date=c.date,
                 type=c.type,
                 magnitude=round(c.magnitude, 4),
@@ -97,7 +97,7 @@ def detect_breaks_series(series: pd.DataFrame, *, series_id: str, source_note: s
             Break(
                 id=f"q_{series_id}_{seq:02d}",
                 series=series_id,
-                axis="esperanca-de-vida",
+                axis="life-expectancy",
                 date=c.date,
                 type=c.type,
                 magnitude=round(c.magnitude, 4),
@@ -114,7 +114,7 @@ def detect_breaks_series(series: pd.DataFrame, *, series_id: str, source_note: s
             Break(
                 id=f"q_{series_id}_{seq:02d}",
                 series=series_id,
-                axis="esperanca-de-vida",
+                axis="life-expectancy",
                 date=c.date,
                 type=c.type,
                 magnitude=round(c.magnitude, 4),
@@ -182,18 +182,18 @@ def main() -> None:
     )
     export_df["date"] = export_df["date"].dt.strftime("%Y-%m-%d")
     export_df = export_df[["date", "region", "sex", "age", "indicator", "value", "unit", "source_id"]]
-    export_series_json(export_df, OUT_DIR / "evolucao_pt_ue.json")
+    export_series_json(export_df, OUT_DIR / "life_expectancy_pt_eu.json")
 
     register_chart(
         STUDY_DIR,
-        chart_id="evolucao_pt_ue",
-        data_file="evolucao_pt_ue.json",
-        axis="esperanca-de-vida",
+        chart_id="life_expectancy_pt_eu",
+        data_file="life_expectancy_pt_eu.json",
+        axis="life-expectancy",
         title_pt="Esperança de vida à nascença em Portugal (total e por sexo) e na UE-27, 1960-2024",
         title_en="Life expectancy at birth in Portugal (total and by sex) and the EU-27, 1960-2024",
     )
 
-    print(f"\nGráfico exportado para {OUT_DIR / 'evolucao_pt_ue.json'} e registado em charts.yml")
+    print(f"\nGráfico exportado para {OUT_DIR / 'life_expectancy_pt_eu.json'} e registado em charts.yml")
 
 
 if __name__ == "__main__":

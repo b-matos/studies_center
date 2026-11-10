@@ -127,3 +127,11 @@ def test_data_researcher_writes_per_axis_files_not_the_merged_sources(
         file_path=str(REPO_ROOT / "studies" / "x" / "sources.csv"),
     )
     assert (ok, blocked) == (0, 2)
+
+
+def test_extractor_can_write_extract_specs(guard, monkeypatch: pytest.MonkeyPatch) -> None:
+    code = _run(
+        guard, monkeypatch, agent_type="extractor", tool_name="Write",
+        file_path=str(REPO_ROOT / "studies" / "x" / "data" / "extract" / "f01.json"),
+    )
+    assert code == 0

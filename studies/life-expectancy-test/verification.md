@@ -1,8 +1,8 @@
-# Verificação — esperanca-de-vida-teste
+# Verificação — life-expectancy-test
 
 ## Método
 
-1. Corrida determinística: `uv run python -m comum.verify estudos/esperanca-de-vida-teste`.
+1. Corrida determinística: `uv run python -m comum.verify estudos/life-expectancy-test`.
    Primeira ronda: 33 afirmações, 30 "FALHOU" — mas quase todas as falhas eram por um único
    motivo estrutural, não por erro de conteúdo: as páginas do Eurostat Data Browser
    (`https://ec.europa.eu/eurostat/databrowser/view/...`) usadas como `url` em c001-c013,
@@ -143,8 +143,8 @@ explicação. `estado_verificacao = confirmada`.
 explícita autorizada em `.claude/agents/verificador.md` e em `.claude/hooks/guard_writes.py`):
 `confirmada` nas 33 linhas.
 
-Confirmado com `uv run python -m comum.checks esperanca-de-vida-teste 7`:
+Confirmado com `uv run python -m comum.checks life-expectancy-test 7`:
 
 ```
-[OK] fase 7 do estudo 'esperanca-de-vida-teste' está completa
+[OK] fase 7 do estudo 'life-expectancy-test' está completa
 ```

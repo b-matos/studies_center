@@ -84,7 +84,7 @@ def main() -> None:
     export_cols = ["date", "region", "sex", "age", "indicator", "value", "unit", "source_id"]
     export_regional = series_regional.copy()
     export_regional["date"] = export_regional["date"].dt.strftime("%Y-%m-%d")
-    export_series_json(export_regional[export_cols], OUT_DIR / "regional_evolucao.json")
+    export_series_json(export_regional[export_cols], OUT_DIR / "regional_evolution.json")
 
     export_snap = df1.copy()
     export_snap["date"] = export_snap["date"].dt.strftime("%Y-%m-%d")
@@ -92,9 +92,9 @@ def main() -> None:
 
     register_chart(
         STUDY_DIR,
-        chart_id="regional_evolucao",
-        data_file="regional_evolucao.json",
-        axis="esperanca-de-vida",
+        chart_id="regional_evolution",
+        data_file="regional_evolution.json",
+        axis="life-expectancy",
         title_pt="Esperança de vida à nascença por região NUTS II (Continente), 1992-2022",
         title_en="Life expectancy at birth by NUTS II region (mainland), 1992-2022",
     )
@@ -102,13 +102,13 @@ def main() -> None:
         STUDY_DIR,
         chart_id="regional_snapshot_2022",
         data_file="regional_snapshot_2022.json",
-        axis="esperanca-de-vida",
+        axis="life-expectancy",
         title_pt="Esperança de vida à nascença por região, 2022 (INE)",
         title_en="Life expectancy at birth by region, 2022 (INE)",
     )
 
     print(
-        f"\nGráficos exportados para {OUT_DIR / 'regional_evolucao.json'} e "
+        f"\nGráficos exportados para {OUT_DIR / 'regional_evolution.json'} e "
         f"{OUT_DIR / 'regional_snapshot_2022.json'}, e registados em charts.yml"
     )
 

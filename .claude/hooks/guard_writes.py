@@ -25,6 +25,7 @@ ALLOWLIST: dict[str, list[str]] = {
     "extractor": [
         r"^studies/[^/]+/data/raw/.+$",
         r"^studies/[^/]+/data/raw_manifest\.csv$",
+        r"^studies/[^/]+/data/extract/.+$",
         r"^studies/[^/]+/data/clean/.+\.parquet$",
     ],
     "analyst": [

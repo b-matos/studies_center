@@ -28,7 +28,7 @@ site Quarto estático. Tudo corre localmente, em Python, orquestrado pelo Claude
 - **Línguas:** código, nomes de ficheiros técnicos e comentários em inglês. Relatórios,
   `plan.md`, `progress.md` e a comunicação comigo em português.
 - **Sem notebooks.** Análise em scripts `.py` executáveis por CLI, para diffs limpos e
-  reprodutibilidade (`uv run python studies/<slug>/analysis/<axis>.py`).
+  reprodutibilidade (`uv run python studies/<slug>/analysis/<axis>.py`; `.claude/settings.json` define `PYTHONPATH=.`, fora do Claude Code usar `PYTHONPATH=. uv run ...`).
 - **Formato longo** em todo o `data/clean/`: uma observação por linha, colunas
   `date, region, sex, age, indicator, value, unit, source_id`, onde aplicável.
 - **Gestão de dependências:** `uv` para Python (`uv sync`, `uv run ...`); nada de pip global
@@ -46,7 +46,35 @@ site Quarto estático. Tudo corre localmente, em Python, orquestrado pelo Claude
 - **Subagentes só escrevem nos seus ficheiros.** Ver a tabela em `.claude/agents/`; o hook
   `.claude/hooks/guard_writes.py` impõe isto.
 - **Condições de fase são verificadas por código**, não por julgamento do agente:
-  `uv run python -m common.checks <slug> <fase>`.
+  `uv run python -m common.checks <slug> <fase>` (o orquestrador usa
+  `uv run python -m common.state complete-phase <slug> <fase>`, que também regista o estado).
+- **Nomes técnicos em inglês** (pastas, ficheiros, colunas, enums, variáveis, funções,
+  subagentes, skill). Em português ficam só o conteúdo dos relatórios, `plan.md`,
+  `progress.md`, `pending.md`, `verification.md` e a comunicação comigo.
+
+## Tokens e retoma
+
+Os tokens são limitados e podem acabar a meio de um estudo. O pipeline foi desenhado para
+isso:
+
+- **Estado em disco.** `studies/<slug>/state.json` (schema v2) guarda fase, tentativas e
+  progresso por unidade (eixo, fonte, língua, afirmação). Só `common/state.py` o escreve, de
+  forma atómica; os subagentes não podem (hook). `/study <tema>` começa sempre por
+  `uv run python -m common.state resume <slug>` e continua onde parou; a unidade que estava
+  em curso é refeita do zero. Um commit por fase, sem trabalho por commitar entre fases.
+- **Unidade concluída = validada por código** (`unit-done` recusa saídas em falta ou inválidas).
+- **Máximo 3 tentativas por fase**, contadas em `state.json`; à terceira a fase fica
+  `blocked` e o impasse vai para `pending.md`.
+- **Modelos por agente** (`model:` em `.claude/agents/*.md`): Opus no `planner` e `writer`;
+  Sonnet nos restantes. Correr a sessão orquestradora em Sonnet (`/model sonnet`).
+- **Scripts em vez de prompts** para o que é mecânico: `common.probe` (testar fontes),
+  `common.extract` (download + normalização a partir de uma especificação em
+  `data/extract/`), `common.breaks` (candidatos a quebras), `common.verify --apply`
+  (verificação de excertos e valores).
+- **Contexto curto:** subagentes devolvem resumos de ≤150 palavras; o orquestrador passa
+  caminhos, não conteúdos; no máximo 2 subagentes em simultâneo.
+- O servidor regista tokens por execução em `logs/runs.csv` e marca como
+  `interrompido_por_limite` as execuções cortadas pelo limite do plano.
 
 ## Estrutura
 

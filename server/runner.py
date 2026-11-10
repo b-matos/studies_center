@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import re
 from collections.abc import Awaitable, Callable
 from datetime import UTC, datetime
 from pathlib import Path
@@ -34,6 +35,21 @@ ALLOWED_TOOLS = [
 
 OnEvent = Callable[[dict], Awaitable[None]]
 
+# Claude Code's headless messages when the plan's usage window is exhausted (or the API throttles).
+LIMIT_PATTERN = re.compile(r"usage limit|limit reached|rate.?limit|429|overloaded|quota", re.IGNORECASE)
+RUNS_HEADER = "timestamp,topic,result,input_tokens,output_tokens"
+LIMIT_MESSAGE = (
+    "Limite de tokens atingido. O progresso está guardado em studies/<slug>/state.json: "
+    "quando o limite renovar, lança o mesmo tema outra vez e o estudo continua de onde parou."
+)
+
+
+def _tokens(result_event: dict) -> tuple[int, int]:
+    usage = result_event.get("usage") or {}
+    input_tokens = sum(usage.get(k, 0) or 0 for k in (
+        "input_tokens", "cache_creation_input_tokens", "cache_read_input_tokens"))
+    return input_tokens, usage.get("output_tokens", 0) or 0
+
 
 def _claude_command(topic: str) -> list[str]:
     return [
@@ -54,7 +70,7 @@ def _claude_command(topic: str) -> list[str]:
 
 def _simplify(event: dict) -> dict:
     """Reduce one stream-json line to {type, text} for the browser's progress log."""
-    event_type = event.get("type", "desconhecido")
+    event_type = event.get("type", "unknown")
     text = ""
     if event_type == "assistant":
         for block in event.get("message", {}).get("content", []):
@@ -83,6 +99,7 @@ async def run_study(run_id: str, topic: str, on_event: OnEvent) -> int:
         stderr=asyncio.subprocess.PIPE,
     )
 
+    result_event: dict = {}
     with log_path.open("w", encoding="utf-8") as log_file:
         assert process.stdout is not None
         async for raw_line in process.stdout:
@@ -95,6 +112,8 @@ async def run_study(run_id: str, topic: str, on_event: OnEvent) -> int:
             except json.JSONDecodeError:
                 await on_event({"type": "raw", "text": line})
                 continue
+            if event.get("type") == "result":
+                result_event = event
             await on_event(_simplify(event))
 
     stderr = (await process.stderr.read()).decode("utf-8", errors="replace") if process.stderr else ""
@@ -103,16 +122,28 @@ async def run_study(run_id: str, topic: str, on_event: OnEvent) -> int:
         with log_path.open("a", encoding="utf-8") as log_file:
             log_file.write(f"STDERR: {stderr}\n")
 
-    _append_run_record(topic, timestamp, returncode)
+    interrupted = returncode != 0 and bool(
+        LIMIT_PATTERN.search(f"{result_event.get('result', '')} {stderr}")
+    )
+    _append_run_record(topic, timestamp, returncode, _tokens(result_event), interrupted=interrupted)
+    if interrupted:
+        await on_event({"type": "limit", "text": LIMIT_MESSAGE})
     await on_event({"type": "end", "text": f"terminado com código {returncode}"})
     return returncode
 
 
-def _append_run_record(topic: str, timestamp: str, returncode: int) -> None:
+def _append_run_record(
+    topic: str, timestamp: str, returncode: int, tokens: tuple[int, int] = (0, 0), *, interrupted: bool = False
+) -> None:
     runs_csv = LOGS_DIR / "runs.csv"
+    if runs_csv.exists() and runs_csv.read_text(encoding="utf-8").split("\n", 1)[0] != RUNS_HEADER:
+        runs_csv.rename(LOGS_DIR / "runs.old.csv")  # header from before token tracking
     is_new = not runs_csv.exists()
+    if returncode == 0:
+        result = "sucesso"
+    else:
+        result = "interrompido_por_limite" if interrupted else f"falhou({returncode})"
     with runs_csv.open("a", encoding="utf-8") as f:
         if is_new:
-            f.write("timestamp,topic,result\n")
-        result = "sucesso" if returncode == 0 else f"falhou({returncode})"
-        f.write(f"{timestamp},{topic!r},{result}\n")
+            f.write(RUNS_HEADER + "\n")
+        f.write(f"{timestamp},{topic!r},{result},{tokens[0]},{tokens[1]}\n")

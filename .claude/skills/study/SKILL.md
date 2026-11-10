@@ -1,73 +1,108 @@
 ---
 name: study
-description: Produz um novo estudo exaustivo sobre Portugal e publica-o no site bilingue. Usar quando o utilizador escrever "/study <tema>". Orquestra 7 subagentes ao longo de 8 fases verificáveis por código, com commit a cada fase.
+description: Produz um novo estudo exaustivo sobre Portugal e publica-o no site bilingue. Usar quando o utilizador escrever "/study <tema>". Orquestra 7 subagentes ao longo de 8 fases verificáveis por código, com estado retomável e commit a cada fase.
 ---
 
 # /study <tema>
 
 Recebeste um tema de estudo. Cria/retoma `studies/<slug>/` e executa as 8 fases, por ordem,
-sem avançar para a seguinte até a condição da fase atual passar em código (nunca por
+sem avançar para a seguinte até a condição da fase passar **em código** (nunca por
 julgamento próprio).
 
-## 0. Preparação
+**Os tokens podem acabar a qualquer momento.** Por isso o progresso vive em disco, não na
+conversa: `studies/<slug>/state.json` (escrito só por `common.state`), os ficheiros de cada
+fase e um commit por fase. Se a sessão morrer, o utilizador volta a correr `/study <tema>` e
+o estudo continua de onde parou; só a unidade de trabalho em curso é refeita.
 
-1. Deriva o `slug` do tema (minúsculas, hífens, sem acentos — usa `python-slugify`).
-2. Se `studies/<slug>/` não existir, cria-a com:
-   - `study.yml` (título PT/EN, data de início, `status: in_progress`, `current_phase: 1`)
-   - `state.json` (`{"fase_atual": 1, "fases_concluidas": []}`)
-3. Se já existir, lê `state.json` e retoma na primeira fase não concluída. Um estudo
-   interrompido continua de onde ficou — não repetes fases já passadas.
+## Disciplina de tokens (obrigatória)
+
+- Tu és só o orquestrador: despachas, corres comandos e lês resultados curtos. Nunca leias
+  `data/raw/`, parquet, JSON de gráficos nem relatórios inteiros; passa **caminhos** aos
+  subagentes, não conteúdos.
+- Cada subagente termina com um resumo de **no máximo 150 palavras** (o que fez, ficheiros,
+  problemas). Se devolver mais, ignora o excesso.
+- **No máximo 2 subagentes em simultâneo.** Agrupa trabalho do mesmo organismo (ex.: todos os
+  eixos Eurostat num só `data-researcher`; até 4 fontes por `extractor`).
+- Cálculo, normalização e verificação mecânica são scripts, não prompts: `common.probe`,
+  `common.extract`, `common.breaks`, `common.verify`.
+- Num reenvio por falha, dá ao subagente só a lista de problemas impressa por
+  `common.state complete-phase`, não o contexto antigo.
+- Modelos (definidos em `.claude/agents/*.md`): `planner` e `writer` em Opus (planeamento e
+  redação); os restantes em Sonnet. Recomenda ao utilizador correr esta sessão em Sonnet
+  (`/model sonnet`): o orquestrador não precisa de mais.
+
+## 0. Preparação e retoma
+
+1. Deriva o `slug` do tema **em inglês** (traduz o tema; minúsculas, hífens, sem acentos — `python-slugify`), porque os nomes de pastas são técnicos.
+2. Se `studies/<slug>/` não existir: cria `study.yml` (`title_pt`, `title_en`, `summary_pt`,
+   `summary_en`, `date`, `status: in_progress`, `current_phase: 1`) e corre
+   `uv run python -m common.state init <slug>`.
+3. Corre **sempre** `uv run python -m common.state resume <slug>`. Imprime a próxima fase, as
+   unidades feitas e por fazer, as tentativas gastas e os últimos problemas.
+   - `BLOCKED`: lê `pending.md`, informa o utilizador e para.
+   - Tudo concluído: diz isso e termina.
+   - Caso contrário, continua **nessa fase**, só nas unidades por fazer. Não repitas fases
+     concluídas nem unidades `done`.
 
 ## 1–7. As fases
 
-Para cada fase `n` de 1 a 7, nesta ordem:
+Para a fase `n`: `common.state start-phase <slug> <n>`; regista as unidades com
+`common.state plan-units <slug> <n> <u1> <u2> ...`; para cada unidade, `unit-start`, lança o
+subagente, e `unit-done` (que **recusa** se a saída não existir ou for inválida); no fim
+`common.state complete-phase <slug> <n>`, que funde ficheiros parciais, corre
+`common.checks` e conta a tentativa se falhar.
 
-| Fase | Subagente(s) | Em paralelo? |
-| --- | --- | --- |
-| 1. Plano | `planner` | não |
-| 2. Fontes | `data-researcher` (um por eixo de `plan.md`) | sim |
-| 3. Extração | `extractor` (um por fonte ou grupo independente) | sim |
-| 4. Análise | `analyst` | não |
-| 5. Eventos | `historian` | não |
-| 6. Redação | `writer` | não |
-| 7. Verificação | `verifier`, depois `writer` (ciclo de correção) | não |
+| Fase | Subagente | Unidades | Notas |
+| --- | --- | --- | --- |
+| 1. Plano | `planner` | — (sem unidades) | |
+| 2. Fontes | `data-researcher` | um eixo (ou grupo de eixos do mesmo organismo) | escreve `sources.d/<unidade>.csv`; `complete-phase 2` funde-os em `sources.csv` |
+| 3. Extração | `extractor` | um `source_id` testado | escreve `data/extract/<id>.json` (ou `.py`) e corre `common.extract`; `unit-done` valida parquet + manifesto |
+| 4. Análise | `analyst` | — | usa `common.breaks` para candidatos; regista só o que vale a pena |
+| 5. Eventos | `historian` | — | |
+| 6. Redação | `writer` | `pt`, depois `en` | `pt` escreve `report.pt.qmd` + `claims.csv`; `en` traduz com os mesmos ids |
+| 7. Verificação | script, depois `verifier` | afirmações (estado em `claims.csv`) | ver abaixo |
 
-Passos:
+Depois de `complete-phase` passar:
+1. Acrescenta um parágrafo curto a `studies/<slug>/progress.md` (o que foi feito, o que
+   falhou e foi corrigido, o que precisa do utilizador).
+2. `git add studies/<slug> events` e `git commit -m "fase <n> (<nome>): <slug>"`.
 
-1. Lança o(s) subagente(s) da fase via `Agent` (ou `Task`), com o caminho do estudo e o
-   contexto relevante (perguntas do eixo, fontes a extrair, etc.).
-2. Quando terminar(em), corre `uv run python -m common.checks <slug> <n>`.
-3. Se passar: escreve um parágrafo curto em `studies/<slug>/progress.md` — o que foi feito,
-   o que falhou (se algo falhou e foi corrigido), o que precisa do utilizador — e faz
-   `git add` + `git commit -m "fase <n> (<nome da fase>): <slug>"`.
-4. Se falhar: lê os problemas que o `checks` imprime, volta a lançar o subagente da fase com
-   esses problemas como contexto, e repete. **Máximo de 3 tentativas por fase.** Se continuar
-   a falhar, escreve o impasse em `studies/<slug>/pending.md` e para — não inventes dados
-   nem sources para forçar a fase a passar.
-5. **Fase 7 em particular**: o `verifier` nunca corrige o relatório. Se encontrar
-   afirmações falhadas, devolve-as ao `writer` (máximo 3 voltas); se mesmo assim não
-   confirmarem, remove a afirmação do relatório em vez de a deixar sem fonte verificada.
+Se `complete-phase` falhar: lê os problemas, relança o subagente da fase (só as unidades
+afetadas) com esses problemas como contexto. **Máximo de 3 tentativas por fase**, contadas em
+`state.json` (sobrevivem a interrupções). À terceira o estado passa a `blocked`: escreve o
+impasse em `studies/<slug>/pending.md` e para — não inventes dados nem fontes.
+
+### Fase 7 em particular
+
+1. `uv run python -m common.verify studies/<slug> --apply` confirma por código o que consegue
+   (excerto na página, valor recalculado) e grava `verification_status`; só reverifica o que
+   não está confirmado, por isso retoma sem refazer trabalho.
+2. Imprime `UNRESOLVED: c004,c010,...`. Lança o `verifier` só com esses ids (lotes de até 15),
+   para os investigar à mão.
+3. O `verifier` nunca corrige o relatório. As falhadas voltam ao `writer` (máximo 3 voltas);
+   se mesmo assim não confirmarem, o `writer` remove a afirmação em vez de a deixar sem fonte
+   verificada. Volta ao passo 1 até `complete-phase 7` passar.
 
 ### Decisões difíceis de reverter
 
-Se, em qualquer fase, surgir uma decisão difícil de reverter (por exemplo: excluir um eixo
-inteiro por falta de dados, mudar o âmbito geográfico ou temporal definido em `plan.md`,
-publicar uma afirmação de grau A sem fonte 100% clara):
+Se, em qualquer fase, surgir uma decisão difícil de reverter (excluir um eixo inteiro por
+falta de dados, mudar o âmbito definido em `plan.md`, publicar uma afirmação de grau A sem
+fonte 100% clara):
 
-- Em **modo interativo**: pergunta directamente ao utilizador antes de continuar.
+- Em **modo interativo**: pergunta diretamente ao utilizador antes de continuar.
 - Em **modo headless** (lançado pelo servidor): escreve a decisão em
-  `studies/<slug>/pending.md`, marca `status: pending_decision` em `study.yml`, e para a
-  skill. O servidor mostra isto na vista de progresso.
+  `studies/<slug>/pending.md`, põe `status: pending_decision` em `study.yml`, e para a skill.
+  O servidor mostra isto na vista de progresso.
 
 ## 8. Publicação
 
-1. Corre `uv run python site/build.py`. Isto gera o índice, copia os relatórios, exporta
-   `events.json` e os dados para download, e chama `quarto render` nos dois perfis (pt/en).
-2. Corre `uv run python -m common.checks <slug> 8`.
-3. Se passar: muda `study.yml` para `status: published` (ou mantém `status: test` se este
-   for um estudo de teste da plataforma — nesse caso o `site/build.py` já o exclui do
-   índice), faz commit `fase 8 (publicação): <slug>`, e informa o utilizador com um resumo
-   final: o que foi publicado, nas duas línguas, e o link relativo da página.
+1. `common.state start-phase <slug> 8`, depois `uv run python site/build.py` (gera o índice,
+   copia os relatórios, exporta `events.json` e os dados para download, e chama
+   `quarto render` nos dois perfis pt/en).
+2. `uv run python -m common.state complete-phase <slug> 8`.
+3. Se passar: `study.yml` → `status: published` (ou mantém `status: test` num estudo de teste
+   — o `site/build.py` já o exclui do índice), commit `fase 8 (publicação): <slug>`, e resumo
+   final ao utilizador: o que foi publicado, nas duas línguas, e o link relativo da página.
 
 ## No final de cada fase
 

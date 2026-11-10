@@ -1,4 +1,4 @@
-# Progresso — esperanca-de-vida-teste
+# Progresso — life-expectancy-test
 
 ## Fase 1 — Plano
 
@@ -48,7 +48,7 @@ uma decisão a tomar agora.
 
 ## Fase 4 — Análise
 
-Feito: 2 scripts (`evolucao_pt_ue.py`, `regional.py`), 3 gráficos registados. Resultados:
+Feito: 2 scripts (`life_expectancy_pt_eu.py`, `regional.py`), 3 gráficos registados. Resultados:
 esperança de vida total em Portugal subiu de 64,0 (1960) para 82,5 anos (2024); diferença
 mulheres-homens estável em ~5,5 anos; Portugal passou de 0,20 anos abaixo da média da UE-27
 em 2002 para 1,00 ano acima em 2024; leque regional (NUTS II) alargou de 0,8 para 2,0 anos
@@ -125,7 +125,7 @@ Precisa de mim: nada que bloqueie — pronto para a fase 8 (publicação).
 ## Fase 8 — Publicação
 
 Feito: `site/build.py` compilou o site nas duas línguas sem erros; a página do estudo
-aparece em `/pt/estudos/esperanca-de-vida-teste/` e `/en/estudos/esperanca-de-vida-teste/`
+aparece em `/pt/estudos/life-expectancy-test/` e `/en/estudos/life-expectancy-test/`
 (fora do índice público, por ter `estado: teste`). Verificação visual no browser: resumo,
 5 perguntas, 4 gráficos interativos (evolução PT/UE, por sexo, regional NUTS II em série e
 em retrato, todos com afirmações marcadas e sublinhadas), metodologia e fontes.

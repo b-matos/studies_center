@@ -48,30 +48,32 @@ def write_manifest(study_dir: Path, entries: list[ManifestEntry]) -> None:
             writer.writerow(entry.__dict__)
 
 
-def download(study_dir: Path, url: str, filename: str, *, timeout: float = 60.0) -> Path:
-    """Fetch `url`, save it to data/raw/<filename>, and append a manifest entry."""
+def record_file(study_dir: Path, url: str, filename: str, content: bytes) -> Path:
+    """Save `content` as data/raw/<filename> and (re)write its manifest entry."""
     raw_dir = study_dir / "data" / "raw"
     raw_dir.mkdir(parents=True, exist_ok=True)
     dest = raw_dir / filename
-
-    with httpx.Client(follow_redirects=True, timeout=timeout) as client:
-        response = client.get(url)
-        response.raise_for_status()
-        dest.write_bytes(response.content)
-
-    digest = hashlib.sha256(dest.read_bytes()).hexdigest()
+    dest.write_bytes(content)
     entries = [e for e in read_manifest(study_dir) if e.file != filename]
     entries.append(
         ManifestEntry(
             url=url,
             file=filename,
             download_date=date.today().isoformat(),
-            sha256=digest,
-            bytes=dest.stat().st_size,
+            sha256=hashlib.sha256(content).hexdigest(),
+            bytes=len(content),
         )
     )
     write_manifest(study_dir, entries)
     return dest
+
+
+def download(study_dir: Path, url: str, filename: str, *, timeout: float = 60.0) -> Path:
+    """Fetch `url`, save it to data/raw/<filename>, and append a manifest entry."""
+    with httpx.Client(follow_redirects=True, timeout=timeout) as client:
+        response = client.get(url)
+        response.raise_for_status()
+    return record_file(study_dir, url, filename, response.content)
 
 
 def verify_manifest(study_dir: Path) -> list[str]:

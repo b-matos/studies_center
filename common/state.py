@@ -117,6 +117,9 @@ def start_phase(slug: str, phase: int) -> dict:
         raise StateError(f"phase {phase} is blocked after {p['attempts']} attempts; see pending.md")
     if phase in state["completed_phases"]:
         raise StateError(f"phase {phase} is already completed")
+    skipped = [n for n in range(1, phase) if n not in state["completed_phases"]]
+    if skipped:
+        raise StateError(f"cannot start phase {phase}: phase(s) {skipped} not completed")
     p["status"] = "in_progress"
     p.setdefault("started_at", _now())
     state["current_phase"] = phase
@@ -268,7 +271,10 @@ def resume(slug: str) -> str:
     ]
     if p["status"] == "blocked":
         lines.append("BLOCKED: attempts exhausted; read pending.md, do not retry without the user")
-    if p["units"]:
+    if phase == 7:
+        pending = [c.id for c in read_csv(STUDIES_ROOT / slug / "claims.csv", Claim) if c.verification_status != "confirmed"]
+        lines.append(f"claims not yet confirmed: {len(pending)} {pending[:8]}{' ...' if len(pending) > 8 else ''}")
+    elif p["units"]:
         lines.append(f"units done: {[u for u, s in p['units'].items() if s == 'done'] or 'none'}")
         lines.append(f"units to do: {todo or 'none (run complete-phase)'}")
         if redo:

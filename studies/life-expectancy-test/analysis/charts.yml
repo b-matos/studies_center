@@ -1,17 +1,17 @@
-evolucao_pt_ue:
-  axis: esperanca-de-vida
-  data_file: evolucao_pt_ue.json
+life_expectancy_pt_eu:
+  axis: life-expectancy
+  data_file: life_expectancy_pt_eu.json
   title_en: Life expectancy at birth in Portugal (total and by sex) and the EU-27,
     1960-2024
   title_pt: Esperança de vida à nascença em Portugal (total e por sexo) e na UE-27,
     1960-2024
-regional_evolucao:
-  axis: esperanca-de-vida
-  data_file: regional_evolucao.json
+regional_evolution:
+  axis: life-expectancy
+  data_file: regional_evolution.json
   title_en: Life expectancy at birth by NUTS II region (mainland), 1992-2022
   title_pt: Esperança de vida à nascença por região NUTS II (Continente), 1992-2022
 regional_snapshot_2022:
-  axis: esperanca-de-vida
+  axis: life-expectancy
   data_file: regional_snapshot_2022.json
   title_en: Life expectancy at birth by region, 2022 (INE)
   title_pt: Esperança de vida à nascença por região, 2022 (INE)

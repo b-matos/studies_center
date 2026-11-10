@@ -1,0 +1,27 @@
+{
+  "fetch": {
+    "kind": "http",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/demo_mlexpec/default/table?lang=en",
+    "filename": "f02_eurostat_demo_mlexpec.csv",
+    "format": "csv"
+  },
+  "normalize": {
+    "indicator": "life_expectancy_at_birth",
+    "unit": "anos",
+    "date": "TIME_PERIOD",
+    "value": "valor",
+    "region": "geo",
+    "sex": "sex",
+    "filters": {
+      "age": [
+        "Y_LT1"
+      ]
+    },
+    "labels": {
+      "geo": {
+        "PT": "Portugal",
+        "EU27_2020": "União Europeia (27 países, 2020)"
+      }
+    }
+  }
+}

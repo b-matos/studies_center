@@ -46,10 +46,10 @@ import {timeSeries, ranking} from "../../assets/charts.js"
 lang = "pt"
 ```
 ```{ojs}
-evolution_data = FileAttachment("evolucao_pt_ue.json").json()
+evolution_data = FileAttachment("life_expectancy_pt_eu.json").json()
 ```
 ```{ojs}
-regional_data = FileAttachment("regional_evolucao.json").json()
+regional_data = FileAttachment("regional_evolution.json").json()
 ```
 ```{ojs}
 snapshot_data = FileAttachment("regional_snapshot_2022.json").json()

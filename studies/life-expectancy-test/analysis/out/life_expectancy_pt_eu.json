@@ -4,7 +4,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 64.0,
 "unit": "anos",
 "source_id": "f02"
@@ -14,7 +14,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 62.7,
 "unit": "anos",
 "source_id": "f02"
@@ -24,7 +24,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 64.2,
 "unit": "anos",
 "source_id": "f02"
@@ -34,7 +34,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 64.8,
 "unit": "anos",
 "source_id": "f02"
@@ -44,7 +44,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 64.9,
 "unit": "anos",
 "source_id": "f02"
@@ -54,7 +54,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 65.8,
 "unit": "anos",
 "source_id": "f02"
@@ -64,7 +64,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 65.3,
 "unit": "anos",
 "source_id": "f02"
@@ -74,7 +74,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 66.1,
 "unit": "anos",
 "source_id": "f02"
@@ -84,7 +84,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 66.4,
 "unit": "anos",
 "source_id": "f02"
@@ -94,7 +94,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 66.0,
 "unit": "anos",
 "source_id": "f02"
@@ -104,7 +104,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 66.7,
 "unit": "anos",
 "source_id": "f02"
@@ -114,7 +114,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 66.4,
 "unit": "anos",
 "source_id": "f02"
@@ -124,7 +124,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 68.4,
 "unit": "anos",
 "source_id": "f02"
@@ -134,7 +134,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 67.6,
 "unit": "anos",
 "source_id": "f02"
@@ -144,7 +144,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 68.2,
 "unit": "anos",
 "source_id": "f02"
@@ -154,7 +154,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 68.4,
 "unit": "anos",
 "source_id": "f02"
@@ -164,7 +164,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 69.0,
 "unit": "anos",
 "source_id": "f02"
@@ -174,7 +174,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 70.1,
 "unit": "anos",
 "source_id": "f02"
@@ -184,7 +184,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 70.5,
 "unit": "anos",
 "source_id": "f02"
@@ -194,7 +194,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 71.3,
 "unit": "anos",
 "source_id": "f02"
@@ -204,7 +204,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 71.5,
 "unit": "anos",
 "source_id": "f02"
@@ -214,7 +214,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 71.8,
 "unit": "anos",
 "source_id": "f02"
@@ -224,7 +224,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 72.5,
 "unit": "anos",
 "source_id": "f02"
@@ -234,7 +234,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 72.4,
 "unit": "anos",
 "source_id": "f02"
@@ -244,7 +244,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 72.7,
 "unit": "anos",
 "source_id": "f02"
@@ -254,7 +254,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 73.0,
 "unit": "anos",
 "source_id": "f02"
@@ -264,7 +264,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 73.4,
 "unit": "anos",
 "source_id": "f02"
@@ -274,7 +274,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 73.8,
 "unit": "anos",
 "source_id": "f02"
@@ -284,7 +284,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 73.8,
 "unit": "anos",
 "source_id": "f02"
@@ -294,7 +294,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 74.4,
 "unit": "anos",
 "source_id": "f02"
@@ -304,7 +304,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 74.1,
 "unit": "anos",
 "source_id": "f02"
@@ -314,7 +314,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 74.1,
 "unit": "anos",
 "source_id": "f02"
@@ -324,7 +324,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 74.7,
 "unit": "anos",
 "source_id": "f02"
@@ -334,7 +334,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 74.6,
 "unit": "anos",
 "source_id": "f02"
@@ -344,7 +344,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 75.5,
 "unit": "anos",
 "source_id": "f02"
@@ -354,7 +354,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 75.4,
 "unit": "anos",
 "source_id": "f02"
@@ -364,7 +364,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 75.3,
 "unit": "anos",
 "source_id": "f02"
@@ -374,7 +374,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 75.8,
 "unit": "anos",
 "source_id": "f02"
@@ -384,7 +384,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 76.0,
 "unit": "anos",
 "source_id": "f02"
@@ -394,7 +394,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 76.2,
 "unit": "anos",
 "source_id": "f02"
@@ -404,7 +404,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 76.8,
 "unit": "anos",
 "source_id": "f02"
@@ -414,7 +414,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 77.2,
 "unit": "anos",
 "source_id": "f02"
@@ -424,7 +424,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 77.4,
 "unit": "anos",
 "source_id": "f02"
@@ -434,7 +434,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 77.5,
 "unit": "anos",
 "source_id": "f02"
@@ -444,7 +444,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.4,
 "unit": "anos",
 "source_id": "f02"
@@ -454,7 +454,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.2,
 "unit": "anos",
 "source_id": "f02"
@@ -464,7 +464,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.0,
 "unit": "anos",
 "source_id": "f02"
@@ -474,7 +474,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.3,
 "unit": "anos",
 "source_id": "f02"
@@ -484,7 +484,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.5,
 "unit": "anos",
 "source_id": "f02"
@@ -494,7 +494,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.7,
 "unit": "anos",
 "source_id": "f02"
@@ -504,7 +504,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.1,
 "unit": "anos",
 "source_id": "f02"
@@ -514,7 +514,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.7,
 "unit": "anos",
 "source_id": "f02"
@@ -524,7 +524,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.6,
 "unit": "anos",
 "source_id": "f02"
@@ -534,7 +534,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.9,
 "unit": "anos",
 "source_id": "f02"
@@ -544,7 +544,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.3,
 "unit": "anos",
 "source_id": "f02"
@@ -554,7 +554,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.3,
 "unit": "anos",
 "source_id": "f02"
@@ -564,7 +564,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.4,
 "unit": "anos",
 "source_id": "f02"
@@ -574,7 +574,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.6,
 "unit": "anos",
 "source_id": "f02"
@@ -584,7 +584,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.6,
 "unit": "anos",
 "source_id": "f02"
@@ -594,7 +594,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 82.0,
 "unit": "anos",
 "source_id": "f02"
@@ -604,7 +604,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.4,
 "unit": "anos",
 "source_id": "f02"
@@ -614,7 +614,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.4,
 "unit": "anos",
 "source_id": "f02"
@@ -624,7 +624,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.7,
 "unit": "anos",
 "source_id": "f02"
@@ -634,7 +634,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 82.3,
 "unit": "anos",
 "source_id": "f02"
@@ -644,7 +644,7 @@
 "region": "Portugal",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 82.5,
 "unit": "anos",
 "source_id": "f02"
@@ -654,7 +654,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 66.7,
 "unit": "anos",
 "source_id": "f02"
@@ -664,7 +664,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 61.1,
 "unit": "anos",
 "source_id": "f02"
@@ -674,7 +674,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 65.4,
 "unit": "anos",
 "source_id": "f02"
@@ -684,7 +684,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 59.9,
 "unit": "anos",
 "source_id": "f02"
@@ -694,7 +694,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 61.2,
 "unit": "anos",
 "source_id": "f02"
@@ -704,7 +704,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 67.0,
 "unit": "anos",
 "source_id": "f02"
@@ -714,7 +714,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 67.6,
 "unit": "anos",
 "source_id": "f02"
@@ -724,7 +724,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 61.8,
 "unit": "anos",
 "source_id": "f02"
@@ -734,7 +734,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 62.0,
 "unit": "anos",
 "source_id": "f02"
@@ -744,7 +744,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 67.8,
 "unit": "anos",
 "source_id": "f02"
@@ -754,7 +754,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 62.6,
 "unit": "anos",
 "source_id": "f02"
@@ -764,7 +764,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 68.9,
 "unit": "anos",
 "source_id": "f02"
@@ -774,7 +774,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 62.0,
 "unit": "anos",
 "source_id": "f02"
@@ -784,7 +784,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 68.4,
 "unit": "anos",
 "source_id": "f02"
@@ -794,7 +794,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 62.8,
 "unit": "anos",
 "source_id": "f02"
@@ -804,7 +804,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 69.2,
 "unit": "anos",
 "source_id": "f02"
@@ -814,7 +814,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 69.4,
 "unit": "anos",
 "source_id": "f02"
@@ -824,7 +824,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 63.3,
 "unit": "anos",
 "source_id": "f02"
@@ -834,7 +834,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 62.8,
 "unit": "anos",
 "source_id": "f02"
@@ -844,7 +844,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 69.0,
 "unit": "anos",
 "source_id": "f02"
@@ -854,7 +854,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 63.6,
 "unit": "anos",
 "source_id": "f02"
@@ -864,7 +864,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 69.7,
 "unit": "anos",
 "source_id": "f02"
@@ -874,7 +874,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 63.1,
 "unit": "anos",
 "source_id": "f02"
@@ -884,7 +884,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 69.7,
 "unit": "anos",
 "source_id": "f02"
@@ -894,7 +894,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 71.5,
 "unit": "anos",
 "source_id": "f02"
@@ -904,7 +904,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 65.2,
 "unit": "anos",
 "source_id": "f02"
@@ -914,7 +914,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 70.6,
 "unit": "anos",
 "source_id": "f02"
@@ -924,7 +924,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 64.4,
 "unit": "anos",
 "source_id": "f02"
@@ -934,7 +934,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 64.8,
 "unit": "anos",
 "source_id": "f02"
@@ -944,7 +944,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 71.4,
 "unit": "anos",
 "source_id": "f02"
@@ -954,7 +954,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 64.6,
 "unit": "anos",
 "source_id": "f02"
@@ -964,7 +964,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 72.1,
 "unit": "anos",
 "source_id": "f02"
@@ -974,7 +974,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 65.3,
 "unit": "anos",
 "source_id": "f02"
@@ -984,7 +984,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 72.6,
 "unit": "anos",
 "source_id": "f02"
@@ -994,7 +994,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 73.7,
 "unit": "anos",
 "source_id": "f02"
@@ -1004,7 +1004,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 66.4,
 "unit": "anos",
 "source_id": "f02"
@@ -1014,7 +1014,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 67.1,
 "unit": "anos",
 "source_id": "f02"
@@ -1024,7 +1024,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 73.9,
 "unit": "anos",
 "source_id": "f02"
@@ -1034,7 +1034,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 67.9,
 "unit": "anos",
 "source_id": "f02"
@@ -1044,7 +1044,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 74.7,
 "unit": "anos",
 "source_id": "f02"
@@ -1054,7 +1054,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 67.9,
 "unit": "anos",
 "source_id": "f02"
@@ -1064,7 +1064,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 74.9,
 "unit": "anos",
 "source_id": "f02"
@@ -1074,7 +1074,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 68.2,
 "unit": "anos",
 "source_id": "f02"
@@ -1084,7 +1084,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 75.2,
 "unit": "anos",
 "source_id": "f02"
@@ -1094,7 +1094,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 69.0,
 "unit": "anos",
 "source_id": "f02"
@@ -1104,7 +1104,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 76.0,
 "unit": "anos",
 "source_id": "f02"
@@ -1114,7 +1114,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 69.0,
 "unit": "anos",
 "source_id": "f02"
@@ -1124,7 +1124,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 75.8,
 "unit": "anos",
 "source_id": "f02"
@@ -1134,7 +1134,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 69.2,
 "unit": "anos",
 "source_id": "f02"
@@ -1144,7 +1144,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 76.2,
 "unit": "anos",
 "source_id": "f02"
@@ -1154,7 +1154,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 76.5,
 "unit": "anos",
 "source_id": "f02"
@@ -1164,7 +1164,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 69.4,
 "unit": "anos",
 "source_id": "f02"
@@ -1174,7 +1174,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 69.9,
 "unit": "anos",
 "source_id": "f02"
@@ -1184,7 +1184,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 76.8,
 "unit": "anos",
 "source_id": "f02"
@@ -1194,7 +1194,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 70.3,
 "unit": "anos",
 "source_id": "f02"
@@ -1204,7 +1204,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 77.2,
 "unit": "anos",
 "source_id": "f02"
@@ -1214,7 +1214,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 77.3,
 "unit": "anos",
 "source_id": "f02"
@@ -1224,7 +1224,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 70.3,
 "unit": "anos",
 "source_id": "f02"
@@ -1234,7 +1234,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 70.9,
 "unit": "anos",
 "source_id": "f02"
@@ -1244,7 +1244,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 77.9,
 "unit": "anos",
 "source_id": "f02"
@@ -1254,7 +1254,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 70.6,
 "unit": "anos",
 "source_id": "f02"
@@ -1264,7 +1264,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 77.5,
 "unit": "anos",
 "source_id": "f02"
@@ -1274,7 +1274,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 70.5,
 "unit": "anos",
 "source_id": "f02"
@@ -1284,7 +1284,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 77.7,
 "unit": "anos",
 "source_id": "f02"
@@ -1294,7 +1294,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 71.0,
 "unit": "anos",
 "source_id": "f02"
@@ -1304,7 +1304,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.4,
 "unit": "anos",
 "source_id": "f02"
@@ -1314,7 +1314,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 71.0,
 "unit": "anos",
 "source_id": "f02"
@@ -1324,7 +1324,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.1,
 "unit": "anos",
 "source_id": "f02"
@@ -1334,7 +1334,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 72.0,
 "unit": "anos",
 "source_id": "f02"
@@ -1344,7 +1344,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.0,
 "unit": "anos",
 "source_id": "f02"
@@ -1354,7 +1354,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.0,
 "unit": "anos",
 "source_id": "f02"
@@ -1364,7 +1364,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 71.7,
 "unit": "anos",
 "source_id": "f02"
@@ -1374,7 +1374,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.0,
 "unit": "anos",
 "source_id": "f02"
@@ -1384,7 +1384,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 71.6,
 "unit": "anos",
 "source_id": "f02"
@@ -1394,7 +1394,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.4,
 "unit": "anos",
 "source_id": "f02"
@@ -1404,7 +1404,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 72.2,
 "unit": "anos",
 "source_id": "f02"
@@ -1414,7 +1414,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 72.4,
 "unit": "anos",
 "source_id": "f02"
@@ -1424,7 +1424,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.6,
 "unit": "anos",
 "source_id": "f02"
@@ -1434,7 +1434,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.8,
 "unit": "anos",
 "source_id": "f02"
@@ -1444,7 +1444,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 72.7,
 "unit": "anos",
 "source_id": "f02"
@@ -1454,7 +1454,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 73.3,
 "unit": "anos",
 "source_id": "f02"
@@ -1464,7 +1464,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.4,
 "unit": "anos",
 "source_id": "f02"
@@ -1474,7 +1474,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.7,
 "unit": "anos",
 "source_id": "f02"
@@ -1484,7 +1484,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 73.6,
 "unit": "anos",
 "source_id": "f02"
@@ -1494,7 +1494,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 73.9,
 "unit": "anos",
 "source_id": "f02"
@@ -1504,7 +1504,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.8,
 "unit": "anos",
 "source_id": "f02"
@@ -1514,7 +1514,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.8,
 "unit": "anos",
 "source_id": "f02"
@@ -1524,7 +1524,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 74.2,
 "unit": "anos",
 "source_id": "f02"
@@ -1534,7 +1534,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 75.0,
 "unit": "anos",
 "source_id": "f02"
@@ -1544,7 +1544,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.8,
 "unit": "anos",
 "source_id": "f02"
@@ -1554,7 +1554,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 74.9,
 "unit": "anos",
 "source_id": "f02"
@@ -1564,7 +1564,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.5,
 "unit": "anos",
 "source_id": "f02"
@@ -1574,7 +1574,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 75.5,
 "unit": "anos",
 "source_id": "f02"
@@ -1584,7 +1584,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 82.5,
 "unit": "anos",
 "source_id": "f02"
@@ -1594,7 +1594,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 82.5,
 "unit": "anos",
 "source_id": "f02"
@@ -1604,7 +1604,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 75.9,
 "unit": "anos",
 "source_id": "f02"
@@ -1614,7 +1614,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 76.2,
 "unit": "anos",
 "source_id": "f02"
@@ -1624,7 +1624,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 82.7,
 "unit": "anos",
 "source_id": "f02"
@@ -1634,7 +1634,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 76.5,
 "unit": "anos",
 "source_id": "f02"
@@ -1644,7 +1644,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 82.8,
 "unit": "anos",
 "source_id": "f02"
@@ -1654,7 +1654,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 76.8,
 "unit": "anos",
 "source_id": "f02"
@@ -1664,7 +1664,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 83.2,
 "unit": "anos",
 "source_id": "f02"
@@ -1674,7 +1674,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 83.8,
 "unit": "anos",
 "source_id": "f02"
@@ -1684,7 +1684,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 77.3,
 "unit": "anos",
 "source_id": "f02"
@@ -1694,7 +1694,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 77.3,
 "unit": "anos",
 "source_id": "f02"
@@ -1704,7 +1704,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 83.6,
 "unit": "anos",
 "source_id": "f02"
@@ -1714,7 +1714,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 77.6,
 "unit": "anos",
 "source_id": "f02"
@@ -1724,7 +1724,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 84.0,
 "unit": "anos",
 "source_id": "f02"
@@ -1734,7 +1734,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.1,
 "unit": "anos",
 "source_id": "f02"
@@ -1744,7 +1744,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 84.3,
 "unit": "anos",
 "source_id": "f02"
@@ -1754,7 +1754,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.2,
 "unit": "anos",
 "source_id": "f02"
@@ -1764,7 +1764,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 84.3,
 "unit": "anos",
 "source_id": "f02"
@@ -1774,7 +1774,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.2,
 "unit": "anos",
 "source_id": "f02"
@@ -1784,7 +1784,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 84.3,
 "unit": "anos",
 "source_id": "f02"
@@ -1794,7 +1794,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.5,
 "unit": "anos",
 "source_id": "f02"
@@ -1804,7 +1804,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 84.5,
 "unit": "anos",
 "source_id": "f02"
@@ -1814,7 +1814,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.5,
 "unit": "anos",
 "source_id": "f02"
@@ -1824,7 +1824,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 84.5,
 "unit": "anos",
 "source_id": "f02"
@@ -1834,7 +1834,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 84.8,
 "unit": "anos",
 "source_id": "f02"
@@ -1844,7 +1844,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.0,
 "unit": "anos",
 "source_id": "f02"
@@ -1854,7 +1854,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.4,
 "unit": "anos",
 "source_id": "f02"
@@ -1864,7 +1864,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 84.2,
 "unit": "anos",
 "source_id": "f02"
@@ -1874,7 +1874,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.4,
 "unit": "anos",
 "source_id": "f02"
@@ -1884,7 +1884,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 84.3,
 "unit": "anos",
 "source_id": "f02"
@@ -1894,7 +1894,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.8,
 "unit": "anos",
 "source_id": "f02"
@@ -1904,7 +1904,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 84.4,
 "unit": "anos",
 "source_id": "f02"
@@ -1914,7 +1914,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.4,
 "unit": "anos",
 "source_id": "f02"
@@ -1924,7 +1924,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 85.0,
 "unit": "anos",
 "source_id": "f02"
@@ -1934,7 +1934,7 @@
 "region": "Portugal",
 "sex": "F",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 85.2,
 "unit": "anos",
 "source_id": "f02"
@@ -1944,7 +1944,7 @@
 "region": "Portugal",
 "sex": "M",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.7,
 "unit": "anos",
 "source_id": "f02"
@@ -1954,7 +1954,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 77.6,
 "unit": "anos",
 "source_id": "f02"
@@ -1964,7 +1964,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 77.7,
 "unit": "anos",
 "source_id": "f02"
@@ -1974,7 +1974,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.3,
 "unit": "anos",
 "source_id": "f02"
@@ -1984,7 +1984,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.4,
 "unit": "anos",
 "source_id": "f02"
@@ -1994,7 +1994,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 78.9,
 "unit": "anos",
 "source_id": "f02"
@@ -2004,7 +2004,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.1,
 "unit": "anos",
 "source_id": "f02"
@@ -2014,7 +2014,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.3,
 "unit": "anos",
 "source_id": "f02"
@@ -2024,7 +2024,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.5,
 "unit": "anos",
 "source_id": "f02"
@@ -2034,7 +2034,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 79.8,
 "unit": "anos",
 "source_id": "f02"
@@ -2044,7 +2044,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.1,
 "unit": "anos",
 "source_id": "f02"
@@ -2054,7 +2054,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.2,
 "unit": "anos",
 "source_id": "f02"
@@ -2064,7 +2064,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.5,
 "unit": "anos",
 "source_id": "f02"
@@ -2074,7 +2074,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.6,
 "unit": "anos",
 "source_id": "f02"
@@ -2084,7 +2084,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.5,
 "unit": "anos",
 "source_id": "f02"
@@ -2094,7 +2094,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.7,
 "unit": "anos",
 "source_id": "f02"
@@ -2104,7 +2104,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.7,
 "unit": "anos",
 "source_id": "f02"
@@ -2114,7 +2114,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.8,
 "unit": "anos",
 "source_id": "f02"
@@ -2124,7 +2124,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.1,
 "unit": "anos",
 "source_id": "f02"
@@ -2134,7 +2134,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.3,
 "unit": "anos",
 "source_id": "f02"
@@ -2144,7 +2144,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.0,
 "unit": "anos",
 "source_id": "f02"
@@ -2154,7 +2154,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 80.6,
 "unit": "anos",
 "source_id": "f02"
@@ -2164,7 +2164,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.2,
 "unit": "anos",
 "source_id": "f02"
@@ -2174,7 +2174,7 @@
 "region": "União Europeia (27 países, 2020)",
 "sex": "T",
 "age": "",
-"indicator": "esperanca_vida_nascenca",
+"indicator": "life_expectancy_at_birth",
 "value": 81.5,
 "unit": "anos",
 "source_id": "f02"

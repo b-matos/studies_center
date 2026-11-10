@@ -1,6 +1,6 @@
 """Trend-break detection for a single time series.
 
-Three detectors, matched to the three row-level `tipo` values in breaks.csv:
+Three detectors, matched to the three row-level `type` values in breaks.csv:
 - `nivel`: a level shift, via ruptures PELT on the mean.
 - `declive`: a change in slope, via ruptures PELT on a linear-trend cost model.
 - `pico`: an isolated spike, via a robust (median/MAD) z-score.
@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import datetime as dt
 from dataclasses import dataclass
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -105,3 +106,69 @@ def detect_all(dates: pd.Series, values: pd.Series) -> list[CandidateBreak]:
         *detect_slope_changes(dates, values),
         *detect_spikes(dates, values),
     ]
+
+
+def detect_for_frame(
+    df: pd.DataFrame,
+    *,
+    group_by: list[str],
+    level_penalty: float = 20.0,
+    slope_penalty: float = 3.0,
+    spike_z: float = 3.5,
+) -> pd.DataFrame:
+    """Candidate breaks for every series (one per `group_by` combination) of a long-format frame.
+
+    Spikes are looked for in the year-over-year differences, where a one-off shock (e.g. 2020)
+    stands out even when the level series is monotone. The analyst reviews this table and
+    records the breaks worth keeping in breaks.csv; nothing here is written automatically.
+    """
+    rows = []
+    for key, group in df.groupby(group_by, dropna=False):
+        key = key if isinstance(key, tuple) else (key,)
+        group = group.sort_values("date")
+        dates, values = group["date"], group["value"]
+        found = [
+            *detect_level_shifts(dates, values, penalty=level_penalty),
+            *detect_slope_changes(dates, values, penalty=slope_penalty),
+            *detect_spikes(dates.iloc[1:], values.diff().iloc[1:], z_threshold=spike_z),
+        ]
+        for c in found:
+            rows.append({**dict(zip(group_by, key, strict=True)), "date": c.date.isoformat(),
+                         "type": c.type, "magnitude": round(c.magnitude, 4), "method": c.method})
+    return pd.DataFrame(rows, columns=[*group_by, "date", "type", "magnitude", "method"])
+
+
+def main() -> int:
+    """uv run python -m common.breaks <slug> <source_id> [--by region,sex] [--out f.csv]
+    [--level-penalty 20] [--slope-penalty 3] [--spike-z 3.5]"""
+    import sys
+
+    from common.checks import STUDIES_ROOT
+
+    args = sys.argv[1:]
+    if len(args) < 2:
+        print(main.__doc__, file=sys.stderr)
+        return 2
+    slug, source_id = args[0], args[1]
+    by = args[args.index("--by") + 1].split(",") if "--by" in args else ["region", "sex"]
+    study_dir = STUDIES_ROOT / slug
+    df = pd.read_parquet(study_dir / "data" / "clean" / f"{source_id}.parquet")
+    df["date"] = pd.to_datetime(df["date"])
+    def flag(name: str, default: float) -> float:
+        return float(args[args.index(name) + 1]) if name in args else default
+
+    table = detect_for_frame(
+        df, group_by=by, level_penalty=flag("--level-penalty", 20.0),
+        slope_penalty=flag("--slope-penalty", 3.0), spike_z=flag("--spike-z", 3.5),
+    )
+    out = Path(args[args.index("--out") + 1]) if "--out" in args else study_dir / "analysis" / "out" / f"break_candidates_{source_id}.csv"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    table.to_csv(out, index=False)
+    print(f"{len(table)} candidate break(s) in {df.groupby(by, dropna=False).ngroups} series -> {out}")
+    if len(table):
+        print(table.groupby([*by, "type"]).size().to_string())
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
