@@ -1,0 +1,211 @@
+# Verificação
+
+- c001: confirmed (automatic) - provenance chain proven; computed=64.0, recorded=64.0
+- c002: confirmed (automatic) - provenance chain proven; computed=82.5, recorded=82.5
+- c003: confirmed (automatic) - provenance chain proven; computed=77.6, recorded=77.6
+- c004: confirmed (automatic) - provenance chain proven; computed=77.4, recorded=77.4
+- c005: confirmed (automatic) - provenance chain proven; computed=81.5, recorded=81.5
+- c006: confirmed (automatic) - provenance chain proven; computed=1.0, recorded=1.0
+- c007: confirmed (automatic) - provenance chain proven; computed=85.2, recorded=85.2
+- c008: confirmed (automatic) - provenance chain proven; computed=79.7, recorded=79.7
+- c009: confirmed (automatic) - provenance chain proven; computed=66.7, recorded=66.7
+- c010: confirmed (automatic) - provenance chain proven; computed=61.1, recorded=61.1
+- c011: confirmed (automatic) - provenance chain proven; computed=13.6, recorded=13.6
+- c012: confirmed (automatic) - provenance chain proven; computed=21.1, recorded=21.1
+- c013: confirmed (automatic) - provenance chain proven; computed=20.2, recorded=20.2
+- c014: confirmed (automatic) - provenance chain proven; computed=82.0, recorded=82.0
+- c015: confirmed (automatic) - provenance chain proven; computed=81.4, recorded=81.4
+- c016: confirmed (automatic) - provenance chain proven; computed=81.4, recorded=81.4
+- c017: confirmed (automatic) - provenance chain proven; computed=0.3025141420490258, recorded=0.3025141420490258
+- c018: confirmed (automatic) - provenance chain proven; computed=0.1555555555555562, recorded=0.1555555555555562
+- c019: confirmed (automatic) - provenance chain proven; computed=81.53, recorded=81.53
+- c020: confirmed (automatic) - provenance chain proven; computed=78.04, recorded=78.04
+- c021: confirmed (automatic) - provenance chain proven; computed=75.86, recorded=75.86
+- c022: confirmed (automatic) - provenance chain proven; computed=78.77, recorded=78.77
+- c023: confirmed (automatic) - provenance chain proven; computed=0.21107954545454655, recorded=0.21107954545454655
+- c024: confirmed (automatic) - provenance chain proven; computed=0.04041666666666781, recorded=0.04041666666666781
+- c025: confirmed (automatic) - provenance chain proven; computed=53.9, recorded=53.9
+- c026: confirmed (automatic) - provenance chain proven; computed=64.8, recorded=64.8
+- c027: confirmed (automatic) - provenance chain proven; computed=62.9, recorded=62.9
+- c028: confirmed (automatic) - provenance chain proven; computed=65.2, recorded=65.2
+- c029: confirmed (automatic) - provenance chain proven; computed=9.0, recorded=9.0
+- c030: confirmed (automatic) - provenance chain proven; computed=0.4000000000000057, recorded=0.4
+- c031: confirmed (automatic) - provenance chain proven; computed=4.4, recorded=4.4
+- c032: confirmed (automatic) - provenance chain proven; computed=9.8, recorded=9.8
+- c033: confirmed (automatic) - provenance chain proven; computed=10.3, recorded=10.3
+- c034: confirmed (automatic) - provenance chain proven; computed=68.7, recorded=68.7
+- c035: confirmed (automatic) - provenance chain proven; computed=78.6, recorded=78.6
+- c036: confirmed (automatic) - provenance chain proven; computed=0.11769230769230785, recorded=0.11769230769230785
+- c037: confirmed (automatic) - provenance chain proven; computed=0.13846153846153852, recorded=0.13846153846153852
+- c038: confirmed (automatic) - provenance chain proven; computed=63.9, recorded=63.9
+- c039: confirmed (automatic) - provenance chain proven; computed=65.8, recorded=65.8
+- c040: confirmed (automatic) - provenance chain proven; computed=321.67, recorded=321.67
+- c041: confirmed (automatic) - provenance chain proven; computed=220.81, recorded=220.81
+- c042: confirmed (automatic) - provenance chain proven; computed=312.95, recorded=312.95
+- c043: confirmed (automatic) - provenance chain proven; computed=246.73, recorded=246.73
+- c044: confirmed (automatic) - provenance chain proven; computed=218.22, recorded=218.22
+- c045: confirmed (automatic) - provenance chain proven; computed=233.13, recorded=233.13
+- c046: confirmed (automatic) - provenance chain proven; computed=95.48, recorded=95.48
+- c047: confirmed (automatic) - provenance chain proven; computed=75.18, recorded=75.18
+- c048: confirmed (automatic) - provenance chain proven; computed=44.6, recorded=44.6
+- c049: confirmed (automatic) - provenance chain proven; computed=23.71, recorded=23.71
+- c050: confirmed (automatic) - provenance chain proven; computed=23.53, recorded=23.53
+- c051: confirmed (automatic) - provenance chain proven; computed=45.24, recorded=45.24
+- c052: confirmed (automatic) - provenance chain proven; computed=49.4, recorded=49.4
+- c053: confirmed (automatic) - provenance chain proven; computed=885.63, recorded=885.63
+- c054: confirmed (automatic) - provenance chain proven; computed=963.42, recorded=963.42
+- c055: confirmed (automatic) - provenance chain proven; computed=-7.240625000000001, recorded=-7.240625000000001
+- c056: confirmed (automatic) - provenance chain proven; computed=-1.4125000000000014, recorded=-1.4125000000000014
+- c057: confirmed (automatic) - provenance chain proven; computed=0.41000000000000014, recorded=0.41000000000000014
+- c058: confirmed (automatic) - provenance chain proven; computed=1161.9, recorded=1161.9
+- c059: confirmed (automatic) - provenance chain proven; computed=820.3, recorded=820.3
+- c060: confirmed (automatic) - provenance chain proven; computed=863.9, recorded=863.9
+- c061: confirmed (automatic) - provenance chain proven; computed=266.9, recorded=266.9
+- c062: confirmed (automatic) - provenance chain proven; computed=154.9, recorded=154.9
+- c063: confirmed (automatic) - provenance chain proven; computed=1011.6, recorded=1011.6
+- c064: confirmed (automatic) - provenance chain proven; computed=357.5, recorded=357.5
+- c065: confirmed (automatic) - provenance chain proven; computed=267.9, recorded=267.9
+- c066: confirmed (automatic) - provenance chain proven; computed=258.5, recorded=258.5
+- c067: confirmed (automatic) - provenance chain proven; computed=-2.0176470588235302, recorded=-2.0176470588235302
+- c068: confirmed (automatic) - provenance chain proven; computed=370.8, recorded=370.8
+- c069: confirmed (automatic) - provenance chain proven; computed=173.3, recorded=173.3
+- c070: confirmed (automatic) - provenance chain proven; computed=320.0, recorded=320.0
+- c071: confirmed (automatic) - provenance chain proven; computed=338.9, recorded=338.9
+- c072: confirmed (automatic) - provenance chain proven; computed=302.8, recorded=302.8
+- c073: confirmed (automatic) - provenance chain proven; computed=94.78, recorded=94.78
+- c074: confirmed (automatic) - provenance chain proven; computed=74.24, recorded=74.24
+- c075: confirmed (automatic) - provenance chain proven; computed=86.81, recorded=86.81
+- c076: confirmed (automatic) - provenance chain proven; computed=149.25, recorded=149.25
+- c077: confirmed (automatic) - provenance chain proven; computed=125.94, recorded=125.94
+- c078: confirmed (automatic) - provenance chain proven; computed=150.85, recorded=150.85
+- c079: confirmed (automatic) - provenance chain proven; computed=155.89, recorded=155.89
+- c080: confirmed (automatic) - provenance chain proven; computed=-1.7810714285714284, recorded=-1.7810714285714284
+- c081: confirmed (automatic) - provenance chain proven; computed=-0.9666363636363637, recorded=-0.9666363636363637
+- c082: confirmed (automatic) - provenance chain proven; computed=77.5, recorded=77.5
+- c083: confirmed (automatic) - provenance chain proven; computed=3.0, recorded=3.0
+- c084: confirmed (automatic) - provenance chain proven; computed=3.5, recorded=3.5
+- c085: confirmed (automatic) - provenance chain proven; computed=2.4, recorded=2.4
+- c086: confirmed (automatic) - provenance chain proven; computed=27.9, recorded=27.9
+- c087: confirmed (automatic) - provenance chain proven; computed=1.8, recorded=1.8
+- c088: confirmed (automatic) - provenance chain proven; computed=-0.9569805194805194, recorded=-0.9569805194805194
+- c089: confirmed (automatic) - provenance chain proven; computed=2.7, recorded=2.7
+- c090: confirmed (automatic) - provenance chain proven; computed=2.1, recorded=2.1
+- c091: confirmed (automatic) - provenance chain proven; computed=2.9, recorded=2.9
+- c092: confirmed (automatic) - internal: excerpt found in the repository file
+- c093: confirmed (automatic) - internal: excerpt found in the repository file
+- c094: confirmed (automatic) - internal: excerpt found in the repository file
+- c095: confirmed (automatic) - provenance chain proven; computed=32.1, recorded=32.1
+- c096: confirmed (automatic) - provenance chain proven; computed=44.1, recorded=44.1
+- c097: confirmed (automatic) - provenance chain proven; computed=0.7062499999999998, recorded=0.7062499999999998
+- c098: confirmed (automatic) - provenance chain proven; computed=47.5, recorded=47.5
+- c099: confirmed (automatic) - provenance chain proven; computed=46.8, recorded=46.8
+- c100: confirmed (automatic) - provenance chain proven; computed=38.5, recorded=38.5
+- c101: confirmed (automatic) - provenance chain proven; computed=21.1, recorded=21.1
+- c102: confirmed (automatic) - provenance chain proven; computed=12.1, recorded=12.1
+- c103: confirmed (automatic) - provenance chain proven; computed=45.4, recorded=45.4
+- c104: confirmed (automatic) - provenance chain proven; computed=52.7, recorded=52.7
+- c105: confirmed (automatic) - provenance chain proven; computed=55.2, recorded=55.2
+- c106: confirmed (automatic) - provenance chain proven; computed=28.1, recorded=28.1
+- c107: confirmed (automatic) - provenance chain proven; computed=-0.4400000000000002, recorded=-0.4400000000000002
+- c108: confirmed (automatic) - provenance chain proven; computed=52.6, recorded=52.6
+- c109: confirmed (automatic) - provenance chain proven; computed=67.9, recorded=67.9
+- c110: confirmed (automatic) - provenance chain proven; computed=12.2, recorded=12.2
+- c111: confirmed (automatic) - provenance chain proven; computed=8.8, recorded=8.8
+- c112: confirmed (automatic) - provenance chain proven; computed=20.3, recorded=20.3
+- c113: confirmed (automatic) - provenance chain proven; computed=-0.48461538461538467, recorded=-0.48461538461538467
+- c114: confirmed (automatic) - provenance chain proven; computed=12.7, recorded=12.7
+- c115: confirmed (automatic) - provenance chain proven; computed=17.3, recorded=17.3
+- c116: confirmed (automatic) - provenance chain proven; computed=8.4, recorded=8.4
+- c117: confirmed (automatic) - provenance chain proven; computed=18.2, recorded=18.2
+- c118: confirmed (automatic) - provenance chain proven; computed=18.1, recorded=18.1
+- c119: confirmed (automatic) - provenance chain proven; computed=10.5, recorded=10.5
+- c120: confirmed (automatic) - provenance chain proven; computed=61.8675, recorded=61.8675
+- c121: confirmed (automatic) - provenance chain proven; computed=17.3861, recorded=17.3861
+- c122: confirmed (automatic) - provenance chain proven; computed=33.2271, recorded=33.2271
+- c123: confirmed (automatic) - provenance chain proven; computed=42.7938, recorded=42.7938
+- c124: confirmed (automatic) - provenance chain proven; computed=42.5221, recorded=42.5221
+- c125: confirmed (automatic) - provenance chain proven; computed=45.7474, recorded=45.7474
+- c126: confirmed (automatic) - provenance chain proven; computed=66.2235, recorded=66.2235
+- c127: confirmed (automatic) - provenance chain proven; computed=11.6, recorded=11.6
+- c128: confirmed (automatic) - provenance chain proven; computed=11.7, recorded=11.7
+- c129: confirmed (automatic) - provenance chain proven; computed=9.0, recorded=9.0
+- c130: confirmed (automatic) - provenance chain proven; computed=-0.04999999999999982, recorded=-0.04999999999999982
+- c131: confirmed (automatic) - provenance chain proven; computed=15.5, recorded=15.5
+- c132: confirmed (automatic) - provenance chain proven; computed=4.4, recorded=4.4
+- c133: confirmed (automatic) - provenance chain proven; computed=33.5, recorded=33.5
+- c134: confirmed (automatic) - provenance chain proven; computed=20.0, recorded=20.0
+- c135: confirmed (automatic) - provenance chain proven; computed=88.6775, recorded=88.6775
+- c136: confirmed (automatic) - provenance chain proven; computed=83.4956, recorded=83.4956
+- c137: confirmed (automatic) - provenance chain proven; computed=3.6924, recorded=3.6924
+- c138: confirmed (automatic) - provenance chain proven; computed=4.3194, recorded=4.3194
+- c139: confirmed (automatic) - provenance chain proven; computed=1.1, recorded=1.1
+- c140: confirmed (automatic) - provenance chain proven; computed=3.3, recorded=3.3
+- c141: confirmed (automatic) - provenance chain proven; computed=2.5, recorded=2.5
+- c142: confirmed (automatic) - provenance chain proven; computed=2.4, recorded=2.4
+- c143: confirmed (automatic) - provenance chain proven; computed=7.3, recorded=7.3
+- c144: confirmed (automatic) - provenance chain proven; computed=14.6, recorded=14.6
+- c145: confirmed (automatic) - provenance chain proven; computed=7.9, recorded=7.9
+- c146: confirmed (automatic) - provenance chain proven; computed=3.3, recorded=3.3
+- c147: confirmed (automatic) - provenance chain proven; computed=27.6, recorded=27.6
+- c148: confirmed (automatic) - provenance chain proven; computed=16.9, recorded=16.9
+- c149: confirmed (automatic) - provenance chain proven; computed=1.6, recorded=1.6
+- c150: confirmed (automatic) - provenance chain proven; computed=4.2, recorded=4.2
+- c151: confirmed (automatic) - provenance chain proven; computed=1.0, recorded=1.0
+- c152: confirmed (automatic) - provenance chain proven; computed=7.5, recorded=7.5
+- c153: confirmed (automatic) - provenance chain proven; computed=3.3, recorded=3.3
+- c154: confirmed (automatic) - provenance chain proven; computed=-0.0, recorded=-0.0
+- c155: confirmed (automatic) - provenance chain proven; computed=-0.33000000000000007, recorded=-0.33000000000000007
+- c156: confirmed (automatic) - provenance chain proven; computed=8.62, recorded=8.62
+- c157: confirmed (automatic) - provenance chain proven; computed=11.22, recorded=11.22
+- c158: confirmed (automatic) - provenance chain proven; computed=10.2, recorded=10.2
+- c159: confirmed (automatic) - provenance chain proven; computed=10.16, recorded=10.16
+- c160: confirmed (automatic) - provenance chain proven; computed=3247.42, recorded=3247.42
+- c161: confirmed (automatic) - provenance chain proven; computed=4074.88, recorded=4074.88
+- c162: confirmed (automatic) - provenance chain proven; computed=28.67, recorded=28.67
+- c163: confirmed (automatic) - provenance chain proven; computed=15.06, recorded=15.06
+- c164: confirmed (automatic) - provenance chain proven; computed=61.88, recorded=61.88
+- c165: confirmed (automatic) - provenance chain proven; computed=80.33, recorded=80.33
+- c166: confirmed (automatic) - provenance chain proven; computed=0.2300000000000001, recorded=0.2300000000000001
+- c167: confirmed (automatic) - provenance chain proven; computed=75.65, recorded=75.65
+- c168: confirmed (automatic) - provenance chain proven; computed=591.35, recorded=591.35
+- c169: confirmed (automatic) - provenance chain proven; computed=422.29, recorded=422.29
+- c170: confirmed (automatic) - provenance chain proven; computed=767.54, recorded=767.54
+- c171: confirmed (automatic) - provenance chain proven; computed=395.92, recorded=395.92
+- c172: confirmed (automatic) - provenance chain proven; computed=330.98, recorded=330.98
+- c173: confirmed (automatic) - provenance chain proven; computed=507.35, recorded=507.35
+- c174: confirmed (automatic) - provenance chain proven; computed=561.01, recorded=561.01
+- c175: confirmed (automatic) - provenance chain proven; computed=322.33, recorded=322.33
+- c176: confirmed (automatic) - provenance chain proven; computed=793.69, recorded=793.69
+- c177: confirmed (automatic) - provenance chain proven; computed=213.18, recorded=213.18
+- c178: failed - a página do Diário da República é uma aplicação JavaScript sem texto estático; o excerto não pôde ser confirmado à mão
+- c179: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c180: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c181: failed - página do Diário da República sem texto estático (JavaScript), excerto não confirmável à mão; além disso o URL (Lei 63/2017) é uma alteração, não a Lei 37/2007
+- c182: failed - página do Diário da República sem texto estático (JavaScript), excerto não confirmável à mão
+- c183: failed - página do Diário da República sem texto estático (JavaScript), excerto não confirmável à mão; além disso o URL (Portaria 430/2023) não corresponde ao período 2016-2018
+- c184: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c185: failed - página do Diário da República sem texto estático (JavaScript), excerto não confirmável à mão
+- c186: failed - página do Diário da República sem texto estático (JavaScript), excerto não confirmável à mão
+- c187: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c188: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c189: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c190: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c191: failed - página do Diário da República sem texto estático (JavaScript), excerto não confirmável à mão; além disso o URL (Lei 63/2017) é uma alteração, não a Lei 37/2007
+- c192: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c193: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c194: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c195: failed - página do Diário da República sem texto estático (JavaScript), excerto não confirmável à mão; além disso o URL (Portaria 430/2023) não corresponde ao período 2016-2018
+- c196: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c197: failed - página do Diário da República sem texto estático (JavaScript), excerto não confirmável à mão
+- c198: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c199: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c200: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c201: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c202: confirmed (automatic) - internal: excerpt found in the repository file
+- c203: confirmed (automatic) - internal: excerpt found in the repository file
+- c204: confirmed (automatic) - internal: excerpt found in the repository file
+- c205: confirmed (automatic) - internal: excerpt found in the repository file
+- c206: confirmed (automatic) - internal: excerpt found in the repository file
+- c207: confirmed (automatic) - internal: excerpt found in the repository file
+- c208: confirmed (automatic) - internal: excerpt found in the repository file
+- c209: confirmed (automatic) - internal: excerpt found in the repository file

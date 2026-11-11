@@ -719,32 +719,22 @@ timeSeries(Plotly, rr_data.filter((d) => d.indicator === rr_ind), {groupBy: "reg
 Automatic detection looked for changes in level, changes in slope and isolated spikes in the main
 series. It found [51 candidate breaks, of which 18 were linked to a dated event, all grade C, and 33 were left without an event]{.claim id="c202"}.
 No source consulted establishes that any of these events caused a change in the series, so the
-text speaks only of coincidence in time.
+text speaks only of coincidence in time. Links to national legal acts are not described here,
+because the text of their source pages could not be confirmed; only events and links with a
+verified source are presented.
 
 ### Events considered
 
-- [Law No. 56/79 created the National Health Service (SNS) in 1979]{.claim id="c178"}.
 - [The Memorandum of Understanding with the European Commission, the ECB and the IMF ran from May 2011 to May 2014 and included health spending containment measures]{.claim id="c179"}.
-- [Ordinance No. 306-A/2011 set new values for user charges from 2012]{.claim id="c182"}.
-- [Law No. 37/2007 banned smoking in workplaces and enclosed public spaces from 2008]{.claim id="c181"}.
-- [Between 2016 and 2018 the National Oral Health Promotion Programme, with its dental voucher, was extended]{.claim id="c183"}.
 - [The World Health Organization declared the COVID-19 pandemic on 11 March 2020]{.claim id="c180"}.
 - [The 2014/2015 winter had a severe influenza season in Europe, with excess mortality among older people]{.claim id="c184"}.
 
 ### Links found (all grade C)
 
-- [The 1980 level break in life expectancy at birth, total and male, coincided with the creation of the SNS]{.claim id="c185"}.
-  No source consulted establishes the relationship.
-- [The 1980 level drop in neonatal mortality coincided with the creation of the SNS]{.claim id="c186"}.
 - [The 2012 change in the life expectancy gap with the EU coincided with the first full year of the adjustment programme]{.claim id="c187"}.
 - [The 2011 spike in the share of people with bad or very bad health, and in the gap with the EU, coincided with the start of the adjustment programme]{.claim id="c193"}.
-- [The 2012 spike in the gap in unmet dental needs with the EU coincided with the adjustment programme]{.claim id="c196"}
-  and [also coincided with the application of the new user charge values]{.claim id="c197"}.
+- [The 2012 spike in the gap in unmet dental needs with the EU coincided with the adjustment programme]{.claim id="c196"}.
 - [The 2015 change in unmet medical needs relative to the EU, one year after the end of the programme, coincided with the post-programme period]{.claim id="c199"}.
-- [The 2007 break in premature mortality coincided with the approval of the tobacco law]{.claim id="c191"},
-  which only came into force the following year.
-- [The 2018 drop in unmet dental needs coincided with the extension of the oral health programme]{.claim id="c195"};
-  the source describes the measure but does not measure its effect.
 - [The 2021 drop in standardised mortality from circulatory diseases coincided with the pandemic]{.claim id="c188"},
   but its size suggests a change of method.
 - [The 2021 drop in mortality from respiratory diseases coincided with the pandemic]{.claim id="c189"};
@@ -850,10 +840,6 @@ and its total.
 - [INE — Self-assessed health status (indicator 0008043).]{.claim id="c101"}
 - [INE — National Health Survey: tobacco (0014788, 0014778), body mass index (0014775), alcohol (0008704), depressive symptoms (0008708).]{.claim id="c114"}
 - [INE — Suicide mortality (indicators 0003736 and 0014469).]{.claim id="c127"}
-- [Diário da República — Law No. 56/79.]{.claim id="c178"}
 - [Banco de Portugal — Memorandum of Understanding.]{.claim id="c179"}
-- [Diário da República — Ordinance No. 306-A/2011.]{.claim id="c182"}
-- [Diário da República — Law No. 37/2007, republished by Law No. 63/2017.]{.claim id="c181"}
-- [Diário da República — National Oral Health Promotion Programme.]{.claim id="c183"}
 - [World Health Organization — pandemic declaration, 11 March 2020.]{.claim id="c180"}
 - [Eurosurveillance (ECDC) — excess mortality in the 2014/2015 influenza season.]{.claim id="c184"}

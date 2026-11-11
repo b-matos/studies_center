@@ -17,3 +17,6 @@ Três unidades (`ine-life-mortality`, `ine-health`, `eurostat-access`) registada
 
 ## Fase 6 (redação)
 `report.pt.qmd` (209 afirmações em `claims.csv`) e `report.en.qmd` escritos; `complete-phase 6` passou à primeira tentativa. Todas as ligações a eventos em grau C ("coincidiu com"). Limitação declarada: excesso de mortalidade semanal não coberto (decisão do utilizador). Para a fase 7: filtros de séries do `summary.md` apontam por vezes para ficheiros `clean` errados (o writer usou os scripts de análise); rótulos do Inquérito Nacional de Saúde deduzidos; excertos de eventos e Eurostat não confirmados online; a EN tem 215 marcas contra 209 ids (ids repetidos, a confirmar na verificação).
+
+## Fase 7 (verificação)
+`common.verify --apply` deixou 18 afirmações por resolver; o `verifier` falhou-as todas. Nove da OMS tinham o URL `/pt/` com excerto em inglês: o `writer` passou para o URL em inglês e `common.verify` confirmou-as. Nove do Diário da República (páginas JavaScript, sem texto estático; Lei 63/2017 e Portaria 430/2023 não correspondiam ao evento) não tinham fonte alternativa verificável: o `writer` removeu-as e acrescentou uma nota de omissão nos dois relatórios. Consequência: as ligações a esses eventos deixam de estar descritas no relatório. `complete-phase 7` passou à primeira volta.

@@ -721,32 +721,22 @@ timeSeries(Plotly, rr_data.filter((d) => d.indicator === rr_ind), {groupBy: "reg
 A deteção automática procurou mudanças de nível, de declive e picos isolados nas séries principais.
 Encontrou [51 quebras candidatas, das quais 18 foram ligadas a um evento datado, todas com grau C, e 33 ficaram sem evento]{.claim id="c202"}.
 Nenhuma fonte consultada estabelece que um destes eventos tenha causado uma mudança nas séries, por
-isso o texto fala apenas de coincidência temporal.
+isso o texto fala apenas de coincidência temporal. As ligações a diplomas legais nacionais não
+são descritas aqui, porque não foi possível confirmar o texto das respetivas páginas de origem;
+só se apresentam os eventos e ligações com fonte verificada.
 
 ### Eventos considerados
 
-- [A Lei n.º 56/79 criou o Serviço Nacional de Saúde em 1979]{.claim id="c178"}.
 - [O Memorando de Entendimento com a Comissão Europeia, o BCE e o FMI vigorou de maio de 2011 a maio de 2014 e incluía medidas de contenção da despesa em saúde]{.claim id="c179"}.
-- [A Portaria n.º 306-A/2011 fixou novos valores das taxas moderadoras a partir de 2012]{.claim id="c182"}.
-- [A Lei n.º 37/2007 proibiu fumar em locais de trabalho e espaços públicos fechados a partir de 2008]{.claim id="c181"}.
-- [Entre 2016 e 2018 foi alargado o Programa Nacional de Promoção da Saúde Oral, com o cheque-dentista]{.claim id="c183"}.
 - [A Organização Mundial da Saúde declarou a pandemia de COVID-19 a 11 de março de 2020]{.claim id="c180"}.
 - [O inverno de 2014/2015 teve uma época gripal grave na Europa, com excesso de mortalidade em idosos]{.claim id="c184"}.
 
 ### Ligações encontradas (todas de grau C)
 
-- [A quebra de nível de 1980 na esperança de vida à nascença, total e masculina, coincidiu com a criação do SNS]{.claim id="c185"}.
-  Nenhuma fonte consultada estabelece a relação.
-- [A descida de nível de 1980 na mortalidade neonatal coincidiu com a criação do SNS]{.claim id="c186"}.
 - [A mudança de 2012 na diferença de esperança de vida face à UE coincidiu com o primeiro ano completo do programa de ajustamento]{.claim id="c187"}.
 - [O pico de 2011 na proporção de pessoas com saúde má ou muito má, e na diferença face à UE, coincidiu com o início do programa de ajustamento]{.claim id="c193"}.
-- [O pico de 2012 na diferença das necessidades dentárias não satisfeitas face à UE coincidiu com o programa de ajustamento]{.claim id="c196"}
-  e [coincidiu também com a aplicação dos novos valores das taxas moderadoras]{.claim id="c197"}.
+- [O pico de 2012 na diferença das necessidades dentárias não satisfeitas face à UE coincidiu com o programa de ajustamento]{.claim id="c196"}.
 - [A mudança de 2015 nas necessidades médicas não satisfeitas face à UE, um ano depois do fim do programa, coincidiu com o período pós-programa]{.claim id="c199"}.
-- [A quebra de 2007 na mortalidade prematura coincidiu com a aprovação da lei do tabaco]{.claim id="c191"},
-  que só entrou em vigor no ano seguinte.
-- [A descida de 2018 nas necessidades dentárias não satisfeitas coincidiu com o alargamento do programa de saúde oral]{.claim id="c195"};
-  a fonte descreve a medida, mas não mede o seu efeito.
 - [A descida de 2021 na mortalidade padronizada por doenças circulatórias coincidiu com a pandemia]{.claim id="c188"},
   mas a sua dimensão sugere uma alteração de método.
 - [A descida de 2021 na mortalidade por doenças respiratórias coincidiu com a pandemia]{.claim id="c189"};
@@ -853,10 +843,6 @@ seu total.
 - [INE — Autoapreciação do estado de saúde (indicador 0008043).]{.claim id="c101"}
 - [INE — Inquérito Nacional de Saúde: tabaco (0014788, 0014778), índice de massa corporal (0014775), álcool (0008704), sintomas depressivos (0008708).]{.claim id="c114"}
 - [INE — Mortalidade por suicídio (indicadores 0003736 e 0014469).]{.claim id="c127"}
-- [Diário da República — Lei n.º 56/79.]{.claim id="c178"}
 - [Banco de Portugal — Memorando de Entendimento.]{.claim id="c179"}
-- [Diário da República — Portaria n.º 306-A/2011.]{.claim id="c182"}
-- [Diário da República — Lei n.º 37/2007, republicada pela Lei n.º 63/2017.]{.claim id="c181"}
-- [Diário da República — Programa Nacional de Promoção da Saúde Oral.]{.claim id="c183"}
 - [Organização Mundial da Saúde — declaração da pandemia, 11 de março de 2020.]{.claim id="c180"}
 - [Eurosurveillance (ECDC) — excesso de mortalidade na época gripal 2014/2015.]{.claim id="c184"}

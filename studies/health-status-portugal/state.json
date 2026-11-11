@@ -1,13 +1,14 @@
 {
   "schema_version": 2,
-  "current_phase": 7,
+  "current_phase": 8,
   "completed_phases": [
     1,
     2,
     3,
     4,
     5,
-    6
+    6,
+    7
   ],
   "phases": {
     "1": {
@@ -98,7 +99,15 @@
       "last_problems": [],
       "started_at": "2026-11-10T17:07:56Z",
       "completed_at": "2026-11-11T16:51:34Z"
+    },
+    "7": {
+      "status": "completed",
+      "attempts": 1,
+      "units": {},
+      "last_problems": [],
+      "started_at": "2026-11-11T16:51:49Z",
+      "completed_at": "2026-11-11T17:22:55Z"
     }
   },
-  "updated_at": "2026-11-11T16:51:34Z"
+  "updated_at": "2026-11-11T17:22:55Z"
 }
