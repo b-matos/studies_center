@@ -222,3 +222,17 @@ def test_public_assets_leave_out_queue_script(build_mod) -> None:
     mod.copy_shared_assets("_site_public", public=True)
     assert (site_dir / "_site_public" / "assets" / "lang-switch.js").exists()
     assert not (site_dir / "_site_public" / "assets" / "queue.js").exists()
+
+
+def test_index_card_shows_title_and_summary_and_links_only_studies_with_a_report(build_mod) -> None:
+    mod, site_dir, studies_dir = build_mod
+    _make_study(studies_dir, "has-report", status="published")
+    pending = _make_study(studies_dir, "no-report", status="in_progress")
+    (pending / "report.pt.qmd").unlink()
+
+    mod.write_index(mod.load_studies(), "pt")
+    text = (site_dir / "index.pt.qmd").read_text(encoding="utf-8")
+    assert "Estudo has-report" in text and "Resumo." in text  # title_pt / summary_pt, not the slug
+    assert 'href="studies/has-report/index.html"' in text
+    assert 'href="studies/no-report/index.html"' not in text
+    assert "study-card-pending" in text and "Estudo no-report" in text

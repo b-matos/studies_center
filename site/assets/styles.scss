@@ -105,6 +105,8 @@ blockquote {
 .study-card-meta { display: flex; align-items: center; gap: 0.7rem; font-size: 0.8rem; color: $muted; }
 .study-card-title { font-family: $headings-font-family; font-size: 1.28rem; font-weight: 600; line-height: 1.25; }
 .study-card-summary { color: $muted; font-size: 0.95rem; }
+.study-card-pending { opacity: 0.8; cursor: default; }
+.study-card-pending .study-card-cta { color: #64748b; }
 .study-card-cta { margin-top: auto; padding-top: 0.4rem; font-weight: 600; font-size: 0.9rem; color: $accent; }
 .empty-state { padding: 2rem; text-align: center; color: $muted; border: 1px dashed $line; border-radius: 1rem; }
 

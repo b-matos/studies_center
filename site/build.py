@@ -66,6 +66,7 @@ INDEX_COPY = {
         ),
         "empty": "Ainda não há estudos publicados.",
         "read": "Ler estudo",
+        "pending": "Em curso: ainda sem relatório",
     },
     "en": {
         "pagetitle": "Studies on Portugal",
@@ -78,6 +79,7 @@ INDEX_COPY = {
         ),
         "empty": "No studies published yet.",
         "read": "Read the study",
+        "pending": "In progress: no report yet",
     },
 }
 
@@ -113,18 +115,20 @@ def write_index(studies: list[dict], lang: str, statuses: set[str] | None = None
         lines.append('<div class="study-grid">')
         for s in visible:
             slug = s["slug"]
-            titulo = html.escape(str(s.get(f"titulo_{lang}", slug)))
-            resumo = html.escape(str(s.get(f"resumo_{lang}", "")))
+            title = html.escape(str(s.get(f"title_{lang}") or s.get(f"titulo_{lang}") or slug))  # titulo_: pre-rename studies
+            summary = html.escape(str(s.get(f"summary_{lang}") or s.get(f"resumo_{lang}") or ""))
             date = html.escape(str(s.get("date", "")))
             status = html.escape(str(s.get("status", "")))
-            lines.append(
-                f'<a class="study-card" href="studies/{slug}/index.html">'
-                f'<span class="study-card-meta"><span class="badge-estado badge-{status}">{status}</span>'
-                f"<span>{date}</span></span>"
-                f'<span class="study-card-title">{titulo}</span>'
-                f'<span class="study-card-summary">{resumo}</span>'
-                f'<span class="study-card-cta">{html.escape(copy["read"])} →</span></a>'
-            )
+            meta = (f'<span class="study-card-meta"><span class="badge-estado badge-{status}">{status}</span>'
+                    f"<span>{date}</span></span>"
+                    f'<span class="study-card-title">{title}</span>'
+                    f'<span class="study-card-summary">{summary}</span>')
+            if (s["_dir"] / f"report.{lang}.qmd").exists():
+                lines.append(f'<a class="study-card" href="studies/{slug}/index.html">{meta}'
+                             f'<span class="study-card-cta">{html.escape(copy["read"])} →</span></a>')
+            else:  # no report yet (local build only): a card without a link that would 404
+                lines.append(f'<div class="study-card study-card-pending">{meta}'
+                             f'<span class="study-card-cta">{html.escape(copy["pending"])}</span></div>')
         lines.append("</div>")
     (SITE_DIR / f"index.{lang}.qmd").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
