@@ -1,347 +1,396 @@
 # studies_center
 
-Plataforma local para produzir e publicar **estudos exaustivos, com dados, sobre Portugal**.
-Cada estudo nasce de um comando (`/study <tema>`) e acrescenta uma página bilingue (PT/EN) a um
-site estático Quarto, em que cada número tem fonte, excerto e data de acesso.
+A local platform that produces and publishes **exhaustive, data-driven studies about Portugal**.
+Each study starts from one command (`/study <topic>`) and adds a bilingual (PT/EN) page to a
+static Quarto site, where every number carries a source, an excerpt and an access date.
 
-> **EN, in short:** a local, Claude Code–orchestrated pipeline that turns a topic into a
-> bilingual, fully-sourced data study about Portugal. Seven specialised subagents run through
-> eight phases, each gated by code (not by the model's judgement), with resumable on-disk state.
-> The public site shows only the finished studies.
+Seven specialised Claude Code subagents run through eight phases. Each phase is gated by **code,
+not by the model's judgement**, and all progress lives on disk, so a run that is cut off (for
+example by the plan's token limit) resumes exactly where it stopped.
 
-- **Site público:** publicado por GitHub Pages (ver [Publicação](#publicação))
-- **Línguas:** código e nomes técnicos em inglês; relatórios e documentação de estudos em português
+- **Public site:** published with GitHub Pages (see [Publishing](#publishing))
+- **Languages:** code, file names and technical identifiers are in English; the study reports and
+  their working documents (`plan.md`, `progress.md`, `pending.md`, `verification.md`) are in
+  Portuguese, with an English version of each report.
 
-## Índice
+## Contents
 
-1. [Princípios](#princípios)
-2. [Arquitetura](#arquitetura)
+1. [Principles](#principles)
+2. [Architecture](#architecture)
 3. [Stack](#stack)
-4. [Orquestração: o fluxo `/study`](#orquestração-o-fluxo-study)
-5. [Agentes](#agentes)
-6. [Estado, retoma e limites](#estado-retoma-e-limites)
-7. [Modelo de dados](#modelo-de-dados)
-8. [Estrutura do repositório](#estrutura-do-repositório)
-9. [Instalação e uso](#instalação-e-uso)
-10. [Servidor local e fila](#servidor-local-e-fila)
-11. [Publicação](#publicação)
-12. [Testes](#testes)
-13. [Segurança e privacidade](#segurança-e-privacidade)
-14. [Licenças e atribuição de dados](#licenças-e-atribuição-de-dados)
-15. [Limitações conhecidas](#limitações-conhecidas)
-16. [Pontos de melhoria](#pontos-de-melhoria)
+4. [Orchestration: the `/study` flow](#orchestration-the-study-flow)
+5. [Agents](#agents)
+6. [State, resuming and limits](#state-resuming-and-limits)
+7. [Data model](#data-model)
+8. [Repository layout](#repository-layout)
+9. [Setup and usage](#setup-and-usage)
+10. [Local server and queue](#local-server-and-queue)
+11. [Publishing](#publishing)
+12. [Tests](#tests)
+13. [Security and privacy](#security-and-privacy)
+14. [Licences and data attribution](#licences-and-data-attribution)
+15. [Known limitations](#known-limitations)
+16. [Improvement ideas](#improvement-ideas)
 
-## Princípios
+## Principles
 
-Nunca podem ser quebrados (detalhe em [`CLAUDE.md`](CLAUDE.md)):
+These can never be broken (details in [`CLAUDE.md`](CLAUDE.md)):
 
-1. **Nenhuma afirmação sem fonte.** Todo número, facto ou evento tem uma linha em
-   `studies/<slug>/claims.csv` (URL, data de acesso, excerto com menos de 15 palavras).
-2. **Fontes primárias primeiro.** INE, Eurostat, OCDE, OMS, DGS, SNS; Diário da República,
-   parlamento.pt, EUR-Lex, CNE. Notícias só para contexto e marcadas `source_nature = news`.
-3. **Coincidência não é causalidade.** Grau A (uma fonte afirma a causa) → "contribuiu para";
-   B (mecanismo plausível documentado) → "pode ter contribuído"; C (só coincidência temporal) →
-   "coincidiu com".
-4. **Verificação independente.** Quem escreve (`writer`) não verifica; o `verifier` abre cada
-   URL e confirma excerto, data e valor, e nunca edita o relatório.
-5. **Direitos de autor.** Paráfrase sempre; no máximo uma citação literal curta por fonte.
-6. **Reprodutibilidade.** Todo gráfico nasce de dados em `data/clean/`, gerado por código.
+1. **No claim without a source.** Every number, fact or event has a row in
+   `studies/<slug>/claims.csv` (URL, access date, an excerpt of fewer than 15 words).
+2. **Primary sources first.** INE, Eurostat, OECD, WHO, DGS, SNS; Diário da República,
+   parlamento.pt, EUR-Lex, CNE. News is context only and is tagged `source_nature = news`.
+3. **Coincidence is not causation.** Grade A (a source states the cause) → "contributed to";
+   B (a documented, plausible mechanism) → "may have contributed to"; C (only a coincidence in
+   time) → "coincided with".
+4. **Independent verification.** The `writer` never verifies. The `verifier` opens every URL and
+   confirms excerpt, date and value, and never edits the report.
+5. **Copyright.** Always paraphrase; at most one short, attributed literal quote per source.
+6. **Reproducibility.** Every chart is generated by code from data committed in `data/clean/`.
 
-## Arquitetura
+## Architecture
 
+### System components
+
+```mermaid
+flowchart TB
+    user(["<b>/study TOPIC</b><br/>Claude Code session<br/>or local server queue"])
+
+    subgraph orch["Orchestration"]
+        direction LR
+        skill["<b>Orchestrator</b> (Sonnet)<br/>.claude/skills/study<br/>dispatches, reads short summaries"]
+        state[("<b>state.json</b><br/>common/state.py<br/>atomic writes, resumable")]
+        gates{{"<b>Phase gates</b><br/>common/checks.py<br/>pass / fail in code"}}
+        skill <--> state
+        skill --> gates
+    end
+
+    subgraph agents["Subagents (.claude/agents) — max 2 at a time"]
+        direction LR
+        planner["planner<br/><i>Opus</i>"]
+        researcher["data-researcher"]
+        extractor["extractor"]
+        analyst["analyst"]
+        historian["historian"]
+        writer["writer<br/><i>Opus, no internet</i>"]
+        verifier["verifier"]
+    end
+
+    hook["<b>guard_writes.py</b> (PreToolUse hook)<br/>each agent writes only its own files<br/>only common/state.py writes state.json"]
+
+    subgraph code["Deterministic code — common/"]
+        direction LR
+        probe["probe"]
+        extract["extract"]
+        breaks["breaks"]
+        charts["charts"]
+        verify["verify"]
+        sources["sources/<br/>INE · Eurostat · OECD<br/>WHO · SNS"]
+    end
+
+    studies[("<b>studies/&lt;slug&gt;/</b><br/>raw manifest · data/clean · breaks<br/>event_links · claims · report.pt/en.qmd")]
+    events[("<b>events/events.csv</b><br/>shared event catalogue")]
+    build["<b>site/build.py</b> + Quarto"]
+    local["Local site + study queue<br/>(FastAPI, 127.0.0.1)"]
+    pages["Public site<br/>(GitHub Pages)"]
+
+    user --> skill
+    skill -- "dispatch" --> agents
+    hook -. "enforces" .-> agents
+    agents -- "call scripts" --> code
+    sources --> extract
+    code --> studies
+    agents --> studies
+    historian --> events
+    studies --> build
+    events --> build
+    build --> local
+    build -- "--public" --> pages
+    local -. "runs claude -p" .-> user
 ```
-                    /study <tema>   (sessão Claude Code ou servidor local)
-                                │
-                     ┌──────────▼──────────┐
-                     │  Orquestrador       │  skill .claude/skills/study
-                     │  (Sonnet)           │  só despacha e lê resumos
-                     └──┬────────┬─────────┘
-        estado/gates    │        │  lança (máx. 2 em simultâneo)
-   ┌────────────────────▼─┐   ┌──▼───────────────────────────────────┐
-   │ common/state.py      │   │ Subagentes (.claude/agents/*.md)     │
-   │ common/checks.py     │   │ planner · data-researcher ·          │
-   │ state.json (atómico) │   │ extractor · analyst · historian ·    │
-   └──────────────────────┘   │ writer · verifier                    │
-                              └──┬───────────────────────────────────┘
-        scripts determinísticos  │ escrevem só nos seus ficheiros
-   ┌─────────────────────────────▼───────────────────────────────────┐
-   │ common/: probe · extract · breaks · charts · verify · download  │
-   │ common/sources/: ine · eurostat · oecd · who · sns              │
-   └─────────────────────────────┬───────────────────────────────────┘
-                                 ▼
-   studies/<slug>/  (raw → data/clean → breaks → event_links → claims → report.*.qmd)
-                                 │
-                       site/build.py  →  Quarto  →  site/_site (local) · _site_public (Pages)
+
+### Phase and data flow
+
+```mermaid
+flowchart LR
+    p1["1 · Plan<br/><b>plan.md</b>"] --> p2["2 · Sources<br/><b>sources.csv</b>"]
+    p2 --> p3["3 · Extraction<br/><b>raw_manifest.csv</b><br/><b>data/clean/*.parquet</b>"]
+    p3 --> p4["4 · Analysis<br/><b>breaks.csv</b><br/>chart JSON"]
+    p4 --> p5["5 · Events<br/><b>event_links.csv</b><br/>grade A / B / C"]
+    p5 --> p6["6 · Writing<br/><b>report.pt/en.qmd</b><br/><b>claims.csv</b>"]
+    p6 --> p7["7 · Verification<br/><b>verification.md</b>"]
+    p7 -- "unconfirmed claims<br/>(max 3 rounds, then removed)" --> p6
+    p7 --> p8["8 · Publication<br/>status: published"]
+    p8 --> site["Site build<br/>+ optional push"]
 ```
 
-Ideias centrais:
+Key ideas:
 
-- **O LLM decide pouco; o código decide quase tudo.** Sondagem de fontes, extração,
-  normalização, deteção de quebras, verificação de excertos e as condições de fim de fase são
-  scripts Python. Os agentes descrevem *o quê* (especificações JSON, scripts de análise, texto).
-- **Estado em disco, não na conversa.** O progresso vive em `state.json`, nos ficheiros de cada
-  fase e num commit por fase, por isso um corte de tokens a meio perde, no máximo, uma unidade.
-- **Permissões por agente impostas por hook.** `.claude/hooks/guard_writes.py` bloqueia que um
-  subagente escreva fora da sua lista (tabela abaixo) ou toque em `state.json`.
-- **Dados de eventos partilhados.** `events/events.csv` é um catálogo comum a todos os estudos.
+- **The LLM decides little; code decides almost everything.** Source probing, extraction,
+  normalisation, break detection, excerpt verification and every phase-completion condition are
+  Python scripts. Agents describe *what* to do (JSON specs, analysis scripts, prose).
+- **State on disk, not in the conversation.** Progress lives in `state.json`, in each phase's
+  files and in one commit per phase, so a cut-off run loses at most one unit of work.
+- **Per-agent permissions enforced by a hook.** `.claude/hooks/guard_writes.py` blocks a subagent
+  from writing outside its allow-list (table below) or touching `state.json`.
+- **Shared event catalogue.** `events/events.csv` is common to all studies.
 
 ## Stack
 
-| Camada | Tecnologia |
+| Layer | Technology |
 | --- | --- |
-| Orquestração | [Claude Code](https://claude.com/claude-code) (skills, subagentes, hooks), modo headless `claude -p` no servidor |
-| Dados e análise | Python ≥ 3.12, pandas, pyarrow (Parquet), numpy, scipy, statsmodels, [ruptures](https://github.com/deepcharles/ruptures) (quebras) |
-| Fontes | `sdmx1` (Eurostat, OCDE), API JSON do INE, API OData da OMS, exportações SNS, httpx, pypdf, BeautifulSoup, rapidfuzz |
-| Validação | pydantic (schemas de todos os CSV) |
-| Site | [Quarto](https://quarto.org) (website bilingue, OJS + Plotly para gráficos interativos) |
-| Servidor local | FastAPI, uvicorn, SSE (sse-starlette) |
-| Gestão do projeto | `uv` (dependências e ambiente), pytest, ruff |
+| Orchestration | [Claude Code](https://claude.com/claude-code) (skills, subagents, hooks); headless `claude -p` from the server |
+| Data and analysis | Python ≥ 3.12, pandas, pyarrow (Parquet), numpy, scipy, statsmodels, [ruptures](https://github.com/deepcharles/ruptures) (change points) |
+| Sources | `sdmx1` (Eurostat, OECD), INE JSON API, WHO OData API, SNS exports, httpx, pypdf, BeautifulSoup, rapidfuzz |
+| Validation | pydantic (schemas for every tracked CSV) |
+| Site | [Quarto](https://quarto.org) bilingual website, OJS + Plotly interactive charts |
+| Local server | FastAPI, uvicorn, Server-Sent Events (sse-starlette) |
+| Project tooling | `uv` (dependencies and environment), pytest, ruff |
 | CI/CD | GitHub Actions + GitHub Pages |
 
-## Orquestração: o fluxo `/study`
+## Orchestration: the `/study` flow
 
-Definido em [`.claude/skills/study/SKILL.md`](.claude/skills/study/SKILL.md). Oito fases, por
-ordem; só se avança quando a condição da fase passa **em código**
-(`uv run python -m common.state complete-phase <slug> <fase>`, que corre `common.checks`).
+Defined in [`.claude/skills/study/SKILL.md`](.claude/skills/study/SKILL.md). Eight phases, in
+order. The orchestrator only moves on when the phase condition passes **in code**
+(`uv run python -m common.state complete-phase <slug> <phase>`, which runs `common.checks`).
 
-| # | Fase | Agente | Unidade de trabalho | Saída principal |
+| # | Phase | Agent | Unit of work | Main output |
 | --- | --- | --- | --- | --- |
-| 1 | Plano | `planner` | — | `plan.md` |
-| 2 | Fontes | `data-researcher` | eixo (ou eixos do mesmo organismo) | `sources.d/*.csv` → `sources.csv` |
-| 3 | Extração | `extractor` | fonte testada | `data/extract/<id>.json`, `data/clean/*.parquet`, `data/raw_manifest.csv` |
-| 4 | Análise | `analyst` | — | `analysis/*.py`, `analysis/out/*.json`, `breaks.csv` |
-| 5 | Eventos | `historian` | — | `events/events.csv`, `event_links.csv` (com grau A/B/C) |
-| 6 | Redação | `writer` | língua (`pt`, depois `en`) | `report.pt.qmd`, `report.en.qmd`, `claims.csv` |
-| 7 | Verificação | script + `verifier` | afirmação | `verification.md`, `verification_status` em `claims.csv` |
-| 8 | Publicação | script | — | `status: published` + build do site |
+| 1 | Plan | `planner` | — | `plan.md` |
+| 2 | Sources | `data-researcher` | an axis (or axes from the same provider) | `sources.d/*.csv` → `sources.csv` |
+| 3 | Extraction | `extractor` | a tested source | `data/extract/<id>.json`, `data/clean/*.parquet`, `data/raw_manifest.csv` |
+| 4 | Analysis | `analyst` | — | `analysis/*.py`, `analysis/out/*.json`, `breaks.csv` |
+| 5 | Events | `historian` | — | `events/events.csv`, `event_links.csv` (with grade A/B/C) |
+| 6 | Writing | `writer` | language (`pt`, then `en`) | `report.pt.qmd`, `report.en.qmd`, `claims.csv` |
+| 7 | Verification | script + `verifier` | claim | `verification.md`, `verification_status` in `claims.csv` |
+| 8 | Publication | script | — | `status: published` + site build |
 
-Regras de orquestração:
+Orchestration rules:
 
-- Um comando `common.state init|resume|start-phase|plan-units|unit-start|unit-done|complete-phase`
-  por passo; `unit-done` recusa saídas em falta ou inválidas.
-- Máximo de **2 subagentes em simultâneo**; resumos dos subagentes com ≤150 palavras; o
-  orquestrador passa *caminhos*, não conteúdos.
-- **Decisões difíceis de reverter** (excluir um eixo, mudar o âmbito, publicar um grau A pouco
-  claro) não são tomadas pelo agente: escreve-se `pending.md`, o estudo pára, e a resposta fica
-  em `decisions.md` (a página Fila local mostra as opções com botões).
-- **Máximo de 3 tentativas por fase**, contadas em `state.json`; à terceira a fase fica
-  `blocked` e o impasse vai para `pending.md`.
-- Um commit por fase concluída: `fase <n> (<nome>): <slug>`.
+- One `common.state init|resume|start-phase|plan-units|unit-start|unit-done|complete-phase`
+  command per step; `unit-done` refuses missing or invalid outputs.
+- At most **2 subagents at a time**; subagent summaries are ≤150 words; the orchestrator passes
+  *paths*, not contents.
+- **Hard-to-reverse decisions** (dropping an axis, changing the scope, publishing an unclear
+  grade A) are never taken by an agent: it writes `pending.md` and stops, and the answer is
+  stored in `decisions.md` (the local Queue page shows the options as buttons).
+- **At most 3 attempts per phase**, counted in `state.json`; on the third the phase becomes
+  `blocked` and the impasse goes to `pending.md`.
+- One commit per completed phase: `fase <n> (<name>): <slug>`.
 
-### Verificação (fase 7)
+### Verification (phase 7)
 
-1. `common.verify --apply` confirma por código o que consegue: procura o excerto no texto
-   normalizado da página/PDF (correspondência aproximada) e recalcula o valor a partir de
-   `data/clean/`.
-2. Só as afirmações por confirmar vão ao `verifier`, em lotes de até 15, para análise manual.
-3. O que não confirmar volta ao `writer`, até 3 voltas; se continuar sem confirmação, a
-   afirmação é **removida**, nunca deixada sem fonte verificada.
+1. `common.verify --apply` confirms mechanically what it can: it fuzzy-searches the recorded
+   excerpt in the normalised page/PDF text and recomputes the value from `data/clean/`.
+2. Only the still-unconfirmed claims go to the `verifier`, in batches of up to 15, for manual
+   checking.
+3. Whatever remains unconfirmed goes back to the `writer`, up to 3 rounds; if it still cannot be
+   confirmed the claim is **removed**, never left without a verified source.
 
-## Agentes
+## Agents
 
-Definidos em [`.claude/agents/`](.claude/agents). O hook impõe a coluna "Escreve em".
+Defined in [`.claude/agents/`](.claude/agents). The hook enforces the "Writes to" column.
 
-| Agente | Modelo | Ferramentas | Escreve em |
+| Agent | Model | Tools | Writes to |
 | --- | --- | --- | --- |
 | `planner` | Opus | Read, Write, Edit, Glob, WebSearch, WebFetch | `plan.md` |
-| `data-researcher` | Sonnet | Read, Write, Edit, WebSearch, WebFetch, Bash | `sources.d/<unidade>.csv` |
+| `data-researcher` | Sonnet | Read, Write, Edit, WebSearch, WebFetch, Bash | `sources.d/<unit>.csv` |
 | `extractor` | Sonnet | Read, Write, Edit, Bash | `data/raw/`, `data/extract/`, `data/clean/*.parquet`, `raw_manifest.csv` |
 | `analyst` | Sonnet | Read, Write, Edit, Glob, Bash | `analysis/**`, `breaks.csv` |
 | `historian` | Sonnet | Read, Write, Edit, WebSearch, WebFetch | `events/events.csv`, `event_links.csv` |
-| `writer` | Opus | Read, Write, Edit, Glob, Grep (**sem internet**, de propósito) | `report.{pt,en}.qmd`, `claims.csv`, `study.yml` |
-| `verifier` | Sonnet | Read, Glob, Grep, WebFetch, Bash, Write | `verification.md`; só a coluna `verification_status` de `claims.csv` |
+| `writer` | Opus | Read, Write, Edit, Glob, Grep (**no internet**, on purpose) | `report.{pt,en}.qmd`, `claims.csv`, `study.yml` |
+| `verifier` | Sonnet | Read, Glob, Grep, WebFetch, Bash, Write | `verification.md`; only the `verification_status` column of `claims.csv` |
 
-## Estado, retoma e limites
+## State, resuming and limits
 
-- `studies/<slug>/state.json` (schema v2): fase atual, fases concluídas, tentativas e progresso
-  por unidade. Só `common/state.py` o escreve, de forma atómica (ficheiro temporário +
-  `os.replace`); os subagentes não podem.
-- `/study <tema>` começa sempre por `common.state resume <slug>` e continua onde parou; a unidade
-  que estava em curso é refeita do zero.
-- Os tokens são limitados: o servidor deteta o corte por limite do plano, marca o item como
-  `interrompido` com a hora de renovação e retoma de `state.json` quando for relançado.
-- Consumo e custo por fase/modelo são gravados em `studies/<slug>/usage.csv` (informação
-  interna; **não** aparece no site público).
+- `studies/<slug>/state.json` (schema v2): current phase, completed phases, attempts and
+  per-unit progress. Only `common/state.py` writes it, atomically (temp file + `os.replace`);
+  subagents cannot.
+- `/study <topic>` always starts with `common.state resume <slug>` and continues where it
+  stopped; the unit that was in flight is redone from scratch.
+- Tokens are limited: when the plan's usage limit cuts a run, the server marks the queue item
+  `interrupted` with the renewal time, and the study resumes from `state.json` when it is run
+  again.
+- Token usage and cost per phase and model are written to `studies/<slug>/usage.csv`
+  (internal; **never** shown on the public site).
 
-## Modelo de dados
+## Data model
 
-Formato longo em `studies/<slug>/data/clean/*.parquet`, uma observação por linha:
+Long format in `studies/<slug>/data/clean/*.parquet`, one observation per row:
 
 `date, region, sex, age, indicator, value, unit, source_id`
 
-Ficheiros CSV rastreados (schemas pydantic em `common/schemas.py`):
+Tracked CSV files (pydantic schemas in `common/schemas.py`):
 
-| Ficheiro | Conteúdo |
+| File | Content |
 | --- | --- |
-| `sources.csv` | Catálogo de fontes: URL, organismo, licença, cobertura, estado de teste |
-| `data/raw_manifest.csv` | url, file, download_date, sha256, bytes (o raw em si não vai para o git) |
-| `breaks.csv` | Quebras detetadas: nível, declive ou pico |
-| `event_links.csv` | Quebra ↔ evento, com grau de evidência A/B/C |
-| `claims.csv` | Cada afirmação: URL, data de acesso, excerto, valor, cálculo, estado de verificação |
-| `events/events.csv` | Catálogo de eventos partilhado (fonte primária, âmbito, tema) |
+| `sources.csv` | Source catalogue: URL, provider, licence, coverage, test status |
+| `data/raw_manifest.csv` | url, file, download_date, sha256, bytes (the raw files themselves are not in git) |
+| `breaks.csv` | Detected breaks: level shift, slope change or spike |
+| `event_links.csv` | Break ↔ event, with an A/B/C evidence grade |
+| `claims.csv` | Each claim: URL, access date, excerpt, value, calculation, verification status |
+| `events/events.csv` | Shared event catalogue (primary source, scope, theme) |
 
-## Estrutura do repositório
+## Repository layout
 
 ```
-.claude/             agentes, skill /study, hook guard_writes.py, settings.json
-common/              pipeline determinístico (state, checks, probe, extract, breaks, verify, charts, usage)
-common/sources/      clientes INE, Eurostat, OCDE, OMS, SNS
-events/              catálogo de eventos partilhado + fontes de eventos
-studies/<slug>/      um estudo (plano, fontes, dados limpos, análise, relatórios, claims)
-site/                projeto Quarto (pt/en), build.py, assets
-server/              FastAPI local: fila de estudos, progresso em tempo real
+.claude/             agents, the /study skill, guard_writes.py hook, settings.json
+common/              deterministic pipeline (state, checks, probe, extract, breaks, verify, charts, usage)
+common/sources/      INE, Eurostat, OECD, WHO and SNS clients
+events/              shared event catalogue and event-source notes
+studies/<slug>/      one study (plan, sources, clean data, analysis, reports, claims)
+site/                Quarto project (pt/en), build.py, assets
+server/              local FastAPI app: study queue, live progress, optional auto-publish
 tests/               pytest
-.github/workflows/   Pages e testes
+.github/workflows/   Pages and tests
 ```
 
-## Instalação e uso
+## Setup and usage
 
-Requisitos: [uv](https://docs.astral.sh/uv/), [Quarto](https://quarto.org/docs/get-started/)
-(≥ 1.6) e, para gerar estudos novos, o [Claude Code](https://claude.com/claude-code) autenticado.
+Requirements: [uv](https://docs.astral.sh/uv/), [Quarto](https://quarto.org/docs/get-started/)
+(≥ 1.6) and, to generate new studies, an authenticated
+[Claude Code](https://claude.com/claude-code).
 
 ```bash
-uv sync                                  # ambiente e dependências
-PYTHONPATH=. uv run pytest -q            # testes (dentro do Claude Code o PYTHONPATH já está definido)
+uv sync                                  # environment and dependencies
+PYTHONPATH=. uv run pytest -q            # tests (inside Claude Code, PYTHONPATH is already set)
 ```
 
-Gerar um estudo (numa sessão Claude Code, de preferência com `/model sonnet`):
+Generate a study (in a Claude Code session, preferably with `/model sonnet`):
 
 ```
-/study Estado da saúde em Portugal
+/study State of health in Portugal
 ```
 
-Comandos úteis:
+Useful commands:
 
 ```bash
-uv run python -m common.state resume <slug>        # onde ficou o estudo
-uv run python -m common.checks <slug> <fase>       # condição de uma fase, em código
-uv run python -m common.probe eurostat:DEMO_MLEXPEC  # testar uma fonte
-uv run python -m common.verify studies/<slug> --apply  # verificação mecânica de afirmações
-uv run python -m common.usage [<slug>]             # tokens e custo
-uv run python site/build.py                        # site local completo (inclui Fila)
+uv run python -m common.state resume <slug>          # where the study stands
+uv run python -m common.checks <slug> <phase>         # a phase's condition, in code
+uv run python -m common.probe eurostat:DEMO_MLEXPEC   # test a source
+uv run python -m common.verify studies/<slug> --apply # mechanical claim verification
+uv run python -m common.usage [<slug>]                # tokens and cost
+uv run python site/build.py                           # full local site (includes the Queue)
 ```
 
-Para recriar o `data/raw/` de um estudo (não está no git), usar `common/download.py` com o
-`data/raw_manifest.csv`; o hash SHA-256 deteta fontes que mudaram desde o download.
+To recreate a study's `data/raw/` (it is not in git), use `common/download.py` with its
+`data/raw_manifest.csv`; the SHA-256 detects sources that changed since the download.
 
-## Servidor local e fila
+## Local server and queue
 
 ```bash
-uv run python -m server.app        # http://127.0.0.1:8765  (apenas localhost)
+uv run python -m server.app        # http://127.0.0.1:8765  (localhost only)
 ```
 
-Serve o site compilado e uma API para a **fila de estudos**: acrescentas temas, escolhes o que
-corre (um de cada vez), vês o progresso por fase em tempo real, respondes a decisões pendentes
-e consultas o custo. O servidor lança `claude -p` com lista de argumentos (nunca uma string de
-shell) e valida o tema com um conjunto de caracteres estrito. `queue.json` e `logs/` são locais
-e estão no `.gitignore`.
+It serves the compiled site and an API for the **study queue**: add topics, choose which one
+runs (one at a time), follow per-phase progress live, answer pending decisions and see the cost.
+The server launches `claude -p` with an argument list (never a shell string) and validates the
+topic against a strict character set. `queue.json` and `logs/` are local and git-ignored.
 
-## Publicação
+## Publishing
 
-O site público é uma versão **só de leitura**, gerada com:
+The public site is a **read-only** build:
 
 ```bash
-uv run python site/build.py --public      # escreve site/_site_public/
+uv run python site/build.py --public      # writes site/_site_public/
 ```
 
-Diferenças face ao build local: só estudos com `status: published`, sem a página Fila nem
-`queue.js`, sem custos nem progresso. Mantém-se a página de Eventos. Os estudos de teste
-(`status: test`) e em curso (`in_progress`) nunca aparecem. Para pré-visualizar um estudo de
-teste: `--include-status test`.
+Compared with the local build: only studies with `status: published`, no Queue page or
+`queue.js`, no costs or progress. The Events page is kept. Test (`status: test`) and in-progress
+(`in_progress`) studies never appear. To preview a test study: `--include-status test`.
 
-O workflow [`pages.yml`](.github/workflows/pages.yml) faz o build e o deploy a cada push para
-`main` que toque em estudos, eventos, site ou dependências. Para ativar: **Settings → Pages →
-Source: GitHub Actions**. Os caminhos funcionam tanto na raiz de um domínio como em
-`/<repo>/` (o Quarto converte os links absolutos em relativos e `lang-switch.js` lê o prefixo
-do URL).
+The [`pages.yml`](.github/workflows/pages.yml) workflow builds and deploys on every push to `main`
+that touches studies, events, the site or the dependencies. To enable it: **Settings → Pages →
+Source: GitHub Actions**. Paths work both at a domain root and under `/<repo>/` (Quarto turns
+absolute links into relative ones and `lang-switch.js` reads any hosting prefix from the URL).
 
-Publicar um estudo = fase 8 do `/study` (`status: published` em `study.yml`) + push.
+Publishing a study = phase 8 of `/study` (`status: published` in `study.yml`) + a push.
 
-**Push automático (opcional).** Se o servidor local arrancar com `STUDIES_AUTO_PUSH=1`, no fim
-de uma execução que publicou um estudo o servidor (`server/publish.py`) faz o commit do que
-faltar e o `git push origin main`, o que dispara o workflow do Pages. O push é feito pelo
-servidor e nunca pelo agente (`git push` continua negado em `.claude/settings.json`). Só corre
-se: o estudo estiver `published` com a fase 8 concluída, o branch for `main`, o remote existir
-(`STUDIES_PUSH_REMOTE`, por omissão `origin`) e não houver outras alterações por commitar. O
-resultado aparece na nota do item na página Fila. Desligado por omissão.
+**Optional auto-push.** If the local server is started with `STUDIES_AUTO_PUSH=1`, at the end of
+a run that published a study the server (`server/publish.py`) commits whatever is left and runs
+`git push origin main`, which triggers the Pages workflow. The push is done by the server and
+never by an agent (`git push` stays denied in `.claude/settings.json`). It only runs if the study
+is `published` with phase 8 completed, the branch is `main`, the remote exists
+(`STUDIES_PUSH_REMOTE`, default `origin`) and there are no other uncommitted changes. The result
+appears in the item's note on the Queue page. Off by default.
 
 ```bash
 STUDIES_AUTO_PUSH=1 uv run python -m server.app
 ```
 
-## Testes
+## Tests
 
-`tests/` cobre o estado e a retoma, as verificações de fase, a extração, a normalização, os
-schemas, o hook de escrita, o build do site, a verificação de afirmações, a resiliência a falhas
-das fontes (INE) e o servidor. Correm em CI ([`tests.yml`](.github/workflows/tests.yml)). Não
-há testes de qualidade dos *agentes*, ver [Pontos de melhoria](#pontos-de-melhoria).
+`tests/` covers state and resuming, phase checks, extraction, normalisation, schemas, the write
+guard hook, the site build, claim verification, resilience to source failures (INE) and the
+server (queue and auto-push). They run in CI ([`tests.yml`](.github/workflows/tests.yml)). There
+are no quality tests for the *agents* themselves; see [Improvement ideas](#improvement-ideas).
 
-## Segurança e privacidade
+## Security and privacy
 
-- Nenhum segredo no repositório: não há chaves de API (a autenticação é a do Claude Code).
-- `queue.json`, `logs/` e `data/raw/` não são versionados.
-- A página Fila só mostra o tipo de plano (nunca email nem organização); não é publicada.
-- O servidor escuta apenas em `127.0.0.1`.
-- `.claude/settings.json` nega `rm`, `git push`, `git reset`, `curl` e `sudo` ao agente.
-- Os subagentes só escrevem nos seus ficheiros (hook `guard_writes.py`).
+- No secrets in the repository: there are no API keys (authentication is Claude Code's own).
+- `queue.json`, `logs/` and `data/raw/` are not versioned.
+- The Queue page only shows the plan type (never the email or organisation) and is not published.
+- The server listens on `127.0.0.1` only.
+- `.claude/settings.json` denies `rm`, `git push`, `git reset`, `curl` and `sudo` to the agent.
+- Subagents only write to their own files (`guard_writes.py` hook).
+- Commits use the GitHub `noreply` address and carry no co-author trailer.
 
-## Licenças e atribuição de dados
+## Licences and data attribution
 
-Os dados limpos derivam de fontes oficiais (INE, Eurostat, OCDE, OMS, SNS…), cada uma com a sua
-licença registada em `sources.csv`. O site só exporta para download (`open_data.csv`) as fontes
-cuja licença **não** é não-comercial. Cite sempre a fonte original. A licença do código e dos
-textos do repositório está por definir (adicionar um ficheiro `LICENSE`).
+The clean data derives from official sources (INE, Eurostat, OECD, WHO, SNS…), each with its
+licence recorded in `sources.csv`. The site only exports for download (`open_data.csv`) the
+sources whose licence is **not** non-commercial. Always cite the original source. The licence of
+the code and texts in this repository is still to be defined (add a `LICENSE` file).
 
-## Limitações conhecidas
+## Known limitations
 
-- Apenas Portugal; cobertura limitada pelo que cada organismo publica de forma acessível.
-- SNS Transparência não tem API estável: depende de exportações descobertas caso a caso.
-- A deteção de quebras é um *candidato*; a ligação a eventos exige fonte (grau A) ou fica como
-  coincidência (grau C).
-- A verificação por correspondência de texto falha em páginas dinâmicas (JavaScript) ou PDFs
-  digitalizados; essas afirmações passam à verificação manual.
-- Sessões interativas não registam consumo; só as execuções lançadas pelo servidor.
+- Portugal only; coverage is limited by what each provider publishes in an accessible form.
+- SNS Transparência has no stable API: it depends on exports found case by case.
+- Break detection produces *candidates*; linking to events needs a source (grade A) or stays a
+  coincidence (grade C).
+- Text-matching verification fails on dynamic (JavaScript) pages and scanned PDFs; those claims
+  fall to manual verification.
+- Interactive sessions do not record usage; only runs launched by the server do.
 
-## Pontos de melhoria
+## Improvement ideas
 
-Ordenados por impacto na robustez:
+In order of impact on robustness:
 
-1. **Avaliação (evals) dos agentes.** Hoje só o código determinístico tem testes. Criar `evals/`
-   com fixtures congeladas (um commit por fase serve de ponto de partida) e avaliadores em
-   código: injetar erros num relatório já verificado para medir o recall e os falsos positivos
-   do `verifier`; casos de "só coincidência" que o `historian` tem de classificar como grau C;
-   números fora de `claims.csv` que o `writer` não pode escrever. Repetir 3× por caso e comparar
-   antes/depois de mudar prompts ou modelos.
-2. **Orquestrador em código.** Mover o ciclo de fases do prompt para um script Python (por
-   exemplo com o Claude Agent SDK), mantendo agentes e hooks. Retira o LLM do papel de
-   coordenador, reduz tokens e torna a retoma totalmente determinística.
-3. **Congelar as fontes.** O raw fica fora do git e o INE/Eurostat revêem séries. Guardar
-   *snapshots* (por exemplo em release assets ou num bucket) com o mesmo SHA-256 do manifesto, e
-   registar a data de vintage de cada série, para que um relatório antigo continue verificável.
-4. **Verificação em duas camadas mais forte.** Arquivar a página usada (Wayback Machine ou cópia
-   local do excerto) para sobreviver a *link rot*; reverificar periodicamente os URLs dos
-   estudos publicados e abrir um alerta quando algo mudar.
-5. **Garantir a regra "sem número sem marca".** Tornar `common.checks` bloqueante em CI para
-   estudos `published` (números sem `{.claim}`, graus de evidência coerentes com a linguagem,
-   paridade PT/EN, citações <15 palavras) e correr a verificação mecânica também no pipeline de
-   publicação.
-6. **Aplicar a restrição do `verifier` por código.** O hook só filtra por caminho; a limitação
-   a uma coluna de `claims.csv` depende do prompt. Validar por diff (só `verification_status`
-   mudou) antes de aceitar a escrita.
-7. **Qualidade e reprodutibilidade do ambiente.** Corrigir os avisos pendentes do `ruff`
-   (há alguns em `tests/`) e passar a lint a bloquear em CI; fixar versões do Quarto e das
-   *actions* por SHA; adicionar `pre-commit`.
-8. **Privacidade do histórico.** Usar o email `noreply` do GitHub nos commits e rever o
-   histórico antes de publicar (ver abaixo); manter `usage.csv` fora do repositório público se o
-   custo for considerado sensível.
-9. **Observabilidade.** Painel de métricas por agente (tentativas, taxa de falha por fase, custo
-   por ponto de qualidade) alimentado por `usage.csv` e `state.json`, para escolher o modelo de
-   cada agente com dados.
-10. **Experiência de leitura.** Página de metodologia pública (graus de evidência, como se
-    verifica), registo de alterações por estudo (versão e data de revisão), RSS e metadados
-    Open Graph para partilha.
-11. **Limpeza.** `prompt_claude_code_estudos.md` é o prompt inicial de bootstrap, com nomes
-    antigos (`/estudo`); mover para `docs/` ou remover. `scripts/migrate_v1_names.py` é uma
-    migração única já aplicada.
-12. **Licença.** Escolher e adicionar `LICENSE` (por exemplo MIT para código e CC BY 4.0 para
-    textos), respeitando as licenças dos dados de origem.
+1. **Evals for the agents.** Today only the deterministic code is tested. Add an `evals/` folder
+   with frozen fixtures (one commit per phase is a ready-made starting point) and code graders:
+   inject errors into an already-verified report to measure the `verifier`'s recall and false
+   positives; "coincidence only" cases the `historian` must grade C; numbers outside
+   `claims.csv` that the `writer` must not write. Run each case 3×, and compare before/after any
+   prompt or model change.
+2. **Orchestrator in code.** Move the phase loop out of the prompt into a Python script (for
+   example with the Claude Agent SDK) while keeping agents and hooks. It takes the LLM out of the
+   coordinator role, cuts tokens and makes resuming fully deterministic.
+3. **Freeze the sources.** Raw files are outside git and INE/Eurostat revise series. Keep
+   snapshots (for example as release assets or in a bucket) with the manifest's SHA-256 and
+   record each series' vintage date, so an old report stays verifiable.
+4. **Stronger verification.** Archive the page used (Wayback Machine or a local copy of the
+   excerpt) to survive link rot; periodically re-verify the URLs of published studies and raise
+   an alert when something changes.
+5. **Enforce "no number without a mark".** Make `common.checks` blocking in CI for `published`
+   studies (numbers without `{.claim}`, evidence grades consistent with the wording, PT/EN
+   parity, quotes under 15 words) and run the mechanical verification in the publishing
+   pipeline too.
+6. **Enforce the `verifier`'s restriction in code.** The hook only filters by path; limiting it
+   to one column of `claims.csv` currently depends on the prompt. Validate by diff (only
+   `verification_status` changed) before accepting the write.
+7. **Environment quality and reproducibility.** Fix the outstanding `ruff` warnings (some in
+   `tests/`) and make lint blocking in CI; pin the Quarto version and the actions by SHA; add
+   `pre-commit`.
+8. **History hygiene.** Keep the GitHub `noreply` email and review the history before every
+   major publication; keep `usage.csv` out of the public repository if cost is considered
+   sensitive.
+9. **Observability.** A per-agent metrics view (attempts, failure rate per phase, cost per
+   quality point) fed by `usage.csv` and `state.json`, to choose each agent's model with data.
+10. **Reading experience.** A public methodology page (evidence grades, how claims are
+    verified), a per-study revision log (version and date), RSS, and Open Graph metadata for
+    sharing.
+11. **Clean-up.** `prompt_claude_code_estudos.md` is the original bootstrap prompt, with old
+    names (`/estudo`); move it to `docs/` or remove it. `scripts/migrate_v1_names.py` is a
+    one-off migration that has already been applied.
+12. **Licence.** Choose and add a `LICENSE` (for example MIT for code and CC BY 4.0 for texts),
+    respecting the licences of the underlying data.
