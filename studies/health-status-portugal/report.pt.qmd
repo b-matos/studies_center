@@ -1,0 +1,862 @@
+---
+title: "Estado da saúde em Portugal"
+subtitle: "Quanto e quão bem se vive, de que se morre, que fatores de risco pesam e como evoluíram o acesso e os recursos"
+lang: pt
+---
+
+::: {.callout-note}
+Este relatório usa apenas dados oficiais do INE e do Eurostat guardados no repositório. Cada
+número, facto, evento ou ligação está marcado no texto e tem uma linha em `claims.csv`, com a
+fonte, a data de acesso e um excerto curto. As ligações entre mudanças nas séries e eventos são
+todas de grau C: indicam coincidência no tempo, nunca causa.
+:::
+
+```{ojs}
+Plotly = require("plotly.js-dist-min@2.35.2")
+```
+
+```{ojs}
+import {timeSeries, ranking} from "../../assets/charts.js"
+```
+
+```{ojs}
+lang = "pt"
+```
+
+```{ojs}
+linked_events = FileAttachment("linked_events.json").json()
+```
+
+```{ojs}
+nuts_regions = ["Portugal", "Norte", "Centro", "Grande Lisboa", "Península de Setúbal", "Oeste e Vale do Tejo", "Alentejo", "Algarve", "Região Autónoma dos Açores", "Região Autónoma da Madeira"]
+```
+
+```{ojs}
+dedupe = (rows, key) => { const seen = new Set(); return rows.filter((r) => { const k = key(r); if (seen.has(k)) return false; seen.add(k); return true; }); }
+```
+
+```{ojs}
+region_labels = ({"European Union (27)": "UE-27", "Região Autónoma dos Açores": "R. A. Açores", "Região Autónoma da Madeira": "R. A. Madeira", "Área Metropolitana de Lisboa": "AM Lisboa"})
+```
+
+## Resumo
+
+Em Portugal vive-se hoje mais tempo do que em qualquer momento da série: a esperança de vida à
+nascença passou de [64,0 anos em 1960]{.claim id="c001"} para [82,5 anos em 2024]{.claim id="c002"},
+[um ano acima da média da UE em 2024]{.claim id="c006"}. A parte dessa vida passada sem limitações
+também cresceu: os anos de vida saudável à nascença subiram de [53,9 em 2004]{.claim id="c025"} para
+[64,8 em 2024]{.claim id="c026"}, e a distância face à UE encolheu de [9,0 anos]{.claim id="c029"}
+para [0,4 anos]{.claim id="c030"}.
+
+A mortalidade por doenças do aparelho circulatório, padronizada pela idade, desceu de
+[321,67 óbitos por cem mil habitantes em 2011]{.claim id="c040"} para [220,81 em 2023]{.claim id="c041"},
+e a mortalidade infantil caiu de [77,5 por mil nados-vivos em 1960]{.claim id="c082"} para
+[3,0 em 2024]{.claim id="c083"}. A mortalidade por doenças respiratórias continua acima da média
+europeia ([95,48 contra 75,18 por cem mil em 2023]{.claim id="c046"}).
+
+Há também sinais menos favoráveis. A proporção de pessoas que declaram uma doença crónica subiu de
+[32,1% em 2004]{.claim id="c095"} para [44,1% em 2025]{.claim id="c096"}, em parte por mudanças no
+inquérito. As necessidades de cuidados dentários não satisfeitas ([7,9% em 2025]{.claim id="c145"})
+são mais do dobro das da UE ([3,3%]{.claim id="c146"}). Os pagamentos diretos das famílias pesam
+[28,67% da despesa corrente em saúde em 2024]{.claim id="c162"}, contra
+[15,06% na UE]{.claim id="c163"}.
+
+A deteção automática encontrou [51 quebras candidatas nas séries, das quais 18 foram ligadas a um evento datado, todas com grau C, e 33 ficaram sem evento]{.claim id="c202"}.
+Nenhuma das associações exploratórias entre indicadores resistiu à correção para testes múltiplos
+([ver Associações entre indicadores]{.claim id="c209"}). O excesso de mortalidade semanal durante a pandemia não foi coberto por
+falta de fonte testada ([ver Pergunta 5]{.claim id="c094"}).
+
+## Pergunta 1 — Esperança de vida à nascença e aos 65 anos
+
+A esperança de vida à nascença em Portugal cresceu de forma quase contínua desde
+[1960, quando era de 64,0 anos]{.claim id="c001"}, até [2024, com 82,5 anos]{.claim id="c002"}. A
+estimativa robusta da tendência aponta para [um aumento de cerca de 0,30 anos por cada ano de calendário, uma tendência crescente (Theil-Sen, Mann-Kendall)]{.claim id="c017"}.
+A média da UE, disponível desde o início do século, subiu a um ritmo mais lento:
+[cerca de 0,16 anos por ano, também com tendência crescente]{.claim id="c018"}.
+
+Portugal passou de ligeiramente abaixo da média europeia, com [77,4 anos em 2002]{.claim id="c004"}
+contra [77,6 anos na UE]{.claim id="c003"}, para acima dela: [82,5 anos]{.claim id="c002"} contra
+[81,5 anos na UE em 2024]{.claim id="c005"}, [uma diferença de 1,0 ano a favor de Portugal]{.claim id="c006"}.
+
+As mulheres vivem mais do que os homens. No início da série, a esperança de vida à nascença era de
+[66,7 anos para as mulheres em 1960]{.claim id="c009"} e de [61,1 anos para os homens]{.claim id="c010"};
+no fim era de [85,2 anos para as mulheres em 2024]{.claim id="c007"} e de [79,7 anos para os homens]{.claim id="c008"}.
+
+[Aos 65 anos, a esperança de vida passou de 13,6 anos em 1960]{.claim id="c011"} para
+[21,1 anos em 2024]{.claim id="c012"}, acima da média europeia ([20,2 anos em 2024]{.claim id="c013"}).
+
+Nos primeiros anos da pandemia a série recuou: de [82,0 anos em 2019]{.claim id="c014"} para
+[81,4 anos em 2020]{.claim id="c015"} e [81,4 anos em 2021]{.claim id="c016"}. O detetor de quebras
+não classificou este recuo como quebra de nível, e o estudo não lhe atribui uma causa.
+
+```{ojs}
+le_data = FileAttachment("q01_life_expectancy.json").json()
+```
+
+```{ojs}
+viewof le_sex = Inputs.radio(new Map([["Total", "T"], ["Mulheres", "F"], ["Homens", "M"]]), {value: "T", label: "Sexo"})
+```
+
+```{ojs}
+viewof le_age = Inputs.radio(new Map([["À nascença", "0"], ["Aos 65 anos", "65"]]), {value: "0", label: "Idade"})
+```
+
+```{ojs}
+timeSeries(Plotly, le_data.filter((d) => d.sex === le_sex && String(d.age) === le_age), {groupBy: "region", labels: region_labels, yTitle: "Esperança de vida (anos)", events: linked_events, lang})
+```
+
+*Gráfico: esperança de vida à nascença e aos sessenta e cinco anos, Portugal e UE (Eurostat).*
+
+### Diferenças regionais
+
+Os dados regionais do INE são calculados por triénios, e cada ponto corresponde ao triénio que
+começa no ano indicado. No triénio mais recente da série, a esperança de vida à nascença ia de
+[78,04 anos na Região Autónoma dos Açores]{.claim id="c020"} a
+[81,53 anos no Norte]{.claim id="c019"}, com a [Madeira em 78,77 anos]{.claim id="c022"}. As
+regiões autónomas continuam no fundo da tabela, mas são as que mais têm subido: os Açores partiram
+de [75,86 anos no triénio iniciado em 2008]{.claim id="c021"}, com
+[uma tendência crescente de cerca de 0,21 anos por ano]{.claim id="c023"}. No Algarve a série
+[não mostra tendência clara]{.claim id="c024"}.
+
+```{ojs}
+ler_data = FileAttachment("q01_life_expectancy_regions.json").json()
+```
+
+```{ojs}
+timeSeries(Plotly, ler_data, {groupBy: "region", labels: region_labels, yTitle: "Esperança de vida à nascença (anos)", events: linked_events, lang})
+```
+
+*Gráfico: esperança de vida à nascença por região NUTS II (antiga nomenclatura), triénios, INE.*
+
+## Pergunta 2 — Anos de vida saudável
+
+Os anos de vida saudável (anos sem limitação de atividade declarada no inquérito EU-SILC)
+cresceram em Portugal de [53,9 anos à nascença em 2004]{.claim id="c025"} para
+[64,8 anos em 2024]{.claim id="c026"}. Na UE passaram de [62,9]{.claim id="c027"} para
+[65,2 anos]{.claim id="c028"} no mesmo período. A diferença face à UE encolheu de
+[9,0 anos em 2004]{.claim id="c029"} para [0,4 anos em 2024]{.claim id="c030"}.
+
+A série portuguesa é, porém, muito irregular. O teste de tendência
+[não encontra uma tendência clara (declive estimado de cerca de 0,12 anos por ano, não significativo após correção)]{.claim id="c036"},
+em boa parte por causa de um vale isolado em meados da década passada, que pode ser um artefacto
+do inquérito ([ver Quebras e eventos]{.claim id="c206"}).
+
+[Aos 65 anos, os anos de vida saudável passaram de 4,4 em 2004]{.claim id="c031"} para
+[9,8 em 2024]{.claim id="c032"}, [com tendência crescente]{.claim id="c037"}, já perto da média
+europeia ([10,3 anos em 2024]{.claim id="c033"}). O peso dos anos saudáveis na esperança de vida
+total subiu de [68,7% em 2004]{.claim id="c034"} para [78,6% em 2024]{.claim id="c035"}.
+
+Apesar de viverem mais, as mulheres não vivem mais anos sem limitações. No último ano, a estimativa
+era de [63,9 anos de vida saudável para as mulheres em 2024]{.claim id="c038"} e de
+[65,8 anos para os homens]{.claim id="c039"}, o que quer dizer que as mulheres passam mais anos com
+limitações.
+
+```{ojs}
+hly_data = FileAttachment("q02_healthy_life_years.json").json()
+```
+
+```{ojs}
+viewof hly_ind = Inputs.select(new Map([["Anos de vida saudável à nascença", "healthy_life_years|hlth_hle=HLY_Y0"], ["Anos de vida saudável aos 65 anos", "healthy_life_years|hlth_hle=HLY_Y65"], ["Peso na esperança de vida à nascença (%)", "healthy_life_years|hlth_hle=HLY_LE_Y0_PC"], ["Peso na esperança de vida aos 65 anos (%)", "healthy_life_years|hlth_hle=HLY_LE_Y65_PC"]]), {label: "Indicador"})
+```
+
+```{ojs}
+viewof hly_sex = Inputs.radio(new Map([["Total", "T"], ["Mulheres", "F"], ["Homens", "M"]]), {value: "T", label: "Sexo"})
+```
+
+```{ojs}
+timeSeries(Plotly, hly_data.filter((d) => d.indicator === hly_ind && d.sex === hly_sex), {groupBy: "region", labels: region_labels, yTitle: hly_ind.endsWith("_PC") ? "% da esperança de vida" : "Anos", events: linked_events, lang})
+```
+
+*Gráfico: anos de vida saudável e peso na esperança de vida, Portugal e UE (Eurostat).*
+
+## Pergunta 3 — Causas de morte
+
+As taxas padronizadas pela idade do Eurostat permitem comparar Portugal com a UE. A mortalidade
+por doenças do aparelho circulatório desceu de [321,67 por cem mil em 2011]{.claim id="c040"}
+para [220,81 em 2023]{.claim id="c041"}, com
+[uma tendência decrescente de cerca de 7,2 óbitos por cem mil por ano]{.claim id="c055"}. Ficou
+bem abaixo da média europeia ([312,95 em 2023]{.claim id="c042"}).
+
+Nos tumores malignos, a taxa passou de [246,73 em 2011]{.claim id="c043"} para
+[218,22 em 2023]{.claim id="c044"}, com
+[tendência decrescente de cerca de 1,4 óbitos por cem mil por ano]{.claim id="c056"}, abaixo da UE
+([233,13]{.claim id="c045"}). A diabetes quase reduziu a taxa para metade, de
+[44,60 em 2011]{.claim id="c048"} para [23,71 em 2023]{.claim id="c049"}, ficando praticamente ao
+nível europeu ([23,53]{.claim id="c050"}).
+
+As doenças respiratórias são a principal exceção: [95,48 por cem mil em Portugal]{.claim id="c046"}
+contra [75,18 na UE em 2023]{.claim id="c047"}. As causas externas (acidentes, quedas, suicídio,
+entre outras) [não mostram tendência clara]{.claim id="c057"} e ficaram em
+[45,24 por cem mil]{.claim id="c051"}, contra [49,40 na UE]{.claim id="c052"}. Considerando todas as
+causas, Portugal registou [885,63 óbitos por cem mil em 2023]{.claim id="c053"}, abaixo da UE
+([963,42]{.claim id="c054"}).
+
+Todas estas séries têm uma descida simultânea e invulgarmente forte num mesmo ano recente, que
+provavelmente reflete uma mudança de método e não uma alteração real
+([ver Limitações]{.claim id="c203"}).
+
+```{ojs}
+cpe_data = FileAttachment("q03_causes_pt_eu.json").json()
+```
+
+```{ojs}
+viewof cpe_cause = Inputs.select(new Map([["Todas as causas", "all_causes"], ["Aparelho circulatório", "circulatory"], ["Tumores malignos", "cancer_C00_C97"], ["Aparelho respiratório", "respiratory"], ["Diabetes", "diabetes"], ["Causas externas", "external_causes"]]), {label: "Causa"})
+```
+
+```{ojs}
+viewof cpe_sex = Inputs.radio(new Map([["Total", "T"], ["Mulheres", "F"], ["Homens", "M"]]), {value: "T", label: "Sexo"})
+```
+
+```{ojs}
+timeSeries(Plotly, cpe_data.filter((d) => d.indicator === cpe_cause && d.sex === cpe_sex), {groupBy: "region", labels: region_labels, yTitle: "Óbitos por 100 000 hab. (taxa padronizada)", events: linked_events, lang})
+```
+
+*Gráfico: taxa de mortalidade padronizada por causa, Portugal e UE (Eurostat).*
+
+### Diferenças regionais
+
+Os dados do INE pela nova nomenclatura regional usam uma população-padrão diferente da do Eurostat,
+pelo que os níveis não se comparam com os do gráfico anterior. Nesta série, Portugal tinha
+[863,9 óbitos por cem mil em 2024 (todas as causas)]{.claim id="c060"}. A Região Autónoma dos Açores
+destaca-se com [1161,9]{.claim id="c058"}, seguida do [Alentejo com 1011,6]{.claim id="c063"}. A Grande
+Lisboa tinha a taxa mais baixa ([820,3]{.claim id="c059"}). Nas doenças do aparelho circulatório, os
+Açores ([266,9 por cem mil]{.claim id="c061"}) quase duplicavam o Norte
+([154,9]{.claim id="c062"}).
+
+```{ojs}
+creg_data = FileAttachment("q03_causes_regions.json").json()
+```
+
+```{ojs}
+viewof creg_cause = Inputs.select(new Map([["Aparelho circulatório", "circulatory"], ["Tumores malignos", "cancer_C00_C97"], ["Aparelho respiratório", "respiratory"], ["Diabetes", "diabetes"], ["Causas externas", "external_causes"], ["Todas as causas", "all_causes"]]), {label: "Causa"})
+```
+
+```{ojs}
+timeSeries(Plotly, creg_data.filter((d) => d.indicator === creg_cause && d.sex === "T"), {groupBy: "region", labels: region_labels, yTitle: "Óbitos por 100 000 hab. (taxa padronizada)", events: linked_events, lang})
+```
+
+*Gráfico: mortalidade padronizada por causa e região NUTS II (Eurostat; a região Centro muda de código no ano mais recente).*
+
+```{ojs}
+c24_data = FileAttachment("q03_causes_regions_2024.json").json()
+```
+
+```{ojs}
+viewof c24_cause = Inputs.select(["Todas as causas de morte", "Doenças do aparelho circulatório", "Tumores malignos", "Doenças do aparelho respiratório", "Diabetes mellitus", "Causas de morte externas"], {label: "Causa"})
+```
+
+```{ojs}
+ranking(Plotly, dedupe(c24_data.filter((d) => d.indicator === c24_cause && d.sex === "HM"), (d) => d.region), {xTitle: "Óbitos por 100 000 hab. (taxa padronizada, INE)", highlight: "Portugal", lang})
+```
+
+*Gráfico: mortalidade padronizada por causa e região, nova nomenclatura NUTS (INE).*
+
+### Mortalidade prematura
+
+A taxa de mortalidade prematura (entre os trinta e os setenta anos, por doenças cardiovasculares,
+cancro, diabetes e doenças respiratórias crónicas) desceu de [357,5 por cem mil em 2002]{.claim id="c064"} para
+[267,9 em 2024]{.claim id="c065"}, com
+[uma tendência decrescente de cerca de 2,0 por cem mil por ano]{.claim id="c067"}. Nos homens
+([370,8 em 2024]{.claim id="c068"}) é mais do dobro do que nas mulheres
+([173,3]{.claim id="c069"}). O valor mais baixo da série foi registado em
+[2020, com 258,5]{.claim id="c066"}.
+
+[A taxa padronizada de mortalidade antes dos 75 anos, por todas as causas, era de 320,0 por cem mil em 2019]{.claim id="c070"}; subiu para [338,9 em 2021]{.claim id="c071"} e voltou a
+descer até [302,8 em 2024]{.claim id="c072"}. Este é um dos poucos sinais indiretos do impacto da
+pandemia disponíveis nestes dados.
+
+```{ojs}
+pm_data = FileAttachment("q03_premature_mortality.json").json()
+```
+
+```{ojs}
+viewof pm_ind = Inputs.radio(new Map([["Prematura (30-70 anos)", "premature_mortality_rate_30_70"], ["Antes dos 75 anos (padronizada)", "standardised_mortality_rate_under75"]]), {value: "premature_mortality_rate_30_70", label: "Indicador"})
+```
+
+```{ojs}
+timeSeries(Plotly, pm_data.filter((d) => d.indicator === pm_ind), {groupBy: "sex", labels: {HM: "Total", H: "Homens", M: "Mulheres"}, yTitle: "Óbitos por 100 000 hab.", events: linked_events, lang})
+```
+
+*Gráfico: mortalidade prematura e mortalidade padronizada antes dos setenta e cinco anos, Portugal (INE).*
+
+## Pergunta 4 — Mortalidade evitável e mortalidade infantil
+
+A mortalidade tratável (óbitos que cuidados de saúde atempados e eficazes poderiam evitar) desceu de
+[94,78 por cem mil em 2011]{.claim id="c073"} para [74,24 em 2023]{.claim id="c074"}, com
+[tendência decrescente de cerca de 1,8 por cem mil por ano]{.claim id="c080"}, e fica abaixo da média
+da UE ([86,81]{.claim id="c075"}).
+
+A mortalidade prevenível (óbitos evitáveis com prevenção e saúde pública) passou de
+[149,25 em 2011]{.claim id="c076"} para [125,94 em 2023]{.claim id="c077"}, mas o teste
+[não encontra tendência clara]{.claim id="c081"}: houve um máximo em
+[2021, com 155,89]{.claim id="c079"}. A média europeia é mais alta ([150,85 em 2023]{.claim id="c078"}).
+Os dados carregados têm apenas Portugal e o agregado da UE, o que não permite ordenar Portugal entre
+os Estados-Membros.
+
+```{ojs}
+av_data = FileAttachment("q04_avoidable_mortality.json").json()
+```
+
+```{ojs}
+viewof av_ind = Inputs.radio(new Map([["Tratável", "treatable"], ["Prevenível", "preventable"]]), {value: "treatable", label: "Tipo"})
+```
+
+```{ojs}
+viewof av_sex = Inputs.radio(new Map([["Total", "T"], ["Mulheres", "F"], ["Homens", "M"]]), {value: "T", label: "Sexo"})
+```
+
+```{ojs}
+timeSeries(Plotly, av_data.filter((d) => d.indicator === av_ind && d.sex === av_sex), {groupBy: "region", labels: region_labels, yTitle: "Óbitos por 100 000 hab.", events: linked_events, lang})
+```
+
+*Gráfico: mortalidade evitável (prevenível e tratável), Portugal e UE (Eurostat).*
+
+A mortalidade infantil é uma das maiores transformações da série: de
+[77,5 óbitos por mil nados-vivos em 1960]{.claim id="c082"} para [3,0 em 2024]{.claim id="c083"}, com
+[tendência decrescente]{.claim id="c088"}. O mínimo foi [2,4 em 2020]{.claim id="c085"}, e o valor
+mais recente fica abaixo da média da UE ([3,5 em 2024]{.claim id="c084"}). A mortalidade neonatal seguiu o mesmo
+caminho, de [27,9 em 1960]{.claim id="c086"} para [1,8 em 2024]{.claim id="c087"}.
+
+Com números anuais tão pequenos, o INE publica para as regiões uma taxa quinquenal. No quinquénio
+mais recente, Portugal registava [2,7 óbitos por mil nados-vivos (quinquénio terminado em 2025)]{.claim id="c089"}.
+O [Centro tinha 2,1]{.claim id="c090"} e o [Alentejo 2,9]{.claim id="c091"}.
+
+```{ojs}
+inf_data = FileAttachment("q04_infant_mortality.json").json()
+```
+
+```{ojs}
+viewof inf_ind = Inputs.radio(new Map([["Infantil", "infant"], ["Neonatal", "neonatal"], ["Perinatal", "perinatal"]]), {value: "infant", label: "Indicador"})
+```
+
+```{ojs}
+timeSeries(Plotly, inf_data.filter((d) => d.indicator === inf_ind), {groupBy: "region", labels: region_labels, yTitle: "Óbitos por 1000 nados-vivos", events: linked_events, lang})
+```
+
+*Gráfico: mortalidade infantil, neonatal e perinatal, Portugal e UE (Eurostat; a UE só tem a taxa infantil).*
+
+```{ojs}
+infr_data = FileAttachment("q04_infant_mortality_regions.json").json()
+```
+
+```{ojs}
+ranking(Plotly, dedupe(infr_data.filter((d) => d.date === "2025-01-01"), (d) => d.region), {xTitle: "Óbitos por 1000 nados-vivos (média quinquenal)", highlight: "Portugal", lang})
+```
+
+*Gráfico: taxa quinquenal de mortalidade infantil por região, quinquénio mais recente (INE).*
+
+## Pergunta 5 — Excesso de mortalidade durante a pandemia
+
+Esta pergunta não foi respondida. As duas fontes previstas no Eurostat falharam no teste de acesso.
+A mortalidade semanal por região [excedeu o tempo limite do teste sem devolver resultado]{.claim id="c092"},
+e o excesso de mortalidade mensal [devolveu um erro do servidor]{.claim id="c093"}. Por decisão
+registada no estudo, a análise seguiu sem esta componente e
+[o excesso de mortalidade semanal fica declarado como não coberto]{.claim id="c094"}. Os únicos
+sinais indiretos nestes dados são o recuo da esperança de vida no início da pandemia e a subida
+temporária da mortalidade antes dos setenta e cinco anos (Pergunta 1 e Pergunta 3).
+
+## Pergunta 6 — Morbilidade e saúde autoavaliada
+
+A proporção de pessoas com dezasseis ou mais anos que declaram doença crónica ou problema de saúde
+prolongado subiu de [32,1% em 2004]{.claim id="c095"} para [44,1% em 2025]{.claim id="c096"},
+[uma tendência crescente de cerca de 0,7 pontos percentuais por ano]{.claim id="c097"}. Parte desta
+subida concentra-se num único salto que coincide com uma nova vaga do inquérito europeu de saúde e
+é provavelmente metodológico ([ver Quebras e eventos]{.claim id="c204"}). Por regiões, os valores
+mais altos estão na [Madeira (47,5% em 2025)]{.claim id="c098"} e no
+[Centro (46,8%)]{.claim id="c099"}, e o mais baixo no [Algarve (38,5%)]{.claim id="c100"}.
+
+Ao mesmo tempo, a saúde autoavaliada melhorou. Segundo o INE, a proporção que considera a sua saúde
+má ou muito má desceu de [21,1% em 2004]{.claim id="c101"} para [12,1% em 2025]{.claim id="c102"}
+([tendência decrescente]{.claim id="c107"}), e a que a considera boa ou muito boa subiu de
+[45,4%]{.claim id="c103"} para [52,7%]{.claim id="c104"}. A melhoria é maior entre os mais velhos: a
+proporção com saúde má ou muito má [entre as pessoas com 65 ou mais anos passou de 55,2% em 2004]{.claim id="c105"}
+para [28,1% em 2025]{.claim id="c106"}.
+
+Mais doença crónica declarada e melhor autoavaliação podem coexistir, por exemplo com mais
+diagnósticos e doenças melhor controladas, mas estes dados não permitem distinguir as explicações.
+
+Na comparação europeia (EU-SILC), Portugal continua atrás. No último ano,
+[52,6% dos portugueses avaliavam a sua saúde como boa ou muito boa em 2025]{.claim id="c108"}, contra
+[67,9% na UE]{.claim id="c109"}, e [12,2% como má ou muito má]{.claim id="c110"}, contra
+[8,8% na UE]{.claim id="c111"}. Em Portugal a última proporção era de [20,3% em 2010]{.claim id="c112"},
+com [tendência decrescente de cerca de 0,5 pontos percentuais por ano]{.claim id="c113"}.
+
+```{ojs}
+chr_data = FileAttachment("q06_chronic_condition.json").json()
+```
+
+```{ojs}
+viewof chr_age = Inputs.radio(["16+", "16 - 64 anos", "65 e mais anos"], {value: "16+", label: "Idade"})
+```
+
+```{ojs}
+timeSeries(Plotly, chr_data.filter((d) => d.age === chr_age), {groupBy: "sex", labels: {HM: "Total", H: "Homens", M: "Mulheres"}, yTitle: "% da população", events: linked_events, lang})
+```
+
+*Gráfico: população com doença crónica ou problema de saúde prolongado, por sexo e idade (INE).*
+
+```{ojs}
+chrr_data = FileAttachment("q06_chronic_condition_regions.json").json()
+```
+
+```{ojs}
+viewof chrr_year = Inputs.radio(new Map([["2025", "2025-01-01"], ["2024", "2024-01-01"]]), {value: "2025-01-01", label: "Ano"})
+```
+
+```{ojs}
+ranking(Plotly, dedupe(chrr_data.filter((d) => d.date === chrr_year), (d) => d.region), {xTitle: "% da população com dezasseis ou mais anos", highlight: "Portugal", lang})
+```
+
+*Gráfico: doença crónica por região, nova nomenclatura NUTS (INE).*
+
+```{ojs}
+srh_data = FileAttachment("q06_self_rated_health_ine.json").json()
+```
+
+```{ojs}
+viewof srh_cat = Inputs.select(new Map([["Má ou muito má", "self_rated_health_distribution|Mau ou muito mau"], ["Boa ou muito boa", "self_rated_health_distribution|Muito bom ou bom"], ["Razoável", "self_rated_health_distribution|Razoável"]]), {label: "Autoapreciação"})
+```
+
+```{ojs}
+viewof srh_age = Inputs.radio(["16+", "16 - 64 anos", "65 e mais anos"], {value: "16+", label: "Idade"})
+```
+
+```{ojs}
+timeSeries(Plotly, srh_data.filter((d) => d.indicator === srh_cat && d.age === srh_age), {groupBy: "sex", labels: {HM: "Total", H: "Homens", M: "Mulheres"}, yTitle: "% da população", events: linked_events, lang})
+```
+
+*Gráfico: autoapreciação do estado de saúde, por sexo e idade (INE).*
+
+```{ojs}
+spe_data = FileAttachment("q06_self_perceived_health_eu.json").json()
+```
+
+```{ojs}
+viewof spe_level = Inputs.select(new Map([["Boa ou muito boa", "VG_G"], ["Má ou muito má", "B_VB"], ["Razoável", "FAIR"]]), {label: "Autoavaliação"})
+```
+
+```{ojs}
+viewof spe_sex = Inputs.radio(new Map([["Total", "T"], ["Mulheres", "F"], ["Homens", "M"]]), {value: "T", label: "Sexo"})
+```
+
+```{ojs}
+timeSeries(Plotly, dedupe(spe_data.filter((d) => d.indicator === spe_level && d.sex === spe_sex && d.age === "Y_GE16"), (d) => d.region + d.date), {groupBy: "region", labels: region_labels, yTitle: "% da população", events: linked_events, lang})
+```
+
+*Gráfico: saúde autoavaliada, Portugal e UE, população com dezasseis ou mais anos (Eurostat, EU-SILC).*
+
+## Pergunta 7 — Fatores de risco
+
+Os dados de fatores de risco vêm do Inquérito Nacional de Saúde. O tabaco e o índice de massa
+corporal só existem para a vaga mais recente, e o álcool tem três vagas. Não há, nos dados
+carregados, comparação com a UE nem informação sobre atividade física.
+
+[Em 2025, 12,7% da população com quinze ou mais anos fumava diariamente]{.claim id="c114"}. Nos
+homens a proporção era de [17,3%]{.claim id="c115"} e nas mulheres de [8,4%]{.claim id="c116"}. O
+[Algarve (18,2%)]{.claim id="c117"} e os [Açores (18,1%)]{.claim id="c118"} tinham as proporções mais
+altas, e o [Centro (10,5%)]{.claim id="c119"} a mais baixa. Cerca de
+[61,9% da população nunca tinha fumado]{.claim id="c120"}.
+
+A obesidade abrangia [17,4% dos adultos em 2025]{.claim id="c121"}.
+
+Entre quem bebeu álcool nos doze meses anteriores, a proporção que teve pelo menos uma ocasião de
+seis ou mais bebidas subiu de [33,2% em 2014]{.claim id="c122"} para [42,8% em 2019]{.claim id="c123"}
+e ficou em [42,5% em 2025]{.claim id="c124"}. Nos jovens [dos 15 aos 24 anos passou de 45,7% em 2014]{.claim id="c125"}
+para [66,2% em 2025]{.claim id="c126"}. Com apenas três vagas não se faz teste de tendência.
+
+```{ojs}
+smk_data = FileAttachment("q07_daily_smokers_regions.json").json()
+```
+
+```{ojs}
+viewof smk_sex = Inputs.radio(new Map([["Total", "HM"], ["Homens", "H"], ["Mulheres", "M"]]), {value: "HM", label: "Sexo"})
+```
+
+```{ojs}
+ranking(Plotly, dedupe(smk_data.filter((d) => d.sex === smk_sex), (d) => d.region), {xTitle: "% de fumadores diários (quinze ou mais anos)", highlight: "Portugal", lang})
+```
+
+*Gráfico: fumadores diários por região e sexo (INE, Inquérito Nacional de Saúde).*
+
+```{ojs}
+tob_data = FileAttachment("q07_tobacco.json").json()
+```
+
+```{ojs}
+viewof tob_cat = Inputs.select(["Fumador diário", "Fumadores", "Ex-fumadores", "Nunca fumaram"], {label: "Condição"})
+```
+
+```{ojs}
+ranking(Plotly, dedupe(tob_data.filter((d) => d.region === "Portugal" && d.sex === "HM" && d.indicator === tob_cat && d.age !== "15+"), (d) => d.age).map((d) => ({...d, region: d.age})), {xTitle: "% da população do grupo etário", lang})
+```
+
+*Gráfico: condição perante o tabaco por grupo etário, Portugal (INE).*
+
+```{ojs}
+bmi_data = FileAttachment("q07_bmi.json").json()
+```
+
+```{ojs}
+viewof bmi_cat = Inputs.select(["Obesidade", "Excesso de peso - Grau II", "Excesso de peso - Grau I", "Peso Normal", "Baixo peso"], {label: "Classe de IMC"})
+```
+
+```{ojs}
+ranking(Plotly, dedupe(bmi_data.filter((d) => d.indicator === bmi_cat && d.sex === "HM" && d.age === "15+" && nuts_regions.includes(d.region)), (d) => d.region), {xTitle: "% da população adulta", highlight: "Portugal", lang})
+```
+
+*Gráfico: classes de índice de massa corporal por região (INE).*
+
+```{ojs}
+alc_data = FileAttachment("q07_alcohol.json").json()
+```
+
+```{ojs}
+viewof alc_sex = Inputs.radio(new Map([["Total", "HM"], ["Homens", "H"], ["Mulheres", "M"]]), {value: "HM", label: "Sexo"})
+```
+
+```{ojs}
+timeSeries(Plotly, alc_data.filter((d) => d.indicator === "binge_6plus_any" && d.sex === alc_sex && d.region === "Portugal"), {groupBy: "age", labels: {"15+": "Total (15+)"}, yTitle: "% dos que beberam álcool", events: linked_events, lang})
+```
+
+*Gráfico: ocasiões de seis ou mais bebidas entre quem bebeu álcool, por grupo etário (INE).*
+
+## Pergunta 8 — Saúde mental
+
+A série comparável mais longa é a do suicídio. A taxa era de
+[11,6 por cem mil habitantes em 2002]{.claim id="c127"}, chegou a [11,7 em 2014]{.claim id="c128"} e
+estava em [9,0 em 2024]{.claim id="c129"}; o teste [não encontra tendência clara]{.claim id="c130"}.
+Nos homens a taxa é mais de três vezes a das mulheres ([15,5]{.claim id="c131"} contra
+[4,4 em 2022]{.claim id="c132"}). Nas pessoas com setenta e cinco ou mais anos, a taxa desceu de
+[33,5 em 2002]{.claim id="c133"} para [20,0 em 2024]{.claim id="c134"}. A série nacional junta duas
+tabelas do INE (nomenclatura antiga até um ano, nova depois), e a junção pode afetar a
+comparabilidade.
+
+Nos sintomas depressivos, a proporção de pessoas sem sintomas desceu de
+[88,7% em 2014]{.claim id="c135"} para [83,5% em 2025]{.claim id="c136"}, e a proporção com sintomas
+graves passou de [3,7%]{.claim id="c137"} para [4,3%]{.claim id="c138"}. Com três vagas e métodos de
+inquérito diferentes, isto é uma indicação e não uma tendência demonstrada. O consumo de
+antidepressivos e os módulos de saúde mental do inquérito europeu não fizeram parte dos dados
+carregados.
+
+```{ojs}
+sui_data = FileAttachment("q08_suicide.json").json()
+```
+
+```{ojs}
+viewof sui_region = Inputs.select([...new Set(sui_data.map((d) => d.region))], {value: "Portugal", label: "Região"})
+```
+
+```{ojs}
+viewof sui_age = Inputs.select([...new Set(sui_data.map((d) => d.age))], {value: "all_ages", label: "Idade"})
+```
+
+```{ojs}
+timeSeries(Plotly, dedupe(sui_data.filter((d) => d.region === sui_region && d.age === sui_age), (d) => d.sex + d.date), {groupBy: "sex", labels: {HM: "Total", H: "Homens", M: "Mulheres"}, yTitle: "Suicídios por 100 000 hab.", events: linked_events, lang})
+```
+
+*Gráfico: taxa de mortalidade por suicídio, por região, sexo e idade (INE; "all_ages" = todas as idades).*
+
+```{ojs}
+dep_data = FileAttachment("q08_depressive_symptoms.json").json()
+```
+
+```{ojs}
+viewof dep_cat = Inputs.select(["Sem sintomas", "Sintomas ligeiros", "Sintomas graves"], {label: "Sintomas"})
+```
+
+```{ojs}
+timeSeries(Plotly, dep_data.filter((d) => d.indicator === dep_cat && d.age === "15+"), {groupBy: "sex", labels: {HM: "Total", H: "Homens", M: "Mulheres"}, yTitle: "% da população", events: linked_events, lang})
+```
+
+*Gráfico: sintomas depressivos na população com quinze ou mais anos, por sexo (INE).*
+
+## Pergunta 9 — Necessidades de cuidados não satisfeitas
+
+Consideram-se aqui as necessidades não satisfeitas por custo, distância ou lista de espera. Nos
+cuidados médicos, a proporção em Portugal passou de [1,1% em 2008]{.claim id="c139"} para
+[3,3% em 2012]{.claim id="c140"}, nos anos da crise, e estava em [2,5% em 2025]{.claim id="c141"},
+perto da média europeia ([2,4%]{.claim id="c142"}). Na série completa
+[não há tendência clara]{.claim id="c154"}.
+
+Nos cuidados dentários, o problema é maior: [7,3% em 2008]{.claim id="c143"}, um máximo de
+[14,6% em 2015]{.claim id="c144"} e [7,9% em 2025]{.claim id="c145"}, contra
+[3,3% na UE]{.claim id="c146"}. Também aqui [não há tendência clara na série completa]{.claim id="c155"}.
+
+A desigualdade por rendimento é muito marcada. No quintil de rendimento mais baixo, as necessidades
+dentárias não satisfeitas chegaram a [27,6% em 2015]{.claim id="c147"} e estavam em
+[16,9% em 2025]{.claim id="c148"}, contra [1,6% no quintil mais alto]{.claim id="c149"}. Nos cuidados
+médicos, eram [4,2% no quintil mais baixo]{.claim id="c150"} e [1,0% no mais alto em 2025]{.claim id="c151"}.
+Entre quem está abaixo do limiar de risco de pobreza a proporção total era de
+[7,5%]{.claim id="c152"}, contra [3,3% acima do limiar]{.claim id="c153"}.
+
+```{ojs}
+um_data = FileAttachment("q09_unmet_medical.json").json()
+```
+
+```{ojs}
+ud_data = FileAttachment("q09_unmet_dental.json").json()
+```
+
+```{ojs}
+viewof un_kind = Inputs.radio(new Map([["Médicos", "medical"], ["Dentários", "dental"]]), {value: "medical", label: "Cuidados"})
+```
+
+```{ojs}
+viewof un_reason = Inputs.select(new Map([["Custo, distância ou espera", "TXP_TFAR_WLIST"], ["Custo", "TXP"], ["Distância", "TFAR"], ["Lista de espera", "WLIST"]]), {label: "Motivo"})
+```
+
+```{ojs}
+viewof un_quint = Inputs.select(new Map([["Todos", "TOTAL"], ["1.º quintil (mais pobre)", "QU1"], ["2.º quintil", "QU2"], ["3.º quintil", "QU3"], ["4.º quintil", "QU4"], ["5.º quintil (mais rico)", "QU5"]]), {label: "Rendimento"})
+```
+
+```{ojs}
+timeSeries(Plotly, (un_kind === "medical" ? um_data : ud_data).filter((d) => d.indicator === `${un_kind}|${un_reason}|${un_quint}` && d.sex === "T" && d.age === "Y_GE16"), {groupBy: "region", labels: region_labels, yTitle: "% da população com dezasseis ou mais anos", events: linked_events, lang})
+```
+
+*Gráfico: necessidades de cuidados médicos e dentários não satisfeitas, por motivo e quintil de rendimento (Eurostat, EU-SILC).*
+
+```{ojs}
+upov_data = FileAttachment("q09_unmet_poverty.json").json()
+```
+
+```{ojs}
+viewof upov_region = Inputs.radio(new Map([["Portugal", "Portugal"], ["UE-27", "European Union (27)"]]), {value: "Portugal", label: "Território"})
+```
+
+```{ojs}
+timeSeries(Plotly, upov_data.filter((d) => d.region === upov_region && d.sex === "T" && d.age === "Y_GE16"), {groupBy: "indicator", labels: {"unmet_needs|A_60": "Acima do limiar de pobreza", "unmet_needs|B_60": "Abaixo do limiar de pobreza", "unmet_needs|TOTAL": "Total"}, yTitle: "% da população com dezasseis ou mais anos", events: linked_events, lang})
+```
+
+*Gráfico: necessidades não satisfeitas por limiar de risco de pobreza (Eurostat, EU-SILC).*
+
+## Pergunta 10 — Despesa e recursos do sistema de saúde
+
+A despesa corrente em saúde subiu de [8,62% do PIB em 2000]{.claim id="c156"} para um máximo de
+[11,22% em 2021]{.claim id="c157"} e estava em [10,20% em 2024]{.claim id="c158"}, ao nível da UE
+([10,16%]{.claim id="c159"}). Por habitante, em paridades de poder de compra, Portugal gastava
+[3247,42 em 2024]{.claim id="c160"}, contra [4074,88 na UE]{.claim id="c161"}.
+
+A estrutura do financiamento distingue Portugal. Os pagamentos diretos das famílias representavam
+[28,67% da despesa corrente em 2024]{.claim id="c162"}, quase o dobro da UE
+([15,06%]{.claim id="c163"}), e o seu peso tem [tendência crescente de cerca de 0,23 pontos percentuais por ano]{.claim id="c166"}.
+O financiamento público e obrigatório cobria [61,88%]{.claim id="c164"}, contra
+[80,33% na UE]{.claim id="c165"}.
+
+O número de médicos com licença para exercer passou de
+[75,65 por cem mil habitantes em 1960]{.claim id="c167"} para [591,35 em 2024]{.claim id="c168"}. Este
+conceito inclui médicos que não exercem e sobrestima os médicos ativos. Os enfermeiros em exercício
+passaram de [422,29 em 2004]{.claim id="c169"} para [767,54 em 2024]{.claim id="c170"}. As duas
+séries têm saltos que sugerem mudanças de definição ([ver Limitações]{.claim id="c205"}).
+
+As camas hospitalares desceram de [395,92 por cem mil em 1985]{.claim id="c171"} para
+[330,98 em 2024]{.claim id="c172"}, bem abaixo da média europeia ([507,35]{.claim id="c173"}).
+Entre regiões as diferenças são grandes. No último ano disponível, o Norte tinha
+[561,01 médicos por cem mil]{.claim id="c174"} e o Alentejo [322,33]{.claim id="c175"}; a Madeira tinha
+[793,69 camas por cem mil]{.claim id="c176"} e o Alentejo [213,18]{.claim id="c177"}.
+
+```{ojs}
+he_data = FileAttachment("q10_health_expenditure.json").json()
+```
+
+```{ojs}
+viewof he_key = Inputs.select(new Map([["Despesa total, % do PIB", "total|PC_GDP"], ["Despesa total, PPC por habitante", "total|PPS_HAB"], ["Pagamentos diretos das famílias, % da despesa", "household_out_of_pocket|PC_CHE"], ["Regimes públicos e obrigatórios, % da despesa", "government_compulsory|PC_CHE"], ["Regimes voluntários, % da despesa", "voluntary_schemes|PC_CHE"]]), {label: "Indicador"})
+```
+
+```{ojs}
+timeSeries(Plotly, he_data.filter((d) => `${d.indicator}|${d.unit}` === he_key), {groupBy: "region", labels: region_labels, yTitle: he_key.endsWith("PC_GDP") ? "% do PIB" : he_key.endsWith("PPS_HAB") ? "PPC por habitante" : "% da despesa corrente em saúde", events: linked_events, lang})
+```
+
+*Gráfico: despesa corrente em saúde e estrutura de financiamento, Portugal e UE (Eurostat).*
+
+```{ojs}
+hf_data = FileAttachment("q10_expenditure_by_function.json").json()
+```
+
+```{ojs}
+viewof hf_region = Inputs.radio(new Map([["Portugal", "Portugal"], ["UE-27", "European Union (27)"]]), {value: "Portugal", label: "Território"})
+```
+
+```{ojs}
+timeSeries(Plotly, hf_data.filter((d) => d.region === hf_region && d.indicator !== "TOT_HC"), {groupBy: "indicator", labels: {HC1: "Cuidados curativos", HC2: "Reabilitação", HC3: "Cuidados continuados", HC4: "Serviços auxiliares", HC5: "Bens médicos", HC6: "Prevenção", HC7: "Governação e administração"}, yTitle: "% da despesa corrente em saúde", events: linked_events, lang})
+```
+
+*Gráfico: despesa corrente em saúde por função de cuidados (Eurostat).*
+
+```{ojs}
+hp_data = FileAttachment("q10_health_personnel.json").json()
+```
+
+```{ojs}
+timeSeries(Plotly, hp_data, {groupBy: "indicator", labels: {physicians_licensed: "Médicos (licenciados para exercer)", nurses_active: "Enfermeiros (em exercício)", dentists_licensed: "Dentistas (licenciados)", pharmacists_active: "Farmacêuticos (em exercício)"}, yTitle: "Profissionais por 100 000 hab.", events: linked_events, lang})
+```
+
+*Gráfico: médicos, enfermeiros, dentistas e farmacêuticos, Portugal (Eurostat).*
+
+```{ojs}
+hb_data = FileAttachment("q10_hospital_beds.json").json()
+```
+
+```{ojs}
+timeSeries(Plotly, hb_data, {groupBy: "region", labels: region_labels, yTitle: "Camas por 100 000 hab.", events: linked_events, lang})
+```
+
+*Gráfico: camas hospitalares, Portugal e UE (Eurostat).*
+
+```{ojs}
+rr_data = FileAttachment("q10_resources_regions.json").json()
+```
+
+```{ojs}
+viewof rr_ind = Inputs.radio(new Map([["Médicos", "physicians"], ["Camas hospitalares", "hospital_beds_total"]]), {value: "physicians", label: "Indicador"})
+```
+
+```{ojs}
+timeSeries(Plotly, rr_data.filter((d) => d.indicator === rr_ind), {groupBy: "region", labels: region_labels, yTitle: "Por 100 000 hab.", events: linked_events, lang})
+```
+
+*Gráfico: camas hospitalares e médicos por região NUTS II (Eurostat).*
+
+## Quebras e eventos
+
+A deteção automática procurou mudanças de nível, de declive e picos isolados nas séries principais.
+Encontrou [51 quebras candidatas, das quais 18 foram ligadas a um evento datado, todas com grau C, e 33 ficaram sem evento]{.claim id="c202"}.
+Nenhuma fonte consultada estabelece que um destes eventos tenha causado uma mudança nas séries, por
+isso o texto fala apenas de coincidência temporal.
+
+### Eventos considerados
+
+- [A Lei n.º 56/79 criou o Serviço Nacional de Saúde em 1979]{.claim id="c178"}.
+- [O Memorando de Entendimento com a Comissão Europeia, o BCE e o FMI vigorou de maio de 2011 a maio de 2014 e incluía medidas de contenção da despesa em saúde]{.claim id="c179"}.
+- [A Portaria n.º 306-A/2011 fixou novos valores das taxas moderadoras a partir de 2012]{.claim id="c182"}.
+- [A Lei n.º 37/2007 proibiu fumar em locais de trabalho e espaços públicos fechados a partir de 2008]{.claim id="c181"}.
+- [Entre 2016 e 2018 foi alargado o Programa Nacional de Promoção da Saúde Oral, com o cheque-dentista]{.claim id="c183"}.
+- [A Organização Mundial da Saúde declarou a pandemia de COVID-19 a 11 de março de 2020]{.claim id="c180"}.
+- [O inverno de 2014/2015 teve uma época gripal grave na Europa, com excesso de mortalidade em idosos]{.claim id="c184"}.
+
+### Ligações encontradas (todas de grau C)
+
+- [A quebra de nível de 1980 na esperança de vida à nascença, total e masculina, coincidiu com a criação do SNS]{.claim id="c185"}.
+  Nenhuma fonte consultada estabelece a relação.
+- [A descida de nível de 1980 na mortalidade neonatal coincidiu com a criação do SNS]{.claim id="c186"}.
+- [A mudança de 2012 na diferença de esperança de vida face à UE coincidiu com o primeiro ano completo do programa de ajustamento]{.claim id="c187"}.
+- [O pico de 2011 na proporção de pessoas com saúde má ou muito má, e na diferença face à UE, coincidiu com o início do programa de ajustamento]{.claim id="c193"}.
+- [O pico de 2012 na diferença das necessidades dentárias não satisfeitas face à UE coincidiu com o programa de ajustamento]{.claim id="c196"}
+  e [coincidiu também com a aplicação dos novos valores das taxas moderadoras]{.claim id="c197"}.
+- [A mudança de 2015 nas necessidades médicas não satisfeitas face à UE, um ano depois do fim do programa, coincidiu com o período pós-programa]{.claim id="c199"}.
+- [A quebra de 2007 na mortalidade prematura coincidiu com a aprovação da lei do tabaco]{.claim id="c191"},
+  que só entrou em vigor no ano seguinte.
+- [A descida de 2018 nas necessidades dentárias não satisfeitas coincidiu com o alargamento do programa de saúde oral]{.claim id="c195"};
+  a fonte descreve a medida, mas não mede o seu efeito.
+- [A descida de 2021 na mortalidade padronizada por doenças circulatórias coincidiu com a pandemia]{.claim id="c188"},
+  mas a sua dimensão sugere uma alteração de método.
+- [A descida de 2021 na mortalidade por doenças respiratórias coincidiu com a pandemia]{.claim id="c189"};
+  a COVID é codificada como causa à parte.
+- [A mudança de declive de 2021 na mortalidade prevenível coincidiu com a pandemia]{.claim id="c190"}.
+- [O valor invulgarmente baixo de 2020 na mortalidade prematura coincidiu com o primeiro ano da pandemia]{.claim id="c192"}.
+- [A mudança de 2020 na diferença de saúde má ou muito má face à UE coincidiu com o primeiro ano da pandemia]{.claim id="c194"}.
+- [A mudança de 2020 na diferença das necessidades dentárias face à UE coincidiu com a pandemia]{.claim id="c198"}.
+- [A subida de 2020 da despesa em saúde em percentagem do PIB coincidiu com a pandemia]{.claim id="c200"};
+  nesse ano o PIB, que é o denominador, também caiu.
+- [A descida pontual de 2020 no peso dos pagamentos diretos coincidiu com a pandemia]{.claim id="c201"}.
+
+### Quebras sem evento e eventos sem efeito
+
+Estes casos são resultados da análise, não falhas. [Ficaram sem evento identificado, entre outras, as quebras de 1972, 1975 e 2005 na esperança de vida, de 1961 e 1975 na mortalidade infantil, de 1985 na perinatal, de 2016 nas causas externas e na mortalidade tratável, de 2000 nas camas hospitalares e de 2010 nos pagamentos diretos]{.claim id="c208"}.
+Em vários casos a explicação mais provável é técnica e não um acontecimento:
+
+- [A descida simultânea de 2021 em todas as taxas padronizadas do Eurostat sugere uma alteração de método ou de população-padrão]{.claim id="c203"}, não confirmada em fonte.
+- [Os saltos de 2014 e 2019 na doença crónica e na saúde autoavaliada coincidem com novas vagas do inquérito europeu de saúde e são provavelmente quebras de série]{.claim id="c204"}.
+- [Os saltos de 2010 nos médicos e de 2014 nos enfermeiros têm uma dimensão que sugere mudanças de definição]{.claim id="c205"}.
+- [O vale de 2014 nos anos de vida saudável pode ser um artefacto do inquérito]{.claim id="c206"}.
+
+[A época gripal grave de 2014/2015 não coincide com nenhuma quebra de esperança de vida nas séries analisadas e ficou registada como evento sem efeito visível]{.claim id="c207"}.
+
+## Associações entre indicadores
+
+Testaram-se correlações de Spearman entre as variações anuais de pares de séries nacionais de
+gráficos diferentes, com correção de Benjamini-Hochberg para testes múltiplos. Usar diferenças anuais
+evita que duas séries pareçam associadas só por ambas subirem ao longo do tempo.
+[Foram testados 45 pares e nenhum se manteve significativo após a correção]{.claim id="c209"}. Isto
+é um resultado: não há, nestes dados, associações robustas entre indicadores. Mesmo que houvesse,
+seriam associações e não causas, e algumas poderiam ser mecânicas, por exemplo entre uma parte e o
+seu total.
+
+## Metodologia
+
+- **Dados.** Todas as séries vêm de tabelas do INE e do Eurostat, descarregadas por código e
+  normalizadas para um formato longo (data, região, sexo, idade, indicador, valor, unidade) em
+  `data/clean/`. As proporções do Inquérito Nacional de Saúde (tabaco, índice de massa corporal,
+  álcool, sintomas depressivos) foram calculadas como contagem da categoria a dividir pelo total da
+  mesma tabela.
+- **Tendências.** O declive anual é estimado com o estimador de Theil-Sen, que é robusto a valores
+  extremos. A significância é testada com Mann-Kendall e corrigida para testes múltiplos. O texto só
+  diz "tendência crescente" ou "decrescente" quando o teste a confirma; caso contrário diz "sem
+  tendência clara".
+- **Quebras.** As mudanças de nível e de declive foram detetadas com o algoritmo PELT, e os picos
+  isolados com um z-score robusto. Para cada quebra procurou-se um evento datado com fonte primária
+  dentro de uma janela plausível. O grau de evidência (A, B ou C) define a linguagem usada.
+- **Comparação com a UE.** Usa-se o agregado dos vinte e sete Estados-Membros do Eurostat sempre que existe nos dados
+  carregados.
+- **Regiões.** As séries regionais usam a nomenclatura NUTS em que a fonte as publica. A nova
+  nomenclatura divide a antiga Área Metropolitana de Lisboa e redesenha o Centro e o Alentejo, pelo
+  que as séries das duas nomenclaturas aparecem em gráficos separados.
+
+## Limitações
+
+- **Excesso de mortalidade não coberto.** Por decisão registada no estudo,
+  [o excesso de mortalidade semanal não foi coberto]{.claim id="c094"}: a fonte de mortalidade semanal
+  [excedeu o tempo limite do teste]{.claim id="c092"} e a de excesso de mortalidade mensal
+  [devolveu um erro do servidor]{.claim id="c093"}. A Pergunta 5 fica sem resposta.
+- **Quebra de método num ano recente.** As taxas padronizadas do Eurostat por causa caem todas ao mesmo
+  tempo nesse ano, o que é incompatível com o efeito da pandemia e sugere uma mudança de método
+  ([ver Quebras e eventos]{.claim id="c203"}). As variações entre o início da série e esse ano
+  devem ser lidas com cautela.
+- **Fontes nacionais e europeias não se comparam diretamente.** As taxas padronizadas do INE e do
+  Eurostat usam populações-padrão diferentes.
+- **Inquéritos com quebras de série.** A doença crónica, a saúde autoavaliada e os anos de vida
+  saudável dependem de inquéritos com mudanças de método ([ver Quebras e eventos]{.claim id="c204"}).
+  Os indicadores do Inquérito Nacional de Saúde têm poucas vagas (tabaco e índice de massa corporal
+  só uma), o que impede testes de tendência e comparação com a UE.
+- **Pessoal de saúde.** Os médicos são contados como "licenciados para exercer", o que sobrestima os
+  médicos ativos, e as séries têm saltos que parecem definicionais
+  ([ver Quebras e eventos]{.claim id="c205"}).
+- **Âmbito não coberto.** Não foram carregados dados sobre consumo de antidepressivos, módulos de
+  saúde mental do inquérito europeu, atividade física, esperança de vida por escolaridade nem a
+  posição de Portugal entre os Estados-Membros (só o agregado da UE). As desigualdades
+  socioeconómicas só foram analisadas pelo rendimento, nas necessidades não satisfeitas.
+- **Série do suicídio emendada.** A série nacional junta duas tabelas do INE com nomenclaturas
+  regionais diferentes.
+- **Valores provisórios.** Os anos mais recentes de várias séries do Eurostat podem ser revistos.
+
+## Fontes
+
+- [Eurostat — Life expectancy by age and sex (demo_mlexpec).]{.claim id="c001"}
+- [Eurostat — Healthy life years (hlth_hlye).]{.claim id="c025"}
+- [Eurostat — Causes of death, standardised death rate (hlth_cd_asdr2).]{.claim id="c040"}
+- [Eurostat — Preventable and treatable mortality (hlth_cd_apr).]{.claim id="c073"}
+- [Eurostat — Infant mortality rates (demo_minfind).]{.claim id="c082"}
+- [Eurostat — Self-perceived health (hlth_silc_01).]{.claim id="c108"}
+- [Eurostat — Self-reported unmet needs for medical examination (hlth_silc_08).]{.claim id="c139"}
+- [Eurostat — Self-reported unmet needs for dental examination (hlth_silc_09).]{.claim id="c143"}
+- [Eurostat — Unmet needs by poverty status (hlth_silc_08b).]{.claim id="c152"}
+- [Eurostat — Health care expenditure by financing scheme (hlth_sha11_hf).]{.claim id="c156"}
+- [Eurostat — Health personnel (hlth_rs_prs2).]{.claim id="c167"}
+- [Eurostat — Hospital beds by type of care (hlth_rs_bds1).]{.claim id="c171"}
+- [Eurostat — Health personnel by NUTS 2 regions (hlth_rs_prsrg).]{.claim id="c174"}
+- [Eurostat — Hospital beds by NUTS 2 regions (hlth_rs_bdsrg).]{.claim id="c176"}
+- [INE — Esperança de vida à nascença por local de residência (indicador 0008459).]{.claim id="c019"}
+- [INE — Taxa de mortalidade padronizada por causa de morte (indicador 0014684).]{.claim id="c060"}
+- [INE — Taxa de mortalidade padronizada antes dos 75 anos (indicador 0014727).]{.claim id="c070"}
+- [INE — Taxa de mortalidade prematura (indicador 0009100).]{.claim id="c064"}
+- [INE — Taxa quinquenal de mortalidade infantil (indicador 0013578).]{.claim id="c089"}
+- [INE — Doença crónica ou problema de saúde prolongado (indicadores 0008044 e 0014713).]{.claim id="c095"}
+- [INE — Autoapreciação do estado de saúde (indicador 0008043).]{.claim id="c101"}
+- [INE — Inquérito Nacional de Saúde: tabaco (0014788, 0014778), índice de massa corporal (0014775), álcool (0008704), sintomas depressivos (0008708).]{.claim id="c114"}
+- [INE — Mortalidade por suicídio (indicadores 0003736 e 0014469).]{.claim id="c127"}
+- [Diário da República — Lei n.º 56/79.]{.claim id="c178"}
+- [Banco de Portugal — Memorando de Entendimento.]{.claim id="c179"}
+- [Diário da República — Portaria n.º 306-A/2011.]{.claim id="c182"}
+- [Diário da República — Lei n.º 37/2007, republicada pela Lei n.º 63/2017.]{.claim id="c181"}
+- [Diário da República — Programa Nacional de Promoção da Saúde Oral.]{.claim id="c183"}
+- [Organização Mundial da Saúde — declaração da pandemia, 11 de março de 2020.]{.claim id="c180"}
+- [Eurosurveillance (ECDC) — excesso de mortalidade na época gripal 2014/2015.]{.claim id="c184"}

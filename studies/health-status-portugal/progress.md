@@ -14,3 +14,6 @@ Três unidades (`ine-life-mortality`, `ine-health`, `eurostat-access`) registada
 
 ## Fase 5 (eventos)
 `event_links.csv` com 53 linhas (20 `linked`, todas grau C; 32 `break_without_event`; 1 `event_without_effect`) e 5 eventos novos em `events/events.csv`, todos `verified = no` (páginas do Diário da República não carregaram; o verifier/fase 7 deve confirmá-los). Nenhum grau A ou B: nenhuma fonte encontrada afirma o efeito. Várias quebras (2021 em `ilm08`, 2014/2019 em morbilidade, médicos/enfermeiros, camas) parecem artefactos de método, não confirmado. `complete-phase 5` passou.
+
+## Fase 6 (redação)
+`report.pt.qmd` (209 afirmações em `claims.csv`) e `report.en.qmd` escritos; `complete-phase 6` passou à primeira tentativa. Todas as ligações a eventos em grau C ("coincidiu com"). Limitação declarada: excesso de mortalidade semanal não coberto (decisão do utilizador). Para a fase 7: filtros de séries do `summary.md` apontam por vezes para ficheiros `clean` errados (o writer usou os scripts de análise); rótulos do Inquérito Nacional de Saúde deduzidos; excertos de eventos e Eurostat não confirmados online; a EN tem 215 marcas contra 209 ids (ids repetidos, a confirmar na verificação).

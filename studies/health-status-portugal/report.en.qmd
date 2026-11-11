@@ -1,0 +1,859 @@
+---
+title: "Health status in Portugal"
+subtitle: "How long and how well people live, what they die of, which risk factors weigh most, and how access and resources have changed"
+lang: en
+---
+
+::: {.callout-note}
+This report uses only official INE and Eurostat data stored in the repository. Every number,
+fact, event or link is marked in the text and has a row in `claims.csv`, with the source, the
+access date and a short excerpt. All links between changes in the series and events are grade C:
+they indicate coincidence in time, never cause.
+:::
+
+```{ojs}
+Plotly = require("plotly.js-dist-min@2.35.2")
+```
+
+```{ojs}
+import {timeSeries, ranking} from "../../assets/charts.js"
+```
+
+```{ojs}
+lang = "en"
+```
+
+```{ojs}
+linked_events = FileAttachment("linked_events.json").json()
+```
+
+```{ojs}
+nuts_regions = ["Portugal", "Norte", "Centro", "Grande Lisboa", "Península de Setúbal", "Oeste e Vale do Tejo", "Alentejo", "Algarve", "Região Autónoma dos Açores", "Região Autónoma da Madeira"]
+```
+
+```{ojs}
+dedupe = (rows, key) => { const seen = new Set(); return rows.filter((r) => { const k = key(r); if (seen.has(k)) return false; seen.add(k); return true; }); }
+```
+
+```{ojs}
+region_labels = ({"European Union (27)": "EU-27", "Região Autónoma dos Açores": "Azores", "Região Autónoma da Madeira": "Madeira", "Área Metropolitana de Lisboa": "Lisbon MA"})
+```
+
+## Summary
+
+People in Portugal now live longer than at any point in the series: life expectancy at birth rose
+from [64.0 years in 1960]{.claim id="c001"} to [82.5 years in 2024]{.claim id="c002"},
+[one year above the EU average in 2024]{.claim id="c006"}. The share of that life spent without
+limitations also grew: healthy life years at birth rose from [53.9 in 2004]{.claim id="c025"} to
+[64.8 in 2024]{.claim id="c026"}, and the gap with the EU narrowed from [9.0 years]{.claim id="c029"}
+to [0.4 years]{.claim id="c030"}.
+
+Age-standardised mortality from diseases of the circulatory system fell from
+[321.67 deaths per hundred thousand inhabitants in 2011]{.claim id="c040"} to [220.81 in 2023]{.claim id="c041"},
+and infant mortality fell from [77.5 per thousand live births in 1960]{.claim id="c082"} to
+[3.0 in 2024]{.claim id="c083"}. Mortality from respiratory diseases remains above the European
+average ([95.48 against 75.18 per hundred thousand in 2023]{.claim id="c046"}).
+
+There are also less favourable signs. The share of people reporting a chronic condition rose from
+[32.1% in 2004]{.claim id="c095"} to [44.1% in 2025]{.claim id="c096"}, partly because of changes in
+the survey. Unmet needs for dental care ([7.9% in 2025]{.claim id="c145"}) are more than double the
+EU level ([3.3%]{.claim id="c146"}). Household out-of-pocket payments account for
+[28.67% of current health expenditure in 2024]{.claim id="c162"}, against
+[15.06% in the EU]{.claim id="c163"}.
+
+Automatic detection found [51 candidate breaks in the series, of which 18 were linked to a dated event, all grade C, and 33 were left without an event]{.claim id="c202"}.
+None of the exploratory associations between indicators survived correction for multiple testing
+([see Associations between indicators]{.claim id="c209"}). Weekly excess mortality during the pandemic was not covered for
+lack of a tested source ([see Question 5]{.claim id="c094"}).
+
+## Question 1 — Life expectancy at birth and at 65
+
+Life expectancy at birth in Portugal grew almost continuously from
+[1960, when it was 64.0 years]{.claim id="c001"}, to [2024, at 82.5 years]{.claim id="c002"}. The
+robust trend estimate points to [an increase of about 0.30 years per calendar year, an increasing trend (Theil-Sen, Mann-Kendall)]{.claim id="c017"}.
+The EU average, available since the start of the century, rose more slowly:
+[about 0.16 years per year, also an increasing trend]{.claim id="c018"}.
+
+Portugal moved from slightly below the European average, with [77.4 years in 2002]{.claim id="c004"}
+against [77.6 years in the EU]{.claim id="c003"}, to above it: [82.5 years]{.claim id="c002"} against
+[81.5 years in the EU in 2024]{.claim id="c005"}, [a difference of 1.0 year in Portugal's favour]{.claim id="c006"}.
+
+Women live longer than men. At the start of the series, life expectancy at birth was
+[66.7 years for women in 1960]{.claim id="c009"} and [61.1 years for men]{.claim id="c010"};
+at the end it was [85.2 years for women in 2024]{.claim id="c007"} and [79.7 years for men]{.claim id="c008"}.
+
+[At age 65, life expectancy rose from 13.6 years in 1960]{.claim id="c011"} to
+[21.1 years in 2024]{.claim id="c012"}, above the European average ([20.2 years in 2024]{.claim id="c013"}).
+
+In the first years of the pandemic the series fell back: from [82.0 years in 2019]{.claim id="c014"} to
+[81.4 years in 2020]{.claim id="c015"} and [81.4 years in 2021]{.claim id="c016"}. The break detector
+did not classify this dip as a level break, and the study does not attribute a cause to it.
+
+```{ojs}
+le_data = FileAttachment("q01_life_expectancy.json").json()
+```
+
+```{ojs}
+viewof le_sex = Inputs.radio(new Map([["Total", "T"], ["Women", "F"], ["Men", "M"]]), {value: "T", label: "Sex"})
+```
+
+```{ojs}
+viewof le_age = Inputs.radio(new Map([["At birth", "0"], ["At 65", "65"]]), {value: "0", label: "Age"})
+```
+
+```{ojs}
+timeSeries(Plotly, le_data.filter((d) => d.sex === le_sex && String(d.age) === le_age), {groupBy: "region", labels: region_labels, yTitle: "Life expectancy (years)", events: linked_events, lang})
+```
+
+*Chart: life expectancy at birth and at sixty-five, Portugal and EU (Eurostat).*
+
+### Regional differences
+
+INE regional data are computed over three-year periods, and each point corresponds to the period
+starting in the year shown. In the most recent period in the series, life expectancy at birth
+ranged from [78.04 years in the Autonomous Region of the Azores]{.claim id="c020"} to
+[81.53 years in the Norte]{.claim id="c019"}, with [Madeira at 78.77 years]{.claim id="c022"}. The
+autonomous regions remain at the bottom of the table but are rising the fastest: the Azores started
+from [75.86 years in the period beginning in 2008]{.claim id="c021"}, with
+[an increasing trend of about 0.21 years per year]{.claim id="c023"}. In the Algarve the series
+[shows no clear trend]{.claim id="c024"}.
+
+```{ojs}
+ler_data = FileAttachment("q01_life_expectancy_regions.json").json()
+```
+
+```{ojs}
+timeSeries(Plotly, ler_data, {groupBy: "region", labels: region_labels, yTitle: "Life expectancy at birth (years)", events: linked_events, lang})
+```
+
+*Chart: life expectancy at birth by NUTS II region (former nomenclature), three-year periods, INE.*
+
+## Question 2 — Healthy life years
+
+Healthy life years (years without activity limitation reported in the EU-SILC survey) in Portugal
+grew from [53.9 years at birth in 2004]{.claim id="c025"} to
+[64.8 years in 2024]{.claim id="c026"}. In the EU they went from [62.9]{.claim id="c027"} to
+[65.2 years]{.claim id="c028"} over the same period. The gap with the EU narrowed from
+[9.0 years in 2004]{.claim id="c029"} to [0.4 years in 2024]{.claim id="c030"}.
+
+The Portuguese series is, however, very irregular. The trend test
+[finds no clear trend (estimated slope of about 0.12 years per year, not significant after correction)]{.claim id="c036"},
+largely because of an isolated trough in the middle of the last decade, which may be a survey
+artefact ([see Breaks and events]{.claim id="c206"}).
+
+[At 65, healthy life years rose from 4.4 in 2004]{.claim id="c031"} to
+[9.8 in 2024]{.claim id="c032"}, [with an increasing trend]{.claim id="c037"}, now close to the European
+average ([10.3 years in 2024]{.claim id="c033"}). The share of healthy years in total life
+expectancy rose from [68.7% in 2004]{.claim id="c034"} to [78.6% in 2024]{.claim id="c035"}.
+
+Although they live longer, women do not live more years without limitations. In the latest year
+the estimate was [63.9 healthy life years for women in 2024]{.claim id="c038"} and
+[65.8 years for men]{.claim id="c039"}, which means women spend more years with limitations.
+
+```{ojs}
+hly_data = FileAttachment("q02_healthy_life_years.json").json()
+```
+
+```{ojs}
+viewof hly_ind = Inputs.select(new Map([["Healthy life years at birth", "healthy_life_years|hlth_hle=HLY_Y0"], ["Healthy life years at 65", "healthy_life_years|hlth_hle=HLY_Y65"], ["Share of life expectancy at birth (%)", "healthy_life_years|hlth_hle=HLY_LE_Y0_PC"], ["Share of life expectancy at 65 (%)", "healthy_life_years|hlth_hle=HLY_LE_Y65_PC"]]), {label: "Indicator"})
+```
+
+```{ojs}
+viewof hly_sex = Inputs.radio(new Map([["Total", "T"], ["Women", "F"], ["Men", "M"]]), {value: "T", label: "Sex"})
+```
+
+```{ojs}
+timeSeries(Plotly, hly_data.filter((d) => d.indicator === hly_ind && d.sex === hly_sex), {groupBy: "region", labels: region_labels, yTitle: hly_ind.endsWith("_PC") ? "% of life expectancy" : "Years", events: linked_events, lang})
+```
+
+*Chart: healthy life years and share of life expectancy, Portugal and EU (Eurostat).*
+
+## Question 3 — Causes of death
+
+Eurostat's age-standardised rates allow Portugal to be compared with the EU. Mortality from
+diseases of the circulatory system fell from [321.67 per hundred thousand in 2011]{.claim id="c040"}
+to [220.81 in 2023]{.claim id="c041"}, with
+[a decreasing trend of about 7.2 deaths per hundred thousand per year]{.claim id="c055"}. It stayed
+well below the European average ([312.95 in 2023]{.claim id="c042"}).
+
+For malignant neoplasms, the rate went from [246.73 in 2011]{.claim id="c043"} to
+[218.22 in 2023]{.claim id="c044"}, with
+[a decreasing trend of about 1.4 deaths per hundred thousand per year]{.claim id="c056"}, below the EU
+([233.13]{.claim id="c045"}). Diabetes nearly halved, from
+[44.60 in 2011]{.claim id="c048"} to [23.71 in 2023]{.claim id="c049"}, practically at the European
+level ([23.53]{.claim id="c050"}).
+
+Respiratory diseases are the main exception: [95.48 per hundred thousand in Portugal]{.claim id="c046"}
+against [75.18 in the EU in 2023]{.claim id="c047"}. External causes (accidents, falls, suicide,
+among others) [show no clear trend]{.claim id="c057"} and stood at
+[45.24 per hundred thousand]{.claim id="c051"}, against [49.40 in the EU]{.claim id="c052"}. Taking all
+causes together, Portugal recorded [885.63 deaths per hundred thousand in 2023]{.claim id="c053"}, below the EU
+([963.42]{.claim id="c054"}).
+
+All these series show a simultaneous and unusually sharp drop in the same recent year, which
+probably reflects a change of method rather than a real change
+([see Limitations]{.claim id="c203"}).
+
+```{ojs}
+cpe_data = FileAttachment("q03_causes_pt_eu.json").json()
+```
+
+```{ojs}
+viewof cpe_cause = Inputs.select(new Map([["All causes", "all_causes"], ["Circulatory system", "circulatory"], ["Malignant neoplasms", "cancer_C00_C97"], ["Respiratory system", "respiratory"], ["Diabetes", "diabetes"], ["External causes", "external_causes"]]), {label: "Cause"})
+```
+
+```{ojs}
+viewof cpe_sex = Inputs.radio(new Map([["Total", "T"], ["Women", "F"], ["Men", "M"]]), {value: "T", label: "Sex"})
+```
+
+```{ojs}
+timeSeries(Plotly, cpe_data.filter((d) => d.indicator === cpe_cause && d.sex === cpe_sex), {groupBy: "region", labels: region_labels, yTitle: "Deaths per 100,000 inhabitants (standardised rate)", events: linked_events, lang})
+```
+
+*Chart: standardised death rate by cause, Portugal and EU (Eurostat).*
+
+### Regional differences
+
+INE data under the new regional nomenclature use a different standard population from Eurostat's,
+so the levels cannot be compared with those in the previous chart. In this series, Portugal had
+[863.9 deaths per hundred thousand in 2024 (all causes)]{.claim id="c060"}. The Autonomous Region of
+the Azores stands out with [1161.9]{.claim id="c058"}, followed by the [Alentejo with 1011.6]{.claim id="c063"}.
+Grande Lisboa had the lowest rate ([820.3]{.claim id="c059"}). For diseases of the circulatory system,
+the Azores ([266.9 per hundred thousand]{.claim id="c061"}) almost doubled the Norte
+([154.9]{.claim id="c062"}).
+
+```{ojs}
+creg_data = FileAttachment("q03_causes_regions.json").json()
+```
+
+```{ojs}
+viewof creg_cause = Inputs.select(new Map([["Circulatory system", "circulatory"], ["Malignant neoplasms", "cancer_C00_C97"], ["Respiratory system", "respiratory"], ["Diabetes", "diabetes"], ["External causes", "external_causes"], ["All causes", "all_causes"]]), {label: "Cause"})
+```
+
+```{ojs}
+timeSeries(Plotly, creg_data.filter((d) => d.indicator === creg_cause && d.sex === "T"), {groupBy: "region", labels: region_labels, yTitle: "Deaths per 100,000 inhabitants (standardised rate)", events: linked_events, lang})
+```
+
+*Chart: standardised mortality by cause and NUTS II region (Eurostat; the Centro region changes code in the most recent year).*
+
+```{ojs}
+c24_data = FileAttachment("q03_causes_regions_2024.json").json()
+```
+
+```{ojs}
+viewof c24_cause = Inputs.select(new Map([["All causes of death", "Todas as causas de morte"], ["Diseases of the circulatory system", "Doenças do aparelho circulatório"], ["Malignant neoplasms", "Tumores malignos"], ["Diseases of the respiratory system", "Doenças do aparelho respiratório"], ["Diabetes mellitus", "Diabetes mellitus"], ["External causes of death", "Causas de morte externas"]]), {label: "Cause"})
+```
+
+```{ojs}
+ranking(Plotly, dedupe(c24_data.filter((d) => d.indicator === c24_cause && d.sex === "HM"), (d) => d.region), {xTitle: "Deaths per 100,000 inhabitants (standardised rate, INE)", highlight: "Portugal", lang})
+```
+
+*Chart: standardised mortality by cause and region, new NUTS nomenclature (INE).*
+
+### Premature mortality
+
+The premature mortality rate (between thirty and seventy, from cardiovascular disease, cancer,
+diabetes and chronic respiratory disease) fell from [357.5 per hundred thousand in 2002]{.claim id="c064"} to
+[267.9 in 2024]{.claim id="c065"}, with
+[a decreasing trend of about 2.0 per hundred thousand per year]{.claim id="c067"}. Among men
+([370.8 in 2024]{.claim id="c068"}) it is more than double that of women
+([173.3]{.claim id="c069"}). The lowest value in the series was recorded in
+[2020, at 258.5]{.claim id="c066"}.
+
+[The standardised death rate before age 75, all causes, was 320.0 per hundred thousand in 2019]{.claim id="c070"}; it rose to [338.9 in 2021]{.claim id="c071"} and fell again
+to [302.8 in 2024]{.claim id="c072"}. This is one of the few indirect signs of the impact of the
+pandemic available in these data.
+
+```{ojs}
+pm_data = FileAttachment("q03_premature_mortality.json").json()
+```
+
+```{ojs}
+viewof pm_ind = Inputs.radio(new Map([["Premature (ages 30-70)", "premature_mortality_rate_30_70"], ["Before age 75 (standardised)", "standardised_mortality_rate_under75"]]), {value: "premature_mortality_rate_30_70", label: "Indicator"})
+```
+
+```{ojs}
+timeSeries(Plotly, pm_data.filter((d) => d.indicator === pm_ind), {groupBy: "sex", labels: {HM: "Total", H: "Men", M: "Women"}, yTitle: "Deaths per 100,000 inhabitants", events: linked_events, lang})
+```
+
+*Chart: premature mortality and standardised mortality before seventy-five, Portugal (INE).*
+
+## Question 4 — Avoidable mortality and infant mortality
+
+Treatable mortality (deaths that timely and effective health care could avoid) fell from
+[94.78 per hundred thousand in 2011]{.claim id="c073"} to [74.24 in 2023]{.claim id="c074"}, with
+[a decreasing trend of about 1.8 per hundred thousand per year]{.claim id="c080"}, and is below the EU
+average ([86.81]{.claim id="c075"}).
+
+Preventable mortality (deaths avoidable through prevention and public health) went from
+[149.25 in 2011]{.claim id="c076"} to [125.94 in 2023]{.claim id="c077"}, but the test
+[finds no clear trend]{.claim id="c081"}: there was a peak in
+[2021, at 155.89]{.claim id="c079"}. The European average is higher ([150.85 in 2023]{.claim id="c078"}).
+The loaded data contain only Portugal and the EU aggregate, which does not allow Portugal to be
+ranked among the Member States.
+
+```{ojs}
+av_data = FileAttachment("q04_avoidable_mortality.json").json()
+```
+
+```{ojs}
+viewof av_ind = Inputs.radio(new Map([["Treatable", "treatable"], ["Preventable", "preventable"]]), {value: "treatable", label: "Type"})
+```
+
+```{ojs}
+viewof av_sex = Inputs.radio(new Map([["Total", "T"], ["Women", "F"], ["Men", "M"]]), {value: "T", label: "Sex"})
+```
+
+```{ojs}
+timeSeries(Plotly, av_data.filter((d) => d.indicator === av_ind && d.sex === av_sex), {groupBy: "region", labels: region_labels, yTitle: "Deaths per 100,000 inhabitants", events: linked_events, lang})
+```
+
+*Chart: avoidable mortality (preventable and treatable), Portugal and EU (Eurostat).*
+
+Infant mortality is one of the largest transformations in the series: from
+[77.5 deaths per thousand live births in 1960]{.claim id="c082"} to [3.0 in 2024]{.claim id="c083"}, with
+[a decreasing trend]{.claim id="c088"}. The minimum was [2.4 in 2020]{.claim id="c085"}, and the most
+recent value is below the EU average ([3.5 in 2024]{.claim id="c084"}). Neonatal mortality followed the
+same path, from [27.9 in 1960]{.claim id="c086"} to [1.8 in 2024]{.claim id="c087"}.
+
+With such small annual numbers, INE publishes a five-year rate for the regions. In the most recent
+five-year period, Portugal recorded [2.7 deaths per thousand live births (five-year period ending in 2025)]{.claim id="c089"}.
+The [Centro had 2.1]{.claim id="c090"} and the [Alentejo 2.9]{.claim id="c091"}.
+
+```{ojs}
+inf_data = FileAttachment("q04_infant_mortality.json").json()
+```
+
+```{ojs}
+viewof inf_ind = Inputs.radio(new Map([["Infant", "infant"], ["Neonatal", "neonatal"], ["Perinatal", "perinatal"]]), {value: "infant", label: "Indicator"})
+```
+
+```{ojs}
+timeSeries(Plotly, inf_data.filter((d) => d.indicator === inf_ind), {groupBy: "region", labels: region_labels, yTitle: "Deaths per 1,000 live births", events: linked_events, lang})
+```
+
+*Chart: infant, neonatal and perinatal mortality, Portugal and EU (Eurostat; the EU has only the infant rate).*
+
+```{ojs}
+infr_data = FileAttachment("q04_infant_mortality_regions.json").json()
+```
+
+```{ojs}
+ranking(Plotly, dedupe(infr_data.filter((d) => d.date === "2025-01-01"), (d) => d.region), {xTitle: "Deaths per 1,000 live births (five-year average)", highlight: "Portugal", lang})
+```
+
+*Chart: five-year infant mortality rate by region, most recent period (INE).*
+
+## Question 5 — Excess mortality during the pandemic
+
+This question was not answered. Both planned Eurostat sources failed the access test.
+Weekly deaths by region [exceeded the test time limit without returning a result]{.claim id="c092"},
+and monthly excess mortality [returned a server error]{.claim id="c093"}. By a decision recorded
+in the study, the analysis proceeded without this component and
+[weekly excess mortality is declared as not covered]{.claim id="c094"}. The only indirect signs in
+these data are the dip in life expectancy at the start of the pandemic and the temporary rise in
+mortality before seventy-five (Question 1 and Question 3).
+
+## Question 6 — Morbidity and self-rated health
+
+The share of people aged sixteen or over reporting a chronic disease or long-standing health problem
+rose from [32.1% in 2004]{.claim id="c095"} to [44.1% in 2025]{.claim id="c096"},
+[an increasing trend of about 0.7 percentage points per year]{.claim id="c097"}. Part of this rise is
+concentrated in a single jump that coincides with a new wave of the European health survey and is
+probably methodological ([see Breaks and events]{.claim id="c204"}). By region, the highest values
+are in [Madeira (47.5% in 2025)]{.claim id="c098"} and the
+[Centro (46.8%)]{.claim id="c099"}, and the lowest in the [Algarve (38.5%)]{.claim id="c100"}.
+
+At the same time, self-rated health improved. According to INE, the share rating their health as
+bad or very bad fell from [21.1% in 2004]{.claim id="c101"} to [12.1% in 2025]{.claim id="c102"}
+([a decreasing trend]{.claim id="c107"}), and the share rating it good or very good rose from
+[45.4%]{.claim id="c103"} to [52.7%]{.claim id="c104"}. The improvement is largest among older people: the
+share with bad or very bad health [among people aged 65 or over went from 55.2% in 2004]{.claim id="c105"}
+to [28.1% in 2025]{.claim id="c106"}.
+
+More reported chronic disease and better self-rating can coexist, for instance with more diagnoses
+and better-controlled conditions, but these data do not allow the explanations to be told apart.
+
+In the European comparison (EU-SILC), Portugal still lags behind. In the latest year,
+[52.6% of Portuguese people rated their health as good or very good in 2025]{.claim id="c108"}, against
+[67.9% in the EU]{.claim id="c109"}, and [12.2% as bad or very bad]{.claim id="c110"}, against
+[8.8% in the EU]{.claim id="c111"}. In Portugal the latter share was [20.3% in 2010]{.claim id="c112"},
+with [a decreasing trend of about 0.5 percentage points per year]{.claim id="c113"}.
+
+```{ojs}
+chr_data = FileAttachment("q06_chronic_condition.json").json()
+```
+
+```{ojs}
+viewof chr_age = Inputs.radio(new Map([["16+", "16+"], ["16-64 years", "16 - 64 anos"], ["65 and over", "65 e mais anos"]]), {value: "16+", label: "Age"})
+```
+
+```{ojs}
+timeSeries(Plotly, chr_data.filter((d) => d.age === chr_age), {groupBy: "sex", labels: {HM: "Total", H: "Men", M: "Women"}, yTitle: "% of population", events: linked_events, lang})
+```
+
+*Chart: population with a chronic disease or long-standing health problem, by sex and age (INE).*
+
+```{ojs}
+chrr_data = FileAttachment("q06_chronic_condition_regions.json").json()
+```
+
+```{ojs}
+viewof chrr_year = Inputs.radio(new Map([["2025", "2025-01-01"], ["2024", "2024-01-01"]]), {value: "2025-01-01", label: "Year"})
+```
+
+```{ojs}
+ranking(Plotly, dedupe(chrr_data.filter((d) => d.date === chrr_year), (d) => d.region), {xTitle: "% of population aged sixteen or over", highlight: "Portugal", lang})
+```
+
+*Chart: chronic disease by region, new NUTS nomenclature (INE).*
+
+```{ojs}
+srh_data = FileAttachment("q06_self_rated_health_ine.json").json()
+```
+
+```{ojs}
+viewof srh_cat = Inputs.select(new Map([["Bad or very bad", "self_rated_health_distribution|Mau ou muito mau"], ["Good or very good", "self_rated_health_distribution|Muito bom ou bom"], ["Fair", "self_rated_health_distribution|Razoável"]]), {label: "Self-rating"})
+```
+
+```{ojs}
+viewof srh_age = Inputs.radio(new Map([["16+", "16+"], ["16-64 years", "16 - 64 anos"], ["65 and over", "65 e mais anos"]]), {value: "16+", label: "Age"})
+```
+
+```{ojs}
+timeSeries(Plotly, srh_data.filter((d) => d.indicator === srh_cat && d.age === srh_age), {groupBy: "sex", labels: {HM: "Total", H: "Men", M: "Women"}, yTitle: "% of population", events: linked_events, lang})
+```
+
+*Chart: self-rated health status, by sex and age (INE).*
+
+```{ojs}
+spe_data = FileAttachment("q06_self_perceived_health_eu.json").json()
+```
+
+```{ojs}
+viewof spe_level = Inputs.select(new Map([["Good or very good", "VG_G"], ["Bad or very bad", "B_VB"], ["Fair", "FAIR"]]), {label: "Self-rating"})
+```
+
+```{ojs}
+viewof spe_sex = Inputs.radio(new Map([["Total", "T"], ["Women", "F"], ["Men", "M"]]), {value: "T", label: "Sex"})
+```
+
+```{ojs}
+timeSeries(Plotly, dedupe(spe_data.filter((d) => d.indicator === spe_level && d.sex === spe_sex && d.age === "Y_GE16"), (d) => d.region + d.date), {groupBy: "region", labels: region_labels, yTitle: "% of population", events: linked_events, lang})
+```
+
+*Chart: self-perceived health, Portugal and EU, population aged sixteen or over (Eurostat, EU-SILC).*
+
+## Question 7 — Risk factors
+
+Risk factor data come from the National Health Survey. Tobacco and body mass index exist only for
+the most recent wave, and alcohol has three waves. The loaded data contain no EU comparison and no
+information on physical activity.
+
+[In 2025, 12.7% of the population aged fifteen or over smoked daily]{.claim id="c114"}. Among men
+the share was [17.3%]{.claim id="c115"} and among women [8.4%]{.claim id="c116"}. The
+[Algarve (18.2%)]{.claim id="c117"} and the [Azores (18.1%)]{.claim id="c118"} had the highest shares,
+and the [Centro (10.5%)]{.claim id="c119"} the lowest. About
+[61.9% of the population had never smoked]{.claim id="c120"}.
+
+Obesity affected [17.4% of adults in 2025]{.claim id="c121"}.
+
+Among those who drank alcohol in the previous twelve months, the share with at least one occasion
+of six or more drinks rose from [33.2% in 2014]{.claim id="c122"} to [42.8% in 2019]{.claim id="c123"}
+and stood at [42.5% in 2025]{.claim id="c124"}. Among young people [aged 15 to 24 it went from 45.7% in 2014]{.claim id="c125"}
+to [66.2% in 2025]{.claim id="c126"}. With only three waves, no trend test is carried out.
+
+```{ojs}
+smk_data = FileAttachment("q07_daily_smokers_regions.json").json()
+```
+
+```{ojs}
+viewof smk_sex = Inputs.radio(new Map([["Total", "HM"], ["Men", "H"], ["Women", "M"]]), {value: "HM", label: "Sex"})
+```
+
+```{ojs}
+ranking(Plotly, dedupe(smk_data.filter((d) => d.sex === smk_sex), (d) => d.region), {xTitle: "% daily smokers (aged fifteen or over)", highlight: "Portugal", lang})
+```
+
+*Chart: daily smokers by region and sex (INE, National Health Survey).*
+
+```{ojs}
+tob_data = FileAttachment("q07_tobacco.json").json()
+```
+
+```{ojs}
+viewof tob_cat = Inputs.select(new Map([["Daily smoker", "Fumador diário"], ["Smokers", "Fumadores"], ["Former smokers", "Ex-fumadores"], ["Never smoked", "Nunca fumaram"]]), {label: "Status"})
+```
+
+```{ojs}
+ranking(Plotly, dedupe(tob_data.filter((d) => d.region === "Portugal" && d.sex === "HM" && d.indicator === tob_cat && d.age !== "15+"), (d) => d.age).map((d) => ({...d, region: d.age})), {xTitle: "% of the age group", lang})
+```
+
+*Chart: smoking status by age group, Portugal (INE).*
+
+```{ojs}
+bmi_data = FileAttachment("q07_bmi.json").json()
+```
+
+```{ojs}
+viewof bmi_cat = Inputs.select(new Map([["Obesity", "Obesidade"], ["Overweight - grade II", "Excesso de peso - Grau II"], ["Overweight - grade I", "Excesso de peso - Grau I"], ["Normal weight", "Peso Normal"], ["Underweight", "Baixo peso"]]), {label: "BMI class"})
+```
+
+```{ojs}
+ranking(Plotly, dedupe(bmi_data.filter((d) => d.indicator === bmi_cat && d.sex === "HM" && d.age === "15+" && nuts_regions.includes(d.region)), (d) => d.region), {xTitle: "% of adult population", highlight: "Portugal", lang})
+```
+
+*Chart: body mass index classes by region (INE).*
+
+```{ojs}
+alc_data = FileAttachment("q07_alcohol.json").json()
+```
+
+```{ojs}
+viewof alc_sex = Inputs.radio(new Map([["Total", "HM"], ["Men", "H"], ["Women", "M"]]), {value: "HM", label: "Sex"})
+```
+
+```{ojs}
+timeSeries(Plotly, alc_data.filter((d) => d.indicator === "binge_6plus_any" && d.sex === alc_sex && d.region === "Portugal"), {groupBy: "age", labels: {"15+": "Total (15+)"}, yTitle: "% of those who drank alcohol", events: linked_events, lang})
+```
+
+*Chart: occasions of six or more drinks among those who drank alcohol, by age group (INE).*
+
+## Question 8 — Mental health
+
+The longest comparable series is suicide. The rate was
+[11.6 per hundred thousand inhabitants in 2002]{.claim id="c127"}, reached [11.7 in 2014]{.claim id="c128"} and
+stood at [9.0 in 2024]{.claim id="c129"}; the test [finds no clear trend]{.claim id="c130"}.
+Among men the rate is more than three times that of women ([15.5]{.claim id="c131"} against
+[4.4 in 2022]{.claim id="c132"}). Among people aged seventy-five or over, the rate fell from
+[33.5 in 2002]{.claim id="c133"} to [20.0 in 2024]{.claim id="c134"}. The national series joins two
+INE tables (former nomenclature up to one year, new nomenclature afterwards), and the splice may
+affect comparability.
+
+For depressive symptoms, the share of people without symptoms fell from
+[88.7% in 2014]{.claim id="c135"} to [83.5% in 2025]{.claim id="c136"}, and the share with severe
+symptoms went from [3.7%]{.claim id="c137"} to [4.3%]{.claim id="c138"}. With three waves and
+different survey methods, this is an indication and not a demonstrated trend. Antidepressant
+consumption and the mental health modules of the European survey were not part of the loaded data.
+
+```{ojs}
+sui_data = FileAttachment("q08_suicide.json").json()
+```
+
+```{ojs}
+viewof sui_region = Inputs.select([...new Set(sui_data.map((d) => d.region))], {value: "Portugal", label: "Region"})
+```
+
+```{ojs}
+viewof sui_age = Inputs.select([...new Set(sui_data.map((d) => d.age))], {value: "all_ages", label: "Age"})
+```
+
+```{ojs}
+timeSeries(Plotly, dedupe(sui_data.filter((d) => d.region === sui_region && d.age === sui_age), (d) => d.sex + d.date), {groupBy: "sex", labels: {HM: "Total", H: "Men", M: "Women"}, yTitle: "Suicides per 100,000 inhabitants", events: linked_events, lang})
+```
+
+*Chart: suicide mortality rate, by region, sex and age (INE; "all_ages" = all ages).*
+
+```{ojs}
+dep_data = FileAttachment("q08_depressive_symptoms.json").json()
+```
+
+```{ojs}
+viewof dep_cat = Inputs.select(new Map([["No symptoms", "Sem sintomas"], ["Mild symptoms", "Sintomas ligeiros"], ["Severe symptoms", "Sintomas graves"]]), {label: "Symptoms"})
+```
+
+```{ojs}
+timeSeries(Plotly, dep_data.filter((d) => d.indicator === dep_cat && d.age === "15+"), {groupBy: "sex", labels: {HM: "Total", H: "Men", M: "Women"}, yTitle: "% of population", events: linked_events, lang})
+```
+
+*Chart: depressive symptoms in the population aged fifteen or over, by sex (INE).*
+
+## Question 9 — Unmet needs for care
+
+Unmet needs here are those due to cost, distance or waiting list. For medical care, the share in
+Portugal went from [1.1% in 2008]{.claim id="c139"} to [3.3% in 2012]{.claim id="c140"}, in the crisis
+years, and stood at [2.5% in 2025]{.claim id="c141"}, close to the European average
+([2.4%]{.claim id="c142"}). Over the full series
+[there is no clear trend]{.claim id="c154"}.
+
+For dental care, the problem is larger: [7.3% in 2008]{.claim id="c143"}, a peak of
+[14.6% in 2015]{.claim id="c144"} and [7.9% in 2025]{.claim id="c145"}, against
+[3.3% in the EU]{.claim id="c146"}. Here too [there is no clear trend over the full series]{.claim id="c155"}.
+
+Inequality by income is very marked. In the lowest income quintile, unmet dental needs reached
+[27.6% in 2015]{.claim id="c147"} and stood at
+[16.9% in 2025]{.claim id="c148"}, against [1.6% in the highest quintile]{.claim id="c149"}. For medical
+care, they were [4.2% in the lowest quintile]{.claim id="c150"} and [1.0% in the highest in 2025]{.claim id="c151"}.
+Among those below the at-risk-of-poverty threshold the total share was
+[7.5%]{.claim id="c152"}, against [3.3% above the threshold]{.claim id="c153"}.
+
+```{ojs}
+um_data = FileAttachment("q09_unmet_medical.json").json()
+```
+
+```{ojs}
+ud_data = FileAttachment("q09_unmet_dental.json").json()
+```
+
+```{ojs}
+viewof un_kind = Inputs.radio(new Map([["Medical", "medical"], ["Dental", "dental"]]), {value: "medical", label: "Care"})
+```
+
+```{ojs}
+viewof un_reason = Inputs.select(new Map([["Cost, distance or waiting list", "TXP_TFAR_WLIST"], ["Cost", "TXP"], ["Distance", "TFAR"], ["Waiting list", "WLIST"]]), {label: "Reason"})
+```
+
+```{ojs}
+viewof un_quint = Inputs.select(new Map([["All", "TOTAL"], ["1st quintile (poorest)", "QU1"], ["2nd quintile", "QU2"], ["3rd quintile", "QU3"], ["4th quintile", "QU4"], ["5th quintile (richest)", "QU5"]]), {label: "Income"})
+```
+
+```{ojs}
+timeSeries(Plotly, (un_kind === "medical" ? um_data : ud_data).filter((d) => d.indicator === `${un_kind}|${un_reason}|${un_quint}` && d.sex === "T" && d.age === "Y_GE16"), {groupBy: "region", labels: region_labels, yTitle: "% of population aged sixteen or over", events: linked_events, lang})
+```
+
+*Chart: unmet needs for medical and dental care, by reason and income quintile (Eurostat, EU-SILC).*
+
+```{ojs}
+upov_data = FileAttachment("q09_unmet_poverty.json").json()
+```
+
+```{ojs}
+viewof upov_region = Inputs.radio(new Map([["Portugal", "Portugal"], ["EU-27", "European Union (27)"]]), {value: "Portugal", label: "Territory"})
+```
+
+```{ojs}
+timeSeries(Plotly, upov_data.filter((d) => d.region === upov_region && d.sex === "T" && d.age === "Y_GE16"), {groupBy: "indicator", labels: {"unmet_needs|A_60": "Above the poverty threshold", "unmet_needs|B_60": "Below the poverty threshold", "unmet_needs|TOTAL": "Total"}, yTitle: "% of population aged sixteen or over", events: linked_events, lang})
+```
+
+*Chart: unmet needs by at-risk-of-poverty threshold (Eurostat, EU-SILC).*
+
+## Question 10 — Health system expenditure and resources
+
+Current health expenditure rose from [8.62% of GDP in 2000]{.claim id="c156"} to a peak of
+[11.22% in 2021]{.claim id="c157"} and stood at [10.20% in 2024]{.claim id="c158"}, at the EU level
+([10.16%]{.claim id="c159"}). Per inhabitant, in purchasing power standards, Portugal spent
+[3247.42 in 2024]{.claim id="c160"}, against [4074.88 in the EU]{.claim id="c161"}.
+
+The financing structure sets Portugal apart. Household out-of-pocket payments accounted for
+[28.67% of current expenditure in 2024]{.claim id="c162"}, almost double the EU
+([15.06%]{.claim id="c163"}), and their share shows [an increasing trend of about 0.23 percentage points per year]{.claim id="c166"}.
+Government and compulsory financing covered [61.88%]{.claim id="c164"}, against
+[80.33% in the EU]{.claim id="c165"}.
+
+The number of physicians licensed to practise went from
+[75.65 per hundred thousand inhabitants in 1960]{.claim id="c167"} to [591.35 in 2024]{.claim id="c168"}. This
+concept includes physicians who do not practise and overestimates active physicians. Practising
+nurses went from [422.29 in 2004]{.claim id="c169"} to [767.54 in 2024]{.claim id="c170"}. Both
+series have jumps that suggest changes of definition ([see Limitations]{.claim id="c205"}).
+
+Hospital beds fell from [395.92 per hundred thousand in 1985]{.claim id="c171"} to
+[330.98 in 2024]{.claim id="c172"}, well below the European average ([507.35]{.claim id="c173"}).
+Differences between regions are large. In the latest available year, the Norte had
+[561.01 physicians per hundred thousand]{.claim id="c174"} and the Alentejo [322.33]{.claim id="c175"}; Madeira had
+[793.69 beds per hundred thousand]{.claim id="c176"} and the Alentejo [213.18]{.claim id="c177"}.
+
+```{ojs}
+he_data = FileAttachment("q10_health_expenditure.json").json()
+```
+
+```{ojs}
+viewof he_key = Inputs.select(new Map([["Total expenditure, % of GDP", "total|PC_GDP"], ["Total expenditure, PPS per inhabitant", "total|PPS_HAB"], ["Household out-of-pocket payments, % of expenditure", "household_out_of_pocket|PC_CHE"], ["Government and compulsory schemes, % of expenditure", "government_compulsory|PC_CHE"], ["Voluntary schemes, % of expenditure", "voluntary_schemes|PC_CHE"]]), {label: "Indicator"})
+```
+
+```{ojs}
+timeSeries(Plotly, he_data.filter((d) => `${d.indicator}|${d.unit}` === he_key), {groupBy: "region", labels: region_labels, yTitle: he_key.endsWith("PC_GDP") ? "% of GDP" : he_key.endsWith("PPS_HAB") ? "PPS per inhabitant" : "% of current health expenditure", events: linked_events, lang})
+```
+
+*Chart: current health expenditure and financing structure, Portugal and EU (Eurostat).*
+
+```{ojs}
+hf_data = FileAttachment("q10_expenditure_by_function.json").json()
+```
+
+```{ojs}
+viewof hf_region = Inputs.radio(new Map([["Portugal", "Portugal"], ["EU-27", "European Union (27)"]]), {value: "Portugal", label: "Territory"})
+```
+
+```{ojs}
+timeSeries(Plotly, hf_data.filter((d) => d.region === hf_region && d.indicator !== "TOT_HC"), {groupBy: "indicator", labels: {HC1: "Curative care", HC2: "Rehabilitative care", HC3: "Long-term care", HC4: "Ancillary services", HC5: "Medical goods", HC6: "Preventive care", HC7: "Governance and administration"}, yTitle: "% of current health expenditure", events: linked_events, lang})
+```
+
+*Chart: current health expenditure by function of care (Eurostat).*
+
+```{ojs}
+hp_data = FileAttachment("q10_health_personnel.json").json()
+```
+
+```{ojs}
+timeSeries(Plotly, hp_data, {groupBy: "indicator", labels: {physicians_licensed: "Physicians (licensed to practise)", nurses_active: "Nurses (practising)", dentists_licensed: "Dentists (licensed)", pharmacists_active: "Pharmacists (practising)"}, yTitle: "Professionals per 100,000 inhabitants", events: linked_events, lang})
+```
+
+*Chart: physicians, nurses, dentists and pharmacists, Portugal (Eurostat).*
+
+```{ojs}
+hb_data = FileAttachment("q10_hospital_beds.json").json()
+```
+
+```{ojs}
+timeSeries(Plotly, hb_data, {groupBy: "region", labels: region_labels, yTitle: "Beds per 100,000 inhabitants", events: linked_events, lang})
+```
+
+*Chart: hospital beds, Portugal and EU (Eurostat).*
+
+```{ojs}
+rr_data = FileAttachment("q10_resources_regions.json").json()
+```
+
+```{ojs}
+viewof rr_ind = Inputs.radio(new Map([["Physicians", "physicians"], ["Hospital beds", "hospital_beds_total"]]), {value: "physicians", label: "Indicator"})
+```
+
+```{ojs}
+timeSeries(Plotly, rr_data.filter((d) => d.indicator === rr_ind), {groupBy: "region", labels: region_labels, yTitle: "Per 100,000 inhabitants", events: linked_events, lang})
+```
+
+*Chart: hospital beds and physicians by NUTS II region (Eurostat).*
+
+## Breaks and events
+
+Automatic detection looked for changes in level, changes in slope and isolated spikes in the main
+series. It found [51 candidate breaks, of which 18 were linked to a dated event, all grade C, and 33 were left without an event]{.claim id="c202"}.
+No source consulted establishes that any of these events caused a change in the series, so the
+text speaks only of coincidence in time.
+
+### Events considered
+
+- [Law No. 56/79 created the National Health Service (SNS) in 1979]{.claim id="c178"}.
+- [The Memorandum of Understanding with the European Commission, the ECB and the IMF ran from May 2011 to May 2014 and included health spending containment measures]{.claim id="c179"}.
+- [Ordinance No. 306-A/2011 set new values for user charges from 2012]{.claim id="c182"}.
+- [Law No. 37/2007 banned smoking in workplaces and enclosed public spaces from 2008]{.claim id="c181"}.
+- [Between 2016 and 2018 the National Oral Health Promotion Programme, with its dental voucher, was extended]{.claim id="c183"}.
+- [The World Health Organization declared the COVID-19 pandemic on 11 March 2020]{.claim id="c180"}.
+- [The 2014/2015 winter had a severe influenza season in Europe, with excess mortality among older people]{.claim id="c184"}.
+
+### Links found (all grade C)
+
+- [The 1980 level break in life expectancy at birth, total and male, coincided with the creation of the SNS]{.claim id="c185"}.
+  No source consulted establishes the relationship.
+- [The 1980 level drop in neonatal mortality coincided with the creation of the SNS]{.claim id="c186"}.
+- [The 2012 change in the life expectancy gap with the EU coincided with the first full year of the adjustment programme]{.claim id="c187"}.
+- [The 2011 spike in the share of people with bad or very bad health, and in the gap with the EU, coincided with the start of the adjustment programme]{.claim id="c193"}.
+- [The 2012 spike in the gap in unmet dental needs with the EU coincided with the adjustment programme]{.claim id="c196"}
+  and [also coincided with the application of the new user charge values]{.claim id="c197"}.
+- [The 2015 change in unmet medical needs relative to the EU, one year after the end of the programme, coincided with the post-programme period]{.claim id="c199"}.
+- [The 2007 break in premature mortality coincided with the approval of the tobacco law]{.claim id="c191"},
+  which only came into force the following year.
+- [The 2018 drop in unmet dental needs coincided with the extension of the oral health programme]{.claim id="c195"};
+  the source describes the measure but does not measure its effect.
+- [The 2021 drop in standardised mortality from circulatory diseases coincided with the pandemic]{.claim id="c188"},
+  but its size suggests a change of method.
+- [The 2021 drop in mortality from respiratory diseases coincided with the pandemic]{.claim id="c189"};
+  COVID is coded as a separate cause.
+- [The 2021 slope change in preventable mortality coincided with the pandemic]{.claim id="c190"}.
+- [The unusually low 2020 value in premature mortality coincided with the first year of the pandemic]{.claim id="c192"}.
+- [The 2020 change in the gap in bad or very bad health relative to the EU coincided with the first year of the pandemic]{.claim id="c194"}.
+- [The 2020 change in the gap in dental needs relative to the EU coincided with the pandemic]{.claim id="c198"}.
+- [The 2020 rise in health expenditure as a percentage of GDP coincided with the pandemic]{.claim id="c200"};
+  that year GDP, the denominator, also fell.
+- [The one-off 2020 drop in the share of out-of-pocket payments coincided with the pandemic]{.claim id="c201"}.
+
+### Breaks without an event and events without an effect
+
+These cases are results of the analysis, not failures. [Left without an identified event were, among others, the breaks of 1972, 1975 and 2005 in life expectancy, of 1961 and 1975 in infant mortality, of 1985 in perinatal mortality, of 2016 in external causes and treatable mortality, of 2000 in hospital beds and of 2010 in out-of-pocket payments]{.claim id="c208"}.
+In several cases the most likely explanation is technical rather than an event:
+
+- [The simultaneous 2021 drop in all Eurostat standardised rates suggests a change of method or of standard population]{.claim id="c203"}, not confirmed by a source.
+- [The 2014 and 2019 jumps in chronic disease and self-rated health coincide with new waves of the European health survey and are probably series breaks]{.claim id="c204"}.
+- [The size of the 2010 jump in physicians and the 2014 jump in nurses suggests changes of definition]{.claim id="c205"}.
+- [The 2014 trough in healthy life years may be a survey artefact]{.claim id="c206"}.
+
+[The severe 2014/2015 influenza season does not coincide with any life expectancy break in the series analysed and was recorded as an event without visible effect]{.claim id="c207"}.
+
+## Associations between indicators
+
+Spearman correlations were tested between the annual changes of pairs of national series from
+different charts, with Benjamini-Hochberg correction for multiple testing. Using annual differences
+avoids two series appearing associated only because both rise over time.
+[45 pairs were tested and none remained significant after correction]{.claim id="c209"}. This
+is a result: there are no robust associations between indicators in these data. Even if there were,
+they would be associations and not causes, and some could be mechanical, for example between a part
+and its total.
+
+## Methodology
+
+- **Data.** All series come from INE and Eurostat tables, downloaded by code and normalised to a
+  long format (date, region, sex, age, indicator, value, unit) in `data/clean/`. National Health
+  Survey proportions (tobacco, body mass index, alcohol, depressive symptoms) were computed as the
+  count in the category divided by the total of the same table.
+- **Trends.** The annual slope is estimated with the Theil-Sen estimator, which is robust to
+  outliers. Significance is tested with Mann-Kendall and corrected for multiple testing. The text
+  only says "increasing" or "decreasing trend" when the test confirms it; otherwise it says "no
+  clear trend".
+- **Breaks.** Changes in level and slope were detected with the PELT algorithm, and isolated spikes
+  with a robust z-score. For each break a dated event with a primary source was sought within a
+  plausible window. The grade of evidence (A, B or C) determines the wording used.
+- **EU comparison.** The Eurostat aggregate of the twenty-seven Member States is used whenever it
+  exists in the loaded data.
+- **Regions.** Regional series use the NUTS nomenclature in which the source publishes them. The
+  new nomenclature splits the former Lisbon Metropolitan Area and redraws the Centro and the
+  Alentejo, so series from the two nomenclatures appear in separate charts.
+
+## Limitations
+
+- **Excess mortality not covered.** By a decision recorded in the study,
+  [weekly excess mortality was not covered]{.claim id="c094"}: the weekly deaths source
+  [exceeded the test time limit]{.claim id="c092"} and the monthly excess mortality source
+  [returned a server error]{.claim id="c093"}. Question 5 remains unanswered.
+- **Method break in a recent year.** Eurostat's standardised rates by cause all fall at the same
+  time in that year, which is inconsistent with a pandemic effect and suggests a change of method
+  ([see Breaks and events]{.claim id="c203"}). Changes between the start of the series and that
+  year should be read with caution.
+- **National and European sources are not directly comparable.** INE and Eurostat standardised
+  rates use different standard populations.
+- **Surveys with series breaks.** Chronic disease, self-rated health and healthy life years depend
+  on surveys with method changes ([see Breaks and events]{.claim id="c204"}).
+  National Health Survey indicators have few waves (tobacco and body mass index only one), which
+  rules out trend tests and EU comparison.
+- **Health personnel.** Physicians are counted as "licensed to practise", which overestimates
+  active physicians, and the series have jumps that appear definitional
+  ([see Breaks and events]{.claim id="c205"}).
+- **Scope not covered.** No data were loaded on antidepressant consumption, the mental health
+  modules of the European survey, physical activity, life expectancy by education level, or
+  Portugal's position among the Member States (only the EU aggregate). Socioeconomic inequalities
+  were analysed only by income, for unmet needs.
+- **Spliced suicide series.** The national series joins two INE tables with different regional
+  nomenclatures.
+- **Provisional values.** The most recent years of several Eurostat series may be revised.
+
+## Sources
+
+- [Eurostat — Life expectancy by age and sex (demo_mlexpec).]{.claim id="c001"}
+- [Eurostat — Healthy life years (hlth_hlye).]{.claim id="c025"}
+- [Eurostat — Causes of death, standardised death rate (hlth_cd_asdr2).]{.claim id="c040"}
+- [Eurostat — Preventable and treatable mortality (hlth_cd_apr).]{.claim id="c073"}
+- [Eurostat — Infant mortality rates (demo_minfind).]{.claim id="c082"}
+- [Eurostat — Self-perceived health (hlth_silc_01).]{.claim id="c108"}
+- [Eurostat — Self-reported unmet needs for medical examination (hlth_silc_08).]{.claim id="c139"}
+- [Eurostat — Self-reported unmet needs for dental examination (hlth_silc_09).]{.claim id="c143"}
+- [Eurostat — Unmet needs by poverty status (hlth_silc_08b).]{.claim id="c152"}
+- [Eurostat — Health care expenditure by financing scheme (hlth_sha11_hf).]{.claim id="c156"}
+- [Eurostat — Health personnel (hlth_rs_prs2).]{.claim id="c167"}
+- [Eurostat — Hospital beds by type of care (hlth_rs_bds1).]{.claim id="c171"}
+- [Eurostat — Health personnel by NUTS 2 regions (hlth_rs_prsrg).]{.claim id="c174"}
+- [Eurostat — Hospital beds by NUTS 2 regions (hlth_rs_bdsrg).]{.claim id="c176"}
+- [INE — Life expectancy at birth by place of residence (indicator 0008459).]{.claim id="c019"}
+- [INE — Standardised death rate by cause of death (indicator 0014684).]{.claim id="c060"}
+- [INE — Standardised death rate before age 75 (indicator 0014727).]{.claim id="c070"}
+- [INE — Premature mortality rate (indicator 0009100).]{.claim id="c064"}
+- [INE — Five-year infant mortality rate (indicator 0013578).]{.claim id="c089"}
+- [INE — Chronic disease or long-standing health problem (indicators 0008044 and 0014713).]{.claim id="c095"}
+- [INE — Self-assessed health status (indicator 0008043).]{.claim id="c101"}
+- [INE — National Health Survey: tobacco (0014788, 0014778), body mass index (0014775), alcohol (0008704), depressive symptoms (0008708).]{.claim id="c114"}
+- [INE — Suicide mortality (indicators 0003736 and 0014469).]{.claim id="c127"}
+- [Diário da República — Law No. 56/79.]{.claim id="c178"}
+- [Banco de Portugal — Memorandum of Understanding.]{.claim id="c179"}
+- [Diário da República — Ordinance No. 306-A/2011.]{.claim id="c182"}
+- [Diário da República — Law No. 37/2007, republished by Law No. 63/2017.]{.claim id="c181"}
+- [Diário da República — National Oral Health Promotion Programme.]{.claim id="c183"}
+- [World Health Organization — pandemic declaration, 11 March 2020.]{.claim id="c180"}
+- [Eurosurveillance (ECDC) — excess mortality in the 2014/2015 influenza season.]{.claim id="c184"}
