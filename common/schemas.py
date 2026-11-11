@@ -47,7 +47,8 @@ class Event(BaseModel):
     secondary_source_url: str | None = None
     access_date: dt.date
     topics: str  # semicolon-separated list
-    verified: Literal["yes", "no"]
+    verified: Literal["yes", "no"]  # "yes" only once `common.verify events` found source_excerpt on the page
+    source_excerpt: str | None = None  # <15 words, copied by the historian from primary_source_url
 
 
 class DataSource(BaseModel):

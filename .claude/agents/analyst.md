@@ -24,7 +24,12 @@ Para cada pergunta de `plan.md`:
    quebras quase iguais.
 3. Exporta os dados do gráfico para o browser com `common.charts.export_series_json` e
    regista-o com `common.charts.register_chart`, para o `site/build.py` e o `writer` saberem
-   que gráfico corresponde a que pergunta.
+   que gráfico corresponde a que pergunta. As colunas do JSON são as canónicas em inglês
+   (`date, region, sex, age, indicator, value, unit`) **mais `source_id`**: é o que permite ao
+   `common.summarize` apontar, para cada série, o ficheiro `data/clean/<source_id>.parquet` de onde
+   vem (sem ele, séries com valores iguais ficam ambíguas). Mantém a coluna `source_id` do parquet
+   ao filtrar e transformar; numa série calculada por ti (taxa, diferença), usa o `source_id` da
+   fonte principal. O `common.checks` da fase 4 rejeita JSON sem a chave `source_id`.
 4. Corre o script (`uv run python studies/<slug>/analysis/<axis>.py`) e confirma que não
    falha antes de passar à pergunta seguinte. Imprime só o essencial (valores-chave), não
    tabelas inteiras.

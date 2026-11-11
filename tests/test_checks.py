@@ -241,7 +241,7 @@ def _chart_study(study_dir: Path, record: dict) -> None:
 
 
 def test_phase_4_accepts_canonical_chart_keys(study_dir: Path) -> None:
-    _chart_study(study_dir, {"date": "2010-01-01", "region": "Portugal", "value": 1.0})
+    _chart_study(study_dir, {"date": "2010-01-01", "region": "Portugal", "value": 1.0, "source_id": "s1"})
     ok, problems = checks.check_phase_4("test")
     assert ok, problems
 
@@ -272,3 +272,10 @@ def test_license_gate_blocks_restrictive_or_unknown_licences(study_dir: Path) ->
     for lic in ("CC BY-NC-SA 3.0 IGO", "CC BY-ND 4.0", "uso não comercial", "licença desconhecida"):
         _source(study_dir, "s1", lic)
         assert len(checks.license_problems(study_dir)) == 1, lic
+
+
+def test_phase_4_rejects_chart_json_without_source_id(study_dir: Path) -> None:
+    _chart_study(study_dir, {"date": "2010-01-01", "region": "Portugal", "value": 1.0})
+    ok, problems = checks.check_phase_4("test")
+    assert not ok
+    assert "source_id" in problems[0]

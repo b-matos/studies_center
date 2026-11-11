@@ -64,3 +64,41 @@ def test_series_cap_points_to_series_file(tmp_path: Path, monkeypatch) -> None:
     monkeypatch.setattr(summarize, "MAX_SERIES_PER_CHART", 1)
     summary, _ = summarize.summarize_study(_study(tmp_path))
     assert "1 more series" in summary
+
+
+def _two_series_study(tmp_path: Path, *, tag_source: bool) -> Path:
+    """Two clean files hold the same single value under different indicators: only the source tag or the
+    labels can tell them apart."""
+    study = tmp_path / "amb"
+    (study / "analysis" / "out").mkdir(parents=True)
+    (study / "data" / "clean").mkdir(parents=True)
+    for sid, indicator in (("a1", "deaths|Cancer"), ("b1", "deaths|Falls")):
+        pd.DataFrame({"date": ["2020-01-01"], "region": "Portugal", "sex": "T", "age": "", "indicator": indicator,
+                      "value": [5.0], "unit": "N", "source_id": sid}).to_parquet(study / "data" / "clean" / f"{sid}.parquet")
+    row = {"date": "2020-01-01", "region": "Portugal", "sex": "T", "age": "", "indicator": "Other label", "value": 5.0, "unit": "N"}
+    if tag_source:
+        row["source_id"] = "b1"
+    (study / "analysis" / "out" / "c.json").write_text(json.dumps([row]), encoding="utf-8")
+    (study / "analysis" / "charts.yml").write_text(yaml.safe_dump({"c": {"data_file": "c.json"}}), encoding="utf-8")
+    return study
+
+
+def test_series_with_the_same_value_in_two_files_is_ambiguous_not_guessed(tmp_path: Path) -> None:
+    summary, _ = summarize.summarize_study(_two_series_study(tmp_path, tag_source=False))
+    assert "file=ambiguous(2 candidates" in summary
+    assert "clean_labels(sex" not in summary
+
+
+def test_source_id_in_the_chart_json_resolves_the_ambiguity(tmp_path: Path) -> None:
+    summary, rows = summarize.summarize_study(_two_series_study(tmp_path, tag_source=True))
+    assert "file=b1.parquet" in summary and "ambiguous" not in summary
+    assert rows[0][8] == "b1.parquet"
+
+
+def test_similar_labels_break_a_tie(tmp_path: Path) -> None:
+    study = _two_series_study(tmp_path, tag_source=False)
+    path = study / "analysis" / "out" / "c.json"
+    row = json.loads(path.read_text(encoding="utf-8"))[0] | {"indicator": "Falls"}
+    path.write_text(json.dumps([row]), encoding="utf-8")
+    summary, _ = summarize.summarize_study(study)
+    assert "file=b1.parquet" in summary

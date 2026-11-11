@@ -42,12 +42,12 @@ SERIES_NAME = "series.csv"
 
 def _load_chart(path: Path) -> pd.DataFrame:
     df = pd.DataFrame(json.loads(path.read_text(encoding="utf-8")))
-    for col in [*KEYS, "unit"]:
+    for col in [*KEYS, "unit", "source_id"]:
         if col not in df:
             df[col] = ""
     df = df.dropna(subset=["value"]).copy()
     df["date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m-%d")
-    df[["region", "sex", "age", "indicator", "unit"]] = df[["region", "sex", "age", "indicator", "unit"]].fillna("").astype(str)
+    df[["region", "sex", "age", "indicator", "unit", "source_id"]] = df[["region", "sex", "age", "indicator", "unit", "source_id"]].fillna("").astype(str)
     return df
 
 
@@ -70,19 +70,37 @@ def _candidates(chart: pd.DataFrame, clean: dict[str, pd.DataFrame]) -> pd.DataF
     Analysis scripts often relabel sex/age/indicator, so the clean file's own labels are kept: they
     are what a claim's `calculation` has to filter on. Several clean rows can share a value, so the
     choice among candidates is made per series (`_assign_origin`), never per row."""
-    base = chart[["date", "region", "value"]].reset_index()
+    base = chart[["date", "region", "value", "source_id"]].reset_index()
     parts = []
     for name, frame in clean.items():
         renamed = frame.rename(columns={"sex": "c_sex", "age": "c_age", "indicator": "c_indicator", "value": "c_value"})
         m = base.merge(renamed, on=["date", "region"], how="inner")
         m = m[(m["value"] - m["c_value"]).abs() <= VALUE_TOLERANCE]
+        m = m[(m["source_id"] == "") | (m["source_id"] == Path(name).stem)]  # rows tagged by the analysis only match their own source
         parts.append(m.assign(clean_file=name)[["index", *MATCH_COLUMNS]])
     return pd.concat(parts, ignore_index=True) if parts else pd.DataFrame(columns=["index", *MATCH_COLUMNS])
 
 
+def _label_score(own: pd.Series, combo: pd.Series) -> int:
+    """How much a clean file's labels look like the chart's own (exact match, or one contains the other)."""
+    score = 0
+    for chart_label, clean_label in ((own["sex"], combo["c_sex"]), (own["age"], combo["c_age"]), (own["indicator"], combo["c_indicator"])):
+        a, b = _normalize_label(chart_label), _normalize_label(clean_label)
+        score += 2 if a == b else (1 if a and b and (a in b or b in a) else 0)
+    return score
+
+
+def _normalize_label(text: str) -> str:
+    return " ".join(str(text).lower().split())
+
+
 def _assign_origin(df: pd.DataFrame, cands: pd.DataFrame) -> pd.DataFrame:
-    """Per series, the clean file and labels that explain the most rows (ties: identical labels, then file name)."""
-    out = pd.DataFrame("", index=df.index, columns=MATCH_COLUMNS)
+    """Per series, the clean file and labels that explain the most rows.
+
+    Ties are broken by how much the clean labels resemble the chart's. A series whose best candidates
+    still tie is `ambiguous` (many series share a value by chance, a one-point series most of all): it
+    gets no file rather than a wrong one, because a wrong `calculation` would fail verification."""
+    out = pd.DataFrame("", index=df.index, columns=[*MATCH_COLUMNS, "ambiguous"])
     if cands.empty:
         return out
     for _, group in df.groupby(SERIES_KEYS, sort=False):
@@ -91,8 +109,13 @@ def _assign_origin(df: pd.DataFrame, cands: pd.DataFrame) -> pd.DataFrame:
             continue
         counts = c.groupby(MATCH_COLUMNS)["index"].nunique().rename("rows").reset_index()
         own = group.iloc[0]
-        counts["same"] = (counts["c_sex"] == own["sex"]) & (counts["c_age"] == own["age"]) & (counts["c_indicator"] == own["indicator"])
-        best = counts.sort_values(["rows", "same", "clean_file"], ascending=[False, False, True]).iloc[0]
+        counts["score"] = [_label_score(own, row) for _, row in counts.iterrows()]
+        ranked = counts.sort_values(["rows", "score", "clean_file"], ascending=[False, False, True])
+        best = ranked.iloc[0]
+        top = ranked[(ranked["rows"] == best["rows"]) & (ranked["score"] == best["score"])]
+        if len(top) > 1:
+            out.loc[group.index, "ambiguous"] = str(len(top))
+            continue
         hit = c[(c[MATCH_COLUMNS] == best[MATCH_COLUMNS]).all(axis=1)]["index"]
         out.loc[hit.to_numpy(), MATCH_COLUMNS] = [best[col] for col in MATCH_COLUMNS]
     return out
@@ -110,6 +133,8 @@ def _origin(group: pd.DataFrame) -> str:
     """Where a series comes from: the clean file and, when relabelled, that file's own labels."""
     matched = group[group["clean_file"] != ""]
     if matched.empty:
+        if (group["ambiguous"] != "").any():
+            return f"file=ambiguous({group['ambiguous'].iloc[0]} candidates; do not use for a calculation)"
         return "file=derived"
     combo = matched.groupby(["clean_file", "c_sex", "c_age", "c_indicator"]).size().sort_values(ascending=False)
     (file, c_sex, c_age, c_ind), count = combo.index[0], int(combo.iloc[0])

@@ -70,7 +70,7 @@ subagente, e `unit-done` (que **recusa** se a saída não existir ou for inváli
 | 2. Fontes | `data-researcher` | um eixo (ou grupo de eixos do mesmo organismo) | escreve `sources.d/<unidade>.csv`; `complete-phase 2` funde-os em `sources.csv` |
 | 3. Extração | `extractor` | um `source_id` testado | escreve `data/extract/<id>.json` (ou `.py`) e corre `common.extract`; `unit-done` valida parquet + manifesto |
 | 4. Análise | `analyst` | — | usa `common.breaks` para candidatos; regista só o que vale a pena |
-| 5. Eventos | `historian` | — | |
+| 5. Eventos | `historian` | — | depois, `uv run python -m common.verify events` confirma por código o `source_excerpt` de cada evento na sua página e define `verified`; eventos `no` não podem ser citados |
 | 6. Redação | `writer` | `pt`, depois `en` | `unit-start … 6 pt` gera por código `analysis/trends.csv`, `correlations.csv` (`common.trends`), `summary.md` e `series.csv` (`common.summarize`) para o `writer` ler em vez dos JSON; `pt` escreve `report.pt.qmd` + `claims.csv`; `en` traduz com os mesmos ids |
 | 7. Verificação | script, depois `verifier` | afirmações (estado em `claims.csv`) | ver abaixo |
 

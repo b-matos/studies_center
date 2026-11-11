@@ -189,7 +189,37 @@ def apply_results(study_dir: Path, results: list[VerificationResult]) -> list[st
     return [r.claim_id for r in results if not is_confirmed(r)]
 
 
+def verify_events(events_csv: Path) -> tuple[int, list[str]]:
+    """Check every event's `source_excerpt` against its `primary_source_url`, by code, as soon as the
+    historian records it, and set `verified` from the result (an agent's own "yes" is not enough).
+
+    Returns (events confirmed, ids not confirmed). Unreachable pages and JavaScript-only pages end up
+    `no`: the writer only cites verified events, so the gap shows up here and not in phase 7."""
+    from common.schemas import Event
+
+    events = read_csv(events_csv, Event)
+    unconfirmed = []
+    for event in events:
+        found = False
+        if event.source_excerpt and re.match(r"^https?://\S+$", event.primary_source_url):
+            found, _ = verify_excerpt(event.primary_source_url, event.source_excerpt)
+        event.verified = "yes" if found else "no"
+        if not found:
+            unconfirmed.append(event.id)
+    write_csv(events_csv, Event, events)
+    return len(events) - len(unconfirmed), unconfirmed
+
+
 def main() -> None:
+    if sys.argv[1:2] == ["events"]:
+        events_csv = Path(__file__).resolve().parent.parent / "events" / "events.csv"
+        try:
+            confirmed, unconfirmed = verify_events(events_csv)
+        except EnvironmentProblem as exc:
+            print(f"ENVIRONMENT: {exc}", file=sys.stderr)
+            raise SystemExit(3) from exc
+        print(f"{confirmed} events confirmed; unconfirmed: {','.join(unconfirmed) or 'none'}")
+        raise SystemExit(0)
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     apply = "--apply" in sys.argv
     if len(args) != 1:

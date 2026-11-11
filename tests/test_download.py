@@ -1,5 +1,6 @@
 import hashlib
 from pathlib import Path
+from typing import Self
 
 import httpx
 import pytest
@@ -19,7 +20,7 @@ class _FakeClient:
     def __init__(self, content: bytes, **kwargs) -> None:
         self._content = content
 
-    def __enter__(self) -> "_FakeClient":
+    def __enter__(self) -> Self:
         return self
 
     def __exit__(self, *exc) -> None:

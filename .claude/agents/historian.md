@@ -23,6 +23,12 @@ nem gráficos):
    `events/event_sources.md`). Só acrescentas a `events.csv` com `primary_source_url`
    preenchido; se só encontrares fonte noticiosa, regista-a em `secondary_source_url` e marca
    `verified = no` até confirmares.
+   **Regista sempre `source_excerpt`**: uma frase literal (menos de 15 palavras) que viste na página
+   de `primary_source_url`. O `common.verify events` abre essa página e só então põe `verified = yes`
+   (o teu "yes" não conta). Se a página só carrega com JavaScript (muitas do Diário da República) e
+   não consegues o texto, procura a mesma norma numa fonte estática (PDF do Diário da República,
+   EUR-Lex, parlamento.pt, gov.pt) e usa essa como `primary_source_url`. Sem excerto confirmável o
+   evento não pode ser citado no relatório. A fase 5 recusa ligações `linked` a eventos sem excerto.
 4. Regista a ligação em `event_links.csv` com um grau de evidência explícito:
    - **A** — uma fonte credível (estudo, avaliação de impacto, relatório oficial) estabelece
      a relação causal.

@@ -160,7 +160,7 @@ order. The orchestrator only moves on when the phase condition passes **in code*
 | 2 | Sources | `data-researcher` | an axis (or axes from the same provider) | `sources.d/*.csv` → `sources.csv` |
 | 3 | Extraction | `extractor` | a tested source | `data/extract/<id>.json`, `data/clean/*.parquet`, `data/raw_manifest.csv` |
 | 4 | Analysis | `analyst` | — | `analysis/*.py`, `analysis/out/*.json`, `breaks.csv` |
-| 5 | Events | `historian` | — | `events/events.csv`, `event_links.csv` (with grade A/B/C) |
+| 5 | Events | `historian` | — | `events/events.csv` (each event with a `source_excerpt`, confirmed on its page by `common.verify events`), `event_links.csv` (grade A/B/C) |
 | 6 | Writing | `writer` | language (`pt`, then `en`) | `report.pt.qmd`, `report.en.qmd`, `claims.csv` |
 | 7 | Verification | script + `verifier` | claim | `verification.md`, `verification_status` in `claims.csv` |
 | 8 | Publication | script | — | `status: published` + site build |
@@ -388,9 +388,8 @@ In order of impact on robustness:
 6. **Enforce the `verifier`'s restriction in code.** The hook only filters by path; limiting it
    to one column of `claims.csv` currently depends on the prompt. Validate by diff (only
    `verification_status` changed) before accepting the write.
-7. **Environment quality and reproducibility.** Fix the outstanding `ruff` warnings (some in
-   `tests/`) and make lint blocking in CI; pin the Quarto version and the actions by SHA; add
-   `pre-commit`.
+7. **Environment quality and reproducibility.** Pin the actions by SHA and add `pre-commit` (lint already
+   runs in CI; agent-written study scripts under `studies/` are excluded from it).
 8. **History hygiene.** Keep the GitHub `noreply` email and review the history before every
    major publication; keep `usage.csv` out of the public repository if cost is considered
    sensitive.

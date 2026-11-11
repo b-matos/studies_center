@@ -21,11 +21,14 @@ prefix from the URL, so the same output works at a domain root or under /<repo>/
 from __future__ import annotations
 
 import argparse
+import fcntl
 import html
 import re
 import shutil
 import subprocess
 import sys
+from collections.abc import Iterator
+from contextlib import contextmanager
 from pathlib import Path
 
 import pandas as pd
@@ -157,8 +160,10 @@ def _inject_study_header(qmd_text: str, study: dict, lang: str, has_data: bool) 
         f'<span>{copy["date"]} {html.escape(str(study.get("date", "")))}</span>',
     ]
     if has_data:
-        parts.append(f'<a class="btn-download" href="open_data.csv" download>{copy["download"]}</a>')
-        parts.append(f'<a class="btn-download" href="open_data_sources.csv" download>{copy["sources"]}</a>')
+        # one shared copy under <site root>/data/<slug>/ (a page is <lang>/studies/<slug>/index.html), not one per language
+        base = f"../../../data/{study['slug']}"
+        parts.append(f'<a class="btn-download" href="{base}/open_data.csv" download>{copy["download"]}</a>')
+        parts.append(f'<a class="btn-download" href="{base}/open_data_sources.csv" download>{copy["sources"]}</a>')
     bar = '\n<div class="study-meta">' + "".join(parts) + "</div>\n"
     end = qmd_text.find("\n---", 3)
     close = end + len("\n---")
@@ -307,6 +312,35 @@ def write_public_profiles() -> None:
         out.write_text(yaml.safe_dump(cfg, allow_unicode=True, sort_keys=False), encoding="utf-8")
 
 
+def publish_open_data(site_name: str = "_site") -> None:
+    """Copy each study's open-data export to <site_name>/data/<slug>/ once, shared by both languages."""
+    dest_root = SITE_DIR / site_name / "data"
+    if dest_root.exists():
+        shutil.rmtree(dest_root)
+    for study_out in sorted((SITE_DIR / "studies").glob("*")):
+        files = [f for f in study_out.glob("open_data*.csv")]
+        if files:
+            (dest_root / study_out.name).mkdir(parents=True, exist_ok=True)
+            for f in files:
+                shutil.copy2(f, dest_root / study_out.name / f.name)
+
+
+@contextmanager
+def build_lock() -> Iterator[None]:
+    """One build at a time: two renders sharing site/.quarto and site/studies would corrupt each other
+    (for example a manual build while the pipeline's publication phase runs)."""
+    with (SITE_DIR / ".build.lock").open("w") as handle:
+        try:
+            fcntl.flock(handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            print("another site build is running; waiting for it to finish...", file=sys.stderr)
+            fcntl.flock(handle, fcntl.LOCK_EX)
+        try:
+            yield
+        finally:
+            fcntl.flock(handle, fcntl.LOCK_UN)
+
+
 def render(profile: str) -> None:
     result = subprocess.run(
         ["quarto", "render", "--profile", profile],
@@ -321,6 +355,11 @@ def render(profile: str) -> None:
 
 
 def main(argv: list[str] | None = None) -> None:
+    with build_lock():
+        _build(argv)
+
+
+def _build(argv: list[str] | None) -> None:
     parser = argparse.ArgumentParser(description="Build the bilingual Quarto site.")
     parser.add_argument("--public", action="store_true",
                         help="read-only build for GitHub Pages into site/_site_public/")
@@ -351,6 +390,7 @@ def main(argv: list[str] | None = None) -> None:
     render(f"pt{suffix}")
     render(f"en{suffix}")
     copy_shared_assets(site_name, public=args.public)
+    publish_open_data(site_name)
     write_root_redirect(site_name)
 
 

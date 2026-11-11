@@ -114,7 +114,7 @@ def init(slug: str, titles: dict[str, str] | None = None) -> dict:
         meta = {
             "title_pt": titles.get("title_pt", slug), "title_en": titles.get("title_en", slug),
             "summary_pt": titles.get("summary_pt", ""), "summary_en": titles.get("summary_en", ""),
-            "date": datetime.now(UTC).strftime("%Y-%m-%d"), "status": "in_progress", "current_phase": 1,
+            "date": datetime.now(UTC).strftime("%Y-%m-%d"), "status": "in_progress",
         }
         study_yml.write_text(yaml.safe_dump(meta, allow_unicode=True, sort_keys=False), encoding="utf-8")
     if state_path(slug).exists():

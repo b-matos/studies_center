@@ -44,6 +44,9 @@ pythonpath = ["."]
 asyncio_mode = "auto"
 asyncio_default_fixture_loop_scope = "function"
 
+[tool.ruff]
+extend-exclude = ["studies"]  # agent-written analysis/extraction scripts are study data, not platform code
+
 [tool.ruff.lint]
 ignore = [
     "UP047",  # TypeVar-based generics are intentional here (broad Python version support)

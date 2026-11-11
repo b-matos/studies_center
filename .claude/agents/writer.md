@@ -81,10 +81,12 @@ Não tens internet, por isso **nunca inventes um URL nem um excerto**: o `common
   `calculation` (obrigatórios: o valor é recalculado por código). **Deixa `url` e `excerpt`
   vazios**: o código preenche-os a partir de `sources.csv` e do ficheiro bruto descarregado, e a
   verificação é a cadeia afirmação → `sources.csv` → parquet → manifesto (SHA-256) → URL da API.
-- **`event`, `link`, `fact`** (acontecimentos, leis, ligações): copia `url` e o excerto de
-  `events/events.csv`, `event_links.csv` ou `sources.csv`, que foram obtidos por agentes com
-  internet. Se não houver excerto registado, usa o título do evento tal como está no catálogo; o
-  `verifier` confirma ou propõe a correção. O `url` começa por `https://` ou `http://`.
+- **`event`, `link`** (acontecimentos, leis, ligações): `url` = `primary_source_url` e `excerpt` =
+  `source_excerpt` do evento em `events/events.csv`, copiados sem alterações. **Só citas eventos com
+  `verified = yes`** (confirmados por código na fase 5); um evento `no` não entra em afirmações nem
+  no texto como facto: se for relevante, diz na secção de limitações que existe mas não foi
+  confirmado. **`fact`** (outros factos): copia `url` e excerto de `sources.csv` ou das fontes já
+  registadas; sem excerto registado não escrevas a afirmação. O `url` começa por `https://` ou `http://`.
 - **`internal`** (afirmações sobre o próprio processo do estudo: uma fonte excluída, uma decisão
   do utilizador, o número de quebras em `breaks.csv`): `source_nature=internal`, `url` = caminho
   do ficheiro no repositório (por exemplo `studies/<slug>/decisions.md`) e `excerpt` = frase

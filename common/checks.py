@@ -19,9 +19,10 @@ import yaml
 from common import provenance
 from common.csv_io import read_csv
 from common.download import verify_manifest
-from common.schemas import Break, Claim, DataSource, EventLink
+from common.schemas import Break, Claim, DataSource, Event, EventLink
 
 STUDIES_ROOT = Path(__file__).resolve().parent.parent / "studies"
+EVENTS_CSV = Path(__file__).resolve().parent.parent / "events" / "events.csv"
 
 CLAIM_PATTERN = re.compile(r'\{\.claim\s+id="(c\d+)"\}')
 NUMBER_PATTERN = re.compile(r"\d[\d.,]*\s*%?")
@@ -118,7 +119,7 @@ def check_phase_3(slug: str) -> tuple[bool, list[str]]:
     return not problems, problems
 
 
-CHART_REQUIRED_KEYS = {"date", "value"}  # site/assets/charts.js reads these canonical English names
+CHART_REQUIRED_KEYS = {"date", "value", "source_id"}  # charts.js reads date/value; source_id lets common.summarize find the clean file
 
 
 def _chart_json_problems(path: Path, chart_id: str) -> list[str]:
@@ -171,13 +172,23 @@ def check_phase_5(slug: str) -> tuple[bool, list[str]]:
     for l in links:
         if l.status == "linked" and not l.grade:
             problems.append(f"ligação {l.id} está 'ligado' mas não tem grau A/B/C")
+    events = {e.id: e for e in read_csv(EVENTS_CSV, Event)}
+    for event_id in sorted({l.event_id for l in links if l.status == "linked" and l.event_id}):
+        event = events.get(event_id)
+        if event is None:
+            problems.append(f"evento {event_id} está em event_links.csv mas não em events/events.csv")
+        elif not event.source_excerpt or len(event.source_excerpt.split()) >= 15:
+            problems.append(f"evento {event_id}: falta source_excerpt (menos de 15 palavras, copiado da página de primary_source_url)")
     return not problems, problems
 
 
 def claim_row_problems(study_dir: Path, claims: list[Claim]) -> list[str]:
     """Rules every claims.csv row must satisfy before verification: what the writer can get wrong offline."""
     problems = []
+    unverified_urls = {e.primary_source_url for e in read_csv(EVENTS_CSV, Event) if e.verified != "yes"}
     for c in claims:
+        if c.type in ("event", "link") and c.url in unverified_urls:
+            problems.append(f"afirmação {c.id}: o evento de {c.url} não está verified=yes em events.csv; só se citam eventos confirmados")
         if c.source_nature == "internal":
             problems += [f"afirmação {c.id}: {p}" for p in provenance.internal_problems(study_dir, c)]
         elif c.type == "data":

@@ -236,3 +236,45 @@ def test_index_card_shows_title_and_summary_and_links_only_studies_with_a_report
     assert 'href="studies/has-report/index.html"' in text
     assert 'href="studies/no-report/index.html"' not in text
     assert "study-card-pending" in text and "Estudo no-report" in text
+
+
+def test_study_header_links_the_shared_data_directory(build_mod) -> None:
+    mod, _, studies_dir = build_mod
+    _make_study(studies_dir, "demo-1")
+    study = mod.load_studies()[0]
+    text = mod._inject_study_header("---\ntitle: x\n---\nbody", study, "en", has_data=True)
+    assert 'href="../../../data/demo-1/open_data.csv"' in text
+    assert 'href="../../../data/demo-1/open_data_sources.csv"' in text
+
+
+def test_publish_open_data_copies_once_for_both_languages(build_mod) -> None:
+    mod, site_dir, _ = build_mod
+    out = site_dir / "studies" / "demo-1"
+    out.mkdir(parents=True)
+    (out / "open_data.csv").write_text("a,b\n1,2\n", encoding="utf-8")
+    (out / "open_data_sources.csv").write_text("id\ns1\n", encoding="utf-8")
+    (site_dir / "_site").mkdir()
+
+    mod.publish_open_data("_site")
+    mod.publish_open_data("_site")  # rebuilds replace the folder
+
+    shared = site_dir / "_site" / "data" / "demo-1"
+    assert sorted(f.name for f in shared.iterdir()) == ["open_data.csv", "open_data_sources.csv"]
+
+
+def test_build_lock_makes_a_second_build_wait(build_mod) -> None:
+    import threading
+
+    mod, _, _ = build_mod
+    entered = threading.Event()
+
+    def second_build() -> None:
+        with mod.build_lock():
+            entered.set()
+
+    with mod.build_lock():
+        thread = threading.Thread(target=second_build, daemon=True)
+        thread.start()
+        assert not entered.wait(0.4)  # blocked while the first build holds the lock
+    assert entered.wait(3)
+    thread.join(3)
