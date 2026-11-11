@@ -25,6 +25,10 @@ from pathlib import Path
 from common import state
 from common.usage import UsageTracker, append_rows
 
+# One stream-json line holds a whole tool result; a Grep/Read over a big file is far above asyncio's
+# default 64 KiB line limit, which used to abort the reader and leave `claude` running unattended.
+STREAM_LINE_LIMIT = 256 * 1024 * 1024
+
 ROOT = Path(__file__).resolve().parent.parent
 LOGS_DIR = ROOT / "logs"
 
@@ -167,6 +171,7 @@ async def run_study(run_id: str, topic: str, on_event: OnEvent) -> RunResult:
         cwd=ROOT,
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE,
+        limit=STREAM_LINE_LIMIT,
         env={**os.environ, "CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS": BG_WAIT_CEILING_MS},
     )
     if sys.platform == "darwin":  # keep the Mac awake for as long as the run lasts
@@ -175,31 +180,35 @@ async def run_study(run_id: str, topic: str, on_event: OnEvent) -> RunResult:
     result_event: dict = {}
     last_plan: dict | None = None
     last_snapshot: dict | None = None
-    with log_path.open("w", encoding="utf-8") as log_file:
-        assert process.stdout is not None
-        async for raw_line in process.stdout:
-            line = raw_line.decode("utf-8", errors="replace").strip()
-            if not line:
-                continue
-            log_file.write(line + "\n")
-            try:
-                event = json.loads(line)
-            except json.JSONDecodeError:
-                continue
-            kind = event.get("type")
-            if kind == "result":
-                result_event = event
-            elif kind == "rate_limit_event" and (plan := _plan_usage(event)):
-                last_plan = plan
-                await on_event(plan)
-            elif tracker.observe(event):
-                await on_event({"type": "activity", "text": tracker.activity})
-                snapshot = _snapshot(tracker)
-                if snapshot and snapshot != last_snapshot:
-                    last_snapshot = snapshot
-                    await on_event({"type": "progress", **snapshot})
-                if text := _assistant_text(event):
-                    await on_event({"type": "log", "text": text[:500]})
+    try:
+        with log_path.open("w", encoding="utf-8") as log_file:
+            assert process.stdout is not None
+            async for raw_line in process.stdout:
+                line = raw_line.decode("utf-8", errors="replace").strip()
+                if not line:
+                    continue
+                log_file.write(line + "\n")
+                try:
+                    event = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                kind = event.get("type")
+                if kind == "result":
+                    result_event = event
+                elif kind == "rate_limit_event" and (plan := _plan_usage(event)):
+                    last_plan = plan
+                    await on_event(plan)
+                elif tracker.observe(event):
+                    await on_event({"type": "activity", "text": tracker.activity})
+                    snapshot = _snapshot(tracker)
+                    if snapshot and snapshot != last_snapshot:
+                        last_snapshot = snapshot
+                        await on_event({"type": "progress", **snapshot})
+                    if text := _assistant_text(event):
+                        await on_event({"type": "log", "text": text[:500]})
+    except BaseException:
+        process.kill()  # never leave an unattended `claude` running if we stop reading
+        raise
 
     stderr = (await process.stderr.read()).decode("utf-8", errors="replace") if process.stderr else ""
     returncode = await process.wait()
