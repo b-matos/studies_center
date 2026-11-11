@@ -171,8 +171,9 @@ def unit_start(slug: str, phase: int, unit: str) -> dict:
     save(slug, state)
     if phase == 6 and unit == "pt" and (STUDIES_ROOT / slug / "analysis" / "charts.yml").exists():
         # numbers the writer reads instead of the big chart JSON files
-        from common import summarize
+        from common import summarize, trends
 
+        trends.write_trends(STUDIES_ROOT / slug)  # before the summary, which quotes the trends
         summarize.write_summary(STUDIES_ROOT / slug)
     return state
 

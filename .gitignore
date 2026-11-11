@@ -23,6 +23,8 @@ site/studies/
 
 # Derived by common.summarize at the start of phase 6 (summary.md is kept: it documents the numbers)
 studies/*/analysis/series.csv
+studies/*/analysis/trends.csv
+studies/*/analysis/correlations.csv
 
 # Server logs and run history
 logs/

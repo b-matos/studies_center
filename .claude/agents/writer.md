@@ -19,7 +19,12 @@ Escreves `studies/<slug>/report.pt.qmd`, `studies/<slug>/report.en.qmd` e
    qualquer valor que lá não esteja, faz `Grep` em `analysis/series.csv` (uma observação por
    linha, por exemplo `q01_life_expectancy,2020`). **Não leias nem faças `Grep` aos
    `analysis/out/*.json`** (têm ~1 MB, um campo por linha: custam dezenas de milhares de tokens)
-   e nunca aos parquet. O `summary.md` é gerado por `common.summarize` no início da unidade `pt`;
+   e nunca aos parquet. Tendências (`[t0001]`: declive por ano, Theil-Sen + Mann-Kendall) e
+   correlações (`[r0001]`) vêm calculadas no `summary.md`; o `calculation` pronto de cada uma está
+   em `analysis/trends.csv` / `correlations.csv` (`Grep` o id). Diz "tendência crescente" só se a
+   direção for `increasing`/`decreasing`; `no_clear_trend` é "sem tendência clara". Correlações são
+   **associações** (sobre diferenças anuais), nunca causas, e podem ser mecânicas (uma parte e o
+   seu total): diz isso e o `n`. Se não houver nenhuma significativa, di-lo como resultado. O `summary.md` é gerado por `common.summarize` no início da unidade `pt`;
    se não existir, pára e diz ao orquestrador. Não acedes à internet — se precisares de confirmar
    algo que não está nestes ficheiros, falta informação a montante (volta para o agente anterior,
    não inventes).

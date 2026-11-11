@@ -157,13 +157,20 @@ def iter_chart_frames(study_dir: Path):
         yield chart_id, entry, df.join(_assign_origin(df, _candidates(df, clean)))
 
 
+def _read_table(path: Path) -> pd.DataFrame:
+    try:
+        return pd.read_csv(path, dtype=str, keep_default_na=False)
+    except pd.errors.EmptyDataError:  # nothing was testable (too few points)
+        return pd.DataFrame()
+
+
 def _trend_notes(study_dir: Path) -> dict[tuple, str]:
     """Trend text per (chart, series) from analysis/trends.csv, when `common.trends` has run."""
     path = study_dir / "analysis" / "trends.csv"
     if not path.exists():
         return {}
     notes = {}
-    for r in pd.read_csv(path, dtype=str, keep_default_na=False).itertuples(index=False):
+    for r in _read_table(path).itertuples(index=False):
         if r.direction == "insufficient_data":
             continue
         key = (r.chart, r.region, r.sex, r.age, r.indicator, r.unit)
@@ -176,7 +183,9 @@ def _correlation_section(study_dir: Path) -> list[str]:
     path = study_dir / "analysis" / "correlations.csv"
     if not path.exists():
         return []
-    df = pd.read_csv(path, dtype=str, keep_default_na=False)
+    df = _read_table(path)
+    if df.empty:
+        return []
     top = df[df["significant"] == "yes"].copy()
     top["abs_rho"] = top["rho"].astype(float).abs()
     top = top.sort_values("abs_rho", ascending=False).head(MAX_CORRELATIONS_LISTED)

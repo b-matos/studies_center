@@ -21,11 +21,13 @@ from io import BytesIO
 from pathlib import Path
 
 import httpx
+import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
 from pypdf import PdfReader
 from rapidfuzz import fuzz
 
+from common import trends
 from common.csv_io import read_csv, write_csv
 from common.schemas import Claim
 
@@ -92,7 +94,11 @@ def recompute_dado(study_dir: Path, claim: Claim) -> tuple[float | None, bool | 
     try:
         # calculo is a pandas query/eval expression written by the analyst, e.g.
         # "df.query('indicador == \"mortalidade_geral\" and data == \"2022-01-01\"').valor.sum()"
-        computed = eval(claim.calculation, {"df": df, "pd": pd})
+        env = {
+            "df": df, "pd": pd, "np": np, "slope": trends.slope, "corr_diff": trends.corr_diff,
+            "clean": lambda name: pd.read_parquet(study_dir / "data" / "clean" / name),
+        }
+        computed = eval(claim.calculation, env)
     except Exception as exc:
         return None, False, f"calculation failed: {exc}"
     computed = float(computed)
