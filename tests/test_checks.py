@@ -251,3 +251,24 @@ def test_phase_4_rejects_legacy_portuguese_chart_keys(study_dir: Path) -> None:
     ok, problems = checks.check_phase_4("test")
     assert not ok
     assert "canónicas" in problems[0]
+
+
+def _source(study_dir: Path, sid: str, license_text: str) -> None:
+    write_csv(
+        study_dir / "sources.csv",
+        DataSource,
+        [DataSource(id=sid, axis="x", name="n", organisation="INE", url="https://x", format="csv", license=license_text,
+                    temporal_coverage="2000-2020", geographic_coverage="PT", status="tested")],
+    )
+
+
+def test_license_gate_allows_open_licences(study_dir: Path) -> None:
+    for lic in ("CC BY 4.0 (INE)", "Eurostat reuse policy (reutilização livre com atribuição)", "CC0"):
+        _source(study_dir, "s1", lic)
+        assert checks.license_problems(study_dir) == [], lic
+
+
+def test_license_gate_blocks_restrictive_or_unknown_licences(study_dir: Path) -> None:
+    for lic in ("CC BY-NC-SA 3.0 IGO", "CC BY-ND 4.0", "uso não comercial", "licença desconhecida"):
+        _source(study_dir, "s1", lic)
+        assert len(checks.license_problems(study_dir)) == 1, lic

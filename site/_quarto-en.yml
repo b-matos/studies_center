@@ -3,6 +3,7 @@ project:
   render:
     - "index.en.qmd"
     - "events.en.qmd"
+    - "about.en.qmd"
     - "queue.en.qmd"
     - "studies/*/index.en.qmd"
 
@@ -15,13 +16,15 @@ format:
 website:
   title: "Studies on Portugal"
   page-footer:
-    center: "Open data · every claim carries a source, an excerpt and an access date"
+    center: "Open data · every claim carries a source, an excerpt and an access date · data: INE, Eurostat (CC BY 4.0 / reuse with attribution)"
   navbar:
     left:
       - href: index.en.qmd
         text: Studies
       - href: events.en.qmd
         text: Events
+      - href: about.en.qmd
+        text: About
       - href: queue.en.qmd
         text: Queue
     right:

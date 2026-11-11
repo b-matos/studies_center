@@ -3,6 +3,7 @@ project:
   render:
     - "index.pt.qmd"
     - "events.pt.qmd"
+    - "about.pt.qmd"
     - "queue.pt.qmd"
     - "studies/*/index.pt.qmd"
 
@@ -20,6 +21,8 @@ website:
         text: Estudos
       - href: events.pt.qmd
         text: Eventos
+      - href: about.pt.qmd
+        text: Sobre
       - href: queue.pt.qmd
         text: Fila
     right:

@@ -139,8 +139,8 @@ def _ensure_output_file(qmd_text: str) -> str:
 
 
 STUDY_HEADER = {
-    "pt": {"download": "Descarregar dados (CSV)", "date": "Publicado", "tests": "estudo de teste"},
-    "en": {"download": "Download data (CSV)", "date": "Published", "tests": "test study"},
+    "pt": {"download": "Descarregar dados (CSV)", "sources": "Fontes e licenças (CSV)", "date": "Publicado", "tests": "estudo de teste"},
+    "en": {"download": "Download data (CSV)", "sources": "Sources and licences (CSV)", "date": "Published", "tests": "test study"},
 }
 
 
@@ -154,6 +154,7 @@ def _inject_study_header(qmd_text: str, study: dict, lang: str, has_data: bool) 
     ]
     if has_data:
         parts.append(f'<a class="btn-download" href="open_data.csv" download>{copy["download"]}</a>')
+        parts.append(f'<a class="btn-download" href="open_data_sources.csv" download>{copy["sources"]}</a>')
     bar = '\n<div class="study-meta">' + "".join(parts) + "</div>\n"
     end = qmd_text.find("\n---", 3)
     close = end + len("\n---")
@@ -239,6 +240,9 @@ def export_open_clean_data(study: dict, out_dir: Path) -> None:
     if combined.empty:
         return
     combined.to_csv(out_dir / "open_data.csv", index=False)
+    used = set(combined["source_id"]) if "source_id" in combined.columns else open_ids
+    cols = [c for c in ("id", "name", "organisation", "url", "license") if c in sources.columns]
+    sources.loc[sources["id"].isin(used), cols].to_csv(out_dir / "open_data_sources.csv", index=False)  # attribution
 
 
 def export_events_json() -> None:

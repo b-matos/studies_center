@@ -269,9 +269,34 @@ def check_phase_7(slug: str) -> tuple[bool, list[str]]:
     return not problems, problems
 
 
+ALLOWED_LICENSE = re.compile(
+    r"CC[\s-]?BY(?![\s-]?(NC|ND|SA))|CC0|reutiliza|reuse|dom[ií]nio p[uú]blico|public domain|open government",
+    re.IGNORECASE,
+)
+BLOCKED_LICENSE = re.compile(r"\bNC\b|\bND\b|\bSA\b|n[aã]o[\s-]comercial|non[\s-]?commercial|sem[\s-]deriva", re.IGNORECASE)
+
+
+def license_problems(study_dir: Path) -> list[str]:
+    """Tested sources whose licence does not clearly allow redistributing derived data with attribution.
+
+    The clean data, chart JSON and open_data.csv are published, so a non-commercial, no-derivatives or
+    share-alike licence (or an unknown one) needs a human decision before the study can go out."""
+    path = study_dir / "sources.csv"
+    if not path.exists():
+        return []
+    problems = []
+    for src in read_csv(path, DataSource):
+        if src.status != "tested":
+            continue
+        lic = (src.license or "").strip()
+        if not lic or BLOCKED_LICENSE.search(lic) or not ALLOWED_LICENSE.search(lic):
+            problems.append(f"fonte {src.id} ({src.organisation}): licença '{lic or 'em falta'}' não permite publicar dados derivados; decisão do utilizador (pending.md)")
+    return problems
+
+
 def check_phase_8(slug: str) -> tuple[bool, list[str]]:
     site_root = Path(__file__).resolve().parent.parent / "site" / "_site"
-    problems = []
+    problems = license_problems(_study_dir(slug))
     for lang in ["pt", "en"]:
         index = site_root / lang / "index.html"
         study_page = site_root / lang / "studies" / slug / "index.html"

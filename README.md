@@ -337,10 +337,16 @@ are no quality tests for the *agents* themselves; see [Improvement ideas](#impro
 
 ## Licences and data attribution
 
-The clean data derives from official sources (INE, Eurostat, OECD, WHO, SNS…), each with its
-licence recorded in `sources.csv`. The site only exports for download (`open_data.csv`) the
-sources whose licence is **not** non-commercial. Always cite the original source. The licence of
-the code and texts in this repository is still to be defined (add a `LICENSE` file).
+- **Code:** MIT ([`LICENSE`](LICENSE)). **Texts, reports and charts:** CC BY 4.0 ([`LICENSE-CONTENT.md`](LICENSE-CONTENT.md)).
+- **Data** are not relicensed: each series keeps its source's licence, recorded in `sources.csv` (so far INE, CC BY 4.0,
+  and Eurostat, free reuse with attribution under Decision 2011/833/EU). Always cite the original provider.
+- **Code-enforced gate:** phase 8 (`common.checks`) refuses to publish a study with a tested source whose licence is
+  unknown, non-commercial, no-derivatives or share-alike (for example WHO GHO, CC BY-NC-SA); that needs a human decision.
+- `open_data.csv` is exported only from sources that pass the same test, and `open_data_sources.csv` ships with it
+  (id, name, organisation, URL, licence) for attribution.
+- The site has a *About* page (methodology, evidence grades, AI-assistance and editorial-responsibility notice, disclaimers,
+  licences, privacy). It loads no third-party fonts; Plotly still comes from the jsDelivr CDN (self-hosting it is on the
+  improvement list). This is not legal advice.
 
 ## Known limitations
 
@@ -392,5 +398,5 @@ In order of impact on robustness:
 11. **Clean-up.** `prompt_claude_code_estudos.md` is the original bootstrap prompt, with old
     names (`/estudo`); move it to `docs/` or remove it. `scripts/migrate_v1_names.py` is a
     one-off migration that has already been applied.
-12. **Licence.** Choose and add a `LICENSE` (for example MIT for code and CC BY 4.0 for texts),
-    respecting the licences of the underlying data.
+12. **Self-host Plotly** (and keep the site free of third-party requests) and re-check the terms of each new source
+    before the first study that uses it (OECD, SNS Transparência, WHO).

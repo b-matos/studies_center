@@ -13,14 +13,11 @@ format:
     smooth-scroll: true
     include-in-header:
       text: |
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
         <script src="/assets/lang-switch.js"></script>
 
 website:
   page-footer:
-    center: "Dados abertos · cada afirmação tem fonte, excerto e data de acesso"
+    center: "Dados abertos · cada afirmação tem fonte, excerto e data de acesso · dados: INE, Eurostat (CC BY 4.0 / reutilização com atribuição)"
 
 execute:
   echo: false

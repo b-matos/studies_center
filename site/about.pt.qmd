@@ -1,0 +1,30 @@
+---
+title: "Metodologia, licenças e avisos"
+output-file: about.html
+---
+
+## Como são feitos os estudos
+
+Cada estudo cruza séries oficiais com os eventos políticos e sociais que coincidem com as mudanças de tendência. Os números vêm de fontes primárias (INE, Eurostat e outros organismos oficiais) e cada afirmação tem uma fonte, um excerto curto e uma data de acesso. Os gráficos são gerados por código a partir dos dados guardados no repositório.
+
+**Graus de evidência nas ligações a eventos.** Grau A: uma fonte afirma que o evento contribuiu para a mudança ("contribuiu para"). Grau B: há um mecanismo plausível documentado ("pode ter contribuído"). Grau C: só há coincidência no tempo ("coincidiu com"). Coincidência não é causalidade. As correlações são associações estatísticas e não demonstram causas.
+
+## Produção com inteligência artificial
+
+Os textos são escritos com assistência de modelos de IA (Claude, da Anthropic) e verificados por código: os excertos e os valores de cada afirmação são confirmados automaticamente contra a fonte. **Esta verificação automática não substitui revisão editorial especializada.** A responsabilidade editorial é do autor do projeto ([b-matos](https://github.com/b-matos)); erros e pedidos de correção podem ser comunicados em [GitHub Issues](https://github.com/b-matos/studies_center/issues).
+
+## Avisos
+
+- O conteúdo é informativo e estatístico. **Não constitui aconselhamento médico, jurídico ou político.**
+- Este projeto é independente e **não é afiliado nem endossado** pelo INE, Eurostat ou outros organismos citados; os nomes são usados apenas para identificar as fontes.
+- Os dados podem ter sido reformatados ou derivados (taxas, diferenças, tendências). Os valores oficiais são os das fontes originais.
+
+## Licenças e atribuição
+
+- Código: [MIT](https://github.com/b-matos/studies_center/blob/main/LICENSE).
+- Textos, relatórios e gráficos: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); atribuir a "studies_center".
+- Dados: mantêm a licença da fonte. INE: CC BY 4.0. Eurostat: reutilização livre com indicação da fonte (Decisão 2011/833/UE). A lista de fontes, com a licença de cada uma, está em cada estudo, e o ficheiro `open_data_sources.csv` acompanha os dados para descarregar.
+
+## Privacidade
+
+Este site não usa cookies nem ferramentas de análise e não carrega fontes tipográficas de terceiros. Os gráficos usam a biblioteca Plotly, carregada a partir de uma rede de distribuição de conteúdos (jsDelivr), que recebe o endereço IP do visitante. O alojamento é do GitHub Pages, que pode registar endereços IP nos seus registos.
