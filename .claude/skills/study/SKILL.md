@@ -93,7 +93,7 @@ impasse em `studies/<slug>/pending.md` e para — não inventes dados nem fontes
 1. `uv run python -m common.verify studies/<slug> --apply` preenche `url` e `excerto` das afirmações `data` a partir da cadeia de proveniência e confirma por código o que consegue
    (`data`: cadeia sources.csv → parquet → manifesto → API e valor recalculado; `internal`: excerto no ficheiro do repositório; resto: excerto na página). Se imprimir `ENVIRONMENT:` (falta uma dependência), pára e diz ao utilizador: não é falha das afirmações e grava `verification_status`; só reverifica o que
    não está confirmado, por isso retoma sem refazer trabalho.
-2. Imprime `UNRESOLVED: c004,c010,...`. Lança o `verifier` só com esses ids (lotes de até 15),
+2. Imprime `FIX_BY_WRITER: ...` (regras que o `writer` quebrou: URL inválido, valor de `data` que não bate, excerto `internal` ausente; vão **direto ao `writer`** com o motivo que o `verify` imprimiu, sem passar pelo `verifier`) e `UNRESOLVED: c004,c010,...`. Lança o `verifier` só com esses ids (lotes de até 15),
    para os investigar à mão.
 3. O `verifier` nunca corrige o relatório. As falhadas voltam ao `writer` (máximo 3 voltas);
    se mesmo assim não confirmarem, o `writer` remove a afirmação em vez de a deixar sem fonte

@@ -46,6 +46,7 @@ class VerificationResult:
     value_recomputed: float | None
     value_matches: bool | None
     detail: str
+    needs_writer: bool = False  # a rule the writer broke (not a fact to check by hand): goes back to the writer
 
 
 @lru_cache(maxsize=256)  # many claims share one source page; fetch it once per run
@@ -126,17 +127,20 @@ def verify_study(study_dir: Path, *, only_pending: bool = False) -> list[Verific
         if claim.source_nature == "internal":  # a statement about the study's own process
             problems = provenance.internal_problems(study_dir, claim)
             results.append(VerificationResult(claim.id, not problems, None, None,
-                                              "; ".join(problems) or "internal: excerpt found in the repository file"))
+                                              "; ".join(problems) or "internal: excerpt found in the repository file",
+                                              needs_writer=bool(problems)))
             continue
         value, matches, value_detail = recompute_dado(study_dir, claim)
         if claim.type == "data":  # provenance chain instead of a JavaScript portal's page text
             problems = provenance.data_chain_problems(study_dir, claim)
             results.append(VerificationResult(claim.id, not problems, value, matches,
-                                              "; ".join(problems) or f"provenance chain proven; {value_detail}"))
+                                              "; ".join(problems) or f"provenance chain proven; {value_detail}",
+                                              needs_writer=bool(problems) or matches is False))
             continue
         if not re.match(r"^https?://\S+$", claim.url):
             results.append(VerificationResult(claim.id, False, value, matches,
-                                              f"url '{claim.url}' is not an http(s) URL (use source_nature=internal for repository files)"))
+                                              f"url '{claim.url}' is not an http(s) URL (use source_nature=internal for repository files)",
+                                              needs_writer=True))
             continue
         excerpt_found, excerpt_detail = verify_excerpt(claim.url, claim.excerpt)
         results.append(
@@ -201,10 +205,14 @@ def main() -> None:
     for r in results:
         print(f"[{'OK' if is_confirmed(r) else 'FALHOU'}] {r.claim_id}: {r.detail}")
     unresolved = apply_results(study_dir, results) if apply else [r.claim_id for r in results if not is_confirmed(r)]
+    by_writer = [r.claim_id for r in results if r.needs_writer and not is_confirmed(r)]
     print(f"\n{len(results)} afirmações, {len(unresolved)} por resolver")
+    if by_writer:  # broke a rule the writer controls: send these back to the writer, not to the verifier
+        print("FIX_BY_WRITER: " + ",".join(by_writer))
+        unresolved = [c for c in unresolved if c not in by_writer]
     if unresolved:
         print("UNRESOLVED: " + ",".join(unresolved))
-    raise SystemExit(1 if unresolved else 0)
+    raise SystemExit(1 if unresolved or by_writer else 0)
 
 
 if __name__ == "__main__":
