@@ -19,7 +19,7 @@ from pydantic import BaseModel
 from sse_starlette.sse import EventSourceResponse
 
 from common import usage
-from server import decisions, runner
+from server import decisions, publish, runner
 from server.queue import QueueError, StudyQueue
 from server.validation import InvalidTopic, validate_topic
 
@@ -107,10 +107,20 @@ class Hub:
         except Exception as exc:  # defensive: never let one bad run kill the server
             note = str(exc)
             await self.publish({"type": "error", "text": note})
+        note = getattr(result, "note", "") or note
+        slug = getattr(result, "slug", None)
+        if status == "done" and slug:
+            try:
+                published = await publish.publish_study(slug)
+            except Exception as exc:  # defensive: a git problem must not break the queue
+                published = f"push falhou: {exc}"
+            if published:
+                note = f"{note} · {published}" if note else published
+                await self.publish({"type": "activity", "text": published})
         self.queue.finish(
-            item["id"], status=status, slug=getattr(result, "slug", None),
+            item["id"], status=status, slug=slug,
             cost_usd=getattr(result, "cost_usd", 0.0), tokens=getattr(result, "tokens", 0),
-            resets_at=getattr(result, "resets_at", None), note=getattr(result, "note", "") or note,
+            resets_at=getattr(result, "resets_at", None), note=note,
         )
         await self.publish({"type": "end", "item_id": item["id"], "status": status})
         await self.publish_queue()

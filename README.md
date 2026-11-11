@@ -257,6 +257,18 @@ do URL).
 
 Publicar um estudo = fase 8 do `/study` (`status: published` em `study.yml`) + push.
 
+**Push automático (opcional).** Se o servidor local arrancar com `STUDIES_AUTO_PUSH=1`, no fim
+de uma execução que publicou um estudo o servidor (`server/publish.py`) faz o commit do que
+faltar e o `git push origin main`, o que dispara o workflow do Pages. O push é feito pelo
+servidor e nunca pelo agente (`git push` continua negado em `.claude/settings.json`). Só corre
+se: o estudo estiver `published` com a fase 8 concluída, o branch for `main`, o remote existir
+(`STUDIES_PUSH_REMOTE`, por omissão `origin`) e não houver outras alterações por commitar. O
+resultado aparece na nota do item na página Fila. Desligado por omissão.
+
+```bash
+STUDIES_AUTO_PUSH=1 uv run python -m server.app
+```
+
 ## Testes
 
 `tests/` cobre o estado e a retoma, as verificações de fase, a extração, a normalização, os
