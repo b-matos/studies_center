@@ -225,3 +225,29 @@ def test_phase_7_flags_pending_claims(study_dir: Path) -> None:
     ok, problems = checks.check_phase_7("test")
     assert not ok
     assert any("c001" in p for p in problems)
+
+
+def _chart_study(study_dir: Path, record: dict) -> None:
+    import json
+
+    (study_dir / "analysis" / "out").mkdir(parents=True)
+    (study_dir / "analysis" / "out" / "c1.json").write_text(json.dumps([record]), encoding="utf-8")
+    (study_dir / "analysis" / "charts.yml").write_text("c1:\n  data_file: c1.json\n  axis: x\n", encoding="utf-8")
+    write_csv(
+        study_dir / "breaks.csv",
+        Break,
+        [Break(id="q1", series="s", axis="x", date="2010-01-01", type="level", magnitude=1.0, method="pelt")],
+    )
+
+
+def test_phase_4_accepts_canonical_chart_keys(study_dir: Path) -> None:
+    _chart_study(study_dir, {"date": "2010-01-01", "region": "Portugal", "value": 1.0})
+    ok, problems = checks.check_phase_4("test")
+    assert ok, problems
+
+
+def test_phase_4_rejects_legacy_portuguese_chart_keys(study_dir: Path) -> None:
+    _chart_study(study_dir, {"data": "2010-01-01", "regiao": "Portugal", "valor": 1.0})
+    ok, problems = checks.check_phase_4("test")
+    assert not ok
+    assert "canónicas" in problems[0]

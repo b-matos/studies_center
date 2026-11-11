@@ -1,785 +1,785 @@
 [
 {
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 474.7,
-"unidade": "per 100000"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 248.9,
-"unidade": "per 100000"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 357.5,
-"unidade": "per 100000"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 461.3,
-"unidade": "per 100000"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 239.4,
-"unidade": "per 100000"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 346.1,
-"unidade": "per 100000"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 430.0,
-"unidade": "per 100000"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 222.8,
-"unidade": "per 100000"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 322.4,
-"unidade": "per 100000"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 411.6,
-"unidade": "per 100000"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 216.8,
-"unidade": "per 100000"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 310.5,
-"unidade": "per 100000"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 387.2,
-"unidade": "per 100000"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 193.6,
-"unidade": "per 100000"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 286.7,
-"unidade": "per 100000"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 378.6,
-"unidade": "per 100000"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 193.5,
-"unidade": "per 100000"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 282.5,
-"unidade": "per 100000"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 376.4,
-"unidade": "per 100000"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 190.1,
-"unidade": "per 100000"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 279.7,
-"unidade": "per 100000"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 375.4,
-"unidade": "per 100000"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 190.5,
-"unidade": "per 100000"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 279.4,
-"unidade": "per 100000"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 372.4,
-"unidade": "per 100000"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 181.0,
-"unidade": "per 100000"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 272.9,
-"unidade": "per 100000"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 370.2,
-"unidade": "per 100000"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 183.7,
-"unidade": "per 100000"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 273.1,
-"unidade": "per 100000"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 368.5,
-"unidade": "per 100000"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 179.5,
-"unidade": "per 100000"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 269.9,
-"unidade": "per 100000"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 372.1,
-"unidade": "per 100000"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 174.5,
-"unidade": "per 100000"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 268.8,
-"unidade": "per 100000"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 391.5,
-"unidade": "per 100000"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 182.9,
-"unidade": "per 100000"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 282.2,
-"unidade": "per 100000"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 396.2,
-"unidade": "per 100000"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 181.3,
-"unidade": "per 100000"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 283.3,
-"unidade": "per 100000"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 401.8,
-"unidade": "per 100000"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 184.5,
-"unidade": "per 100000"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 287.6,
-"unidade": "per 100000"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 399.9,
-"unidade": "per 100000"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 187.7,
-"unidade": "per 100000"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 288.2,
-"unidade": "per 100000"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 405.0,
-"unidade": "per 100000"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 182.4,
-"unidade": "per 100000"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 287.7,
-"unidade": "per 100000"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 405.8,
-"unidade": "per 100000"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 183.3,
-"unidade": "per 100000"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 288.5,
-"unidade": "per 100000"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 365.6,
-"unidade": "per 100000"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 163.6,
-"unidade": "per 100000"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 258.5,
-"unidade": "per 100000"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 382.4,
-"unidade": "per 100000"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 181.8,
-"unidade": "per 100000"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 277.4,
-"unidade": "per 100000"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 379.8,
-"unidade": "per 100000"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 181.4,
-"unidade": "per 100000"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 276.2,
-"unidade": "per 100000"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 370.7,
-"unidade": "per 100000"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 180.1,
-"unidade": "per 100000"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 271.3,
-"unidade": "per 100000"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 370.8,
-"unidade": "per 100000"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 173.3,
-"unidade": "per 100000"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "premature_mortality_rate_30_70",
-"valor": 267.9,
-"unidade": "per 100000"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 455.8,
-"unidade": "per 100000"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 202.5,
-"unidade": "per 100000"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 320.0,
-"unidade": "per 100000"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 480.2,
-"unidade": "per 100000"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 210.9,
-"unidade": "per 100000"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 336.2,
-"unidade": "per 100000"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 482.9,
-"unidade": "per 100000"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 213.1,
-"unidade": "per 100000"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 338.9,
-"unidade": "per 100000"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 460.0,
-"unidade": "per 100000"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 205.4,
-"unidade": "per 100000"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 324.3,
-"unidade": "per 100000"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 441.6,
-"unidade": "per 100000"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 197.0,
-"unidade": "per 100000"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 311.3,
-"unidade": "per 100000"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 428.6,
-"unidade": "per 100000"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 192.6,
-"unidade": "per 100000"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "",
-"indicador": "standardised_mortality_rate_under75",
-"valor": 302.8,
-"unidade": "per 100000"
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 474.7,
+"unit": "per 100000"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 248.9,
+"unit": "per 100000"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 357.5,
+"unit": "per 100000"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 461.3,
+"unit": "per 100000"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 239.4,
+"unit": "per 100000"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 346.1,
+"unit": "per 100000"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 430.0,
+"unit": "per 100000"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 222.8,
+"unit": "per 100000"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 322.4,
+"unit": "per 100000"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 411.6,
+"unit": "per 100000"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 216.8,
+"unit": "per 100000"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 310.5,
+"unit": "per 100000"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 387.2,
+"unit": "per 100000"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 193.6,
+"unit": "per 100000"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 286.7,
+"unit": "per 100000"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 378.6,
+"unit": "per 100000"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 193.5,
+"unit": "per 100000"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 282.5,
+"unit": "per 100000"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 376.4,
+"unit": "per 100000"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 190.1,
+"unit": "per 100000"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 279.7,
+"unit": "per 100000"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 375.4,
+"unit": "per 100000"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 190.5,
+"unit": "per 100000"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 279.4,
+"unit": "per 100000"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 372.4,
+"unit": "per 100000"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 181.0,
+"unit": "per 100000"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 272.9,
+"unit": "per 100000"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 370.2,
+"unit": "per 100000"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 183.7,
+"unit": "per 100000"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 273.1,
+"unit": "per 100000"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 368.5,
+"unit": "per 100000"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 179.5,
+"unit": "per 100000"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 269.9,
+"unit": "per 100000"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 372.1,
+"unit": "per 100000"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 174.5,
+"unit": "per 100000"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 268.8,
+"unit": "per 100000"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 391.5,
+"unit": "per 100000"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 182.9,
+"unit": "per 100000"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 282.2,
+"unit": "per 100000"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 396.2,
+"unit": "per 100000"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 181.3,
+"unit": "per 100000"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 283.3,
+"unit": "per 100000"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 401.8,
+"unit": "per 100000"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 184.5,
+"unit": "per 100000"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 287.6,
+"unit": "per 100000"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 399.9,
+"unit": "per 100000"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 187.7,
+"unit": "per 100000"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 288.2,
+"unit": "per 100000"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 405.0,
+"unit": "per 100000"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 182.4,
+"unit": "per 100000"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 287.7,
+"unit": "per 100000"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 405.8,
+"unit": "per 100000"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 183.3,
+"unit": "per 100000"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 288.5,
+"unit": "per 100000"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 365.6,
+"unit": "per 100000"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 163.6,
+"unit": "per 100000"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 258.5,
+"unit": "per 100000"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 382.4,
+"unit": "per 100000"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 181.8,
+"unit": "per 100000"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 277.4,
+"unit": "per 100000"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 379.8,
+"unit": "per 100000"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 181.4,
+"unit": "per 100000"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 276.2,
+"unit": "per 100000"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 370.7,
+"unit": "per 100000"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 180.1,
+"unit": "per 100000"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 271.3,
+"unit": "per 100000"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 370.8,
+"unit": "per 100000"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 173.3,
+"unit": "per 100000"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "premature_mortality_rate_30_70",
+"value": 267.9,
+"unit": "per 100000"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 455.8,
+"unit": "per 100000"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 202.5,
+"unit": "per 100000"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 320.0,
+"unit": "per 100000"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 480.2,
+"unit": "per 100000"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 210.9,
+"unit": "per 100000"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 336.2,
+"unit": "per 100000"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 482.9,
+"unit": "per 100000"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 213.1,
+"unit": "per 100000"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 338.9,
+"unit": "per 100000"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 460.0,
+"unit": "per 100000"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 205.4,
+"unit": "per 100000"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 324.3,
+"unit": "per 100000"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 441.6,
+"unit": "per 100000"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 197.0,
+"unit": "per 100000"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 311.3,
+"unit": "per 100000"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 428.6,
+"unit": "per 100000"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 192.6,
+"unit": "per 100000"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "",
+"indicator": "standardised_mortality_rate_under75",
+"value": 302.8,
+"unit": "per 100000"
 }
 ]

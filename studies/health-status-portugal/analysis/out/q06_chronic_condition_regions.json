@@ -1,182 +1,182 @@
 [
 {
-"data": "2024-01-01",
-"regiao": "Norte",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 41.5,
-"unidade": "%"
+"date": "2024-01-01",
+"region": "Norte",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 41.5,
+"unit": "%"
 },
 {
-"data": "2024-01-01",
-"regiao": "Algarve",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 40.2,
-"unidade": "%"
+"date": "2024-01-01",
+"region": "Algarve",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 40.2,
+"unit": "%"
 },
 {
-"data": "2024-01-01",
-"regiao": "Centro",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 45.8,
-"unidade": "%"
+"date": "2024-01-01",
+"region": "Centro",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 45.8,
+"unit": "%"
 },
 {
-"data": "2024-01-01",
-"regiao": "Grande Lisboa",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 41.1,
-"unidade": "%"
+"date": "2024-01-01",
+"region": "Grande Lisboa",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 41.1,
+"unit": "%"
 },
 {
-"data": "2024-01-01",
-"regiao": "Península de Setúbal",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 40.0,
-"unidade": "%"
+"date": "2024-01-01",
+"region": "Península de Setúbal",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 40.0,
+"unit": "%"
 },
 {
-"data": "2024-01-01",
-"regiao": "Alentejo",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 38.7,
-"unidade": "%"
+"date": "2024-01-01",
+"region": "Alentejo",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 38.7,
+"unit": "%"
 },
 {
-"data": "2024-01-01",
-"regiao": "Oeste e Vale do Tejo",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 46.6,
-"unidade": "%"
+"date": "2024-01-01",
+"region": "Oeste e Vale do Tejo",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 46.6,
+"unit": "%"
 },
 {
-"data": "2024-01-01",
-"regiao": "Região Autónoma dos Açores",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 41.5,
-"unidade": "%"
+"date": "2024-01-01",
+"region": "Região Autónoma dos Açores",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 41.5,
+"unit": "%"
 },
 {
-"data": "2024-01-01",
-"regiao": "Região Autónoma da Madeira",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 44.3,
-"unidade": "%"
+"date": "2024-01-01",
+"region": "Região Autónoma da Madeira",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 44.3,
+"unit": "%"
 },
 {
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 42.3,
-"unidade": "%"
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 42.3,
+"unit": "%"
 },
 {
-"data": "2025-01-01",
-"regiao": "Norte",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 45.2,
-"unidade": "%"
+"date": "2025-01-01",
+"region": "Norte",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 45.2,
+"unit": "%"
 },
 {
-"data": "2025-01-01",
-"regiao": "Algarve",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 38.5,
-"unidade": "%"
+"date": "2025-01-01",
+"region": "Algarve",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 38.5,
+"unit": "%"
 },
 {
-"data": "2025-01-01",
-"regiao": "Centro",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 46.8,
-"unidade": "%"
+"date": "2025-01-01",
+"region": "Centro",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 46.8,
+"unit": "%"
 },
 {
-"data": "2025-01-01",
-"regiao": "Grande Lisboa",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 42.1,
-"unidade": "%"
+"date": "2025-01-01",
+"region": "Grande Lisboa",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 42.1,
+"unit": "%"
 },
 {
-"data": "2025-01-01",
-"regiao": "Península de Setúbal",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 40.3,
-"unidade": "%"
+"date": "2025-01-01",
+"region": "Península de Setúbal",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 40.3,
+"unit": "%"
 },
 {
-"data": "2025-01-01",
-"regiao": "Alentejo",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 41.0,
-"unidade": "%"
+"date": "2025-01-01",
+"region": "Alentejo",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 41.0,
+"unit": "%"
 },
 {
-"data": "2025-01-01",
-"regiao": "Oeste e Vale do Tejo",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 46.7,
-"unidade": "%"
+"date": "2025-01-01",
+"region": "Oeste e Vale do Tejo",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 46.7,
+"unit": "%"
 },
 {
-"data": "2025-01-01",
-"regiao": "Região Autónoma dos Açores",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 43.2,
-"unidade": "%"
+"date": "2025-01-01",
+"region": "Região Autónoma dos Açores",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 43.2,
+"unit": "%"
 },
 {
-"data": "2025-01-01",
-"regiao": "Região Autónoma da Madeira",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 47.5,
-"unidade": "%"
+"date": "2025-01-01",
+"region": "Região Autónoma da Madeira",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 47.5,
+"unit": "%"
 },
 {
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "chronic_condition_share_nuts",
-"valor": 44.1,
-"unidade": "%"
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "chronic_condition_share_nuts",
+"value": 44.1,
+"unit": "%"
 }
 ]

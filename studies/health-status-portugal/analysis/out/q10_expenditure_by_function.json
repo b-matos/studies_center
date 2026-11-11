@@ -1,2405 +1,2405 @@
 [
 {
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 53.88,
-"unidade": "PC_CHE"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 53.52,
-"unidade": "PC_CHE"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 53.77,
-"unidade": "PC_CHE"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 54.58,
-"unidade": "PC_CHE"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 54.51,
-"unidade": "PC_CHE"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 55.07,
-"unidade": "PC_CHE"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 55.02,
-"unidade": "PC_CHE"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 54.8,
-"unidade": "PC_CHE"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 54.87,
-"unidade": "PC_CHE"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 56.06,
-"unidade": "PC_CHE"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 56.55,
-"unidade": "PC_CHE"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 56.79,
-"unidade": "PC_CHE"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 58.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 59.12,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 58.95,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 58.44,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 59.19,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 59.57,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 60.15,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 60.29,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 59.26,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 58.58,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 59.21,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 61.28,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC1",
-"valor": 61.91,
-"unidade": "PC_CHE"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 3.88,
-"unidade": "PC_CHE"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 3.89,
-"unidade": "PC_CHE"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 3.89,
-"unidade": "PC_CHE"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 3.96,
-"unidade": "PC_CHE"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 3.92,
-"unidade": "PC_CHE"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.1,
-"unidade": "PC_CHE"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 3.94,
-"unidade": "PC_CHE"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 3.85,
-"unidade": "PC_CHE"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.24,
-"unidade": "PC_CHE"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.39,
-"unidade": "PC_CHE"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.64,
-"unidade": "PC_CHE"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.97,
-"unidade": "PC_CHE"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.88,
-"unidade": "PC_CHE"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.59,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.68,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.76,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.56,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.49,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.35,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.23,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.07,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 3.91,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 3.9,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 3.99,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC2",
-"valor": 4.06,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 15.45,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 15.4,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 15.55,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 16.19,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 16.36,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 16.45,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 16.7,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 16.05,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 16.37,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 17.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 17.21,
-"unidade": "PC_CHE"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 3.38,
-"unidade": "PC_CHE"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 3.42,
-"unidade": "PC_CHE"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 3.42,
-"unidade": "PC_CHE"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 3.24,
-"unidade": "PC_CHE"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 3.19,
-"unidade": "PC_CHE"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 2.97,
-"unidade": "PC_CHE"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 3.1,
-"unidade": "PC_CHE"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 3.28,
-"unidade": "PC_CHE"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 3.34,
-"unidade": "PC_CHE"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 3.45,
-"unidade": "PC_CHE"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 3.45,
-"unidade": "PC_CHE"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 3.66,
-"unidade": "PC_CHE"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 3.97,
-"unidade": "PC_CHE"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 4.24,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 4.51,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 4.73,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 4.86,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 4.88,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 4.93,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 4.89,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 4.96,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 4.78,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 4.9,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 5.15,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC3",
-"valor": 5.13,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 5.06,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 5.08,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 5.08,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 5.07,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 5.05,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 5.06,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 5.04,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 5.03,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 5.09,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 5.09,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 5.05,
-"unidade": "PC_CHE"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 7.84,
-"unidade": "PC_CHE"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 8.14,
-"unidade": "PC_CHE"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 8.11,
-"unidade": "PC_CHE"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 8.32,
-"unidade": "PC_CHE"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 8.45,
-"unidade": "PC_CHE"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 8.3,
-"unidade": "PC_CHE"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 8.08,
-"unidade": "PC_CHE"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 8.2,
-"unidade": "PC_CHE"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 8.54,
-"unidade": "PC_CHE"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 8.32,
-"unidade": "PC_CHE"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 7.99,
-"unidade": "PC_CHE"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 7.91,
-"unidade": "PC_CHE"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 7.86,
-"unidade": "PC_CHE"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 7.84,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 7.9,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 8.15,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 7.82,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 7.69,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 7.56,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 7.56,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 7.51,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 8.6,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 8.06,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 7.63,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC4",
-"valor": 7.55,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 19.02,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 19.11,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 19.07,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 18.75,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 18.62,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 18.4,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 17.86,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 17.51,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 17.36,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 17.44,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 17.45,
-"unidade": "PC_CHE"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 26.39,
-"unidade": "PC_CHE"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 26.55,
-"unidade": "PC_CHE"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 26.55,
-"unidade": "PC_CHE"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 25.87,
-"unidade": "PC_CHE"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 25.66,
-"unidade": "PC_CHE"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 25.44,
-"unidade": "PC_CHE"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 25.75,
-"unidade": "PC_CHE"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 25.7,
-"unidade": "PC_CHE"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 24.77,
-"unidade": "PC_CHE"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 23.75,
-"unidade": "PC_CHE"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 23.03,
-"unidade": "PC_CHE"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 22.19,
-"unidade": "PC_CHE"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 20.96,
-"unidade": "PC_CHE"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 20.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 19.79,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 19.81,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 19.44,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 19.23,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 18.85,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 18.9,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 19.58,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 18.49,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 18.34,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 17.37,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC5",
-"valor": 16.81,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.99,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.98,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.98,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 3.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 3.01,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 3.06,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 3.61,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 6.32,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 5.72,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 3.64,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 3.3,
-"unidade": "PC_CHE"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.69,
-"unidade": "PC_CHE"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.66,
-"unidade": "PC_CHE"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.63,
-"unidade": "PC_CHE"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.54,
-"unidade": "PC_CHE"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.5,
-"unidade": "PC_CHE"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.41,
-"unidade": "PC_CHE"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.19,
-"unidade": "PC_CHE"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.23,
-"unidade": "PC_CHE"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.34,
-"unidade": "PC_CHE"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.24,
-"unidade": "PC_CHE"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.27,
-"unidade": "PC_CHE"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.3,
-"unidade": "PC_CHE"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.17,
-"unidade": "PC_CHE"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.02,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 1.98,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 1.97,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 1.95,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 1.93,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 1.91,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.03,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 3.27,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 3.33,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.27,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC6",
-"valor": 2.15,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 3.92,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 3.87,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 3.87,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 3.81,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 3.81,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 3.68,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 3.68,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 3.54,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 3.54,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 3.56,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 3.5,
-"unidade": "PC_CHE"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 1.87,
-"unidade": "PC_CHE"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 1.73,
-"unidade": "PC_CHE"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 1.51,
-"unidade": "PC_CHE"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 1.39,
-"unidade": "PC_CHE"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 1.67,
-"unidade": "PC_CHE"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 1.61,
-"unidade": "PC_CHE"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 1.83,
-"unidade": "PC_CHE"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 1.85,
-"unidade": "PC_CHE"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 1.82,
-"unidade": "PC_CHE"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 1.69,
-"unidade": "PC_CHE"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 1.98,
-"unidade": "PC_CHE"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.08,
-"unidade": "PC_CHE"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.06,
-"unidade": "PC_CHE"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.1,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.07,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.03,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.06,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.09,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.14,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.11,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.48,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.28,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.15,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.21,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "HC7",
-"valor": 2.29,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "TOT_HC",
-"valor": 100.0,
-"unidade": "PC_CHE"
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 53.88,
+"unit": "PC_CHE"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 53.52,
+"unit": "PC_CHE"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 53.77,
+"unit": "PC_CHE"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 54.58,
+"unit": "PC_CHE"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 54.51,
+"unit": "PC_CHE"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 55.07,
+"unit": "PC_CHE"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 55.02,
+"unit": "PC_CHE"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 54.8,
+"unit": "PC_CHE"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 54.87,
+"unit": "PC_CHE"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 56.06,
+"unit": "PC_CHE"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 56.55,
+"unit": "PC_CHE"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 56.79,
+"unit": "PC_CHE"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 58.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 59.12,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 58.95,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 58.44,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 59.19,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 59.57,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 60.15,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 60.29,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 59.26,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 58.58,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 59.21,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 61.28,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC1",
+"value": 61.91,
+"unit": "PC_CHE"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 3.88,
+"unit": "PC_CHE"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 3.89,
+"unit": "PC_CHE"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 3.89,
+"unit": "PC_CHE"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 3.96,
+"unit": "PC_CHE"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 3.92,
+"unit": "PC_CHE"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.1,
+"unit": "PC_CHE"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 3.94,
+"unit": "PC_CHE"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 3.85,
+"unit": "PC_CHE"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.24,
+"unit": "PC_CHE"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.39,
+"unit": "PC_CHE"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.64,
+"unit": "PC_CHE"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.97,
+"unit": "PC_CHE"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.88,
+"unit": "PC_CHE"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.59,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.68,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.76,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.56,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.49,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.35,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.23,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.07,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 3.91,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 3.9,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 3.99,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC2",
+"value": 4.06,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 15.45,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 15.4,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 15.55,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 16.19,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 16.36,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 16.45,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 16.7,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 16.05,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 16.37,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 17.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 17.21,
+"unit": "PC_CHE"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 3.38,
+"unit": "PC_CHE"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 3.42,
+"unit": "PC_CHE"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 3.42,
+"unit": "PC_CHE"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 3.24,
+"unit": "PC_CHE"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 3.19,
+"unit": "PC_CHE"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 2.97,
+"unit": "PC_CHE"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 3.1,
+"unit": "PC_CHE"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 3.28,
+"unit": "PC_CHE"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 3.34,
+"unit": "PC_CHE"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 3.45,
+"unit": "PC_CHE"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 3.45,
+"unit": "PC_CHE"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 3.66,
+"unit": "PC_CHE"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 3.97,
+"unit": "PC_CHE"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 4.24,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 4.51,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 4.73,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 4.86,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 4.88,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 4.93,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 4.89,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 4.96,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 4.78,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 4.9,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 5.15,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC3",
+"value": 5.13,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 5.06,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 5.08,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 5.08,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 5.07,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 5.05,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 5.06,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 5.04,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 5.03,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 5.09,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 5.09,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 5.05,
+"unit": "PC_CHE"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 7.84,
+"unit": "PC_CHE"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 8.14,
+"unit": "PC_CHE"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 8.11,
+"unit": "PC_CHE"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 8.32,
+"unit": "PC_CHE"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 8.45,
+"unit": "PC_CHE"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 8.3,
+"unit": "PC_CHE"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 8.08,
+"unit": "PC_CHE"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 8.2,
+"unit": "PC_CHE"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 8.54,
+"unit": "PC_CHE"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 8.32,
+"unit": "PC_CHE"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 7.99,
+"unit": "PC_CHE"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 7.91,
+"unit": "PC_CHE"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 7.86,
+"unit": "PC_CHE"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 7.84,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 7.9,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 8.15,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 7.82,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 7.69,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 7.56,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 7.56,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 7.51,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 8.6,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 8.06,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 7.63,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC4",
+"value": 7.55,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 19.02,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 19.11,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 19.07,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 18.75,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 18.62,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 18.4,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 17.86,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 17.51,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 17.36,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 17.44,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 17.45,
+"unit": "PC_CHE"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 26.39,
+"unit": "PC_CHE"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 26.55,
+"unit": "PC_CHE"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 26.55,
+"unit": "PC_CHE"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 25.87,
+"unit": "PC_CHE"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 25.66,
+"unit": "PC_CHE"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 25.44,
+"unit": "PC_CHE"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 25.75,
+"unit": "PC_CHE"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 25.7,
+"unit": "PC_CHE"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 24.77,
+"unit": "PC_CHE"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 23.75,
+"unit": "PC_CHE"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 23.03,
+"unit": "PC_CHE"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 22.19,
+"unit": "PC_CHE"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 20.96,
+"unit": "PC_CHE"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 20.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 19.79,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 19.81,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 19.44,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 19.23,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 18.85,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 18.9,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 19.58,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 18.49,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 18.34,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 17.37,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC5",
+"value": 16.81,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.99,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.98,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.98,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 3.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 3.01,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 3.06,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 3.61,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 6.32,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 5.72,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 3.64,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 3.3,
+"unit": "PC_CHE"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.69,
+"unit": "PC_CHE"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.66,
+"unit": "PC_CHE"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.63,
+"unit": "PC_CHE"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.54,
+"unit": "PC_CHE"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.5,
+"unit": "PC_CHE"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.41,
+"unit": "PC_CHE"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.19,
+"unit": "PC_CHE"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.23,
+"unit": "PC_CHE"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.34,
+"unit": "PC_CHE"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.24,
+"unit": "PC_CHE"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.27,
+"unit": "PC_CHE"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.3,
+"unit": "PC_CHE"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.17,
+"unit": "PC_CHE"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.02,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 1.98,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 1.97,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 1.95,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 1.93,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 1.91,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.03,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 3.27,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 3.33,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.27,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC6",
+"value": 2.15,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 3.92,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 3.87,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 3.87,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 3.81,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 3.81,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 3.68,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 3.68,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 3.54,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 3.54,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 3.56,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 3.5,
+"unit": "PC_CHE"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 1.87,
+"unit": "PC_CHE"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 1.73,
+"unit": "PC_CHE"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 1.51,
+"unit": "PC_CHE"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 1.39,
+"unit": "PC_CHE"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 1.67,
+"unit": "PC_CHE"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 1.61,
+"unit": "PC_CHE"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 1.83,
+"unit": "PC_CHE"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 1.85,
+"unit": "PC_CHE"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 1.82,
+"unit": "PC_CHE"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 1.69,
+"unit": "PC_CHE"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 1.98,
+"unit": "PC_CHE"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.08,
+"unit": "PC_CHE"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.06,
+"unit": "PC_CHE"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.1,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.07,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.03,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.06,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.09,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.14,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.11,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.48,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.28,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.15,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.21,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "HC7",
+"value": 2.29,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "TOT_HC",
+"value": 100.0,
+"unit": "PC_CHE"
 }
 ]

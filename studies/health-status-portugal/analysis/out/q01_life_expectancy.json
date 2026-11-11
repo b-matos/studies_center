@@ -1,4754 +1,4754 @@
 [
 {
-"data": "2002-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.5,
-"unidade": "YR"
-},
-{
-"data": "2003-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.4,
-"unidade": "YR"
-},
-{
-"data": "2004-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.0,
-"unidade": "YR"
-},
-{
-"data": "2005-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.0,
-"unidade": "YR"
-},
-{
-"data": "2006-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.4,
-"unidade": "YR"
-},
-{
-"data": "2007-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.6,
-"unidade": "YR"
-},
-{
-"data": "2008-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.7,
-"unidade": "YR"
-},
-{
-"data": "2009-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.9,
-"unidade": "YR"
-},
-{
-"data": "2010-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.0,
-"unidade": "YR"
-},
-{
-"data": "2011-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.3,
-"unidade": "YR"
-},
-{
-"data": "2012-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.1,
-"unidade": "YR"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.4,
-"unidade": "YR"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.3,
-"unidade": "YR"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.3,
-"unidade": "YR"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.4,
-"unidade": "YR"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.3,
-"unidade": "YR"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.4,
-"unidade": "YR"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.6,
-"unidade": "YR"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.9,
-"unidade": "YR"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.7,
-"unidade": "YR"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.0,
-"unidade": "YR"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.6,
-"unidade": "YR"
-},
-{
-"data": "2024-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.8,
-"unidade": "YR"
-},
-{
-"data": "1960-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.5,
-"unidade": "YR"
-},
-{
-"data": "1961-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.8,
-"unidade": "YR"
-},
-{
-"data": "1962-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.8,
-"unidade": "YR"
-},
-{
-"data": "1963-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.5,
-"unidade": "YR"
-},
-{
-"data": "1964-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.6,
-"unidade": "YR"
-},
-{
-"data": "1965-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.6,
-"unidade": "YR"
-},
-{
-"data": "1966-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.2,
-"unidade": "YR"
-},
-{
-"data": "1967-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.4,
-"unidade": "YR"
-},
-{
-"data": "1968-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.5,
-"unidade": "YR"
-},
-{
-"data": "1969-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.8,
-"unidade": "YR"
-},
-{
-"data": "1970-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.6,
-"unidade": "YR"
-},
-{
-"data": "1971-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.2,
-"unidade": "YR"
-},
-{
-"data": "1972-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.5,
-"unidade": "YR"
-},
-{
-"data": "1973-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.1,
-"unidade": "YR"
-},
-{
-"data": "1974-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.1,
-"unidade": "YR"
-},
-{
-"data": "1975-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.9,
-"unidade": "YR"
-},
-{
-"data": "1976-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.0,
-"unidade": "YR"
-},
-{
-"data": "1977-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.5,
-"unidade": "YR"
-},
-{
-"data": "1978-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.4,
-"unidade": "YR"
-},
-{
-"data": "1979-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.9,
-"unidade": "YR"
-},
-{
-"data": "1980-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.1,
-"unidade": "YR"
-},
-{
-"data": "1981-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.2,
-"unidade": "YR"
-},
-{
-"data": "1982-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.7,
-"unidade": "YR"
-},
-{
-"data": "1983-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.5,
-"unidade": "YR"
-},
-{
-"data": "1984-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.6,
-"unidade": "YR"
-},
-{
-"data": "1985-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.7,
-"unidade": "YR"
-},
-{
-"data": "1986-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.0,
-"unidade": "YR"
-},
-{
-"data": "1987-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.3,
-"unidade": "YR"
-},
-{
-"data": "1988-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.2,
-"unidade": "YR"
-},
-{
-"data": "1989-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.6,
-"unidade": "YR"
-},
-{
-"data": "1990-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.1,
-"unidade": "YR"
-},
-{
-"data": "1991-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.3,
-"unidade": "YR"
-},
-{
-"data": "1992-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.8,
-"unidade": "YR"
-},
-{
-"data": "1993-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.5,
-"unidade": "YR"
-},
-{
-"data": "1994-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.2,
-"unidade": "YR"
-},
-{
-"data": "1995-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.1,
-"unidade": "YR"
-},
-{
-"data": "1996-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.1,
-"unidade": "YR"
-},
-{
-"data": "1997-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.5,
-"unidade": "YR"
-},
-{
-"data": "1998-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.6,
-"unidade": "YR"
-},
-{
-"data": "1999-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.6,
-"unidade": "YR"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.1,
-"unidade": "YR"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.3,
-"unidade": "YR"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.4,
-"unidade": "YR"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.2,
-"unidade": "YR"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.0,
-"unidade": "YR"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.7,
-"unidade": "YR"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.5,
-"unidade": "YR"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.4,
-"unidade": "YR"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.6,
-"unidade": "YR"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.8,
-"unidade": "YR"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.0,
-"unidade": "YR"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.6,
-"unidade": "YR"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.3,
-"unidade": "YR"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.6,
-"unidade": "YR"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.8,
-"unidade": "YR"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.7,
-"unidade": "YR"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.8,
-"unidade": "YR"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 22.1,
-"unidade": "YR"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 22.0,
-"unidade": "YR"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 22.3,
-"unidade": "YR"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.7,
-"unidade": "YR"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.8,
-"unidade": "YR"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.9,
-"unidade": "YR"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 22.5,
-"unidade": "YR"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 22.6,
-"unidade": "YR"
-},
-{
-"data": "2002-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.9,
-"unidade": "YR"
-},
-{
-"data": "2003-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.8,
-"unidade": "YR"
-},
-{
-"data": "2004-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.5,
-"unidade": "YR"
-},
-{
-"data": "2005-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.5,
-"unidade": "YR"
-},
-{
-"data": "2006-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 82.0,
-"unidade": "YR"
-},
-{
-"data": "2007-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 82.2,
-"unidade": "YR"
-},
-{
-"data": "2008-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 82.4,
-"unidade": "YR"
-},
-{
-"data": "2009-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 82.6,
-"unidade": "YR"
-},
-{
-"data": "2010-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 82.9,
-"unidade": "YR"
-},
-{
-"data": "2011-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.1,
-"unidade": "YR"
-},
-{
-"data": "2012-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.1,
-"unidade": "YR"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.3,
-"unidade": "YR"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.4,
-"unidade": "YR"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.3,
-"unidade": "YR"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.5,
-"unidade": "YR"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.4,
-"unidade": "YR"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.5,
-"unidade": "YR"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.8,
-"unidade": "YR"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.1,
-"unidade": "YR"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 82.8,
-"unidade": "YR"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.2,
-"unidade": "YR"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.9,
-"unidade": "YR"
-},
-{
-"data": "2024-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 84.1,
-"unidade": "YR"
-},
-{
-"data": "1960-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 66.7,
-"unidade": "YR"
-},
-{
-"data": "1961-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 65.4,
-"unidade": "YR"
-},
-{
-"data": "1962-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 67.0,
-"unidade": "YR"
-},
-{
-"data": "1963-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 67.6,
-"unidade": "YR"
-},
-{
-"data": "1964-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 67.8,
-"unidade": "YR"
-},
-{
-"data": "1965-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 68.9,
-"unidade": "YR"
-},
-{
-"data": "1966-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 68.4,
-"unidade": "YR"
-},
-{
-"data": "1967-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 69.2,
-"unidade": "YR"
-},
-{
-"data": "1968-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 69.4,
-"unidade": "YR"
-},
-{
-"data": "1969-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 69.0,
-"unidade": "YR"
-},
-{
-"data": "1970-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 69.7,
-"unidade": "YR"
-},
-{
-"data": "1971-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 69.7,
-"unidade": "YR"
-},
-{
-"data": "1972-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 71.5,
-"unidade": "YR"
-},
-{
-"data": "1973-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 70.6,
-"unidade": "YR"
-},
-{
-"data": "1974-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 71.4,
-"unidade": "YR"
-},
-{
-"data": "1975-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 72.1,
-"unidade": "YR"
-},
-{
-"data": "1976-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 72.6,
-"unidade": "YR"
-},
-{
-"data": "1977-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 73.7,
-"unidade": "YR"
-},
-{
-"data": "1978-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 73.9,
-"unidade": "YR"
-},
-{
-"data": "1979-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 74.7,
-"unidade": "YR"
-},
-{
-"data": "1980-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 74.9,
-"unidade": "YR"
-},
-{
-"data": "1981-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 75.2,
-"unidade": "YR"
-},
-{
-"data": "1982-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 76.0,
-"unidade": "YR"
-},
-{
-"data": "1983-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 75.8,
-"unidade": "YR"
-},
-{
-"data": "1984-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 76.2,
-"unidade": "YR"
-},
-{
-"data": "1985-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 76.5,
-"unidade": "YR"
-},
-{
-"data": "1986-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 76.8,
-"unidade": "YR"
-},
-{
-"data": "1987-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.2,
-"unidade": "YR"
-},
-{
-"data": "1988-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.3,
-"unidade": "YR"
-},
-{
-"data": "1989-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.9,
-"unidade": "YR"
-},
-{
-"data": "1990-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.5,
-"unidade": "YR"
-},
-{
-"data": "1991-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.7,
-"unidade": "YR"
-},
-{
-"data": "1992-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.4,
-"unidade": "YR"
-},
-{
-"data": "1993-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.1,
-"unidade": "YR"
-},
-{
-"data": "1994-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.0,
-"unidade": "YR"
-},
-{
-"data": "1995-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.0,
-"unidade": "YR"
-},
-{
-"data": "1996-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.0,
-"unidade": "YR"
-},
-{
-"data": "1997-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.4,
-"unidade": "YR"
-},
-{
-"data": "1998-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.6,
-"unidade": "YR"
-},
-{
-"data": "1999-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.8,
-"unidade": "YR"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.4,
-"unidade": "YR"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.7,
-"unidade": "YR"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.8,
-"unidade": "YR"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.8,
-"unidade": "YR"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.8,
-"unidade": "YR"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.5,
-"unidade": "YR"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 82.5,
-"unidade": "YR"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 82.5,
-"unidade": "YR"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 82.7,
-"unidade": "YR"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 82.8,
-"unidade": "YR"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.2,
-"unidade": "YR"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.8,
-"unidade": "YR"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 83.6,
-"unidade": "YR"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 84.0,
-"unidade": "YR"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 84.3,
-"unidade": "YR"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 84.3,
-"unidade": "YR"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 84.3,
-"unidade": "YR"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 84.5,
-"unidade": "YR"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 84.5,
-"unidade": "YR"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 84.8,
-"unidade": "YR"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 84.2,
-"unidade": "YR"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 84.3,
-"unidade": "YR"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 84.4,
-"unidade": "YR"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 85.0,
-"unidade": "YR"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 85.2,
-"unidade": "YR"
-},
-{
-"data": "2002-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.8,
-"unidade": "YR"
-},
-{
-"data": "2003-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.8,
-"unidade": "YR"
-},
-{
-"data": "2004-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.3,
-"unidade": "YR"
-},
-{
-"data": "2005-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.3,
-"unidade": "YR"
-},
-{
-"data": "2006-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.7,
-"unidade": "YR"
-},
-{
-"data": "2007-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.9,
-"unidade": "YR"
-},
-{
-"data": "2008-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.0,
-"unidade": "YR"
-},
-{
-"data": "2009-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.2,
-"unidade": "YR"
-},
-{
-"data": "2010-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.4,
-"unidade": "YR"
-},
-{
-"data": "2011-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.6,
-"unidade": "YR"
-},
-{
-"data": "2012-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.5,
-"unidade": "YR"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.8,
-"unidade": "YR"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.8,
-"unidade": "YR"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.8,
-"unidade": "YR"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.9,
-"unidade": "YR"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.9,
-"unidade": "YR"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.0,
-"unidade": "YR"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.1,
-"unidade": "YR"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.3,
-"unidade": "YR"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.2,
-"unidade": "YR"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.6,
-"unidade": "YR"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.2,
-"unidade": "YR"
-},
-{
-"data": "2024-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.4,
-"unidade": "YR"
-},
-{
-"data": "1960-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 12.3,
-"unidade": "YR"
-},
-{
-"data": "1961-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 12.6,
-"unidade": "YR"
-},
-{
-"data": "1962-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 12.5,
-"unidade": "YR"
-},
-{
-"data": "1963-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 12.0,
-"unidade": "YR"
-},
-{
-"data": "1964-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 12.2,
-"unidade": "YR"
-},
-{
-"data": "1965-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 12.0,
-"unidade": "YR"
-},
-{
-"data": "1966-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 11.7,
-"unidade": "YR"
-},
-{
-"data": "1967-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 11.9,
-"unidade": "YR"
-},
-{
-"data": "1968-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 11.9,
-"unidade": "YR"
-},
-{
-"data": "1969-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 11.3,
-"unidade": "YR"
-},
-{
-"data": "1970-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 12.2,
-"unidade": "YR"
-},
-{
-"data": "1971-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 11.8,
-"unidade": "YR"
-},
-{
-"data": "1972-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 12.3,
-"unidade": "YR"
-},
-{
-"data": "1973-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 11.8,
-"unidade": "YR"
-},
-{
-"data": "1974-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 11.6,
-"unidade": "YR"
-},
-{
-"data": "1975-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 12.0,
-"unidade": "YR"
-},
-{
-"data": "1976-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 11.9,
-"unidade": "YR"
-},
-{
-"data": "1977-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 12.3,
-"unidade": "YR"
-},
-{
-"data": "1978-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 12.5,
-"unidade": "YR"
-},
-{
-"data": "1979-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.0,
-"unidade": "YR"
-},
-{
-"data": "1980-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.1,
-"unidade": "YR"
-},
-{
-"data": "1981-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.3,
-"unidade": "YR"
-},
-{
-"data": "1982-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.6,
-"unidade": "YR"
-},
-{
-"data": "1983-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.4,
-"unidade": "YR"
-},
-{
-"data": "1984-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.4,
-"unidade": "YR"
-},
-{
-"data": "1985-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.5,
-"unidade": "YR"
-},
-{
-"data": "1986-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.8,
-"unidade": "YR"
-},
-{
-"data": "1987-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.0,
-"unidade": "YR"
-},
-{
-"data": "1988-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.9,
-"unidade": "YR"
-},
-{
-"data": "1989-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.3,
-"unidade": "YR"
-},
-{
-"data": "1990-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.0,
-"unidade": "YR"
-},
-{
-"data": "1991-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.1,
-"unidade": "YR"
-},
-{
-"data": "1992-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.5,
-"unidade": "YR"
-},
-{
-"data": "1993-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.2,
-"unidade": "YR"
-},
-{
-"data": "1994-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.8,
-"unidade": "YR"
-},
-{
-"data": "1995-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.7,
-"unidade": "YR"
-},
-{
-"data": "1996-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.6,
-"unidade": "YR"
-},
-{
-"data": "1997-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.0,
-"unidade": "YR"
-},
-{
-"data": "1998-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.0,
-"unidade": "YR"
-},
-{
-"data": "1999-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.1,
-"unidade": "YR"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.4,
-"unidade": "YR"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.7,
-"unidade": "YR"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.7,
-"unidade": "YR"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.7,
-"unidade": "YR"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.3,
-"unidade": "YR"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.1,
-"unidade": "YR"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.6,
-"unidade": "YR"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.8,
-"unidade": "YR"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.0,
-"unidade": "YR"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.2,
-"unidade": "YR"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.2,
-"unidade": "YR"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.8,
-"unidade": "YR"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.6,
-"unidade": "YR"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.8,
-"unidade": "YR"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.1,
-"unidade": "YR"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.1,
-"unidade": "YR"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.1,
-"unidade": "YR"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.4,
-"unidade": "YR"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.4,
-"unidade": "YR"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.7,
-"unidade": "YR"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.2,
-"unidade": "YR"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.2,
-"unidade": "YR"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.6,
-"unidade": "YR"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.0,
-"unidade": "YR"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.3,
-"unidade": "YR"
-},
-{
-"data": "2002-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 74.3,
-"unidade": "YR"
-},
-{
-"data": "2003-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 74.4,
-"unidade": "YR"
-},
-{
-"data": "2004-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 75.0,
-"unidade": "YR"
-},
-{
-"data": "2005-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 75.1,
-"unidade": "YR"
-},
-{
-"data": "2006-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 75.6,
-"unidade": "YR"
-},
-{
-"data": "2007-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 75.8,
-"unidade": "YR"
-},
-{
-"data": "2008-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 76.1,
-"unidade": "YR"
-},
-{
-"data": "2009-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 76.4,
-"unidade": "YR"
-},
-{
-"data": "2010-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 76.7,
-"unidade": "YR"
-},
-{
-"data": "2011-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.0,
-"unidade": "YR"
-},
-{
-"data": "2012-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.1,
-"unidade": "YR"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.5,
-"unidade": "YR"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.7,
-"unidade": "YR"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.7,
-"unidade": "YR"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.8,
-"unidade": "YR"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.9,
-"unidade": "YR"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.0,
-"unidade": "YR"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.3,
-"unidade": "YR"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.4,
-"unidade": "YR"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.1,
-"unidade": "YR"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.8,
-"unidade": "YR"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.6,
-"unidade": "YR"
-},
-{
-"data": "2024-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.9,
-"unidade": "YR"
-},
-{
-"data": "1960-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 61.1,
-"unidade": "YR"
-},
-{
-"data": "1961-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 59.9,
-"unidade": "YR"
-},
-{
-"data": "1962-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 61.2,
-"unidade": "YR"
-},
-{
-"data": "1963-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 61.8,
-"unidade": "YR"
-},
-{
-"data": "1964-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 62.0,
-"unidade": "YR"
-},
-{
-"data": "1965-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 62.6,
-"unidade": "YR"
-},
-{
-"data": "1966-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 62.0,
-"unidade": "YR"
-},
-{
-"data": "1967-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 62.8,
-"unidade": "YR"
-},
-{
-"data": "1968-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 63.3,
-"unidade": "YR"
-},
-{
-"data": "1969-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 62.8,
-"unidade": "YR"
-},
-{
-"data": "1970-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 63.6,
-"unidade": "YR"
-},
-{
-"data": "1971-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 63.1,
-"unidade": "YR"
-},
-{
-"data": "1972-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 65.2,
-"unidade": "YR"
-},
-{
-"data": "1973-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 64.4,
-"unidade": "YR"
-},
-{
-"data": "1974-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 64.8,
-"unidade": "YR"
-},
-{
-"data": "1975-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 64.6,
-"unidade": "YR"
-},
-{
-"data": "1976-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 65.3,
-"unidade": "YR"
-},
-{
-"data": "1977-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 66.4,
-"unidade": "YR"
-},
-{
-"data": "1978-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 67.1,
-"unidade": "YR"
-},
-{
-"data": "1979-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 67.9,
-"unidade": "YR"
-},
-{
-"data": "1980-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 67.9,
-"unidade": "YR"
-},
-{
-"data": "1981-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 68.2,
-"unidade": "YR"
-},
-{
-"data": "1982-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 69.0,
-"unidade": "YR"
-},
-{
-"data": "1983-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 69.0,
-"unidade": "YR"
-},
-{
-"data": "1984-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 69.2,
-"unidade": "YR"
-},
-{
-"data": "1985-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 69.4,
-"unidade": "YR"
-},
-{
-"data": "1986-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 69.9,
-"unidade": "YR"
-},
-{
-"data": "1987-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 70.3,
-"unidade": "YR"
-},
-{
-"data": "1988-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 70.3,
-"unidade": "YR"
-},
-{
-"data": "1989-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 70.9,
-"unidade": "YR"
-},
-{
-"data": "1990-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 70.6,
-"unidade": "YR"
-},
-{
-"data": "1991-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 70.5,
-"unidade": "YR"
-},
-{
-"data": "1992-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 71.0,
-"unidade": "YR"
-},
-{
-"data": "1993-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 71.0,
-"unidade": "YR"
-},
-{
-"data": "1994-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 72.0,
-"unidade": "YR"
-},
-{
-"data": "1995-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 71.7,
-"unidade": "YR"
-},
-{
-"data": "1996-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 71.6,
-"unidade": "YR"
-},
-{
-"data": "1997-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 72.2,
-"unidade": "YR"
-},
-{
-"data": "1998-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 72.4,
-"unidade": "YR"
-},
-{
-"data": "1999-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 72.7,
-"unidade": "YR"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 73.3,
-"unidade": "YR"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 73.6,
-"unidade": "YR"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 73.9,
-"unidade": "YR"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 74.2,
-"unidade": "YR"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 75.0,
-"unidade": "YR"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 74.9,
-"unidade": "YR"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 75.5,
-"unidade": "YR"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 75.9,
-"unidade": "YR"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 76.2,
-"unidade": "YR"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 76.5,
-"unidade": "YR"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 76.8,
-"unidade": "YR"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.3,
-"unidade": "YR"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.3,
-"unidade": "YR"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.6,
-"unidade": "YR"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.1,
-"unidade": "YR"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.2,
-"unidade": "YR"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.2,
-"unidade": "YR"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.5,
-"unidade": "YR"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.5,
-"unidade": "YR"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.0,
-"unidade": "YR"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.4,
-"unidade": "YR"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.4,
-"unidade": "YR"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.8,
-"unidade": "YR"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.4,
-"unidade": "YR"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.7,
-"unidade": "YR"
-},
-{
-"data": "2002-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.8,
-"unidade": "YR"
-},
-{
-"data": "2003-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.8,
-"unidade": "YR"
-},
-{
-"data": "2004-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.3,
-"unidade": "YR"
-},
-{
-"data": "2005-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.3,
-"unidade": "YR"
-},
-{
-"data": "2006-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.7,
-"unidade": "YR"
-},
-{
-"data": "2007-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.9,
-"unidade": "YR"
-},
-{
-"data": "2008-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.0,
-"unidade": "YR"
-},
-{
-"data": "2009-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.2,
-"unidade": "YR"
-},
-{
-"data": "2010-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.4,
-"unidade": "YR"
-},
-{
-"data": "2011-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.6,
-"unidade": "YR"
-},
-{
-"data": "2012-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.5,
-"unidade": "YR"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.7,
-"unidade": "YR"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.7,
-"unidade": "YR"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.7,
-"unidade": "YR"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.8,
-"unidade": "YR"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.7,
-"unidade": "YR"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.8,
-"unidade": "YR"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.0,
-"unidade": "YR"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.2,
-"unidade": "YR"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.1,
-"unidade": "YR"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.4,
-"unidade": "YR"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.0,
-"unidade": "YR"
-},
-{
-"data": "2024-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.2,
-"unidade": "YR"
-},
-{
-"data": "1960-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.6,
-"unidade": "YR"
-},
-{
-"data": "1961-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.8,
-"unidade": "YR"
-},
-{
-"data": "1962-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.8,
-"unidade": "YR"
-},
-{
-"data": "1963-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.4,
-"unidade": "YR"
-},
-{
-"data": "1964-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.6,
-"unidade": "YR"
-},
-{
-"data": "1965-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.5,
-"unidade": "YR"
-},
-{
-"data": "1966-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.1,
-"unidade": "YR"
-},
-{
-"data": "1967-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.3,
-"unidade": "YR"
-},
-{
-"data": "1968-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.4,
-"unidade": "YR"
-},
-{
-"data": "1969-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 12.7,
-"unidade": "YR"
-},
-{
-"data": "1970-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.6,
-"unidade": "YR"
-},
-{
-"data": "1971-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.1,
-"unidade": "YR"
-},
-{
-"data": "1972-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.6,
-"unidade": "YR"
-},
-{
-"data": "1973-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.1,
-"unidade": "YR"
-},
-{
-"data": "1974-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.0,
-"unidade": "YR"
-},
-{
-"data": "1975-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.6,
-"unidade": "YR"
-},
-{
-"data": "1976-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 13.6,
-"unidade": "YR"
-},
-{
-"data": "1977-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.1,
-"unidade": "YR"
-},
-{
-"data": "1978-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.1,
-"unidade": "YR"
-},
-{
-"data": "1979-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.6,
-"unidade": "YR"
-},
-{
-"data": "1980-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.7,
-"unidade": "YR"
-},
-{
-"data": "1981-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 14.9,
-"unidade": "YR"
-},
-{
-"data": "1982-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.3,
-"unidade": "YR"
-},
-{
-"data": "1983-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.1,
-"unidade": "YR"
-},
-{
-"data": "1984-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.2,
-"unidade": "YR"
-},
-{
-"data": "1985-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.3,
-"unidade": "YR"
-},
-{
-"data": "1986-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.6,
-"unidade": "YR"
-},
-{
-"data": "1987-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.8,
-"unidade": "YR"
-},
-{
-"data": "1988-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.7,
-"unidade": "YR"
-},
-{
-"data": "1989-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.1,
-"unidade": "YR"
-},
-{
-"data": "1990-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.7,
-"unidade": "YR"
-},
-{
-"data": "1991-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 15.9,
-"unidade": "YR"
-},
-{
-"data": "1992-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.3,
-"unidade": "YR"
-},
-{
-"data": "1993-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.0,
-"unidade": "YR"
-},
-{
-"data": "1994-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.7,
-"unidade": "YR"
-},
-{
-"data": "1995-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.5,
-"unidade": "YR"
-},
-{
-"data": "1996-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.5,
-"unidade": "YR"
-},
-{
-"data": "1997-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.9,
-"unidade": "YR"
-},
-{
-"data": "1998-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 16.9,
-"unidade": "YR"
-},
-{
-"data": "1999-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.0,
-"unidade": "YR"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.4,
-"unidade": "YR"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.7,
-"unidade": "YR"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.7,
-"unidade": "YR"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 17.6,
-"unidade": "YR"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.3,
-"unidade": "YR"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.0,
-"unidade": "YR"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.7,
-"unidade": "YR"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.8,
-"unidade": "YR"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 18.9,
-"unidade": "YR"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.2,
-"unidade": "YR"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.3,
-"unidade": "YR"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.9,
-"unidade": "YR"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.6,
-"unidade": "YR"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 19.9,
-"unidade": "YR"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.2,
-"unidade": "YR"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.1,
-"unidade": "YR"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.1,
-"unidade": "YR"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.4,
-"unidade": "YR"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.4,
-"unidade": "YR"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.6,
-"unidade": "YR"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.1,
-"unidade": "YR"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.1,
-"unidade": "YR"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.4,
-"unidade": "YR"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 20.9,
-"unidade": "YR"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "65",
-"indicador": "life_expectancy",
-"valor": 21.1,
-"unidade": "YR"
-},
-{
-"data": "2002-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.6,
-"unidade": "YR"
-},
-{
-"data": "2003-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.7,
-"unidade": "YR"
-},
-{
-"data": "2004-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.3,
-"unidade": "YR"
-},
-{
-"data": "2005-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.4,
-"unidade": "YR"
-},
-{
-"data": "2006-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.9,
-"unidade": "YR"
-},
-{
-"data": "2007-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.1,
-"unidade": "YR"
-},
-{
-"data": "2008-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.3,
-"unidade": "YR"
-},
-{
-"data": "2009-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.5,
-"unidade": "YR"
-},
-{
-"data": "2010-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.8,
-"unidade": "YR"
-},
-{
-"data": "2011-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.1,
-"unidade": "YR"
-},
-{
-"data": "2012-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.2,
-"unidade": "YR"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.5,
-"unidade": "YR"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.6,
-"unidade": "YR"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.5,
-"unidade": "YR"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.7,
-"unidade": "YR"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.7,
-"unidade": "YR"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.8,
-"unidade": "YR"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.1,
-"unidade": "YR"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.3,
-"unidade": "YR"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.0,
-"unidade": "YR"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.6,
-"unidade": "YR"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.2,
-"unidade": "YR"
-},
-{
-"data": "2024-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.5,
-"unidade": "YR"
-},
-{
-"data": "1960-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 64.0,
-"unidade": "YR"
-},
-{
-"data": "1961-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 62.7,
-"unidade": "YR"
-},
-{
-"data": "1962-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 64.2,
-"unidade": "YR"
-},
-{
-"data": "1963-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 64.8,
-"unidade": "YR"
-},
-{
-"data": "1964-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 64.9,
-"unidade": "YR"
-},
-{
-"data": "1965-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 65.8,
-"unidade": "YR"
-},
-{
-"data": "1966-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 65.3,
-"unidade": "YR"
-},
-{
-"data": "1967-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 66.1,
-"unidade": "YR"
-},
-{
-"data": "1968-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 66.4,
-"unidade": "YR"
-},
-{
-"data": "1969-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 66.0,
-"unidade": "YR"
-},
-{
-"data": "1970-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 66.7,
-"unidade": "YR"
-},
-{
-"data": "1971-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 66.4,
-"unidade": "YR"
-},
-{
-"data": "1972-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 68.4,
-"unidade": "YR"
-},
-{
-"data": "1973-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 67.6,
-"unidade": "YR"
-},
-{
-"data": "1974-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 68.2,
-"unidade": "YR"
-},
-{
-"data": "1975-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 68.4,
-"unidade": "YR"
-},
-{
-"data": "1976-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 69.0,
-"unidade": "YR"
-},
-{
-"data": "1977-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 70.1,
-"unidade": "YR"
-},
-{
-"data": "1978-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 70.5,
-"unidade": "YR"
-},
-{
-"data": "1979-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 71.3,
-"unidade": "YR"
-},
-{
-"data": "1980-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 71.5,
-"unidade": "YR"
-},
-{
-"data": "1981-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 71.8,
-"unidade": "YR"
-},
-{
-"data": "1982-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 72.5,
-"unidade": "YR"
-},
-{
-"data": "1983-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 72.4,
-"unidade": "YR"
-},
-{
-"data": "1984-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 72.7,
-"unidade": "YR"
-},
-{
-"data": "1985-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 73.0,
-"unidade": "YR"
-},
-{
-"data": "1986-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 73.4,
-"unidade": "YR"
-},
-{
-"data": "1987-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 73.8,
-"unidade": "YR"
-},
-{
-"data": "1988-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 73.8,
-"unidade": "YR"
-},
-{
-"data": "1989-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 74.4,
-"unidade": "YR"
-},
-{
-"data": "1990-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 74.1,
-"unidade": "YR"
-},
-{
-"data": "1991-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 74.1,
-"unidade": "YR"
-},
-{
-"data": "1992-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 74.7,
-"unidade": "YR"
-},
-{
-"data": "1993-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 74.6,
-"unidade": "YR"
-},
-{
-"data": "1994-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 75.5,
-"unidade": "YR"
-},
-{
-"data": "1995-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 75.4,
-"unidade": "YR"
-},
-{
-"data": "1996-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 75.3,
-"unidade": "YR"
-},
-{
-"data": "1997-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 75.8,
-"unidade": "YR"
-},
-{
-"data": "1998-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 76.0,
-"unidade": "YR"
-},
-{
-"data": "1999-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 76.2,
-"unidade": "YR"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 76.8,
-"unidade": "YR"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.2,
-"unidade": "YR"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.4,
-"unidade": "YR"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 77.5,
-"unidade": "YR"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.4,
-"unidade": "YR"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 78.2,
-"unidade": "YR"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.0,
-"unidade": "YR"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.3,
-"unidade": "YR"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.5,
-"unidade": "YR"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 79.7,
-"unidade": "YR"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.1,
-"unidade": "YR"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.7,
-"unidade": "YR"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.6,
-"unidade": "YR"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 80.9,
-"unidade": "YR"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.3,
-"unidade": "YR"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.3,
-"unidade": "YR"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.4,
-"unidade": "YR"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.6,
-"unidade": "YR"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.6,
-"unidade": "YR"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 82.0,
-"unidade": "YR"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.4,
-"unidade": "YR"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.4,
-"unidade": "YR"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 81.7,
-"unidade": "YR"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 82.3,
-"unidade": "YR"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "0",
-"indicador": "life_expectancy",
-"valor": 82.5,
-"unidade": "YR"
+"date": "2002-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.5,
+"unit": "YR"
+},
+{
+"date": "2003-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.4,
+"unit": "YR"
+},
+{
+"date": "2004-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.0,
+"unit": "YR"
+},
+{
+"date": "2005-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.0,
+"unit": "YR"
+},
+{
+"date": "2006-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.4,
+"unit": "YR"
+},
+{
+"date": "2007-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.6,
+"unit": "YR"
+},
+{
+"date": "2008-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.7,
+"unit": "YR"
+},
+{
+"date": "2009-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.9,
+"unit": "YR"
+},
+{
+"date": "2010-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.0,
+"unit": "YR"
+},
+{
+"date": "2011-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.3,
+"unit": "YR"
+},
+{
+"date": "2012-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.1,
+"unit": "YR"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.4,
+"unit": "YR"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.3,
+"unit": "YR"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.3,
+"unit": "YR"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.4,
+"unit": "YR"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.3,
+"unit": "YR"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.4,
+"unit": "YR"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.6,
+"unit": "YR"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.9,
+"unit": "YR"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.7,
+"unit": "YR"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.0,
+"unit": "YR"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.6,
+"unit": "YR"
+},
+{
+"date": "2024-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.8,
+"unit": "YR"
+},
+{
+"date": "1960-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.5,
+"unit": "YR"
+},
+{
+"date": "1961-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.8,
+"unit": "YR"
+},
+{
+"date": "1962-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.8,
+"unit": "YR"
+},
+{
+"date": "1963-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.5,
+"unit": "YR"
+},
+{
+"date": "1964-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.6,
+"unit": "YR"
+},
+{
+"date": "1965-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.6,
+"unit": "YR"
+},
+{
+"date": "1966-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.2,
+"unit": "YR"
+},
+{
+"date": "1967-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.4,
+"unit": "YR"
+},
+{
+"date": "1968-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.5,
+"unit": "YR"
+},
+{
+"date": "1969-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.8,
+"unit": "YR"
+},
+{
+"date": "1970-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.6,
+"unit": "YR"
+},
+{
+"date": "1971-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.2,
+"unit": "YR"
+},
+{
+"date": "1972-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.5,
+"unit": "YR"
+},
+{
+"date": "1973-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.1,
+"unit": "YR"
+},
+{
+"date": "1974-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.1,
+"unit": "YR"
+},
+{
+"date": "1975-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.9,
+"unit": "YR"
+},
+{
+"date": "1976-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.0,
+"unit": "YR"
+},
+{
+"date": "1977-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.5,
+"unit": "YR"
+},
+{
+"date": "1978-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.4,
+"unit": "YR"
+},
+{
+"date": "1979-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.9,
+"unit": "YR"
+},
+{
+"date": "1980-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.1,
+"unit": "YR"
+},
+{
+"date": "1981-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.2,
+"unit": "YR"
+},
+{
+"date": "1982-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.7,
+"unit": "YR"
+},
+{
+"date": "1983-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.5,
+"unit": "YR"
+},
+{
+"date": "1984-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.6,
+"unit": "YR"
+},
+{
+"date": "1985-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.7,
+"unit": "YR"
+},
+{
+"date": "1986-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.0,
+"unit": "YR"
+},
+{
+"date": "1987-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.3,
+"unit": "YR"
+},
+{
+"date": "1988-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.2,
+"unit": "YR"
+},
+{
+"date": "1989-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.6,
+"unit": "YR"
+},
+{
+"date": "1990-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.1,
+"unit": "YR"
+},
+{
+"date": "1991-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.3,
+"unit": "YR"
+},
+{
+"date": "1992-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.8,
+"unit": "YR"
+},
+{
+"date": "1993-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.5,
+"unit": "YR"
+},
+{
+"date": "1994-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.2,
+"unit": "YR"
+},
+{
+"date": "1995-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.1,
+"unit": "YR"
+},
+{
+"date": "1996-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.1,
+"unit": "YR"
+},
+{
+"date": "1997-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.5,
+"unit": "YR"
+},
+{
+"date": "1998-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.6,
+"unit": "YR"
+},
+{
+"date": "1999-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.6,
+"unit": "YR"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.1,
+"unit": "YR"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.3,
+"unit": "YR"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.4,
+"unit": "YR"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.2,
+"unit": "YR"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.0,
+"unit": "YR"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.7,
+"unit": "YR"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.5,
+"unit": "YR"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.4,
+"unit": "YR"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.6,
+"unit": "YR"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.8,
+"unit": "YR"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.0,
+"unit": "YR"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.6,
+"unit": "YR"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.3,
+"unit": "YR"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.6,
+"unit": "YR"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.8,
+"unit": "YR"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.7,
+"unit": "YR"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.8,
+"unit": "YR"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 22.1,
+"unit": "YR"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 22.0,
+"unit": "YR"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 22.3,
+"unit": "YR"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.7,
+"unit": "YR"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.8,
+"unit": "YR"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.9,
+"unit": "YR"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 22.5,
+"unit": "YR"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 22.6,
+"unit": "YR"
+},
+{
+"date": "2002-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.9,
+"unit": "YR"
+},
+{
+"date": "2003-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.8,
+"unit": "YR"
+},
+{
+"date": "2004-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.5,
+"unit": "YR"
+},
+{
+"date": "2005-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.5,
+"unit": "YR"
+},
+{
+"date": "2006-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 82.0,
+"unit": "YR"
+},
+{
+"date": "2007-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 82.2,
+"unit": "YR"
+},
+{
+"date": "2008-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 82.4,
+"unit": "YR"
+},
+{
+"date": "2009-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 82.6,
+"unit": "YR"
+},
+{
+"date": "2010-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 82.9,
+"unit": "YR"
+},
+{
+"date": "2011-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.1,
+"unit": "YR"
+},
+{
+"date": "2012-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.1,
+"unit": "YR"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.3,
+"unit": "YR"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.4,
+"unit": "YR"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.3,
+"unit": "YR"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.5,
+"unit": "YR"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.4,
+"unit": "YR"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.5,
+"unit": "YR"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.8,
+"unit": "YR"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.1,
+"unit": "YR"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 82.8,
+"unit": "YR"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.2,
+"unit": "YR"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.9,
+"unit": "YR"
+},
+{
+"date": "2024-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 84.1,
+"unit": "YR"
+},
+{
+"date": "1960-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 66.7,
+"unit": "YR"
+},
+{
+"date": "1961-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 65.4,
+"unit": "YR"
+},
+{
+"date": "1962-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 67.0,
+"unit": "YR"
+},
+{
+"date": "1963-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 67.6,
+"unit": "YR"
+},
+{
+"date": "1964-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 67.8,
+"unit": "YR"
+},
+{
+"date": "1965-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 68.9,
+"unit": "YR"
+},
+{
+"date": "1966-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 68.4,
+"unit": "YR"
+},
+{
+"date": "1967-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 69.2,
+"unit": "YR"
+},
+{
+"date": "1968-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 69.4,
+"unit": "YR"
+},
+{
+"date": "1969-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 69.0,
+"unit": "YR"
+},
+{
+"date": "1970-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 69.7,
+"unit": "YR"
+},
+{
+"date": "1971-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 69.7,
+"unit": "YR"
+},
+{
+"date": "1972-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 71.5,
+"unit": "YR"
+},
+{
+"date": "1973-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 70.6,
+"unit": "YR"
+},
+{
+"date": "1974-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 71.4,
+"unit": "YR"
+},
+{
+"date": "1975-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 72.1,
+"unit": "YR"
+},
+{
+"date": "1976-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 72.6,
+"unit": "YR"
+},
+{
+"date": "1977-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 73.7,
+"unit": "YR"
+},
+{
+"date": "1978-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 73.9,
+"unit": "YR"
+},
+{
+"date": "1979-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 74.7,
+"unit": "YR"
+},
+{
+"date": "1980-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 74.9,
+"unit": "YR"
+},
+{
+"date": "1981-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 75.2,
+"unit": "YR"
+},
+{
+"date": "1982-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 76.0,
+"unit": "YR"
+},
+{
+"date": "1983-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 75.8,
+"unit": "YR"
+},
+{
+"date": "1984-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 76.2,
+"unit": "YR"
+},
+{
+"date": "1985-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 76.5,
+"unit": "YR"
+},
+{
+"date": "1986-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 76.8,
+"unit": "YR"
+},
+{
+"date": "1987-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.2,
+"unit": "YR"
+},
+{
+"date": "1988-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.3,
+"unit": "YR"
+},
+{
+"date": "1989-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.9,
+"unit": "YR"
+},
+{
+"date": "1990-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.5,
+"unit": "YR"
+},
+{
+"date": "1991-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.7,
+"unit": "YR"
+},
+{
+"date": "1992-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.4,
+"unit": "YR"
+},
+{
+"date": "1993-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.1,
+"unit": "YR"
+},
+{
+"date": "1994-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.0,
+"unit": "YR"
+},
+{
+"date": "1995-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.0,
+"unit": "YR"
+},
+{
+"date": "1996-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.0,
+"unit": "YR"
+},
+{
+"date": "1997-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.4,
+"unit": "YR"
+},
+{
+"date": "1998-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.6,
+"unit": "YR"
+},
+{
+"date": "1999-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.8,
+"unit": "YR"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.4,
+"unit": "YR"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.7,
+"unit": "YR"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.8,
+"unit": "YR"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.8,
+"unit": "YR"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.8,
+"unit": "YR"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.5,
+"unit": "YR"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 82.5,
+"unit": "YR"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 82.5,
+"unit": "YR"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 82.7,
+"unit": "YR"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 82.8,
+"unit": "YR"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.2,
+"unit": "YR"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.8,
+"unit": "YR"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 83.6,
+"unit": "YR"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 84.0,
+"unit": "YR"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 84.3,
+"unit": "YR"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 84.3,
+"unit": "YR"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 84.3,
+"unit": "YR"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 84.5,
+"unit": "YR"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 84.5,
+"unit": "YR"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 84.8,
+"unit": "YR"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 84.2,
+"unit": "YR"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 84.3,
+"unit": "YR"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 84.4,
+"unit": "YR"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 85.0,
+"unit": "YR"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 85.2,
+"unit": "YR"
+},
+{
+"date": "2002-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.8,
+"unit": "YR"
+},
+{
+"date": "2003-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.8,
+"unit": "YR"
+},
+{
+"date": "2004-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.3,
+"unit": "YR"
+},
+{
+"date": "2005-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.3,
+"unit": "YR"
+},
+{
+"date": "2006-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.7,
+"unit": "YR"
+},
+{
+"date": "2007-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.9,
+"unit": "YR"
+},
+{
+"date": "2008-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.0,
+"unit": "YR"
+},
+{
+"date": "2009-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.2,
+"unit": "YR"
+},
+{
+"date": "2010-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.4,
+"unit": "YR"
+},
+{
+"date": "2011-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.6,
+"unit": "YR"
+},
+{
+"date": "2012-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.5,
+"unit": "YR"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.8,
+"unit": "YR"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.8,
+"unit": "YR"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.8,
+"unit": "YR"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.9,
+"unit": "YR"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.9,
+"unit": "YR"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.0,
+"unit": "YR"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.1,
+"unit": "YR"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.3,
+"unit": "YR"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.2,
+"unit": "YR"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.6,
+"unit": "YR"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.2,
+"unit": "YR"
+},
+{
+"date": "2024-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.4,
+"unit": "YR"
+},
+{
+"date": "1960-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 12.3,
+"unit": "YR"
+},
+{
+"date": "1961-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 12.6,
+"unit": "YR"
+},
+{
+"date": "1962-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 12.5,
+"unit": "YR"
+},
+{
+"date": "1963-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 12.0,
+"unit": "YR"
+},
+{
+"date": "1964-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 12.2,
+"unit": "YR"
+},
+{
+"date": "1965-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 12.0,
+"unit": "YR"
+},
+{
+"date": "1966-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 11.7,
+"unit": "YR"
+},
+{
+"date": "1967-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 11.9,
+"unit": "YR"
+},
+{
+"date": "1968-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 11.9,
+"unit": "YR"
+},
+{
+"date": "1969-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 11.3,
+"unit": "YR"
+},
+{
+"date": "1970-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 12.2,
+"unit": "YR"
+},
+{
+"date": "1971-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 11.8,
+"unit": "YR"
+},
+{
+"date": "1972-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 12.3,
+"unit": "YR"
+},
+{
+"date": "1973-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 11.8,
+"unit": "YR"
+},
+{
+"date": "1974-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 11.6,
+"unit": "YR"
+},
+{
+"date": "1975-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 12.0,
+"unit": "YR"
+},
+{
+"date": "1976-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 11.9,
+"unit": "YR"
+},
+{
+"date": "1977-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 12.3,
+"unit": "YR"
+},
+{
+"date": "1978-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 12.5,
+"unit": "YR"
+},
+{
+"date": "1979-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.0,
+"unit": "YR"
+},
+{
+"date": "1980-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.1,
+"unit": "YR"
+},
+{
+"date": "1981-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.3,
+"unit": "YR"
+},
+{
+"date": "1982-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.6,
+"unit": "YR"
+},
+{
+"date": "1983-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.4,
+"unit": "YR"
+},
+{
+"date": "1984-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.4,
+"unit": "YR"
+},
+{
+"date": "1985-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.5,
+"unit": "YR"
+},
+{
+"date": "1986-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.8,
+"unit": "YR"
+},
+{
+"date": "1987-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.0,
+"unit": "YR"
+},
+{
+"date": "1988-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.9,
+"unit": "YR"
+},
+{
+"date": "1989-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.3,
+"unit": "YR"
+},
+{
+"date": "1990-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.0,
+"unit": "YR"
+},
+{
+"date": "1991-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.1,
+"unit": "YR"
+},
+{
+"date": "1992-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.5,
+"unit": "YR"
+},
+{
+"date": "1993-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.2,
+"unit": "YR"
+},
+{
+"date": "1994-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.8,
+"unit": "YR"
+},
+{
+"date": "1995-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.7,
+"unit": "YR"
+},
+{
+"date": "1996-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.6,
+"unit": "YR"
+},
+{
+"date": "1997-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.0,
+"unit": "YR"
+},
+{
+"date": "1998-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.0,
+"unit": "YR"
+},
+{
+"date": "1999-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.1,
+"unit": "YR"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.4,
+"unit": "YR"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.7,
+"unit": "YR"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.7,
+"unit": "YR"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.7,
+"unit": "YR"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.3,
+"unit": "YR"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.1,
+"unit": "YR"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.6,
+"unit": "YR"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.8,
+"unit": "YR"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.0,
+"unit": "YR"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.2,
+"unit": "YR"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.2,
+"unit": "YR"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.8,
+"unit": "YR"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.6,
+"unit": "YR"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.8,
+"unit": "YR"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.1,
+"unit": "YR"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.1,
+"unit": "YR"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.1,
+"unit": "YR"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.4,
+"unit": "YR"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.4,
+"unit": "YR"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.7,
+"unit": "YR"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.2,
+"unit": "YR"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.2,
+"unit": "YR"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.6,
+"unit": "YR"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.0,
+"unit": "YR"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.3,
+"unit": "YR"
+},
+{
+"date": "2002-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 74.3,
+"unit": "YR"
+},
+{
+"date": "2003-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 74.4,
+"unit": "YR"
+},
+{
+"date": "2004-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 75.0,
+"unit": "YR"
+},
+{
+"date": "2005-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 75.1,
+"unit": "YR"
+},
+{
+"date": "2006-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 75.6,
+"unit": "YR"
+},
+{
+"date": "2007-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 75.8,
+"unit": "YR"
+},
+{
+"date": "2008-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 76.1,
+"unit": "YR"
+},
+{
+"date": "2009-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 76.4,
+"unit": "YR"
+},
+{
+"date": "2010-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 76.7,
+"unit": "YR"
+},
+{
+"date": "2011-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.0,
+"unit": "YR"
+},
+{
+"date": "2012-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.1,
+"unit": "YR"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.5,
+"unit": "YR"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.7,
+"unit": "YR"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.7,
+"unit": "YR"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.8,
+"unit": "YR"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.9,
+"unit": "YR"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.0,
+"unit": "YR"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.3,
+"unit": "YR"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.4,
+"unit": "YR"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.1,
+"unit": "YR"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.8,
+"unit": "YR"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.6,
+"unit": "YR"
+},
+{
+"date": "2024-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.9,
+"unit": "YR"
+},
+{
+"date": "1960-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 61.1,
+"unit": "YR"
+},
+{
+"date": "1961-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 59.9,
+"unit": "YR"
+},
+{
+"date": "1962-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 61.2,
+"unit": "YR"
+},
+{
+"date": "1963-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 61.8,
+"unit": "YR"
+},
+{
+"date": "1964-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 62.0,
+"unit": "YR"
+},
+{
+"date": "1965-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 62.6,
+"unit": "YR"
+},
+{
+"date": "1966-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 62.0,
+"unit": "YR"
+},
+{
+"date": "1967-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 62.8,
+"unit": "YR"
+},
+{
+"date": "1968-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 63.3,
+"unit": "YR"
+},
+{
+"date": "1969-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 62.8,
+"unit": "YR"
+},
+{
+"date": "1970-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 63.6,
+"unit": "YR"
+},
+{
+"date": "1971-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 63.1,
+"unit": "YR"
+},
+{
+"date": "1972-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 65.2,
+"unit": "YR"
+},
+{
+"date": "1973-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 64.4,
+"unit": "YR"
+},
+{
+"date": "1974-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 64.8,
+"unit": "YR"
+},
+{
+"date": "1975-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 64.6,
+"unit": "YR"
+},
+{
+"date": "1976-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 65.3,
+"unit": "YR"
+},
+{
+"date": "1977-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 66.4,
+"unit": "YR"
+},
+{
+"date": "1978-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 67.1,
+"unit": "YR"
+},
+{
+"date": "1979-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 67.9,
+"unit": "YR"
+},
+{
+"date": "1980-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 67.9,
+"unit": "YR"
+},
+{
+"date": "1981-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 68.2,
+"unit": "YR"
+},
+{
+"date": "1982-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 69.0,
+"unit": "YR"
+},
+{
+"date": "1983-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 69.0,
+"unit": "YR"
+},
+{
+"date": "1984-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 69.2,
+"unit": "YR"
+},
+{
+"date": "1985-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 69.4,
+"unit": "YR"
+},
+{
+"date": "1986-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 69.9,
+"unit": "YR"
+},
+{
+"date": "1987-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 70.3,
+"unit": "YR"
+},
+{
+"date": "1988-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 70.3,
+"unit": "YR"
+},
+{
+"date": "1989-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 70.9,
+"unit": "YR"
+},
+{
+"date": "1990-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 70.6,
+"unit": "YR"
+},
+{
+"date": "1991-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 70.5,
+"unit": "YR"
+},
+{
+"date": "1992-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 71.0,
+"unit": "YR"
+},
+{
+"date": "1993-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 71.0,
+"unit": "YR"
+},
+{
+"date": "1994-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 72.0,
+"unit": "YR"
+},
+{
+"date": "1995-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 71.7,
+"unit": "YR"
+},
+{
+"date": "1996-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 71.6,
+"unit": "YR"
+},
+{
+"date": "1997-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 72.2,
+"unit": "YR"
+},
+{
+"date": "1998-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 72.4,
+"unit": "YR"
+},
+{
+"date": "1999-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 72.7,
+"unit": "YR"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 73.3,
+"unit": "YR"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 73.6,
+"unit": "YR"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 73.9,
+"unit": "YR"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 74.2,
+"unit": "YR"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 75.0,
+"unit": "YR"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 74.9,
+"unit": "YR"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 75.5,
+"unit": "YR"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 75.9,
+"unit": "YR"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 76.2,
+"unit": "YR"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 76.5,
+"unit": "YR"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 76.8,
+"unit": "YR"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.3,
+"unit": "YR"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.3,
+"unit": "YR"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.6,
+"unit": "YR"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.1,
+"unit": "YR"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.2,
+"unit": "YR"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.2,
+"unit": "YR"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.5,
+"unit": "YR"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.5,
+"unit": "YR"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.0,
+"unit": "YR"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.4,
+"unit": "YR"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.4,
+"unit": "YR"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.8,
+"unit": "YR"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.4,
+"unit": "YR"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.7,
+"unit": "YR"
+},
+{
+"date": "2002-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.8,
+"unit": "YR"
+},
+{
+"date": "2003-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.8,
+"unit": "YR"
+},
+{
+"date": "2004-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.3,
+"unit": "YR"
+},
+{
+"date": "2005-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.3,
+"unit": "YR"
+},
+{
+"date": "2006-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.7,
+"unit": "YR"
+},
+{
+"date": "2007-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.9,
+"unit": "YR"
+},
+{
+"date": "2008-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.0,
+"unit": "YR"
+},
+{
+"date": "2009-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.2,
+"unit": "YR"
+},
+{
+"date": "2010-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.4,
+"unit": "YR"
+},
+{
+"date": "2011-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.6,
+"unit": "YR"
+},
+{
+"date": "2012-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.5,
+"unit": "YR"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.7,
+"unit": "YR"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.7,
+"unit": "YR"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.7,
+"unit": "YR"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.8,
+"unit": "YR"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.7,
+"unit": "YR"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.8,
+"unit": "YR"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.0,
+"unit": "YR"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.2,
+"unit": "YR"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.1,
+"unit": "YR"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.4,
+"unit": "YR"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.0,
+"unit": "YR"
+},
+{
+"date": "2024-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.2,
+"unit": "YR"
+},
+{
+"date": "1960-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.6,
+"unit": "YR"
+},
+{
+"date": "1961-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.8,
+"unit": "YR"
+},
+{
+"date": "1962-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.8,
+"unit": "YR"
+},
+{
+"date": "1963-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.4,
+"unit": "YR"
+},
+{
+"date": "1964-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.6,
+"unit": "YR"
+},
+{
+"date": "1965-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.5,
+"unit": "YR"
+},
+{
+"date": "1966-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.1,
+"unit": "YR"
+},
+{
+"date": "1967-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.3,
+"unit": "YR"
+},
+{
+"date": "1968-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.4,
+"unit": "YR"
+},
+{
+"date": "1969-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 12.7,
+"unit": "YR"
+},
+{
+"date": "1970-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.6,
+"unit": "YR"
+},
+{
+"date": "1971-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.1,
+"unit": "YR"
+},
+{
+"date": "1972-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.6,
+"unit": "YR"
+},
+{
+"date": "1973-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.1,
+"unit": "YR"
+},
+{
+"date": "1974-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.0,
+"unit": "YR"
+},
+{
+"date": "1975-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.6,
+"unit": "YR"
+},
+{
+"date": "1976-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 13.6,
+"unit": "YR"
+},
+{
+"date": "1977-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.1,
+"unit": "YR"
+},
+{
+"date": "1978-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.1,
+"unit": "YR"
+},
+{
+"date": "1979-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.6,
+"unit": "YR"
+},
+{
+"date": "1980-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.7,
+"unit": "YR"
+},
+{
+"date": "1981-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 14.9,
+"unit": "YR"
+},
+{
+"date": "1982-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.3,
+"unit": "YR"
+},
+{
+"date": "1983-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.1,
+"unit": "YR"
+},
+{
+"date": "1984-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.2,
+"unit": "YR"
+},
+{
+"date": "1985-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.3,
+"unit": "YR"
+},
+{
+"date": "1986-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.6,
+"unit": "YR"
+},
+{
+"date": "1987-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.8,
+"unit": "YR"
+},
+{
+"date": "1988-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.7,
+"unit": "YR"
+},
+{
+"date": "1989-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.1,
+"unit": "YR"
+},
+{
+"date": "1990-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.7,
+"unit": "YR"
+},
+{
+"date": "1991-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 15.9,
+"unit": "YR"
+},
+{
+"date": "1992-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.3,
+"unit": "YR"
+},
+{
+"date": "1993-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.0,
+"unit": "YR"
+},
+{
+"date": "1994-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.7,
+"unit": "YR"
+},
+{
+"date": "1995-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.5,
+"unit": "YR"
+},
+{
+"date": "1996-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.5,
+"unit": "YR"
+},
+{
+"date": "1997-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.9,
+"unit": "YR"
+},
+{
+"date": "1998-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 16.9,
+"unit": "YR"
+},
+{
+"date": "1999-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.0,
+"unit": "YR"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.4,
+"unit": "YR"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.7,
+"unit": "YR"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.7,
+"unit": "YR"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 17.6,
+"unit": "YR"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.3,
+"unit": "YR"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.0,
+"unit": "YR"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.7,
+"unit": "YR"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.8,
+"unit": "YR"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 18.9,
+"unit": "YR"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.2,
+"unit": "YR"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.3,
+"unit": "YR"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.9,
+"unit": "YR"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.6,
+"unit": "YR"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 19.9,
+"unit": "YR"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.2,
+"unit": "YR"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.1,
+"unit": "YR"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.1,
+"unit": "YR"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.4,
+"unit": "YR"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.4,
+"unit": "YR"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.6,
+"unit": "YR"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.1,
+"unit": "YR"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.1,
+"unit": "YR"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.4,
+"unit": "YR"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 20.9,
+"unit": "YR"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "65",
+"indicator": "life_expectancy",
+"value": 21.1,
+"unit": "YR"
+},
+{
+"date": "2002-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.6,
+"unit": "YR"
+},
+{
+"date": "2003-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.7,
+"unit": "YR"
+},
+{
+"date": "2004-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.3,
+"unit": "YR"
+},
+{
+"date": "2005-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.4,
+"unit": "YR"
+},
+{
+"date": "2006-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.9,
+"unit": "YR"
+},
+{
+"date": "2007-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.1,
+"unit": "YR"
+},
+{
+"date": "2008-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.3,
+"unit": "YR"
+},
+{
+"date": "2009-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.5,
+"unit": "YR"
+},
+{
+"date": "2010-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.8,
+"unit": "YR"
+},
+{
+"date": "2011-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.1,
+"unit": "YR"
+},
+{
+"date": "2012-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.2,
+"unit": "YR"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.5,
+"unit": "YR"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.6,
+"unit": "YR"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.5,
+"unit": "YR"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.7,
+"unit": "YR"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.7,
+"unit": "YR"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.8,
+"unit": "YR"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.1,
+"unit": "YR"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.3,
+"unit": "YR"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.0,
+"unit": "YR"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.6,
+"unit": "YR"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.2,
+"unit": "YR"
+},
+{
+"date": "2024-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.5,
+"unit": "YR"
+},
+{
+"date": "1960-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 64.0,
+"unit": "YR"
+},
+{
+"date": "1961-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 62.7,
+"unit": "YR"
+},
+{
+"date": "1962-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 64.2,
+"unit": "YR"
+},
+{
+"date": "1963-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 64.8,
+"unit": "YR"
+},
+{
+"date": "1964-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 64.9,
+"unit": "YR"
+},
+{
+"date": "1965-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 65.8,
+"unit": "YR"
+},
+{
+"date": "1966-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 65.3,
+"unit": "YR"
+},
+{
+"date": "1967-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 66.1,
+"unit": "YR"
+},
+{
+"date": "1968-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 66.4,
+"unit": "YR"
+},
+{
+"date": "1969-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 66.0,
+"unit": "YR"
+},
+{
+"date": "1970-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 66.7,
+"unit": "YR"
+},
+{
+"date": "1971-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 66.4,
+"unit": "YR"
+},
+{
+"date": "1972-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 68.4,
+"unit": "YR"
+},
+{
+"date": "1973-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 67.6,
+"unit": "YR"
+},
+{
+"date": "1974-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 68.2,
+"unit": "YR"
+},
+{
+"date": "1975-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 68.4,
+"unit": "YR"
+},
+{
+"date": "1976-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 69.0,
+"unit": "YR"
+},
+{
+"date": "1977-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 70.1,
+"unit": "YR"
+},
+{
+"date": "1978-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 70.5,
+"unit": "YR"
+},
+{
+"date": "1979-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 71.3,
+"unit": "YR"
+},
+{
+"date": "1980-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 71.5,
+"unit": "YR"
+},
+{
+"date": "1981-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 71.8,
+"unit": "YR"
+},
+{
+"date": "1982-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 72.5,
+"unit": "YR"
+},
+{
+"date": "1983-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 72.4,
+"unit": "YR"
+},
+{
+"date": "1984-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 72.7,
+"unit": "YR"
+},
+{
+"date": "1985-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 73.0,
+"unit": "YR"
+},
+{
+"date": "1986-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 73.4,
+"unit": "YR"
+},
+{
+"date": "1987-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 73.8,
+"unit": "YR"
+},
+{
+"date": "1988-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 73.8,
+"unit": "YR"
+},
+{
+"date": "1989-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 74.4,
+"unit": "YR"
+},
+{
+"date": "1990-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 74.1,
+"unit": "YR"
+},
+{
+"date": "1991-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 74.1,
+"unit": "YR"
+},
+{
+"date": "1992-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 74.7,
+"unit": "YR"
+},
+{
+"date": "1993-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 74.6,
+"unit": "YR"
+},
+{
+"date": "1994-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 75.5,
+"unit": "YR"
+},
+{
+"date": "1995-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 75.4,
+"unit": "YR"
+},
+{
+"date": "1996-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 75.3,
+"unit": "YR"
+},
+{
+"date": "1997-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 75.8,
+"unit": "YR"
+},
+{
+"date": "1998-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 76.0,
+"unit": "YR"
+},
+{
+"date": "1999-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 76.2,
+"unit": "YR"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 76.8,
+"unit": "YR"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.2,
+"unit": "YR"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.4,
+"unit": "YR"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 77.5,
+"unit": "YR"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.4,
+"unit": "YR"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 78.2,
+"unit": "YR"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.0,
+"unit": "YR"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.3,
+"unit": "YR"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.5,
+"unit": "YR"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 79.7,
+"unit": "YR"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.1,
+"unit": "YR"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.7,
+"unit": "YR"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.6,
+"unit": "YR"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 80.9,
+"unit": "YR"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.3,
+"unit": "YR"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.3,
+"unit": "YR"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.4,
+"unit": "YR"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.6,
+"unit": "YR"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.6,
+"unit": "YR"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 82.0,
+"unit": "YR"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.4,
+"unit": "YR"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.4,
+"unit": "YR"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 81.7,
+"unit": "YR"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 82.3,
+"unit": "YR"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "0",
+"indicator": "life_expectancy",
+"value": 82.5,
+"unit": "YR"
 }
 ]

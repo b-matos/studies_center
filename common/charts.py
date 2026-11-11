@@ -14,7 +14,7 @@ import yaml
 
 
 def export_series_json(df: pd.DataFrame, out_path: Path) -> None:
-    """Write a long-format DataFrame (data, regiao, sexo, idade, indicador, valor, unidade)
+    """Write a long-format DataFrame (date, region, sex, age, indicator, value, unit)
     as a JSON array of records, ready for Observable Plot to consume directly."""
     out_path.parent.mkdir(parents=True, exist_ok=True)
     records = df.to_dict(orient="records")

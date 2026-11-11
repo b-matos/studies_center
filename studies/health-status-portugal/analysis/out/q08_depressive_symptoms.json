@@ -1,1505 +1,1505 @@
 [
 {
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 5.3171,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 12.1467,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 9.0845,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "75 - 84 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 7.9329,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "75 - 84 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 11.6074,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "75 - 84 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 10.1267,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "15+",
-"indicador": "Sintomas ligeiros",
-"valor": 4.3008,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "15+",
-"indicador": "Sintomas ligeiros",
-"valor": 8.038,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "15+",
-"indicador": "Sintomas ligeiros",
-"valor": 6.2881,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "85 e mais anos",
-"indicador": "Sintomas ligeiros",
-"valor": 13.4552,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "85 e mais anos",
-"indicador": "Sintomas ligeiros",
-"valor": 12.1431,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "25 - 34 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 3.146,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "35 - 44 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 4.9465,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "35 - 44 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 3.5967,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 7.2935,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 10.8192,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 9.1585,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "45 - 54 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 9.4681,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "45 - 54 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 7.1151,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "65 - 74 anos",
-"indicador": "Sem sintomas",
-"valor": 92.0054,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65 - 74 anos",
-"indicador": "Sem sintomas",
-"valor": 78.0147,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "65 - 74 anos",
-"indicador": "Sem sintomas",
-"valor": 84.2878,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "75 - 84 anos",
-"indicador": "Sem sintomas",
-"valor": 86.1632,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "75 - 84 anos",
-"indicador": "Sem sintomas",
-"valor": 75.8758,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "75 - 84 anos",
-"indicador": "Sem sintomas",
-"valor": 80.0212,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "15+",
-"indicador": "Sem sintomas",
-"valor": 93.0507,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "15+",
-"indicador": "Sem sintomas",
-"valor": 84.8265,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "15+",
-"indicador": "Sem sintomas",
-"valor": 88.6775,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "85 e mais anos",
-"indicador": "Sem sintomas",
-"valor": 80.5852,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "85 e mais anos",
-"indicador": "Sem sintomas",
-"valor": 72.29,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "85 e mais anos",
-"indicador": "Sem sintomas",
-"valor": 74.9103,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "15 - 24 anos",
-"indicador": "Sem sintomas",
-"valor": 96.1217,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "15 - 24 anos",
-"indicador": "Sem sintomas",
-"valor": 95.5614,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "15 - 24 anos",
-"indicador": "Sem sintomas",
-"valor": 95.8458,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "25 - 34 anos",
-"indicador": "Sem sintomas",
-"valor": 97.2724,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "25 - 34 anos",
-"indicador": "Sem sintomas",
-"valor": 92.3318,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "25 - 34 anos",
-"indicador": "Sem sintomas",
-"valor": 94.7635,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "35 - 44 anos",
-"indicador": "Sem sintomas",
-"valor": 96.5999,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "35 - 44 anos",
-"indicador": "Sem sintomas",
-"valor": 89.0971,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "35 - 44 anos",
-"indicador": "Sem sintomas",
-"valor": 92.7047,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "55 - 64 anos",
-"indicador": "Sem sintomas",
-"valor": 89.2678,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "55 - 64 anos",
-"indicador": "Sem sintomas",
-"valor": 81.0852,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "55 - 64 anos",
-"indicador": "Sem sintomas",
-"valor": 84.9395,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "45 - 54 anos",
-"indicador": "Sem sintomas",
-"valor": 91.7683,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "45 - 54 anos",
-"indicador": "Sem sintomas",
-"valor": 83.5439,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "45 - 54 anos",
-"indicador": "Sem sintomas",
-"valor": 87.4758,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas graves",
-"valor": 9.0352,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas graves",
-"valor": 5.6975,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "75 - 84 anos",
-"indicador": "Sintomas graves",
-"valor": 10.1352,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "75 - 84 anos",
-"indicador": "Sintomas graves",
-"valor": 7.5333,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "15+",
-"indicador": "Sintomas graves",
-"valor": 1.5848,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "15+",
-"indicador": "Sintomas graves",
-"valor": 5.5482,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "15+",
-"indicador": "Sintomas graves",
-"valor": 3.6924,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "85 e mais anos",
-"indicador": "Sintomas graves",
-"valor": 7.5815,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "35 - 44 anos",
-"indicador": "Sintomas graves",
-"valor": 4.4974,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "35 - 44 anos",
-"indicador": "Sintomas graves",
-"valor": 2.6532,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas graves",
-"valor": 6.9555,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas graves",
-"valor": 5.0015,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "45 - 54 anos",
-"indicador": "Sintomas graves",
-"valor": 4.8378,
-"unidade": "%"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "45 - 54 anos",
-"indicador": "Sintomas graves",
-"valor": 3.4783,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 7.3445,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 5.6918,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "75 - 84 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 10.1807,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "75 - 84 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 8.7493,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "15+",
-"indicador": "Sintomas ligeiros",
-"valor": 3.6744,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "15+",
-"indicador": "Sintomas ligeiros",
-"valor": 5.7942,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "15+",
-"indicador": "Sintomas ligeiros",
-"valor": 4.8065,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "35 - 44 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 3.2818,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 6.716,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 6.4885,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "45 - 54 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 4.7737,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "45 - 54 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 3.3956,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "65 - 74 anos",
-"indicador": "Sem sintomas",
-"valor": 91.7552,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65 - 74 anos",
-"indicador": "Sem sintomas",
-"valor": 83.579,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "65 - 74 anos",
-"indicador": "Sem sintomas",
-"valor": 87.2668,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "75 - 84 anos",
-"indicador": "Sem sintomas",
-"valor": 83.985,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "75 - 84 anos",
-"indicador": "Sem sintomas",
-"valor": 76.9722,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "75 - 84 anos",
-"indicador": "Sem sintomas",
-"valor": 79.8261,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "15+",
-"indicador": "Sem sintomas",
-"valor": 90.2799,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "15+",
-"indicador": "Sem sintomas",
-"valor": 85.7592,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "15+",
-"indicador": "Sem sintomas",
-"valor": 87.8656,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "85 e mais anos",
-"indicador": "Sem sintomas",
-"valor": 75.1046,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "85 e mais anos",
-"indicador": "Sem sintomas",
-"valor": 67.7616,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "85 e mais anos",
-"indicador": "Sem sintomas",
-"valor": 70.1493,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "15 - 24 anos",
-"indicador": "Sem sintomas",
-"valor": 90.9621,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "15 - 24 anos",
-"indicador": "Sem sintomas",
-"valor": 90.0575,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "15 - 24 anos",
-"indicador": "Sem sintomas",
-"valor": 90.5177,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "25 - 34 anos",
-"indicador": "Sem sintomas",
-"valor": 93.9617,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "25 - 34 anos",
-"indicador": "Sem sintomas",
-"valor": 92.4403,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "25 - 34 anos",
-"indicador": "Sem sintomas",
-"valor": 93.1937,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "35 - 44 anos",
-"indicador": "Sem sintomas",
-"valor": 91.4262,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "35 - 44 anos",
-"indicador": "Sem sintomas",
-"valor": 90.8247,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "35 - 44 anos",
-"indicador": "Sem sintomas",
-"valor": 91.1125,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "55 - 64 anos",
-"indicador": "Sem sintomas",
-"valor": 87.4892,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "55 - 64 anos",
-"indicador": "Sem sintomas",
-"valor": 85.1536,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "55 - 64 anos",
-"indicador": "Sem sintomas",
-"valor": 86.243,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "45 - 54 anos",
-"indicador": "Sem sintomas",
-"valor": 92.2865,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "45 - 54 anos",
-"indicador": "Sem sintomas",
-"valor": 85.6997,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "45 - 54 anos",
-"indicador": "Sem sintomas",
-"valor": 88.8151,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas graves",
-"valor": 4.9176,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas graves",
-"valor": 3.2032,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "75 - 84 anos",
-"indicador": "Sintomas graves",
-"valor": 8.6266,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "75 - 84 anos",
-"indicador": "Sintomas graves",
-"valor": 6.6795,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "15+",
-"indicador": "Sintomas graves",
-"valor": 1.9863,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "15+",
-"indicador": "Sintomas graves",
-"valor": 4.3297,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "15+",
-"indicador": "Sintomas graves",
-"valor": 3.2377,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas graves",
-"valor": 4.5247,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas graves",
-"valor": 3.5309,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "45 - 54 anos",
-"indicador": "Sintomas graves",
-"valor": 5.7038,
-"unidade": "%"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "45 - 54 anos",
-"indicador": "Sintomas graves",
-"valor": 3.7134,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 6.6306,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 11.9353,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 9.4885,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "75 - 84 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 11.4219,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "75 - 84 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 9.0187,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "15+",
-"indicador": "Sintomas ligeiros",
-"valor": 5.0431,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "15+",
-"indicador": "Sintomas ligeiros",
-"valor": 8.2568,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "15+",
-"indicador": "Sintomas ligeiros",
-"valor": 6.697,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "85 e mais anos",
-"indicador": "Sintomas ligeiros",
-"valor": 14.1896,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "85 e mais anos",
-"indicador": "Sintomas ligeiros",
-"valor": 12.8503,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "35 - 44 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 5.2861,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "35 - 44 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 4.3787,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 7.518,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 8.7459,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 8.167,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "45 - 54 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 4.248,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "45 - 54 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 7.3388,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "45 - 54 anos",
-"indicador": "Sintomas ligeiros",
-"valor": 5.8354,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "65 - 74 anos",
-"indicador": "Sem sintomas",
-"valor": 85.9083,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65 - 74 anos",
-"indicador": "Sem sintomas",
-"valor": 73.9249,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "65 - 74 anos",
-"indicador": "Sem sintomas",
-"valor": 79.4521,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "75 - 84 anos",
-"indicador": "Sem sintomas",
-"valor": 82.1594,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "75 - 84 anos",
-"indicador": "Sem sintomas",
-"valor": 72.8213,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "75 - 84 anos",
-"indicador": "Sem sintomas",
-"valor": 76.834,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "15+",
-"indicador": "Sem sintomas",
-"valor": 86.8806,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "15+",
-"indicador": "Sem sintomas",
-"valor": 80.303,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "15+",
-"indicador": "Sem sintomas",
-"valor": 83.4956,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "85 e mais anos",
-"indicador": "Sem sintomas",
-"valor": 71.5431,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "85 e mais anos",
-"indicador": "Sem sintomas",
-"valor": 65.2229,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "85 e mais anos",
-"indicador": "Sem sintomas",
-"valor": 67.4044,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "15 - 24 anos",
-"indicador": "Sem sintomas",
-"valor": 94.266,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "15 - 24 anos",
-"indicador": "Sem sintomas",
-"valor": 88.0377,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "15 - 24 anos",
-"indicador": "Sem sintomas",
-"valor": 91.266,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "25 - 34 anos",
-"indicador": "Sem sintomas",
-"valor": 87.3958,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "25 - 34 anos",
-"indicador": "Sem sintomas",
-"valor": 85.693,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "25 - 34 anos",
-"indicador": "Sem sintomas",
-"valor": 86.6102,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "35 - 44 anos",
-"indicador": "Sem sintomas",
-"valor": 89.8987,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "35 - 44 anos",
-"indicador": "Sem sintomas",
-"valor": 86.511,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "35 - 44 anos",
-"indicador": "Sem sintomas",
-"valor": 88.2486,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "55 - 64 anos",
-"indicador": "Sem sintomas",
-"valor": 82.9026,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "55 - 64 anos",
-"indicador": "Sem sintomas",
-"valor": 78.4839,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "55 - 64 anos",
-"indicador": "Sem sintomas",
-"valor": 80.5673,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "45 - 54 anos",
-"indicador": "Sem sintomas",
-"valor": 86.9459,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "45 - 54 anos",
-"indicador": "Sem sintomas",
-"valor": 81.6765,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "45 - 54 anos",
-"indicador": "Sem sintomas",
-"valor": 84.2397,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas graves",
-"valor": 8.4872,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "65 - 74 anos",
-"indicador": "Sintomas graves",
-"valor": 5.695,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "75 - 84 anos",
-"indicador": "Sintomas graves",
-"valor": 7.8389,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "75 - 84 anos",
-"indicador": "Sintomas graves",
-"valor": 6.1412,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "H",
-"idade": "15+",
-"indicador": "Sintomas graves",
-"valor": 2.7178,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "15+",
-"indicador": "Sintomas graves",
-"valor": 5.8299,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "15+",
-"indicador": "Sintomas graves",
-"valor": 4.3194,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "85 e mais anos",
-"indicador": "Sintomas graves",
-"valor": 9.7287,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas graves",
-"valor": 6.2068,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "55 - 64 anos",
-"indicador": "Sintomas graves",
-"valor": 4.8975,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "45 - 54 anos",
-"indicador": "Sintomas graves",
-"valor": 5.7789,
-"unidade": "%"
-},
-{
-"data": "2025-01-01",
-"regiao": "Portugal",
-"sexo": "HM",
-"idade": "45 - 54 anos",
-"indicador": "Sintomas graves",
-"valor": 4.3359,
-"unidade": "%"
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "65 - 74 anos",
+"indicator": "Sintomas ligeiros",
+"value": 5.3171,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65 - 74 anos",
+"indicator": "Sintomas ligeiros",
+"value": 12.1467,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "65 - 74 anos",
+"indicator": "Sintomas ligeiros",
+"value": 9.0845,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "75 - 84 anos",
+"indicator": "Sintomas ligeiros",
+"value": 7.9329,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "75 - 84 anos",
+"indicator": "Sintomas ligeiros",
+"value": 11.6074,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "75 - 84 anos",
+"indicator": "Sintomas ligeiros",
+"value": 10.1267,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "15+",
+"indicator": "Sintomas ligeiros",
+"value": 4.3008,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "15+",
+"indicator": "Sintomas ligeiros",
+"value": 8.038,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "15+",
+"indicator": "Sintomas ligeiros",
+"value": 6.2881,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "85 e mais anos",
+"indicator": "Sintomas ligeiros",
+"value": 13.4552,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "85 e mais anos",
+"indicator": "Sintomas ligeiros",
+"value": 12.1431,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "25 - 34 anos",
+"indicator": "Sintomas ligeiros",
+"value": 3.146,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "35 - 44 anos",
+"indicator": "Sintomas ligeiros",
+"value": 4.9465,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "35 - 44 anos",
+"indicator": "Sintomas ligeiros",
+"value": 3.5967,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "55 - 64 anos",
+"indicator": "Sintomas ligeiros",
+"value": 7.2935,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "55 - 64 anos",
+"indicator": "Sintomas ligeiros",
+"value": 10.8192,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "55 - 64 anos",
+"indicator": "Sintomas ligeiros",
+"value": 9.1585,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "45 - 54 anos",
+"indicator": "Sintomas ligeiros",
+"value": 9.4681,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "45 - 54 anos",
+"indicator": "Sintomas ligeiros",
+"value": 7.1151,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "65 - 74 anos",
+"indicator": "Sem sintomas",
+"value": 92.0054,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65 - 74 anos",
+"indicator": "Sem sintomas",
+"value": 78.0147,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "65 - 74 anos",
+"indicator": "Sem sintomas",
+"value": 84.2878,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "75 - 84 anos",
+"indicator": "Sem sintomas",
+"value": 86.1632,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "75 - 84 anos",
+"indicator": "Sem sintomas",
+"value": 75.8758,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "75 - 84 anos",
+"indicator": "Sem sintomas",
+"value": 80.0212,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "15+",
+"indicator": "Sem sintomas",
+"value": 93.0507,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "15+",
+"indicator": "Sem sintomas",
+"value": 84.8265,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "15+",
+"indicator": "Sem sintomas",
+"value": 88.6775,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "85 e mais anos",
+"indicator": "Sem sintomas",
+"value": 80.5852,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "85 e mais anos",
+"indicator": "Sem sintomas",
+"value": 72.29,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "85 e mais anos",
+"indicator": "Sem sintomas",
+"value": 74.9103,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "15 - 24 anos",
+"indicator": "Sem sintomas",
+"value": 96.1217,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "15 - 24 anos",
+"indicator": "Sem sintomas",
+"value": 95.5614,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "15 - 24 anos",
+"indicator": "Sem sintomas",
+"value": 95.8458,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "25 - 34 anos",
+"indicator": "Sem sintomas",
+"value": 97.2724,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "25 - 34 anos",
+"indicator": "Sem sintomas",
+"value": 92.3318,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "25 - 34 anos",
+"indicator": "Sem sintomas",
+"value": 94.7635,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "35 - 44 anos",
+"indicator": "Sem sintomas",
+"value": 96.5999,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "35 - 44 anos",
+"indicator": "Sem sintomas",
+"value": 89.0971,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "35 - 44 anos",
+"indicator": "Sem sintomas",
+"value": 92.7047,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "55 - 64 anos",
+"indicator": "Sem sintomas",
+"value": 89.2678,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "55 - 64 anos",
+"indicator": "Sem sintomas",
+"value": 81.0852,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "55 - 64 anos",
+"indicator": "Sem sintomas",
+"value": 84.9395,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "45 - 54 anos",
+"indicator": "Sem sintomas",
+"value": 91.7683,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "45 - 54 anos",
+"indicator": "Sem sintomas",
+"value": 83.5439,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "45 - 54 anos",
+"indicator": "Sem sintomas",
+"value": 87.4758,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65 - 74 anos",
+"indicator": "Sintomas graves",
+"value": 9.0352,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "65 - 74 anos",
+"indicator": "Sintomas graves",
+"value": 5.6975,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "75 - 84 anos",
+"indicator": "Sintomas graves",
+"value": 10.1352,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "75 - 84 anos",
+"indicator": "Sintomas graves",
+"value": 7.5333,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "15+",
+"indicator": "Sintomas graves",
+"value": 1.5848,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "15+",
+"indicator": "Sintomas graves",
+"value": 5.5482,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "15+",
+"indicator": "Sintomas graves",
+"value": 3.6924,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "85 e mais anos",
+"indicator": "Sintomas graves",
+"value": 7.5815,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "35 - 44 anos",
+"indicator": "Sintomas graves",
+"value": 4.4974,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "35 - 44 anos",
+"indicator": "Sintomas graves",
+"value": 2.6532,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "55 - 64 anos",
+"indicator": "Sintomas graves",
+"value": 6.9555,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "55 - 64 anos",
+"indicator": "Sintomas graves",
+"value": 5.0015,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "45 - 54 anos",
+"indicator": "Sintomas graves",
+"value": 4.8378,
+"unit": "%"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "45 - 54 anos",
+"indicator": "Sintomas graves",
+"value": 3.4783,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65 - 74 anos",
+"indicator": "Sintomas ligeiros",
+"value": 7.3445,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "65 - 74 anos",
+"indicator": "Sintomas ligeiros",
+"value": 5.6918,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "75 - 84 anos",
+"indicator": "Sintomas ligeiros",
+"value": 10.1807,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "75 - 84 anos",
+"indicator": "Sintomas ligeiros",
+"value": 8.7493,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "15+",
+"indicator": "Sintomas ligeiros",
+"value": 3.6744,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "15+",
+"indicator": "Sintomas ligeiros",
+"value": 5.7942,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "15+",
+"indicator": "Sintomas ligeiros",
+"value": 4.8065,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "35 - 44 anos",
+"indicator": "Sintomas ligeiros",
+"value": 3.2818,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "55 - 64 anos",
+"indicator": "Sintomas ligeiros",
+"value": 6.716,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "55 - 64 anos",
+"indicator": "Sintomas ligeiros",
+"value": 6.4885,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "45 - 54 anos",
+"indicator": "Sintomas ligeiros",
+"value": 4.7737,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "45 - 54 anos",
+"indicator": "Sintomas ligeiros",
+"value": 3.3956,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "65 - 74 anos",
+"indicator": "Sem sintomas",
+"value": 91.7552,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65 - 74 anos",
+"indicator": "Sem sintomas",
+"value": 83.579,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "65 - 74 anos",
+"indicator": "Sem sintomas",
+"value": 87.2668,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "75 - 84 anos",
+"indicator": "Sem sintomas",
+"value": 83.985,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "75 - 84 anos",
+"indicator": "Sem sintomas",
+"value": 76.9722,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "75 - 84 anos",
+"indicator": "Sem sintomas",
+"value": 79.8261,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "15+",
+"indicator": "Sem sintomas",
+"value": 90.2799,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "15+",
+"indicator": "Sem sintomas",
+"value": 85.7592,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "15+",
+"indicator": "Sem sintomas",
+"value": 87.8656,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "85 e mais anos",
+"indicator": "Sem sintomas",
+"value": 75.1046,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "85 e mais anos",
+"indicator": "Sem sintomas",
+"value": 67.7616,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "85 e mais anos",
+"indicator": "Sem sintomas",
+"value": 70.1493,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "15 - 24 anos",
+"indicator": "Sem sintomas",
+"value": 90.9621,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "15 - 24 anos",
+"indicator": "Sem sintomas",
+"value": 90.0575,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "15 - 24 anos",
+"indicator": "Sem sintomas",
+"value": 90.5177,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "25 - 34 anos",
+"indicator": "Sem sintomas",
+"value": 93.9617,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "25 - 34 anos",
+"indicator": "Sem sintomas",
+"value": 92.4403,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "25 - 34 anos",
+"indicator": "Sem sintomas",
+"value": 93.1937,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "35 - 44 anos",
+"indicator": "Sem sintomas",
+"value": 91.4262,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "35 - 44 anos",
+"indicator": "Sem sintomas",
+"value": 90.8247,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "35 - 44 anos",
+"indicator": "Sem sintomas",
+"value": 91.1125,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "55 - 64 anos",
+"indicator": "Sem sintomas",
+"value": 87.4892,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "55 - 64 anos",
+"indicator": "Sem sintomas",
+"value": 85.1536,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "55 - 64 anos",
+"indicator": "Sem sintomas",
+"value": 86.243,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "45 - 54 anos",
+"indicator": "Sem sintomas",
+"value": 92.2865,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "45 - 54 anos",
+"indicator": "Sem sintomas",
+"value": 85.6997,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "45 - 54 anos",
+"indicator": "Sem sintomas",
+"value": 88.8151,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65 - 74 anos",
+"indicator": "Sintomas graves",
+"value": 4.9176,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "65 - 74 anos",
+"indicator": "Sintomas graves",
+"value": 3.2032,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "75 - 84 anos",
+"indicator": "Sintomas graves",
+"value": 8.6266,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "75 - 84 anos",
+"indicator": "Sintomas graves",
+"value": 6.6795,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "15+",
+"indicator": "Sintomas graves",
+"value": 1.9863,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "15+",
+"indicator": "Sintomas graves",
+"value": 4.3297,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "15+",
+"indicator": "Sintomas graves",
+"value": 3.2377,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "55 - 64 anos",
+"indicator": "Sintomas graves",
+"value": 4.5247,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "55 - 64 anos",
+"indicator": "Sintomas graves",
+"value": 3.5309,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "45 - 54 anos",
+"indicator": "Sintomas graves",
+"value": 5.7038,
+"unit": "%"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "45 - 54 anos",
+"indicator": "Sintomas graves",
+"value": 3.7134,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "65 - 74 anos",
+"indicator": "Sintomas ligeiros",
+"value": 6.6306,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65 - 74 anos",
+"indicator": "Sintomas ligeiros",
+"value": 11.9353,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "65 - 74 anos",
+"indicator": "Sintomas ligeiros",
+"value": 9.4885,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "75 - 84 anos",
+"indicator": "Sintomas ligeiros",
+"value": 11.4219,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "75 - 84 anos",
+"indicator": "Sintomas ligeiros",
+"value": 9.0187,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "15+",
+"indicator": "Sintomas ligeiros",
+"value": 5.0431,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "15+",
+"indicator": "Sintomas ligeiros",
+"value": 8.2568,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "15+",
+"indicator": "Sintomas ligeiros",
+"value": 6.697,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "85 e mais anos",
+"indicator": "Sintomas ligeiros",
+"value": 14.1896,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "85 e mais anos",
+"indicator": "Sintomas ligeiros",
+"value": 12.8503,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "35 - 44 anos",
+"indicator": "Sintomas ligeiros",
+"value": 5.2861,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "35 - 44 anos",
+"indicator": "Sintomas ligeiros",
+"value": 4.3787,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "55 - 64 anos",
+"indicator": "Sintomas ligeiros",
+"value": 7.518,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "55 - 64 anos",
+"indicator": "Sintomas ligeiros",
+"value": 8.7459,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "55 - 64 anos",
+"indicator": "Sintomas ligeiros",
+"value": 8.167,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "45 - 54 anos",
+"indicator": "Sintomas ligeiros",
+"value": 4.248,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "45 - 54 anos",
+"indicator": "Sintomas ligeiros",
+"value": 7.3388,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "45 - 54 anos",
+"indicator": "Sintomas ligeiros",
+"value": 5.8354,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "65 - 74 anos",
+"indicator": "Sem sintomas",
+"value": 85.9083,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65 - 74 anos",
+"indicator": "Sem sintomas",
+"value": 73.9249,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "65 - 74 anos",
+"indicator": "Sem sintomas",
+"value": 79.4521,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "75 - 84 anos",
+"indicator": "Sem sintomas",
+"value": 82.1594,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "75 - 84 anos",
+"indicator": "Sem sintomas",
+"value": 72.8213,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "75 - 84 anos",
+"indicator": "Sem sintomas",
+"value": 76.834,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "15+",
+"indicator": "Sem sintomas",
+"value": 86.8806,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "15+",
+"indicator": "Sem sintomas",
+"value": 80.303,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "15+",
+"indicator": "Sem sintomas",
+"value": 83.4956,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "85 e mais anos",
+"indicator": "Sem sintomas",
+"value": 71.5431,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "85 e mais anos",
+"indicator": "Sem sintomas",
+"value": 65.2229,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "85 e mais anos",
+"indicator": "Sem sintomas",
+"value": 67.4044,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "15 - 24 anos",
+"indicator": "Sem sintomas",
+"value": 94.266,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "15 - 24 anos",
+"indicator": "Sem sintomas",
+"value": 88.0377,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "15 - 24 anos",
+"indicator": "Sem sintomas",
+"value": 91.266,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "25 - 34 anos",
+"indicator": "Sem sintomas",
+"value": 87.3958,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "25 - 34 anos",
+"indicator": "Sem sintomas",
+"value": 85.693,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "25 - 34 anos",
+"indicator": "Sem sintomas",
+"value": 86.6102,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "35 - 44 anos",
+"indicator": "Sem sintomas",
+"value": 89.8987,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "35 - 44 anos",
+"indicator": "Sem sintomas",
+"value": 86.511,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "35 - 44 anos",
+"indicator": "Sem sintomas",
+"value": 88.2486,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "55 - 64 anos",
+"indicator": "Sem sintomas",
+"value": 82.9026,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "55 - 64 anos",
+"indicator": "Sem sintomas",
+"value": 78.4839,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "55 - 64 anos",
+"indicator": "Sem sintomas",
+"value": 80.5673,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "45 - 54 anos",
+"indicator": "Sem sintomas",
+"value": 86.9459,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "45 - 54 anos",
+"indicator": "Sem sintomas",
+"value": 81.6765,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "45 - 54 anos",
+"indicator": "Sem sintomas",
+"value": 84.2397,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "65 - 74 anos",
+"indicator": "Sintomas graves",
+"value": 8.4872,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "65 - 74 anos",
+"indicator": "Sintomas graves",
+"value": 5.695,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "75 - 84 anos",
+"indicator": "Sintomas graves",
+"value": 7.8389,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "75 - 84 anos",
+"indicator": "Sintomas graves",
+"value": 6.1412,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "H",
+"age": "15+",
+"indicator": "Sintomas graves",
+"value": 2.7178,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "15+",
+"indicator": "Sintomas graves",
+"value": 5.8299,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "15+",
+"indicator": "Sintomas graves",
+"value": 4.3194,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "85 e mais anos",
+"indicator": "Sintomas graves",
+"value": 9.7287,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "55 - 64 anos",
+"indicator": "Sintomas graves",
+"value": 6.2068,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "55 - 64 anos",
+"indicator": "Sintomas graves",
+"value": 4.8975,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "45 - 54 anos",
+"indicator": "Sintomas graves",
+"value": 5.7789,
+"unit": "%"
+},
+{
+"date": "2025-01-01",
+"region": "Portugal",
+"sex": "HM",
+"age": "45 - 54 anos",
+"indicator": "Sintomas graves",
+"value": 4.3359,
+"unit": "%"
 }
 ]

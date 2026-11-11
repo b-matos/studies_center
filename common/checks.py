@@ -9,6 +9,7 @@ Exits 0 if the phase's condition holds, 1 otherwise, printing the problems found
 """
 from __future__ import annotations
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -116,6 +117,25 @@ def check_phase_3(slug: str) -> tuple[bool, list[str]]:
     return not problems, problems
 
 
+CHART_REQUIRED_KEYS = {"date", "value"}  # site/assets/charts.js reads these canonical English names
+
+
+def _chart_json_problems(path: Path, chart_id: str) -> list[str]:
+    """A chart JSON must use the canonical column names, or the site draws an empty chart."""
+    if not path.is_file():
+        return [f"gráfico {chart_id}: ficheiro {path.name} não existe em analysis/out/"]
+    try:
+        records = json.loads(path.read_text(encoding="utf-8"))
+    except ValueError as exc:
+        return [f"gráfico {chart_id}: {path.name} não é JSON válido ({exc})"]
+    if not isinstance(records, list) or not records or not isinstance(records[0], dict):
+        return [f"gráfico {chart_id}: {path.name} deve ser uma lista não vazia de registos"]
+    missing = CHART_REQUIRED_KEYS - set(records[0])
+    if missing:
+        return [f"gráfico {chart_id}: {path.name} sem as chaves canónicas {sorted(missing)} (tem {sorted(records[0])})"]
+    return []
+
+
 def check_phase_4(slug: str) -> tuple[bool, list[str]]:
     study_dir = _study_dir(slug)
     problems = []
@@ -126,6 +146,8 @@ def check_phase_4(slug: str) -> tuple[bool, list[str]]:
         charts = yaml.safe_load(charts_path.read_text(encoding="utf-8")) or {}
         if not charts:
             problems.append("analysis/charts.yml está vazio")
+        for chart_id, entry in charts.items():
+            problems.extend(_chart_json_problems(study_dir / "analysis" / "out" / str(entry.get("data_file", "")), chart_id))
     breaks_path = study_dir / "breaks.csv"
     if not breaks_path.exists():
         problems.append("breaks.csv não existe")

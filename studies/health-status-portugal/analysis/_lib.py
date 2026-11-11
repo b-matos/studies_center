@@ -32,17 +32,18 @@ def load(source_id: str) -> pd.DataFrame:
 
 def export(df: pd.DataFrame, name: str, axis: str, title_pt: str, title_en: str,
            *, region="region", sex="sex", age="age", indicator="indicator", value="value", unit="unit") -> None:
-    """Export to the browser schema (data, regiao, sexo, idade, indicador, valor, unidade)."""
+    """Export to the browser schema (date, region, sex, age, indicator, value, unit)."""
     out = pd.DataFrame({
-        "data": pd.to_datetime(df["date"]).dt.strftime("%Y-%m-%d"),
-        "regiao": df[region] if region in df else "",
-        "sexo": df[sex] if sex in df else "",
-        "idade": df[age] if age in df else "",
-        "indicador": df[indicator] if indicator in df else "",
-        "valor": df[value].round(4),
-        "unidade": df[unit] if unit in df else "",
-    }).dropna(subset=["valor"])
-    out[["regiao", "sexo", "idade", "indicador", "unidade"]] = out[["regiao", "sexo", "idade", "indicador", "unidade"]].astype(object).fillna("")
+        "date": pd.to_datetime(df["date"]).dt.strftime("%Y-%m-%d"),
+        "region": df[region] if region in df else "",
+        "sex": df[sex] if sex in df else "",
+        "age": df[age] if age in df else "",
+        "indicator": df[indicator] if indicator in df else "",
+        "value": df[value].round(4),
+        "unit": df[unit] if unit in df else "",
+    }).dropna(subset=["value"])
+    text_cols = ["region", "sex", "age", "indicator", "unit"]
+    out[text_cols] = out[text_cols].astype(object).fillna("")
     export_series_json(out, OUT / f"{name}.json")
     register_chart(STUDY, chart_id=name, data_file=f"{name}.json", axis=axis, title_pt=title_pt, title_en=title_en)
     print(f"chart {name}: {len(out)} rows")

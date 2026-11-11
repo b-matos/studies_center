@@ -1,3674 +1,3674 @@
 [
 {
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 197.13,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 196.33,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 196.86,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 196.13,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 193.94,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 192.07,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 190.49,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 188.1,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 183.98,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 184.39,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 183.65,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 172.32,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 169.11,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 167.38,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 166.71,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 166.31,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 168.82,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 166.85,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 166.69,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 170.65,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 167.05,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 160.59,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 157.32,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 156.3,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 21.62,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 20.58,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 21.72,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 20.35,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 20.83,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 20.38,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 19.81,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 22.32,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 21.67,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 21.27,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 19.52,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 41.56,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 42.73,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 39.74,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 35.67,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 36.05,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 35.01,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 33.54,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 33.19,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 28.83,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 30.06,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 24.03,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 25.09,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 21.81,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 345.18,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 331.98,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 339.66,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 313.87,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 312.2,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 300.77,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 284.44,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 288.68,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 288.6,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 282.89,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 261.81,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 286.15,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 287.9,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 266.48,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 263.71,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 260.99,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 255.66,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 245.78,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 244.02,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 235.69,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 244.41,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 211.71,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 204.35,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 186.95,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 54.7,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 51.1,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 59.88,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 54.85,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 59.58,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 59.81,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 56.4,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 51.62,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 47.98,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 54.64,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 57.25,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 91.9,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 107.97,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 92.77,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 87.24,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 97.48,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 91.09,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 86.98,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 86.66,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 78.59,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 69.44,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 58.57,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 67.4,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 70.96,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 838.08,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 815.04,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 846.68,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 807.62,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 817.16,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 842.58,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 781.48,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 819.3,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 843.04,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 812.15,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 783.8,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 806.65,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 797.31,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 777.57,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 759.82,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 705.38,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 29.01,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 28.47,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 29.53,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 28.95,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 29.43,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 29.63,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 29.12,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 28.9,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 30.18,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 31.93,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 31.27,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 21.75,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 20.15,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 22.5,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 26.33,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 27.26,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 25.8,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 28.52,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 28.05,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 28.27,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 27.42,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 26.73,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 27.47,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "F",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 25.8,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 353.73,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 349.92,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 347.27,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 343.93,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 335.87,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 330.91,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 324.25,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 318.01,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 307.54,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 305.7,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 302.78,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 353.64,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 353.83,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 350.61,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 350.33,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 349.74,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 355.98,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 354.29,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 353.71,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 353.5,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 346.41,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 317.76,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 304.05,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 302.25,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 28.14,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 27.04,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 28.8,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 27.69,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 28.29,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 28.13,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 27.64,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 30.95,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 30.42,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 30.43,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 28.66,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 48.02,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 52.82,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 46.59,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 44.56,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 44.39,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 43.88,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 39.69,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 41.12,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 36.73,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 39.02,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 31.03,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 30.55,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 25.88,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 479.76,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 462.44,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 471.36,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 442.81,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 438.73,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 424.62,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 403.63,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 413.23,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 412.45,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 404.37,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 377.87,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 367.09,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 373.11,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 356.79,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 361.58,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 350.91,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 350.71,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 343.24,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 346.67,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 338.86,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 340.66,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 296.5,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 279.59,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 263.85,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 110.94,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 104.93,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 116.5,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 108.07,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 112.88,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 112.56,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 105.89,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 100.81,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 92.51,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 101.45,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 103.04,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 174.05,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 192.42,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 176.15,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 166.99,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 174.02,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 176.74,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 164.09,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 168.32,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 151.45,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 137.53,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 117.23,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 125.52,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 134.43,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1303.49,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1269.12,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1303.06,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1257.96,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1259.49,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1301.65,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1204.54,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1319.28,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1352.91,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1323.46,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1285.43,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1286.85,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1300.99,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1273.22,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1198.92,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1126.29,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 70.14,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 69.14,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 69.65,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 68.77,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 69.16,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 69.37,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 68.09,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 67.22,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 69.28,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 72.23,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 70.84,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 60.73,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 59.53,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 61.56,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 68.36,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 68.97,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 67.41,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 71.63,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 71.23,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 67.09,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 68.35,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 68.16,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 69.55,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "M",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 69.04,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 261.22,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 259.25,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 258.68,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 257.06,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 252.47,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 249.6,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 245.94,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 242.13,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 235.35,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 234.7,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 233.13,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 246.73,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 244.83,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 242.99,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 242.14,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 241.64,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 245.79,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 243.5,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 243.42,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 244.89,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 240.46,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 226.14,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 219.51,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "cancer_C00_C97",
-"valor": 218.22,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 24.57,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 23.48,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 24.89,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 23.61,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 24.15,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 23.8,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 23.27,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 26.18,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 25.56,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 25.3,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 23.53,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 44.6,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 46.94,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 42.74,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 39.53,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 39.79,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 38.69,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 36.27,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 36.71,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 32.12,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 33.94,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 27.04,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 27.51,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "diabetes",
-"valor": 23.71,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 403.66,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 388.73,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 397.47,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 370.19,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 367.59,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 355.33,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 337.1,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 343.69,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 343.42,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 336.42,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 312.95,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 321.67,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 325.1,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 304.77,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 305.76,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 300.01,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 296.73,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 287.08,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 287.05,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 278.95,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 285.0,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 247.92,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 237.9,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "circulatory",
-"valor": 220.81,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 75.49,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 71.05,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 81.02,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 74.91,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 79.73,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 80.03,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 75.54,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 70.88,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 65.48,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 72.91,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 75.18,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 122.72,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 139.41,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 123.7,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 116.65,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 126.0,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 122.74,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 114.99,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 116.59,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 105.37,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 94.51,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 80.49,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 89.96,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "respiratory",
-"valor": 95.48,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1034.61,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1006.92,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1040.6,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 999.05,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1005.68,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1039.09,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 963.42,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1028.98,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1055.79,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1024.83,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 991.41,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1005.36,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 1005.03,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 980.61,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 947.32,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "all_causes",
-"valor": 885.63,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 47.89,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 47.06,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 47.83,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 47.13,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 47.59,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 47.84,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 47.04,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 46.53,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 48.12,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 50.37,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 49.4,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 39.39,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 37.62,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 39.83,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 44.93,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 44.77,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 44.19,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 47.32,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 46.97,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 45.36,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 45.39,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 44.93,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 46.25,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "T",
-"idade": "TOTAL",
-"indicador": "external_causes",
-"valor": 45.24,
-"unidade": "RT"
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 197.13,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 196.33,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 196.86,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 196.13,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 193.94,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 192.07,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 190.49,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 188.1,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 183.98,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 184.39,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 183.65,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 172.32,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 169.11,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 167.38,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 166.71,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 166.31,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 168.82,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 166.85,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 166.69,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 170.65,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 167.05,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 160.59,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 157.32,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 156.3,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 21.62,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 20.58,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 21.72,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 20.35,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 20.83,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 20.38,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 19.81,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 22.32,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 21.67,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 21.27,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 19.52,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 41.56,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 42.73,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 39.74,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 35.67,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 36.05,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 35.01,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 33.54,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 33.19,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 28.83,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 30.06,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 24.03,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 25.09,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 21.81,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 345.18,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 331.98,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 339.66,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 313.87,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 312.2,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 300.77,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 284.44,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 288.68,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 288.6,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 282.89,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 261.81,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 286.15,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 287.9,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 266.48,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 263.71,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 260.99,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 255.66,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 245.78,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 244.02,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 235.69,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 244.41,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 211.71,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 204.35,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 186.95,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 54.7,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 51.1,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 59.88,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 54.85,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 59.58,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 59.81,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 56.4,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 51.62,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 47.98,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 54.64,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 57.25,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 91.9,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 107.97,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 92.77,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 87.24,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 97.48,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 91.09,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 86.98,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 86.66,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 78.59,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 69.44,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 58.57,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 67.4,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 70.96,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 838.08,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 815.04,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 846.68,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 807.62,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 817.16,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 842.58,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 781.48,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 819.3,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 843.04,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 812.15,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 783.8,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 806.65,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 797.31,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 777.57,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 759.82,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 705.38,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 29.01,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 28.47,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 29.53,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 28.95,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 29.43,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 29.63,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 29.12,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 28.9,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 30.18,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 31.93,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 31.27,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 21.75,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 20.15,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 22.5,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 26.33,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 27.26,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 25.8,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 28.52,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 28.05,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 28.27,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 27.42,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 26.73,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 27.47,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "F",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 25.8,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 353.73,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 349.92,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 347.27,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 343.93,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 335.87,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 330.91,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 324.25,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 318.01,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 307.54,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 305.7,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 302.78,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 353.64,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 353.83,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 350.61,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 350.33,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 349.74,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 355.98,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 354.29,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 353.71,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 353.5,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 346.41,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 317.76,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 304.05,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 302.25,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 28.14,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 27.04,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 28.8,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 27.69,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 28.29,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 28.13,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 27.64,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 30.95,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 30.42,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 30.43,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 28.66,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 48.02,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 52.82,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 46.59,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 44.56,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 44.39,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 43.88,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 39.69,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 41.12,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 36.73,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 39.02,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 31.03,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 30.55,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 25.88,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 479.76,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 462.44,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 471.36,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 442.81,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 438.73,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 424.62,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 403.63,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 413.23,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 412.45,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 404.37,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 377.87,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 367.09,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 373.11,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 356.79,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 361.58,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 350.91,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 350.71,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 343.24,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 346.67,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 338.86,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 340.66,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 296.5,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 279.59,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 263.85,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 110.94,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 104.93,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 116.5,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 108.07,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 112.88,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 112.56,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 105.89,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 100.81,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 92.51,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 101.45,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 103.04,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 174.05,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 192.42,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 176.15,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 166.99,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 174.02,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 176.74,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 164.09,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 168.32,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 151.45,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 137.53,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 117.23,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 125.52,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 134.43,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1303.49,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1269.12,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1303.06,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1257.96,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1259.49,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1301.65,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1204.54,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1319.28,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1352.91,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1323.46,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1285.43,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1286.85,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1300.99,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1273.22,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1198.92,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1126.29,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 70.14,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 69.14,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 69.65,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 68.77,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 69.16,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 69.37,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 68.09,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 67.22,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 69.28,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 72.23,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 70.84,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 60.73,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 59.53,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 61.56,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 68.36,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 68.97,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 67.41,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 71.63,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 71.23,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 67.09,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 68.35,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 68.16,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 69.55,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "M",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 69.04,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 261.22,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 259.25,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 258.68,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 257.06,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 252.47,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 249.6,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 245.94,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 242.13,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 235.35,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 234.7,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 233.13,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 246.73,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 244.83,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 242.99,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 242.14,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 241.64,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 245.79,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 243.5,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 243.42,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 244.89,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 240.46,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 226.14,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 219.51,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "cancer_C00_C97",
+"value": 218.22,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 24.57,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 23.48,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 24.89,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 23.61,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 24.15,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 23.8,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 23.27,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 26.18,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 25.56,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 25.3,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 23.53,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 44.6,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 46.94,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 42.74,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 39.53,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 39.79,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 38.69,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 36.27,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 36.71,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 32.12,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 33.94,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 27.04,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 27.51,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "diabetes",
+"value": 23.71,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 403.66,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 388.73,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 397.47,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 370.19,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 367.59,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 355.33,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 337.1,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 343.69,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 343.42,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 336.42,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 312.95,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 321.67,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 325.1,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 304.77,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 305.76,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 300.01,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 296.73,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 287.08,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 287.05,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 278.95,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 285.0,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 247.92,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 237.9,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "circulatory",
+"value": 220.81,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 75.49,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 71.05,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 81.02,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 74.91,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 79.73,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 80.03,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 75.54,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 70.88,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 65.48,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 72.91,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 75.18,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 122.72,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 139.41,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 123.7,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 116.65,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 126.0,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 122.74,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 114.99,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 116.59,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 105.37,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 94.51,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 80.49,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 89.96,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "respiratory",
+"value": 95.48,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1034.61,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1006.92,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1040.6,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 999.05,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1005.68,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1039.09,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 963.42,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1028.98,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1055.79,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1024.83,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 991.41,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1005.36,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 1005.03,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 980.61,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 947.32,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "all_causes",
+"value": 885.63,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 47.89,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 47.06,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 47.83,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 47.13,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 47.59,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 47.84,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 47.04,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 46.53,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 48.12,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 50.37,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 49.4,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 39.39,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 37.62,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 39.83,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 44.93,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 44.77,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 44.19,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 47.32,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 46.97,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 45.36,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 45.39,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 44.93,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 46.25,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "T",
+"age": "TOTAL",
+"indicator": "external_causes",
+"value": 45.24,
+"unit": "RT"
 }
 ]

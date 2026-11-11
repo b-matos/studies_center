@@ -1,2918 +1,2918 @@
 [
 {
-"data": "1960-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 15.0,
-"unidade": "RT"
-},
-{
-"data": "1961-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 15.1,
-"unidade": "RT"
-},
-{
-"data": "1962-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 16.0,
-"unidade": "RT"
-},
-{
-"data": "1963-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 15.8,
-"unidade": "RT"
-},
-{
-"data": "1964-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 16.2,
-"unidade": "RT"
-},
-{
-"data": "1965-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 15.7,
-"unidade": "RT"
-},
-{
-"data": "1966-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 16.2,
-"unidade": "RT"
-},
-{
-"data": "1967-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 16.2,
-"unidade": "RT"
-},
-{
-"data": "1968-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 17.0,
-"unidade": "RT"
-},
-{
-"data": "1969-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 16.6,
-"unidade": "RT"
-},
-{
-"data": "1970-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 16.1,
-"unidade": "RT"
-},
-{
-"data": "1971-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 16.5,
-"unidade": "RT"
-},
-{
-"data": "1972-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 14.1,
-"unidade": "RT"
-},
-{
-"data": "1973-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 14.5,
-"unidade": "RT"
-},
-{
-"data": "1974-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 15.5,
-"unidade": "RT"
-},
-{
-"data": "1975-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 16.3,
-"unidade": "RT"
-},
-{
-"data": "1976-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 15.0,
-"unidade": "RT"
-},
-{
-"data": "1977-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 14.5,
-"unidade": "RT"
-},
-{
-"data": "1978-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 13.5,
-"unidade": "RT"
-},
-{
-"data": "1979-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 12.4,
-"unidade": "RT"
-},
-{
-"data": "1980-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 12.3,
-"unidade": "RT"
-},
-{
-"data": "1981-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 11.8,
-"unidade": "RT"
-},
-{
-"data": "1982-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 11.6,
-"unidade": "RT"
-},
-{
-"data": "1983-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 9.3,
-"unidade": "RT"
-},
-{
-"data": "1984-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 9.5,
-"unidade": "RT"
-},
-{
-"data": "1985-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 10.2,
-"unidade": "RT"
-},
-{
-"data": "1986-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 9.2,
-"unidade": "RT"
-},
-{
-"data": "1987-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 8.4,
-"unidade": "RT"
-},
-{
-"data": "1988-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 7.4,
-"unidade": "RT"
-},
-{
-"data": "1989-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 6.8,
-"unidade": "RT"
-},
-{
-"data": "1990-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 5.7,
-"unidade": "RT"
-},
-{
-"data": "1991-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 5.5,
-"unidade": "RT"
-},
-{
-"data": "1992-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 4.7,
-"unidade": "RT"
-},
-{
-"data": "1993-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 4.1,
-"unidade": "RT"
-},
-{
-"data": "1994-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 3.4,
-"unidade": "RT"
-},
-{
-"data": "1995-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 3.6,
-"unidade": "RT"
-},
-{
-"data": "1996-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 3.2,
-"unidade": "RT"
-},
-{
-"data": "1997-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 2.8,
-"unidade": "RT"
-},
-{
-"data": "1998-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 2.8,
-"unidade": "RT"
-},
-{
-"data": "1999-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 2.7,
-"unidade": "RT"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 2.5,
-"unidade": "RT"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 2.1,
-"unidade": "RT"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 2.6,
-"unidade": "RT"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 2.1,
-"unidade": "RT"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.7,
-"unidade": "RT"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.6,
-"unidade": "RT"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.6,
-"unidade": "RT"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.6,
-"unidade": "RT"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.5,
-"unidade": "RT"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.7,
-"unidade": "RT"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.1,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.5,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.5,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.2,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.5,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.4,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.5,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.2,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.6,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.2,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.1,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.2,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.0,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.0,
-"unidade": "RT"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "",
-"valor": 1.2,
-"unidade": "RT"
-},
-{
-"data": "1961-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 38.2,
-"unidade": "RT"
-},
-{
-"data": "1962-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 36.4,
-"unidade": "RT"
-},
-{
-"data": "1963-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 34.3,
-"unidade": "RT"
-},
-{
-"data": "1964-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 31.9,
-"unidade": "RT"
-},
-{
-"data": "1965-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 30.0,
-"unidade": "RT"
-},
-{
-"data": "1966-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 29.2,
-"unidade": "RT"
-},
-{
-"data": "1967-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 28.7,
-"unidade": "RT"
-},
-{
-"data": "1968-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 29.2,
-"unidade": "RT"
-},
-{
-"data": "1969-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 28.0,
-"unidade": "RT"
-},
-{
-"data": "1970-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 26.5,
-"unidade": "RT"
-},
-{
-"data": "1971-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 24.4,
-"unidade": "RT"
-},
-{
-"data": "1972-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 23.0,
-"unidade": "RT"
-},
-{
-"data": "1973-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 22.7,
-"unidade": "RT"
-},
-{
-"data": "1974-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 20.9,
-"unidade": "RT"
-},
-{
-"data": "1975-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 21.0,
-"unidade": "RT"
-},
-{
-"data": "1976-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 19.4,
-"unidade": "RT"
-},
-{
-"data": "1977-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 18.3,
-"unidade": "RT"
-},
-{
-"data": "1978-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 17.9,
-"unidade": "RT"
-},
-{
-"data": "1979-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 16.9,
-"unidade": "RT"
-},
-{
-"data": "1980-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 16.1,
-"unidade": "RT"
-},
-{
-"data": "1981-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 15.4,
-"unidade": "RT"
-},
-{
-"data": "1982-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 14.7,
-"unidade": "RT"
-},
-{
-"data": "1983-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 14.0,
-"unidade": "RT"
-},
-{
-"data": "1984-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 13.4,
-"unidade": "RT"
-},
-{
-"data": "1985-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 13.1,
-"unidade": "RT"
-},
-{
-"data": "1986-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 12.3,
-"unidade": "RT"
-},
-{
-"data": "1987-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 12.4,
-"unidade": "RT"
-},
-{
-"data": "1988-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 11.4,
-"unidade": "RT"
-},
-{
-"data": "1989-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 11.1,
-"unidade": "RT"
-},
-{
-"data": "1990-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 10.7,
-"unidade": "RT"
-},
-{
-"data": "1991-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 10.2,
-"unidade": "RT"
-},
-{
-"data": "1992-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 9.7,
-"unidade": "RT"
-},
-{
-"data": "1993-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 9.1,
-"unidade": "RT"
-},
-{
-"data": "1994-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 8.6,
-"unidade": "RT"
-},
-{
-"data": "1995-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 7.7,
-"unidade": "RT"
-},
-{
-"data": "1996-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 7.4,
-"unidade": "RT"
-},
-{
-"data": "1997-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 6.9,
-"unidade": "RT"
-},
-{
-"data": "1998-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 6.6,
-"unidade": "RT"
-},
-{
-"data": "1999-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 6.2,
-"unidade": "RT"
-},
-{
-"data": "2000-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 6.0,
-"unidade": "RT"
-},
-{
-"data": "2001-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 5.8,
-"unidade": "RT"
-},
-{
-"data": "2002-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 5.5,
-"unidade": "RT"
-},
-{
-"data": "2003-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 5.2,
-"unidade": "RT"
-},
-{
-"data": "2004-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 5.1,
-"unidade": "RT"
-},
-{
-"data": "2005-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 4.8,
-"unidade": "RT"
-},
-{
-"data": "2006-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 4.6,
-"unidade": "RT"
-},
-{
-"data": "2007-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 4.4,
-"unidade": "RT"
-},
-{
-"data": "2008-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 4.2,
-"unidade": "RT"
-},
-{
-"data": "2009-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 4.2,
-"unidade": "RT"
-},
-{
-"data": "2010-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 4.0,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.8,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.8,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.7,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.6,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.6,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.6,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.5,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.4,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.4,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.3,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.2,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.3,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.3,
-"unidade": "RT"
-},
-{
-"data": "2024-01-01",
-"regiao": "European Union (27)",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.5,
-"unidade": "RT"
-},
-{
-"data": "1960-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 77.5,
-"unidade": "RT"
-},
-{
-"data": "1961-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 88.8,
-"unidade": "RT"
-},
-{
-"data": "1962-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 78.6,
-"unidade": "RT"
-},
-{
-"data": "1963-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 73.1,
-"unidade": "RT"
-},
-{
-"data": "1964-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 69.0,
-"unidade": "RT"
-},
-{
-"data": "1965-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 64.9,
-"unidade": "RT"
-},
-{
-"data": "1966-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 64.7,
-"unidade": "RT"
-},
-{
-"data": "1967-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 59.2,
-"unidade": "RT"
-},
-{
-"data": "1968-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 61.1,
-"unidade": "RT"
-},
-{
-"data": "1969-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 55.8,
-"unidade": "RT"
-},
-{
-"data": "1970-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 55.5,
-"unidade": "RT"
-},
-{
-"data": "1971-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 51.9,
-"unidade": "RT"
-},
-{
-"data": "1972-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 41.4,
-"unidade": "RT"
-},
-{
-"data": "1973-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 44.8,
-"unidade": "RT"
-},
-{
-"data": "1974-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 37.9,
-"unidade": "RT"
-},
-{
-"data": "1975-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 38.9,
-"unidade": "RT"
-},
-{
-"data": "1976-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 33.4,
-"unidade": "RT"
-},
-{
-"data": "1977-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 30.3,
-"unidade": "RT"
-},
-{
-"data": "1978-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 29.1,
-"unidade": "RT"
-},
-{
-"data": "1979-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 26.0,
-"unidade": "RT"
-},
-{
-"data": "1980-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 24.3,
-"unidade": "RT"
-},
-{
-"data": "1981-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 21.8,
-"unidade": "RT"
-},
-{
-"data": "1982-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 19.8,
-"unidade": "RT"
-},
-{
-"data": "1983-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 19.2,
-"unidade": "RT"
-},
-{
-"data": "1984-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 16.7,
-"unidade": "RT"
-},
-{
-"data": "1985-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 17.8,
-"unidade": "RT"
-},
-{
-"data": "1986-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 15.8,
-"unidade": "RT"
-},
-{
-"data": "1987-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 14.2,
-"unidade": "RT"
-},
-{
-"data": "1988-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 13.0,
-"unidade": "RT"
-},
-{
-"data": "1989-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 12.1,
-"unidade": "RT"
-},
-{
-"data": "1990-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 10.9,
-"unidade": "RT"
-},
-{
-"data": "1991-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 10.8,
-"unidade": "RT"
-},
-{
-"data": "1992-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 9.2,
-"unidade": "RT"
-},
-{
-"data": "1993-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 8.6,
-"unidade": "RT"
-},
-{
-"data": "1994-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 7.9,
-"unidade": "RT"
-},
-{
-"data": "1995-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 7.4,
-"unidade": "RT"
-},
-{
-"data": "1996-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 6.8,
-"unidade": "RT"
-},
-{
-"data": "1997-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 6.4,
-"unidade": "RT"
-},
-{
-"data": "1998-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 6.0,
-"unidade": "RT"
-},
-{
-"data": "1999-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 5.6,
-"unidade": "RT"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 5.5,
-"unidade": "RT"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 5.0,
-"unidade": "RT"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 5.0,
-"unidade": "RT"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 4.1,
-"unidade": "RT"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.8,
-"unidade": "RT"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.5,
-"unidade": "RT"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.3,
-"unidade": "RT"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.4,
-"unidade": "RT"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.3,
-"unidade": "RT"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.6,
-"unidade": "RT"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 2.5,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.1,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.4,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 2.9,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 2.9,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 2.9,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.2,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 2.7,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.3,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 2.8,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 2.4,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 2.4,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 2.6,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 2.5,
-"unidade": "RT"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "infant",
-"valor": 3.0,
-"unidade": "RT"
-},
-{
-"data": "1960-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 27.9,
-"unidade": "RT"
-},
-{
-"data": "1961-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 28.5,
-"unidade": "RT"
-},
-{
-"data": "1962-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 27.3,
-"unidade": "RT"
-},
-{
-"data": "1963-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 26.4,
-"unidade": "RT"
-},
-{
-"data": "1964-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 26.0,
-"unidade": "RT"
-},
-{
-"data": "1965-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 25.4,
-"unidade": "RT"
-},
-{
-"data": "1966-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 25.3,
-"unidade": "RT"
-},
-{
-"data": "1967-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 25.2,
-"unidade": "RT"
-},
-{
-"data": "1968-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 25.5,
-"unidade": "RT"
-},
-{
-"data": "1969-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 25.4,
-"unidade": "RT"
-},
-{
-"data": "1970-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 24.3,
-"unidade": "RT"
-},
-{
-"data": "1971-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 23.5,
-"unidade": "RT"
-},
-{
-"data": "1972-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 19.7,
-"unidade": "RT"
-},
-{
-"data": "1973-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 21.2,
-"unidade": "RT"
-},
-{
-"data": "1974-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 20.9,
-"unidade": "RT"
-},
-{
-"data": "1975-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 22.1,
-"unidade": "RT"
-},
-{
-"data": "1976-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 19.9,
-"unidade": "RT"
-},
-{
-"data": "1977-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 19.1,
-"unidade": "RT"
-},
-{
-"data": "1978-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 17.4,
-"unidade": "RT"
-},
-{
-"data": "1979-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 15.7,
-"unidade": "RT"
-},
-{
-"data": "1980-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 15.5,
-"unidade": "RT"
-},
-{
-"data": "1981-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 14.5,
-"unidade": "RT"
-},
-{
-"data": "1982-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 13.8,
-"unidade": "RT"
-},
-{
-"data": "1983-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 11.5,
-"unidade": "RT"
-},
-{
-"data": "1984-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 11.3,
-"unidade": "RT"
-},
-{
-"data": "1985-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 12.2,
-"unidade": "RT"
-},
-{
-"data": "1986-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 10.8,
-"unidade": "RT"
-},
-{
-"data": "1987-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 9.9,
-"unidade": "RT"
-},
-{
-"data": "1988-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 8.6,
-"unidade": "RT"
-},
-{
-"data": "1989-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 8.1,
-"unidade": "RT"
-},
-{
-"data": "1990-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 7.0,
-"unidade": "RT"
-},
-{
-"data": "1991-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 6.9,
-"unidade": "RT"
-},
-{
-"data": "1992-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 5.9,
-"unidade": "RT"
-},
-{
-"data": "1993-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 5.5,
-"unidade": "RT"
-},
-{
-"data": "1994-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 4.7,
-"unidade": "RT"
-},
-{
-"data": "1995-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 4.7,
-"unidade": "RT"
-},
-{
-"data": "1996-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 4.1,
-"unidade": "RT"
-},
-{
-"data": "1997-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 4.1,
-"unidade": "RT"
-},
-{
-"data": "1998-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 3.7,
-"unidade": "RT"
-},
-{
-"data": "1999-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 3.6,
-"unidade": "RT"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 3.4,
-"unidade": "RT"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.9,
-"unidade": "RT"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 3.4,
-"unidade": "RT"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.7,
-"unidade": "RT"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.6,
-"unidade": "RT"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.2,
-"unidade": "RT"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.1,
-"unidade": "RT"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.1,
-"unidade": "RT"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.1,
-"unidade": "RT"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.5,
-"unidade": "RT"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 1.7,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.4,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.2,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 1.9,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.1,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.0,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.3,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 1.8,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 2.2,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 1.9,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 1.7,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 1.7,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 1.6,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 1.6,
-"unidade": "RT"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "neonatal",
-"valor": 1.8,
-"unidade": "RT"
-},
-{
-"data": "1960-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 41.1,
-"unidade": "RT"
-},
-{
-"data": "1961-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 40.9,
-"unidade": "RT"
-},
-{
-"data": "1962-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 41.2,
-"unidade": "RT"
-},
-{
-"data": "1963-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 39.6,
-"unidade": "RT"
-},
-{
-"data": "1964-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 38.6,
-"unidade": "RT"
-},
-{
-"data": "1965-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 38.6,
-"unidade": "RT"
-},
-{
-"data": "1966-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 38.4,
-"unidade": "RT"
-},
-{
-"data": "1967-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 38.5,
-"unidade": "RT"
-},
-{
-"data": "1968-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 38.7,
-"unidade": "RT"
-},
-{
-"data": "1969-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 38.6,
-"unidade": "RT"
-},
-{
-"data": "1970-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 36.5,
-"unidade": "RT"
-},
-{
-"data": "1971-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 38.2,
-"unidade": "RT"
-},
-{
-"data": "1972-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 34.5,
-"unidade": "RT"
-},
-{
-"data": "1973-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 33.1,
-"unidade": "RT"
-},
-{
-"data": "1974-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 32.2,
-"unidade": "RT"
-},
-{
-"data": "1975-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 31.3,
-"unidade": "RT"
-},
-{
-"data": "1976-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 29.3,
-"unidade": "RT"
-},
-{
-"data": "1977-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 28.9,
-"unidade": "RT"
-},
-{
-"data": "1978-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 26.9,
-"unidade": "RT"
-},
-{
-"data": "1979-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 25.5,
-"unidade": "RT"
-},
-{
-"data": "1980-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 23.9,
-"unidade": "RT"
-},
-{
-"data": "1981-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 24.5,
-"unidade": "RT"
-},
-{
-"data": "1982-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 23.8,
-"unidade": "RT"
-},
-{
-"data": "1983-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 21.4,
-"unidade": "RT"
-},
-{
-"data": "1984-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 21.0,
-"unidade": "RT"
-},
-{
-"data": "1985-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 21.5,
-"unidade": "RT"
-},
-{
-"data": "1986-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 19.9,
-"unidade": "RT"
-},
-{
-"data": "1987-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 18.2,
-"unidade": "RT"
-},
-{
-"data": "1988-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 16.6,
-"unidade": "RT"
-},
-{
-"data": "1989-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 16.3,
-"unidade": "RT"
-},
-{
-"data": "1990-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 14.3,
-"unidade": "RT"
-},
-{
-"data": "1991-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 12.1,
-"unidade": "RT"
-},
-{
-"data": "1992-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 10.8,
-"unidade": "RT"
-},
-{
-"data": "1993-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 10.1,
-"unidade": "RT"
-},
-{
-"data": "1994-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 9.2,
-"unidade": "RT"
-},
-{
-"data": "1995-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 9.0,
-"unidade": "RT"
-},
-{
-"data": "1996-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 7.9,
-"unidade": "RT"
-},
-{
-"data": "1997-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 6.9,
-"unidade": "RT"
-},
-{
-"data": "1998-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 6.7,
-"unidade": "RT"
-},
-{
-"data": "1999-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 6.4,
-"unidade": "RT"
-},
-{
-"data": "2000-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 6.2,
-"unidade": "RT"
-},
-{
-"data": "2001-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 5.6,
-"unidade": "RT"
-},
-{
-"data": "2002-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 6.0,
-"unidade": "RT"
-},
-{
-"data": "2003-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 5.1,
-"unidade": "RT"
-},
-{
-"data": "2004-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 4.4,
-"unidade": "RT"
-},
-{
-"data": "2005-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 4.3,
-"unidade": "RT"
-},
-{
-"data": "2006-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 4.6,
-"unidade": "RT"
-},
-{
-"data": "2007-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 4.4,
-"unidade": "RT"
-},
-{
-"data": "2008-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 4.0,
-"unidade": "RT"
-},
-{
-"data": "2009-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 4.6,
-"unidade": "RT"
-},
-{
-"data": "2010-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 3.5,
-"unidade": "RT"
-},
-{
-"data": "2011-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 3.8,
-"unidade": "RT"
-},
-{
-"data": "2012-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 4.2,
-"unidade": "RT"
-},
-{
-"data": "2013-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 3.4,
-"unidade": "RT"
-},
-{
-"data": "2014-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 4.1,
-"unidade": "RT"
-},
-{
-"data": "2015-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 3.7,
-"unidade": "RT"
-},
-{
-"data": "2016-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 3.7,
-"unidade": "RT"
-},
-{
-"data": "2017-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 3.3,
-"unidade": "RT"
-},
-{
-"data": "2018-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 4.2,
-"unidade": "RT"
-},
-{
-"data": "2019-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 3.5,
-"unidade": "RT"
-},
-{
-"data": "2020-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 3.4,
-"unidade": "RT"
-},
-{
-"data": "2021-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 3.4,
-"unidade": "RT"
-},
-{
-"data": "2022-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 3.5,
-"unidade": "RT"
-},
-{
-"data": "2023-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 3.2,
-"unidade": "RT"
-},
-{
-"data": "2024-01-01",
-"regiao": "Portugal",
-"sexo": "",
-"idade": "",
-"indicador": "perinatal",
-"valor": 3.7,
-"unidade": "RT"
+"date": "1960-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 15.0,
+"unit": "RT"
+},
+{
+"date": "1961-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 15.1,
+"unit": "RT"
+},
+{
+"date": "1962-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 16.0,
+"unit": "RT"
+},
+{
+"date": "1963-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 15.8,
+"unit": "RT"
+},
+{
+"date": "1964-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 16.2,
+"unit": "RT"
+},
+{
+"date": "1965-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 15.7,
+"unit": "RT"
+},
+{
+"date": "1966-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 16.2,
+"unit": "RT"
+},
+{
+"date": "1967-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 16.2,
+"unit": "RT"
+},
+{
+"date": "1968-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 17.0,
+"unit": "RT"
+},
+{
+"date": "1969-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 16.6,
+"unit": "RT"
+},
+{
+"date": "1970-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 16.1,
+"unit": "RT"
+},
+{
+"date": "1971-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 16.5,
+"unit": "RT"
+},
+{
+"date": "1972-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 14.1,
+"unit": "RT"
+},
+{
+"date": "1973-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 14.5,
+"unit": "RT"
+},
+{
+"date": "1974-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 15.5,
+"unit": "RT"
+},
+{
+"date": "1975-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 16.3,
+"unit": "RT"
+},
+{
+"date": "1976-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 15.0,
+"unit": "RT"
+},
+{
+"date": "1977-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 14.5,
+"unit": "RT"
+},
+{
+"date": "1978-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 13.5,
+"unit": "RT"
+},
+{
+"date": "1979-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 12.4,
+"unit": "RT"
+},
+{
+"date": "1980-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 12.3,
+"unit": "RT"
+},
+{
+"date": "1981-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 11.8,
+"unit": "RT"
+},
+{
+"date": "1982-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 11.6,
+"unit": "RT"
+},
+{
+"date": "1983-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 9.3,
+"unit": "RT"
+},
+{
+"date": "1984-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 9.5,
+"unit": "RT"
+},
+{
+"date": "1985-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 10.2,
+"unit": "RT"
+},
+{
+"date": "1986-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 9.2,
+"unit": "RT"
+},
+{
+"date": "1987-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 8.4,
+"unit": "RT"
+},
+{
+"date": "1988-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 7.4,
+"unit": "RT"
+},
+{
+"date": "1989-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 6.8,
+"unit": "RT"
+},
+{
+"date": "1990-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 5.7,
+"unit": "RT"
+},
+{
+"date": "1991-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 5.5,
+"unit": "RT"
+},
+{
+"date": "1992-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 4.7,
+"unit": "RT"
+},
+{
+"date": "1993-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 4.1,
+"unit": "RT"
+},
+{
+"date": "1994-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 3.4,
+"unit": "RT"
+},
+{
+"date": "1995-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 3.6,
+"unit": "RT"
+},
+{
+"date": "1996-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 3.2,
+"unit": "RT"
+},
+{
+"date": "1997-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 2.8,
+"unit": "RT"
+},
+{
+"date": "1998-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 2.8,
+"unit": "RT"
+},
+{
+"date": "1999-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 2.7,
+"unit": "RT"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 2.5,
+"unit": "RT"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 2.1,
+"unit": "RT"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 2.6,
+"unit": "RT"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 2.1,
+"unit": "RT"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.7,
+"unit": "RT"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.6,
+"unit": "RT"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.6,
+"unit": "RT"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.6,
+"unit": "RT"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.5,
+"unit": "RT"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.7,
+"unit": "RT"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.1,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.5,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.5,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.2,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.5,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.4,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.5,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.2,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.6,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.2,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.1,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.2,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.0,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.0,
+"unit": "RT"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "",
+"value": 1.2,
+"unit": "RT"
+},
+{
+"date": "1961-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 38.2,
+"unit": "RT"
+},
+{
+"date": "1962-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 36.4,
+"unit": "RT"
+},
+{
+"date": "1963-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 34.3,
+"unit": "RT"
+},
+{
+"date": "1964-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 31.9,
+"unit": "RT"
+},
+{
+"date": "1965-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 30.0,
+"unit": "RT"
+},
+{
+"date": "1966-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 29.2,
+"unit": "RT"
+},
+{
+"date": "1967-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 28.7,
+"unit": "RT"
+},
+{
+"date": "1968-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 29.2,
+"unit": "RT"
+},
+{
+"date": "1969-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 28.0,
+"unit": "RT"
+},
+{
+"date": "1970-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 26.5,
+"unit": "RT"
+},
+{
+"date": "1971-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 24.4,
+"unit": "RT"
+},
+{
+"date": "1972-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 23.0,
+"unit": "RT"
+},
+{
+"date": "1973-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 22.7,
+"unit": "RT"
+},
+{
+"date": "1974-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 20.9,
+"unit": "RT"
+},
+{
+"date": "1975-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 21.0,
+"unit": "RT"
+},
+{
+"date": "1976-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 19.4,
+"unit": "RT"
+},
+{
+"date": "1977-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 18.3,
+"unit": "RT"
+},
+{
+"date": "1978-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 17.9,
+"unit": "RT"
+},
+{
+"date": "1979-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 16.9,
+"unit": "RT"
+},
+{
+"date": "1980-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 16.1,
+"unit": "RT"
+},
+{
+"date": "1981-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 15.4,
+"unit": "RT"
+},
+{
+"date": "1982-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 14.7,
+"unit": "RT"
+},
+{
+"date": "1983-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 14.0,
+"unit": "RT"
+},
+{
+"date": "1984-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 13.4,
+"unit": "RT"
+},
+{
+"date": "1985-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 13.1,
+"unit": "RT"
+},
+{
+"date": "1986-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 12.3,
+"unit": "RT"
+},
+{
+"date": "1987-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 12.4,
+"unit": "RT"
+},
+{
+"date": "1988-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 11.4,
+"unit": "RT"
+},
+{
+"date": "1989-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 11.1,
+"unit": "RT"
+},
+{
+"date": "1990-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 10.7,
+"unit": "RT"
+},
+{
+"date": "1991-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 10.2,
+"unit": "RT"
+},
+{
+"date": "1992-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 9.7,
+"unit": "RT"
+},
+{
+"date": "1993-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 9.1,
+"unit": "RT"
+},
+{
+"date": "1994-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 8.6,
+"unit": "RT"
+},
+{
+"date": "1995-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 7.7,
+"unit": "RT"
+},
+{
+"date": "1996-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 7.4,
+"unit": "RT"
+},
+{
+"date": "1997-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 6.9,
+"unit": "RT"
+},
+{
+"date": "1998-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 6.6,
+"unit": "RT"
+},
+{
+"date": "1999-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 6.2,
+"unit": "RT"
+},
+{
+"date": "2000-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 6.0,
+"unit": "RT"
+},
+{
+"date": "2001-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 5.8,
+"unit": "RT"
+},
+{
+"date": "2002-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 5.5,
+"unit": "RT"
+},
+{
+"date": "2003-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 5.2,
+"unit": "RT"
+},
+{
+"date": "2004-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 5.1,
+"unit": "RT"
+},
+{
+"date": "2005-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 4.8,
+"unit": "RT"
+},
+{
+"date": "2006-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 4.6,
+"unit": "RT"
+},
+{
+"date": "2007-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 4.4,
+"unit": "RT"
+},
+{
+"date": "2008-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 4.2,
+"unit": "RT"
+},
+{
+"date": "2009-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 4.2,
+"unit": "RT"
+},
+{
+"date": "2010-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 4.0,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.8,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.8,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.7,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.6,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.6,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.6,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.5,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.4,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.4,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.3,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.2,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.3,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.3,
+"unit": "RT"
+},
+{
+"date": "2024-01-01",
+"region": "European Union (27)",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.5,
+"unit": "RT"
+},
+{
+"date": "1960-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 77.5,
+"unit": "RT"
+},
+{
+"date": "1961-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 88.8,
+"unit": "RT"
+},
+{
+"date": "1962-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 78.6,
+"unit": "RT"
+},
+{
+"date": "1963-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 73.1,
+"unit": "RT"
+},
+{
+"date": "1964-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 69.0,
+"unit": "RT"
+},
+{
+"date": "1965-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 64.9,
+"unit": "RT"
+},
+{
+"date": "1966-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 64.7,
+"unit": "RT"
+},
+{
+"date": "1967-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 59.2,
+"unit": "RT"
+},
+{
+"date": "1968-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 61.1,
+"unit": "RT"
+},
+{
+"date": "1969-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 55.8,
+"unit": "RT"
+},
+{
+"date": "1970-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 55.5,
+"unit": "RT"
+},
+{
+"date": "1971-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 51.9,
+"unit": "RT"
+},
+{
+"date": "1972-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 41.4,
+"unit": "RT"
+},
+{
+"date": "1973-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 44.8,
+"unit": "RT"
+},
+{
+"date": "1974-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 37.9,
+"unit": "RT"
+},
+{
+"date": "1975-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 38.9,
+"unit": "RT"
+},
+{
+"date": "1976-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 33.4,
+"unit": "RT"
+},
+{
+"date": "1977-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 30.3,
+"unit": "RT"
+},
+{
+"date": "1978-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 29.1,
+"unit": "RT"
+},
+{
+"date": "1979-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 26.0,
+"unit": "RT"
+},
+{
+"date": "1980-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 24.3,
+"unit": "RT"
+},
+{
+"date": "1981-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 21.8,
+"unit": "RT"
+},
+{
+"date": "1982-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 19.8,
+"unit": "RT"
+},
+{
+"date": "1983-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 19.2,
+"unit": "RT"
+},
+{
+"date": "1984-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 16.7,
+"unit": "RT"
+},
+{
+"date": "1985-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 17.8,
+"unit": "RT"
+},
+{
+"date": "1986-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 15.8,
+"unit": "RT"
+},
+{
+"date": "1987-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 14.2,
+"unit": "RT"
+},
+{
+"date": "1988-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 13.0,
+"unit": "RT"
+},
+{
+"date": "1989-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 12.1,
+"unit": "RT"
+},
+{
+"date": "1990-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 10.9,
+"unit": "RT"
+},
+{
+"date": "1991-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 10.8,
+"unit": "RT"
+},
+{
+"date": "1992-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 9.2,
+"unit": "RT"
+},
+{
+"date": "1993-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 8.6,
+"unit": "RT"
+},
+{
+"date": "1994-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 7.9,
+"unit": "RT"
+},
+{
+"date": "1995-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 7.4,
+"unit": "RT"
+},
+{
+"date": "1996-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 6.8,
+"unit": "RT"
+},
+{
+"date": "1997-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 6.4,
+"unit": "RT"
+},
+{
+"date": "1998-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 6.0,
+"unit": "RT"
+},
+{
+"date": "1999-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 5.6,
+"unit": "RT"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 5.5,
+"unit": "RT"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 5.0,
+"unit": "RT"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 5.0,
+"unit": "RT"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 4.1,
+"unit": "RT"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.8,
+"unit": "RT"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.5,
+"unit": "RT"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.3,
+"unit": "RT"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.4,
+"unit": "RT"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.3,
+"unit": "RT"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.6,
+"unit": "RT"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 2.5,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.1,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.4,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 2.9,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 2.9,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 2.9,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.2,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 2.7,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.3,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 2.8,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 2.4,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 2.4,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 2.6,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 2.5,
+"unit": "RT"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "infant",
+"value": 3.0,
+"unit": "RT"
+},
+{
+"date": "1960-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 27.9,
+"unit": "RT"
+},
+{
+"date": "1961-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 28.5,
+"unit": "RT"
+},
+{
+"date": "1962-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 27.3,
+"unit": "RT"
+},
+{
+"date": "1963-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 26.4,
+"unit": "RT"
+},
+{
+"date": "1964-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 26.0,
+"unit": "RT"
+},
+{
+"date": "1965-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 25.4,
+"unit": "RT"
+},
+{
+"date": "1966-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 25.3,
+"unit": "RT"
+},
+{
+"date": "1967-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 25.2,
+"unit": "RT"
+},
+{
+"date": "1968-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 25.5,
+"unit": "RT"
+},
+{
+"date": "1969-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 25.4,
+"unit": "RT"
+},
+{
+"date": "1970-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 24.3,
+"unit": "RT"
+},
+{
+"date": "1971-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 23.5,
+"unit": "RT"
+},
+{
+"date": "1972-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 19.7,
+"unit": "RT"
+},
+{
+"date": "1973-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 21.2,
+"unit": "RT"
+},
+{
+"date": "1974-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 20.9,
+"unit": "RT"
+},
+{
+"date": "1975-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 22.1,
+"unit": "RT"
+},
+{
+"date": "1976-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 19.9,
+"unit": "RT"
+},
+{
+"date": "1977-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 19.1,
+"unit": "RT"
+},
+{
+"date": "1978-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 17.4,
+"unit": "RT"
+},
+{
+"date": "1979-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 15.7,
+"unit": "RT"
+},
+{
+"date": "1980-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 15.5,
+"unit": "RT"
+},
+{
+"date": "1981-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 14.5,
+"unit": "RT"
+},
+{
+"date": "1982-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 13.8,
+"unit": "RT"
+},
+{
+"date": "1983-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 11.5,
+"unit": "RT"
+},
+{
+"date": "1984-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 11.3,
+"unit": "RT"
+},
+{
+"date": "1985-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 12.2,
+"unit": "RT"
+},
+{
+"date": "1986-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 10.8,
+"unit": "RT"
+},
+{
+"date": "1987-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 9.9,
+"unit": "RT"
+},
+{
+"date": "1988-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 8.6,
+"unit": "RT"
+},
+{
+"date": "1989-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 8.1,
+"unit": "RT"
+},
+{
+"date": "1990-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 7.0,
+"unit": "RT"
+},
+{
+"date": "1991-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 6.9,
+"unit": "RT"
+},
+{
+"date": "1992-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 5.9,
+"unit": "RT"
+},
+{
+"date": "1993-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 5.5,
+"unit": "RT"
+},
+{
+"date": "1994-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 4.7,
+"unit": "RT"
+},
+{
+"date": "1995-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 4.7,
+"unit": "RT"
+},
+{
+"date": "1996-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 4.1,
+"unit": "RT"
+},
+{
+"date": "1997-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 4.1,
+"unit": "RT"
+},
+{
+"date": "1998-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 3.7,
+"unit": "RT"
+},
+{
+"date": "1999-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 3.6,
+"unit": "RT"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 3.4,
+"unit": "RT"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.9,
+"unit": "RT"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 3.4,
+"unit": "RT"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.7,
+"unit": "RT"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.6,
+"unit": "RT"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.2,
+"unit": "RT"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.1,
+"unit": "RT"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.1,
+"unit": "RT"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.1,
+"unit": "RT"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.5,
+"unit": "RT"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 1.7,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.4,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.2,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 1.9,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.1,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.0,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.3,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 1.8,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 2.2,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 1.9,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 1.7,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 1.7,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 1.6,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 1.6,
+"unit": "RT"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "neonatal",
+"value": 1.8,
+"unit": "RT"
+},
+{
+"date": "1960-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 41.1,
+"unit": "RT"
+},
+{
+"date": "1961-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 40.9,
+"unit": "RT"
+},
+{
+"date": "1962-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 41.2,
+"unit": "RT"
+},
+{
+"date": "1963-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 39.6,
+"unit": "RT"
+},
+{
+"date": "1964-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 38.6,
+"unit": "RT"
+},
+{
+"date": "1965-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 38.6,
+"unit": "RT"
+},
+{
+"date": "1966-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 38.4,
+"unit": "RT"
+},
+{
+"date": "1967-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 38.5,
+"unit": "RT"
+},
+{
+"date": "1968-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 38.7,
+"unit": "RT"
+},
+{
+"date": "1969-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 38.6,
+"unit": "RT"
+},
+{
+"date": "1970-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 36.5,
+"unit": "RT"
+},
+{
+"date": "1971-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 38.2,
+"unit": "RT"
+},
+{
+"date": "1972-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 34.5,
+"unit": "RT"
+},
+{
+"date": "1973-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 33.1,
+"unit": "RT"
+},
+{
+"date": "1974-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 32.2,
+"unit": "RT"
+},
+{
+"date": "1975-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 31.3,
+"unit": "RT"
+},
+{
+"date": "1976-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 29.3,
+"unit": "RT"
+},
+{
+"date": "1977-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 28.9,
+"unit": "RT"
+},
+{
+"date": "1978-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 26.9,
+"unit": "RT"
+},
+{
+"date": "1979-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 25.5,
+"unit": "RT"
+},
+{
+"date": "1980-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 23.9,
+"unit": "RT"
+},
+{
+"date": "1981-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 24.5,
+"unit": "RT"
+},
+{
+"date": "1982-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 23.8,
+"unit": "RT"
+},
+{
+"date": "1983-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 21.4,
+"unit": "RT"
+},
+{
+"date": "1984-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 21.0,
+"unit": "RT"
+},
+{
+"date": "1985-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 21.5,
+"unit": "RT"
+},
+{
+"date": "1986-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 19.9,
+"unit": "RT"
+},
+{
+"date": "1987-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 18.2,
+"unit": "RT"
+},
+{
+"date": "1988-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 16.6,
+"unit": "RT"
+},
+{
+"date": "1989-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 16.3,
+"unit": "RT"
+},
+{
+"date": "1990-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 14.3,
+"unit": "RT"
+},
+{
+"date": "1991-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 12.1,
+"unit": "RT"
+},
+{
+"date": "1992-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 10.8,
+"unit": "RT"
+},
+{
+"date": "1993-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 10.1,
+"unit": "RT"
+},
+{
+"date": "1994-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 9.2,
+"unit": "RT"
+},
+{
+"date": "1995-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 9.0,
+"unit": "RT"
+},
+{
+"date": "1996-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 7.9,
+"unit": "RT"
+},
+{
+"date": "1997-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 6.9,
+"unit": "RT"
+},
+{
+"date": "1998-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 6.7,
+"unit": "RT"
+},
+{
+"date": "1999-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 6.4,
+"unit": "RT"
+},
+{
+"date": "2000-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 6.2,
+"unit": "RT"
+},
+{
+"date": "2001-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 5.6,
+"unit": "RT"
+},
+{
+"date": "2002-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 6.0,
+"unit": "RT"
+},
+{
+"date": "2003-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 5.1,
+"unit": "RT"
+},
+{
+"date": "2004-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 4.4,
+"unit": "RT"
+},
+{
+"date": "2005-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 4.3,
+"unit": "RT"
+},
+{
+"date": "2006-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 4.6,
+"unit": "RT"
+},
+{
+"date": "2007-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 4.4,
+"unit": "RT"
+},
+{
+"date": "2008-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 4.0,
+"unit": "RT"
+},
+{
+"date": "2009-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 4.6,
+"unit": "RT"
+},
+{
+"date": "2010-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 3.5,
+"unit": "RT"
+},
+{
+"date": "2011-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 3.8,
+"unit": "RT"
+},
+{
+"date": "2012-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 4.2,
+"unit": "RT"
+},
+{
+"date": "2013-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 3.4,
+"unit": "RT"
+},
+{
+"date": "2014-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 4.1,
+"unit": "RT"
+},
+{
+"date": "2015-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 3.7,
+"unit": "RT"
+},
+{
+"date": "2016-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 3.7,
+"unit": "RT"
+},
+{
+"date": "2017-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 3.3,
+"unit": "RT"
+},
+{
+"date": "2018-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 4.2,
+"unit": "RT"
+},
+{
+"date": "2019-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 3.5,
+"unit": "RT"
+},
+{
+"date": "2020-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 3.4,
+"unit": "RT"
+},
+{
+"date": "2021-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 3.4,
+"unit": "RT"
+},
+{
+"date": "2022-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 3.5,
+"unit": "RT"
+},
+{
+"date": "2023-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 3.2,
+"unit": "RT"
+},
+{
+"date": "2024-01-01",
+"region": "Portugal",
+"sex": "",
+"age": "",
+"indicator": "perinatal",
+"value": 3.7,
+"unit": "RT"
 }
 ]
