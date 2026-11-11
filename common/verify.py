@@ -25,13 +25,18 @@ import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
 from pypdf import PdfReader
+from pypdf.errors import DependencyError
 from rapidfuzz import fuzz
 
-from common import trends
+from common import provenance, trends
 from common.csv_io import read_csv, write_csv
 from common.schemas import Claim
 
 FUZZY_MATCH_THRESHOLD = 85
+
+
+class EnvironmentProblem(RuntimeError):
+    """The machine cannot verify (a missing library), which says nothing about the claims."""
 
 
 @dataclass
@@ -50,8 +55,11 @@ def _fetch_text(url: str, *, timeout: float = 30.0) -> str:
         response.raise_for_status()
         content_type = response.headers.get("content-type", "")
         if "pdf" in content_type or url.lower().endswith(".pdf"):
-            reader = PdfReader(stream=BytesIO(response.content))
-            return "\n".join(page.extract_text() or "" for page in reader.pages)
+            try:
+                reader = PdfReader(stream=BytesIO(response.content))
+                return "\n".join(page.extract_text() or "" for page in reader.pages)
+            except DependencyError as exc:  # e.g. cryptography for AES-encrypted PDFs
+                raise EnvironmentProblem(f"missing dependency to read {url}: {exc}; add it with `uv add`") from exc
         soup = BeautifulSoup(response.text, "html.parser")
         return soup.get_text(separator=" ")
 
@@ -63,6 +71,8 @@ def _normalize(text: str) -> str:
 def verify_excerpt(url: str, excerpt: str) -> tuple[bool, str]:
     try:
         page_text = _normalize(_fetch_text(url))
+    except EnvironmentProblem:
+        raise
     except Exception as exc:  # network error, 404, JS-only page, etc.
         return False, f"could not fetch or parse URL: {exc}"
 
@@ -113,8 +123,22 @@ def verify_study(study_dir: Path, *, only_pending: bool = False) -> list[Verific
         claims = [c for c in claims if c.verification_status != "confirmed"]
     results = []
     for claim in claims:
-        excerpt_found, excerpt_detail = verify_excerpt(claim.url, claim.excerpt)
+        if claim.source_nature == "internal":  # a statement about the study's own process
+            problems = provenance.internal_problems(study_dir, claim)
+            results.append(VerificationResult(claim.id, not problems, None, None,
+                                              "; ".join(problems) or "internal: excerpt found in the repository file"))
+            continue
         value, matches, value_detail = recompute_dado(study_dir, claim)
+        if claim.type == "data":  # provenance chain instead of a JavaScript portal's page text
+            problems = provenance.data_chain_problems(study_dir, claim)
+            results.append(VerificationResult(claim.id, not problems, value, matches,
+                                              "; ".join(problems) or f"provenance chain proven; {value_detail}"))
+            continue
+        if not re.match(r"^https?://\S+$", claim.url):
+            results.append(VerificationResult(claim.id, False, value, matches,
+                                              f"url '{claim.url}' is not an http(s) URL (use source_nature=internal for repository files)"))
+            continue
+        excerpt_found, excerpt_detail = verify_excerpt(claim.url, claim.excerpt)
         results.append(
             VerificationResult(
                 claim_id=claim.id,
@@ -168,7 +192,12 @@ def main() -> None:
         print("usage: uv run python -m common.verify <study_dir> [--apply]", file=sys.stderr)
         raise SystemExit(2)
     study_dir = Path(args[0])
-    results = verify_study(study_dir, only_pending=apply)
+    provenance.normalize_data_claims(study_dir)  # url/excerpt of data claims are filled by code
+    try:
+        results = verify_study(study_dir, only_pending=apply)
+    except EnvironmentProblem as exc:
+        print(f"ENVIRONMENT: {exc}", file=sys.stderr)
+        raise SystemExit(3) from exc
     for r in results:
         print(f"[{'OK' if is_confirmed(r) else 'FALHOU'}] {r.claim_id}: {r.detail}")
     unresolved = apply_results(study_dir, results) if apply else [r.claim_id for r in results if not is_confirmed(r)]

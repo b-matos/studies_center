@@ -145,7 +145,7 @@ def test_phase_6_ignores_code_fences_and_cross_references(study_dir: Path) -> No
         [
             Claim(
                 id="c001",
-                type="data",
+                type="fact",
                 text_pt="x",
                 text_en="x",
                 source_id="f1",

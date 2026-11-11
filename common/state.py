@@ -30,6 +30,7 @@ from pathlib import Path
 import pandas as pd
 import yaml
 
+from common import provenance
 from common.checks import CHECKS, STUDIES_ROOT
 from common.csv_io import read_csv, write_csv
 from common.download import read_manifest, verify_manifest
@@ -263,6 +264,8 @@ def complete_phase(slug: str, phase: int) -> tuple[bool, list[str]]:
         return False, problems
     if phase == 2:
         merge_sources(slug)
+    if phase in (6, 7):  # url/excerpt of `data` claims come from the provenance chain, not from the writer
+        provenance.normalize_data_claims(STUDIES_ROOT / slug)
     ok, problems = CHECKS[phase](slug)
     state = load(slug)
     if not ok:

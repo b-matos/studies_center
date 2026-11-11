@@ -16,6 +16,7 @@ from pathlib import Path
 
 import yaml
 
+from common import provenance
 from common.csv_io import read_csv
 from common.download import verify_manifest
 from common.schemas import Break, Claim, DataSource, EventLink
@@ -173,6 +174,24 @@ def check_phase_5(slug: str) -> tuple[bool, list[str]]:
     return not problems, problems
 
 
+def claim_row_problems(study_dir: Path, claims: list[Claim]) -> list[str]:
+    """Rules every claims.csv row must satisfy before verification: what the writer can get wrong offline."""
+    problems = []
+    for c in claims:
+        if c.source_nature == "internal":
+            problems += [f"afirmação {c.id}: {p}" for p in provenance.internal_problems(study_dir, c)]
+        elif c.type == "data":
+            missing = [name for name in ("value", "clean_file", "calculation") if not getattr(c, name)]
+            if missing:
+                problems.append(f"afirmação {c.id} (data) sem {', '.join(missing)}: tem de ser recalculável por código")
+        elif not re.match(r"^https?://\S+$", c.url):
+            problems.append(
+                f"afirmação {c.id}: url '{c.url}' não é um URL http(s); afirmações sobre o processo do estudo "
+                "usam source_nature=internal com o caminho do ficheiro"
+            )
+    return problems
+
+
 def check_phase_6(slug: str) -> tuple[bool, list[str]]:
     study_dir = _study_dir(slug)
     problems = []
@@ -211,6 +230,7 @@ def check_phase_6(slug: str) -> tuple[bool, list[str]]:
                     f"afirmação {claim.id} tem grau {claim.grade} mas o texto não usa a linguagem correspondente"
                 )
 
+    problems += claim_row_problems(study_dir, claims)
     return not problems, problems
 
 
@@ -263,6 +283,7 @@ def check_phase_7(slug: str) -> tuple[bool, list[str]]:
     if "pendente" in text or "pending" in text:
         problems.append("verification.md ainda tem itens marcados como pendentes")
     claims = read_csv(study_dir / "claims.csv", Claim)
+    problems += claim_row_problems(study_dir, claims)
     for a in claims:
         if a.verification_status != "confirmed":
             problems.append(f"afirmação {a.id} tem verification_status={a.verification_status}, não 'confirmed'")

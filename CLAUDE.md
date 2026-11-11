@@ -17,7 +17,11 @@ site Quarto estático. Tudo corre localmente, em Python, orquestrado pelo Claude
    tendência se uma fonte o afirmar (grau A). Sem isso, é "coincide temporalmente com" (grau C),
    ou "pode ter contribuído" quando há um mecanismo plausível documentado (grau B).
 4. **Verificação independente.** Quem escreve o relatório (`writer`) não verifica. O
-   `verifier` abre cada URL e confirma excerto, data e valor; nunca edita o relatório.
+   `verifier` abre cada URL e confirma excerto, data e valor; nunca edita o relatório. Exceções
+   verificadas por código (`common/provenance.py`): afirmações `data` (portais estatísticos são
+   aplicações JavaScript, sem texto estático) provam-se pela cadeia afirmação → `sources.csv` →
+   parquet → manifesto SHA-256 → URL da API, com o valor recalculado; `internal` (sobre o processo do
+   estudo) cita um ficheiro do repositório.
 5. **Direitos de autor.** Paráfrase sempre. No máximo uma citação literal curta por fonte,
    sempre atribuída.
 6. **Reprodutibilidade.** Todo gráfico nasce de dados guardados no repositório (`data/clean/`),

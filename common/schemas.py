@@ -12,7 +12,7 @@ from pydantic import BaseModel, Field
 
 Scope = Literal["PT", "EU", "World"]
 Grade = Literal["A", "B", "C"]
-SourceNature = Literal["primary", "secondary", "news"]
+SourceNature = Literal["primary", "secondary", "news", "internal"]
 SourceStatus = Literal["tested", "excluded"]
 ClaimType = Literal["data", "fact", "event", "link"]
 BreakType = Literal["level", "slope", "peak"]

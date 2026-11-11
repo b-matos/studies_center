@@ -72,6 +72,32 @@ Escreves `studies/<slug>/report.pt.qmd`, `studies/<slug>/report.en.qmd` e
    unidade. O import tem de ser nomeado (`import {x} from ...`); `import * as` é rejeitado
    pelo motor OJS do Quarto.
 
+## Que URL e excerto escreves em cada tipo de afirmação
+
+Não tens internet, por isso **nunca inventes um URL nem um excerto**: o `common.checks` e o
+`common.verify` rejeitam o que não possa ser provado.
+
+- **`data`** (valor de uma série): preenche `value`, `unit`, `source_id`, `clean_file` e
+  `calculation` (obrigatórios: o valor é recalculado por código). **Deixa `url` e `excerpt`
+  vazios**: o código preenche-os a partir de `sources.csv` e do ficheiro bruto descarregado, e a
+  verificação é a cadeia afirmação → `sources.csv` → parquet → manifesto (SHA-256) → URL da API.
+- **`event`, `link`, `fact`** (acontecimentos, leis, ligações): copia `url` e o excerto de
+  `events/events.csv`, `event_links.csv` ou `sources.csv`, que foram obtidos por agentes com
+  internet. Se não houver excerto registado, usa o título do evento tal como está no catálogo; o
+  `verifier` confirma ou propõe a correção. O `url` começa por `https://` ou `http://`.
+- **`internal`** (afirmações sobre o próprio processo do estudo: uma fonte excluída, uma decisão
+  do utilizador, o número de quebras em `breaks.csv`): `source_nature=internal`, `url` = caminho
+  do ficheiro no repositório (por exemplo `studies/<slug>/decisions.md`) e `excerpt` = frase
+  literal desse ficheiro. Verifica-se por código contra o ficheiro. Nunca uses um caminho de
+  ficheiro como `url` noutra natureza.
+
+## Corrigir afirmações falhadas
+
+Quando o orquestrador te devolve ids que falharam, lê `verification.md`: cada linha `failed` pode
+trazer `sugestão: url=<...> excerto="<...>"`, escrita pelo `verifier` (que tem internet). Aplica-a
+tal como está. Sem sugestão, e sem forma de a corrigires com o que tens, remove a afirmação (e o
+texto que a usa) em vez de a deixar sem fonte verificada.
+
 ## Regras
 
 - Não editas `breaks.csv`, `event_links.csv`, nem `data/`.

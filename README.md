@@ -180,8 +180,12 @@ Orchestration rules:
 
 ### Verification (phase 7)
 
-1. `common.verify --apply` confirms mechanically what it can: it fuzzy-searches the recorded
-   excerpt in the normalised page/PDF text and recomputes the value from `data/clean/`.
+1. `common.verify --apply` confirms mechanically what it can. `data` claims are proven by a provenance chain,
+   not by page text (statistical portals are JavaScript apps and the writer has no internet): claim → `sources.csv`
+   → clean parquet (its `source_id`) → `raw_manifest.csv` (SHA-256 of the raw files) → the API URL, with the
+   value recomputed; their `url` and `excerpt` are filled by code (`common/provenance.py`). `internal` claims
+   (about the study's own process) must quote a repository file. Everything else is fuzzy-searched in the
+   normalised page/PDF text. A missing library stops the run with `ENVIRONMENT:` instead of failing claims.
 2. Only the still-unconfirmed claims go to the `verifier`, in batches of up to 15, for manual
    checking.
 3. Whatever remains unconfirmed goes back to the `writer`, up to 3 rounds; if it still cannot be
