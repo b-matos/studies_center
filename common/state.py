@@ -169,6 +169,11 @@ def unit_start(slug: str, phase: int, unit: str) -> dict:
         raise StateError(f"unit '{unit}' is not planned for phase {phase}")
     p["units"][unit] = "in_progress"  # also for a unit redone after a failed check
     save(slug, state)
+    if phase == 6 and unit == "pt" and (STUDIES_ROOT / slug / "analysis" / "charts.yml").exists():
+        # numbers the writer reads instead of the big chart JSON files
+        from common import summarize
+
+        summarize.write_summary(STUDIES_ROOT / slug)
     return state
 
 

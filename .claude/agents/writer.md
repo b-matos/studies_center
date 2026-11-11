@@ -13,17 +13,27 @@ Escreves `studies/<slug>/report.pt.qmd`, `studies/<slug>/report.en.qmd` e
 0. O orquestrador diz-te a unidade: `pt` (escreves `report.pt.qmd` **e** `claims.csv`) ou
    `en` (escreves só `report.en.qmd`, a traduzir o PT reutilizando os mesmos ids e os
    `text_en` já presentes em `claims.csv`; não crias afirmações novas).
-1. Lê `plan.md`, `sources.csv`, `analysis/charts.yml`, `breaks.csv`, `event_links.csv` e,
-   para os números, os `analysis/out/*.json` e `claims.csv` — nunca os parquet. Não acedes à internet — se precisares de confirmar algo que não
-   está nestes ficheiros, falta informação a montante (volta para o agente anterior, não
-   inventes).
+1. Lê `plan.md`, `sources.csv`, `analysis/charts.yml`, `breaks.csv` e `event_links.csv`.
+   Para os números lê **primeiro `analysis/summary.md`** (por gráfico e série: primeiro/último/
+   mínimo/máximo, todos os pontos se a série for curta, e o ficheiro `clean` de onde vem). Para
+   qualquer valor que lá não esteja, faz `Grep` em `analysis/series.csv` (uma observação por
+   linha, por exemplo `q01_life_expectancy,2020`). **Não leias nem faças `Grep` aos
+   `analysis/out/*.json`** (têm ~1 MB, um campo por linha: custam dezenas de milhares de tokens)
+   e nunca aos parquet. O `summary.md` é gerado por `common.summarize` no início da unidade `pt`;
+   se não existir, pára e diz ao orquestrador. Não acedes à internet — se precisares de confirmar
+   algo que não está nestes ficheiros, falta informação a montante (volta para o agente anterior,
+   não inventes).
 2. Para **cada afirmação** (número, facto, evento ou ligação) que escreveres no relatório,
    acrescenta uma linha em `claims.csv` com o esquema `Claim` (`common/schemas.py`):
    `id` (formato `c001`, `c002`, ...), `type`, textos PT/EN, `value`/`unit` quando
    aplicável, `source_id`, `url`, `access_date`, `excerpt` (menos de 15 palavras, existente na
    página de origem), `source_nature`, `location` (onde no relatório aparece),
    `clean_file` e `calculation` para afirmações do tipo `dado` (uma expressão sobre o
-   DataFrame que o `verifier` pode recalcular), e `grade` para ligações.
+   DataFrame que o `verifier` pode recalcular), e `grade` para ligações. O `clean_file` é o
+   `file=` da série em `summary.md`; filtra por `region`, `sex`, `age`, `indicator` e `date` com os
+   `clean_labels(...)` quando aparecerem (o gráfico renomeia-os) ou com os da própria série. Exemplo:
+   `df.query("region=='Portugal' and sex=='T' and age=='Y_LT1' and date=='2024-01-01'").value.iloc[0]`.
+   Série `file=derived` = calculada pelo script de análise: descreve o cálculo na afirmação.
 3. No `.qmd`, marca cada afirmação com `[texto]{.claim id="c042"}`. Isto é obrigatório — o
    `common.checks` da fase 6 rejeita números sem esta marca.
 4. **Linguagem ajustada ao grau de evidência** em qualquer afirmação do tipo `ligacao`:

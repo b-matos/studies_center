@@ -71,7 +71,7 @@ subagente, e `unit-done` (que **recusa** se a saída não existir ou for inváli
 | 3. Extração | `extractor` | um `source_id` testado | escreve `data/extract/<id>.json` (ou `.py`) e corre `common.extract`; `unit-done` valida parquet + manifesto |
 | 4. Análise | `analyst` | — | usa `common.breaks` para candidatos; regista só o que vale a pena |
 | 5. Eventos | `historian` | — | |
-| 6. Redação | `writer` | `pt`, depois `en` | `pt` escreve `report.pt.qmd` + `claims.csv`; `en` traduz com os mesmos ids |
+| 6. Redação | `writer` | `pt`, depois `en` | `unit-start … 6 pt` gera `analysis/summary.md` e `series.csv` (código, `common.summarize`) para o `writer` ler em vez dos JSON; `pt` escreve `report.pt.qmd` + `claims.csv`; `en` traduz com os mesmos ids |
 | 7. Verificação | script, depois `verifier` | afirmações (estado em `claims.csv`) | ver abaixo |
 
 Depois de `complete-phase` passar:

@@ -21,6 +21,9 @@ site/index.en.qmd
 site/events.json
 site/studies/
 
+# Derived by common.summarize at the start of phase 6 (summary.md is kept: it documents the numbers)
+studies/*/analysis/series.csv
+
 # Server logs and run history
 logs/
 queue.json

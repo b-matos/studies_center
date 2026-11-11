@@ -226,3 +226,25 @@ def test_unit_start_reopens_a_done_unit_that_is_being_redone() -> None:
     state.save(SLUG, s)
     state.unit_start(SLUG, 2, "mortality")  # the check failed and the orchestrator relaunches it
     assert state.load(SLUG)["phases"]["2"]["units"]["mortality"] == "in_progress"
+
+
+def test_unit_start_of_the_pt_report_writes_the_chart_summary(studies_root: Path) -> None:
+    import yaml
+
+    state.init(SLUG)
+    study = studies_root / SLUG
+    (study / "analysis" / "out").mkdir(parents=True)
+    (study / "data" / "clean").mkdir(parents=True)
+    (study / "analysis" / "out" / "c.json").write_text(
+        json.dumps([{"date": "2020-01-01", "region": "Portugal", "value": 1.0}]), encoding="utf-8"
+    )
+    (study / "analysis" / "charts.yml").write_text(yaml.safe_dump({"c": {"data_file": "c.json"}}), encoding="utf-8")
+    _complete_through(5)
+    state.start_phase(SLUG, 6)
+    state.plan_units(SLUG, 6, ["pt", "en"])
+
+    state.unit_start(SLUG, 6, "en")
+    assert not (study / "analysis" / "summary.md").exists()  # only the pt unit needs it
+    state.unit_start(SLUG, 6, "pt")
+    assert "## c" in (study / "analysis" / "summary.md").read_text(encoding="utf-8")
+    assert (study / "analysis" / "series.csv").exists()
