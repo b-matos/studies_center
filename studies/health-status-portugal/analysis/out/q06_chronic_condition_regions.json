@@ -6,7 +6,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 41.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2024-01-01",
@@ -15,7 +16,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 40.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2024-01-01",
@@ -24,7 +26,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 45.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2024-01-01",
@@ -33,7 +36,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 41.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2024-01-01",
@@ -42,7 +46,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 40.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2024-01-01",
@@ -51,7 +56,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 38.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2024-01-01",
@@ -60,7 +66,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 46.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2024-01-01",
@@ -69,7 +76,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 41.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2024-01-01",
@@ -78,7 +86,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 44.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2024-01-01",
@@ -87,7 +96,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 42.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2025-01-01",
@@ -96,7 +106,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 45.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2025-01-01",
@@ -105,7 +116,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 38.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2025-01-01",
@@ -114,7 +126,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 46.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2025-01-01",
@@ -123,7 +136,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 42.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2025-01-01",
@@ -132,7 +146,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 40.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2025-01-01",
@@ -141,7 +156,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 41.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2025-01-01",
@@ -150,7 +166,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 46.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2025-01-01",
@@ -159,7 +176,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 43.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2025-01-01",
@@ -168,7 +186,8 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 47.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 },
 {
 "date": "2025-01-01",
@@ -177,6 +196,7 @@
 "age": "",
 "indicator": "chronic_condition_share_nuts",
 "value": 44.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih02"
 }
 ]

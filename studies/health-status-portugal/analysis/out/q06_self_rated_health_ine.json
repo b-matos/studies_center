@@ -6,7 +6,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 6.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -15,7 +16,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 8.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -24,7 +26,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 11.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -33,7 +36,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 50.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -42,7 +46,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 55.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -51,7 +56,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 59.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -60,7 +66,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 40.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -69,7 +76,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 45.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -78,7 +86,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 50.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -87,7 +96,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -96,7 +106,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 36.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -105,7 +116,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 41.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -114,7 +126,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -123,7 +136,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -132,7 +146,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -141,7 +156,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -150,7 +166,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -159,7 +176,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -168,7 +186,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 61.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -177,7 +196,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 55.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -186,7 +206,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 47.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -195,7 +216,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 14.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -204,7 +226,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 12.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -213,7 +236,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 9.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -222,7 +246,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 25.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -231,7 +256,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 21.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2004-01-01",
@@ -240,7 +266,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 16.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -249,7 +276,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 5.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -258,7 +286,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 7.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -267,7 +296,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 11.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -276,7 +306,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 51.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -285,7 +316,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 56.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -294,7 +326,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 60.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -303,7 +336,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 40.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -312,7 +346,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 45.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -321,7 +356,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 51.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -330,7 +366,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -339,7 +376,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 39.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -348,7 +386,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 45.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -357,7 +396,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -366,7 +406,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -375,7 +416,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 29.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -384,7 +426,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -393,7 +436,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -402,7 +446,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -411,7 +456,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 60.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -420,7 +466,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 53.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -429,7 +476,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 42.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -438,7 +486,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 14.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -447,7 +496,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 11.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -456,7 +506,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 9.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -465,7 +516,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 24.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -474,7 +526,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 20.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2005-01-01",
@@ -483,7 +536,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 15.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -492,7 +546,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 5.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -501,7 +556,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 8.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -510,7 +566,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 12.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -519,7 +576,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 55.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -528,7 +586,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 58.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -537,7 +596,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 62.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -546,7 +606,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 43.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -555,7 +616,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 48.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -564,7 +626,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 53.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -573,7 +636,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -582,7 +646,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 39.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -591,7 +656,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 44.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -600,7 +666,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -609,7 +676,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 29.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -618,7 +686,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 27.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -627,7 +696,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -636,7 +706,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 31.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -645,7 +716,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -654,7 +726,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 58.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -663,7 +736,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 52.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -672,7 +746,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 43.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -681,7 +756,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 13.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -690,7 +766,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 11.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -699,7 +776,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 9.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -708,7 +786,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 23.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -717,7 +796,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 20.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2006-01-01",
@@ -726,7 +806,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 15.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -735,7 +816,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 5.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -744,7 +826,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 8.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -753,7 +836,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 11.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -762,7 +846,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 52.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -771,7 +856,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 56.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -780,7 +866,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 59.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -789,7 +876,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 41.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -798,7 +886,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 45.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -807,7 +896,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 50.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -816,7 +906,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 39.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -825,7 +916,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 43.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -834,7 +926,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 49.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -843,7 +936,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -852,7 +946,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -861,7 +956,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -870,7 +966,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 36.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -879,7 +976,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -888,7 +986,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -897,7 +996,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 55.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -906,7 +1006,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 48.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -915,7 +1016,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 38.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -924,7 +1026,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 12.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -933,7 +1036,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 11.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -942,7 +1046,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 10.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -951,7 +1056,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 22.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -960,7 +1066,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 19.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2007-01-01",
@@ -969,7 +1076,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 15.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -978,7 +1086,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 7.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -987,7 +1096,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 9.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -996,7 +1106,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 13.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1005,7 +1116,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 54.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1014,7 +1126,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 59.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1023,7 +1136,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 63.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1032,7 +1146,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 43.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1041,7 +1156,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 48.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1050,7 +1166,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 54.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1059,7 +1176,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 37.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1068,7 +1186,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 39.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1077,7 +1196,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 43.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1086,7 +1206,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1095,7 +1216,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 29.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1104,7 +1226,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 26.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1113,7 +1236,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1122,7 +1246,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 31.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1131,7 +1256,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 29.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1140,7 +1266,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 55.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1149,7 +1276,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 50.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1158,7 +1286,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 43.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1167,7 +1296,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 12.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1176,7 +1306,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 11.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1185,7 +1316,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 9.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1194,7 +1326,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 22.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1203,7 +1336,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 19.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2008-01-01",
@@ -1212,7 +1346,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 16.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1221,7 +1356,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 7.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1230,7 +1366,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 10.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1239,7 +1376,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 15.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1248,7 +1386,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 53.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1257,7 +1396,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 58.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1266,7 +1406,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 62.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1275,7 +1416,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 42.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1284,7 +1426,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 47.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1293,7 +1436,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 53.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1302,7 +1446,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 38.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1311,7 +1456,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 41.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1320,7 +1466,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 44.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1329,7 +1476,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1338,7 +1486,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1347,7 +1496,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 28.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1356,7 +1506,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1365,7 +1516,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1374,7 +1526,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 31.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1383,7 +1536,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 53.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1392,7 +1546,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 48.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1401,7 +1556,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 39.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1410,7 +1566,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 13.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1419,7 +1576,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 11.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1428,7 +1586,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 9.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1437,7 +1596,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 23.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1446,7 +1606,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 19.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2009-01-01",
@@ -1455,7 +1616,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 15.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1464,7 +1626,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 8.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1473,7 +1636,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 11.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1482,7 +1646,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 15.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1491,7 +1656,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 55.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1500,7 +1666,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 60.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1509,7 +1676,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 64.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1518,7 +1686,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 44.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1527,7 +1696,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 49.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1536,7 +1706,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 54.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1545,7 +1716,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 36.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1554,7 +1726,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 40.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1563,7 +1736,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 44.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1572,7 +1746,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1581,7 +1756,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 27.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1590,7 +1766,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 25.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1599,7 +1776,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 31.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1608,7 +1786,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1617,7 +1796,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 28.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1626,7 +1806,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 54.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1635,7 +1816,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 48.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1644,7 +1826,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 39.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1653,7 +1836,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 13.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1662,7 +1846,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 12.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1671,7 +1856,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 10.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1680,7 +1866,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 23.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1689,7 +1876,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 20.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2010-01-01",
@@ -1698,7 +1886,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 16.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1707,7 +1896,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 8.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1716,7 +1906,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 11.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1725,7 +1916,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 16.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1734,7 +1926,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 56.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1743,7 +1936,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 60.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1752,7 +1946,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 64.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1761,7 +1956,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 44.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1770,7 +1966,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 49.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1779,7 +1976,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 55.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1788,7 +1986,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 40.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1797,7 +1996,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 41.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1806,7 +2006,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 44.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1815,7 +2016,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1824,7 +2026,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 29.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1833,7 +2036,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 26.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1842,7 +2046,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1851,7 +2056,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1860,7 +2066,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1869,7 +2076,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 51.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1878,7 +2086,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 46.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1887,7 +2096,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 39.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1896,7 +2106,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 10.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1905,7 +2116,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 9.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1914,7 +2126,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 8.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1923,7 +2136,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 21.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1932,7 +2146,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 18.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2011-01-01",
@@ -1941,7 +2156,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 14.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -1950,7 +2166,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 8.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -1959,7 +2176,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 12.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -1968,7 +2186,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 18.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -1977,7 +2196,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 55.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -1986,7 +2206,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 59.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -1995,7 +2216,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 63.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2004,7 +2226,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 42.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2013,7 +2236,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 48.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2022,7 +2246,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 54.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2031,7 +2256,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 41.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2040,7 +2266,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 43.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2049,7 +2276,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 45.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2058,7 +2286,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2067,7 +2296,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2076,7 +2306,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 27.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2085,7 +2316,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2094,7 +2326,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2103,7 +2336,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 31.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2112,7 +2346,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 50.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2121,7 +2356,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 44.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2130,7 +2366,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 36.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2139,7 +2376,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 11.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2148,7 +2386,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 10.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2157,7 +2396,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 8.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2166,7 +2406,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 21.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2175,7 +2416,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 18.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2012-01-01",
@@ -2184,7 +2426,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 14.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2193,7 +2436,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 9.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2202,7 +2446,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 11.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2211,7 +2456,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 14.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2220,7 +2466,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 52.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2229,7 +2476,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 57.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2238,7 +2486,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 61.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2247,7 +2496,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 41.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2256,7 +2506,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 46.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2265,7 +2516,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 51.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2274,7 +2526,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 39.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2283,7 +2536,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 42.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2292,7 +2546,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 47.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2301,7 +2556,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2310,7 +2566,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2319,7 +2576,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2328,7 +2586,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 36.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2337,7 +2596,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2346,7 +2606,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2355,7 +2616,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 51.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2364,7 +2626,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 46.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2373,7 +2636,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 38.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2382,7 +2646,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 11.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2391,7 +2656,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 10.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2400,7 +2666,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 8.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2409,7 +2676,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 22.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2418,7 +2686,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 18.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2013-01-01",
@@ -2427,7 +2696,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 14.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2436,7 +2706,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 8.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2445,7 +2716,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 10.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2454,7 +2726,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 14.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2463,7 +2736,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 54.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2472,7 +2746,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 57.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2481,7 +2756,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 60.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2490,7 +2766,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 42.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2499,7 +2776,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 46.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2508,7 +2786,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 50.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2517,7 +2796,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 41.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2526,7 +2806,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 44.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2535,7 +2816,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 49.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2544,7 +2826,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2553,7 +2836,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2562,7 +2846,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 31.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2571,7 +2856,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 36.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2580,7 +2866,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2589,7 +2876,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2598,7 +2886,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 50.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2607,7 +2896,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 44.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2616,7 +2906,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 35.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2625,7 +2916,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 11.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2634,7 +2926,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 10.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2643,7 +2936,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 8.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2652,7 +2946,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 21.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2661,7 +2956,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 18.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2014-01-01",
@@ -2670,7 +2966,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 14.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2679,7 +2976,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 9.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2688,7 +2986,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 12.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2697,7 +2996,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 15.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2706,7 +3006,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 53.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2715,7 +3016,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 57.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2724,7 +3026,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 61.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2733,7 +3036,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 42.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2742,7 +3046,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 46.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2751,7 +3056,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 51.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2760,7 +3066,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 41.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2769,7 +3076,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 44.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2778,7 +3086,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 48.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2787,7 +3096,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2796,7 +3106,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2805,7 +3116,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2814,7 +3126,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 37.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2823,7 +3136,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2832,7 +3146,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2841,7 +3156,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 49.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2850,7 +3166,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 43.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2859,7 +3176,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 35.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2868,7 +3186,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 10.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2877,7 +3196,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 9.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2886,7 +3206,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 8.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2895,7 +3216,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 20.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2904,7 +3226,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 17.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2015-01-01",
@@ -2913,7 +3236,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 14.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -2922,7 +3246,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 9.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -2931,7 +3256,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 12.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -2940,7 +3266,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 15.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -2949,7 +3276,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 55.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -2958,7 +3286,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 59.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -2967,7 +3296,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 62.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -2976,7 +3306,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 43.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -2985,7 +3316,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 47.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -2994,7 +3326,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 52.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3003,7 +3336,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 46.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3012,7 +3346,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 48.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3021,7 +3356,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 51.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3030,7 +3366,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3039,7 +3376,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3048,7 +3386,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3057,7 +3396,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 37.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3066,7 +3406,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 36.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3075,7 +3416,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3084,7 +3426,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 44.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3093,7 +3436,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 39.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3102,7 +3446,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 32.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3111,7 +3456,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 9.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3120,7 +3466,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 8.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3129,7 +3476,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 7.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3138,7 +3486,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 18.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3147,7 +3496,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 15.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2016-01-01",
@@ -3156,7 +3506,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 12.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3165,7 +3516,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 11.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3174,7 +3526,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 14.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3183,7 +3536,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 17.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3192,7 +3546,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 56.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3201,7 +3556,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 60.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3210,7 +3566,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 64.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3219,7 +3576,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 44.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3228,7 +3586,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 48.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3237,7 +3596,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 54.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3246,7 +3606,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 46.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3255,7 +3616,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 48.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3264,7 +3626,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 51.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3273,7 +3636,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3282,7 +3646,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 31.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3291,7 +3656,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 28.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3300,7 +3666,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 37.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3309,7 +3676,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3318,7 +3686,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3327,7 +3696,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 41.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3336,7 +3706,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 37.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3345,7 +3716,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 30.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3354,7 +3726,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 9.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3363,7 +3736,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 8.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3372,7 +3746,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 7.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3381,7 +3756,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 18.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3390,7 +3766,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 15.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2017-01-01",
@@ -3399,7 +3776,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 12.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3408,7 +3786,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 12.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3417,7 +3796,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 14.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3426,7 +3806,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 16.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3435,7 +3816,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 57.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3444,7 +3826,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 61.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3453,7 +3836,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 65.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3462,7 +3846,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 44.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3471,7 +3856,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 49.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3480,7 +3866,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 54.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3489,7 +3876,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 46.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3498,7 +3886,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 48.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3507,7 +3896,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 50.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3516,7 +3906,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3525,7 +3916,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3534,7 +3926,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 28.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3543,7 +3936,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 37.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3552,7 +3946,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3561,7 +3956,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3570,7 +3966,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 41.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3579,7 +3976,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 37.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3588,7 +3986,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 33.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3597,7 +3996,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 9.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3606,7 +4006,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 7.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3615,7 +4016,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 6.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3624,7 +4026,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 18.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3633,7 +4036,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 15.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2018-01-01",
@@ -3642,7 +4046,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 12.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3651,7 +4056,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 12.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3660,7 +4066,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 14.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3669,7 +4076,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 18.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3678,7 +4086,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 58.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3687,7 +4096,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 62.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3696,7 +4106,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 66.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3705,7 +4116,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 45.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3714,7 +4126,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 50.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3723,7 +4136,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 55.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3732,7 +4146,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 45.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3741,7 +4156,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 47.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3750,7 +4166,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 50.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3759,7 +4176,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3768,7 +4186,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3777,7 +4196,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 27.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3786,7 +4206,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 36.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3795,7 +4216,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3804,7 +4226,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3813,7 +4236,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 42.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3822,7 +4246,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 37.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3831,7 +4256,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 31.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3840,7 +4266,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 8.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3849,7 +4276,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 7.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3858,7 +4286,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 5.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3867,7 +4296,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 18.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3876,7 +4306,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 15.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2019-01-01",
@@ -3885,7 +4316,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 11.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -3894,7 +4326,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 13.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -3903,7 +4336,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 15.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -3912,7 +4346,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 19.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -3921,7 +4356,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 60.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -3930,7 +4366,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 63.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -3939,7 +4376,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 66.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -3948,7 +4386,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 47.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -3957,7 +4396,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 51.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -3966,7 +4406,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 55.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -3975,7 +4416,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 49.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -3984,7 +4426,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 50.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -3993,7 +4436,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 53.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4002,7 +4446,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4011,7 +4456,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4020,7 +4466,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 28.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4029,7 +4476,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 36.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4038,7 +4486,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4047,7 +4496,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4056,7 +4506,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 37.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4065,7 +4516,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 33.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4074,7 +4526,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 27.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4083,7 +4536,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 7.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4092,7 +4546,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 6.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4101,7 +4556,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 5.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4110,7 +4566,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 15.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4119,7 +4576,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 13.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2020-01-01",
@@ -4128,7 +4586,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 10.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4137,7 +4596,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 14.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4146,7 +4606,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 16.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4155,7 +4616,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 19.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4164,7 +4626,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 59.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4173,7 +4636,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 62.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4182,7 +4646,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 65.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4191,7 +4656,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 46.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4200,7 +4666,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 50.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4209,7 +4676,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 54.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4218,7 +4686,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 49.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4227,7 +4696,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 51.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4236,7 +4706,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 53.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4245,7 +4716,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4254,7 +4726,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 31.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4263,7 +4736,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 28.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4272,7 +4746,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 38.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4281,7 +4756,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 36.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4290,7 +4766,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4299,7 +4776,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 35.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4308,7 +4786,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 32.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4317,7 +4796,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 27.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4326,7 +4806,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 7.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4335,7 +4816,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 6.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4344,7 +4826,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 6.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4353,7 +4836,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 15.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4362,7 +4846,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 13.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2021-01-01",
@@ -4371,7 +4856,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 11.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4380,7 +4866,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 14.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4389,7 +4876,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 16.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4398,7 +4886,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 19.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4407,7 +4896,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 60.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4416,7 +4906,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 61.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4425,7 +4916,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 63.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4434,7 +4926,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 46.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4443,7 +4936,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 49.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4452,7 +4946,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 52.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4461,7 +4956,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 51.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4470,7 +4966,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 53.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4479,7 +4976,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 56.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4488,7 +4986,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4497,7 +4996,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 31.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4506,7 +5006,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 29.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4515,7 +5016,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 38.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4524,7 +5026,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 37.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4533,7 +5036,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 36.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4542,7 +5046,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 34.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4551,7 +5056,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 30.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4560,7 +5066,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 24.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4569,7 +5076,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 7.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4578,7 +5086,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 6.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4587,7 +5096,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 6.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4596,7 +5106,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 15.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4605,7 +5116,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 13.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2022-01-01",
@@ -4614,7 +5126,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 10.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4623,7 +5136,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 14.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4632,7 +5146,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 17.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4641,7 +5156,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 20.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4650,7 +5166,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 61.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4659,7 +5176,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 64.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4668,7 +5186,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 67.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4677,7 +5196,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 47.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4686,7 +5206,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 51.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4695,7 +5216,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 55.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4704,7 +5226,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 50.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4713,7 +5236,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 52.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4722,7 +5246,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 54.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4731,7 +5256,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 31.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4740,7 +5266,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 28.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4749,7 +5276,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 26.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4758,7 +5286,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 37.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4767,7 +5296,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4776,7 +5306,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4785,7 +5316,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 34.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4794,7 +5326,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 30.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4803,7 +5336,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 25.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4812,7 +5346,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 7.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4821,7 +5356,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 6.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4830,7 +5366,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 6.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4839,7 +5376,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 15.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4848,7 +5386,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 13.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2023-01-01",
@@ -4857,7 +5396,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 11.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4866,7 +5406,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 17.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4875,7 +5416,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 19.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4884,7 +5426,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 21.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4893,7 +5436,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 64.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4902,7 +5446,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 67.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4911,7 +5456,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 70.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4920,7 +5466,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 50.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4929,7 +5476,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 53.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4938,7 +5486,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 57.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4947,7 +5496,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 52.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4956,7 +5506,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 53.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4965,7 +5516,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 53.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4974,7 +5526,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 29.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4983,7 +5536,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 27.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -4992,7 +5546,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 24.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -5001,7 +5556,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 36.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -5010,7 +5566,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 34.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -5019,7 +5576,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 32.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -5028,7 +5586,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 30.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -5037,7 +5596,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 27.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -5046,7 +5606,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 25.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -5055,7 +5616,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 6.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -5064,7 +5626,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 5.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -5073,7 +5636,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 5.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -5082,7 +5646,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 13.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -5091,7 +5656,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 12.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2024-01-01",
@@ -5100,7 +5666,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 10.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5109,7 +5676,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 17.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5118,7 +5686,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 19.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5127,7 +5696,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 21.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5136,7 +5706,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 63.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5145,7 +5716,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 66.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5154,7 +5726,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 68.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5163,7 +5736,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 49.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5172,7 +5746,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 52.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5181,7 +5756,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Muito bom ou bom",
 "value": 56.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5190,7 +5766,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 52.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5199,7 +5776,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 52.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5208,7 +5786,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 53.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5217,7 +5796,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 30.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5226,7 +5806,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 28.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5235,7 +5816,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 26.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5244,7 +5826,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 36.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5253,7 +5836,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 35.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5262,7 +5846,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Razoável",
 "value": 33.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5271,7 +5856,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 30.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5280,7 +5866,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 28.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5289,7 +5876,8 @@
 "age": "65 e mais anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 24.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5298,7 +5886,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 6.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5307,7 +5896,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 5.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5316,7 +5906,8 @@
 "age": "16 - 64 anos",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 5.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5325,7 +5916,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 13.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5334,7 +5926,8 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 12.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 },
 {
 "date": "2025-01-01",
@@ -5343,6 +5936,7 @@
 "age": "16+",
 "indicator": "self_rated_health_distribution|Mau ou muito mau",
 "value": 10.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih03"
 }
 ]

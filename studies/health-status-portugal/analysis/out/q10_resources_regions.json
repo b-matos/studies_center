@@ -6,7 +6,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 395.5,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1994-01-01",
@@ -15,7 +16,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 392.52,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1995-01-01",
@@ -24,7 +26,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 391.87,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1996-01-01",
@@ -33,7 +36,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 398.44,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1997-01-01",
@@ -42,7 +46,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 392.92,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1998-01-01",
@@ -51,7 +56,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 385.62,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1999-01-01",
@@ -60,7 +66,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 374.46,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2000-01-01",
@@ -69,7 +76,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 370.9,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2001-01-01",
@@ -78,7 +86,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 364.86,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2002-01-01",
@@ -87,7 +96,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 356.65,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2003-01-01",
@@ -96,7 +106,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 358.16,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2004-01-01",
@@ -105,7 +116,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 358.91,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2005-01-01",
@@ -114,7 +126,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 355.81,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2006-01-01",
@@ -123,7 +136,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 347.88,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2007-01-01",
@@ -132,7 +146,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 343.55,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2008-01-01",
@@ -141,7 +156,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 339.1,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2009-01-01",
@@ -150,7 +166,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 337.19,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2010-01-01",
@@ -159,7 +176,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 337.14,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2011-01-01",
@@ -168,7 +186,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 337.21,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2012-01-01",
@@ -177,7 +196,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 340.61,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2013-01-01",
@@ -186,7 +206,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 339.27,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2014-01-01",
@@ -195,7 +216,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 331.91,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2015-01-01",
@@ -204,7 +226,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 336.84,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2016-01-01",
@@ -213,7 +236,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 339.33,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2017-01-01",
@@ -222,7 +246,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 339.34,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2018-01-01",
@@ -231,7 +256,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 344.32,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2019-01-01",
@@ -240,7 +266,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 350.88,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2020-01-01",
@@ -249,7 +276,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 352.88,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1993-01-01",
@@ -258,7 +286,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 331.14,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1994-01-01",
@@ -267,7 +296,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 326.49,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1995-01-01",
@@ -276,7 +306,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 328.12,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1996-01-01",
@@ -285,7 +316,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 328.52,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1997-01-01",
@@ -294,7 +326,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 322.03,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1998-01-01",
@@ -303,7 +336,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 318.67,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1999-01-01",
@@ -312,7 +346,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 314.48,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2000-01-01",
@@ -321,7 +356,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 313.73,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2001-01-01",
@@ -330,7 +366,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 307.43,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2002-01-01",
@@ -339,7 +376,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 290.71,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2003-01-01",
@@ -348,7 +386,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 300.65,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2004-01-01",
@@ -357,7 +396,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 302.16,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2005-01-01",
@@ -366,7 +406,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 301.68,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2006-01-01",
@@ -375,7 +416,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 300.32,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2007-01-01",
@@ -384,7 +426,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 291.71,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2008-01-01",
@@ -393,7 +436,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 282.12,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2009-01-01",
@@ -402,7 +446,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 286.31,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2010-01-01",
@@ -411,7 +456,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 292.99,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2011-01-01",
@@ -420,7 +466,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 294.09,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2012-01-01",
@@ -429,7 +476,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 296.54,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2013-01-01",
@@ -438,7 +486,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 298.07,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2014-01-01",
@@ -447,7 +496,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 299.95,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2015-01-01",
@@ -456,7 +506,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 298.0,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2016-01-01",
@@ -465,7 +516,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 307.19,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2017-01-01",
@@ -474,7 +526,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 312.34,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2018-01-01",
@@ -483,7 +536,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 320.75,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2019-01-01",
@@ -492,7 +546,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 334.36,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2020-01-01",
@@ -501,7 +556,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 342.21,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1993-01-01",
@@ -510,7 +566,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 223.43,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1994-01-01",
@@ -519,7 +576,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 219.51,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1995-01-01",
@@ -528,7 +586,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 212.39,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1996-01-01",
@@ -537,7 +596,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 206.33,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1997-01-01",
@@ -546,7 +606,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 209.25,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1998-01-01",
@@ -555,7 +616,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 203.87,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1999-01-01",
@@ -564,7 +626,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 205.04,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2000-01-01",
@@ -573,7 +636,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 224.29,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2001-01-01",
@@ -582,7 +646,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 226.68,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2002-01-01",
@@ -591,7 +656,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 222.51,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2003-01-01",
@@ -600,7 +666,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 210.31,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2004-01-01",
@@ -609,7 +676,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 209.82,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2005-01-01",
@@ -618,7 +686,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 201.65,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2006-01-01",
@@ -627,7 +696,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 225.5,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2007-01-01",
@@ -636,7 +706,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 222.39,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2008-01-01",
@@ -645,7 +716,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 204.88,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2009-01-01",
@@ -654,7 +726,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 203.63,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2010-01-01",
@@ -663,7 +736,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 205.77,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2011-01-01",
@@ -672,7 +746,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 222.86,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2012-01-01",
@@ -681,7 +756,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 249.51,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2013-01-01",
@@ -690,7 +766,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 263.89,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2014-01-01",
@@ -699,7 +776,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 255.03,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2015-01-01",
@@ -708,7 +786,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 249.94,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2016-01-01",
@@ -717,7 +796,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 250.17,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2017-01-01",
@@ -726,7 +806,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 256.05,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2018-01-01",
@@ -735,7 +816,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 283.9,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2019-01-01",
@@ -744,7 +826,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 273.58,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2020-01-01",
@@ -753,7 +836,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 265.51,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1999-01-01",
@@ -762,7 +846,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 375.96,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2000-01-01",
@@ -771,7 +856,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 369.76,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2001-01-01",
@@ -780,7 +866,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 363.65,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2002-01-01",
@@ -789,7 +876,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 357.85,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2003-01-01",
@@ -798,7 +886,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 362.57,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2004-01-01",
@@ -807,7 +896,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 369.81,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2005-01-01",
@@ -816,7 +906,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 365.47,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2006-01-01",
@@ -825,7 +916,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 341.94,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2007-01-01",
@@ -834,7 +926,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 342.76,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2008-01-01",
@@ -843,7 +936,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 354.75,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2009-01-01",
@@ -852,7 +946,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 344.13,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2010-01-01",
@@ -861,7 +956,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 336.96,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2011-01-01",
@@ -870,7 +966,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 326.22,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2012-01-01",
@@ -879,7 +976,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 330.78,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2013-01-01",
@@ -888,7 +986,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 316.46,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2014-01-01",
@@ -897,7 +996,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 298.69,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2015-01-01",
@@ -906,7 +1006,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 305.99,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2016-01-01",
@@ -915,7 +1016,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 312.25,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2017-01-01",
@@ -924,7 +1026,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 314.62,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2018-01-01",
@@ -933,7 +1036,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 314.39,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2019-01-01",
@@ -942,7 +1046,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 318.37,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2020-01-01",
@@ -951,7 +1056,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 320.3,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1999-01-01",
@@ -960,7 +1066,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 473.76,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2000-01-01",
@@ -969,7 +1076,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 465.67,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2001-01-01",
@@ -978,7 +1086,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 455.84,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2002-01-01",
@@ -987,7 +1096,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 450.4,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2003-01-01",
@@ -996,7 +1106,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 445.19,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2004-01-01",
@@ -1005,7 +1116,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 438.03,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2005-01-01",
@@ -1014,7 +1126,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 430.08,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2006-01-01",
@@ -1023,7 +1136,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 419.75,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2007-01-01",
@@ -1032,7 +1146,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 415.42,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2008-01-01",
@@ -1041,7 +1156,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 404.83,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2009-01-01",
@@ -1050,7 +1166,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 404.87,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2010-01-01",
@@ -1059,7 +1176,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 399.72,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2011-01-01",
@@ -1068,7 +1186,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 394.88,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2012-01-01",
@@ -1077,7 +1196,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 393.31,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2013-01-01",
@@ -1086,7 +1206,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 396.27,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2014-01-01",
@@ -1095,7 +1216,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 385.85,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2015-01-01",
@@ -1104,7 +1226,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 396.88,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2016-01-01",
@@ -1113,7 +1236,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 390.27,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2017-01-01",
@@ -1122,7 +1246,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 380.9,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2018-01-01",
@@ -1131,7 +1256,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 381.48,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2019-01-01",
@@ -1140,7 +1266,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 382.51,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2020-01-01",
@@ -1149,7 +1276,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 377.4,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1999-01-01",
@@ -1158,7 +1286,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 224.31,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2000-01-01",
@@ -1167,7 +1296,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 225.56,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2001-01-01",
@@ -1176,7 +1306,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 229.06,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2002-01-01",
@@ -1185,7 +1316,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 234.31,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2003-01-01",
@@ -1194,7 +1326,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 215.94,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2004-01-01",
@@ -1203,7 +1336,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 224.12,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2005-01-01",
@@ -1212,7 +1346,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 228.89,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2006-01-01",
@@ -1221,7 +1356,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 224.26,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2007-01-01",
@@ -1230,7 +1366,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 221.49,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2008-01-01",
@@ -1239,7 +1376,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 216.16,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2009-01-01",
@@ -1248,7 +1386,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 206.06,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2010-01-01",
@@ -1257,7 +1396,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 210.55,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2011-01-01",
@@ -1266,7 +1406,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 224.97,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2012-01-01",
@@ -1275,7 +1416,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 224.74,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2013-01-01",
@@ -1284,7 +1426,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 220.24,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2014-01-01",
@@ -1293,7 +1436,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 211.29,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2015-01-01",
@@ -1302,7 +1446,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 217.18,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2016-01-01",
@@ -1311,7 +1456,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 213.24,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2017-01-01",
@@ -1320,7 +1466,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 216.92,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2018-01-01",
@@ -1329,7 +1476,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 218.0,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2019-01-01",
@@ -1338,7 +1486,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 216.87,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2020-01-01",
@@ -1347,7 +1496,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 213.18,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1993-01-01",
@@ -1356,7 +1506,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 566.72,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1994-01-01",
@@ -1365,7 +1516,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 561.07,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1995-01-01",
@@ -1374,7 +1526,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 557.2,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1996-01-01",
@@ -1383,7 +1536,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 554.49,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1997-01-01",
@@ -1392,7 +1546,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 576.75,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1998-01-01",
@@ -1401,7 +1556,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 577.99,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1999-01-01",
@@ -1410,7 +1566,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 581.08,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2000-01-01",
@@ -1419,7 +1576,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 596.5,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2001-01-01",
@@ -1428,7 +1586,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 591.41,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2002-01-01",
@@ -1437,7 +1596,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 589.9,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2003-01-01",
@@ -1446,7 +1606,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 597.68,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2004-01-01",
@@ -1455,7 +1616,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 596.22,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2005-01-01",
@@ -1464,7 +1626,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 610.28,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2006-01-01",
@@ -1473,7 +1636,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 605.15,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2007-01-01",
@@ -1482,7 +1646,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 604.42,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2008-01-01",
@@ -1491,7 +1656,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 610.49,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2009-01-01",
@@ -1500,7 +1666,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 611.87,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2010-01-01",
@@ -1509,7 +1676,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 612.98,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2011-01-01",
@@ -1518,7 +1686,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 608.56,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2012-01-01",
@@ -1527,7 +1696,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 613.25,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2013-01-01",
@@ -1536,7 +1706,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 609.71,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2014-01-01",
@@ -1545,7 +1716,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 604.3,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2015-01-01",
@@ -1554,7 +1726,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 612.05,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2016-01-01",
@@ -1563,7 +1736,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 619.08,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2017-01-01",
@@ -1572,7 +1746,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 605.14,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2018-01-01",
@@ -1581,7 +1756,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 608.17,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2019-01-01",
@@ -1590,7 +1766,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 611.15,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2020-01-01",
@@ -1599,7 +1776,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 619.86,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1993-01-01",
@@ -1608,7 +1786,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 707.29,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1994-01-01",
@@ -1617,7 +1796,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 729.99,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1995-01-01",
@@ -1626,7 +1806,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 735.8,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1996-01-01",
@@ -1635,7 +1816,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 736.26,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1997-01-01",
@@ -1644,7 +1826,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 734.13,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1998-01-01",
@@ -1653,7 +1836,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 738.44,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1999-01-01",
@@ -1662,7 +1846,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 684.04,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2000-01-01",
@@ -1671,7 +1856,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 689.57,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2001-01-01",
@@ -1680,7 +1866,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 680.26,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2002-01-01",
@@ -1689,7 +1876,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 683.83,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2003-01-01",
@@ -1698,7 +1886,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 673.84,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2004-01-01",
@@ -1707,7 +1896,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 664.39,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2005-01-01",
@@ -1716,7 +1906,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 649.78,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2006-01-01",
@@ -1725,7 +1916,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 644.98,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2007-01-01",
@@ -1734,7 +1926,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 639.82,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2008-01-01",
@@ -1743,7 +1936,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 634.53,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2009-01-01",
@@ -1752,7 +1946,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 617.09,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2010-01-01",
@@ -1761,7 +1956,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 616.44,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2011-01-01",
@@ -1770,7 +1966,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 679.07,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2012-01-01",
@@ -1779,7 +1976,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 705.44,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2013-01-01",
@@ -1788,7 +1986,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 712.05,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2014-01-01",
@@ -1797,7 +1996,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 700.77,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2015-01-01",
@@ -1806,7 +2006,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 721.79,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2016-01-01",
@@ -1815,7 +2016,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 709.17,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2017-01-01",
@@ -1824,7 +2026,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 707.32,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2018-01-01",
@@ -1833,7 +2036,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 726.32,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2019-01-01",
@@ -1842,7 +2046,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 767.81,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "2020-01-01",
@@ -1851,7 +2056,8 @@
 "age": "",
 "indicator": "hospital_beds_total",
 "value": 793.69,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac08"
 },
 {
 "date": "1993-01-01",
@@ -1860,7 +2066,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 280.9,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1994-01-01",
@@ -1869,7 +2076,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 282.54,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1995-01-01",
@@ -1878,7 +2086,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 284.33,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1996-01-01",
@@ -1887,7 +2096,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 288.57,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1997-01-01",
@@ -1896,7 +2106,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 292.57,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1998-01-01",
@@ -1905,7 +2116,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 297.7,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1999-01-01",
@@ -1914,7 +2126,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 302.38,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2000-01-01",
@@ -1923,7 +2136,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 307.72,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2001-01-01",
@@ -1932,7 +2146,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 312.73,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2002-01-01",
@@ -1941,7 +2156,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 316.11,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2003-01-01",
@@ -1950,7 +2166,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 321.58,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2004-01-01",
@@ -1959,7 +2176,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 328.28,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2005-01-01",
@@ -1968,7 +2186,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 336.48,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2006-01-01",
@@ -1977,7 +2196,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 343.4,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2007-01-01",
@@ -1986,7 +2206,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 352.06,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2008-01-01",
@@ -1995,7 +2216,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 361.39,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2009-01-01",
@@ -2004,7 +2226,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 372.12,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2010-01-01",
@@ -2013,7 +2236,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 384.67,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2011-01-01",
@@ -2022,7 +2246,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 398.33,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2012-01-01",
@@ -2031,7 +2256,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 410.12,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2013-01-01",
@@ -2040,7 +2266,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 426.07,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2014-01-01",
@@ -2049,7 +2276,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 442.61,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2015-01-01",
@@ -2058,7 +2286,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 461.4,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2016-01-01",
@@ -2067,7 +2296,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 479.79,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2017-01-01",
@@ -2076,7 +2306,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 497.47,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2018-01-01",
@@ -2085,7 +2316,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 515.04,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2019-01-01",
@@ -2094,7 +2326,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 532.2,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2020-01-01",
@@ -2103,7 +2336,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 562.24,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1993-01-01",
@@ -2112,7 +2346,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 242.89,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1994-01-01",
@@ -2121,7 +2356,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 244.03,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1995-01-01",
@@ -2130,7 +2366,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 246.16,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1996-01-01",
@@ -2139,7 +2376,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 250.33,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1997-01-01",
@@ -2148,7 +2386,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 255.05,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1998-01-01",
@@ -2157,7 +2396,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 259.41,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1999-01-01",
@@ -2166,7 +2406,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 264.2,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2000-01-01",
@@ -2175,7 +2416,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 273.25,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2001-01-01",
@@ -2184,7 +2426,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 278.31,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2002-01-01",
@@ -2193,7 +2436,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 284.15,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2003-01-01",
@@ -2202,7 +2446,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 291.08,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2004-01-01",
@@ -2211,7 +2456,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 299.44,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2005-01-01",
@@ -2220,7 +2466,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 307.92,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2006-01-01",
@@ -2229,7 +2476,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 316.43,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2007-01-01",
@@ -2238,7 +2486,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 325.63,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2008-01-01",
@@ -2247,7 +2496,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 335.86,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2009-01-01",
@@ -2256,7 +2506,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 348.83,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2010-01-01",
@@ -2265,7 +2516,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 364.53,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2011-01-01",
@@ -2274,7 +2526,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 379.06,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2012-01-01",
@@ -2283,7 +2536,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 387.27,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2013-01-01",
@@ -2292,7 +2546,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 408.16,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2014-01-01",
@@ -2301,7 +2556,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 424.75,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2015-01-01",
@@ -2310,7 +2566,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 447.63,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2016-01-01",
@@ -2319,7 +2576,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 469.04,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2017-01-01",
@@ -2328,7 +2586,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 490.03,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2018-01-01",
@@ -2337,7 +2596,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 511.33,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2019-01-01",
@@ -2346,7 +2606,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 531.76,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2020-01-01",
@@ -2355,7 +2616,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 561.01,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1993-01-01",
@@ -2364,7 +2626,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 188.99,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1994-01-01",
@@ -2373,7 +2636,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 187.99,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1995-01-01",
@@ -2382,7 +2646,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 188.76,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1996-01-01",
@@ -2391,7 +2656,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 195.63,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1997-01-01",
@@ -2400,7 +2666,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 195.73,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1998-01-01",
@@ -2409,7 +2676,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 204.67,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1999-01-01",
@@ -2418,7 +2686,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 213.86,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2000-01-01",
@@ -2427,7 +2696,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 223.01,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2001-01-01",
@@ -2436,7 +2706,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 239.77,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2002-01-01",
@@ -2445,7 +2716,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 245.0,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2003-01-01",
@@ -2454,7 +2726,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 253.64,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2004-01-01",
@@ -2463,7 +2736,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 263.66,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2005-01-01",
@@ -2472,7 +2746,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 274.09,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2006-01-01",
@@ -2481,7 +2756,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 278.76,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2007-01-01",
@@ -2490,7 +2766,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 284.24,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2008-01-01",
@@ -2499,7 +2776,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 288.35,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2009-01-01",
@@ -2508,7 +2786,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 295.97,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2010-01-01",
@@ -2517,7 +2796,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 304.97,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2011-01-01",
@@ -2526,7 +2806,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 318.91,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2012-01-01",
@@ -2535,7 +2816,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 327.22,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2013-01-01",
@@ -2544,7 +2826,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 338.31,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2014-01-01",
@@ -2553,7 +2836,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 350.97,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2015-01-01",
@@ -2562,7 +2846,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 364.95,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2016-01-01",
@@ -2571,7 +2856,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 379.9,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2017-01-01",
@@ -2580,7 +2866,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 390.2,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2018-01-01",
@@ -2589,7 +2876,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 405.93,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2019-01-01",
@@ -2598,7 +2886,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 419.03,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2020-01-01",
@@ -2607,7 +2896,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 435.21,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1996-01-01",
@@ -2616,7 +2906,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 238.78,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1997-01-01",
@@ -2625,7 +2916,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 242.47,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1998-01-01",
@@ -2634,7 +2926,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 246.94,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1999-01-01",
@@ -2643,7 +2936,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 249.54,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2000-01-01",
@@ -2652,7 +2946,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 257.25,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2001-01-01",
@@ -2661,7 +2956,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 261.57,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2002-01-01",
@@ -2670,7 +2966,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 262.25,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2003-01-01",
@@ -2679,7 +2976,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 272.76,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2004-01-01",
@@ -2688,7 +2986,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 278.93,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2005-01-01",
@@ -2697,7 +2996,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 286.54,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2006-01-01",
@@ -2706,7 +3006,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 293.97,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2007-01-01",
@@ -2715,7 +3016,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 304.11,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2008-01-01",
@@ -2724,7 +3026,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 313.67,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2009-01-01",
@@ -2733,7 +3036,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 325.67,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2010-01-01",
@@ -2742,7 +3046,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 340.17,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2011-01-01",
@@ -2751,7 +3056,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 354.75,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2012-01-01",
@@ -2760,7 +3066,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 370.05,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2013-01-01",
@@ -2769,7 +3076,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 384.58,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2014-01-01",
@@ -2778,7 +3086,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 403.29,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2015-01-01",
@@ -2787,7 +3096,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 419.7,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2016-01-01",
@@ -2796,7 +3106,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 437.53,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2017-01-01",
@@ -2805,7 +3116,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 458.52,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2018-01-01",
@@ -2814,7 +3126,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 478.34,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2019-01-01",
@@ -2823,7 +3136,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 500.38,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2020-01-01",
@@ -2832,7 +3146,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 533.58,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1996-01-01",
@@ -2841,7 +3156,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 472.88,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1997-01-01",
@@ -2850,7 +3166,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 476.8,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1998-01-01",
@@ -2859,7 +3176,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 483.37,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1999-01-01",
@@ -2868,7 +3186,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 484.2,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2000-01-01",
@@ -2877,7 +3196,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 484.97,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2001-01-01",
@@ -2886,7 +3206,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 485.89,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2002-01-01",
@@ -2895,7 +3216,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 485.93,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2003-01-01",
@@ -2904,7 +3226,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 484.66,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2004-01-01",
@@ -2913,7 +3236,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 489.32,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2005-01-01",
@@ -2922,7 +3246,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 497.18,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2006-01-01",
@@ -2931,7 +3256,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 503.06,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2007-01-01",
@@ -2940,7 +3266,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 511.2,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2008-01-01",
@@ -2949,7 +3276,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 520.35,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2009-01-01",
@@ -2958,7 +3286,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 528.36,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2010-01-01",
@@ -2967,7 +3296,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 536.21,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2011-01-01",
@@ -2976,7 +3306,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 548.55,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2012-01-01",
@@ -2985,7 +3316,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 560.49,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2013-01-01",
@@ -2994,7 +3326,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 573.2,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2014-01-01",
@@ -3003,7 +3336,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 588.03,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2015-01-01",
@@ -3012,7 +3346,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 603.75,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2016-01-01",
@@ -3021,7 +3356,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 619.06,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2017-01-01",
@@ -3030,7 +3366,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 631.44,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2018-01-01",
@@ -3039,7 +3376,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 643.2,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2019-01-01",
@@ -3048,7 +3386,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 652.83,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2020-01-01",
@@ -3057,7 +3396,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 687.99,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1996-01-01",
@@ -3066,7 +3406,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 132.55,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1997-01-01",
@@ -3075,7 +3416,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 135.33,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1998-01-01",
@@ -3084,7 +3426,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 137.12,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1999-01-01",
@@ -3093,7 +3436,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 142.74,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2000-01-01",
@@ -3102,7 +3446,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 148.31,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2001-01-01",
@@ -3111,7 +3456,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 159.36,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2002-01-01",
@@ -3120,7 +3466,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 167.59,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2003-01-01",
@@ -3129,7 +3476,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 170.66,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2004-01-01",
@@ -3138,7 +3486,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 174.49,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2005-01-01",
@@ -3147,7 +3496,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 182.38,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2006-01-01",
@@ -3156,7 +3506,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 184.65,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2007-01-01",
@@ -3165,7 +3516,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 188.31,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2008-01-01",
@@ -3174,7 +3526,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 193.06,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2009-01-01",
@@ -3183,7 +3536,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 197.42,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2010-01-01",
@@ -3192,7 +3546,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 206.74,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2011-01-01",
@@ -3201,7 +3556,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 215.19,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2012-01-01",
@@ -3210,7 +3566,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 229.26,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2013-01-01",
@@ -3219,7 +3576,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 241.69,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2014-01-01",
@@ -3228,7 +3586,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 253.68,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2015-01-01",
@@ -3237,7 +3596,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 264.52,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2016-01-01",
@@ -3246,7 +3606,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 277.3,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2017-01-01",
@@ -3255,7 +3616,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 285.73,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2018-01-01",
@@ -3264,7 +3626,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 296.59,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2019-01-01",
@@ -3273,7 +3636,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 310.06,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2020-01-01",
@@ -3282,7 +3646,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 322.33,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1993-01-01",
@@ -3291,7 +3656,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 129.27,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1994-01-01",
@@ -3300,7 +3666,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 134.32,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1995-01-01",
@@ -3309,7 +3676,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 138.05,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1996-01-01",
@@ -3318,7 +3686,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 140.5,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1997-01-01",
@@ -3327,7 +3696,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 142.94,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1998-01-01",
@@ -3336,7 +3706,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 149.91,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1999-01-01",
@@ -3345,7 +3716,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 150.77,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2000-01-01",
@@ -3354,7 +3726,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 154.31,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2001-01-01",
@@ -3363,7 +3736,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 160.77,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2002-01-01",
@@ -3372,7 +3746,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 163.43,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2003-01-01",
@@ -3381,7 +3756,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 168.3,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2004-01-01",
@@ -3390,7 +3766,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 172.4,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2005-01-01",
@@ -3399,7 +3776,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 178.51,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2006-01-01",
@@ -3408,7 +3786,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 182.56,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2007-01-01",
@@ -3417,7 +3796,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 189.41,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2008-01-01",
@@ -3426,7 +3806,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 197.14,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2009-01-01",
@@ -3435,7 +3816,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 204.23,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2010-01-01",
@@ -3444,7 +3826,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 214.32,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2011-01-01",
@@ -3453,7 +3836,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 229.17,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2012-01-01",
@@ -3462,7 +3846,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 243.76,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2013-01-01",
@@ -3471,7 +3856,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 254.55,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2014-01-01",
@@ -3480,7 +3866,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 270.15,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2015-01-01",
@@ -3489,7 +3876,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 290.58,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2016-01-01",
@@ -3498,7 +3886,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 309.13,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2017-01-01",
@@ -3507,7 +3896,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 324.24,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2018-01-01",
@@ -3516,7 +3906,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 338.6,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2019-01-01",
@@ -3525,7 +3916,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 354.58,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2020-01-01",
@@ -3534,7 +3926,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 376.45,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1993-01-01",
@@ -3543,7 +3936,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 150.73,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1994-01-01",
@@ -3552,7 +3946,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 153.92,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1995-01-01",
@@ -3561,7 +3956,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 157.18,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1996-01-01",
@@ -3570,7 +3966,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 159.88,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1997-01-01",
@@ -3579,7 +3976,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 163.87,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1998-01-01",
@@ -3588,7 +3986,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 169.55,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "1999-01-01",
@@ -3597,7 +3996,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 179.55,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2000-01-01",
@@ -3606,7 +4006,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 185.64,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2001-01-01",
@@ -3615,7 +4016,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 192.21,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2002-01-01",
@@ -3624,7 +4026,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 193.49,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2003-01-01",
@@ -3633,7 +4036,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 195.98,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2004-01-01",
@@ -3642,7 +4046,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 203.83,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2005-01-01",
@@ -3651,7 +4056,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 209.73,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2006-01-01",
@@ -3660,7 +4066,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 213.58,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2007-01-01",
@@ -3669,7 +4076,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 220.77,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2008-01-01",
@@ -3678,7 +4086,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 231.18,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2009-01-01",
@@ -3687,7 +4096,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 244.8,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2010-01-01",
@@ -3696,7 +4106,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 253.24,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2011-01-01",
@@ -3705,7 +4116,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 263.06,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2012-01-01",
@@ -3714,7 +4126,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 281.04,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2013-01-01",
@@ -3723,7 +4136,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 294.43,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2014-01-01",
@@ -3732,7 +4146,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 321.15,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2015-01-01",
@@ -3741,7 +4156,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 352.55,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2016-01-01",
@@ -3750,7 +4166,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 376.3,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2017-01-01",
@@ -3759,7 +4176,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 403.34,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2018-01-01",
@@ -3768,7 +4186,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 422.97,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2019-01-01",
@@ -3777,7 +4196,8 @@
 "age": "",
 "indicator": "physicians",
 "value": 442.35,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 },
 {
 "date": "2020-01-01",
@@ -3786,6 +4206,7 @@
 "age": "",
 "indicator": "physicians",
 "value": 474.72,
-"unit": "P_HTHAB"
+"unit": "P_HTHAB",
+"source_id": "eac09"
 }
 ]

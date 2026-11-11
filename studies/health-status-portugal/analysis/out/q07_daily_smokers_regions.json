@@ -6,7 +6,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 18.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -15,7 +16,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 23.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -24,7 +26,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 15.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -33,7 +36,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 14.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -42,7 +46,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 15.8,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -51,7 +56,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 21.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -60,7 +66,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 17.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -69,7 +76,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 24.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -78,7 +86,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 18.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -87,7 +96,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 17.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -96,7 +106,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 7.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -105,7 +116,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 12.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -114,7 +126,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 6.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -123,7 +136,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 8.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -132,7 +146,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 10.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -141,7 +156,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 11.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -150,7 +166,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 9.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -159,7 +176,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 11.9,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -168,7 +186,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 9.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -177,7 +196,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 8.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -186,7 +206,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 12.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -195,7 +216,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 18.2,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -204,7 +226,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 10.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -213,7 +236,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 11.5,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -222,7 +246,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 13.3,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -231,7 +256,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 16.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -240,7 +266,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 13.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -249,7 +276,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 18.1,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -258,7 +286,8 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 13.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 },
 {
 "date": "2025-01-01",
@@ -267,6 +296,7 @@
 "age": "",
 "indicator": "daily_smokers_share",
 "value": 12.7,
-"unit": "%"
+"unit": "%",
+"source_id": "ih04"
 }
 ]

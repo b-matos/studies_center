@@ -6,7 +6,8 @@
 "age": "",
 "indicator": "Causas de morte externas",
 "value": 59.4,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -15,7 +16,8 @@
 "age": "",
 "indicator": "Causas de morte externas",
 "value": 46.7,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -24,7 +26,8 @@
 "age": "",
 "indicator": "Causas de morte externas",
 "value": 33.3,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -33,7 +36,8 @@
 "age": "",
 "indicator": "Causas de morte externas",
 "value": 40.5,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -42,7 +46,8 @@
 "age": "",
 "indicator": "Causas de morte externas",
 "value": 47.7,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -51,7 +56,8 @@
 "age": "",
 "indicator": "Causas de morte externas",
 "value": 44.1,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -60,7 +66,8 @@
 "age": "",
 "indicator": "Causas de morte externas",
 "value": 39.5,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -69,7 +76,8 @@
 "age": "",
 "indicator": "Causas de morte externas",
 "value": 41.3,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -78,7 +86,8 @@
 "age": "",
 "indicator": "Causas de morte externas",
 "value": 36.5,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -87,7 +96,8 @@
 "age": "",
 "indicator": "Causas de morte externas",
 "value": 42.7,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -96,7 +106,8 @@
 "age": "",
 "indicator": "Todas as causas de morte",
 "value": 1011.6,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -105,7 +116,8 @@
 "age": "",
 "indicator": "Todas as causas de morte",
 "value": 936.6,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -114,7 +126,8 @@
 "age": "",
 "indicator": "Todas as causas de morte",
 "value": 820.3,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -123,7 +136,8 @@
 "age": "",
 "indicator": "Todas as causas de morte",
 "value": 929.1,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -132,7 +146,8 @@
 "age": "",
 "indicator": "Todas as causas de morte",
 "value": 1161.9,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -141,7 +156,8 @@
 "age": "",
 "indicator": "Todas as causas de morte",
 "value": 940.1,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -150,7 +166,8 @@
 "age": "",
 "indicator": "Todas as causas de morte",
 "value": 863.9,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -159,7 +176,8 @@
 "age": "",
 "indicator": "Todas as causas de morte",
 "value": 884.0,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -168,7 +186,8 @@
 "age": "",
 "indicator": "Todas as causas de morte",
 "value": 831.6,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -177,7 +196,8 @@
 "age": "",
 "indicator": "Todas as causas de morte",
 "value": 834.4,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -186,7 +206,8 @@
 "age": "",
 "indicator": "Tumores malignos",
 "value": 214.5,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -195,7 +216,8 @@
 "age": "",
 "indicator": "Tumores malignos",
 "value": 217.8,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -204,7 +226,8 @@
 "age": "",
 "indicator": "Tumores malignos",
 "value": 203.9,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -213,7 +236,8 @@
 "age": "",
 "indicator": "Tumores malignos",
 "value": 212.4,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -222,7 +246,8 @@
 "age": "",
 "indicator": "Tumores malignos",
 "value": 274.2,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -231,7 +256,8 @@
 "age": "",
 "indicator": "Tumores malignos",
 "value": 223.9,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -240,7 +266,8 @@
 "age": "",
 "indicator": "Tumores malignos",
 "value": 198.4,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -249,7 +276,8 @@
 "age": "",
 "indicator": "Tumores malignos",
 "value": 204.4,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -258,7 +286,8 @@
 "age": "",
 "indicator": "Tumores malignos",
 "value": 187.7,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -267,7 +296,8 @@
 "age": "",
 "indicator": "Tumores malignos",
 "value": 184.7,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -276,7 +306,8 @@
 "age": "",
 "indicator": "Diabetes mellitus",
 "value": 29.1,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -285,7 +316,8 @@
 "age": "",
 "indicator": "Diabetes mellitus",
 "value": 11.3,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -294,7 +326,8 @@
 "age": "",
 "indicator": "Diabetes mellitus",
 "value": 13.2,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -303,7 +336,8 @@
 "age": "",
 "indicator": "Diabetes mellitus",
 "value": 23.5,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -312,7 +346,8 @@
 "age": "",
 "indicator": "Diabetes mellitus",
 "value": 37.1,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -321,7 +356,8 @@
 "age": "",
 "indicator": "Diabetes mellitus",
 "value": 22.1,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -330,7 +366,8 @@
 "age": "",
 "indicator": "Diabetes mellitus",
 "value": 17.5,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -339,7 +376,8 @@
 "age": "",
 "indicator": "Diabetes mellitus",
 "value": 21.6,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -348,7 +386,8 @@
 "age": "",
 "indicator": "Diabetes mellitus",
 "value": 14.5,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -357,7 +396,8 @@
 "age": "",
 "indicator": "Diabetes mellitus",
 "value": 18.3,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -366,7 +406,8 @@
 "age": "",
 "indicator": "Doenças do aparelho circulatório",
 "value": 207.0,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -375,7 +416,8 @@
 "age": "",
 "indicator": "Doenças do aparelho circulatório",
 "value": 171.8,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -384,7 +426,8 @@
 "age": "",
 "indicator": "Doenças do aparelho circulatório",
 "value": 170.5,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -393,7 +436,8 @@
 "age": "",
 "indicator": "Doenças do aparelho circulatório",
 "value": 188.9,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -402,7 +446,8 @@
 "age": "",
 "indicator": "Doenças do aparelho circulatório",
 "value": 266.9,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -411,7 +456,8 @@
 "age": "",
 "indicator": "Doenças do aparelho circulatório",
 "value": 194.5,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -420,7 +466,8 @@
 "age": "",
 "indicator": "Doenças do aparelho circulatório",
 "value": 169.5,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -429,7 +476,8 @@
 "age": "",
 "indicator": "Doenças do aparelho circulatório",
 "value": 181.4,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -438,7 +486,8 @@
 "age": "",
 "indicator": "Doenças do aparelho circulatório",
 "value": 154.9,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -447,7 +496,8 @@
 "age": "",
 "indicator": "Doenças do aparelho circulatório",
 "value": 158.6,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -456,7 +506,8 @@
 "age": "",
 "indicator": "Doenças do aparelho respiratório",
 "value": 72.1,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -465,7 +516,8 @@
 "age": "",
 "indicator": "Doenças do aparelho respiratório",
 "value": 79.6,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -474,7 +526,8 @@
 "age": "",
 "indicator": "Doenças do aparelho respiratório",
 "value": 64.2,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -483,7 +536,8 @@
 "age": "",
 "indicator": "Doenças do aparelho respiratório",
 "value": 69.6,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -492,7 +546,8 @@
 "age": "",
 "indicator": "Doenças do aparelho respiratório",
 "value": 96.4,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -501,7 +556,8 @@
 "age": "",
 "indicator": "Doenças do aparelho respiratório",
 "value": 113.9,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -510,7 +566,8 @@
 "age": "",
 "indicator": "Doenças do aparelho respiratório",
 "value": 75.2,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -519,7 +576,8 @@
 "age": "",
 "indicator": "Doenças do aparelho respiratório",
 "value": 72.0,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -528,7 +586,8 @@
 "age": "",
 "indicator": "Doenças do aparelho respiratório",
 "value": 78.0,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 },
 {
 "date": "2024-01-01",
@@ -537,6 +596,7 @@
 "age": "",
 "indicator": "Doenças do aparelho respiratório",
 "value": 78.4,
-"unit": "per 100000"
+"unit": "per 100000",
+"source_id": "ilm02"
 }
 ]

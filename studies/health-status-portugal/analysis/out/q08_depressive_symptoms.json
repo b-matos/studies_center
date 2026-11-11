@@ -6,7 +6,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas ligeiros",
 "value": 5.3171,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -15,7 +16,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas ligeiros",
 "value": 12.1467,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -24,7 +26,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas ligeiros",
 "value": 9.0845,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -33,7 +36,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sintomas ligeiros",
 "value": 7.9329,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -42,7 +46,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sintomas ligeiros",
 "value": 11.6074,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -51,7 +56,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sintomas ligeiros",
 "value": 10.1267,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -60,7 +66,8 @@
 "age": "15+",
 "indicator": "Sintomas ligeiros",
 "value": 4.3008,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -69,7 +76,8 @@
 "age": "15+",
 "indicator": "Sintomas ligeiros",
 "value": 8.038,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -78,7 +86,8 @@
 "age": "15+",
 "indicator": "Sintomas ligeiros",
 "value": 6.2881,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -87,7 +96,8 @@
 "age": "85 e mais anos",
 "indicator": "Sintomas ligeiros",
 "value": 13.4552,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -96,7 +106,8 @@
 "age": "85 e mais anos",
 "indicator": "Sintomas ligeiros",
 "value": 12.1431,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -105,7 +116,8 @@
 "age": "25 - 34 anos",
 "indicator": "Sintomas ligeiros",
 "value": 3.146,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -114,7 +126,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sintomas ligeiros",
 "value": 4.9465,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -123,7 +136,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sintomas ligeiros",
 "value": 3.5967,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -132,7 +146,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas ligeiros",
 "value": 7.2935,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -141,7 +156,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas ligeiros",
 "value": 10.8192,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -150,7 +166,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas ligeiros",
 "value": 9.1585,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -159,7 +176,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sintomas ligeiros",
 "value": 9.4681,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -168,7 +186,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sintomas ligeiros",
 "value": 7.1151,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -177,7 +196,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sem sintomas",
 "value": 92.0054,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -186,7 +206,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sem sintomas",
 "value": 78.0147,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -195,7 +216,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sem sintomas",
 "value": 84.2878,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -204,7 +226,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sem sintomas",
 "value": 86.1632,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -213,7 +236,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sem sintomas",
 "value": 75.8758,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -222,7 +246,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sem sintomas",
 "value": 80.0212,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -231,7 +256,8 @@
 "age": "15+",
 "indicator": "Sem sintomas",
 "value": 93.0507,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -240,7 +266,8 @@
 "age": "15+",
 "indicator": "Sem sintomas",
 "value": 84.8265,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -249,7 +276,8 @@
 "age": "15+",
 "indicator": "Sem sintomas",
 "value": 88.6775,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -258,7 +286,8 @@
 "age": "85 e mais anos",
 "indicator": "Sem sintomas",
 "value": 80.5852,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -267,7 +296,8 @@
 "age": "85 e mais anos",
 "indicator": "Sem sintomas",
 "value": 72.29,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -276,7 +306,8 @@
 "age": "85 e mais anos",
 "indicator": "Sem sintomas",
 "value": 74.9103,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -285,7 +316,8 @@
 "age": "15 - 24 anos",
 "indicator": "Sem sintomas",
 "value": 96.1217,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -294,7 +326,8 @@
 "age": "15 - 24 anos",
 "indicator": "Sem sintomas",
 "value": 95.5614,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -303,7 +336,8 @@
 "age": "15 - 24 anos",
 "indicator": "Sem sintomas",
 "value": 95.8458,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -312,7 +346,8 @@
 "age": "25 - 34 anos",
 "indicator": "Sem sintomas",
 "value": 97.2724,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -321,7 +356,8 @@
 "age": "25 - 34 anos",
 "indicator": "Sem sintomas",
 "value": 92.3318,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -330,7 +366,8 @@
 "age": "25 - 34 anos",
 "indicator": "Sem sintomas",
 "value": 94.7635,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -339,7 +376,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sem sintomas",
 "value": 96.5999,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -348,7 +386,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sem sintomas",
 "value": 89.0971,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -357,7 +396,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sem sintomas",
 "value": 92.7047,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -366,7 +406,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sem sintomas",
 "value": 89.2678,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -375,7 +416,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sem sintomas",
 "value": 81.0852,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -384,7 +426,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sem sintomas",
 "value": 84.9395,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -393,7 +436,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sem sintomas",
 "value": 91.7683,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -402,7 +446,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sem sintomas",
 "value": 83.5439,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -411,7 +456,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sem sintomas",
 "value": 87.4758,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -420,7 +466,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas graves",
 "value": 9.0352,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -429,7 +476,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas graves",
 "value": 5.6975,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -438,7 +486,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sintomas graves",
 "value": 10.1352,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -447,7 +496,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sintomas graves",
 "value": 7.5333,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -456,7 +506,8 @@
 "age": "15+",
 "indicator": "Sintomas graves",
 "value": 1.5848,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -465,7 +516,8 @@
 "age": "15+",
 "indicator": "Sintomas graves",
 "value": 5.5482,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -474,7 +526,8 @@
 "age": "15+",
 "indicator": "Sintomas graves",
 "value": 3.6924,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -483,7 +536,8 @@
 "age": "85 e mais anos",
 "indicator": "Sintomas graves",
 "value": 7.5815,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -492,7 +546,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sintomas graves",
 "value": 4.4974,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -501,7 +556,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sintomas graves",
 "value": 2.6532,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -510,7 +566,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas graves",
 "value": 6.9555,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -519,7 +576,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas graves",
 "value": 5.0015,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -528,7 +586,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sintomas graves",
 "value": 4.8378,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2014-01-01",
@@ -537,7 +596,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sintomas graves",
 "value": 3.4783,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -546,7 +606,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas ligeiros",
 "value": 7.3445,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -555,7 +616,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas ligeiros",
 "value": 5.6918,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -564,7 +626,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sintomas ligeiros",
 "value": 10.1807,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -573,7 +636,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sintomas ligeiros",
 "value": 8.7493,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -582,7 +646,8 @@
 "age": "15+",
 "indicator": "Sintomas ligeiros",
 "value": 3.6744,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -591,7 +656,8 @@
 "age": "15+",
 "indicator": "Sintomas ligeiros",
 "value": 5.7942,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -600,7 +666,8 @@
 "age": "15+",
 "indicator": "Sintomas ligeiros",
 "value": 4.8065,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -609,7 +676,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sintomas ligeiros",
 "value": 3.2818,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -618,7 +686,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas ligeiros",
 "value": 6.716,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -627,7 +696,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas ligeiros",
 "value": 6.4885,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -636,7 +706,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sintomas ligeiros",
 "value": 4.7737,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -645,7 +716,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sintomas ligeiros",
 "value": 3.3956,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -654,7 +726,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sem sintomas",
 "value": 91.7552,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -663,7 +736,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sem sintomas",
 "value": 83.579,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -672,7 +746,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sem sintomas",
 "value": 87.2668,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -681,7 +756,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sem sintomas",
 "value": 83.985,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -690,7 +766,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sem sintomas",
 "value": 76.9722,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -699,7 +776,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sem sintomas",
 "value": 79.8261,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -708,7 +786,8 @@
 "age": "15+",
 "indicator": "Sem sintomas",
 "value": 90.2799,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -717,7 +796,8 @@
 "age": "15+",
 "indicator": "Sem sintomas",
 "value": 85.7592,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -726,7 +806,8 @@
 "age": "15+",
 "indicator": "Sem sintomas",
 "value": 87.8656,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -735,7 +816,8 @@
 "age": "85 e mais anos",
 "indicator": "Sem sintomas",
 "value": 75.1046,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -744,7 +826,8 @@
 "age": "85 e mais anos",
 "indicator": "Sem sintomas",
 "value": 67.7616,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -753,7 +836,8 @@
 "age": "85 e mais anos",
 "indicator": "Sem sintomas",
 "value": 70.1493,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -762,7 +846,8 @@
 "age": "15 - 24 anos",
 "indicator": "Sem sintomas",
 "value": 90.9621,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -771,7 +856,8 @@
 "age": "15 - 24 anos",
 "indicator": "Sem sintomas",
 "value": 90.0575,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -780,7 +866,8 @@
 "age": "15 - 24 anos",
 "indicator": "Sem sintomas",
 "value": 90.5177,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -789,7 +876,8 @@
 "age": "25 - 34 anos",
 "indicator": "Sem sintomas",
 "value": 93.9617,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -798,7 +886,8 @@
 "age": "25 - 34 anos",
 "indicator": "Sem sintomas",
 "value": 92.4403,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -807,7 +896,8 @@
 "age": "25 - 34 anos",
 "indicator": "Sem sintomas",
 "value": 93.1937,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -816,7 +906,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sem sintomas",
 "value": 91.4262,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -825,7 +916,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sem sintomas",
 "value": 90.8247,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -834,7 +926,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sem sintomas",
 "value": 91.1125,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -843,7 +936,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sem sintomas",
 "value": 87.4892,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -852,7 +946,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sem sintomas",
 "value": 85.1536,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -861,7 +956,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sem sintomas",
 "value": 86.243,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -870,7 +966,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sem sintomas",
 "value": 92.2865,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -879,7 +976,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sem sintomas",
 "value": 85.6997,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -888,7 +986,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sem sintomas",
 "value": 88.8151,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -897,7 +996,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas graves",
 "value": 4.9176,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -906,7 +1006,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas graves",
 "value": 3.2032,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -915,7 +1016,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sintomas graves",
 "value": 8.6266,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -924,7 +1026,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sintomas graves",
 "value": 6.6795,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -933,7 +1036,8 @@
 "age": "15+",
 "indicator": "Sintomas graves",
 "value": 1.9863,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -942,7 +1046,8 @@
 "age": "15+",
 "indicator": "Sintomas graves",
 "value": 4.3297,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -951,7 +1056,8 @@
 "age": "15+",
 "indicator": "Sintomas graves",
 "value": 3.2377,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -960,7 +1066,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas graves",
 "value": 4.5247,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -969,7 +1076,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas graves",
 "value": 3.5309,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -978,7 +1086,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sintomas graves",
 "value": 5.7038,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2019-01-01",
@@ -987,7 +1096,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sintomas graves",
 "value": 3.7134,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -996,7 +1106,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas ligeiros",
 "value": 6.6306,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1005,7 +1116,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas ligeiros",
 "value": 11.9353,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1014,7 +1126,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas ligeiros",
 "value": 9.4885,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1023,7 +1136,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sintomas ligeiros",
 "value": 11.4219,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1032,7 +1146,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sintomas ligeiros",
 "value": 9.0187,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1041,7 +1156,8 @@
 "age": "15+",
 "indicator": "Sintomas ligeiros",
 "value": 5.0431,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1050,7 +1166,8 @@
 "age": "15+",
 "indicator": "Sintomas ligeiros",
 "value": 8.2568,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1059,7 +1176,8 @@
 "age": "15+",
 "indicator": "Sintomas ligeiros",
 "value": 6.697,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1068,7 +1186,8 @@
 "age": "85 e mais anos",
 "indicator": "Sintomas ligeiros",
 "value": 14.1896,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1077,7 +1196,8 @@
 "age": "85 e mais anos",
 "indicator": "Sintomas ligeiros",
 "value": 12.8503,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1086,7 +1206,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sintomas ligeiros",
 "value": 5.2861,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1095,7 +1216,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sintomas ligeiros",
 "value": 4.3787,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1104,7 +1226,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas ligeiros",
 "value": 7.518,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1113,7 +1236,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas ligeiros",
 "value": 8.7459,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1122,7 +1246,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas ligeiros",
 "value": 8.167,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1131,7 +1256,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sintomas ligeiros",
 "value": 4.248,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1140,7 +1266,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sintomas ligeiros",
 "value": 7.3388,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1149,7 +1276,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sintomas ligeiros",
 "value": 5.8354,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1158,7 +1286,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sem sintomas",
 "value": 85.9083,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1167,7 +1296,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sem sintomas",
 "value": 73.9249,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1176,7 +1306,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sem sintomas",
 "value": 79.4521,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1185,7 +1316,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sem sintomas",
 "value": 82.1594,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1194,7 +1326,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sem sintomas",
 "value": 72.8213,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1203,7 +1336,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sem sintomas",
 "value": 76.834,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1212,7 +1346,8 @@
 "age": "15+",
 "indicator": "Sem sintomas",
 "value": 86.8806,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1221,7 +1356,8 @@
 "age": "15+",
 "indicator": "Sem sintomas",
 "value": 80.303,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1230,7 +1366,8 @@
 "age": "15+",
 "indicator": "Sem sintomas",
 "value": 83.4956,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1239,7 +1376,8 @@
 "age": "85 e mais anos",
 "indicator": "Sem sintomas",
 "value": 71.5431,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1248,7 +1386,8 @@
 "age": "85 e mais anos",
 "indicator": "Sem sintomas",
 "value": 65.2229,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1257,7 +1396,8 @@
 "age": "85 e mais anos",
 "indicator": "Sem sintomas",
 "value": 67.4044,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1266,7 +1406,8 @@
 "age": "15 - 24 anos",
 "indicator": "Sem sintomas",
 "value": 94.266,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1275,7 +1416,8 @@
 "age": "15 - 24 anos",
 "indicator": "Sem sintomas",
 "value": 88.0377,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1284,7 +1426,8 @@
 "age": "15 - 24 anos",
 "indicator": "Sem sintomas",
 "value": 91.266,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1293,7 +1436,8 @@
 "age": "25 - 34 anos",
 "indicator": "Sem sintomas",
 "value": 87.3958,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1302,7 +1446,8 @@
 "age": "25 - 34 anos",
 "indicator": "Sem sintomas",
 "value": 85.693,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1311,7 +1456,8 @@
 "age": "25 - 34 anos",
 "indicator": "Sem sintomas",
 "value": 86.6102,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1320,7 +1466,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sem sintomas",
 "value": 89.8987,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1329,7 +1476,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sem sintomas",
 "value": 86.511,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1338,7 +1486,8 @@
 "age": "35 - 44 anos",
 "indicator": "Sem sintomas",
 "value": 88.2486,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1347,7 +1496,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sem sintomas",
 "value": 82.9026,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1356,7 +1506,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sem sintomas",
 "value": 78.4839,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1365,7 +1516,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sem sintomas",
 "value": 80.5673,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1374,7 +1526,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sem sintomas",
 "value": 86.9459,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1383,7 +1536,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sem sintomas",
 "value": 81.6765,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1392,7 +1546,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sem sintomas",
 "value": 84.2397,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1401,7 +1556,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas graves",
 "value": 8.4872,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1410,7 +1566,8 @@
 "age": "65 - 74 anos",
 "indicator": "Sintomas graves",
 "value": 5.695,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1419,7 +1576,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sintomas graves",
 "value": 7.8389,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1428,7 +1586,8 @@
 "age": "75 - 84 anos",
 "indicator": "Sintomas graves",
 "value": 6.1412,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1437,7 +1596,8 @@
 "age": "15+",
 "indicator": "Sintomas graves",
 "value": 2.7178,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1446,7 +1606,8 @@
 "age": "15+",
 "indicator": "Sintomas graves",
 "value": 5.8299,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1455,7 +1616,8 @@
 "age": "15+",
 "indicator": "Sintomas graves",
 "value": 4.3194,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1464,7 +1626,8 @@
 "age": "85 e mais anos",
 "indicator": "Sintomas graves",
 "value": 9.7287,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1473,7 +1636,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas graves",
 "value": 6.2068,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1482,7 +1646,8 @@
 "age": "55 - 64 anos",
 "indicator": "Sintomas graves",
 "value": 4.8975,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1491,7 +1656,8 @@
 "age": "45 - 54 anos",
 "indicator": "Sintomas graves",
 "value": 5.7789,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 },
 {
 "date": "2025-01-01",
@@ -1500,6 +1666,7 @@
 "age": "45 - 54 anos",
 "indicator": "Sintomas graves",
 "value": 4.3359,
-"unit": "%"
+"unit": "%",
+"source_id": "ih08"
 }
 ]

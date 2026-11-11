@@ -6,7 +6,8 @@
 "age": "15 - 24 anos",
 "indicator": "Diariamente",
 "value": 0.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -15,7 +16,8 @@
 "age": "25 - 34 anos",
 "indicator": "Diariamente",
 "value": 0.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -24,7 +26,8 @@
 "age": "35 - 44 anos",
 "indicator": "Diariamente",
 "value": 0.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -33,7 +36,8 @@
 "age": "55 - 64 anos",
 "indicator": "Diariamente",
 "value": 0.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -42,7 +46,8 @@
 "age": "65 - 74 anos",
 "indicator": "Diariamente",
 "value": 0.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -51,7 +56,8 @@
 "age": "75 - 84 anos",
 "indicator": "Diariamente",
 "value": 0.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -60,7 +66,8 @@
 "age": "85 e mais anos",
 "indicator": "Diariamente",
 "value": 0.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -69,7 +76,8 @@
 "age": "15+",
 "indicator": "Diariamente",
 "value": 1.2155,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -78,7 +86,8 @@
 "age": "15+",
 "indicator": "Diariamente",
 "value": 0.7065,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -87,7 +96,8 @@
 "age": "15 - 24 anos",
 "indicator": "Semanalmente",
 "value": 4.197,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -96,7 +106,8 @@
 "age": "25 - 34 anos",
 "indicator": "Semanalmente",
 "value": 7.0377,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -105,7 +116,8 @@
 "age": "25 - 34 anos",
 "indicator": "Semanalmente",
 "value": 4.5745,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -114,7 +126,8 @@
 "age": "35 - 44 anos",
 "indicator": "Semanalmente",
 "value": 4.0304,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -123,7 +136,8 @@
 "age": "35 - 44 anos",
 "indicator": "Semanalmente",
 "value": 2.561,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -132,7 +146,8 @@
 "age": "45 - 54 anos",
 "indicator": "Semanalmente",
 "value": 3.9629,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -141,7 +156,8 @@
 "age": "45 - 54 anos",
 "indicator": "Semanalmente",
 "value": 2.6326,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -150,7 +166,8 @@
 "age": "55 - 64 anos",
 "indicator": "Semanalmente",
 "value": 4.3379,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -159,7 +176,8 @@
 "age": "55 - 64 anos",
 "indicator": "Semanalmente",
 "value": 2.8749,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -168,7 +186,8 @@
 "age": "85 e mais anos",
 "indicator": "Semanalmente",
 "value": 0.0,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -177,7 +196,8 @@
 "age": "15+",
 "indicator": "Semanalmente",
 "value": 4.433,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -186,7 +206,8 @@
 "age": "15+",
 "indicator": "Semanalmente",
 "value": 2.8793,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -195,7 +216,8 @@
 "age": "15 - 24 anos",
 "indicator": "Mensalmente",
 "value": 19.3447,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -204,7 +226,8 @@
 "age": "15 - 24 anos",
 "indicator": "Mensalmente",
 "value": 11.0475,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -213,7 +236,8 @@
 "age": "15 - 24 anos",
 "indicator": "Mensalmente",
 "value": 15.6043,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -222,7 +246,8 @@
 "age": "25 - 34 anos",
 "indicator": "Mensalmente",
 "value": 23.0958,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -231,7 +256,8 @@
 "age": "25 - 34 anos",
 "indicator": "Mensalmente",
 "value": 7.7584,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -240,7 +266,8 @@
 "age": "25 - 34 anos",
 "indicator": "Mensalmente",
 "value": 16.6982,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -249,7 +276,8 @@
 "age": "35 - 44 anos",
 "indicator": "Mensalmente",
 "value": 21.6914,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -258,7 +286,8 @@
 "age": "35 - 44 anos",
 "indicator": "Mensalmente",
 "value": 5.1109,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -267,7 +296,8 @@
 "age": "35 - 44 anos",
 "indicator": "Mensalmente",
 "value": 14.5532,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -276,7 +306,8 @@
 "age": "45 - 54 anos",
 "indicator": "Mensalmente",
 "value": 15.285,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -285,7 +316,8 @@
 "age": "45 - 54 anos",
 "indicator": "Mensalmente",
 "value": 10.0831,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -294,7 +326,8 @@
 "age": "55 - 64 anos",
 "indicator": "Mensalmente",
 "value": 12.3452,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -303,7 +336,8 @@
 "age": "55 - 64 anos",
 "indicator": "Mensalmente",
 "value": 8.2656,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -312,7 +346,8 @@
 "age": "65 - 74 anos",
 "indicator": "Mensalmente",
 "value": 3.9389,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -321,7 +356,8 @@
 "age": "65 - 74 anos",
 "indicator": "Mensalmente",
 "value": 3.1745,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -330,7 +366,8 @@
 "age": "15+",
 "indicator": "Mensalmente",
 "value": 15.553,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -339,7 +376,8 @@
 "age": "15+",
 "indicator": "Mensalmente",
 "value": 4.8999,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -348,7 +386,8 @@
 "age": "15+",
 "indicator": "Mensalmente",
 "value": 10.9524,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -357,7 +396,8 @@
 "age": "15 - 24 anos",
 "indicator": "Ocasionalmente",
 "value": 29.7516,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -366,7 +406,8 @@
 "age": "15 - 24 anos",
 "indicator": "Ocasionalmente",
 "value": 20.9719,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -375,7 +416,8 @@
 "age": "15 - 24 anos",
 "indicator": "Ocasionalmente",
 "value": 25.7937,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -384,7 +426,8 @@
 "age": "25 - 34 anos",
 "indicator": "Ocasionalmente",
 "value": 29.5187,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -393,7 +436,8 @@
 "age": "25 - 34 anos",
 "indicator": "Ocasionalmente",
 "value": 21.645,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -402,7 +446,8 @@
 "age": "25 - 34 anos",
 "indicator": "Ocasionalmente",
 "value": 26.2345,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -411,7 +456,8 @@
 "age": "35 - 44 anos",
 "indicator": "Ocasionalmente",
 "value": 26.1916,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -420,7 +466,8 @@
 "age": "35 - 44 anos",
 "indicator": "Ocasionalmente",
 "value": 11.7449,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -429,7 +476,8 @@
 "age": "35 - 44 anos",
 "indicator": "Ocasionalmente",
 "value": 19.9721,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -438,7 +486,8 @@
 "age": "45 - 54 anos",
 "indicator": "Ocasionalmente",
 "value": 25.3247,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -447,7 +496,8 @@
 "age": "45 - 54 anos",
 "indicator": "Ocasionalmente",
 "value": 10.4357,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -456,7 +506,8 @@
 "age": "45 - 54 anos",
 "indicator": "Ocasionalmente",
 "value": 18.6402,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -465,7 +516,8 @@
 "age": "55 - 64 anos",
 "indicator": "Ocasionalmente",
 "value": 21.1613,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -474,7 +526,8 @@
 "age": "55 - 64 anos",
 "indicator": "Ocasionalmente",
 "value": 8.2389,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -483,7 +536,8 @@
 "age": "55 - 64 anos",
 "indicator": "Ocasionalmente",
 "value": 15.7079,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -492,7 +546,8 @@
 "age": "65 - 74 anos",
 "indicator": "Ocasionalmente",
 "value": 15.5249,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -501,7 +556,8 @@
 "age": "65 - 74 anos",
 "indicator": "Ocasionalmente",
 "value": 11.5016,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -510,7 +566,8 @@
 "age": "75 - 84 anos",
 "indicator": "Ocasionalmente",
 "value": 9.6491,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -519,7 +576,8 @@
 "age": "75 - 84 anos",
 "indicator": "Ocasionalmente",
 "value": 7.5106,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -528,7 +586,8 @@
 "age": "15+",
 "indicator": "Ocasionalmente",
 "value": 23.5305,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -537,7 +596,8 @@
 "age": "15+",
 "indicator": "Ocasionalmente",
 "value": 12.3192,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -546,7 +606,8 @@
 "age": "15+",
 "indicator": "Ocasionalmente",
 "value": 18.6889,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -555,7 +616,8 @@
 "age": "15 - 24 anos",
 "indicator": "binge_6plus_any",
 "value": 55.7621,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -564,7 +626,8 @@
 "age": "15 - 24 anos",
 "indicator": "binge_6plus_any",
 "value": 33.5468,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -573,7 +636,8 @@
 "age": "15 - 24 anos",
 "indicator": "binge_6plus_any",
 "value": 45.7474,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -582,7 +646,8 @@
 "age": "25 - 34 anos",
 "indicator": "binge_6plus_any",
 "value": 60.3021,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -591,7 +656,8 @@
 "age": "25 - 34 anos",
 "indicator": "binge_6plus_any",
 "value": 30.5362,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -600,7 +666,8 @@
 "age": "25 - 34 anos",
 "indicator": "binge_6plus_any",
 "value": 47.8861,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -609,7 +676,8 @@
 "age": "35 - 44 anos",
 "indicator": "binge_6plus_any",
 "value": 52.7482,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -618,7 +686,8 @@
 "age": "35 - 44 anos",
 "indicator": "binge_6plus_any",
 "value": 17.4731,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -627,7 +696,8 @@
 "age": "35 - 44 anos",
 "indicator": "binge_6plus_any",
 "value": 37.5618,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -636,7 +706,8 @@
 "age": "45 - 54 anos",
 "indicator": "binge_6plus_any",
 "value": 46.161,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -645,7 +716,8 @@
 "age": "45 - 54 anos",
 "indicator": "binge_6plus_any",
 "value": 15.3277,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -654,7 +726,8 @@
 "age": "45 - 54 anos",
 "indicator": "binge_6plus_any",
 "value": 32.3183,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -663,7 +736,8 @@
 "age": "55 - 64 anos",
 "indicator": "binge_6plus_any",
 "value": 39.285,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -672,7 +746,8 @@
 "age": "55 - 64 anos",
 "indicator": "binge_6plus_any",
 "value": 11.7885,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -681,7 +756,8 @@
 "age": "55 - 64 anos",
 "indicator": "binge_6plus_any",
 "value": 27.6813,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -690,7 +766,8 @@
 "age": "65 - 74 anos",
 "indicator": "binge_6plus_any",
 "value": 23.1448,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -699,7 +776,8 @@
 "age": "65 - 74 anos",
 "indicator": "binge_6plus_any",
 "value": 16.9556,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -708,7 +786,8 @@
 "age": "75 - 84 anos",
 "indicator": "binge_6plus_any",
 "value": 21.5292,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -717,7 +796,8 @@
 "age": "75 - 84 anos",
 "indicator": "binge_6plus_any",
 "value": 14.7923,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -726,7 +806,8 @@
 "age": "15+",
 "indicator": "binge_6plus_any",
 "value": 44.732,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -735,7 +816,8 @@
 "age": "15+",
 "indicator": "binge_6plus_any",
 "value": 18.0913,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -744,7 +826,8 @@
 "age": "15+",
 "indicator": "binge_6plus_any",
 "value": 33.2271,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -753,7 +836,8 @@
 "age": "15 - 24 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 17.2879,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -762,7 +846,8 @@
 "age": "15 - 24 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 18.1989,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -771,7 +856,8 @@
 "age": "15 - 24 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 17.6984,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -780,7 +866,8 @@
 "age": "25 - 34 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 25.4255,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -789,7 +876,8 @@
 "age": "25 - 34 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 29.1382,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -798,7 +886,8 @@
 "age": "25 - 34 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 26.9741,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -807,7 +896,8 @@
 "age": "35 - 44 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 33.4512,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -816,7 +906,8 @@
 "age": "35 - 44 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 33.3209,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -825,7 +916,8 @@
 "age": "35 - 44 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 33.3951,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -834,7 +926,8 @@
 "age": "45 - 54 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 37.6078,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -843,7 +936,8 @@
 "age": "45 - 54 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 29.0791,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -852,7 +946,8 @@
 "age": "45 - 54 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 33.7788,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -861,7 +956,8 @@
 "age": "55 - 64 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 43.4082,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -870,7 +966,8 @@
 "age": "55 - 64 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 22.4872,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -879,7 +976,8 @@
 "age": "55 - 64 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 34.5794,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -888,7 +986,8 @@
 "age": "65 - 74 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 58.2401,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -897,7 +996,8 @@
 "age": "65 - 74 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 18.2577,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -906,7 +1006,8 @@
 "age": "65 - 74 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 42.2985,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -915,7 +1016,8 @@
 "age": "75 - 84 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 55.6522,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -924,7 +1026,8 @@
 "age": "75 - 84 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 15.97,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -933,7 +1036,8 @@
 "age": "75 - 84 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 39.0806,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -942,7 +1046,8 @@
 "age": "85 e mais anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 60.4773,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -951,7 +1056,8 @@
 "age": "85 e mais anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 35.1172,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -960,7 +1066,8 @@
 "age": "15+",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 37.5031,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -969,7 +1076,8 @@
 "age": "15+",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 25.2467,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -978,7 +1086,8 @@
 "age": "15+",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 32.2102,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -987,7 +1096,8 @@
 "age": "15 - 24 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 26.8623,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -996,7 +1106,8 @@
 "age": "15 - 24 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 48.2544,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1005,7 +1116,8 @@
 "age": "15 - 24 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 36.5059,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1014,7 +1126,8 @@
 "age": "25 - 34 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 14.0424,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1023,7 +1136,8 @@
 "age": "25 - 34 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 40.2495,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1032,7 +1146,8 @@
 "age": "25 - 34 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 24.974,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1041,7 +1156,8 @@
 "age": "35 - 44 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 13.2337,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1050,7 +1166,8 @@
 "age": "35 - 44 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 48.8264,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1059,7 +1176,8 @@
 "age": "35 - 44 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 28.557,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1068,7 +1186,8 @@
 "age": "45 - 54 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 15.3251,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1077,7 +1196,8 @@
 "age": "45 - 54 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 55.3226,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1086,7 +1206,8 @@
 "age": "45 - 54 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 33.2821,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1095,7 +1216,8 @@
 "age": "55 - 64 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 16.9557,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1104,7 +1226,8 @@
 "age": "55 - 64 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 65.2745,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1113,7 +1236,8 @@
 "age": "55 - 64 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 37.3466,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1122,7 +1246,8 @@
 "age": "65 - 74 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 17.921,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1131,7 +1256,8 @@
 "age": "65 - 74 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 73.625,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1140,7 +1266,8 @@
 "age": "65 - 74 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 40.1311,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1149,7 +1276,8 @@
 "age": "75 - 84 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 22.8186,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1158,7 +1286,8 @@
 "age": "75 - 84 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 78.633,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1167,7 +1296,8 @@
 "age": "75 - 84 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 46.1272,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1176,7 +1306,8 @@
 "age": "85 e mais anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 72.7302,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1185,7 +1316,8 @@
 "age": "85 e mais anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 53.9289,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1194,7 +1326,8 @@
 "age": "15+",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 17.3121,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1203,7 +1336,8 @@
 "age": "15+",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 56.4074,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2014-01-01",
@@ -1212,7 +1346,8 @@
 "age": "15+",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 34.1955,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1221,7 +1356,8 @@
 "age": "15+",
 "indicator": "Diariamente",
 "value": 1.884,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1230,7 +1366,8 @@
 "age": "15+",
 "indicator": "Diariamente",
 "value": 1.1681,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1239,7 +1376,8 @@
 "age": "35 - 44 anos",
 "indicator": "Semanalmente",
 "value": 4.6635,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1248,7 +1386,8 @@
 "age": "45 - 54 anos",
 "indicator": "Semanalmente",
 "value": 5.098,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1257,7 +1396,8 @@
 "age": "55 - 64 anos",
 "indicator": "Semanalmente",
 "value": 2.7891,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1266,7 +1406,8 @@
 "age": "65 - 74 anos",
 "indicator": "Semanalmente",
 "value": 3.0349,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1275,7 +1416,8 @@
 "age": "15+",
 "indicator": "Semanalmente",
 "value": 6.3031,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1284,7 +1426,8 @@
 "age": "15+",
 "indicator": "Semanalmente",
 "value": 2.2954,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1293,7 +1436,8 @@
 "age": "15+",
 "indicator": "Semanalmente",
 "value": 4.4985,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1302,7 +1446,8 @@
 "age": "15 - 24 anos",
 "indicator": "Mensalmente",
 "value": 28.2827,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1311,7 +1456,8 @@
 "age": "15 - 24 anos",
 "indicator": "Mensalmente",
 "value": 22.6122,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1320,7 +1466,8 @@
 "age": "15 - 24 anos",
 "indicator": "Mensalmente",
 "value": 25.5903,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1329,7 +1476,8 @@
 "age": "25 - 34 anos",
 "indicator": "Mensalmente",
 "value": 24.8973,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1338,7 +1486,8 @@
 "age": "25 - 34 anos",
 "indicator": "Mensalmente",
 "value": 15.5903,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1347,7 +1496,8 @@
 "age": "25 - 34 anos",
 "indicator": "Mensalmente",
 "value": 20.8249,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1356,7 +1506,8 @@
 "age": "35 - 44 anos",
 "indicator": "Mensalmente",
 "value": 23.5672,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1365,7 +1516,8 @@
 "age": "35 - 44 anos",
 "indicator": "Mensalmente",
 "value": 11.385,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1374,7 +1526,8 @@
 "age": "35 - 44 anos",
 "indicator": "Mensalmente",
 "value": 17.9841,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1383,7 +1536,8 @@
 "age": "45 - 54 anos",
 "indicator": "Mensalmente",
 "value": 20.7624,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1392,7 +1546,8 @@
 "age": "45 - 54 anos",
 "indicator": "Mensalmente",
 "value": 7.5591,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1401,7 +1556,8 @@
 "age": "45 - 54 anos",
 "indicator": "Mensalmente",
 "value": 14.7684,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1410,7 +1566,8 @@
 "age": "55 - 64 anos",
 "indicator": "Mensalmente",
 "value": 12.6174,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1419,7 +1576,8 @@
 "age": "55 - 64 anos",
 "indicator": "Mensalmente",
 "value": 8.1987,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1428,7 +1586,8 @@
 "age": "55 - 64 anos",
 "indicator": "Mensalmente",
 "value": 10.6488,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1437,7 +1596,8 @@
 "age": "65 - 74 anos",
 "indicator": "Mensalmente",
 "value": 9.1565,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1446,7 +1606,8 @@
 "age": "65 - 74 anos",
 "indicator": "Mensalmente",
 "value": 9.154,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1455,7 +1616,8 @@
 "age": "15+",
 "indicator": "Mensalmente",
 "value": 18.2544,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1464,7 +1626,8 @@
 "age": "15+",
 "indicator": "Mensalmente",
 "value": 10.8992,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1473,7 +1636,8 @@
 "age": "15+",
 "indicator": "Mensalmente",
 "value": 14.9426,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1482,7 +1646,8 @@
 "age": "15 - 24 anos",
 "indicator": "Ocasionalmente",
 "value": 26.9509,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1491,7 +1656,8 @@
 "age": "15 - 24 anos",
 "indicator": "Ocasionalmente",
 "value": 26.6202,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1500,7 +1666,8 @@
 "age": "15 - 24 anos",
 "indicator": "Ocasionalmente",
 "value": 26.7939,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1509,7 +1676,8 @@
 "age": "25 - 34 anos",
 "indicator": "Ocasionalmente",
 "value": 30.2686,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1518,7 +1686,8 @@
 "age": "25 - 34 anos",
 "indicator": "Ocasionalmente",
 "value": 23.4647,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1527,7 +1696,8 @@
 "age": "25 - 34 anos",
 "indicator": "Ocasionalmente",
 "value": 27.2915,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1536,7 +1706,8 @@
 "age": "35 - 44 anos",
 "indicator": "Ocasionalmente",
 "value": 34.0975,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1545,7 +1716,8 @@
 "age": "35 - 44 anos",
 "indicator": "Ocasionalmente",
 "value": 21.7174,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1554,7 +1726,8 @@
 "age": "35 - 44 anos",
 "indicator": "Ocasionalmente",
 "value": 28.4238,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1563,7 +1736,8 @@
 "age": "45 - 54 anos",
 "indicator": "Ocasionalmente",
 "value": 29.8016,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1572,7 +1746,8 @@
 "age": "45 - 54 anos",
 "indicator": "Ocasionalmente",
 "value": 11.9143,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1581,7 +1756,8 @@
 "age": "45 - 54 anos",
 "indicator": "Ocasionalmente",
 "value": 21.6811,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1590,7 +1766,8 @@
 "age": "55 - 64 anos",
 "indicator": "Ocasionalmente",
 "value": 25.4798,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1599,7 +1776,8 @@
 "age": "55 - 64 anos",
 "indicator": "Ocasionalmente",
 "value": 15.6385,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1608,7 +1786,8 @@
 "age": "55 - 64 anos",
 "indicator": "Ocasionalmente",
 "value": 21.0953,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1617,7 +1796,8 @@
 "age": "65 - 74 anos",
 "indicator": "Ocasionalmente",
 "value": 19.8309,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1626,7 +1806,8 @@
 "age": "65 - 74 anos",
 "indicator": "Ocasionalmente",
 "value": 15.3216,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1635,7 +1816,8 @@
 "age": "75 - 84 anos",
 "indicator": "Ocasionalmente",
 "value": 12.915,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1644,7 +1826,8 @@
 "age": "75 - 84 anos",
 "indicator": "Ocasionalmente",
 "value": 9.9686,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1653,7 +1836,8 @@
 "age": "15+",
 "indicator": "Ocasionalmente",
 "value": 26.5953,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1662,7 +1846,8 @@
 "age": "15+",
 "indicator": "Ocasionalmente",
 "value": 16.7999,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1671,7 +1856,8 @@
 "age": "15+",
 "indicator": "Ocasionalmente",
 "value": 22.1847,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1680,7 +1866,8 @@
 "age": "15 - 24 anos",
 "indicator": "binge_6plus_any",
 "value": 63.8346,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1689,7 +1876,8 @@
 "age": "15 - 24 anos",
 "indicator": "binge_6plus_any",
 "value": 52.689,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1698,7 +1886,8 @@
 "age": "15 - 24 anos",
 "indicator": "binge_6plus_any",
 "value": 58.5426,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1707,7 +1896,8 @@
 "age": "25 - 34 anos",
 "indicator": "binge_6plus_any",
 "value": 65.5674,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1716,7 +1906,8 @@
 "age": "25 - 34 anos",
 "indicator": "binge_6plus_any",
 "value": 43.0913,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1725,7 +1916,8 @@
 "age": "25 - 34 anos",
 "indicator": "binge_6plus_any",
 "value": 55.7328,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1734,7 +1926,8 @@
 "age": "35 - 44 anos",
 "indicator": "binge_6plus_any",
 "value": 66.3224,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1743,7 +1936,8 @@
 "age": "35 - 44 anos",
 "indicator": "binge_6plus_any",
 "value": 35.1945,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1752,7 +1946,8 @@
 "age": "35 - 44 anos",
 "indicator": "binge_6plus_any",
 "value": 52.0567,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1761,7 +1956,8 @@
 "age": "45 - 54 anos",
 "indicator": "binge_6plus_any",
 "value": 59.9803,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1770,7 +1966,8 @@
 "age": "45 - 54 anos",
 "indicator": "binge_6plus_any",
 "value": 22.0241,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1779,7 +1976,8 @@
 "age": "45 - 54 anos",
 "indicator": "binge_6plus_any",
 "value": 42.7489,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1788,7 +1986,8 @@
 "age": "55 - 64 anos",
 "indicator": "binge_6plus_any",
 "value": 45.1023,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1797,7 +1996,8 @@
 "age": "55 - 64 anos",
 "indicator": "binge_6plus_any",
 "value": 26.1462,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1806,7 +2006,8 @@
 "age": "55 - 64 anos",
 "indicator": "binge_6plus_any",
 "value": 36.657,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1815,7 +2016,8 @@
 "age": "65 - 74 anos",
 "indicator": "binge_6plus_any",
 "value": 35.3924,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1824,7 +2026,8 @@
 "age": "65 - 74 anos",
 "indicator": "binge_6plus_any",
 "value": 21.1597,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1833,7 +2036,8 @@
 "age": "65 - 74 anos",
 "indicator": "binge_6plus_any",
 "value": 29.0878,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1842,7 +2046,8 @@
 "age": "75 - 84 anos",
 "indicator": "binge_6plus_any",
 "value": 23.8625,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1851,7 +2056,8 @@
 "age": "75 - 84 anos",
 "indicator": "binge_6plus_any",
 "value": 18.2094,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1860,7 +2066,8 @@
 "age": "15+",
 "indicator": "binge_6plus_any",
 "value": 53.0367,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1869,7 +2076,8 @@
 "age": "15+",
 "indicator": "binge_6plus_any",
 "value": 30.2885,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1878,7 +2086,8 @@
 "age": "15+",
 "indicator": "binge_6plus_any",
 "value": 42.7938,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1887,7 +2096,8 @@
 "age": "15 - 24 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 14.6396,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1896,7 +2106,8 @@
 "age": "15 - 24 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 13.5117,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1905,7 +2116,8 @@
 "age": "25 - 34 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 25.8873,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1914,7 +2126,8 @@
 "age": "25 - 34 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 26.4443,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1923,7 +2136,8 @@
 "age": "25 - 34 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 26.131,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1932,7 +2146,8 @@
 "age": "35 - 44 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 20.0847,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1941,7 +2156,8 @@
 "age": "35 - 44 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 29.1129,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1950,7 +2166,8 @@
 "age": "35 - 44 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 24.2223,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1959,7 +2176,8 @@
 "age": "45 - 54 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 26.3732,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1968,7 +2186,8 @@
 "age": "45 - 54 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 32.3962,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1977,7 +2196,8 @@
 "age": "45 - 54 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 29.1075,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1986,7 +2206,8 @@
 "age": "55 - 64 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 36.2428,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -1995,7 +2216,8 @@
 "age": "55 - 64 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 19.2668,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2004,7 +2226,8 @@
 "age": "55 - 64 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 28.6797,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2013,7 +2236,8 @@
 "age": "65 - 74 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 45.3016,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2022,7 +2246,8 @@
 "age": "65 - 74 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 18.3806,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2031,7 +2256,8 @@
 "age": "65 - 74 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 33.3765,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2040,7 +2266,8 @@
 "age": "75 - 84 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 53.8918,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2049,7 +2276,8 @@
 "age": "75 - 84 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 20.6003,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2058,7 +2286,8 @@
 "age": "75 - 84 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 40.0778,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2067,7 +2296,8 @@
 "age": "85 e mais anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 61.8263,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2076,7 +2306,8 @@
 "age": "85 e mais anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 44.7212,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2085,7 +2316,8 @@
 "age": "15+",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 30.6323,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2094,7 +2326,8 @@
 "age": "15+",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 24.0831,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2103,7 +2336,8 @@
 "age": "15+",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 27.6834,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2112,7 +2346,8 @@
 "age": "15 - 24 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 21.4846,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2121,7 +2356,8 @@
 "age": "15 - 24 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 31.6121,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2130,7 +2366,8 @@
 "age": "15 - 24 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 26.2931,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2139,7 +2376,8 @@
 "age": "25 - 34 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 28.9991,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2148,7 +2386,8 @@
 "age": "25 - 34 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 16.5035,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2157,7 +2396,8 @@
 "age": "35 - 44 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 10.0764,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2166,7 +2406,8 @@
 "age": "35 - 44 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 34.3693,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2175,7 +2416,8 @@
 "age": "35 - 44 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 21.2097,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2184,7 +2426,8 @@
 "age": "45 - 54 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 11.1809,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2193,7 +2436,8 @@
 "age": "45 - 54 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 43.7002,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2202,7 +2446,8 @@
 "age": "45 - 54 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 25.944,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2211,7 +2456,8 @@
 "age": "55 - 64 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 14.3196,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2220,7 +2466,8 @@
 "age": "55 - 64 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 54.4277,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2229,7 +2476,8 @@
 "age": "55 - 64 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 32.1884,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2238,7 +2486,8 @@
 "age": "65 - 74 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 16.903,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2247,7 +2496,8 @@
 "age": "65 - 74 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 59.7586,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2256,7 +2506,8 @@
 "age": "65 - 74 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 35.8866,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2265,7 +2516,8 @@
 "age": "75 - 84 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 17.2186,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2274,7 +2526,8 @@
 "age": "75 - 84 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 66.8496,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2283,7 +2536,8 @@
 "age": "75 - 84 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 37.8129,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2292,7 +2546,8 @@
 "age": "85 e mais anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 62.7515,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2301,7 +2556,8 @@
 "age": "85 e mais anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 40.3106,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2310,7 +2566,8 @@
 "age": "15+",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 13.3363,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2319,7 +2576,8 @@
 "age": "15+",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 44.4576,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2019-01-01",
@@ -2328,7 +2586,8 @@
 "age": "15+",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 27.3495,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2337,7 +2596,8 @@
 "age": "15+",
 "indicator": "Diariamente",
 "value": 1.0391,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2346,7 +2606,8 @@
 "age": "15+",
 "indicator": "Diariamente",
 "value": 0.6633,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2355,7 +2616,8 @@
 "age": "35 - 44 anos",
 "indicator": "Semanalmente",
 "value": 4.6377,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2364,7 +2626,8 @@
 "age": "45 - 54 anos",
 "indicator": "Semanalmente",
 "value": 6.2815,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2373,7 +2636,8 @@
 "age": "45 - 54 anos",
 "indicator": "Semanalmente",
 "value": 4.963,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2382,7 +2646,8 @@
 "age": "55 - 64 anos",
 "indicator": "Semanalmente",
 "value": 4.2805,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2391,7 +2656,8 @@
 "age": "55 - 64 anos",
 "indicator": "Semanalmente",
 "value": 2.8929,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2400,7 +2666,8 @@
 "age": "15+",
 "indicator": "Semanalmente",
 "value": 5.459,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2409,7 +2676,8 @@
 "age": "15+",
 "indicator": "Semanalmente",
 "value": 3.4113,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2418,7 +2686,8 @@
 "age": "15+",
 "indicator": "Semanalmente",
 "value": 4.5516,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2427,7 +2696,8 @@
 "age": "15 - 24 anos",
 "indicator": "Mensalmente",
 "value": 29.7839,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2436,7 +2706,8 @@
 "age": "15 - 24 anos",
 "indicator": "Mensalmente",
 "value": 23.7165,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2445,7 +2716,8 @@
 "age": "25 - 34 anos",
 "indicator": "Mensalmente",
 "value": 27.6926,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2454,7 +2726,8 @@
 "age": "25 - 34 anos",
 "indicator": "Mensalmente",
 "value": 18.1483,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2463,7 +2736,8 @@
 "age": "25 - 34 anos",
 "indicator": "Mensalmente",
 "value": 23.8443,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2472,7 +2746,8 @@
 "age": "35 - 44 anos",
 "indicator": "Mensalmente",
 "value": 21.1918,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2481,7 +2756,8 @@
 "age": "35 - 44 anos",
 "indicator": "Mensalmente",
 "value": 13.7094,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2490,7 +2766,8 @@
 "age": "35 - 44 anos",
 "indicator": "Mensalmente",
 "value": 18.0559,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2499,7 +2776,8 @@
 "age": "45 - 54 anos",
 "indicator": "Mensalmente",
 "value": 20.3792,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2508,7 +2786,8 @@
 "age": "45 - 54 anos",
 "indicator": "Mensalmente",
 "value": 11.0267,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2517,7 +2796,8 @@
 "age": "45 - 54 anos",
 "indicator": "Mensalmente",
 "value": 15.9756,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2526,7 +2806,8 @@
 "age": "55 - 64 anos",
 "indicator": "Mensalmente",
 "value": 16.7756,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2535,7 +2816,8 @@
 "age": "55 - 64 anos",
 "indicator": "Mensalmente",
 "value": 12.0428,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2544,7 +2826,8 @@
 "age": "65 - 74 anos",
 "indicator": "Mensalmente",
 "value": 12.6706,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2553,7 +2836,8 @@
 "age": "65 - 74 anos",
 "indicator": "Mensalmente",
 "value": 9.6254,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2562,7 +2846,8 @@
 "age": "75 - 84 anos",
 "indicator": "Mensalmente",
 "value": 6.2233,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2571,7 +2856,8 @@
 "age": "75 - 84 anos",
 "indicator": "Mensalmente",
 "value": 4.0233,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2580,7 +2866,8 @@
 "age": "15+",
 "indicator": "Mensalmente",
 "value": 19.4886,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2589,7 +2876,8 @@
 "age": "15+",
 "indicator": "Mensalmente",
 "value": 10.3432,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2598,7 +2886,8 @@
 "age": "15+",
 "indicator": "Mensalmente",
 "value": 15.4359,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2607,7 +2896,8 @@
 "age": "15 - 24 anos",
 "indicator": "Ocasionalmente",
 "value": 29.4509,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2616,7 +2906,8 @@
 "age": "15 - 24 anos",
 "indicator": "Ocasionalmente",
 "value": 33.3792,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2625,7 +2916,8 @@
 "age": "15 - 24 anos",
 "indicator": "Ocasionalmente",
 "value": 31.1428,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2634,7 +2926,8 @@
 "age": "25 - 34 anos",
 "indicator": "Ocasionalmente",
 "value": 31.2299,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2643,7 +2936,8 @@
 "age": "25 - 34 anos",
 "indicator": "Ocasionalmente",
 "value": 26.4288,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2652,7 +2946,8 @@
 "age": "25 - 34 anos",
 "indicator": "Ocasionalmente",
 "value": 29.294,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2661,7 +2956,8 @@
 "age": "35 - 44 anos",
 "indicator": "Ocasionalmente",
 "value": 28.2263,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2670,7 +2966,8 @@
 "age": "35 - 44 anos",
 "indicator": "Ocasionalmente",
 "value": 17.5201,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2679,7 +2976,8 @@
 "age": "35 - 44 anos",
 "indicator": "Ocasionalmente",
 "value": 23.7394,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2688,7 +2986,8 @@
 "age": "45 - 54 anos",
 "indicator": "Ocasionalmente",
 "value": 24.2904,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2697,7 +2996,8 @@
 "age": "45 - 54 anos",
 "indicator": "Ocasionalmente",
 "value": 14.359,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2706,7 +3006,8 @@
 "age": "45 - 54 anos",
 "indicator": "Ocasionalmente",
 "value": 19.6142,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2715,7 +3016,8 @@
 "age": "55 - 64 anos",
 "indicator": "Ocasionalmente",
 "value": 24.0949,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2724,7 +3026,8 @@
 "age": "55 - 64 anos",
 "indicator": "Ocasionalmente",
 "value": 17.6179,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2733,7 +3036,8 @@
 "age": "55 - 64 anos",
 "indicator": "Ocasionalmente",
 "value": 21.0288,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2742,7 +3046,8 @@
 "age": "65 - 74 anos",
 "indicator": "Ocasionalmente",
 "value": 21.3494,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2751,7 +3056,8 @@
 "age": "65 - 74 anos",
 "indicator": "Ocasionalmente",
 "value": 10.9899,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2760,7 +3066,8 @@
 "age": "65 - 74 anos",
 "indicator": "Ocasionalmente",
 "value": 16.9059,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2769,7 +3076,8 @@
 "age": "75 - 84 anos",
 "indicator": "Ocasionalmente",
 "value": 13.0266,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2778,7 +3086,8 @@
 "age": "15+",
 "indicator": "Ocasionalmente",
 "value": 25.176,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2787,7 +3096,8 @@
 "age": "15+",
 "indicator": "Ocasionalmente",
 "value": 17.7184,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2796,7 +3106,8 @@
 "age": "15+",
 "indicator": "Ocasionalmente",
 "value": 21.8713,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2805,7 +3116,8 @@
 "age": "15 - 24 anos",
 "indicator": "binge_6plus_any",
 "value": 70.8818,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2814,7 +3126,8 @@
 "age": "15 - 24 anos",
 "indicator": "binge_6plus_any",
 "value": 60.0646,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2823,7 +3136,8 @@
 "age": "15 - 24 anos",
 "indicator": "binge_6plus_any",
 "value": 66.2235,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2832,7 +3146,8 @@
 "age": "25 - 34 anos",
 "indicator": "binge_6plus_any",
 "value": 65.9307,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2841,7 +3156,8 @@
 "age": "25 - 34 anos",
 "indicator": "binge_6plus_any",
 "value": 46.6839,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2850,7 +3166,8 @@
 "age": "25 - 34 anos",
 "indicator": "binge_6plus_any",
 "value": 58.1705,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2859,7 +3176,8 @@
 "age": "35 - 44 anos",
 "indicator": "binge_6plus_any",
 "value": 54.5878,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2868,7 +3186,8 @@
 "age": "35 - 44 anos",
 "indicator": "binge_6plus_any",
 "value": 35.6552,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2877,7 +3196,8 @@
 "age": "35 - 44 anos",
 "indicator": "binge_6plus_any",
 "value": 46.6531,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2886,7 +3206,8 @@
 "age": "45 - 54 anos",
 "indicator": "binge_6plus_any",
 "value": 51.9574,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2895,7 +3216,8 @@
 "age": "45 - 54 anos",
 "indicator": "binge_6plus_any",
 "value": 28.8669,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2904,7 +3226,8 @@
 "age": "45 - 54 anos",
 "indicator": "binge_6plus_any",
 "value": 41.0851,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2913,7 +3236,8 @@
 "age": "55 - 64 anos",
 "indicator": "binge_6plus_any",
 "value": 47.0456,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2922,7 +3246,8 @@
 "age": "55 - 64 anos",
 "indicator": "binge_6plus_any",
 "value": 25.9292,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2931,7 +3256,8 @@
 "age": "55 - 64 anos",
 "indicator": "binge_6plus_any",
 "value": 37.0496,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2940,7 +3266,8 @@
 "age": "65 - 74 anos",
 "indicator": "binge_6plus_any",
 "value": 38.8848,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2949,7 +3276,8 @@
 "age": "65 - 74 anos",
 "indicator": "binge_6plus_any",
 "value": 18.4902,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2958,7 +3286,8 @@
 "age": "65 - 74 anos",
 "indicator": "binge_6plus_any",
 "value": 30.1372,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2967,7 +3296,8 @@
 "age": "75 - 84 anos",
 "indicator": "binge_6plus_any",
 "value": 26.6765,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2976,7 +3306,8 @@
 "age": "75 - 84 anos",
 "indicator": "binge_6plus_any",
 "value": 20.7382,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2985,7 +3316,8 @@
 "age": "15+",
 "indicator": "binge_6plus_any",
 "value": 51.1627,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -2994,7 +3326,8 @@
 "age": "15+",
 "indicator": "binge_6plus_any",
 "value": 31.664,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3003,7 +3336,8 @@
 "age": "15+",
 "indicator": "binge_6plus_any",
 "value": 42.5221,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3012,7 +3346,8 @@
 "age": "15 - 24 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 12.2489,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3021,7 +3356,8 @@
 "age": "25 - 34 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 22.5506,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3030,7 +3366,8 @@
 "age": "25 - 34 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 33.9453,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3039,7 +3376,8 @@
 "age": "25 - 34 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 27.1449,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3048,7 +3386,8 @@
 "age": "35 - 44 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 32.6533,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3057,7 +3396,8 @@
 "age": "35 - 44 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 35.6413,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3066,7 +3406,8 @@
 "age": "35 - 44 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 33.9056,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3075,7 +3416,8 @@
 "age": "45 - 54 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 35.3805,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3084,7 +3426,8 @@
 "age": "45 - 54 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 29.21,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3093,7 +3436,8 @@
 "age": "45 - 54 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 32.475,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3102,7 +3446,8 @@
 "age": "55 - 64 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 32.9794,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3111,7 +3456,8 @@
 "age": "55 - 64 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 27.021,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3120,7 +3466,8 @@
 "age": "55 - 64 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 30.1588,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3129,7 +3476,8 @@
 "age": "65 - 74 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 39.8412,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3138,7 +3486,8 @@
 "age": "65 - 74 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 26.953,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3147,7 +3496,8 @@
 "age": "65 - 74 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 34.3134,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3156,7 +3506,8 @@
 "age": "75 - 84 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 47.2339,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3165,7 +3516,8 @@
 "age": "75 - 84 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 21.1863,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3174,7 +3526,8 @@
 "age": "75 - 84 anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 35.4705,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3183,7 +3536,8 @@
 "age": "85 e mais anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 55.432,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3192,7 +3546,8 @@
 "age": "85 e mais anos",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 42.2749,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3201,7 +3556,8 @@
 "age": "15+",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 32.4,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3210,7 +3566,8 @@
 "age": "15+",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 27.6637,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3219,7 +3576,8 @@
 "age": "15+",
 "indicator": "Não consumiu 6 ou mais bebidas numa única ocasião",
 "value": 30.3012,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3228,7 +3586,8 @@
 "age": "15 - 24 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 28.6,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3237,7 +3596,8 @@
 "age": "15 - 24 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 20.2236,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3246,7 +3606,8 @@
 "age": "25 - 34 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 18.5615,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3255,7 +3616,8 @@
 "age": "25 - 34 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 13.5989,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3264,7 +3626,8 @@
 "age": "35 - 44 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 9.3353,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3273,7 +3636,8 @@
 "age": "35 - 44 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 26.2991,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3282,7 +3646,8 @@
 "age": "35 - 44 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 16.445,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3291,7 +3656,8 @@
 "age": "45 - 54 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 10.4759,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3300,7 +3666,8 @@
 "age": "45 - 54 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 38.9588,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3309,7 +3676,8 @@
 "age": "45 - 54 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 23.8871,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3318,7 +3686,8 @@
 "age": "55 - 64 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 15.843,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3327,7 +3696,8 @@
 "age": "55 - 64 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 45.9275,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3336,7 +3706,8 @@
 "age": "55 - 64 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 30.0845,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3345,7 +3716,8 @@
 "age": "65 - 74 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 18.552,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3354,7 +3726,8 @@
 "age": "65 - 74 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 50.9535,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3363,7 +3736,8 @@
 "age": "65 - 74 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 32.4494,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3372,7 +3746,8 @@
 "age": "75 - 84 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 21.3092,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3381,7 +3756,8 @@
 "age": "75 - 84 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 62.8133,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3390,7 +3766,8 @@
 "age": "75 - 84 anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 40.0528,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3399,7 +3776,8 @@
 "age": "85 e mais anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 54.0782,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3408,7 +3786,8 @@
 "age": "85 e mais anos",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 38.7437,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3417,7 +3796,8 @@
 "age": "15+",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 13.6839,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3426,7 +3806,8 @@
 "age": "15+",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 38.5131,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 },
 {
 "date": "2025-01-01",
@@ -3435,6 +3816,7 @@
 "age": "15+",
 "indicator": "Nunca consumiu 6 ou mais bebidas numa única ocasião",
 "value": 24.6867,
-"unit": "%"
+"unit": "%",
+"source_id": "ih06"
 }
 ]

@@ -41,8 +41,9 @@ def export(df: pd.DataFrame, name: str, axis: str, title_pt: str, title_en: str,
         "indicator": df[indicator] if indicator in df else "",
         "value": df[value].round(4),
         "unit": df[unit] if unit in df else "",
+        "source_id": df["source_id"] if "source_id" in df else "",  # lets common.summarize find the clean file
     }).dropna(subset=["value"])
-    text_cols = ["region", "sex", "age", "indicator", "unit"]
+    text_cols = ["region", "sex", "age", "indicator", "unit", "source_id"]
     out[text_cols] = out[text_cols].astype(object).fillna("")
     export_series_json(out, OUT / f"{name}.json")
     register_chart(STUDY, chart_id=name, data_file=f"{name}.json", axis=axis, title_pt=title_pt, title_en=title_en)
