@@ -35,6 +35,7 @@ FULL_LISTING_MAX = 8  # series with at most this many points are listed in full
 HEADLINE_REGIONS = {"Portugal", "European Union (27)"}
 TOTAL_SEX = {"T", "HM", ""}
 MAX_SERIES_PER_CHART = 14  # the rest is in series.csv
+MAX_CORRELATIONS_LISTED = 25
 SUMMARY_NAME = "summary.md"
 SERIES_NAME = "series.csv"
 
@@ -141,10 +142,63 @@ def _priority(key: tuple[str, ...]) -> tuple[int, int, int, tuple[str, ...]]:
     return (0 if region in HEADLINE_REGIONS else 1, 0 if sex in TOTAL_SEX else 1, 0 if age == "" else 1, key)
 
 
-def summarize_study(study_dir: Path) -> tuple[str, list[list[str]]]:
-    """Return (summary markdown, series.csv rows) for a study's registered charts."""
+def iter_chart_frames(study_dir: Path):
+    """Yield (chart_id, charts.yml entry, frame) for each registered chart; the frame has the chart's
+    rows plus the origin columns (`clean_file`, `c_sex`, `c_age`, `c_indicator`; '' = derived)."""
     charts = yaml.safe_load((study_dir / "analysis" / "charts.yml").read_text(encoding="utf-8")) or {}
     clean = _load_clean(study_dir / "data" / "clean")
+    for chart_id, entry in charts.items():
+        path = study_dir / "analysis" / "out" / str(entry.get("data_file", ""))
+        if not path.is_file():
+            continue
+        df = _load_chart(path)
+        if df.empty:
+            continue
+        yield chart_id, entry, df.join(_assign_origin(df, _candidates(df, clean)))
+
+
+def _trend_notes(study_dir: Path) -> dict[tuple, str]:
+    """Trend text per (chart, series) from analysis/trends.csv, when `common.trends` has run."""
+    path = study_dir / "analysis" / "trends.csv"
+    if not path.exists():
+        return {}
+    notes = {}
+    for r in pd.read_csv(path, dtype=str, keep_default_na=False).itertuples(index=False):
+        if r.direction == "insufficient_data":
+            continue
+        key = (r.chart, r.region, r.sex, r.age, r.indicator, r.unit)
+        notes[key] = (f"trend {float(r.slope_per_year):+.4g}/yr [{float(r.slope_ci_low):+.4g}, {float(r.slope_ci_high):+.4g}]"
+                      f" {r.direction} (MK p_adj={float(r.p_adj):.3g}) [{r.id}]")
+    return notes
+
+
+def _correlation_section(study_dir: Path) -> list[str]:
+    path = study_dir / "analysis" / "correlations.csv"
+    if not path.exists():
+        return []
+    df = pd.read_csv(path, dtype=str, keep_default_na=False)
+    top = df[df["significant"] == "yes"].copy()
+    top["abs_rho"] = top["rho"].astype(float).abs()
+    top = top.sort_values("abs_rho", ascending=False).head(MAX_CORRELATIONS_LISTED)
+    lines = [
+        "## Correlations (exploratory associations, never causes)",
+        "",
+        "Spearman on first differences (so a shared upward trend does not count), Portugal total series from",
+        "different charts, Benjamini-Hochberg corrected over every pair tested. Mechanical links are possible",
+        "(e.g. a share and its total). Full table and each `calculation`: `Grep` the id in `correlations.csv`.",
+        f"Pairs tested: {len(df)}; significant after correction: {int((df['significant'] == 'yes').sum())}.",
+        "",
+    ]
+    for r in top.itertuples(index=False):
+        lines.append(f"- [{r.id}] rho={float(r.rho):+.2f} q={float(r.q_value):.3g} n_diff={r.n_diff} | "
+                     f"{r.label_a} ({r.chart_a}) ~ {r.label_b} ({r.chart_b})")
+    if top.empty:
+        lines.append("- none significant after correction")
+    return [*lines, ""]
+
+
+def summarize_study(study_dir: Path) -> tuple[str, list[list[str]]]:
+    """Return (summary markdown, series.csv rows) for a study's registered charts."""
     lines = [
         f"# Chart numbers: {study_dir.name}",
         "",
@@ -154,17 +208,13 @@ def summarize_study(study_dir: Path) -> tuple[str, list[list[str]]]:
         "`region`, `sex`, `age`, `indicator` and `date` (`YYYY-01-01` for annual series), using the",
         "`clean_labels(...)` when shown (the chart relabels them) or the series' own labels otherwise.",
         "`file=derived` means the analysis script computed the series (state the calculation in the claim).",
+        "Trends (`[t…]`, Theil-Sen slope + Mann-Kendall) come from `common.trends`; `Grep` the id in",
+        "`trends.csv` for a ready `calculation`.",
         "",
     ]
     rows: list[list[str]] = []
-    for chart_id, entry in charts.items():
-        path = study_dir / "analysis" / "out" / str(entry.get("data_file", ""))
-        if not path.is_file():
-            continue
-        df = _load_chart(path)
-        if df.empty:
-            continue
-        df = df.join(_assign_origin(df, _candidates(df, clean)))
+    notes = _trend_notes(study_dir)
+    for chart_id, entry, df in iter_chart_frames(study_dir):
         yearly = df["date"].str.endswith("-01-01").all()
         lines += [
             f"## {chart_id}",
@@ -174,13 +224,17 @@ def summarize_study(study_dir: Path) -> tuple[str, list[list[str]]]:
         ]
         groups = sorted(df.groupby(SERIES_KEYS, sort=False), key=lambda kv: _priority(kv[0]))
         for key, group in groups[:MAX_SERIES_PER_CHART]:
-            lines.append(_series_line(" | ".join(part or "-" for part in key), group, yearly))
+            line = _series_line(" | ".join(part or "-" for part in key), group, yearly)
+            if note := notes.get((chart_id, *key)):
+                line += f" | {note}"
+            lines.append(line)
         if len(groups) > MAX_SERIES_PER_CHART:
             lines.append(f"- … {len(groups) - MAX_SERIES_PER_CHART} more series (regions, sexes, ages): see {SERIES_NAME}")
         lines.append("")
         for r in df.sort_values([*SERIES_KEYS, "date"]).itertuples(index=False):
             rows.append([chart_id, r.date, r.region, r.sex, r.age, r.indicator, _fmt(r.value), r.unit,
                          r.clean_file, r.c_sex, r.c_age, r.c_indicator])
+    lines += _correlation_section(study_dir)
     return "\n".join(lines) + "\n", rows
 
 
