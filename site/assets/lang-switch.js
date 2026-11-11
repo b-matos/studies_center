@@ -2,15 +2,16 @@
 // instead of always bouncing to that language's home page.
 (function () {
   function equivalentPath(path) {
-    const match = path.match(/^\/(pt|en)\/(.*)$/);
+    // A hosting prefix (e.g. /studies_center on GitHub Pages) may come before /pt/ or /en/.
+    const match = path.match(/^(.*?)\/(pt|en)\/(.*)$/);
     if (!match) return null;
-    const [, lang, rest] = match;
+    const [, prefix, lang, rest] = match;
     const other = lang === "pt" ? "en" : "pt";
     const renamed = rest
       .replace(/^index\.html?$/, "index.html")
       .replace(/^events\.html$/, "events.html")
       .replace(/^queue\.html$/, "queue.html");
-    return `/${other}/${renamed}`;
+    return `${prefix}/${other}/${renamed}`;
   }
 
   document.addEventListener("DOMContentLoaded", function () {

@@ -116,7 +116,7 @@ def test_write_root_redirect(build_mod) -> None:
     (site_dir / "_site").mkdir()
     mod.write_root_redirect()
     text = (site_dir / "_site" / "index.html").read_text(encoding="utf-8")
-    assert "/pt/" in text
+    assert 'url=pt/' in text  # relative, so it also works under a Pages subpath
 
 
 def test_export_events_json(build_mod) -> None:
@@ -170,3 +170,55 @@ def test_charts_js_only_reads_canonical_column_names() -> None:
     used = set(re.findall(r"\b[abdr]\.(\w+)\b", js))
     row_fields = used & {"data", "date", "valor", "value", "regiao", "region", "unidade", "unit", "sexo", "sex"}
     assert row_fields <= set(CANONICAL_COLUMNS), f"stale column names in charts.js: {row_fields - set(CANONICAL_COLUMNS)}"
+
+
+def test_public_index_lists_only_published_studies(build_mod) -> None:
+    mod, site_dir, studies_dir = build_mod
+    _make_study(studies_dir, "done-1", status="published")
+    _make_study(studies_dir, "wip-1", status="in_progress")
+    _make_study(studies_dir, "teste-1", status="test")
+
+    studies = mod.load_studies()
+    mod.write_index(studies, "en", {"published"})
+    text = (site_dir / "index.en.qmd").read_text(encoding="utf-8")
+    assert "done-1" in text
+    assert "wip-1" not in text
+    assert "teste-1" not in text
+
+    mod.write_index(studies, "en", {"published", "test"})
+    assert "teste-1" in (site_dir / "index.en.qmd").read_text(encoding="utf-8")
+
+
+def test_write_public_profiles_drops_queue(build_mod) -> None:
+    mod, site_dir, _ = build_mod
+    for lang, other in (("pt", "en"), ("en", "pt")):
+        (site_dir / f"_quarto-{lang}.yml").write_text(
+            yaml.safe_dump({
+                "project": {"output-dir": f"_site/{lang}", "render": [f"index.{lang}.qmd", f"queue.{lang}.qmd"]},
+                "website": {"navbar": {
+                    "left": [{"href": f"index.{lang}.qmd", "text": "A"}, {"href": f"queue.{lang}.qmd", "text": "Q"}],
+                    "right": [{"text": other.upper(), "href": f"/{other}/"}],
+                }},
+            }),
+            encoding="utf-8",
+        )
+
+    mod.write_public_profiles()
+
+    cfg = yaml.safe_load((site_dir / "_quarto-pt-public.yml").read_text(encoding="utf-8"))
+    assert cfg["project"]["output-dir"] == "_site_public/pt"
+    assert cfg["project"]["render"] == ["index.pt.qmd"]
+    assert [i["href"] for i in cfg["website"]["navbar"]["left"]] == ["index.pt.qmd"]
+
+
+def test_public_assets_leave_out_queue_script(build_mod) -> None:
+    mod, site_dir, _ = build_mod
+    assets_src = site_dir / "assets"
+    assets_src.mkdir()
+    (assets_src / "lang-switch.js").write_text("// js", encoding="utf-8")
+    (assets_src / "queue.js").write_text("// queue", encoding="utf-8")
+    (site_dir / "_site_public").mkdir()
+
+    mod.copy_shared_assets("_site_public", public=True)
+    assert (site_dir / "_site_public" / "assets" / "lang-switch.js").exists()
+    assert not (site_dir / "_site_public" / "assets" / "queue.js").exists()

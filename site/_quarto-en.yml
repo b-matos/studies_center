@@ -5,8 +5,6 @@ project:
     - "events.en.qmd"
     - "queue.en.qmd"
     - "studies/*/index.en.qmd"
-  resources:
-    - "studies/*/open_data.csv"
 
 lang: en
 

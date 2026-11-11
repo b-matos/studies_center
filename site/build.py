@@ -11,9 +11,16 @@ What it does, in order:
    CSV export of its clean date, so relative paths inside the copied .qmd keep working.
 3. Exports the shared events.csv catalogue as site/events.json for the Eventos page.
 4. Runs `quarto render --profile pt` and `--profile en`.
+
+Public mode (`--public`, used by the GitHub Pages workflow) builds a read-only copy into
+site/_site_public/: only studies with status `published` (plus any `--include-status`),
+no Queue page and no queue script (they need the local server), no cost or progress data.
+Quarto turns the root-absolute links into relative ones and lang-switch.js reads any hosting
+prefix from the URL, so the same output works at a domain root or under /<repo>/.
 """
 from __future__ import annotations
 
+import argparse
 import html
 import re
 import shutil
@@ -75,9 +82,17 @@ INDEX_COPY = {
 }
 
 
-def write_index(studies: list[dict], lang: str) -> None:
+def visible_studies(studies: list[dict], statuses: set[str] | None = None) -> list[dict]:
+    """Studies shown on the index. Local build: everything except `test`. Public build:
+    only the given statuses (default `published`)."""
+    if statuses is None:
+        return [s for s in studies if s.get("status") != "test"]
+    return [s for s in studies if s.get("status") in statuses]
+
+
+def write_index(studies: list[dict], lang: str, statuses: set[str] | None = None) -> None:
     copy = INDEX_COPY[lang]
-    visible = [s for s in studies if s.get("status") != "test"]
+    visible = visible_studies(studies, statuses)
     lines = [
         "---",
         f'pagetitle: "{copy["pagetitle"]}"',
@@ -239,8 +254,8 @@ def export_events_json() -> None:
     out.write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
 
 
-def copy_shared_assets() -> None:
-    """Copy site/assets/ to _site/assets/, shared across languages.
+def copy_shared_assets(site_name: str = "_site", public: bool = False) -> None:
+    """Copy site/assets/ to <site_name>/assets/, shared across languages.
 
     Pages reference shared scripts (e.g. lang-switch.js) via a root-absolute path like
     "/assets/lang-switch.js" so the same reference works whether the browser is on a /pt/
@@ -248,21 +263,40 @@ def copy_shared_assets() -> None:
     (_site/pt or _site/en), so this top-level copy survives repeated `quarto render` runs.
     """
     src = SITE_DIR / "assets"
-    dest = SITE_DIR / "_site" / "assets"
+    dest = SITE_DIR / site_name / "assets"
     if dest.exists():
         shutil.rmtree(dest)
-    shutil.copytree(src, dest, ignore=shutil.ignore_patterns("*.scss"))
+    ignored = ["*.scss", "queue.js"] if public else ["*.scss"]
+    shutil.copytree(src, dest, ignore=shutil.ignore_patterns(*ignored))
 
 
-def write_root_redirect() -> None:
-    """Write _site/index.html so visiting the server's bare root lands on /pt/."""
-    out = SITE_DIR / "_site" / "index.html"
+def write_root_redirect(site_name: str = "_site") -> None:
+    """Write <site_name>/index.html so visiting the bare root lands on pt/.
+
+    The target is relative, so it works both at the server's "/" and under a Pages subpath."""
+    out = SITE_DIR / site_name / "index.html"
     out.write_text(
         '<!doctype html><html><head><meta charset="utf-8">'
-        '<meta http-equiv="refresh" content="0; url=/pt/"></head>'
-        '<body><a href="/pt/">Estudos sobre Portugal</a></body></html>',
+        '<meta http-equiv="refresh" content="0; url=pt/"></head>'
+        '<body><a href="pt/">Estudos sobre Portugal</a></body></html>',
         encoding="utf-8",
     )
+
+
+def write_public_profiles() -> None:
+    """Generate _quarto-<lang>-public.yml from the local profiles (gitignored, rebuilt every run).
+
+    Drops the Queue page from the render list and the navbar and redirects the output to
+    _site_public/.
+    """
+    for lang in ("pt", "en"):
+        cfg = yaml.safe_load((SITE_DIR / f"_quarto-{lang}.yml").read_text(encoding="utf-8"))
+        cfg["project"]["output-dir"] = f"_site_public/{lang}"
+        cfg["project"]["render"] = [r for r in cfg["project"]["render"] if not r.startswith("queue.")]
+        navbar = cfg["website"]["navbar"]
+        navbar["left"] = [i for i in navbar["left"] if not str(i.get("href", "")).startswith("queue.")]
+        out = SITE_DIR / f"_quarto-{lang}-public.yml"
+        out.write_text(yaml.safe_dump(cfg, allow_unicode=True, sort_keys=False), encoding="utf-8")
 
 
 def render(profile: str) -> None:
@@ -278,23 +312,38 @@ def render(profile: str) -> None:
         raise SystemExit(f"quarto render --profile {profile} falhou (código {result.returncode})")
 
 
-def main() -> None:
+def main(argv: list[str] | None = None) -> None:
+    parser = argparse.ArgumentParser(description="Build the bilingual Quarto site.")
+    parser.add_argument("--public", action="store_true",
+                        help="read-only build for GitHub Pages into site/_site_public/")
+    parser.add_argument("--include-status", action="append", default=[], metavar="STATUS",
+                        help="public build: also show studies with this status (repeatable)")
+    args = parser.parse_args(argv)
+    statuses = {"published", *args.include_status} if args.public else None
+    site_name = "_site_public" if args.public else "_site"
+
     studies = load_studies()
-    write_index(studies, "pt")
-    write_index(studies, "en")
+    if args.public:
+        studies = visible_studies(studies, statuses)
+    shutil.rmtree(SITE_DIR / "studies", ignore_errors=True)  # generated; avoids stale study pages
+    write_index(studies, "pt", statuses)
+    write_index(studies, "en", statuses)
     for study in studies:
         copy_study_pages(study)
     export_events_json()
+    if args.public:
+        write_public_profiles()
 
     if shutil.which("quarto") is None:
         print("quarto não está instalado — as páginas .qmd foram geradas, mas não compiladas.", file=sys.stderr)
         print("instala com: brew install --cask quarto", file=sys.stderr)
         raise SystemExit(1)
 
-    render("pt")
-    render("en")
-    copy_shared_assets()
-    write_root_redirect()
+    suffix = "-public" if args.public else ""
+    render(f"pt{suffix}")
+    render(f"en{suffix}")
+    copy_shared_assets(site_name, public=args.public)
+    write_root_redirect(site_name)
 
 
 if __name__ == "__main__":

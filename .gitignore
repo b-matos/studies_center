@@ -10,6 +10,8 @@ studies/*/data/raw/
 
 # Quarto build output
 site/_site/
+site/_site_public/
+site/_quarto-*-public.yml
 site/.quarto/
 /.quarto/
 
