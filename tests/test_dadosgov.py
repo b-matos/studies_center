@@ -82,3 +82,14 @@ def test_probe_dadosgov_lists_the_dataset_and_tests_the_first_tabular_resource(p
     out = probe.probe_dadosgov("obitos-por-causa")
     assert "licence for sources.csv: CC BY 4.0 (dados.gov.pt)" in out
     assert seen == ["https://dados.gov.pt/api/1/datasets/r/r1"]
+
+
+def test_probe_url_reports_a_server_error_as_transient(monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture) -> None:
+    def handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(502, json={"error": "bad gateway"})
+
+    real_client = httpx.Client
+    monkeypatch.setattr(probe.httpx, "Client", lambda **kw: real_client(transport=httpx.MockTransport(handler), **kw))
+    monkeypatch.setattr("sys.argv", ["probe", "https://dados.gov.pt/api/1/datasets/r/x"])
+    assert probe.main() == 3
+    assert "TRANSIENT" in capsys.readouterr().out

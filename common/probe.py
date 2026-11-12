@@ -109,6 +109,8 @@ def probe_url(url: str) -> str:
         size = response.headers.get("content-length", "?")
         head = next(response.iter_bytes(PREVIEW_BYTES), b"")
         status = response.status_code
+        if status == 429 or status >= 500:  # the server's problem, not proof that the source is missing
+            raise httpx.HTTPStatusError(f"HTTP {status}", request=response.request, response=response)
     lines = [f"{'OK' if status < 400 else 'FAIL'} {url} status={status} type={content_type} bytes={size}"]
     if status >= 400:
         return "\n".join(lines)
