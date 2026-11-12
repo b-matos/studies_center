@@ -1,7 +1,6 @@
 """runner.run_study must survive stream-json lines far above asyncio's default 64 KiB limit."""
 from __future__ import annotations
 
-import json
 import sys
 from pathlib import Path
 
