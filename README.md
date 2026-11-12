@@ -364,7 +364,8 @@ are no quality tests for the *agents* themselves; see [Improvement ideas](#impro
 
 ## Improvement ideas
 
-In order of impact on robustness:
+Larger directions (a `/mito` claim-checking command, a human review gate, living studies, citation and maps) are
+described in [`docs/ROADMAP.md`](docs/ROADMAP.md). The hardening list below is in order of impact on robustness:
 
 1. **Evals for the agents.** Today only the deterministic code is tested. Add an `evals/` folder
    with frozen fixtures (one commit per phase is a ready-made starting point) and code graders:
