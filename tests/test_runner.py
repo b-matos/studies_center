@@ -11,8 +11,12 @@ from server import runner
 
 
 async def test_run_study_handles_very_long_stream_line(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
-    big = json.dumps({"type": "user", "message": {"content": "x" * 400_000}})
-    script = f"import json; print({big!r}); print(json.dumps({{'type': 'result', 'result': 'ok'}}))"
+    # the child builds the long line itself: a 400 KB argv entry exceeds Linux's per-argument limit (~128 KB)
+    script = (
+        "import json; "
+        "print(json.dumps({'type': 'user', 'message': {'content': 'x' * 400000}})); "
+        "print(json.dumps({'type': 'result', 'result': 'ok'}))"
+    )
     monkeypatch.setattr(runner, "_claude_command", lambda topic: [sys.executable, "-c", script])
     monkeypatch.setattr(runner, "LOGS_DIR", tmp_path / "logs")
     monkeypatch.setattr(runner, "_append_run_record", lambda *a, **k: None)
