@@ -17,10 +17,17 @@ Para cada pergunta/eixo da tua unidade em `plan.md` (lê só a secção `## Eixo
 perguntas desses eixos):
 
 1. Procura datasets em fontes primárias, por esta ordem de preferência: INE, Eurostat, OCDE,
-   OMS, DGS, SNS, outros organismos oficiais. Só recorres a notícias ou fontes secundárias
+   OMS, DGS, SNS, outros organismos oficiais. **Para organismos sem API própria (DGS, SPMS, ACSS,
+   INSA, Infarmed, municípios) procura no catálogo dados.gov.pt**:
+   `uv run python -m common.sources.dadosgov search "<termo>" [--org <slug>]` (slugs úteis:
+   `direcao-geral-da-saude`, `spms-servicos-partilhados-do-ministerio-da-saude-1`, `acss`, `insa`,
+   `infarmed`) e `... show <dataset>`. Muitos conjuntos do INE no portal são só a API do INE que já
+   usas: prefere `ine:<varcd>`. A licença do portal é a declarada pelo publicador: usa o texto que o
+   `show` imprime em `license`; "outra", "não especificada" e "desconhecida" bloqueiam a publicação,
+   por isso lê a página do conjunto de dados e, se continuar duvidoso, deixa `excluded` com o motivo. Só recorres a notícias ou fontes secundárias
    quando não há fonte primária acessível, e marcas isso claramente.
 2. **Confirma o acesso de verdade, com o script, não com WebFetch**:
-   `uv run python -m common.probe eurostat:<CODIGO>` | `ine:<varcd>` | `<url>`. Imprime
+   `uv run python -m common.probe eurostat:<CODIGO>` | `ine:<varcd>` | `dadosgov:<slug>` | `<url>`. Imprime
    formato, colunas, valores distintos e intervalo temporal em poucas linhas. WebFetch só
    para ler a página de licença/metadados quando o probe não a mostra. Nunca inventes um
    endpoint sem o testar.

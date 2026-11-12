@@ -10,7 +10,8 @@ site Quarto estático. Tudo corre localmente, em Python, orquestrado pelo Claude
    correspondente em `studies/<slug>/claims.csv`, com URL, data de acesso e um excerto
    curto (menos de 15 palavras) que a sustente.
 2. **Fontes primárias primeiro.** Dados: INE, Eurostat, OCDE, OMS, DGS, SNS e organismos
-   oficiais. Eventos: Diário da República, parlamento.pt, EUR-Lex, CNE, sites do Governo.
+   oficiais (o catálogo dados.gov.pt é o caminho para os que não têm API própria; a licença é a
+   declarada pelo publicador). Eventos: Diário da República, parlamento.pt, EUR-Lex, CNE, sites do Governo.
    Notícias de órgãos credíveis só servem para contexto ou na ausência de fonte primária, e
    ficam marcadas como `source_nature = news`.
 3. **Coincidência não é causalidade.** Um evento só é apresentado como causa de uma mudança de

@@ -141,7 +141,7 @@ Key ideas:
 | --- | --- |
 | Orchestration | [Claude Code](https://claude.com/claude-code) (skills, subagents, hooks); headless `claude -p` from the server |
 | Data and analysis | Python ≥ 3.12, pandas, pyarrow (Parquet), numpy, scipy, statsmodels, [ruptures](https://github.com/deepcharles/ruptures) (change points) |
-| Sources | `sdmx1` (Eurostat, OECD), INE JSON API, WHO OData API, SNS exports, httpx, pypdf, BeautifulSoup, rapidfuzz |
+| Sources | `sdmx1` (Eurostat, OECD), INE JSON API, dados.gov.pt catalogue API, WHO OData API, SNS exports, httpx, pypdf, BeautifulSoup, rapidfuzz |
 | Validation | pydantic (schemas for every tracked CSV) |
 | Site | [Quarto](https://quarto.org) bilingual website, OJS + Plotly interactive charts |
 | Local server | FastAPI, uvicorn, Server-Sent Events (sse-starlette) |
@@ -240,7 +240,7 @@ Tracked CSV files (pydantic schemas in `common/schemas.py`):
 ```
 .claude/             agents, the /study skill, guard_writes.py hook, settings.json
 common/              deterministic pipeline (state, checks, probe, extract, breaks, verify, charts, usage)
-common/sources/      INE, Eurostat, OECD, WHO and SNS clients
+common/sources/      INE, Eurostat, OECD, WHO, SNS and dados.gov.pt clients
 events/              shared event catalogue and event-source notes
 studies/<slug>/      one study (plan, sources, clean data, analysis, reports, claims)
 site/                Quarto project (pt/en), build.py, assets

@@ -6,6 +6,7 @@ sources.d/<axis>.csv: does it answer, what format, what columns, what time range
 
     uv run python -m common.probe eurostat:DEMO_MLEXPEC [geo=PT+EU27_2020 sex=T ...]
     uv run python -m common.probe ine:0008459
+    uv run python -m common.probe dadosgov:<dataset-slug-or-id>   (dados.gov.pt catalogue)
     uv run python -m common.probe https://example.org/file.csv
 """
 from __future__ import annotations
@@ -33,9 +34,10 @@ def _dims(df: pd.DataFrame, skip: set[str]) -> list[str]:
 
 def is_transient(exc: Exception) -> bool:
     """Timeouts, connection errors, 429 and 5xx say nothing about whether a source exists."""
+    from common.sources.dadosgov import DadosGovUnavailable
     from common.sources.ine import IneUnavailable
 
-    if isinstance(exc, IneUnavailable | httpx.TimeoutException | httpx.ConnectError):
+    if isinstance(exc, IneUnavailable | DadosGovUnavailable | httpx.TimeoutException | httpx.ConnectError):
         return True
     response = getattr(exc, "response", None)
     return response is not None and (response.status_code == 429 or response.status_code >= 500)
@@ -86,6 +88,21 @@ def probe_ine(varcd: str) -> str:
     ])
 
 
+def probe_dadosgov(dataset: str) -> str:
+    """Catalogue entry (publisher, licence, resources) plus an access test of the first tabular resource."""
+    from common.sources import dadosgov
+
+    ds = dadosgov.get_dataset(dataset)
+    lines = [f"OK dadosgov:{ds.slug}", dadosgov.format_dataset(ds, detail=True)]
+    tabular = ds.tabular_resources()
+    if not tabular:
+        lines.append("no csv/json/xlsx resource: not usable as a flat table; open the page by hand only if it is the sole source")
+    else:
+        lines.append(f"access test of the first tabular resource ({tabular[0].format}):")
+        lines.append(probe_url(tabular[0].latest))
+    return "\n".join(lines)
+
+
 def probe_url(url: str) -> str:
     with httpx.Client(follow_redirects=True, timeout=30.0) as client, client.stream("GET", url) as response:
         content_type = response.headers.get("content-type", "?")
@@ -116,6 +133,8 @@ def main() -> int:
             print(probe_eurostat(target.split(":", 1)[1], dict(a.split("=", 1) for a in extra)))
         elif target.startswith("ine:"):
             print(probe_ine(target.split(":", 1)[1]))
+        elif target.startswith("dadosgov:"):
+            print(probe_dadosgov(target.split(":", 1)[1]))
         else:
             print(probe_url(target))
     except Exception as exc:
