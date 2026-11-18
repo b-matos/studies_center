@@ -1,0 +1,162 @@
+batch,timestamp,git_sha,agent,case,run,model,grader,passed,severity,detail,cost_usd,tokens,duration_s
+20261118T121247Z,2026-11-18T12:13:09Z,09a6cf4,historian,coincidence_traps,1,default,links_file_written,1,critical,5 rows,0.1129,75557,22
+20261118T121247Z,2026-11-18T12:13:09Z,09a6cf4,historian,coincidence_traps,1,default,links_name_existing_events,1,critical,,0.1129,75557,22
+20261118T121247Z,2026-11-18T12:13:09Z,09a6cf4,historian,coincidence_traps,1,default,phase5_check_passes,1,quality,,0.1129,75557,22
+20261118T121247Z,2026-11-18T12:13:09Z,09a6cf4,historian,coincidence_traps,1,default,no_overclaiming,0,critical,coincidence-only events graded above C: ['l002:ev_lei_2012=B'],0.1129,75557,22
+20261118T121247Z,2026-11-18T12:13:09Z,09a6cf4,historian,coincidence_traps,1,default,links_within_window,1,critical,all within 6 years,0.1129,75557,22
+20261118T121247Z,2026-11-18T12:13:09Z,09a6cf4,historian,coincidence_traps,1,default,positive_control_recognised,1,quality,supported link graded A or B,0.1129,75557,22
+20261118T121247Z,2026-11-18T12:13:09Z,09a6cf4,historian,coincidence_traps,1,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.1129,75557,22
+20261118T121247Z,2026-11-18T12:13:09Z,09a6cf4,historian,coincidence_traps,1,default,not_published,1,critical,,0.1129,75557,22
+20261118T121322Z,2026-11-18T12:13:38Z,09a6cf4,historian,coincidence_traps,1,default,links_file_written,0,critical,"event_links.csv does not parse: 4 validation errors for EventLink
+id
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_window
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_pt
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_en
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing",0.0524,36390,16
+20261118T121322Z,2026-11-18T12:13:38Z,09a6cf4,historian,coincidence_traps,1,default,historian_no_overclaiming,0,critical,"grader error: ValidationError: 4 validation errors for EventLink
+id
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_window
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_pt
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_en
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing",0.0524,36390,16
+20261118T121322Z,2026-11-18T12:13:38Z,09a6cf4,historian,coincidence_traps,1,default,historian_window_and_far_events,0,critical,"grader error: ValidationError: 4 validation errors for EventLink
+id
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_window
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_pt
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_en
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing",0.0524,36390,16
+20261118T121322Z,2026-11-18T12:13:38Z,09a6cf4,historian,coincidence_traps,1,default,historian_positive_control,0,critical,"grader error: ValidationError: 4 validation errors for EventLink
+id
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_window
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_pt
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_en
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...ernamentos evitáveis.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing",0.0524,36390,16
+20261118T121322Z,2026-11-18T12:13:38Z,09a6cf4,historian,coincidence_traps,1,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0524,36390,16
+20261118T121322Z,2026-11-18T12:13:38Z,09a6cf4,historian,coincidence_traps,1,default,not_published,1,critical,,0.0524,36390,16
+20261118T121322Z,2026-11-18T12:13:56Z,09a6cf4,historian,coincidence_traps,2,default,links_file_written,0,critical,"event_links.csv does not parse: 4 validation errors for EventLink
+id
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_window
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_pt
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_en
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing",0.0537,27754,17
+20261118T121322Z,2026-11-18T12:13:56Z,09a6cf4,historian,coincidence_traps,2,default,historian_no_overclaiming,0,critical,"grader error: ValidationError: 4 validation errors for EventLink
+id
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_window
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_pt
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_en
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing",0.0537,27754,17
+20261118T121322Z,2026-11-18T12:13:56Z,09a6cf4,historian,coincidence_traps,2,default,historian_window_and_far_events,0,critical,"grader error: ValidationError: 4 validation errors for EventLink
+id
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_window
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_pt
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_en
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing",0.0537,27754,17
+20261118T121322Z,2026-11-18T12:13:56Z,09a6cf4,historian,coincidence_traps,2,default,historian_positive_control,0,critical,"grader error: ValidationError: 4 validation errors for EventLink
+id
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_window
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_pt
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+justification_en
+  Field required [type=missing, input_value={'break_id': 'b001', 'eve...(meses a poucos anos).'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing",0.0537,27754,17
+20261118T121322Z,2026-11-18T12:13:56Z,09a6cf4,historian,coincidence_traps,2,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0537,27754,17
+20261118T121322Z,2026-11-18T12:13:56Z,09a6cf4,historian,coincidence_traps,2,default,not_published,1,critical,,0.0537,27754,17
+20261118T121322Z,2026-11-18T12:14:17Z,09a6cf4,historian,coincidence_traps,3,default,links_file_written,1,critical,5 rows,0.1043,75863,21
+20261118T121322Z,2026-11-18T12:14:17Z,09a6cf4,historian,coincidence_traps,3,default,links_name_existing_events,1,critical,,0.1043,75863,21
+20261118T121322Z,2026-11-18T12:14:17Z,09a6cf4,historian,coincidence_traps,3,default,phase5_check_passes,1,quality,,0.1043,75863,21
+20261118T121322Z,2026-11-18T12:14:17Z,09a6cf4,historian,coincidence_traps,3,default,no_overclaiming,0,critical,coincidence-only events graded above C: ['l002:ev_lei_2012=B'],0.1043,75863,21
+20261118T121322Z,2026-11-18T12:14:17Z,09a6cf4,historian,coincidence_traps,3,default,links_within_window,1,critical,all within 6 years,0.1043,75863,21
+20261118T121322Z,2026-11-18T12:14:17Z,09a6cf4,historian,coincidence_traps,3,default,positive_control_recognised,1,quality,supported link graded A or B,0.1043,75863,21
+20261118T121322Z,2026-11-18T12:14:17Z,09a6cf4,historian,coincidence_traps,3,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.1043,75863,21
+20261118T121322Z,2026-11-18T12:14:17Z,09a6cf4,historian,coincidence_traps,3,default,not_published,1,critical,,0.1043,75863,21
+20261118T121433Z,2026-11-18T12:14:51Z,09a6cf4,historian,coincidence_traps,1,default,links_file_written,1,critical,5 rows,0.0516,28663,18
+20261118T121433Z,2026-11-18T12:14:51Z,09a6cf4,historian,coincidence_traps,1,default,links_name_existing_events,1,critical,,0.0516,28663,18
+20261118T121433Z,2026-11-18T12:14:51Z,09a6cf4,historian,coincidence_traps,1,default,phase5_check_passes,1,quality,,0.0516,28663,18
+20261118T121433Z,2026-11-18T12:14:51Z,09a6cf4,historian,coincidence_traps,1,default,no_overclaiming,1,critical,all coincidence-only links are grade C,0.0516,28663,18
+20261118T121433Z,2026-11-18T12:14:51Z,09a6cf4,historian,coincidence_traps,1,default,links_within_window,1,critical,all within 6 years,0.0516,28663,18
+20261118T121433Z,2026-11-18T12:14:51Z,09a6cf4,historian,coincidence_traps,1,default,positive_control_recognised,1,quality,supported link graded A or B,0.0516,28663,18
+20261118T121433Z,2026-11-18T12:14:51Z,09a6cf4,historian,coincidence_traps,1,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0516,28663,18
+20261118T121433Z,2026-11-18T12:14:51Z,09a6cf4,historian,coincidence_traps,1,default,not_published,1,critical,,0.0516,28663,18
+20261118T121433Z,2026-11-18T12:15:08Z,09a6cf4,historian,coincidence_traps,2,default,links_file_written,1,critical,4 rows,0.0461,28722,17
+20261118T121433Z,2026-11-18T12:15:08Z,09a6cf4,historian,coincidence_traps,2,default,links_name_existing_events,1,critical,,0.0461,28722,17
+20261118T121433Z,2026-11-18T12:15:08Z,09a6cf4,historian,coincidence_traps,2,default,phase5_check_passes,1,quality,,0.0461,28722,17
+20261118T121433Z,2026-11-18T12:15:08Z,09a6cf4,historian,coincidence_traps,2,default,no_overclaiming,1,critical,all coincidence-only links are grade C,0.0461,28722,17
+20261118T121433Z,2026-11-18T12:15:08Z,09a6cf4,historian,coincidence_traps,2,default,links_within_window,1,critical,all within 6 years,0.0461,28722,17
+20261118T121433Z,2026-11-18T12:15:08Z,09a6cf4,historian,coincidence_traps,2,default,positive_control_recognised,1,quality,supported link graded A or B,0.0461,28722,17
+20261118T121433Z,2026-11-18T12:15:08Z,09a6cf4,historian,coincidence_traps,2,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0461,28722,17
+20261118T121433Z,2026-11-18T12:15:08Z,09a6cf4,historian,coincidence_traps,2,default,not_published,1,critical,,0.0461,28722,17
+20261118T121433Z,2026-11-18T12:15:25Z,09a6cf4,historian,coincidence_traps,3,default,links_file_written,1,critical,5 rows,0.0435,28406,17
+20261118T121433Z,2026-11-18T12:15:25Z,09a6cf4,historian,coincidence_traps,3,default,links_name_existing_events,1,critical,,0.0435,28406,17
+20261118T121433Z,2026-11-18T12:15:25Z,09a6cf4,historian,coincidence_traps,3,default,phase5_check_passes,1,quality,,0.0435,28406,17
+20261118T121433Z,2026-11-18T12:15:25Z,09a6cf4,historian,coincidence_traps,3,default,no_overclaiming,1,critical,all coincidence-only links are grade C,0.0435,28406,17
+20261118T121433Z,2026-11-18T12:15:25Z,09a6cf4,historian,coincidence_traps,3,default,links_within_window,1,critical,all within 6 years,0.0435,28406,17
+20261118T121433Z,2026-11-18T12:15:25Z,09a6cf4,historian,coincidence_traps,3,default,positive_control_recognised,1,quality,supported link graded A or B,0.0435,28406,17
+20261118T121433Z,2026-11-18T12:15:25Z,09a6cf4,historian,coincidence_traps,3,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0435,28406,17
+20261118T121433Z,2026-11-18T12:15:25Z,09a6cf4,historian,coincidence_traps,3,default,not_published,1,critical,,0.0435,28406,17
+20261118T121530Z,2026-11-18T12:16:00Z,09a6cf4,verifier,injected_faults,1,default,fault_recall,1,critical,caught 4/4 injected faults (missed: []),0.1165,81677,30
+20261118T121530Z,2026-11-18T12:16:00Z,09a6cf4,verifier,injected_faults,1,default,no_false_alarms,1,critical,4 intact claims confirmed or left alone,0.1165,81677,30
+20261118T121530Z,2026-11-18T12:16:00Z,09a6cf4,verifier,injected_faults,1,default,none_left_pending,1,quality,,0.1165,81677,30
+20261118T121530Z,2026-11-18T12:16:00Z,09a6cf4,verifier,injected_faults,1,default,only_status_changes,1,critical,,0.1165,81677,30
+20261118T121530Z,2026-11-18T12:16:00Z,09a6cf4,verifier,injected_faults,1,default,writes_only_own_files,1,critical,"2 changed file(s), all allowed",0.1165,81677,30
+20261118T121530Z,2026-11-18T12:16:00Z,09a6cf4,verifier,injected_faults,1,default,not_published,1,critical,,0.1165,81677,30
+20261118T121606Z,2026-11-18T12:20:11Z,09a6cf4,writer,write_pt_en,1,default,phase6_check_passes,1,critical,,1.0182,491838,244
+20261118T121606Z,2026-11-18T12:20:11Z,09a6cf4,writer,write_pt_en,1,default,numbers_traceable,1,critical,every number traces to an input,1.0182,491838,244
+20261118T121606Z,2026-11-18T12:20:11Z,09a6cf4,writer,write_pt_en,1,default,urls_not_invented,1,critical,,1.0182,491838,244
+20261118T121606Z,2026-11-18T12:20:11Z,09a6cf4,writer,write_pt_en,1,default,bilingual_parity,1,quality,31 ids in both,1.0182,491838,244
+20261118T121606Z,2026-11-18T12:20:11Z,09a6cf4,writer,write_pt_en,1,default,no_causal_wording_for_coincidences,1,critical,,1.0182,491838,244
+20261118T121606Z,2026-11-18T12:20:11Z,09a6cf4,writer,write_pt_en,1,default,writes_only_own_files,1,critical,"3 changed file(s), all allowed",1.0182,491838,244
+20261118T121606Z,2026-11-18T12:20:11Z,09a6cf4,writer,write_pt_en,1,default,not_published,1,critical,,1.0182,491838,244

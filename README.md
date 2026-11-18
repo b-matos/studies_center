@@ -333,10 +333,12 @@ STUDIES_AUTO_PUSH=1 uv run python -m server.app
 
 ## Tests
 
+**Agent evals** live in [`evals/`](evals/README.md): synthetic fixtures with known traps, one sandbox per run, code graders, and a history of results to compare before and after any prompt or model change (`uv run python -m evals.run <agent>`, `uv run python -m evals.report`).
+
 `tests/` covers state and resuming, phase checks, extraction, normalisation, schemas, the write
 guard hook, the site build, claim verification, resilience to source failures (INE) and the
-server (queue and auto-push). They run in CI ([`tests.yml`](.github/workflows/tests.yml)). There
-are no quality tests for the *agents* themselves; see [Improvement ideas](#improvement-ideas).
+server (queue and auto-push). They run in CI ([`tests.yml`](.github/workflows/tests.yml)). The
+*agents* are measured separately by the evals above.
 
 ## Security and privacy
 
@@ -376,8 +378,7 @@ are no quality tests for the *agents* themselves; see [Improvement ideas](#impro
 Larger directions (a `/mito` claim-checking command, a human review gate, living studies, citation and maps) are
 described in [`docs/ROADMAP.md`](docs/ROADMAP.md). The hardening list below is in order of impact on robustness:
 
-1. **Evals for the agents.** Today only the deterministic code is tested. Add an `evals/` folder
-   with frozen fixtures (one commit per phase is a ready-made starting point) and code graders:
+1. **Grow the evals.** `evals/` covers the historian, writer and verifier (see its README); add the planner, data-researcher, extractor and analyst. The original plan: frozen fixtures (one commit per phase is a ready-made starting point) and code graders:
    inject errors into an already-verified report to measure the `verifier`'s recall and false
    positives; "coincidence only" cases the `historian` must grade C; numbers outside
    `claims.csv` that the `writer` must not write. Run each case 3×, and compare before/after any

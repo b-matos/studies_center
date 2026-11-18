@@ -1,0 +1,13 @@
+# The writer has no internet. It gets the plan, the sources, the chart registry, the numbers (summary.md, trends.csv)
+# and the correct event links, and must write both reports and claims.csv without inventing a number or a URL.
+cases:
+  - id: write_pt_en
+    description: Reports and claims from verified inputs only; no invented figures or URLs; causal wording only where graded.
+    fixture: {upto_phase: 5, links: true, summaries: true}
+    tools: [Read, Write, Edit, Glob, Grep]
+    timeout: 1500
+    prompt: |
+      Fase 6 do estudo `mini-eval` (pasta studies/mini-eval/), unidades `pt` e `en`. Escreve report.pt.qmd, claims.csv e
+      report.en.qmd a partir de plan.md, sources.csv, analysis/charts.yml, analysis/summary.md, breaks.csv, event_links.csv
+      e events/events.csv, seguindo as regras do teu agente. Não tens internet. Termina com um resumo de no máximo 150 palavras.
+    graders: [writer_phase6_checks, writer_numbers_traceable, writer_urls_not_invented, writer_bilingual_parity, writer_causal_wording, writes_only_own_files, not_published]

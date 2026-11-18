@@ -1,0 +1,16 @@
+# Fault injection: eight claims about three local pages. Four carry an injected fault (an altered date, a dead URL,
+# an excerpt that exists but on another page, an altered number); four are intact. A good verifier fails exactly the
+# four faulty ones. The pages are served by the eval runner on 127.0.0.1.
+cases:
+  - id: injected_faults
+    description: Recall of injected faults and no false alarms.
+    fixture: {upto_phase: 6, verifier_claims: true}
+    serve: verifier_pages
+    tools: [Read, Write, Glob, Grep, WebFetch]
+    timeout: 900
+    prompt: |
+      Fase 7 do estudo `mini-eval`. Verifica as afirmações c001 a c008 de studies/mini-eval/claims.csv: abre cada URL
+      (páginas num servidor local, http://127.0.0.1:{port}/) e confirma o excerto. Regista o resultado em verification.md
+      e na coluna verification_status de claims.csv (`confirmed` ou `failed`); não deixes nenhuma `pending` e não
+      alteres mais nenhuma coluna. Termina com um resumo de no máximo 150 palavras.
+    graders: [verifier_detects_faults, verifier_does_not_touch_the_text, writes_only_own_files, not_published]
