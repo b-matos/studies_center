@@ -383,7 +383,7 @@ described in [`docs/ROADMAP.md`](docs/ROADMAP.md). The hardening list below is i
    positives; "coincidence only" cases the `historian` must grade C; numbers outside
    `claims.csv` that the `writer` must not write. Run each case 3×, and compare before/after any
    prompt or model change.
-2. **Orchestrator in code.** Move the phase loop out of the prompt into a Python script (for
+2. **Orchestrator in code** (roadmap item 14). Move the phase loop out of the prompt into a Python script (for
    example with the Claude Agent SDK) while keeping agents and hooks. It takes the LLM out of the
    coordinator role, cuts tokens and makes resuming fully deterministic.
 3. **Freeze the sources.** Raw files are outside git and INE/Eurostat revise series. Keep

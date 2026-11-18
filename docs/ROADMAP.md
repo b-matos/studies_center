@@ -21,6 +21,7 @@ Nothing here is committed work: each item says what it reuses, what is new and w
 | 11 | Chart catalogue and chart choice | **Done** (see section 11): improves every study | Medium |
 | 12 | Share page (infographic card) | Makes a study easy to share; depends on item 11 | Medium |
 | 13 | Study search and tag filters | Readers can find studies as their number grows; Quarto text search already exists | Small |
+| 14 | Deterministic orchestrator (in code) | Removes the fragile part of the pipeline: rules that live in a prompt; testable without spending tokens | Medium |
 
 ## 1. Human review gate
 
@@ -218,9 +219,53 @@ claims, but it makes the index bigger, so only if readers need it.
 
 **Depends on:** nothing. It also prepares the `/mito` type (item 3), which needs its own filter value.
 
+## 14. Deterministic orchestrator (in code)
+
+Today the orchestrator is a Sonnet session following `.claude/skills/study/SKILL.md`. Almost all of its logic already lives in code
+(`common.state`, `checks`, `verify`, `review`), so what remains in the prompt is the fragile part: rules the model must remember (never
+write `published`, launch the English unit on Sonnet, at most two subagents at once), one global permission list for every subagent,
+commands that must go one per call, and no way to test any of it without a real, paid run.
+
+**Decision (agreed):** a Python orchestrator is the **single driver**; the LLM stays inside the agents that write and judge. The
+interactive `/study` becomes a thin launcher of the same code, so the logic exists once. Failures keep the current policy: at most
+3 attempts per phase, then `blocked`, and decisions that belong to the author go to `pending.md` and the Queue.
+
+**What it gains**
+
+- Determinism and tests: the state machine runs in Python and is tested with fake agents, at no cost; orchestration can be evaluated like
+  the agents.
+- Least privilege per agent: tools and permissions per call (the writer without internet, the historian without Bash), enforced by code.
+- Exact control: maximum concurrency, model per unit, retries that hand back the real list of problems.
+- Cost measured per unit (today it is estimated per phase), and fewer tokens (no orchestrator context that keeps growing).
+- Waiting out the plan's usage limit and resuming, instead of failing and leaving the item interrupted.
+- It runs without a Claude Code session, which the scheduled living studies (item 4) need.
+
+**What changes hands**
+
+| Today the LLM decides | In code |
+| --- | --- |
+| Which units to create (grouping axes by provider) | A rule over `plan.md` and `sources.csv` |
+| The prompt of each agent | Fixed prompt templates, covered by the evals |
+| The `progress.md` paragraph and summaries | Built from the state plus each agent's summary of at most 150 words |
+| Reacting to surprises | `pending.md` and the Queue, which already exist |
+
+**How**
+
+1. Move the pipeline knowledge out of `SKILL.md` into data (`pipeline.py`): phases, agents, models, tools, unit planning, prompt templates.
+   Useful on its own, and `SKILL.md` then describes the data instead of being the source.
+2. `orchestrator run <slug>` in Python, reusing the eval runner's `claude -p --agent <name>` mechanism (per-agent tools, cost read from the
+   result), with `unit-done` and `complete-phase` validating each output. The server calls it instead of `claude -p /study`.
+3. Concurrency limit, waiting for the usage limit, per-unit cost in `usage.csv`.
+4. `SKILL.md` reduced to a launcher for interactive use.
+
+The safety net is the evals: run one small study through both orchestrators and compare attempts, cost and outcome before switching.
+The Claude Agent SDK stays an option if richer hooks or sessions are ever needed; it is not required.
+
+**Risks.** Every agent call starts without a shared cache, as subagents already do. Logic may be duplicated during the transition, which
+is why the code must become the only source. The effort is not small: some hundreds of lines plus tests, two or three focused sessions.
+
 ## Other ideas, not scheduled
 
-- **Orchestrator in code** with the Claude Agent SDK, keeping agents and hooks (already in the README).
 - **dados.gov.pt as a source** is implemented; next is the first study that exercises its full cycle (extract,
   manifest, provenance chain).
 - **A reader glossary and "what we know" index** linking studies through the shared events catalogue.
