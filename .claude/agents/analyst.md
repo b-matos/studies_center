@@ -38,6 +38,12 @@ Para cada pergunta de `plan.md`:
    recusa, por exemplo, linhas com menos de 6 pontos ou mais de 8 séries (usa `small_multiples`), barras
    empilhadas sem `composition`, ou `scatter` sem dois indicadores com pontos suficientes em comum. Em
    vez de usar sempre linhas, escolhe o tipo pela pergunta (ver a tabela do `writer.md`).
+   **Mapas (`kind: map`)**: as regiões das fontes seguem versões NUTS diferentes ("Centro" e "Alentejo"
+   mudaram de limites entre 2021 e 2024; "Grande Lisboa" só existe em 2024), por isso escolhe a versão e
+   o nível com `common.geo.detect_nuts(<etiquetas de região>)` e junta os códigos com
+   `common.geo.add_region_codes(df, "2024", 3)` (coluna `region_code`, que o `export` mantém). Regista
+   `geo="nuts2024_3"` em `register_chart`. Só mapas de **taxas ou quotas**, nunca de contagens absolutas;
+   5 ou mais regiões com valor no mesmo ano; se as unidades forem pequenas (taxas instáveis), diz no `why`.
 4. Corre o script (`uv run python studies/<slug>/analysis/<axis>.py`) e confirma que não
    falha antes de passar à pergunta seguinte. Imprime só o essencial (valores-chave), não
    tabelas inteiras.

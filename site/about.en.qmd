@@ -24,6 +24,7 @@ The texts are written with the assistance of AI models (Claude, by Anthropic) an
 - Code: [MIT](https://github.com/b-matos/studies_center/blob/main/LICENSE).
 - Texts, reports and charts: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); attribute to "studies_center".
 - Data: keep their source licence. INE: CC BY 4.0. Eurostat: free reuse with attribution (Decision 2011/833/EU). The list of sources, with each licence, is in every study, and the `open_data_sources.csv` file accompanies the downloadable data.
+- Maps: administrative boundaries © EuroGeographics, Eurostat GISCO; the Azores and Madeira are moved to fit the map.
 
 ## Privacy
 

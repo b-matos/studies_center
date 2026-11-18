@@ -143,7 +143,7 @@ Key ideas:
 | Data and analysis | Python ≥ 3.12, pandas, pyarrow (Parquet), numpy, scipy, statsmodels, [ruptures](https://github.com/deepcharles/ruptures) (change points) |
 | Sources | `sdmx1` (Eurostat, OECD), INE JSON API, dados.gov.pt catalogue API, WHO OData API, SNS exports, httpx, pypdf, BeautifulSoup, rapidfuzz |
 | Validation | pydantic (schemas for every tracked CSV) |
-| Site | [Quarto](https://quarto.org) bilingual website, OJS + Plotly interactive charts (a catalogue of 10 chart kinds, see `docs/charts-gallery.html`) |
+| Site | [Quarto](https://quarto.org) bilingual website, OJS + Plotly interactive charts (a catalogue of 11 chart kinds including NUTS choropleth maps, see `docs/charts-gallery.html`) |
 | Local server | FastAPI, uvicorn, Server-Sent Events (sse-starlette) |
 | Project tooling | `uv` (dependencies and environment), pytest, ruff |
 | CI/CD | GitHub Actions + GitHub Pages |
@@ -241,6 +241,7 @@ Tracked CSV files (pydantic schemas in `common/schemas.py`):
 .claude/             agents, the /study skill, guard_writes.py hook, settings.json
 common/              deterministic pipeline (state, checks, probe, extract, breaks, verify, charts, usage)
 common/sources/      INE, Eurostat, OECD, WHO, SNS and dados.gov.pt clients
+common/geo.py        NUTS 2021/2024 boundaries (site/assets/geo/) and region label -> code mapping
 events/              shared event catalogue and event-source notes
 studies/<slug>/      one study (plan, sources, clean data, analysis, reports, claims)
 site/                Quarto project (pt/en), build.py, assets

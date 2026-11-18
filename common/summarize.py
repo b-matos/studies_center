@@ -44,12 +44,13 @@ SERIES_NAME = "series.csv"
 
 def load_chart(path: Path) -> pd.DataFrame:
     df = pd.DataFrame(json.loads(path.read_text(encoding="utf-8")))
-    for col in [*KEYS, "unit", "source_id"]:
+    for col in [*KEYS, "unit", "source_id", "region_code"]:
         if col not in df:
             df[col] = ""
     df = df.dropna(subset=["value"]).copy()
     df["date"] = pd.to_datetime(df["date"]).dt.strftime("%Y-%m-%d")
-    df[["region", "sex", "age", "indicator", "unit", "source_id"]] = df[["region", "sex", "age", "indicator", "unit", "source_id"]].fillna("").astype(str)
+    text_cols = ["region", "sex", "age", "indicator", "unit", "source_id", "region_code"]
+    df[text_cols] = df[text_cols].fillna("").astype(str)
     return df
 
 

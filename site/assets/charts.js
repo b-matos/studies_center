@@ -10,8 +10,9 @@
 // Catalogue (chart kind in charts.yml -> function): line -> timeSeries, ranking -> ranking,
 // grouped_bars -> groupedBars, stacked_bars -> stackedBars, stacked_area -> stackedArea,
 // slope -> slope, dumbbell -> dumbbell, small_multiples -> smallMultiples, scatter -> scatter,
-// heatmap -> heatmap, table -> dataTable. common/chartkinds.py decides which kinds fit a data shape.
+// heatmap -> heatmap, map -> choropleth, table -> dataTable. common/chartkinds.py decides which kinds fit a data shape.
 
+const MAP_ATTRIBUTION = "(c) EuroGeographics, Eurostat GISCO";
 const PALETTE = ["#0f766e", "#d97706", "#7c3aed", "#dc2626", "#2563eb", "#64748b", "#be185d"];
 // Events share one neutral colour so they never read as another data series; scope (PT/EU/World)
 // is stated in the tooltip and the evidence grade by marker shape (see the legend).
@@ -34,8 +35,8 @@ const GRADE_LABEL = {
   },
 };
 const TEXT = {
-  pt: { seeData: "Ver os dados", hintShort: "Arraste para fazer zoom · duplo clique repõe", all: "Tudo", year: "a", scope: "Âmbito", source: "Fonte", hint: "Arraste para fazer zoom · duplo clique repõe · clique na legenda para ocultar" },
-  en: { seeData: "See the data", hintShort: "Drag to zoom · double-click to reset", all: "All", year: "y", scope: "Scope", source: "Source", hint: "Drag to zoom · double-click to reset · click the legend to hide a series" },
+  pt: { islands: "Açores e Madeira deslocados para caberem no mapa", noData: "sem dados", seeData: "Ver os dados", hintShort: "Arraste para fazer zoom · duplo clique repõe", all: "Tudo", year: "a", scope: "Âmbito", source: "Fonte", hint: "Arraste para fazer zoom · duplo clique repõe · clique na legenda para ocultar" },
+  en: { islands: "Azores and Madeira moved to fit the map", noData: "no data", seeData: "See the data", hintShort: "Drag to zoom · double-click to reset", all: "All", year: "y", scope: "Scope", source: "Source", hint: "Drag to zoom · double-click to reset · click the legend to hide a series" },
 };
 
 function baseLayout(opts) {
@@ -506,6 +507,48 @@ export function heatmap(Plotly, data, opts = {}) {
   layout.xaxis = { type: "category", automargin: true, side: "bottom" };
   layout.yaxis = { automargin: true, autorange: "reversed" };
   return mount(Plotly, [trace], layout, baseConfig("heatmap"), t.hintShort, { data, lang, alt: opts.alt, title: opts.title, table: opts.table });
+}
+
+/**
+ * Choropleth of Portuguese NUTS regions: one colour per region for one date.
+ * Needs rows with `region_code` (see common.geo.add_region_codes) and opts.geojson, the boundaries of the NUTS
+ * version and level the codes belong to: `geojson = FileAttachment("pt_nuts2024_3.json").json()`.
+ * opts.date picks the date (default: the latest). Show rates or shares, never absolute counts: a big region
+ * would look "worse" only because it is big (common/chartkinds.py refuses counts).
+ */
+export function choropleth(Plotly, data, opts = {}) {
+  const { geojson, lang = "pt", height = 460 } = opts;
+  if (!geojson) throw new Error("choropleth needs opts.geojson (the pt_nuts*.json boundaries)");
+  const t = TEXT[lang];
+  const unit = unitOf(data, opts);
+  const dates = [...new Set(data.filter((d) => d.region_code).map((d) => d.date))].sort();
+  const date = opts.date || dates[dates.length - 1];
+  const rows = data.filter((d) => d.date === date && d.region_code);
+  const names = Object.fromEntries(geojson.features.map((f) => [f.properties.nuts_id, f.properties.name.replace(/ \(PT\)$/, "")]));
+  const ids = Object.keys(names);
+  const line = { color: "#ffffff", width: 0.8 };
+  const base = {
+    type: "choropleth", geojson, featureidkey: "properties.nuts_id", locations: ids, z: ids.map(() => 0),
+    colorscale: [[0, "#e7e5e4"], [1, "#e7e5e4"]], showscale: false, marker: { line }, hoverinfo: "skip", showlegend: false,
+  };
+  const main = {
+    type: "choropleth", geojson, featureidkey: "properties.nuts_id",
+    locations: rows.map((r) => r.region_code), z: rows.map((r) => r.value), text: rows.map((r) => names[r.region_code] || r.region),
+    colorscale: [[0, "#f0fdfa"], [1, "#0f766e"]], colorbar: { title: { text: unit }, thickness: 12, len: 0.8 }, marker: { line },
+    hovertemplate: `<b>%{text}</b><br>${yearOrDate(date)}: <b>%{z:.1f}</b> ${unit}<extra></extra>`,
+  };
+  const layout = baseLayout({ ...opts, yTitle: "" });
+  layout.height = height;
+  layout.margin = { l: 8, r: 8, t: opts.title ? 48 : 8, b: 8 };
+  layout.dragmode = "pan";
+  layout.geo = { fitbounds: "locations", visible: false, projection: { type: "mercator" }, bgcolor: "rgba(0,0,0,0)" };
+  delete layout.xaxis;
+  delete layout.yaxis;
+  const missing = ids.length - new Set(rows.map((r) => r.region_code)).size;
+  const notes = [t.hintShort, MAP_ATTRIBUTION];
+  if (geojson.features.some((f) => f.properties.shifted)) notes.push(t.islands);
+  if (missing > 0) notes.push(`${missing} ${t.noData} (cinza)`.replace("(cinza)", lang === "pt" ? "(cinzento)" : "(grey)"));
+  return mount(Plotly, [base, main], layout, baseConfig("map"), notes.join(" · "), { data, lang, alt: opts.alt, title: opts.title, table: opts.table });
 }
 
 /** Build a simple HTML <table> for an accessible "see the data" fallback below a chart. */

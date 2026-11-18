@@ -69,17 +69,26 @@ Escreves `studies/<slug>/report.pt.qmd`, `studies/<slug>/report.en.qmd` e
    | antes e depois, muitas regiões | `dumbbell` → `dumbbell` |
    | a relação entre dois indicadores | `scatter` → `scatter` (associação, nunca causa: di-lo no texto) |
    | padrão por região e ano | `heatmap` → `heatmap` |
+   | onde uma taxa é mais alta ou mais baixa no território (regiões NUTS) | `map` → `choropleth` |
 
    Em cada estudo, usa estas células `{ojs}` (uma definição por célula):
 
    ```
    Plotly = require("plotly.js-dist-min@2.35.2")
-   import {timeSeries, smallMultiples, ranking, groupedBars, slope, dumbbell, scatter, heatmap} from "../../assets/charts.js"
+   import {timeSeries, smallMultiples, ranking, groupedBars, slope, dumbbell, scatter, heatmap, choropleth} from "../../assets/charts.js"
    lang = "pt"            // "en" no report.en.qmd
    chart_data = FileAttachment("<data_file in charts.yml>").json()
    linked_events = FileAttachment("linked_events.json").json()   // gerado pelo build.py
    timeSeries(Plotly, chart_data, {groupBy: "region", yTitle: "Anos", events: linked_events, lang, alt: "<o que o gráfico mostra, numa frase>"})
    ```
+
+   Para `choropleth` carrega as fronteiras da versão NUTS indicada em `geo` no `charts.yml`
+   (`geo = FileAttachment("pt_nuts2024_3.json").json()`) e passa `{geojson: geo, date: "2023-01-01", ...}`;
+   o mapa mostra uma data por vez, a cinzento as regiões sem dados, e a atribuição das fronteiras e a nota
+   das ilhas deslocadas ficam sob o mapa. **Comparação regional razoável:** mesma data para todas as
+   regiões, taxas e nunca contagens, e uma frase sobre unidades pequenas (as taxas oscilam mais com pouca
+   população). Um mapa mostra onde, não porquê: nunca o uses para sugerir causa. As versões NUTS
+   importam: não compares um mapa NUTS 2021 com outro NUTS 2024 como se fossem as mesmas regiões.
 
    Opções comuns: `groupBy` (campo que define uma série; por omissão `region`), `labels` (nomes curtos
    para a legenda), `yTitle`/`xTitle` (com a unidade), `title`, `alt` (**texto alternativo obrigatório**:

@@ -225,6 +225,23 @@ def copy_study_pages(study: dict) -> None:
 
     export_open_clean_data(study, out_dir)
     export_linked_events(study, out_dir)
+    copy_map_boundaries(study_dir, out_dir)
+
+
+GEO_FILE = re.compile(r"pt_nuts\d{4}_[23]\.json")
+
+
+def copy_map_boundaries(study_dir: Path, out_dir: Path) -> None:
+    """Copy the NUTS boundary files a report reads (`FileAttachment("pt_nuts2024_3.json")`) next to its page."""
+    names: set[str] = set()
+    for lang in ("pt", "en"):
+        report = study_dir / f"report.{lang}.qmd"
+        if report.exists():
+            names |= set(GEO_FILE.findall(report.read_text(encoding="utf-8")))
+    for name in sorted(names):
+        source = SITE_DIR / "assets" / "geo" / name
+        if source.exists():
+            shutil.copy2(source, out_dir / name)
 
 
 def export_open_clean_data(study: dict, out_dir: Path) -> None:

@@ -1,0 +1,5 @@
+file,url,access_date,source_sha256,features,attribution
+pt_nuts2021_2.json,https://gisco-services.ec.europa.eu/distribution/v2/nuts/geojson/NUTS_RG_03M_2021_4326_LEVL_2.geojson,2026-11-18,690c055cdaf583c5c2326dc8c36f2db9f60c42a256a498f8391d2d83fa89b5fb,7,Limites administrativos: (c) EuroGeographics, Eurostat GISCO
+pt_nuts2021_3.json,https://gisco-services.ec.europa.eu/distribution/v2/nuts/geojson/NUTS_RG_03M_2021_4326_LEVL_3.geojson,2026-11-18,5a5a6cc672c3bc50b51a8d6b9605760dd26322f894624042872fdb9702a50ea4,25,Limites administrativos: (c) EuroGeographics, Eurostat GISCO
+pt_nuts2024_2.json,https://gisco-services.ec.europa.eu/distribution/v2/nuts/geojson/NUTS_RG_03M_2024_4326_LEVL_2.geojson,2026-11-18,e6e552a0cf6a966cde2241485e26c5f8641ce15c98169d10ca5a4a761468e3b9,9,Limites administrativos: (c) EuroGeographics, Eurostat GISCO
+pt_nuts2024_3.json,https://gisco-services.ec.europa.eu/distribution/v2/nuts/geojson/NUTS_RG_03M_2024_4326_LEVL_3.geojson,2026-11-18,9b22f087aca2cb16f02276615af755207784e79385deb4cea598e2f41e3f7262,26,Limites administrativos: (c) EuroGeographics, Eurostat GISCO

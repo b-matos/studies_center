@@ -84,6 +84,32 @@ charts.scatter(Plotly, two, { alt: "s" });
 assert.equal(last().traces[0].x.length, regions.length * 4, "only dates where both indicators exist");
 assert.equal(last().traces[0].marker.color[0], 2000, "coloured by year");
 
+// choropleth: needs boundaries and region codes, shows only the chosen date, greys the units without data
+const geojson = { type: "FeatureCollection", features: [
+  { properties: { nuts_id: "PT11", name: "Norte", shifted: false } },
+  { properties: { nuts_id: "PT19", name: "Centro (PT)", shifted: false } },
+  { properties: { nuts_id: "PT20", name: "Região Autónoma dos Açores", shifted: true } },
+] };
+const coded = [
+  { ...row("Norte", 2020, 10), region_code: "PT11" }, { ...row("Centro", 2020, 20), region_code: "PT19" },
+  { ...row("Norte", 2015, 99), region_code: "PT11" },
+];
+calls.length = 0;
+const mapWrapper = charts.choropleth(Plotly, coded, { geojson, alt: "map", lang: "en" });
+assert.equal(calls.length, 1);
+const [grey, shown] = last().traces;
+assert.deepEqual(grey.locations, ["PT11", "PT19", "PT20"], "every unit gets a grey base");
+assert.deepEqual(shown.locations, ["PT11", "PT19"], "latest date only, units with data only");
+assert.deepEqual(shown.z, [10, 20]);
+assert.deepEqual(shown.text, ["Norte", "Centro"], "names come from the boundaries, without the (PT) suffix");
+assert.equal(last().layout.geo.fitbounds, "locations");
+const hint = mapWrapper.children[1].textContent;
+assert.ok(hint.includes("EuroGeographics") && hint.includes("Azores") && hint.includes("1 no data"), hint);
+calls.length = 0;
+charts.choropleth(Plotly, coded, { geojson, date: "2015-01-01" });
+assert.deepEqual(last().traces[1].z, [99], "opts.date picks the date");
+assert.throws(() => charts.choropleth(Plotly, coded, {}), /geojson/);
+
 // timeSeries and ranking keep working with the shared shell
 calls.length = 0;
 charts.timeSeries(Plotly, data, { events: [] });

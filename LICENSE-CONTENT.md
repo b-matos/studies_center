@@ -9,3 +9,5 @@ Unless a file says otherwise:
 - **Data**: not relicensed. Each series keeps the licence of its source (INE: CC BY 4.0; Eurostat: free reuse
   with attribution, Decision 2011/833/EU), recorded per source in `studies/<slug>/sources.csv`. Cite the original
   provider. The data were reformatted and, where a chart says so, derived (rates, differences, trends).
+- **Map boundaries** (`site/assets/geo/`): Eurostat GISCO NUTS 1:3M, (c) EuroGeographics, free to use with that attribution;
+  simplified, with the Azores and Madeira moved next to the mainland. Source and hash per file in `site/assets/geo/SOURCES.csv`.

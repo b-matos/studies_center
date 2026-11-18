@@ -38,6 +38,10 @@ const bars = ["Portugal", "UE-27", "Espanha"].flatMap((r, j) => [2010, 2015, 202
 const pair = regions.flatMap((r, j) => years.flatMap((y, i) => [row(r, y, wave(i, j), { indicator: "u" }), row(r, y, 60 - wave(i, j) * 0.8 + j, { indicator: "v" })]));
 const one = regions.map((r, j) => row(r, 2023, 20 + j * 3));
 
+const geo2024 = await (await fetch("../site/assets/geo/pt_nuts2024_3.json")).json();
+const mapRows = geo2024.features.map((f, i) => ({ ...row(f.properties.name, 2023, 18 + ((i * 7) % 23)), region_code: f.properties.nuts_id }));
+mapRows.splice(3, 1); // one unit without data, drawn grey
+
 const demos = [
   ["line", "timeSeries", () => C.timeSeries(Plotly, few, { yTitle: "%", alt: "Two lines over time", lang: "en", events: [{ start_date: "2012-01-01", grade: "C", scope: "PT", title_en: "Example event", title_pt: "Evento", primary_source_url: "https://example.org" }] })],
   ["small_multiples", "smallMultiples", () => C.smallMultiples(Plotly, long, { alt: "One panel per region", lang: "en" })],
@@ -49,6 +53,7 @@ const demos = [
   ["dumbbell", "dumbbell", () => C.dumbbell(Plotly, long.filter((d) => ["2008-01-01", "2023-01-01"].includes(d.date)), { xTitle: "%", alt: "Two dates per region", lang: "en" })],
   ["scatter", "scatter", () => C.scatter(Plotly, pair, { xTitle: "Indicator u", yTitle: "Indicator v", alt: "Two indicators", lang: "en" })],
   ["heatmap", "heatmap", () => C.heatmap(Plotly, long, { alt: "Region by year", lang: "en" })],
+  ["map", "choropleth", () => C.choropleth(Plotly, mapRows, { geojson: geo2024, alt: "Rate by NUTS III region", lang: "en" })],
 ];
 const root = document.getElementById("root");
 for (const [kind, fn, build] of demos) {

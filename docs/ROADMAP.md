@@ -14,7 +14,7 @@ Nothing here is committed work: each item says what it reuses, what is new and w
 | 4 | Living studies (scheduled re-extraction) | Keeps published numbers true; almost no token cost | Small |
 | 5 | Citation and discovery (DOI, RSS, share cards) | Cheap credibility | Small |
 | 6 | Automatic counter-argument and limitations | Strengthens principle 3 | Medium |
-| 7 | Maps and regional breakdowns | Visual appeal; `common/geo.py` is the start | Medium |
+| 7 | Maps and regional breakdowns | **Mostly done** (NUTS II/III maps); municipalities pending | Medium |
 | 8 | `/impacto`: policy impact analysis | Differentiating, but short annual series limit it | Large |
 | 9 | Recent news as context | Helps readers; needs items 1 and 4 first | Medium |
 | 10 | Reader questions and "more detail" requests | Phased: no live model first | Small, then Large |
@@ -94,6 +94,11 @@ per-study revision log (version and date), and a public methodology page that ex
   significant after correction, series the analysis derived rather than took from a source.
 
 ## 7. Maps and regional breakdowns
+
+**Status: NUTS II and III implemented** for NUTS 2021 and 2024 (`common/geo.py`, boundaries in `site/assets/geo/`, the `map`
+chart kind, code rules for a meaningful comparison). **Pending:** municipality (concelho) boundaries and maps, which need
+the DGT's CAOP (large; its licence must be checked and the file simplified), and a population-aware rule for small units.
+The text below is the original plan.
 
 NUTS III and municipality levels, choropleths in the chart component, and a rule for when a regional comparison is
 meaningful (enough population per unit, comparable periods). Needs the full NUTS lists in `common/geo.py`.

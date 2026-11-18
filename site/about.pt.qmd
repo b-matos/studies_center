@@ -24,6 +24,7 @@ Os textos são escritos com assistência de modelos de IA (Claude, da Anthropic)
 - Código: [MIT](https://github.com/b-matos/studies_center/blob/main/LICENSE).
 - Textos, relatórios e gráficos: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); atribuir a "studies_center".
 - Dados: mantêm a licença da fonte. INE: CC BY 4.0. Eurostat: reutilização livre com indicação da fonte (Decisão 2011/833/UE). A lista de fontes, com a licença de cada uma, está em cada estudo, e o ficheiro `open_data_sources.csv` acompanha os dados para descarregar.
+- Mapas: limites administrativos © EuroGeographics, Eurostat GISCO; os Açores e a Madeira aparecem deslocados para caberem no mapa.
 
 ## Privacidade
 

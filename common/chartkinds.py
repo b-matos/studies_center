@@ -16,6 +16,8 @@ may switch to another kind in `allowed_kinds`, and `common.checks` rejects the r
     dumbbell        dumbbell        before and after for 3-30 categories (regions)
     scatter         scatter         two indicators against each other, >= 8 paired points
     heatmap         heatmap         region by year grid, >= 4 regions and >= 4 dates
+    map             choropleth      NUTS regions on a map: rows carry `region_code`, a rate (never a count),
+                                    >= 5 regions with data at the latest date, all comparable (same date)
     table           dataTable       always allowed
 
 The rules apply to the whole exported chart JSON (the analyst exports one JSON per chart idea). `charts.yml`
@@ -25,6 +27,7 @@ entries may also set `composition: true` when the series are parts of one whole 
 """
 from __future__ import annotations
 
+import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -43,6 +46,7 @@ KINDS: dict[str, str] = {
     "dumbbell": "dumbbell",
     "scatter": "scatter",
     "heatmap": "heatmap",
+    "map": "choropleth",
     "table": "dataTable",
 }
 JS_TO_KIND = {fn: kind for kind, fn in KINDS.items()}
@@ -56,6 +60,11 @@ MAX_BAR_SERIES = 6
 MAX_STACKED_PARTS = 8
 MIN_SCATTER_PAIRS = 8
 MIN_WHY_CHARS = 10
+MIN_MAP_REGIONS = 5
+MIN_MAP_COVERAGE = 0.8  # share of the coded regions that have a value at the latest date
+# Units that are plain counts: a choropleth of counts mostly shows which regions are big.
+ABSOLUTE_UNIT = re.compile(r"^(n|nr|num|number|n\.?\s*[ºo°]|nº|un|units?|unidades|persons?|pessoas|hab|habitantes|people|cases|casos)$", re.IGNORECASE)
+GEO_KEY = re.compile(r"^nuts(2021|2024)_([23])$")
 SERIES_KEYS = ["region", "sex", "age", "indicator", "unit"]
 
 
@@ -69,6 +78,9 @@ class Shape:
     series_at_latest: int
     min_value: float
     scatter_pairs: int
+    coded_regions: int = 0  # distinct `region_code`s (NUTS units) in the data
+    latest_coded: int = 0  # of those, how many have a value at the latest date
+    unit: str = ""  # the most common unit
 
 
 def shape_of(df: pd.DataFrame) -> Shape:
@@ -83,6 +95,8 @@ def shape_of(df: pd.DataFrame) -> Shape:
         a, b = (df[df["indicator"] == i].set_index(["region", "date"])["value"] for i in indicators)
         pairs = len(a.index.intersection(b.index))
     latest = df["date"].max() if len(df) else None
+    codes = df["region_code"].astype(str) if "region_code" in df else pd.Series([""] * len(df), dtype=str)
+    coded = df[codes != ""]
     return Shape(
         n_dates=int(df["date"].nunique()),
         n_series=int(groups.ngroups),
@@ -92,6 +106,9 @@ def shape_of(df: pd.DataFrame) -> Shape:
         series_at_latest=int(df[df["date"] == latest].groupby(SERIES_KEYS, dropna=False).ngroups) if latest else 0,
         min_value=float(df["value"].min()) if len(df) else 0.0,
         scatter_pairs=pairs,
+        coded_regions=int(coded["region_code"].nunique()) if len(coded) else 0,
+        latest_coded=int(coded[coded["date"] == latest]["region_code"].nunique()) if len(coded) else 0,
+        unit=str(df["unit"].mode().iloc[0]) if len(df) and "unit" in df and not df["unit"].mode().empty else "",
     )
 
 
@@ -121,6 +138,9 @@ def allowed_kinds(shape: Shape, *, composition: bool = False) -> list[str]:
         ok.append("scatter")
     if shape.n_dates >= 4 and shape.n_regions >= 4:
         ok.append("heatmap")
+    if (shape.coded_regions >= MIN_MAP_REGIONS and shape.latest_coded >= MIN_MAP_REGIONS
+            and shape.latest_coded / shape.coded_regions >= MIN_MAP_COVERAGE and not ABSOLUTE_UNIT.match(shape.unit.strip())):
+        ok.append("map")
     return [*ok, "table"]
 
 
@@ -136,9 +156,34 @@ def kind_problems(chart_id: str, entry: dict, df: pd.DataFrame) -> list[str]:
         problems.append(f"gráfico {chart_id}: falta `why` (uma frase a justificar a escolha de '{kind}')")
     allowed = allowed_kinds(shape_of(df), composition=bool(entry.get("composition")))
     if kind not in allowed:
-        hint = " (as partes somam um todo? declara `composition: true`)" if kind.startswith("stacked") else ""
+        hint = ""
+        if kind.startswith("stacked"):
+            hint = " (as partes somam um todo? declara `composition: true`)"
+        elif kind == "map":
+            hint = " (um mapa precisa de `region_code` (common.geo.add_region_codes), de uma taxa e não de uma contagem, e de 5 ou mais regiões com dados na mesma data)"
         problems.append(f"gráfico {chart_id}: kind '{kind}' não serve a estes dados; permitidos: {', '.join(allowed)}{hint}")
+    if kind == "map":
+        problems.extend(_map_problems(chart_id, entry, df))
     return problems
+
+
+def _map_problems(chart_id: str, entry: dict, df: pd.DataFrame) -> list[str]:
+    """A map names its boundaries (`geo: nuts2024_3`) and every region code must be a unit of them."""
+    from common import geo
+
+    match = GEO_KEY.match(str(entry.get("geo") or ""))
+    if not match:
+        return [f"gráfico {chart_id}: um mapa precisa de `geo` em charts.yml (por exemplo nuts2024_3: NUTS 2024, nível III)"]
+    version, level = match.group(1), int(match.group(2))
+    try:
+        known = set(geo.units(version, level))
+    except ValueError as exc:
+        return [f"gráfico {chart_id}: {exc}"]
+    codes = set(df["region_code"].astype(str)) - {""} if "region_code" in df else set()
+    unknown = sorted(codes - known)
+    if unknown:
+        return [f"gráfico {chart_id}: region_code {unknown[:4]} não são unidades de NUTS {version} nível {level}"]
+    return []
 
 
 def main(argv: list[str] | None = None) -> int:

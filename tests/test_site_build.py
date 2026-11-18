@@ -278,3 +278,17 @@ def test_build_lock_makes_a_second_build_wait(build_mod) -> None:
         assert not entered.wait(0.4)  # blocked while the first build holds the lock
     assert entered.wait(3)
     thread.join(3)
+
+
+def test_map_boundaries_a_report_reads_are_copied_next_to_the_page(build_mod) -> None:
+    mod, site_dir, studies_dir = build_mod
+    study_dir = _make_study(studies_dir, "demo-1")
+    (site_dir / "assets" / "geo").mkdir(parents=True)
+    for name in ("pt_nuts2024_3.json", "pt_nuts2021_2.json"):
+        (site_dir / "assets" / "geo" / name).write_text("{}", encoding="utf-8")
+    (study_dir / "report.pt.qmd").write_text('geo = FileAttachment("pt_nuts2024_3.json").json()', encoding="utf-8")
+    out = site_dir / "studies" / "demo-1"
+    out.mkdir(parents=True)
+
+    mod.copy_map_boundaries(study_dir, out)
+    assert sorted(f.name for f in out.iterdir()) == ["pt_nuts2024_3.json"]  # only what the report reads
