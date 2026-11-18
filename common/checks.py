@@ -295,6 +295,30 @@ _CROSS_REFERENCE_PATTERN = re.compile(
 )
 
 
+# Digits that are not facts about the world: identifiers (s1, PT11, ilm02), licence versions (CC BY 4.0), the
+# denominator of a unit ("por 100 000 hab."), disease names (COVID-19), URLs, code spans, list numbering.
+_NON_FACT_PATTERNS = [
+    re.compile(r"https?://\S+|<[^>\s]+>|\]\([^)]*\)"),
+    re.compile(r"`[^`]*`"),
+    re.compile(r"\bCC[ -]BY(?:[ -][A-Z]{2})?[ -]\d(?:\.\d)?\b"),
+    re.compile(r"\b(?:por|per)\s+\d{1,3}(?:[ \u00a0.,]\d{3})*\s*(?:hab\w*|habitantes|inhabitants|population|people|nados|births)?", re.IGNORECASE),
+    re.compile(r"\bCOVID-19\b|\bSARS-CoV-2\b", re.IGNORECASE),
+    re.compile(r"\b[A-Za-z_][A-Za-z_]*\d[A-Za-z_\d]*\b|\b\d+[A-Za-z_]+\d*\b"),  # identifiers: letters mixed with digits
+    re.compile(r"^\s*\d+[.)]\s+"),  # "1. " list numbering
+]
+_BOLD_YEAR = re.compile(r"\*\*[^*]*\*\*")
+_YEAR = re.compile(r"\b(19|20)\d{2}\b")
+
+
+def _drop_non_fact_digits(line: str) -> str:
+    """The line without digits that are labels, ids or units. Years inside a bold lead-in label ("**Pico em 2020.**")
+    are labels for the claims that follow, not claims."""
+    line = _BOLD_YEAR.sub(lambda m: _YEAR.sub(" ", m.group(0)), line)
+    for pattern in _NON_FACT_PATTERNS:
+        line = pattern.sub(" ", line)
+    return line
+
+
 def _numbers_outside_claims(text: str) -> list[str]:
     # Remove claim spans (and their inner text) before looking for stray numbers.
     spans = []
@@ -323,7 +347,7 @@ def _numbers_outside_claims(text: str) -> list[str]:
 
     found = []
     for line in lines:
-        found.extend(NUMBER_PATTERN.findall(line))
+        found.extend(NUMBER_PATTERN.findall(_drop_non_fact_digits(line)))
     return found
 
 

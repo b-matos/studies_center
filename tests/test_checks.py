@@ -281,3 +281,25 @@ def test_phase_4_rejects_chart_json_without_source_id(study_dir: Path) -> None:
     ok, problems = checks.check_phase_4("test")
     assert not ok
     assert "source_id" in problems[0]
+
+
+@pytest.mark.parametrize("line", [
+    "Dados do INE (fontes s1 e s2, licença CC BY 4.0).",
+    "- s1: INE, internamentos evitáveis (por 100 000 hab.), <https://stats.example.org/programa-2011>",
+    "- s1: INE, avoidable hospitalisations (per 100,000 inhabitants).",
+    "Ver [a lei](https://gov.example.org/lei-2012) e o código `Pelt(l2)`.",
+    "1. Como evoluiu a taxa de internamentos?",
+    "A pandemia de COVID-19 e os dados da região PT11 e da fonte ilm02.",
+    "- **Internamentos, pico em 2020.** [A taxa caiu]{.claim id=\"c001\"} (grau C).",
+])
+def test_digits_that_are_not_facts_are_not_flagged(line: str) -> None:
+    assert checks._numbers_outside_claims(line) == []
+
+
+@pytest.mark.parametrize("line", [
+    "A taxa foi de 520,5 por 100 000 habitantes em 2012.",
+    "Caiu 12 % entre 2010 e 2015.",
+    "A lei entrou em vigor em 2012 e a despesa subiu 4.0 pontos.",
+])
+def test_real_figures_outside_a_claim_are_still_flagged(line: str) -> None:
+    assert checks._numbers_outside_claims(line), line

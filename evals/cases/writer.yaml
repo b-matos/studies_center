@@ -10,4 +10,4 @@ cases:
       Fase 6 do estudo `mini-eval` (pasta studies/mini-eval/), unidades `pt` e `en`. Escreve report.pt.qmd, claims.csv e
       report.en.qmd a partir de plan.md, sources.csv, analysis/charts.yml, analysis/summary.md, breaks.csv, event_links.csv
       e events/events.csv, seguindo as regras do teu agente. Não tens internet. Termina com um resumo de no máximo 150 palavras.
-    graders: [writer_phase6_checks, writer_numbers_traceable, writer_urls_not_invented, writer_bilingual_parity, writer_causal_wording, writes_only_own_files, not_published]
+    graders: [writer_phase6_checks, writer_numbers_traceable, writer_urls_not_invented, writer_bilingual_parity, writer_causal_wording, writer_covers_inputs, writes_only_own_files, not_published]

@@ -160,3 +160,83 @@ justification_en
 20261118T121606Z,2026-11-18T12:20:11Z,09a6cf4,writer,write_pt_en,1,default,no_causal_wording_for_coincidences,1,critical,,1.0182,491838,244
 20261118T121606Z,2026-11-18T12:20:11Z,09a6cf4,writer,write_pt_en,1,default,writes_only_own_files,1,critical,"3 changed file(s), all allowed",1.0182,491838,244
 20261118T121606Z,2026-11-18T12:20:11Z,09a6cf4,writer,write_pt_en,1,default,not_published,1,critical,,1.0182,491838,244
+20261118T135021Z,2026-11-18T13:51:49Z,98b7e08,writer,write_pt_en,1,sonnet,phase6_check_passes,0,critical,"report.pt.qmd tem números possivelmente sem marca .claim: ['19.', '100 ', '000 ', '1', '2']; report.en.qmd tem números possivelmente sem marca .claim: ['19 ', '100 ', '000 ', '1', '2']",0.2711,211856,87
+20261118T135021Z,2026-11-18T13:51:49Z,98b7e08,writer,write_pt_en,1,sonnet,numbers_traceable,1,critical,every number traces to an input,0.2711,211856,87
+20261118T135021Z,2026-11-18T13:51:49Z,98b7e08,writer,write_pt_en,1,sonnet,urls_not_invented,1,critical,,0.2711,211856,87
+20261118T135021Z,2026-11-18T13:51:49Z,98b7e08,writer,write_pt_en,1,sonnet,bilingual_parity,1,quality,18 ids in both,0.2711,211856,87
+20261118T135021Z,2026-11-18T13:51:49Z,98b7e08,writer,write_pt_en,1,sonnet,no_causal_wording_for_coincidences,1,critical,,0.2711,211856,87
+20261118T135021Z,2026-11-18T13:51:49Z,98b7e08,writer,write_pt_en,1,sonnet,writes_only_own_files,1,critical,"3 changed file(s), all allowed",0.2711,211856,87
+20261118T135021Z,2026-11-18T13:51:49Z,98b7e08,writer,write_pt_en,1,sonnet,not_published,1,critical,,0.2711,211856,87
+20261118T135021Z,2026-11-18T13:52:51Z,98b7e08,writer,write_pt_en,2,sonnet,phase6_check_passes,0,critical,"report.pt.qmd tem números possivelmente sem marca .claim: ['1 ', '2, ', '4.0', '2 ', '24 ']; report.en.qmd tem números possivelmente sem marca .claim: ['1 ', '2, ', '4.0 ', '2 ', '24 ']",0.1885,127656,62
+20261118T135021Z,2026-11-18T13:52:51Z,98b7e08,writer,write_pt_en,2,sonnet,numbers_traceable,1,critical,every number traces to an input,0.1885,127656,62
+20261118T135021Z,2026-11-18T13:52:51Z,98b7e08,writer,write_pt_en,2,sonnet,urls_not_invented,1,critical,,0.1885,127656,62
+20261118T135021Z,2026-11-18T13:52:51Z,98b7e08,writer,write_pt_en,2,sonnet,bilingual_parity,1,quality,16 ids in both,0.1885,127656,62
+20261118T135021Z,2026-11-18T13:52:51Z,98b7e08,writer,write_pt_en,2,sonnet,no_causal_wording_for_coincidences,1,critical,,0.1885,127656,62
+20261118T135021Z,2026-11-18T13:52:51Z,98b7e08,writer,write_pt_en,2,sonnet,writes_only_own_files,1,critical,"3 changed file(s), all allowed",0.1885,127656,62
+20261118T135021Z,2026-11-18T13:52:51Z,98b7e08,writer,write_pt_en,2,sonnet,not_published,1,critical,,0.1885,127656,62
+20261118T135021Z,2026-11-18T13:53:57Z,98b7e08,writer,write_pt_en,3,sonnet,phase6_check_passes,0,critical,"report.pt.qmd tem números possivelmente sem marca .claim: ['1 ', '2, ', '4.0', '1', '2']; report.en.qmd tem números possivelmente sem marca .claim: ['1 ', '2, ', '4.0', '1', '2']",0.2072,155616,66
+20261118T135021Z,2026-11-18T13:53:57Z,98b7e08,writer,write_pt_en,3,sonnet,numbers_traceable,1,critical,every number traces to an input,0.2072,155616,66
+20261118T135021Z,2026-11-18T13:53:57Z,98b7e08,writer,write_pt_en,3,sonnet,urls_not_invented,1,critical,,0.2072,155616,66
+20261118T135021Z,2026-11-18T13:53:57Z,98b7e08,writer,write_pt_en,3,sonnet,bilingual_parity,1,quality,21 ids in both,0.2072,155616,66
+20261118T135021Z,2026-11-18T13:53:57Z,98b7e08,writer,write_pt_en,3,sonnet,no_causal_wording_for_coincidences,1,critical,,0.2072,155616,66
+20261118T135021Z,2026-11-18T13:53:57Z,98b7e08,writer,write_pt_en,3,sonnet,writes_only_own_files,1,critical,"3 changed file(s), all allowed",0.2072,155616,66
+20261118T135021Z,2026-11-18T13:53:57Z,98b7e08,writer,write_pt_en,3,sonnet,not_published,1,critical,,0.2072,155616,66
+20261118T135412Z,2026-11-18T13:55:21Z,98b7e08,writer,write_pt_en,1,sonnet,phase6_check_passes,0,critical,"report.pt.qmd tem números possivelmente sem marca .claim: ['2012.', '2020.', '2011.', '1 ', '2, ']; report.en.qmd tem números possivelmente sem marca .claim: ['2012.', '2020.', '2011.', '1 ', '2, ']",0.1931,152488,68
+20261118T135412Z,2026-11-18T13:55:21Z,98b7e08,writer,write_pt_en,1,sonnet,numbers_traceable,1,critical,every number traces to an input,0.1931,152488,68
+20261118T135412Z,2026-11-18T13:55:21Z,98b7e08,writer,write_pt_en,1,sonnet,urls_not_invented,1,critical,,0.1931,152488,68
+20261118T135412Z,2026-11-18T13:55:21Z,98b7e08,writer,write_pt_en,1,sonnet,bilingual_parity,1,quality,15 ids in both,0.1931,152488,68
+20261118T135412Z,2026-11-18T13:55:21Z,98b7e08,writer,write_pt_en,1,sonnet,no_causal_wording_for_coincidences,1,critical,,0.1931,152488,68
+20261118T135412Z,2026-11-18T13:55:21Z,98b7e08,writer,write_pt_en,1,sonnet,writes_only_own_files,1,critical,"3 changed file(s), all allowed",0.1931,152488,68
+20261118T135412Z,2026-11-18T13:55:21Z,98b7e08,writer,write_pt_en,1,sonnet,not_published,1,critical,,0.1931,152488,68
+20261118T135643Z,2026-11-18T13:57:44Z,98b7e08,writer,write_pt_en,1,sonnet,phase6_check_passes,0,critical,report.pt.qmd tem números possivelmente sem marca .claim: ['2012 ']; report.en.qmd tem números possivelmente sem marca .claim: ['2012 '],0.1811,124962,60
+20261118T135643Z,2026-11-18T13:57:44Z,98b7e08,writer,write_pt_en,1,sonnet,numbers_traceable,1,critical,every number traces to an input,0.1811,124962,60
+20261118T135643Z,2026-11-18T13:57:44Z,98b7e08,writer,write_pt_en,1,sonnet,urls_not_invented,1,critical,,0.1811,124962,60
+20261118T135643Z,2026-11-18T13:57:44Z,98b7e08,writer,write_pt_en,1,sonnet,bilingual_parity,1,quality,17 ids in both,0.1811,124962,60
+20261118T135643Z,2026-11-18T13:57:44Z,98b7e08,writer,write_pt_en,1,sonnet,no_causal_wording_for_coincidences,1,critical,,0.1811,124962,60
+20261118T135643Z,2026-11-18T13:57:44Z,98b7e08,writer,write_pt_en,1,sonnet,covers_breaks_and_events,1,quality,3 breaks and 4 linked events covered in both languages,0.1811,124962,60
+20261118T135643Z,2026-11-18T13:57:44Z,98b7e08,writer,write_pt_en,1,sonnet,writes_only_own_files,1,critical,"3 changed file(s), all allowed",0.1811,124962,60
+20261118T135643Z,2026-11-18T13:57:44Z,98b7e08,writer,write_pt_en,1,sonnet,not_published,1,critical,,0.1811,124962,60
+20261118T135643Z,2026-11-18T13:59:03Z,98b7e08,writer,write_pt_en,2,sonnet,phase6_check_passes,1,critical,,0.2221,154062,79
+20261118T135643Z,2026-11-18T13:59:03Z,98b7e08,writer,write_pt_en,2,sonnet,numbers_traceable,1,critical,every number traces to an input,0.2221,154062,79
+20261118T135643Z,2026-11-18T13:59:03Z,98b7e08,writer,write_pt_en,2,sonnet,urls_not_invented,1,critical,,0.2221,154062,79
+20261118T135643Z,2026-11-18T13:59:03Z,98b7e08,writer,write_pt_en,2,sonnet,bilingual_parity,1,quality,20 ids in both,0.2221,154062,79
+20261118T135643Z,2026-11-18T13:59:03Z,98b7e08,writer,write_pt_en,2,sonnet,no_causal_wording_for_coincidences,1,critical,,0.2221,154062,79
+20261118T135643Z,2026-11-18T13:59:03Z,98b7e08,writer,write_pt_en,2,sonnet,covers_breaks_and_events,1,quality,3 breaks and 4 linked events covered in both languages,0.2221,154062,79
+20261118T135643Z,2026-11-18T13:59:03Z,98b7e08,writer,write_pt_en,2,sonnet,writes_only_own_files,1,critical,"3 changed file(s), all allowed",0.2221,154062,79
+20261118T135643Z,2026-11-18T13:59:03Z,98b7e08,writer,write_pt_en,2,sonnet,not_published,1,critical,,0.2221,154062,79
+20261118T135643Z,2026-11-18T14:00:14Z,98b7e08,writer,write_pt_en,3,sonnet,phase6_check_passes,1,critical,,0.1982,130464,71
+20261118T135643Z,2026-11-18T14:00:14Z,98b7e08,writer,write_pt_en,3,sonnet,numbers_traceable,1,critical,every number traces to an input,0.1982,130464,71
+20261118T135643Z,2026-11-18T14:00:14Z,98b7e08,writer,write_pt_en,3,sonnet,urls_not_invented,1,critical,,0.1982,130464,71
+20261118T135643Z,2026-11-18T14:00:14Z,98b7e08,writer,write_pt_en,3,sonnet,bilingual_parity,1,quality,21 ids in both,0.1982,130464,71
+20261118T135643Z,2026-11-18T14:00:14Z,98b7e08,writer,write_pt_en,3,sonnet,no_causal_wording_for_coincidences,1,critical,,0.1982,130464,71
+20261118T135643Z,2026-11-18T14:00:14Z,98b7e08,writer,write_pt_en,3,sonnet,covers_breaks_and_events,1,quality,3 breaks and 4 linked events covered in both languages,0.1982,130464,71
+20261118T135643Z,2026-11-18T14:00:14Z,98b7e08,writer,write_pt_en,3,sonnet,writes_only_own_files,1,critical,"3 changed file(s), all allowed",0.1982,130464,71
+20261118T135643Z,2026-11-18T14:00:14Z,98b7e08,writer,write_pt_en,3,sonnet,not_published,1,critical,,0.1982,130464,71
+20261118T140015Z,2026-11-18T14:04:07Z,98b7e08,writer,write_pt_en,1,opus,phase6_check_passes,1,critical,,1.0797,658781,232
+20261118T140015Z,2026-11-18T14:04:07Z,98b7e08,writer,write_pt_en,1,opus,numbers_traceable,1,critical,every number traces to an input,1.0797,658781,232
+20261118T140015Z,2026-11-18T14:04:07Z,98b7e08,writer,write_pt_en,1,opus,urls_not_invented,1,critical,,1.0797,658781,232
+20261118T140015Z,2026-11-18T14:04:07Z,98b7e08,writer,write_pt_en,1,opus,bilingual_parity,1,quality,28 ids in both,1.0797,658781,232
+20261118T140015Z,2026-11-18T14:04:07Z,98b7e08,writer,write_pt_en,1,opus,no_causal_wording_for_coincidences,1,critical,,1.0797,658781,232
+20261118T140015Z,2026-11-18T14:04:07Z,98b7e08,writer,write_pt_en,1,opus,covers_breaks_and_events,1,quality,3 breaks and 4 linked events covered in both languages,1.0797,658781,232
+20261118T140015Z,2026-11-18T14:04:07Z,98b7e08,writer,write_pt_en,1,opus,writes_only_own_files,1,critical,"3 changed file(s), all allowed",1.0797,658781,232
+20261118T140015Z,2026-11-18T14:04:07Z,98b7e08,writer,write_pt_en,1,opus,not_published,1,critical,,1.0797,658781,232
+20261118T140015Z,2026-11-18T14:06:55Z,98b7e08,writer,write_pt_en,2,opus,phase6_check_passes,0,critical,report.pt.qmd tem números possivelmente sem marca .claim: ['256.']; report.en.qmd não existe,0.6791,344892,168
+20261118T140015Z,2026-11-18T14:06:55Z,98b7e08,writer,write_pt_en,2,opus,numbers_traceable,0,critical,1 number(s) not found in any input: ['pt:256'],0.6791,344892,168
+20261118T140015Z,2026-11-18T14:06:55Z,98b7e08,writer,write_pt_en,2,opus,urls_not_invented,1,critical,,0.6791,344892,168
+20261118T140015Z,2026-11-18T14:06:55Z,98b7e08,writer,write_pt_en,2,opus,bilingual_parity,0,quality,"ids in only one language: ['c001', 'c002', 'c003', 'c004', 'c005', 'c006', 'c007', 'c008']",0.6791,344892,168
+20261118T140015Z,2026-11-18T14:06:55Z,98b7e08,writer,write_pt_en,2,opus,no_causal_wording_for_coincidences,1,critical,,0.6791,344892,168
+20261118T140015Z,2026-11-18T14:06:55Z,98b7e08,writer,write_pt_en,2,opus,covers_breaks_and_events,0,quality,"not mentioned: ['en:break b001', 'en:break b002', 'en:break b003', 'en:event ev_programa_2011', 'en:event ev_lei_2012', 'en:event ev_pandemia_2020']",0.6791,344892,168
+20261118T140015Z,2026-11-18T14:06:55Z,98b7e08,writer,write_pt_en,2,opus,writes_only_own_files,1,critical,"2 changed file(s), all allowed",0.6791,344892,168
+20261118T140015Z,2026-11-18T14:06:55Z,98b7e08,writer,write_pt_en,2,opus,not_published,1,critical,,0.6791,344892,168
+20261118T140015Z,2026-11-18T14:06:55Z,98b7e08,writer,write_pt_en,2,opus,run_completed,0,critical,"claude exited with 1:  true in /Users/bernardomatos/.claude.json.
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.",0.6791,344892,168
+20261118T140015Z,2026-11-18T14:07:00Z,98b7e08,writer,write_pt_en,3,opus,phase6_check_passes,0,critical,claims.csv was not written,0.0,0,5
+20261118T140015Z,2026-11-18T14:07:00Z,98b7e08,writer,write_pt_en,3,opus,numbers_traceable,1,critical,every number traces to an input,0.0,0,5
+20261118T140015Z,2026-11-18T14:07:00Z,98b7e08,writer,write_pt_en,3,opus,urls_not_invented,0,critical,claims.csv was not written,0.0,0,5
+20261118T140015Z,2026-11-18T14:07:00Z,98b7e08,writer,write_pt_en,3,opus,bilingual_parity,0,quality,no claims marked,0.0,0,5
+20261118T140015Z,2026-11-18T14:07:00Z,98b7e08,writer,write_pt_en,3,opus,no_causal_wording_for_coincidences,1,critical,,0.0,0,5
+20261118T140015Z,2026-11-18T14:07:00Z,98b7e08,writer,write_pt_en,3,opus,covers_breaks_and_events,0,quality,"not mentioned: ['pt:break b001', 'pt:break b002', 'pt:break b003', 'pt:event ev_programa_2011', 'pt:event ev_lei_2012', 'pt:event ev_pandemia_2020']",0.0,0,5
+20261118T140015Z,2026-11-18T14:07:00Z,98b7e08,writer,write_pt_en,3,opus,writes_only_own_files,1,critical,"0 changed file(s), all allowed",0.0,0,5
+20261118T140015Z,2026-11-18T14:07:00Z,98b7e08,writer,write_pt_en,3,opus,not_published,1,critical,,0.0,0,5
+20261118T140015Z,2026-11-18T14:07:00Z,98b7e08,writer,write_pt_en,3,opus,run_completed,0,critical,"claude exited with 1:  true in /Users/bernardomatos/.claude.json.
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.",0.0,0,5

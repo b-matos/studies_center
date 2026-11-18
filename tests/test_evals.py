@@ -147,6 +147,22 @@ def test_bilingual_parity_and_causal_wording(writer_box: Path) -> None:
     assert not graders.grade(["writer_causal_wording"], ctx(writer_box, "writer"))[0].passed
 
 
+def test_coverage_tells_a_thorough_report_from_a_thin_one(writer_box: Path) -> None:
+    study = writer_box / "studies" / fixtures.SLUG
+    thin = "# R\n\nUm relatório curto sem detalhe.\n"
+    thorough_pt = ("Quebras em 2012, 2020 e 2011. Programa de redução de internamentos evitáveis; Reforma da rede hospitalar; "
+                   "Pandemia de COVID-19; Memorando de entendimento.")
+    thorough_en = ("Breaks in 2012, 2020 and 2011. Avoidable hospitalisations programme; Hospital network reform; "
+                   "COVID-19 pandemic; Memorandum of understanding.")
+    (study / "report.pt.qmd").write_text(thin, encoding="utf-8")
+    (study / "report.en.qmd").write_text(thin, encoding="utf-8")
+    res = graders.grade(["writer_covers_inputs"], ctx(writer_box, "writer"))[0]
+    assert not res.passed and res.severity == "quality" and "break b001" in res.detail
+    (study / "report.pt.qmd").write_text(thorough_pt, encoding="utf-8")
+    (study / "report.en.qmd").write_text(thorough_en, encoding="utf-8")
+    assert graders.grade(["writer_covers_inputs"], ctx(writer_box, "writer"))[0].passed
+
+
 def test_a_grader_crash_is_a_failed_grade_not_a_crashed_eval(box: Path) -> None:
     res = graders.grade(["writer_phase6_checks", "historian_links_valid"], ctx(box, "writer"))
     assert all(isinstance(r, graders.Result) for r in res) and not res[0].passed
@@ -221,3 +237,12 @@ def test_report_flags_a_regression_between_batches(tmp_path: Path) -> None:
     assert "20260102T000000Z vs 20260101T000000Z" in lines[0] and "dry" not in lines[0]
     assert any("REGRESSION (was 100%)" in line for line in lines)
     assert "$2.00 (was $1.00)" in lines[1]
+
+
+def test_report_leaves_crashed_runs_out_of_the_pass_rates(tmp_path: Path) -> None:
+    def row(run_: str, grader: str, passed: int) -> dict:
+        return {"batch": "20260102T000000Z", "timestamp": "t", "git_sha": "x", "agent": "writer", "case": "c", "run": run_, "model": "opus", "grader": grader,
+                "passed": str(passed), "severity": "critical", "detail": "", "cost_usd": "0", "tokens": "0", "duration_s": "1"}
+
+    rows = [row("1", "numbers_traceable", 1), row("2", "numbers_traceable", 0), row("2", "run_completed", 0), row("3", "numbers_traceable", 1)]
+    assert report.pass_rates(rows, "writer", "20260102T000000Z")[("c", "numbers_traceable")][:2] == (1.0, 2)  # run 2 crashed: not counted

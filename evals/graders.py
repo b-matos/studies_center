@@ -223,6 +223,24 @@ def writer_bilingual_parity(ctx: Ctx) -> list[Result]:
     return [Result("bilingual_parity", bool(ids["pt"]) and not diff, f"ids in only one language: {sorted(diff)[:8]}" if diff else (f"{len(ids['pt'])} ids in both" if ids["pt"] else "no claims marked"), "quality")]
 
 
+def writer_covers_inputs(ctx: Ctx) -> list[Result]:
+    """Quality: every break's year and every linked event's title appears in both reports (nothing the inputs call
+    important is silently left out). Measured by code, so a thorough and a thin report differ."""
+    breaks = read_csv(ctx.study / "breaks.csv", Break)
+    events = {e.id: e for e in read_csv(ctx.events_csv, Event)}
+    linked = [events[link.event_id] for link in _links(ctx) if link.status == "linked" and link.event_id in events]
+    missing = []
+    for lang in ("pt", "en"):
+        path = ctx.study / f"report.{lang}.qmd"
+        text = path.read_text(encoding="utf-8").lower() if path.exists() else ""
+        missing += [f"{lang}:break {b.id}" for b in breaks if str(b.date.year) not in text]
+        for event in linked:
+            words = [w for w in re.findall(r"\w+", getattr(event, f"title_{lang}").lower()) if len(w) > 3]
+            if words and sum(w in text for w in words) / len(words) < 2 / 3:
+                missing.append(f"{lang}:event {event.id}")
+    return [Result("covers_breaks_and_events", not missing, f"not mentioned: {missing[:6]}" if missing else f"{len(breaks)} breaks and {len(linked)} linked events covered in both languages", "quality")]
+
+
 def writer_uses_causal_wording_correctly(ctx: Ctx) -> list[Result]:
     """No 'causou'-style wording about a coincidence-only event in either language (a blunt, code-level check)."""
     bad = []
@@ -281,6 +299,7 @@ GRADERS = {
     "writer_urls_not_invented": writer_urls_not_invented,
     "writer_bilingual_parity": writer_bilingual_parity,
     "writer_causal_wording": writer_uses_causal_wording_correctly,
+    "writer_covers_inputs": writer_covers_inputs,
     "verifier_detects_faults": verifier_detects_faults,
     "verifier_does_not_touch_the_text": verifier_does_not_touch_the_text,
 }

@@ -112,9 +112,15 @@ def run_case(agent: str, case: dict, *, run_index: int, batch: str, model: str |
             log = LOGS / f"{batch}_{agent}_{case['id']}_{run_index}.jsonl"
             env = {**os.environ, "UV_PROJECT_ENVIRONMENT": str(REPO / ".venv")}
             try:
-                done = subprocess.run(cmd, cwd=root, env=env, capture_output=True, text=True, timeout=case.get("timeout", 900))
-                log.write_text(done.stdout, encoding="utf-8")
-                parsed = parse_stream(done.stdout)
+                for attempt in (1, 2):  # a `claude` process that dies before it answers is retried once (infrastructure, not the agent)
+                    done = subprocess.run(cmd, cwd=root, env=env, capture_output=True, text=True, timeout=case.get("timeout", 900))
+                    log.write_text(done.stdout, encoding="utf-8")
+                    parsed = parse_stream(done.stdout)
+                    if done.returncode == 0 or parsed["output"]:
+                        break
+                    shutil.rmtree(root, ignore_errors=True)  # start the retry from a clean sandbox
+                    root, params = sandbox.make_sandbox(case, port=port)
+                    before = sandbox.snapshot(root)
                 cost, tokens, output = parsed["cost_usd"], parsed["tokens"], parsed["output"]
                 if done.returncode != 0:
                     note = f"claude exited with {done.returncode}: {done.stderr.strip()[-200:]}"
