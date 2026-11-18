@@ -39,8 +39,12 @@ separadas. Se uma chamada for recusada, para e diz porquê; não contornes.
 - Num reenvio por falha, dá ao subagente só a lista de problemas impressa por
   `common.state complete-phase`, não o contexto antigo.
 - Modelos (definidos em `.claude/agents/*.md`): `planner` e `writer` em Opus (planeamento e
-  redação); os restantes em Sonnet. Recomenda ao utilizador correr esta sessão em Sonnet
-  (`/model sonnet`): o orquestrador não precisa de mais.
+  redação); os restantes em Sonnet. **Exceção: a unidade `en` da fase 6 (tradução) lança o `writer`
+  com `model: "sonnet"`** (parâmetro `model` da chamada ao agente); a unidade `pt` mantém o Opus.
+  Nos evals (`evals/`, caso `write_en_only`) o Sonnet igualou o Opus em 3 de 3 execuções e custou
+  menos; as portas em código (`complete-phase 6`: ids, números sem marca, paridade PT/EN) apanham
+  qualquer desvio. Recomenda ao utilizador correr esta sessão em Sonnet (`/model sonnet`): o
+  orquestrador não precisa de mais.
 
 ## 0. Preparação e retoma
 
@@ -71,7 +75,7 @@ subagente, e `unit-done` (que **recusa** se a saída não existir ou for inváli
 | 3. Extração | `extractor` | um `source_id` testado | escreve `data/extract/<id>.json` (ou `.py`) e corre `common.extract`; `unit-done` valida parquet + manifesto |
 | 4. Análise | `analyst` | — | usa `common.breaks` para candidatos; regista só o que vale a pena |
 | 5. Eventos | `historian` | — | depois, `uv run python -m common.verify events` confirma por código o `source_excerpt` de cada evento na sua página e define `verified`; eventos `no` não podem ser citados |
-| 6. Redação | `writer` | `pt`, depois `en` | `unit-start … 6 pt` gera por código `analysis/trends.csv`, `correlations.csv` (`common.trends`), `summary.md` e `series.csv` (`common.summarize`) para o `writer` ler em vez dos JSON; `pt` escreve `report.pt.qmd` + `claims.csv`; `en` traduz com os mesmos ids |
+| 6. Redação | `writer` | `pt` (Opus), depois `en` (Sonnet) | `unit-start … 6 pt` gera por código `analysis/trends.csv`, `correlations.csv` (`common.trends`), `summary.md` e `series.csv` (`common.summarize`) para o `writer` ler em vez dos JSON; `pt` escreve `report.pt.qmd` + `claims.csv`; `en` traduz com os mesmos ids |
 | 7. Verificação | script, depois `verifier` | afirmações (estado em `claims.csv`) | ver abaixo |
 
 Depois de `complete-phase` passar:

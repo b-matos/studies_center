@@ -75,7 +75,7 @@ isso:
 - **Máximo 3 tentativas por fase**, contadas em `state.json`; à terceira a fase fica
   `blocked` e o impasse vai para `pending.md`.
 - **Modelos por agente** (`model:` em `.claude/agents/*.md`): Opus no `planner` e `writer`;
-  Sonnet nos restantes. Correr a sessão orquestradora em Sonnet (`/model sonnet`).
+  Sonnet nos restantes, e também na unidade `en` (tradução) do `writer`, por decisão medida nos evals. Correr a sessão orquestradora em Sonnet (`/model sonnet`).
 - **Scripts em vez de prompts** para o que é mecânico: `common.probe` (testar fontes),
   `common.extract` (download + normalização a partir de uma especificação em
   `data/extract/`), `common.breaks` (candidatos a quebras), `common.verify --apply`

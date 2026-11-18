@@ -51,3 +51,12 @@ rejects each kind of bad output: a grader that cannot fail is worse than none.
 - Three cases cover three agents. The `planner`, `data-researcher`, `extractor` and `analyst` have none yet; the analyst's
   chart choices are partly checked by `common.chartkinds` already.
 - Fixtures are tiny on purpose; they test judgement rules, not scale.
+
+## Decisions taken from the evals
+
+- **`historian` prompt** (Nov 2026): the first runs showed event_links.csv written without its required columns and a grade B for an
+  event whose source only says it happened; the prompt now spells out the columns and ties the grade to the registered excerpt
+  (33% to 100% valid files, 0% to 100% no overclaiming).
+- **English unit on Sonnet** (Nov 2026): `write_en_only` passed 10 of 10 graders in 3 of 3 runs with both models, at $0.06 against
+  $0.10 per run, so the `/study` skill launches the writer's `en` unit with Sonnet. The fixture is small (8 claims); if a real
+  study shows drift in the English report, rerun the case on a larger fixture before reverting.
