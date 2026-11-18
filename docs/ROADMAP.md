@@ -16,6 +16,8 @@ Nothing here is committed work: each item says what it reuses, what is new and w
 | 6 | Automatic counter-argument and limitations | Strengthens principle 3 | Medium |
 | 7 | Maps and regional breakdowns | Visual appeal; `common/geo.py` is the start | Medium |
 | 8 | `/impacto`: policy impact analysis | Differentiating, but short annual series limit it | Large |
+| 9 | Recent news as context | Helps readers; needs items 1 and 4 first | Medium |
+| 10 | Reader questions and "more detail" requests | Phased: no live model first | Small, then Large |
 
 ## 1. Human review gate
 
@@ -99,6 +101,34 @@ meaningful (enough population per unit, comparable periods). Needs the full NUTS
 Interrupted time series with placebo tests and, where a comparison group exists, difference-in-differences or
 synthetic control, to support evidence grade B with an explicit method. Powerful but demanding: most series here are
 annual and short, so the command should refuse when there are too few points before the intervention.
+
+## 9. Recent news as context
+
+A "Recent context" section on a study page: relevant news about the topic, so a reader sees what happened after the
+study was written.
+
+- Strictly context. Always `source_nature = news`; never used to support a grade A or B link, and never a claim in
+  `claims.csv`. Each entry is a link, the outlet, the date and one neutral sentence in our own words (no copied text).
+- Outlets come from an allow-list of credible sources; a news item that makes a factual claim points to the primary
+  source when one exists.
+- Candidates are found by a scheduled job (the living-studies Action) and land in the Queue as proposals. Nothing is
+  published without approval, so it depends on the review gate (item 1) and on item 4.
+- Risks: editorial bias in what is chosen (keep the allow-list and the criteria public), copyright (links and short
+  paraphrase only), paywalled or JavaScript pages the verifier cannot open (record the date accessed and keep the
+  entry out of `claims.csv`), and dilution of the data-first identity (a short list, not a news feed).
+
+## 10. Reader questions and "more detail" requests
+
+Staged, so that the principle "no claim without a source" is never traded for convenience.
+
+1. **No live model.** Filters on the charts (region, sex, age) already give much of the "more detail". Add an
+   "Ask for more detail" button that opens a GitHub issue from a template. The author triages; an accepted request
+   becomes an addendum to the study produced by the normal pipeline, with its own claims and verification.
+2. **Extractive Q&A, only if there is demand.** A small backend answers using only the study's verified claims and
+   series: it quotes claim ids with their sources and says "I don't know" by default. Needs a hard cost cap, rate
+   limits, protection against prompt injection, an AI notice, and a policy of not storing personal data or questions
+   beyond what is needed.
+3. **Generative answers are out of scope**: they would be new text the pipeline has not verified.
 
 ## Other ideas, not scheduled
 
