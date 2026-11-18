@@ -28,6 +28,10 @@ site Quarto estático. Tudo corre localmente, em Python, orquestrado pelo Claude
 6. **Reprodutibilidade.** Todo gráfico nasce de dados guardados no repositório (`data/clean/`),
    gerado por código, nunca à mão.
 
+7. **Revisão humana antes de publicar.** Nenhum estudo é publicado sem a aprovação do autor
+   desta versão exata (`common/review.py`, `review.json` com o resumo do conteúdo): um agente nunca
+   escreve `status: published` nem cria uma aprovação, e uma edição depois da aprovação anula-a.
+
 ## Convenções
 
 - **Línguas:** código, nomes de ficheiros técnicos e comentários em inglês. Relatórios,

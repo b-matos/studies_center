@@ -6,6 +6,11 @@
   const lang = script.dataset.lang === "en" ? "en" : "pt";
   const T = {
     pt: {
+      reviewTitle: "Para rever", reviewEmpty: "Nenhum estudo à espera de revisão.",
+      reviewIntro: "Um estudo só é publicado depois de o aprovares. Lê os dois relatórios, marca cada ponto e aprova; ou pede alterações.",
+      approve: "Aprovar e publicar", changes: "Pedir alterações", yourName: "O teu nome (fica registado na aprovação)",
+      commentPh: "O que deve mudar (vai para decisions.md e o estudo volta à redação)", previewPt: "Pré-visualizar PT", previewEn: "Pré-visualizar EN",
+      stale: "A aprovação anterior deixou de valer: o conteúdo mudou depois dela.",
       add: "Adicionar à fila", placeholder: "Tema do estudo, por exemplo: saúde em Portugal",
       run: "Executar", runNext: "Executar a seguir", resume: "Retomar", remove: "Remover", queued: "Na fila",
       flagged: "A seguir", running: "A correr", done: "Concluído", failed: "Falhou", interrupted: "Interrompido", needs_you: "Precisa de ti", decide: "Decisão pedida pelo estudo", answerPh: "A tua resposta (ou escolhe uma opção)", answer: "Responder e retomar",
@@ -17,6 +22,11 @@
       offline: "Sem ligação ao servidor local. Inicia-o com: uv run python -m server.app", doing: "A fazer",
     },
     en: {
+      reviewTitle: "To review", reviewEmpty: "No study is waiting for review.",
+      reviewIntro: "A study is only published after you approve it. Read both reports, tick each point and approve; or ask for changes.",
+      approve: "Approve and publish", changes: "Ask for changes", yourName: "Your name (recorded with the approval)",
+      commentPh: "What should change (goes to decisions.md and the study goes back to writing)", previewPt: "Preview PT", previewEn: "Preview EN",
+      stale: "The earlier approval no longer applies: the content changed after it.",
       add: "Add to queue", placeholder: "Study topic, for example: health in Portugal",
       run: "Run", runNext: "Run next", resume: "Resume", remove: "Remove", queued: "Queued",
       flagged: "Up next", running: "Running", done: "Done", failed: "Failed", interrupted: "Interrupted", needs_you: "Needs you", decide: "Decision requested by the study", answerPh: "Your answer (or pick an option)", answer: "Answer and resume",
@@ -56,6 +66,56 @@
   }
 
   let items = [];
+  let reviews = [];
+
+  async function loadReviews() {
+    try { reviews = (await api("/api/reviews")).reviews; } catch (e) { reviews = []; }  // an older server has no reviews
+    renderReviews();
+  }
+
+  function renderReviews() {
+    const box = $("q-reviews");
+    if (!box) return;
+    box.replaceChildren();
+    if (!reviews.length) { box.append(el("p", { class: "q-empty" }, T.reviewEmpty)); return; }
+    box.append(el("p", { class: "q-meta" }, T.reviewIntro));
+    for (const r of reviews) box.append(reviewCard(r));
+  }
+
+  function reviewCard(r) {
+    const checks = r.checklist.map((c) => {
+      const box = el("input", { type: "checkbox", id: `rv-${r.slug}-${c.id}` });
+      const row = el("label", { class: `q-check${c.warning ? " q-warn" : ""}`, for: `rv-${r.slug}-${c.id}` }, box,
+        el("span", {}, el("strong", {}, c[`label_${lang}`]), el("span", { class: "q-meta" }, c.detail)));
+      return { id: c.id, box, row };
+    });
+    let remembered = "";
+    try { remembered = localStorage.getItem("reviewer") || ""; } catch (e) { /* private mode: no memory */ }
+    const name = el("input", { type: "text", class: "q-answer", maxlength: "80", placeholder: T.yourName, value: remembered });
+    const comment = el("textarea", { class: "q-answer", rows: "2", maxlength: "2000", placeholder: T.commentPh });
+    const approveBtn = el("button", {}, T.approve);
+    const sync = () => { approveBtn.disabled = !(checks.every((c) => c.box.checked) && name.value.trim()); };
+    sync();
+    checks.forEach((c) => c.box.addEventListener("change", sync));
+    name.addEventListener("input", sync);
+    approveBtn.addEventListener("click", () => act(async () => {
+      try { localStorage.setItem("reviewer", name.value.trim()); } catch (e) { /* ignore */ }
+      const out = await api(`/api/reviews/${r.slug}/approve`, "POST", { by: name.value, checked: checks.filter((c) => c.box.checked).map((c) => c.id) });
+      $("q-error").textContent = out.message;
+      await loadReviews();
+    }));
+    const changesBtn = el("button", { class: "q-secondary" }, T.changes);
+    changesBtn.addEventListener("click", () => act(async () => {
+      await api(`/api/reviews/${r.slug}/changes`, "POST", { comment: comment.value });
+      await loadReviews();
+    }));
+    return el("div", { class: "q-review" },
+      el("strong", {}, r[`title_${lang}`]), el("span", { class: "q-meta" }, ` ${r.slug}`),
+      r.stale_approval ? el("p", { class: "q-note" }, T.stale) : "",
+      el("p", {}, el("a", { href: r.preview.pt, target: "_blank", rel: "noopener" }, T.previewPt), " · ",
+        el("a", { href: r.preview.en, target: "_blank", rel: "noopener" }, T.previewEn)),
+      checks.map((c) => c.row), name, approveBtn, comment, changesBtn);
+  }
 
   function renderQueue() {
     const list = $("q-list");
@@ -138,7 +198,7 @@
   }
 
   function handle(e) {
-    if (e.type === "queue") { items = e.items; renderQueue(); }
+    if (e.type === "queue") { items = e.items; renderQueue(); loadReviews(); }
     else if (e.type === "progress") renderProgress(e);
     else if (e.type === "activity") { const a = $("q-activity"); if (a) a.textContent = `${T.doing}: ${e.text}`; }
     else if (e.type === "plan_usage") renderPlan(e);
@@ -157,6 +217,7 @@
     try {
       items = (await api("/api/queue")).items;
       renderQueue();
+      loadReviews();
       renderUsage((await api("/api/usage")).studies);
       const stream = new EventSource("/api/events");
       stream.onmessage = (m) => handle(JSON.parse(m.data));

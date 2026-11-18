@@ -8,7 +8,7 @@ Nothing here is committed work: each item says what it reuses, what is new and w
 
 | # | Item | Why now | Effort |
 | --- | --- | --- | --- |
-| 1 | Human review gate before publishing | More output modes make an unreviewed `published` riskier | Small |
+| 1 | Human review gate before publishing | **Done** (see section 1) | Small |
 | 2 | Evals for the agents | Needed before adding modes without regressions | Medium |
 | 3 | `/mito`: claim checking | Best return: reuses nearly everything, cheaper and more shareable than a study | Medium |
 | 4 | Living studies (scheduled re-extraction) | Keeps published numbers true; almost no token cost | Small |
@@ -23,6 +23,9 @@ Nothing here is committed work: each item says what it reuses, what is new and w
 | 13 | Study search and tag filters | Readers can find studies as their number grows; Quarto text search already exists | Small |
 
 ## 1. Human review gate
+
+**Status: implemented** (`common/review.py`, the Queue page, `review.json`). The text below is the original plan; what
+shipped differs in one way: approval is bound to a digest of the content, so editing after approval removes it.
 
 Today phase 8 sets `status: published` by itself, while the About page says automatic verification does not replace
 editorial review. Add a state between verified and published:

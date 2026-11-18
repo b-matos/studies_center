@@ -7,7 +7,8 @@ rebuilds the public site.
 Off by default. Enable it with STUDIES_AUTO_PUSH=1 in the environment of the server.
 
 Conditions, all checked by code:
-- studies/<slug>/study.yml has `status: published` and state.json lists phase 8 as completed;
+- studies/<slug>/study.yml has `status: published`, state.json lists phase 8 as completed and the author's approval
+  (review.json, common.review) still matches the content;
 - the current branch is `main` and the remote (STUDIES_PUSH_REMOTE, default `origin`) exists;
 - once studies/<slug> and events/ are committed, the working tree has no other changes.
 """
@@ -19,6 +20,8 @@ import os
 from pathlib import Path
 
 import yaml
+
+from common import review
 
 ROOT = Path(__file__).resolve().parent.parent
 PUBLISH_PHASE = 8
@@ -36,7 +39,7 @@ def _is_published(root: Path, slug: str) -> bool:
         done = json.loads((study / "state.json").read_text(encoding="utf-8")).get("completed_phases", [])
     except (OSError, ValueError, yaml.YAMLError):
         return False
-    return meta.get("status") == "published" and PUBLISH_PHASE in done
+    return meta.get("status") == "published" and PUBLISH_PHASE in done and review.is_approved(study)
 
 
 async def _git(root: Path, *args: str) -> tuple[int, str]:

@@ -15,6 +15,8 @@ import pandas as pd
 import pytest
 import yaml
 
+from common import review
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -66,6 +68,8 @@ def _make_study(studies_dir: Path, slug: str, status: str = "published") -> Path
     )
     (study_dir / "report.pt.qmd").write_text("# Relatório\n\nTexto.", encoding="utf-8")
     (study_dir / "report.en.qmd").write_text("# Report\n\nText.", encoding="utf-8")
+    if status == "published":
+        review.approve(study_dir, by="test", checked=list(review.CHECKS))
     return study_dir
 
 
@@ -292,3 +296,17 @@ def test_map_boundaries_a_report_reads_are_copied_next_to_the_page(build_mod) ->
 
     mod.copy_map_boundaries(study_dir, out)
     assert sorted(f.name for f in out.iterdir()) == ["pt_nuts2024_3.json"]  # only what the report reads
+
+
+def test_public_build_needs_the_authors_approval_not_just_the_status(build_mod) -> None:
+    mod, site_dir, studies_dir = build_mod
+    _make_study(studies_dir, "approved-1", status="published")
+    unapproved = _make_study(studies_dir, "self-published", status="published")
+    (unapproved / "review.json").unlink()  # status says published, nobody approved
+    stale = _make_study(studies_dir, "edited-later", status="published")
+    (stale / "report.pt.qmd").write_text("changed after approval", encoding="utf-8")
+
+    mod.write_index(mod.load_studies(), "pt", {"published"})
+    text = (site_dir / "index.pt.qmd").read_text(encoding="utf-8")
+    assert "approved-1" in text
+    assert "self-published" not in text and "edited-later" not in text

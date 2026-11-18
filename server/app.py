@@ -18,7 +18,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from sse_starlette.sse import EventSourceResponse
 
-from common import usage
+from common import review, state, usage
 from server import decisions, publish, runner
 from server.queue import QueueError, StudyQueue
 from server.validation import InvalidTopic, validate_topic
@@ -212,6 +212,54 @@ async def answer_decision(item_id: str, req: AnswerRequest) -> dict:
         _hub().start(item_id)
     await _hub().publish_queue()
     return {"id": item_id, "started": start_now}
+
+
+class ApproveRequest(BaseModel):
+    by: str
+    checked: list[str]
+
+
+class ChangesRequest(BaseModel):
+    comment: str
+    phase: int = 6
+
+
+@app.get("/api/reviews")
+async def get_reviews() -> dict:
+    """Studies waiting for the author's review, each with its checklist computed from the files."""
+    return {"reviews": review.pending_reviews()}
+
+
+@app.post("/api/reviews/{slug}/approve")
+async def approve_review(slug: str, req: ApproveRequest) -> dict:
+    """Record the approval of this exact content; with STUDIES_AUTO_PUSH=1 the server then commits and pushes it."""
+    try:
+        study_dir = review._study(slug)
+        if review.read_meta(study_dir).get("status") != review.READY:
+            raise review.ReviewError("this study is not waiting for review")
+        review.approve(study_dir, by=req.by, checked=req.checked)
+    except review.ReviewError as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    try:
+        message = await publish.publish_study(slug) or "aprovado: o push faz-se à mão (STUDIES_AUTO_PUSH desligado)"
+    except Exception as exc:  # defensive: a git problem must not undo an approval
+        message = f"aprovado, mas o push falhou: {exc}"
+    await _hub().publish_queue()
+    return {"slug": slug, "message": message}
+
+
+@app.post("/api/reviews/{slug}/changes")
+async def request_review_changes(slug: str, req: ChangesRequest) -> dict:
+    """The reviewer wants changes: reopen the study at a phase with the comment, and make its queue item resumable."""
+    try:
+        review.request_changes(slug, req.comment, phase=req.phase)
+    except (review.ReviewError, state.StateError) as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    item = _hub().queue.by_slug(slug)
+    if item and item["status"] != "running":
+        _hub().queue.reopen(item["id"], "alterações pedidas na revisão: volta a executar para as aplicar")
+    await _hub().publish_queue()
+    return {"slug": slug, "queued": bool(item)}
 
 
 @app.get("/api/plan")

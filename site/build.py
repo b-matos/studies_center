@@ -34,6 +34,9 @@ from pathlib import Path
 import pandas as pd
 import yaml
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from common import review
+
 SITE_DIR = Path(__file__).resolve().parent
 ROOT = SITE_DIR.parent
 STUDIES_DIR = ROOT / "studies"
@@ -92,7 +95,9 @@ def visible_studies(studies: list[dict], statuses: set[str] | None = None) -> li
     only the given statuses (default `published`)."""
     if statuses is None:
         return [s for s in studies if s.get("status") != "test"]
-    return [s for s in studies if s.get("status") in statuses]
+    # `published` also needs the author's approval of this exact content (common.review); statuses added with
+    # --include-status (previews) do not.
+    return [s for s in studies if s.get("status") in statuses and (s.get("status") != "published" or review.is_approved(s["_dir"]))]
 
 
 def write_index(studies: list[dict], lang: str, statuses: set[str] | None = None) -> None:

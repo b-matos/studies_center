@@ -30,7 +30,7 @@ from pathlib import Path
 import pandas as pd
 import yaml
 
-from common import provenance
+from common import provenance, review
 from common.checks import CHECKS, STUDIES_ROOT
 from common.csv_io import read_csv, write_csv
 from common.download import read_manifest, verify_manifest
@@ -279,7 +279,23 @@ def complete_phase(slug: str, phase: int) -> tuple[bool, list[str]]:
         state["completed_phases"] = sorted([*state["completed_phases"], phase])
     state["current_phase"] = min(phase + 1, 8)
     save(slug, state)
+    if phase == 8:  # a study is never self-published: it waits for the author's review (common.review)
+        review.mark_ready(STUDIES_ROOT / slug)
     return True, []
+
+
+def reopen(slug: str, phase: int) -> dict:
+    """Take a finished study back to `phase` (a reviewer asked for changes): that phase and the ones after it are
+    pending again, with fresh attempts; earlier phases stay completed."""
+    if not 1 <= phase <= 8:
+        raise StateError(f"phase must be 1-8, not {phase}")
+    state = load(slug)
+    state["completed_phases"] = [n for n in state["completed_phases"] if n < phase]
+    for n in range(phase, 9):
+        state["phases"][str(n)] = {"status": "pending", "attempts": 0, "units": {}, "last_problems": []}
+    state["current_phase"] = phase
+    save(slug, state)
+    return state
 
 
 def resume(slug: str) -> str:

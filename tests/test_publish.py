@@ -8,6 +8,7 @@ from pathlib import Path
 import pytest
 import yaml
 
+from common import review
 from server import publish
 
 
@@ -33,12 +34,14 @@ def repo(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
     return root
 
 
-def _study(root: Path, slug: str = "demo", *, status: str = "published", phases: tuple[int, ...] = (1, 8)) -> None:
+def _study(root: Path, slug: str = "demo", *, status: str = "published", phases: tuple[int, ...] = (1, 8), approved: bool = True) -> None:
     d = root / "studies" / slug
     d.mkdir(parents=True)
     (d / "study.yml").write_text(yaml.safe_dump({"status": status}), encoding="utf-8")
     (d / "state.json").write_text(json.dumps({"completed_phases": list(phases)}), encoding="utf-8")
     (d / "report.pt.qmd").write_text("texto", encoding="utf-8")
+    if status == "published" and approved:
+        review.approve(d, by="test", checked=list(review.CHECKS))
 
 
 async def test_disabled_by_default(repo: Path, monkeypatch: pytest.MonkeyPatch) -> None:
@@ -88,3 +91,11 @@ async def test_missing_remote_blocks_push(repo: Path) -> None:
     _study(repo)
     _git(repo, "remote", "remove", "origin")
     assert "não existe" in await publish.publish_study("demo", repo)
+
+
+async def test_published_without_the_authors_approval_is_not_pushed(repo: Path) -> None:
+    _study(repo, approved=False)  # an agent wrote status: published by itself
+    assert await publish.publish_study("demo", repo) == ""
+    _study(repo, "other")
+    (repo / "studies" / "other" / "report.pt.qmd").write_text("edited after approval", encoding="utf-8")
+    assert await publish.publish_study("other", repo) == ""  # the approval no longer matches the content

@@ -163,7 +163,7 @@ order. The orchestrator only moves on when the phase condition passes **in code*
 | 5 | Events | `historian` | — | `events/events.csv` (each event with a `source_excerpt`, confirmed on its page by `common.verify events`), `event_links.csv` (grade A/B/C) |
 | 6 | Writing | `writer` | language (`pt`, then `en`) | `report.pt.qmd`, `report.en.qmd`, `claims.csv` |
 | 7 | Verification | script + `verifier` | claim | `verification.md`, `verification_status` in `claims.csv` |
-| 8 | Publication | script | — | `status: published` + site build |
+| 8 | Publication (preview) | script | — | site build; the study becomes `ready_for_review`, never `published` |
 
 Orchestration rules:
 
@@ -309,13 +309,21 @@ that touches studies, events, the site or the dependencies. To enable it: **Sett
 Source: GitHub Actions**. Paths work both at a domain root and under `/<repo>/` (Quarto turns
 absolute links into relative ones and `lang-switch.js` reads any hosting prefix from the URL).
 
-Publishing a study = phase 8 of `/study` (`status: published` in `study.yml`) + a push.
+Publishing a study = the author's approval + a push. Phase 8 only builds a preview and leaves the study
+`ready_for_review`; the **Queue page** lists it under "To review" with a checklist computed from the files (both reports,
+limitations, claims removed in verification, grade A/B links, licences, editorial responsibility), and "Approve and publish"
+needs every item ticked and a name. The approval is recorded in `review.json` together with a digest of the content (reports,
+claims, chart registry, titles); the public build and the auto-push accept `published` only while that digest still matches,
+so an edit after approval, or an agent writing `status: published`, sends the study back to review. "Ask for changes" reopens
+the study at the writing phase with the comment in `decisions.md`. The same actions exist on the command line:
+`uv run python -m common.review show|approve|changes <slug>`. A study published before the gate existed is recorded, by the
+author, with `uv run python -m common.review legacy <slug> --by NAME` (the record says it was not reviewed with the checklist).
 
 **Optional auto-push.** If the local server is started with `STUDIES_AUTO_PUSH=1`, at the end of
 a run that published a study the server (`server/publish.py`) commits whatever is left and runs
 `git push origin main`, which triggers the Pages workflow. The push is done by the server and
 never by an agent (`git push` stays denied in `.claude/settings.json`). It only runs if the study
-is `published` with phase 8 completed, the branch is `main`, the remote exists
+is `published` and approved, with phase 8 completed, the branch is `main`, the remote exists
 (`STUDIES_PUSH_REMOTE`, default `origin`) and there are no other uncommitted changes. The result
 appears in the item's note on the Queue page. Off by default.
 

@@ -9,6 +9,9 @@ Junta temas à fila e escolhe tu o que corre a seguir. Só corre um estudo de ca
   <form id="q-form" class="q-form"><input id="q-topic" type="text" required minlength="3" maxlength="80" autocomplete="off"><button id="q-add" type="submit"></button></form>
   <p id="q-error" class="q-error" role="alert"></p>
 
+  <h2>Para rever</h2>
+  <div id="q-reviews"></div>
+
   <h2>Fila</h2>
   <div id="q-list"></div>
 

@@ -126,15 +126,22 @@ A resposta fica em `studies/<slug>/decisions.md` e o `pending.md` é arquivado. 
 que já foi decidido. Antes de pedir uma decisão, volta a correr `complete-phase`: a verificação
 por código pode já passar e o impasse desaparecer.
 
-## 8. Publicação
+## 8. Publicação (prévia: a publicação é do autor)
 
 1. `common.state start-phase <slug> 8`, depois `uv run python site/build.py` (gera o índice,
    copia os relatórios, exporta `events.json` e os dados para download, e chama
    `quarto render` nos dois perfis pt/en).
-2. `uv run python -m common.state complete-phase <slug> 8`.
-3. Se passar: `study.yml` → `status: published` (ou mantém `status: test` num estudo de teste
-   — o `site/build.py` já o exclui do índice), commit `fase 8 (publicação): <slug>`, e resumo
-   final ao utilizador: o que foi publicado, nas duas línguas, e o link relativo da página.
+2. `uv run python -m common.state complete-phase <slug> 8`. Se passar, o **código** põe
+   `status: ready_for_review` em `study.yml` (um estudo `test` mantém `test`). **Nunca escrevas
+   `status: published`**: um estudo só é publicado depois de o autor o aprovar (na página Fila, ou
+   com `uv run python -m common.review approve`), e a aprovação fica ligada a esta versão do
+   conteúdo (`review.json`); sem ela o site público ignora o estudo.
+3. Commit `fase 8 (publicação): <slug>` e resumo final ao utilizador: o que ficou pronto, nas duas
+   línguas, o link relativo da página para pré-visualizar, e que falta a revisão dele
+   (`uv run python -m common.review show <slug>` mostra a lista de verificação).
+4. Se o autor pedir alterações, o estudo volta a uma fase (por omissão a 6) com o comentário em
+   `decisions.md` (secção «Revisão: alterações pedidas»): lê-o antes de tudo, aplica-o e refaz
+   as fases seguintes.
 
 ## No final de cada fase
 

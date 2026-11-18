@@ -110,5 +110,17 @@ class StudyQueue:
         self.save()
         return item
 
+    def reopen(self, item_id: str, note: str) -> dict:
+        """A reviewer asked for changes: the item becomes resumable again (`interrupted`), with the reason as note."""
+        item = self.get(item_id)
+        if item["status"] == "running":
+            raise QueueError("cannot reopen the study that is running")
+        item.update(status="interrupted", run_next=False, resets_at=None, note=note[:300])
+        self.save()
+        return item
+
+    def by_slug(self, slug: str) -> dict | None:
+        return next((i for i in self.items if i.get("slug") == slug), None)
+
     def next_flagged(self) -> dict | None:
         return next((i for i in self.items if i["run_next"] and i["status"] in RUNNABLE), None)
