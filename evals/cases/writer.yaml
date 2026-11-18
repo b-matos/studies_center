@@ -11,3 +11,14 @@ cases:
       report.en.qmd a partir de plan.md, sources.csv, analysis/charts.yml, analysis/summary.md, breaks.csv, event_links.csv
       e events/events.csv, seguindo as regras do teu agente. Não tens internet. Termina com um resumo de no máximo 150 palavras.
     graders: [writer_phase6_checks, writer_numbers_traceable, writer_urls_not_invented, writer_bilingual_parity, writer_causal_wording, writer_covers_inputs, writes_only_own_files, not_published]
+
+  - id: write_en_only
+    description: The English unit alone translates an existing Portuguese report, reusing every claim id and adding nothing; a cheaper model may suffice here.
+    fixture: {upto_phase: 5, links: true, summaries: true, pt_report: true}
+    tools: [Read, Write, Edit, Glob, Grep]
+    timeout: 900
+    prompt: |
+      Fase 6, unidade `en` do estudo `mini-eval` (pasta studies/mini-eval/). O report.pt.qmd e o claims.csv já existem (unidade `pt`
+      feita). Escreve apenas report.en.qmd, a traduzir o relatório PT, reutilizando os mesmos ids e os `text_en` já presentes em
+      claims.csv. Não alteres claims.csv nem report.pt.qmd e não crias afirmações novas. Termina com um resumo de no máximo 150 palavras.
+    graders: [writer_en_unit_discipline, writer_phase6_checks, writer_numbers_traceable, writer_causal_wording, writes_only_own_files, not_published]

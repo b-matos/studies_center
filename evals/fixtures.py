@@ -184,3 +184,81 @@ def correct_links() -> list[EventLink]:
         link(3, "b002", "ev_pandemia_2020", "C", "Coincide no tempo; a fonte não afirma efeito."),
         link(4, "b003", "ev_memorando_2011", "C", "Coincide no tempo; a fonte não afirma efeito."),
     ]
+
+
+def add_pt_report(study: Path) -> None:
+    """A correct Portuguese report and claims.csv, as the `pt` unit of phase 6 would leave them, so the `en` unit can be
+    evaluated alone: it must translate this report, reusing every claim id and text, and add nothing."""
+    from common.schemas import Claim
+
+    avoidable, spend = _series()
+
+    def pt(value: float) -> str:
+        return f"{value:.1f}".replace(".", ",")
+
+    a0, a1, s0, s1 = avoidable[2000], avoidable[2023], spend[2000], spend[2023]
+    calc = "df.query(\"region=='Portugal' and date=='{}-01-01'\").value.iloc[0]"
+    events = {e.id: e for e in EVENTS}
+
+    def data(cid: str, sid: str, year: int, value: float, unit: str, text_pt: str, text_en: str) -> Claim:
+        return Claim(id=cid, type="data", text_pt=text_pt, text_en=text_en, value=f"{value:.1f}", unit=unit, source_id=sid, url="", access_date="2026-11-18",
+                     excerpt="", source_nature="primary", location="Resumo", clean_file=f"{sid}.parquet", calculation=calc.format(year))
+
+    def link(cid: str, event_id: str, grade: str, text_pt: str, text_en: str, location: str) -> Claim:
+        ev = events[event_id]
+        return Claim(id=cid, type="link", text_pt=text_pt, text_en=text_en, source_id=event_id, url=ev.primary_source_url, access_date="2026-11-18",
+                     excerpt=ev.source_excerpt or "", source_nature="primary", location=location, grade=grade)
+
+    claims = [
+        data("c001", "s1", 2000, a0, "por 100 000 habitantes", f"Em 2000, a taxa de internamentos evitáveis era de {pt(a0)} por 100 000 habitantes.",
+             f"In 2000, the avoidable hospitalisation rate was {a0:.1f} per 100,000 inhabitants."),
+        data("c002", "s1", 2023, a1, "por 100 000 habitantes", f"Em 2023, a taxa de internamentos evitáveis era de {pt(a1)} por 100 000 habitantes.",
+             f"In 2023, the avoidable hospitalisation rate was {a1:.1f} per 100,000 inhabitants."),
+        data("c003", "s2", 2000, s0, "euros", f"Em 2000, a despesa em saúde per capita era de {pt(s0)} euros.", f"In 2000, health spending per capita was {s0:.1f} euros."),
+        data("c004", "s2", 2023, s1, "euros", f"Em 2023, a despesa em saúde per capita era de {pt(s1)} euros.", f"In 2023, health spending per capita was {s1:.1f} euros."),
+        link("c005", "ev_programa_2011", "A", "O programa de redução de internamentos evitáveis contribuiu para a quebra de nível de 2012, segundo a avaliação de impacto.",
+             "The avoidable hospitalisations programme contributed to the 2012 level shift, according to its impact evaluation.", "Quebras e eventos"),
+        link("c006", "ev_lei_2012", "C", "A reforma da rede hospitalar coincidiu com a quebra de 2012, sem que a fonte afirme efeito.",
+             "The hospital network reform coincided with the 2012 shift, without the source stating an effect.", "Quebras e eventos"),
+        link("c007", "ev_pandemia_2020", "C", "A pandemia de COVID-19 coincidiu com o pico de 2020.", "The COVID-19 pandemic coincided with the 2020 peak.", "Quebras e eventos"),
+        link("c008", "ev_memorando_2011", "C", "O memorando de entendimento coincidiu com a quebra de 2011 na despesa.",
+             "The memorandum of understanding coincided with the 2011 shift in spending.", "Quebras e eventos"),
+    ]
+    write_csv(study / "claims.csv", Claim, claims)
+
+    def span(i: int) -> str:
+        return f"[{{}}]{{{{.claim id=\"c{i:03d}\"}}}}"
+
+    report = f"""---
+title: "Internamentos evitáveis e despesa em saúde (fixture de avaliação)"
+---
+
+## Resumo
+
+[Em 2000, a taxa de internamentos evitáveis era de {pt(a0)} por 100 000 habitantes]{{.claim id="c001"}}; [em 2023, era de {pt(a1)}]{{.claim id="c002"}}.
+A despesa em saúde per capita foi de [{pt(s0)} euros em 2000]{{.claim id="c003"}} e de [{pt(s1)} euros em 2023]{{.claim id="c004"}}.
+
+```{{ojs}}
+import {{timeSeries}} from "../../assets/charts.js"
+Plotly = require("plotly.js-dist-min@2.35.2")
+lang = "pt"
+chart_data = FileAttachment("q1_avoidable.json").json()
+timeSeries(Plotly, chart_data, {{groupBy: "region", yTitle: "por 100 000 habitantes", lang, alt: "Internamentos evitáveis em Portugal, 2000 a 2023"}})
+```
+
+## Quebras e eventos
+
+- **Quebra de nível em 2012.** [O programa de redução de internamentos evitáveis contribuiu para a quebra, segundo a avaliação de impacto]{{.claim id="c005"}} (grau A).
+  [A reforma da rede hospitalar coincidiu com a mesma quebra, sem que a fonte afirme efeito]{{.claim id="c006"}} (grau C).
+- **Pico em 2020.** [A pandemia de COVID-19 coincidiu com o pico]{{.claim id="c007"}} (grau C).
+- **Quebra de nível em 2011 na despesa.** [O memorando de entendimento coincidiu com a quebra]{{.claim id="c008"}} (grau C).
+
+## Limitações
+
+Este estudo é fictício e serve apenas para avaliar agentes. As conclusões não se aplicam a dados reais.
+
+## Fontes
+
+INE (fontes s1 e s2, licença CC BY 4.0).
+"""
+    (study / "report.pt.qmd").write_text(report, encoding="utf-8")

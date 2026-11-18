@@ -246,3 +246,34 @@ def test_report_leaves_crashed_runs_out_of_the_pass_rates(tmp_path: Path) -> Non
 
     rows = [row("1", "numbers_traceable", 1), row("2", "numbers_traceable", 0), row("2", "run_completed", 0), row("3", "numbers_traceable", 1)]
     assert report.pass_rates(rows, "writer", "20260102T000000Z")[("c", "numbers_traceable")][:2] == (1.0, 2)  # run 2 crashed: not counted
+
+
+def test_en_unit_discipline_accepts_a_faithful_translation_and_rejects_the_usual_shortcuts(tmp_path: Path) -> None:
+    root, params = sandbox.make_sandbox({"fixture": {"upto_phase": 5, "links": True, "summaries": True, "pt_report": True}}, parent=tmp_path)
+    study = root / "studies" / fixtures.SLUG
+    before = sandbox.snapshot(root)
+    claims = {c.id: c for c in read_csv(study / "claims.csv", Claim)}
+    good = (
+        "# Report\n\n"
+        f'[In 2000, the avoidable hospitalisation rate was {claims["c001"].value} per 100,000 inhabitants]{{.claim id="c001"}}; '
+        f'[in 2023, it was {claims["c002"].value}]{{.claim id="c002"}}.\n'
+        f'Spending was [{claims["c003"].value} euros in 2000]{{.claim id="c003"}} and [{claims["c004"].value} euros in 2023]{{.claim id="c004"}}.\n\n'
+        '- [The programme contributed to the shift]{.claim id="c005"} (grade A). [The reform coincided with it]{.claim id="c006"} (grade C).\n'
+        '- [The pandemic coincided with the peak]{.claim id="c007"} (grade C). [The memorandum coincided with the drop]{.claim id="c008"} (grade C).\n\n'
+        "## Limitations\n\nFictional study.\n"
+    )
+
+    def run_grader(text: str, touch_claims: bool = False) -> dict[str, bool]:
+        (study / "report.en.qmd").write_text(text, encoding="utf-8")
+        if touch_claims:
+            (study / "claims.csv").write_text("tampered", encoding="utf-8")
+        results = graders.grade(["writer_en_unit_discipline"], graders.Ctx(sandbox=root, agent="writer", before=before, after=sandbox.snapshot(root), params=params))
+        return {r.name: r.passed for r in results}
+
+    ok = run_grader(good)
+    assert all(ok.values()), ok
+    assert not run_grader(good.replace('id="c008"', 'id="c099"'))["en_uses_the_same_claim_ids"]
+    assert not run_grader(good + "A new claim of 77.7 points.")["en_adds_or_drops_no_number"]
+    assert not run_grader(good, touch_claims=True)["en_does_not_touch_claims_or_pt"]
+    pt_copy = (study / "report.pt.qmd").read_text(encoding="utf-8")
+    assert not run_grader(pt_copy)["en_is_english"], "the Portuguese report copied over is not a translation"

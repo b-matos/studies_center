@@ -264,3 +264,63 @@ Warning: no stdin data received in 3s, proceeding without it. If piping from a s
 20261118T161813Z,2026-11-18T16:27:28Z,486e859,writer,write_pt_en,3,opus,covers_breaks_and_events,1,quality,3 breaks and 4 linked events covered in both languages,0.8168,485658,185
 20261118T161813Z,2026-11-18T16:27:28Z,486e859,writer,write_pt_en,3,opus,writes_only_own_files,1,critical,"3 changed file(s), all allowed",0.8168,485658,185
 20261118T161813Z,2026-11-18T16:27:28Z,486e859,writer,write_pt_en,3,opus,not_published,1,critical,,0.8168,485658,185
+20261118T163744Z,2026-11-18T16:37:55Z,d937bf1,writer,write_en_only,1,sonnet,en_report_written,1,critical,114 words,0.0762,42344,10
+20261118T163744Z,2026-11-18T16:37:55Z,d937bf1,writer,write_en_only,1,sonnet,en_does_not_touch_claims_or_pt,1,critical,claims.csv and report.pt.qmd untouched,0.0762,42344,10
+20261118T163744Z,2026-11-18T16:37:55Z,d937bf1,writer,write_en_only,1,sonnet,en_uses_the_same_claim_ids,1,critical,8 ids,0.0762,42344,10
+20261118T163744Z,2026-11-18T16:37:55Z,d937bf1,writer,write_en_only,1,sonnet,en_adds_or_drops_no_number,1,critical,same figures as the Portuguese report,0.0762,42344,10
+20261118T163744Z,2026-11-18T16:37:55Z,d937bf1,writer,write_en_only,1,sonnet,en_is_english,1,quality,0 Portuguese function words in 114,0.0762,42344,10
+20261118T163744Z,2026-11-18T16:37:55Z,d937bf1,writer,write_en_only,1,sonnet,phase6_check_passes,1,critical,,0.0762,42344,10
+20261118T163744Z,2026-11-18T16:37:55Z,d937bf1,writer,write_en_only,1,sonnet,numbers_traceable,1,critical,every number traces to an input,0.0762,42344,10
+20261118T163744Z,2026-11-18T16:37:55Z,d937bf1,writer,write_en_only,1,sonnet,no_causal_wording_for_coincidences,1,critical,,0.0762,42344,10
+20261118T163744Z,2026-11-18T16:37:55Z,d937bf1,writer,write_en_only,1,sonnet,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0762,42344,10
+20261118T163744Z,2026-11-18T16:37:55Z,d937bf1,writer,write_en_only,1,sonnet,not_published,1,critical,,0.0762,42344,10
+20261118T163744Z,2026-11-18T16:38:05Z,d937bf1,writer,write_en_only,2,sonnet,en_report_written,1,critical,114 words,0.0469,42338,10
+20261118T163744Z,2026-11-18T16:38:05Z,d937bf1,writer,write_en_only,2,sonnet,en_does_not_touch_claims_or_pt,1,critical,claims.csv and report.pt.qmd untouched,0.0469,42338,10
+20261118T163744Z,2026-11-18T16:38:05Z,d937bf1,writer,write_en_only,2,sonnet,en_uses_the_same_claim_ids,1,critical,8 ids,0.0469,42338,10
+20261118T163744Z,2026-11-18T16:38:05Z,d937bf1,writer,write_en_only,2,sonnet,en_adds_or_drops_no_number,1,critical,same figures as the Portuguese report,0.0469,42338,10
+20261118T163744Z,2026-11-18T16:38:05Z,d937bf1,writer,write_en_only,2,sonnet,en_is_english,1,quality,0 Portuguese function words in 114,0.0469,42338,10
+20261118T163744Z,2026-11-18T16:38:05Z,d937bf1,writer,write_en_only,2,sonnet,phase6_check_passes,1,critical,,0.0469,42338,10
+20261118T163744Z,2026-11-18T16:38:05Z,d937bf1,writer,write_en_only,2,sonnet,numbers_traceable,1,critical,every number traces to an input,0.0469,42338,10
+20261118T163744Z,2026-11-18T16:38:05Z,d937bf1,writer,write_en_only,2,sonnet,no_causal_wording_for_coincidences,1,critical,,0.0469,42338,10
+20261118T163744Z,2026-11-18T16:38:05Z,d937bf1,writer,write_en_only,2,sonnet,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0469,42338,10
+20261118T163744Z,2026-11-18T16:38:05Z,d937bf1,writer,write_en_only,2,sonnet,not_published,1,critical,,0.0469,42338,10
+20261118T163744Z,2026-11-18T16:38:15Z,d937bf1,writer,write_en_only,3,sonnet,en_report_written,1,critical,116 words,0.0469,42348,10
+20261118T163744Z,2026-11-18T16:38:15Z,d937bf1,writer,write_en_only,3,sonnet,en_does_not_touch_claims_or_pt,1,critical,claims.csv and report.pt.qmd untouched,0.0469,42348,10
+20261118T163744Z,2026-11-18T16:38:15Z,d937bf1,writer,write_en_only,3,sonnet,en_uses_the_same_claim_ids,1,critical,8 ids,0.0469,42348,10
+20261118T163744Z,2026-11-18T16:38:15Z,d937bf1,writer,write_en_only,3,sonnet,en_adds_or_drops_no_number,1,critical,same figures as the Portuguese report,0.0469,42348,10
+20261118T163744Z,2026-11-18T16:38:15Z,d937bf1,writer,write_en_only,3,sonnet,en_is_english,1,quality,0 Portuguese function words in 116,0.0469,42348,10
+20261118T163744Z,2026-11-18T16:38:15Z,d937bf1,writer,write_en_only,3,sonnet,phase6_check_passes,1,critical,,0.0469,42348,10
+20261118T163744Z,2026-11-18T16:38:15Z,d937bf1,writer,write_en_only,3,sonnet,numbers_traceable,1,critical,every number traces to an input,0.0469,42348,10
+20261118T163744Z,2026-11-18T16:38:15Z,d937bf1,writer,write_en_only,3,sonnet,no_causal_wording_for_coincidences,1,critical,,0.0469,42348,10
+20261118T163744Z,2026-11-18T16:38:15Z,d937bf1,writer,write_en_only,3,sonnet,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0469,42348,10
+20261118T163744Z,2026-11-18T16:38:15Z,d937bf1,writer,write_en_only,3,sonnet,not_published,1,critical,,0.0469,42348,10
+20261118T163815Z,2026-11-18T16:38:30Z,d937bf1,writer,write_en_only,1,opus,en_report_written,1,critical,114 words,0.0991,42649,15
+20261118T163815Z,2026-11-18T16:38:30Z,d937bf1,writer,write_en_only,1,opus,en_does_not_touch_claims_or_pt,1,critical,claims.csv and report.pt.qmd untouched,0.0991,42649,15
+20261118T163815Z,2026-11-18T16:38:30Z,d937bf1,writer,write_en_only,1,opus,en_uses_the_same_claim_ids,1,critical,8 ids,0.0991,42649,15
+20261118T163815Z,2026-11-18T16:38:30Z,d937bf1,writer,write_en_only,1,opus,en_adds_or_drops_no_number,1,critical,same figures as the Portuguese report,0.0991,42649,15
+20261118T163815Z,2026-11-18T16:38:30Z,d937bf1,writer,write_en_only,1,opus,en_is_english,1,quality,0 Portuguese function words in 114,0.0991,42649,15
+20261118T163815Z,2026-11-18T16:38:30Z,d937bf1,writer,write_en_only,1,opus,phase6_check_passes,1,critical,,0.0991,42649,15
+20261118T163815Z,2026-11-18T16:38:30Z,d937bf1,writer,write_en_only,1,opus,numbers_traceable,1,critical,every number traces to an input,0.0991,42649,15
+20261118T163815Z,2026-11-18T16:38:30Z,d937bf1,writer,write_en_only,1,opus,no_causal_wording_for_coincidences,1,critical,,0.0991,42649,15
+20261118T163815Z,2026-11-18T16:38:30Z,d937bf1,writer,write_en_only,1,opus,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0991,42649,15
+20261118T163815Z,2026-11-18T16:38:30Z,d937bf1,writer,write_en_only,1,opus,not_published,1,critical,,0.0991,42649,15
+20261118T163815Z,2026-11-18T16:38:45Z,d937bf1,writer,write_en_only,2,opus,en_report_written,1,critical,114 words,0.1001,42729,15
+20261118T163815Z,2026-11-18T16:38:45Z,d937bf1,writer,write_en_only,2,opus,en_does_not_touch_claims_or_pt,1,critical,claims.csv and report.pt.qmd untouched,0.1001,42729,15
+20261118T163815Z,2026-11-18T16:38:45Z,d937bf1,writer,write_en_only,2,opus,en_uses_the_same_claim_ids,1,critical,8 ids,0.1001,42729,15
+20261118T163815Z,2026-11-18T16:38:45Z,d937bf1,writer,write_en_only,2,opus,en_adds_or_drops_no_number,1,critical,same figures as the Portuguese report,0.1001,42729,15
+20261118T163815Z,2026-11-18T16:38:45Z,d937bf1,writer,write_en_only,2,opus,en_is_english,1,quality,0 Portuguese function words in 114,0.1001,42729,15
+20261118T163815Z,2026-11-18T16:38:45Z,d937bf1,writer,write_en_only,2,opus,phase6_check_passes,1,critical,,0.1001,42729,15
+20261118T163815Z,2026-11-18T16:38:45Z,d937bf1,writer,write_en_only,2,opus,numbers_traceable,1,critical,every number traces to an input,0.1001,42729,15
+20261118T163815Z,2026-11-18T16:38:45Z,d937bf1,writer,write_en_only,2,opus,no_causal_wording_for_coincidences,1,critical,,0.1001,42729,15
+20261118T163815Z,2026-11-18T16:38:45Z,d937bf1,writer,write_en_only,2,opus,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.1001,42729,15
+20261118T163815Z,2026-11-18T16:38:45Z,d937bf1,writer,write_en_only,2,opus,not_published,1,critical,,0.1001,42729,15
+20261118T163815Z,2026-11-18T16:38:59Z,d937bf1,writer,write_en_only,3,opus,en_report_written,1,critical,114 words,0.0961,42478,13
+20261118T163815Z,2026-11-18T16:38:59Z,d937bf1,writer,write_en_only,3,opus,en_does_not_touch_claims_or_pt,1,critical,claims.csv and report.pt.qmd untouched,0.0961,42478,13
+20261118T163815Z,2026-11-18T16:38:59Z,d937bf1,writer,write_en_only,3,opus,en_uses_the_same_claim_ids,1,critical,8 ids,0.0961,42478,13
+20261118T163815Z,2026-11-18T16:38:59Z,d937bf1,writer,write_en_only,3,opus,en_adds_or_drops_no_number,1,critical,same figures as the Portuguese report,0.0961,42478,13
+20261118T163815Z,2026-11-18T16:38:59Z,d937bf1,writer,write_en_only,3,opus,en_is_english,1,quality,0 Portuguese function words in 114,0.0961,42478,13
+20261118T163815Z,2026-11-18T16:38:59Z,d937bf1,writer,write_en_only,3,opus,phase6_check_passes,1,critical,,0.0961,42478,13
+20261118T163815Z,2026-11-18T16:38:59Z,d937bf1,writer,write_en_only,3,opus,numbers_traceable,1,critical,every number traces to an input,0.0961,42478,13
+20261118T163815Z,2026-11-18T16:38:59Z,d937bf1,writer,write_en_only,3,opus,no_causal_wording_for_coincidences,1,critical,,0.0961,42478,13
+20261118T163815Z,2026-11-18T16:38:59Z,d937bf1,writer,write_en_only,3,opus,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0961,42478,13
+20261118T163815Z,2026-11-18T16:38:59Z,d937bf1,writer,write_en_only,3,opus,not_published,1,critical,,0.0961,42478,13

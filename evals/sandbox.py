@@ -67,6 +67,8 @@ def make_sandbox(case: dict, *, port: int | None = None, parent: Path | None = N
 
         trends.write_trends(study)
         summarize.write_summary(study)
+    if fixture.get("pt_report"):  # what the `pt` unit leaves behind, so the `en` unit can be evaluated alone
+        fixtures.add_pt_report(study)
     if fixture.get("verifier_claims"):
         params = _verifier_claims(study, port or 0)
     for rel in case.get("remove", []):

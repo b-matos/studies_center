@@ -22,6 +22,7 @@ model can break these silently, so they are measured before and after.
 | --- | --- | --- |
 | `historian` | `coincidence_traps` | Events whose source only says they happened are never graded above C; an unrelated old event is never linked; no invented events; the event whose source states the effect is recognised (A or B); writes only its own files |
 | `writer` | `write_pt_en` | The phase 6 check passes; every number traces to an input; no invented URL; PT and EN use the same claim ids; no causal wording about coincidence-only events |
+| `writer` | `write_en_only` | The English unit alone: translates an existing Portuguese report, reuses every claim id, leaves `claims.csv` and the PT report untouched, adds or drops no figure, and is really English. Used to decide whether a cheaper model can write this unit |
 | `verifier` | `injected_faults` | Four injected faults (altered date, dead URL, excerpt on another page, altered number) are all failed, and intact claims are not; only `verification_status` changes |
 
 ## Commands

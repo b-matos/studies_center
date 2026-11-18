@@ -241,6 +241,36 @@ def writer_covers_inputs(ctx: Ctx) -> list[Result]:
     return [Result("covers_breaks_and_events", not missing, f"not mentioned: {missing[:6]}" if missing else f"{len(breaks)} breaks and {len(linked)} linked events covered in both languages", "quality")]
 
 
+def writer_en_unit_discipline(ctx: Ctx) -> list[Result]:
+    """The `en` unit translates: claims.csv and the Portuguese report are untouched, the same claim ids appear in the English
+    report, no number is added or dropped, and the text is really English (not the Portuguese copied over)."""
+    study = ctx.study
+    en_path = study / "report.en.qmd"
+    if not en_path.exists():
+        return [Result("en_report_written", False, "report.en.qmd was not written")]
+    en = en_path.read_text(encoding="utf-8")
+    pt = (study / "report.pt.qmd").read_text(encoding="utf-8")
+    untouched = [p for p in ("studies/mini-eval/claims.csv", "studies/mini-eval/report.pt.qmd") if ctx.before.get(p) != ctx.after.get(p)]
+    ids_pt, ids_en = set(re.findall(r'id="(c\d+)"', pt)), set(re.findall(r'id="(c\d+)"', en))
+
+    def figures(text: str, english: bool) -> set[float]:
+        text = "\n".join(checks._drop_non_fact_digits(line) for line in _strip_markup(text).splitlines())  # ids, licences, units: not figures
+        if english:  # English groups thousands with commas ("100,000"); Portuguese uses a space and a decimal comma
+            text = re.sub(r"(?<=\d),(?=\d{3}\b)", "", text)
+        return {round(v, 2) for v, _ in _numbers(text) if not (1900 <= v <= 2100)}
+
+    added, dropped = sorted(figures(en, True) - figures(pt, False)), sorted(figures(pt, False) - figures(en, True))
+    words = re.findall(r"[a-zà-ú]+", _strip_markup(en).lower())
+    portuguese = sum(w in {"não", "uma", "com", "para", "que", "dos", "das", "pelo", "pela", "são", "está", "foi", "entre", "segundo"} for w in words)
+    return [
+        Result("en_report_written", True, f"{len(words)} words"),
+        Result("en_does_not_touch_claims_or_pt", not untouched, f"changed: {untouched}" if untouched else "claims.csv and report.pt.qmd untouched"),
+        Result("en_uses_the_same_claim_ids", ids_pt == ids_en, f"only in PT: {sorted(ids_pt - ids_en)}, only in EN: {sorted(ids_en - ids_pt)}" if ids_pt != ids_en else f"{len(ids_en)} ids"),
+        Result("en_adds_or_drops_no_number", not added and not dropped, f"added: {added[:5]}, dropped: {dropped[:5]}" if added or dropped else "same figures as the Portuguese report"),
+        Result("en_is_english", bool(words) and portuguese / len(words) < 0.02, f"{portuguese} Portuguese function words in {len(words)}", "quality"),
+    ]
+
+
 def writer_uses_causal_wording_correctly(ctx: Ctx) -> list[Result]:
     """No 'causou'-style wording about a coincidence-only event in either language (a blunt, code-level check)."""
     bad = []
@@ -300,6 +330,7 @@ GRADERS = {
     "writer_bilingual_parity": writer_bilingual_parity,
     "writer_causal_wording": writer_uses_causal_wording_correctly,
     "writer_covers_inputs": writer_covers_inputs,
+    "writer_en_unit_discipline": writer_en_unit_discipline,
     "verifier_detects_faults": verifier_detects_faults,
     "verifier_does_not_touch_the_text": verifier_does_not_touch_the_text,
 }
