@@ -143,7 +143,7 @@ Key ideas:
 | Data and analysis | Python ≥ 3.12, pandas, pyarrow (Parquet), numpy, scipy, statsmodels, [ruptures](https://github.com/deepcharles/ruptures) (change points) |
 | Sources | `sdmx1` (Eurostat, OECD), INE JSON API, dados.gov.pt catalogue API, WHO OData API, SNS exports, httpx, pypdf, BeautifulSoup, rapidfuzz |
 | Validation | pydantic (schemas for every tracked CSV) |
-| Site | [Quarto](https://quarto.org) bilingual website, OJS + Plotly interactive charts |
+| Site | [Quarto](https://quarto.org) bilingual website, OJS + Plotly interactive charts (a catalogue of 10 chart kinds, see `docs/charts-gallery.html`) |
 | Local server | FastAPI, uvicorn, Server-Sent Events (sse-starlette) |
 | Project tooling | `uv` (dependencies and environment), pytest, ruff |
 | CI/CD | GitHub Actions + GitHub Pages |

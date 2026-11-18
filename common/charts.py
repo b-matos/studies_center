@@ -21,8 +21,12 @@ def export_series_json(df: pd.DataFrame, out_path: Path) -> None:
     out_path.write_text(json.dumps(records, ensure_ascii=False, indent=0), encoding="utf-8")
 
 
-def register_chart(study_dir: Path, *, chart_id: str, data_file: str, axis: str, title_pt: str, title_en: str) -> None:
-    """Append (or update) one entry in analysis/charts.yml."""
+def register_chart(study_dir: Path, *, chart_id: str, data_file: str, axis: str, title_pt: str, title_en: str,
+                   kind: str | None = None, why: str | None = None, composition: bool = False) -> None:
+    """Append (or update) one entry in analysis/charts.yml.
+
+    `kind` is one of common.chartkinds.KINDS and `why` one sentence on why it suits the data; `composition=True`
+    declares that the series are parts of one whole (shares that add up), which unlocks stacked kinds."""
     registry_path = study_dir / "analysis" / "charts.yml"
     registry = {}
     if registry_path.exists():
@@ -33,6 +37,10 @@ def register_chart(study_dir: Path, *, chart_id: str, data_file: str, axis: str,
         "title_pt": title_pt,
         "title_en": title_en,
     }
+    if kind:
+        registry[chart_id].update({"kind": kind, "why": why or ""})
+    if composition:
+        registry[chart_id]["composition"] = True
     registry_path.parent.mkdir(parents=True, exist_ok=True)
     registry_path.write_text(yaml.safe_dump(registry, allow_unicode=True, sort_keys=True), encoding="utf-8")
 

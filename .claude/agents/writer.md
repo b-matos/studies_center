@@ -50,27 +50,47 @@ Escreves `studies/<slug>/report.pt.qmd`, `studies/<slug>/report.en.qmd` e
 6. Inclui metodologia, limitações, lista de fontes e menciona explicitamente as quebras sem
    evento associado e os eventos sem efeito visível (são resultados, não falhas a esconder).
 7. Insere os gráficos registados em `charts.yml` com o componente partilhado
-   `site/assets/charts.js` — **nunca escrevas código `Plot.plot`/Plotly à mão**, porque o
-   componente já dá legenda clicável, tooltips, zoom, botões de período e a sobreposição de
-   eventos. Em cada estudo, usa estas células `{ojs}` (uma definição por célula):
+   `site/assets/charts.js` — **nunca escrevas código `Plot.plot`/Plotly à mão** (o `common.checks` rejeita
+   `Plotly.newPlot` e afins), porque o componente já dá legenda clicável, tooltips, zoom, descarregar PNG,
+   texto alternativo, a tabela "Ver os dados" e, nas linhas, a sobreposição de eventos.
+   **Tu decides que gráficos mostrar e por que ordem**, e que tipo usar em cada pergunta. Cada entrada de
+   `charts.yml` traz o `kind` e o `why` do `analyst`, e o `summary.md` mostra, por gráfico, os tipos
+   `allowed` pelos dados. Podes trocar para outro tipo permitido se servir melhor a pergunta; um tipo fora
+   de `allowed` é rejeitado por código. Escolhe pela pergunta:
+
+   | A pergunta é sobre... | Tipo (`kind` → função) |
+   | --- | --- |
+   | como algo evoluiu (poucas séries) | `line` → `timeSeries` |
+   | evolução de muitas séries (regiões, causas) | `small_multiples` → `smallMultiples` |
+   | quem está acima ou abaixo num ano | `ranking` → `ranking` |
+   | comparar poucos grupos em poucos anos ou categorias | `grouped_bars` → `groupedBars` |
+   | como um todo se reparte (quotas que somam) | `stacked_bars` → `stackedBars`, ou ao longo do tempo `stacked_area` → `stackedArea` |
+   | antes e depois, poucas séries | `slope` → `slope` |
+   | antes e depois, muitas regiões | `dumbbell` → `dumbbell` |
+   | a relação entre dois indicadores | `scatter` → `scatter` (associação, nunca causa: di-lo no texto) |
+   | padrão por região e ano | `heatmap` → `heatmap` |
+
+   Em cada estudo, usa estas células `{ojs}` (uma definição por célula):
 
    ```
    Plotly = require("plotly.js-dist-min@2.35.2")
-   import {timeSeries, ranking} from "../../assets/charts.js"
+   import {timeSeries, smallMultiples, ranking, groupedBars, slope, dumbbell, scatter, heatmap} from "../../assets/charts.js"
    lang = "pt"            // "en" no report.en.qmd
    chart_data = FileAttachment("<data_file in charts.yml>").json()
    linked_events = FileAttachment("linked_events.json").json()   // gerado pelo build.py
-   timeSeries(Plotly, chart_data, {groupBy: "region", yTitle: "Anos", events: linked_events, lang})
-   ranking(Plotly, oneYearData, {xTitle: "Anos", lang})
+   timeSeries(Plotly, chart_data, {groupBy: "region", yTitle: "Anos", events: linked_events, lang, alt: "<o que o gráfico mostra, numa frase>"})
    ```
 
-   Opções de `timeSeries`: `groupBy` (campo que define uma linha por valor), `labels`
-   (nomes curtos para a legenda), `yTitle`, `events`, `lang`. Para filtros (sex, região,
-   age) usa uma célula `viewof x = Inputs.radio(...)`/`Inputs.select(...)` e filtra
-   `data` antes de os passar ao componente. Regras: cada série tem de ter nome legível na
-   legenda (usa `labels` se o valor bruto for longo) e o eixo Y tem de ter título com a
-   unidade. O import tem de ser nomeado (`import {x} from ...`); `import * as` é rejeitado
-   pelo motor OJS do Quarto.
+   Opções comuns: `groupBy` (campo que define uma série; por omissão `region`), `labels` (nomes curtos
+   para a legenda), `yTitle`/`xTitle` (com a unidade), `title`, `alt` (**texto alternativo obrigatório**:
+   o que o gráfico mostra, em palavras), `lang`, `height`. Específicas: `timeSeries` aceita `events`;
+   `slope` e `dumbbell` aceitam `from`/`to` (datas); `smallMultiples` aceita `cols` e `sharedY`;
+   `scatter` aceita `xIndicator`/`yIndicator`; `ranking` e `heatmap` recebem um só indicador (filtra
+   sexo e idade antes). Para filtros usa uma célula `viewof x = Inputs.radio(...)`/`Inputs.select(...)`
+   e filtra `data` antes de os passar ao componente. Regras: cada série tem de ter nome legível na
+   legenda (usa `labels` se o valor bruto for longo) e o eixo tem de ter título com a unidade. O import
+   tem de ser nomeado (`import {x} from ...`); `import * as` é rejeitado pelo motor OJS do Quarto.
+   Não repitas o mesmo tipo de gráfico em todas as perguntas só por hábito: varia quando a pergunta o pede.
 
 ## Que URL e excerto escreves em cada tipo de afirmação
 

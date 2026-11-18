@@ -16,10 +16,11 @@ from pathlib import Path
 
 import yaml
 
-from common import provenance
+from common import chartkinds, provenance
 from common.csv_io import read_csv
 from common.download import verify_manifest
 from common.schemas import Break, Claim, DataSource, Event, EventLink
+from common.summarize import load_chart
 
 STUDIES_ROOT = Path(__file__).resolve().parent.parent / "studies"
 EVENTS_CSV = Path(__file__).resolve().parent.parent / "events" / "events.csv"
@@ -149,7 +150,11 @@ def check_phase_4(slug: str) -> tuple[bool, list[str]]:
         if not charts:
             problems.append("analysis/charts.yml está vazio")
         for chart_id, entry in charts.items():
-            problems.extend(_chart_json_problems(study_dir / "analysis" / "out" / str(entry.get("data_file", "")), chart_id))
+            path = study_dir / "analysis" / "out" / str(entry.get("data_file", ""))
+            json_problems = _chart_json_problems(path, chart_id)
+            problems.extend(json_problems)
+            if not json_problems:
+                problems.extend(chartkinds.kind_problems(chart_id, entry, load_chart(path)))
     breaks_path = study_dir / "breaks.csv"
     if not breaks_path.exists():
         problems.append("breaks.csv não existe")
@@ -180,6 +185,43 @@ def check_phase_5(slug: str) -> tuple[bool, list[str]]:
         elif not event.source_excerpt or len(event.source_excerpt.split()) >= 15:
             problems.append(f"evento {event_id}: falta source_excerpt (menos de 15 palavras, copiado da página de primary_source_url)")
     return not problems, problems
+
+
+FILE_VAR = re.compile(r'(\w+)\s*=\s*FileAttachment\("([^"]+\.json)"\)')
+CHART_CALL = re.compile(r"\b(" + "|".join(chartkinds.JS_TO_KIND) + r")\(\s*Plotly\s*,\s*(\w+)")
+
+
+def chart_use_problems(study_dir: Path) -> list[str]:
+    """What the reports do with the chart catalogue: no hand-written plotting, and a chart kind the data supports.
+
+    The kind check is best effort: it only judges a call whose data argument is a variable read straight from a
+    registered chart JSON (`x = FileAttachment("f.json").json()` then `fn(Plotly, x, ...)`); data the writer
+    filtered or reshaped first cannot be judged from the text and is left alone."""
+    charts_path = study_dir / "analysis" / "charts.yml"
+    charts = (yaml.safe_load(charts_path.read_text(encoding="utf-8")) or {}) if charts_path.exists() else {}
+    by_file = {str(entry.get("data_file")): (cid, entry) for cid, entry in charts.items()}
+    problems = []
+    for lang in ("pt", "en"):
+        report = study_dir / f"report.{lang}.qmd"
+        if not report.exists():
+            continue
+        text = report.read_text(encoding="utf-8")
+        for needle in chartkinds.HANDWRITTEN_PLOTTING:
+            if needle in text:
+                problems.append(f"report.{lang}.qmd escreve gráficos à mão ({needle}...): usa as funções de site/assets/charts.js")
+        var_file = dict(FILE_VAR.findall(text))
+        for fn, var in CHART_CALL.findall(text):
+            target = by_file.get(var_file.get(var, ""))
+            if target is None:
+                continue
+            chart_id, entry = target
+            path = study_dir / "analysis" / "out" / str(entry.get("data_file"))
+            if not path.exists():
+                continue
+            allowed = chartkinds.allowed_kinds(chartkinds.shape_of(load_chart(path)), composition=bool(entry.get("composition")))
+            if chartkinds.JS_TO_KIND[fn] not in allowed:
+                problems.append(f"report.{lang}.qmd: {fn}() não serve aos dados de {chart_id}; permitidos: {', '.join(allowed)}")
+    return problems
 
 
 def claim_row_problems(study_dir: Path, claims: list[Claim]) -> list[str]:
@@ -242,6 +284,7 @@ def check_phase_6(slug: str) -> tuple[bool, list[str]]:
                 )
 
     problems += claim_row_problems(study_dir, claims)
+    problems += chart_use_problems(study_dir)
     return not problems, problems
 
 

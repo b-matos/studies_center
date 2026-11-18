@@ -18,7 +18,7 @@ Nothing here is committed work: each item says what it reuses, what is new and w
 | 8 | `/impacto`: policy impact analysis | Differentiating, but short annual series limit it | Large |
 | 9 | Recent news as context | Helps readers; needs items 1 and 4 first | Medium |
 | 10 | Reader questions and "more detail" requests | Phased: no live model first | Small, then Large |
-| 11 | Chart catalogue and chart choice | Today only line and bar charts exist; improves every study | Medium |
+| 11 | Chart catalogue and chart choice | **Done** (see section 11): improves every study | Medium |
 | 12 | Share page (infographic card) | Makes a study easy to share; depends on item 11 | Medium |
 
 ## 1. Human review gate
@@ -133,6 +133,9 @@ Staged, so that the principle "no claim without a source" is never traded for co
 3. **Generative answers are out of scope**: they would be new text the pipeline has not verified.
 
 ## 11. Chart catalogue and chart choice
+
+**Status: implemented** (kinds, per-chart `kind`/`why`, code checks, writer guide, gallery in `docs/charts-gallery.html`).
+Still open from this item: a choropleth (needs the geography work in item 7). The text below is the original plan.
 
 The chart component (`site/assets/charts.js`) has two chart types, `timeSeries` and `ranking`, plus a table. In the first
 real study that meant 21 line charts and 6 rankings. The writer is told never to hand-write Plotly, which is right

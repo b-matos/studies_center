@@ -232,7 +232,9 @@ def _chart_study(study_dir: Path, record: dict) -> None:
 
     (study_dir / "analysis" / "out").mkdir(parents=True)
     (study_dir / "analysis" / "out" / "c1.json").write_text(json.dumps([record]), encoding="utf-8")
-    (study_dir / "analysis" / "charts.yml").write_text("c1:\n  data_file: c1.json\n  axis: x\n", encoding="utf-8")
+    (study_dir / "analysis" / "charts.yml").write_text(
+        "c1:\n  data_file: c1.json\n  axis: x\n  kind: table\n  why: uma só observação, só cabe uma tabela\n", encoding="utf-8"
+    )
     write_csv(
         study_dir / "breaks.csv",
         Break,

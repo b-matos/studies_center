@@ -28,6 +28,8 @@ from pathlib import Path
 import pandas as pd
 import yaml
 
+from common import chartkinds
+
 KEYS = ["date", "region", "sex", "age", "indicator"]
 SERIES_KEYS = ["region", "sex", "age", "indicator", "unit"]
 VALUE_TOLERANCE = 5e-4  # chart JSON values are rounded to 4 decimals
@@ -40,7 +42,7 @@ SUMMARY_NAME = "summary.md"
 SERIES_NAME = "series.csv"
 
 
-def _load_chart(path: Path) -> pd.DataFrame:
+def load_chart(path: Path) -> pd.DataFrame:
     df = pd.DataFrame(json.loads(path.read_text(encoding="utf-8")))
     for col in [*KEYS, "unit", "source_id"]:
         if col not in df:
@@ -176,7 +178,7 @@ def iter_chart_frames(study_dir: Path):
         path = study_dir / "analysis" / "out" / str(entry.get("data_file", ""))
         if not path.is_file():
             continue
-        df = _load_chart(path)
+        df = load_chart(path)
         if df.empty:
             continue
         yield chart_id, entry, df.join(_assign_origin(df, _candidates(df, clean)))
@@ -250,10 +252,12 @@ def summarize_study(study_dir: Path) -> tuple[str, list[list[str]]]:
     notes = _trend_notes(study_dir)
     for chart_id, entry, df in iter_chart_frames(study_dir):
         yearly = df["date"].str.endswith("-01-01").all()
+        allowed = chartkinds.allowed_kinds(chartkinds.shape_of(df), composition=bool(entry.get("composition")))
         lines += [
             f"## {chart_id}",
             "",
             f"{entry.get('title_pt', '')} | axis: {entry.get('axis', '')} | rows: {len(df)} | {df['date'].min()} to {df['date'].max()}",
+            f"chart kind: {entry.get('kind') or 'not declared'} | allowed: {', '.join(allowed)}",
             "",
         ]
         groups = sorted(df.groupby(SERIES_KEYS, sort=False), key=lambda kv: _priority(kv[0]))

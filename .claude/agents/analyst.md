@@ -30,6 +30,14 @@ Para cada pergunta de `plan.md`:
    vem (sem ele, séries com valores iguais ficam ambíguas). Mantém a coluna `source_id` do parquet
    ao filtrar e transformar; numa série calculada por ti (taxa, diferença), usa o `source_id` da
    fonte principal. O `common.checks` da fase 4 rejeita JSON sem a chave `source_id`.
+   **Um JSON por gráfico** (uma ideia por gráfico), e em `register_chart` indica sempre `kind` (um de
+   `common/chartkinds.py`: `line`, `small_multiples`, `ranking`, `grouped_bars`, `stacked_bars`,
+   `stacked_area`, `slope`, `dumbbell`, `scatter`, `heatmap`, `table`) e `why` (uma frase a justificar a
+   escolha para esta pergunta). Se as séries são partes de um todo (quotas que somam), `composition=True`.
+   Corre `uv run python -m common.chartkinds <slug>` para ver que tipos servem a cada JSON: o código
+   recusa, por exemplo, linhas com menos de 6 pontos ou mais de 8 séries (usa `small_multiples`), barras
+   empilhadas sem `composition`, ou `scatter` sem dois indicadores com pontos suficientes em comum. Em
+   vez de usar sempre linhas, escolhe o tipo pela pergunta (ver a tabela do `writer.md`).
 4. Corre o script (`uv run python studies/<slug>/analysis/<axis>.py`) e confirma que não
    falha antes de passar à pergunta seguinte. Imprime só o essencial (valores-chave), não
    tabelas inteiras.

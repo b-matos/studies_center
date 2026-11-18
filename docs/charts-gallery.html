@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Chart catalogue (synthetic data)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { margin: 0; font-family: Inter, system-ui, sans-serif; color: #1c1917; background: #fafaf9; }
+  main { max-width: 980px; margin: 0 auto; padding: 24px 24px 64px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 17px; margin: 36px 0 2px; }
+  p.note { margin: 0 0 8px; color: #57534e; font-size: 14px; }
+  details.chart-data summary { cursor: pointer; font-size: 13px; color: #0f766e; margin-top: 4px; }
+  table.accessible-data { font-size: 12px; border-collapse: collapse; margin-top: 6px; }
+  table.accessible-data th, table.accessible-data td { border: 1px solid #e7e5e4; padding: 2px 8px; }
+  .chart-hint { font-size: 12px; color: #78716c; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Chart catalogue</h1>
+  <p class="note">Every kind in <code>site/assets/charts.js</code>, with synthetic data (not real figures). Serve the repository root, e.g.
+  <code>python -m http.server</code>, and open <code>/docs/charts-gallery.html</code>.</p>
+  <div id="root"></div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@2.35.2/plotly.min.js"></script>
+<script type="module">
+import * as C from "../site/assets/charts.js";
+
+const row = (region, year, value, extra = {}) => ({ date: `${year}-01-01`, region, sex: "T", age: "", indicator: "x", value: Math.round(value * 10) / 10, unit: "%", ...extra });
+const years = Array.from({ length: 16 }, (_, i) => 2008 + i);
+const regions = ["Norte", "Centro", "Lisboa", "Alentejo", "Algarve", "Açores", "Madeira"];
+const wave = (i, j) => 20 + j * 4 + i * 0.6 + Math.sin(i / 2 + j) * 2;
+const long = regions.flatMap((r, j) => years.map((y, i) => row(r, y, wave(i, j))));
+const few = ["Portugal", "UE-27"].flatMap((r, j) => years.map((y, i) => row(r, y, 30 + j * 3 + i * 0.5)));
+const shares = ["A", "B", "C", "D"].flatMap((r, j) => years.map((y, i) => row(r, y, [40, 30, 20, 10][j] + (j === 0 ? -i * 0.6 : i * 0.2))));
+const bars = ["Portugal", "UE-27", "Espanha"].flatMap((r, j) => [2010, 2015, 2020].map((y, i) => row(r, y, 20 + j * 4 + i * 3)));
+const pair = regions.flatMap((r, j) => years.flatMap((y, i) => [row(r, y, wave(i, j), { indicator: "u" }), row(r, y, 60 - wave(i, j) * 0.8 + j, { indicator: "v" })]));
+const one = regions.map((r, j) => row(r, 2023, 20 + j * 3));
+
+const demos = [
+  ["line", "timeSeries", () => C.timeSeries(Plotly, few, { yTitle: "%", alt: "Two lines over time", lang: "en", events: [{ start_date: "2012-01-01", grade: "C", scope: "PT", title_en: "Example event", title_pt: "Evento", primary_source_url: "https://example.org" }] })],
+  ["small_multiples", "smallMultiples", () => C.smallMultiples(Plotly, long, { alt: "One panel per region", lang: "en" })],
+  ["ranking", "ranking", () => C.ranking(Plotly, one, { xTitle: "%", alt: "Regions ranked", lang: "en" })],
+  ["grouped_bars", "groupedBars", () => C.groupedBars(Plotly, bars, { yTitle: "%", alt: "Grouped bars", lang: "en" })],
+  ["stacked_bars", "stackedBars", () => C.stackedBars(Plotly, shares.filter((d) => [2008, 2015, 2023].some((y) => d.date.startsWith(y))), { yTitle: "%", alt: "Stacked bars", lang: "en" })],
+  ["stacked_area", "stackedArea", () => C.stackedArea(Plotly, shares, { yTitle: "%", alt: "Stacked area", lang: "en" })],
+  ["slope", "slope", () => C.slope(Plotly, few.concat(["Espanha"].flatMap((r) => years.map((y, i) => row(r, y, 26 + i * 0.8)))), { yTitle: "%", alt: "Before and after", lang: "en" })],
+  ["dumbbell", "dumbbell", () => C.dumbbell(Plotly, long.filter((d) => ["2008-01-01", "2023-01-01"].includes(d.date)), { xTitle: "%", alt: "Two dates per region", lang: "en" })],
+  ["scatter", "scatter", () => C.scatter(Plotly, pair, { xTitle: "Indicator u", yTitle: "Indicator v", alt: "Two indicators", lang: "en" })],
+  ["heatmap", "heatmap", () => C.heatmap(Plotly, long, { alt: "Region by year", lang: "en" })],
+];
+const root = document.getElementById("root");
+for (const [kind, fn, build] of demos) {
+  const h = document.createElement("h2"); h.textContent = `${kind} → ${fn}`; root.appendChild(h);
+  try { root.appendChild(build()); } catch (e) { const p = document.createElement("p"); p.textContent = "ERROR " + e.message; p.style.color = "#b91c1c"; root.appendChild(p); console.error(kind, e); }
+}
+</script>
+</body>
+</html>
