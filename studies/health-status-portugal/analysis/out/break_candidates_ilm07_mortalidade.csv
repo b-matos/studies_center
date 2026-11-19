@@ -1,11 +1,13 @@
 series,date,type,magnitude,method,rel
-infant_mortality_EU,1971-01-01,level,-21.9011,ruptures.Pelt(l2),2.2114557835496313
-infant_mortality_EU,1991-01-01,level,-16.2304,ruptures.Pelt(l2),1.6388572443871658
-infant_mortality_Portugal,1975-01-01,level,-51.7113,ruptures.Pelt(l2),2.1364299079027917
-infant_mortality_Portugal,1961-01-01,peak,11.8,robust_zscore(median/MAD),0.48751156251858924
-infant_mortality_Portugal,1962-01-01,peak,-9.7,robust_zscore(median/MAD),0.4007510302059592
-infant_mortality_Portugal,1972-01-01,peak,-10.0,robust_zscore(median/MAD),0.41314539196490624
-infant_mortality_Portugal,1974-01-01,peak,-6.4,robust_zscore(median/MAD),0.26441305085753997
-neonatal_mortality_Portugal,1980-01-01,level,-18.4172,ruptures.Pelt(l2),1.9746129873379465
-neonatal_mortality_Portugal,1972-01-01,peak,-3.55,robust_zscore(median/MAD),0.3806152752281826
-perinatal_mortality_Portugal,1985-01-01,level,-25.7655,ruptures.Pelt(l2),1.8702481489499883
+infant_mortality_EU,1965-01-01,slope,1.642,ruptures.Pelt(l2) on first differences,0.1658
+infant_mortality_EU,1995-01-01,slope,0.6942,ruptures.Pelt(l2) on first differences,0.0701
+infant_mortality_Portugal,1984-01-01,slope,2.5536,ruptures.Pelt(l2) on first differences,0.1055
+infant_mortality_Portugal,1961-01-01,peak,11.7997,robust_zscore(median/MAD),0.4875
+infant_mortality_Portugal,1962-01-01,level,-10.0497,robust_zscore(diff) + persistence,0.4152
+infant_mortality_Portugal,1972-01-01,level,-14.0992,robust_zscore(diff) + persistence,0.5825
+infant_mortality_Portugal,1974-01-01,level,-6.9007,robust_zscore(diff) + persistence,0.2851
+neonatal_mortality_Portugal,1967-01-01,level,5.1196,trend+step regression (F-test),0.5489
+neonatal_mortality_Portugal,1994-01-01,slope,0.6492,ruptures.Pelt(l2) on first differences,0.0696
+neonatal_mortality_Portugal,1972-01-01,level,-3.3997,robust_zscore(diff) + persistence,0.3645
+perinatal_mortality_Portugal,1967-01-01,level,8.5952,trend+step regression (F-test),0.6239
+perinatal_mortality_Portugal,1997-01-01,slope,0.8858,ruptures.Pelt(l2) on first differences,0.0643

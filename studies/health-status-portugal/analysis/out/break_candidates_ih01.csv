@@ -1,0 +1,7 @@
+indicator,sex,age,date,type,magnitude,method
+chronic_condition_share,H,65 e mais anos,2015-01-01,level,4.4723,trend+step regression (F-test)
+chronic_condition_share,HM,,2013-01-01,level,4.2818,trend+step regression (F-test)
+chronic_condition_share,HM,16 - 64 anos,2013-01-01,level,4.3576,trend+step regression (F-test)
+chronic_condition_share,HM,65 e mais anos,2013-01-01,level,3.7815,trend+step regression (F-test)
+chronic_condition_share,M,,2013-01-01,level,4.1972,trend+step regression (F-test)
+chronic_condition_share,M,16 - 64 anos,2013-01-01,level,4.6018,trend+step regression (F-test)

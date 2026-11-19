@@ -1,6 +1,6 @@
 series,date,type,magnitude,method,rel
-premature_30_70_HM,2007-01-01,level,-47.1344,ruptures.Pelt(l2),1.9767992747370122
-premature_30_70_HM,2004-01-01,peak,-21.7,robust_zscore(median/MAD),0.9100891029351954
-premature_30_70_HM,2006-01-01,peak,-21.8,robust_zscore(median/MAD),0.9142830619348953
-premature_30_70_HM,2020-01-01,peak,-28.0,robust_zscore(median/MAD),1.1743085199163787
-premature_30_70_HM,2021-01-01,peak,20.9,robust_zscore(median/MAD),0.8765374309375817
+premature_30_70_HM,2014-01-01,level,38.6699,trend+step regression (F-test),1.6218
+premature_30_70_HM,2004-01-01,level,-41.2999,robust_zscore(diff) + persistence,1.7321
+premature_30_70_HM,2006-01-01,level,-39.9002,robust_zscore(diff) + persistence,1.6733999999999998
+premature_30_70_HM,2020-01-01,peak,-27.9998,robust_zscore(median/MAD),1.1743
+premature_30_70_HM,2021-01-01,peak,20.8991,robust_zscore(median/MAD),0.8765

@@ -1,1 +1,4 @@
-
+series,date,type,magnitude,method,rel
+suicide_HM_PT_all_ages,2005-01-01,level,-3.3139,trend+step regression (F-test),3.6578
+suicide_H_PT_all_ages,2005-01-01,level,-5.3106,trend+step regression (F-test),3.7167
+suicide_H_PT_all_ages,2016-01-01,level,-2.6262,trend+step regression (F-test),1.8380000000000003

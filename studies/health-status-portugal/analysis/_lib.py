@@ -23,6 +23,39 @@ EU = "European Union (27)"
 PT = "Portugal"
 
 
+SM = ("small_multiples", "Várias séries com escalas e unidades diferentes: um painel por série evita sobrepor linhas.")
+CHART_KINDS: dict[str, tuple[str, str]] = {
+    "q01_life_expectancy": SM,
+    "q01_life_expectancy_regions": SM,
+    "q02_healthy_life_years": ("ranking", "Compara Portugal com os Estados-Membros num indicador e ano, ordenados."),
+    "q03_causes_pt_eu": ("ranking", "Compara taxas padronizadas por causa entre Portugal e a UE-27, ordenadas."),
+    "q03_causes_regions": ("heatmap", "Região por causa de morte: o contraste de níveis lê-se melhor em cor."),
+    "q03_causes_regions_2024": ("table", "Poucas regiões NUTS 2024 e causas; os valores exatos importam mais que a forma."),
+    "q03_premature_mortality": ("line", "Uma série temporal contínua com poucas curvas (sexos)."),
+    "q04_avoidable_mortality": SM,
+    "q04_infant_mortality": ("line", "Série longa desde 1960 com poucas curvas (Portugal e UE)."),
+    "q04_infant_mortality_regions": ("heatmap", "Região por período: mostra onde e quando a taxa é mais alta (unidades pequenas, taxas instáveis)."),
+    "q06_chronic_condition": SM,
+    "q06_chronic_condition_regions": ("ranking", "Ordena as regiões pela proporção com doença crónica no último ano."),
+    "q06_self_perceived_health_eu": ("table", "Muitas combinações de nível, idade e país: tabela para consulta."),
+    "q06_self_rated_health_ine": ("dumbbell", "Compara o primeiro e o último ano da saúde autoavaliada por grupo."),
+    "q07_alcohol": ("table", "Apenas três vagas do inquérito (2014, 2019, 2025): poucos pontos para linhas."),
+    "q07_bmi": ("table", "Apenas três vagas do inquérito: poucos pontos para linhas."),
+    "q07_daily_smokers_regions": ("ranking", "Ordena as regiões pela proporção de fumadores diários."),
+    "q07_tobacco": ("table", "Apenas três vagas do inquérito: poucos pontos para linhas."),
+    "q08_depressive_symptoms": ("table", "Apenas três vagas do inquérito: poucos pontos para linhas."),
+    "q08_suicide": ("heatmap", "Taxa por sexo e idade ao longo dos anos, muitas séries curtas."),
+    "q09_unmet_dental": ("table", "Muitas combinações de país, rendimento e motivo: tabela para consulta."),
+    "q09_unmet_medical": ("table", "Muitas combinações de país, rendimento e motivo: tabela para consulta."),
+    "q09_unmet_poverty": ("table", "Combinações de quintil e motivo: tabela para consulta."),
+    "q10_expenditure_by_function": SM,
+    "q10_health_expenditure": SM,
+    "q10_health_personnel": ("line", "Séries longas de poucos grupos profissionais."),
+    "q10_hospital_beds": ("line", "Série longa de Portugal e UE em camas por 100 mil habitantes."),
+    "q10_resources_regions": SM,
+}
+
+
 def load(source_id: str) -> pd.DataFrame:
     df = pd.read_parquet(CLEAN / f"{source_id}.parquet")
     df["date"] = pd.to_datetime(df["date"])
@@ -46,7 +79,9 @@ def export(df: pd.DataFrame, name: str, axis: str, title_pt: str, title_en: str,
     text_cols = ["region", "sex", "age", "indicator", "unit", "source_id"]
     out[text_cols] = out[text_cols].astype(object).fillna("")
     export_series_json(out, OUT / f"{name}.json")
-    register_chart(STUDY, chart_id=name, data_file=f"{name}.json", axis=axis, title_pt=title_pt, title_en=title_en)
+    kind, why = CHART_KINDS[name]
+    register_chart(STUDY, chart_id=name, data_file=f"{name}.json", axis=axis, title_pt=title_pt, title_en=title_en,
+                   kind=kind, why=why)
     print(f"chart {name}: {len(out)} rows")
 
 
@@ -84,9 +119,9 @@ def find_breaks(series: dict[str, pd.DataFrame], axis: str, source_id: str, *, l
     rows = []
     for _, c in cand.iterrows():
         dates, v, sd = raw[c["series"]]
-        i = int(dates[dates == pd.Timestamp(c["date"])].index[0])
-        mag = _recompute(v, i, c["type"]) if 0 < i < len(v) else float(c["magnitude"])
-        rows.append({**c.to_dict(), "magnitude": round(mag, 4), "rel": abs(mag) / sd if c["type"] != "slope" else abs(mag) / sd})
+        # the detector ran on z-scored values: convert its magnitude (step vs trend, slope change, jump) back to the unit
+        mag = float(c["magnitude"]) * sd
+        rows.append({**c.to_dict(), "magnitude": round(mag, 4), "rel": abs(mag) / sd})
     cand = pd.DataFrame(rows)
     OUT.mkdir(parents=True, exist_ok=True)
     cand.to_csv(OUT / f"break_candidates_{source_id}_{axis}.csv", index=False)

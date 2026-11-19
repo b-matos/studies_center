@@ -1,3 +1,2 @@
 series,date,type,magnitude,method,rel
-bad_health_HM_16+,2019-01-01,level,-5.3,ruptures.Pelt(l2),1.8232264511393241
-good_health_HM_16+,2019-01-01,level,3.6467,ruptures.Pelt(l2),1.6598695689876486
+good_health_HM_16+,2013-01-01,level,-3.9354,trend+step regression (F-test),1.7913

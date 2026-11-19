@@ -20,3 +20,6 @@ Três unidades (`ine-life-mortality`, `ine-health`, `eurostat-access`) registada
 
 ## Fase 7 (verificação)
 `common.verify --apply` deixou 18 afirmações por resolver; o `verifier` falhou-as todas. Nove da OMS tinham o URL `/pt/` com excerto em inglês: o `writer` passou para o URL em inglês e `common.verify` confirmou-as. Nove do Diário da República (páginas JavaScript, sem texto estático; Lei 63/2017 e Portaria 430/2023 não correspondiam ao evento) não tinham fonte alternativa verificável: o `writer` removeu-as e acrescentou uma nota de omissão nos dois relatórios. Consequência: as ligações a esses eventos deixam de estar descritas no relatório. `complete-phase 7` passou à primeira volta.
+
+## Fase 4 (refeita, 2026-11-19)
+Análise refeita com o detetor corrigido (tendência+degrau, teste F). `breaks.csv` com 28 quebras curadas (as 51 antigas foram descartadas); gráficos e scripts regenerados; `complete-phase 4` passou. Séries de inquérito: ih01 tem degrau real mas em 2013 (rampa 2011–2015), ih03 desce em 2013 e recupera, eac10 cai em 2014; sem quebra em 2018/2019 (ih01, ih03, eac16). Atenção: voltar a correr os scripts reescreve `breaks.csv` e perde a curadoria. Seguem-se as fases 5 a 7, que dependem das quebras novas.
