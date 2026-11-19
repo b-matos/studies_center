@@ -23,3 +23,6 @@ Três unidades (`ine-life-mortality`, `ine-health`, `eurostat-access`) registada
 
 ## Fase 4 (refeita, 2026-11-19)
 Análise refeita com o detetor corrigido (tendência+degrau, teste F). `breaks.csv` com 28 quebras curadas (as 51 antigas foram descartadas); gráficos e scripts regenerados; `complete-phase 4` passou. Séries de inquérito: ih01 tem degrau real mas em 2013 (rampa 2011–2015), ih03 desce em 2013 e recupera, eac10 cai em 2014; sem quebra em 2018/2019 (ih01, ih03, eac16). Atenção: voltar a correr os scripts reescreve `breaks.csv` e perde a curadoria. Seguem-se as fases 5 a 7, que dependem das quebras novas.
+
+## Fase 5 (refeita, 2026-11-19)
+`event_links.csv` refeito sobre as 29 quebras novas (35 linhas): 12 ligadas em grau C, 17 sem evento; nenhuma A/B. Quebras de inquérito (ih01, ih03, eac16) ligadas ao Memorando em C, com a nota de que o artefacto de método não está excluído. `common.verify events` confirmou 4 eventos; 3 por confirmar (gripe 2014/15, Lei do SNS, saúde oral), portanto não podem ser citados. `complete-phase 5` passou.
