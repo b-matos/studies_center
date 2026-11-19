@@ -78,4 +78,8 @@ rejects each kind of bad output: a grader that cannot fail is worse than none.
   allows break points at multiples of 5 from the start of the series, so every PELT level shift and slope change was dated up to two
   years off. Penalties also depended on the unit of the series (a rate in the hundreds produced ten breaks, a share below one
   produced none), a persistent jump was labelled a `peak`, and a steady trend produced evenly spaced fake level shifts. Now `jump=1`,
-  scale-free penalties, a persistent jump is a `level` and one that reverts a `peak`, and level shifts are the persistent jumps.
+  scale-free penalties, a persistent jump is a `level` and one that reverts a `peak`. Level shifts then moved off PELT altogether to a
+  `trend + step` regression (`detect_level_shifts_vs_trend`): a parabola plus a step must beat the parabola by an F-test (p<0.001) and the
+  step must be at least 15% of the series range. On synthetic series: real steps and ramps found 100%, saturating curves 0/300 false
+  alarms, pure noise about 2%. On the 26 228 series of `health-status-portugal`: 10% get a level shift. The survey series now break in
+  2013 (not 2014/2019, which were the 5-year grid).

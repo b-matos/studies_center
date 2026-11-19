@@ -81,3 +81,49 @@ def test_a_steady_trend_alone_no_longer_produces_evenly_spaced_level_shifts() ->
     years = list(range(2000, 2024))
     df = pd.DataFrame({"date": pd.to_datetime([f"{y}-01-01" for y in years]), "region": "Portugal", "sex": "T", "value": [500 - 4 * i for i in range(len(years))]})
     assert detect_for_frame(df, group_by=["region", "sex"]).query("type == 'level'").empty
+
+
+def _yearly(values) -> tuple[pd.Series, pd.Series]:
+    dates = pd.Series(pd.to_datetime([f"{2000 + i}-01-01" for i in range(len(values))]))
+    return dates, pd.Series(np.asarray(values, dtype=float))
+
+
+def test_level_shift_regression_finds_a_step_on_a_trend_at_the_right_year() -> None:
+    from common.breaks import detect_level_shifts_vs_trend
+
+    rng = np.random.default_rng(1)
+    steps = detect_level_shifts_vs_trend(*_yearly(520 - 4 * np.arange(24) - np.where(np.arange(24) >= 12, 60, 0) + rng.normal(0, 3, 24)))
+    assert [c.date.year for c in steps] == [2012]
+    assert steps[0].magnitude < 0
+
+
+def test_level_shift_regression_finds_the_ramp_between_two_plateaus() -> None:
+    from common.breaks import detect_level_shifts_vs_trend
+
+    rng = np.random.default_rng(2)
+    ramp = np.interp(np.arange(24), [0, 11, 15, 23], [33, 34, 43, 44]) + rng.normal(0, 0.8, 24)
+    years = [c.date.year for c in detect_level_shifts_vs_trend(*_yearly(ramp))]
+    assert years and all(2011 <= y <= 2015 for y in years)
+
+
+def test_level_shift_regression_ignores_trends_curves_and_noise() -> None:
+    from common.breaks import detect_level_shifts_vs_trend
+
+    rng = np.random.default_rng(3)
+    quiet = {
+        "steep clean trend": 500 - 20.0 * np.arange(24),
+        "noisy trend": 100 - 3 * np.arange(24) + rng.normal(0, 3, 24),
+        "saturating curve": 70 + 12 * (1 - np.exp(-np.arange(24) / 8)) + rng.normal(0, 0.25, 24),
+    }
+    for name, values in quiet.items():
+        assert detect_level_shifts_vs_trend(*_yearly(values)) == [], name
+    false_alarms = sum(bool(detect_level_shifts_vs_trend(*_yearly(100 + rng.normal(0, 3, 24)))) for _ in range(200))
+    assert false_alarms <= 8, f"{false_alarms}/200 pure-noise series got a level shift"
+
+
+def test_the_break_years_are_not_quantised_to_the_pelt_grid() -> None:
+    from common.breaks import detect_level_shifts_vs_trend
+
+    for year in (2003, 2007, 2011, 2013, 2017):
+        values = np.where(np.arange(24) >= year - 2000, 20.0, 10.0)
+        assert [c.date.year for c in detect_level_shifts_vs_trend(*_yearly(values))] == [year]

@@ -122,6 +122,65 @@ PERSISTENCE_MIN_AFTER = 2  # points that must follow the jump
 PERSISTENCE_SHARE = 0.6  # the level after must keep at least this share of the jump to count as a level shift
 
 
+LEVEL_ALPHA = 0.001  # p-value a level shift must beat against "just a straight line" (strict: every position is tried)
+TREND_DEGREE = 2  # the trend a step must beat: a parabola, so that smooth curves (saturating gains) are not read as steps
+MIN_STEP_SHARE = 0.15  # a step must also be at least this share of the series range (the F-test alone flags tiny steps in clean series)
+MIN_SIDE = 3  # points on each side of a level shift
+MAX_LEVEL_BREAKS = 3
+MIN_POINTS_FOR_SEGMENT = 8
+
+
+def _design(t: np.ndarray, k: int | None, degree: int = 1) -> np.ndarray:
+    columns = [t ** d for d in range(degree + 1)]
+    if k is not None:
+        columns.append((np.arange(len(t)) >= k).astype(float))
+    return np.column_stack(columns)
+
+
+def _sum_squares(y: np.ndarray, design: np.ndarray) -> tuple[float, np.ndarray]:
+    coef, *_ = np.linalg.lstsq(design, y, rcond=None)
+    resid = y - design @ coef
+    return float(resid @ resid), coef
+
+
+def detect_level_shifts_vs_trend(dates: pd.Series, values: pd.Series, *, alpha: float = LEVEL_ALPHA, degree: int = TREND_DEGREE, min_step_share: float = MIN_STEP_SHARE) -> list[CandidateBreak]:
+    """Level shifts that a straight line cannot explain, found by binary segmentation.
+
+    For each candidate position the series is fitted as `trend + step`; the best position is kept only if that beats the plain
+    straight line by an F-test at `alpha`. A steady trend (however steep) is fitted by the line, so it produces nothing, while a
+    jump or a ramp between two plateaus, which the line cannot follow, produces one break. The same test is then applied to
+    each side. It replaces PELT on the mean, which reads any trend as a string of fake shifts."""
+    from scipy import stats
+
+    ds, vs = _as_series(dates, values)
+    found: list[tuple[int, float]] = []
+
+    def search(lo: int, hi: int, depth: int) -> None:
+        n = hi - lo
+        if n < MIN_POINTS_FOR_SEGMENT or depth > MAX_LEVEL_BREAKS or len(found) >= MAX_LEVEL_BREAKS:
+            return
+        y, t = vs[lo:hi], np.arange(n, dtype=float)
+        ss_line, _ = _sum_squares(y, _design(t, None, degree))
+        best_k, best_ss, best_coef = None, ss_line, None
+        for k in range(MIN_SIDE, n - MIN_SIDE + 1):
+            ss, coef = _sum_squares(y, _design(t, k, degree))
+            if ss < best_ss:
+                best_k, best_ss, best_coef = k, ss, coef
+        if best_k is None or best_ss <= 1e-12 * max(ss_line, 1.0) and ss_line <= 1e-9:
+            return
+        f_stat = (ss_line - best_ss) / max(best_ss / (n - degree - 2), 1e-12)
+        if stats.f.sf(f_stat, 1, n - degree - 2) >= alpha:
+            return
+        if abs(best_coef[-1]) < min_step_share * float(np.ptp(vs)):
+            return
+        found.append((lo + best_k, float(best_coef[-1])))
+        search(lo, lo + best_k, depth + 1)
+        search(lo + best_k, hi, depth + 1)
+
+    search(0, len(vs), 0)
+    return [CandidateBreak(date=ds[k], type="level", magnitude=m, method="trend+step regression (F-test)") for k, m in sorted(found)]
+
+
 def _label_persistent_jumps(spikes: list[CandidateBreak], dates: pd.Series, values: pd.Series) -> list[CandidateBreak]:
     """A year-over-year jump that stays is a level shift, one that reverts is a peak. The spike detector sees both as one big
     difference; the two mean different things for the report, so the label must say which."""
@@ -146,7 +205,8 @@ def detect_for_frame(
     df: pd.DataFrame,
     *,
     group_by: list[str],
-    level_penalty: float = LEVEL_PENALTY,  # kept for the CLI; see below
+    level_penalty: float | None = None,  # ignored: level shifts use `level_alpha` now; kept so older scripts still call it
+    level_alpha: float = LEVEL_ALPHA,
     slope_penalty: float = SLOPE_PENALTY,
     spike_z: float = 3.5,
 ) -> pd.DataFrame:
@@ -154,10 +214,11 @@ def detect_for_frame(
 
     Spikes are looked for in the year-over-year differences, where a one-off shock (e.g. 2020)
     stands out even when the level series is monotone; a big difference that persists is labelled a
-    `level` shift, one that reverts a `peak`. Level shifts are exactly these persistent jumps: PELT on the
-    level reads a steady trend as a string of fake mean shifts, so it is not used here (`detect_level_shifts`
-    stays available for series without a trend). Slope changes use PELT on the first differences; penalties
-    are scale-free (the series are standardised). The analyst reviews this table and
+    `level` shift, one that reverts a `peak`. Level shifts also come from `detect_level_shifts_vs_trend`: a
+    `trend + step` fit that must beat a straight line by an F-test, so a steady trend yields nothing while a jump or a
+    ramp between two plateaus does. (PELT on the mean read any trend as a string of fake shifts, so it is not used
+    here; `detect_level_shifts` stays for series without a trend.) Slope changes use PELT on the first differences;
+    its penalty is scale-free (the series are standardised). The analyst reviews this table and
     records the breaks worth keeping in breaks.csv; nothing here is written automatically.
     """
     rows = []
@@ -166,10 +227,11 @@ def detect_for_frame(
         group = group.sort_values("date")
         dates, values = group["date"], group["value"]
         spikes = detect_spikes(dates.iloc[1:], values.diff().iloc[1:], z_threshold=spike_z)
-        found = [
-            *detect_slope_changes(dates, values, penalty=slope_penalty),
-            *_label_persistent_jumps(spikes, dates, values),
-        ]
+        jumps = _label_persistent_jumps(spikes, dates, values)
+        steps = detect_level_shifts_vs_trend(dates, values, alpha=level_alpha)
+        # a one-year jump is found by both detectors: keep the regression's estimate, drop the duplicate
+        jumps = [j for j in jumps if not (j.type == "level" and any(abs((j.date - st.date).days) <= 366 for st in steps))]
+        found = [*steps, *detect_slope_changes(dates, values, penalty=slope_penalty), *jumps]
         for c in found:
             rows.append({**dict(zip(group_by, key, strict=True)), "date": c.date.isoformat(),
                          "type": c.type, "magnitude": round(c.magnitude, 4), "method": c.method})
@@ -178,7 +240,7 @@ def detect_for_frame(
 
 def main() -> int:
     """uv run python -m common.breaks <slug> <source_id> [--by region,sex] [--out f.csv]
-    [--level-penalty 8] [--slope-penalty 8] [--spike-z 3.5]"""
+    [--level-alpha 0.001] [--slope-penalty 8] [--spike-z 3.5]"""
     import sys
 
     from common.checks import STUDIES_ROOT
@@ -196,7 +258,7 @@ def main() -> int:
         return float(args[args.index(name) + 1]) if name in args else default
 
     table = detect_for_frame(
-        df, group_by=by, level_penalty=flag("--level-penalty", LEVEL_PENALTY),
+        df, group_by=by, level_alpha=flag("--level-alpha", LEVEL_ALPHA),
         slope_penalty=flag("--slope-penalty", SLOPE_PENALTY), spike_z=flag("--spike-z", 3.5),
     )
     out = Path(args[args.index("--out") + 1]) if "--out" in args else study_dir / "analysis" / "out" / f"break_candidates_{source_id}.csv"
