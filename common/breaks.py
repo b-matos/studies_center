@@ -19,6 +19,13 @@ import pandas as pd
 import ruptures as rpt
 
 MIN_POINTS_FOR_BREAK_DETECTION = 8
+LEVEL_PENALTY = 8.0  # on the standardised series (variance 1): a split must explain this much of the squared error
+SLOPE_PENALTY = 8.0
+
+
+def _standardised(x: np.ndarray) -> np.ndarray:
+    sd = float(np.std(x))
+    return x / sd if sd > 0 else x
 
 
 @dataclass
@@ -34,11 +41,13 @@ def _as_series(dates: pd.Series, values: pd.Series) -> tuple[list[dt.date], np.n
     return list(ordered["date"].dt.date), ordered["value"].to_numpy(dtype=float)
 
 
-def detect_level_shifts(dates: pd.Series, values: pd.Series, *, penalty: float = 3.0) -> list[CandidateBreak]:
+def detect_level_shifts(dates: pd.Series, values: pd.Series, *, penalty: float = LEVEL_PENALTY) -> list[CandidateBreak]:
     ds, vs = _as_series(dates, values)
     if len(vs) < MIN_POINTS_FOR_BREAK_DETECTION:
         return []
-    algo = rpt.Pelt(model="l2").fit(vs.reshape(-1, 1))
+    # jump=1: ruptures' default (jump=5) only allows break points at multiples of 5, which misdates every shift by up to two years.
+    # The series is standardised so `penalty` means the same for a rate in the hundreds and a share below one.
+    algo = rpt.Pelt(model="l2", min_size=2, jump=1).fit(_standardised(vs).reshape(-1, 1))
     bkps = algo.predict(pen=penalty)
     out = []
     for bkp in bkps[:-1]:  # last breakpoint from ruptures is always len(series)
@@ -48,7 +57,7 @@ def detect_level_shifts(dates: pd.Series, values: pd.Series, *, penalty: float =
     return out
 
 
-def detect_slope_changes(dates: pd.Series, values: pd.Series, *, penalty: float = 3.0) -> list[CandidateBreak]:
+def detect_slope_changes(dates: pd.Series, values: pd.Series, *, penalty: float = SLOPE_PENALTY) -> list[CandidateBreak]:
     """A slope change shows up as a level shift in the first-differenced series, which is
     a more numerically stable detector than fitting ruptures' linear-cost model directly
     on a single short series."""
@@ -56,7 +65,7 @@ def detect_slope_changes(dates: pd.Series, values: pd.Series, *, penalty: float 
     if len(vs) < MIN_POINTS_FOR_BREAK_DETECTION:
         return []
     diffs = np.diff(vs)
-    algo = rpt.Pelt(model="l2").fit(diffs.reshape(-1, 1))
+    algo = rpt.Pelt(model="l2", min_size=2, jump=1).fit(_standardised(diffs).reshape(-1, 1))
     bkps = algo.predict(pen=penalty)
     out = []
     for bkp in bkps[:-1]:
@@ -108,18 +117,47 @@ def detect_all(dates: pd.Series, values: pd.Series) -> list[CandidateBreak]:
     ]
 
 
+PERSISTENCE_WINDOW = 3  # points on each side used to tell a lasting step from a spike that reverts
+PERSISTENCE_MIN_AFTER = 2  # points that must follow the jump
+PERSISTENCE_SHARE = 0.6  # the level after must keep at least this share of the jump to count as a level shift
+
+
+def _label_persistent_jumps(spikes: list[CandidateBreak], dates: pd.Series, values: pd.Series) -> list[CandidateBreak]:
+    """A year-over-year jump that stays is a level shift, one that reverts is a peak. The spike detector sees both as one big
+    difference; the two mean different things for the report, so the label must say which."""
+    ds, vs = _as_series(dates, values)
+    index = {d: i for i, d in enumerate(ds)}
+    out = []
+    for c in spikes:
+        i = index.get(c.date)
+        if i is None or i < 2 or i > len(vs) - PERSISTENCE_MIN_AFTER:  # too close to an edge to tell a step from noise
+            out.append(c)
+            continue
+        before = float(np.median(vs[max(0, i - PERSISTENCE_WINDOW):i]))
+        after = float(np.median(vs[i:i + PERSISTENCE_WINDOW]))
+        jump = c.magnitude  # the year-over-year difference at i
+        lasting = abs(jump) > 0 and (after - before) * jump > 0 and abs(after - before) >= PERSISTENCE_SHARE * abs(jump)
+        out.append(CandidateBreak(date=c.date, type="level" if lasting else "peak", magnitude=float(after - before) if lasting else c.magnitude,
+                                  method="robust_zscore(diff) + persistence" if lasting else c.method))
+    return out
+
+
 def detect_for_frame(
     df: pd.DataFrame,
     *,
     group_by: list[str],
-    level_penalty: float = 20.0,
-    slope_penalty: float = 3.0,
+    level_penalty: float = LEVEL_PENALTY,  # kept for the CLI; see below
+    slope_penalty: float = SLOPE_PENALTY,
     spike_z: float = 3.5,
 ) -> pd.DataFrame:
     """Candidate breaks for every series (one per `group_by` combination) of a long-format frame.
 
     Spikes are looked for in the year-over-year differences, where a one-off shock (e.g. 2020)
-    stands out even when the level series is monotone. The analyst reviews this table and
+    stands out even when the level series is monotone; a big difference that persists is labelled a
+    `level` shift, one that reverts a `peak`. Level shifts are exactly these persistent jumps: PELT on the
+    level reads a steady trend as a string of fake mean shifts, so it is not used here (`detect_level_shifts`
+    stays available for series without a trend). Slope changes use PELT on the first differences; penalties
+    are scale-free (the series are standardised). The analyst reviews this table and
     records the breaks worth keeping in breaks.csv; nothing here is written automatically.
     """
     rows = []
@@ -127,10 +165,10 @@ def detect_for_frame(
         key = key if isinstance(key, tuple) else (key,)
         group = group.sort_values("date")
         dates, values = group["date"], group["value"]
+        spikes = detect_spikes(dates.iloc[1:], values.diff().iloc[1:], z_threshold=spike_z)
         found = [
-            *detect_level_shifts(dates, values, penalty=level_penalty),
             *detect_slope_changes(dates, values, penalty=slope_penalty),
-            *detect_spikes(dates.iloc[1:], values.diff().iloc[1:], z_threshold=spike_z),
+            *_label_persistent_jumps(spikes, dates, values),
         ]
         for c in found:
             rows.append({**dict(zip(group_by, key, strict=True)), "date": c.date.isoformat(),
@@ -140,7 +178,7 @@ def detect_for_frame(
 
 def main() -> int:
     """uv run python -m common.breaks <slug> <source_id> [--by region,sex] [--out f.csv]
-    [--level-penalty 20] [--slope-penalty 3] [--spike-z 3.5]"""
+    [--level-penalty 8] [--slope-penalty 8] [--spike-z 3.5]"""
     import sys
 
     from common.checks import STUDIES_ROOT
@@ -158,8 +196,8 @@ def main() -> int:
         return float(args[args.index(name) + 1]) if name in args else default
 
     table = detect_for_frame(
-        df, group_by=by, level_penalty=flag("--level-penalty", 20.0),
-        slope_penalty=flag("--slope-penalty", 3.0), spike_z=flag("--spike-z", 3.5),
+        df, group_by=by, level_penalty=flag("--level-penalty", LEVEL_PENALTY),
+        slope_penalty=flag("--slope-penalty", SLOPE_PENALTY), spike_z=flag("--spike-z", 3.5),
     )
     out = Path(args[args.index("--out") + 1]) if "--out" in args else study_dir / "analysis" / "out" / f"break_candidates_{source_id}.csv"
     out.parent.mkdir(parents=True, exist_ok=True)

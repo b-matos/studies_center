@@ -18,7 +18,7 @@ def study_dir(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
 
 def test_phase_1_requires_5_to_10_questions_with_axis_and_source(study_dir: Path) -> None:
     (study_dir / "plan.md").write_text(
-        "\n".join(f"{i}. Pergunta {i}? Eixo: mortalidade. Fonte candidata: INE." for i in range(1, 6)),
+        "\n".join(f"{i}. Pergunta {i}? Eixo: mortalidade. Fonte candidata: INE." for i in range(1, 6)) + "\n\n## Eixos\n\n- `mortalidade` — INE\n",
         encoding="utf-8",
     )
     ok, problems = checks.check_phase_1("test")
@@ -303,3 +303,29 @@ def test_digits_that_are_not_facts_are_not_flagged(line: str) -> None:
 ])
 def test_real_figures_outside_a_claim_are_still_flagged(line: str) -> None:
     assert checks._numbers_outside_claims(line), line
+
+
+QUESTIONS = "\n".join(f"{i}. Pergunta {i}? Eixo: {'mortalidade' if i < 4 else 'despesa'}. Fonte candidata: INE." for i in range(1, 6))
+
+
+def test_phase_1_axes_may_be_a_list_or_a_table(study_dir: Path) -> None:
+    for section in ("- `mortalidade` — INE\n- `despesa` — INE\n", "| Eixo | Organismo |\n|---|---|\n| `mortalidade` | INE |\n| despesa | INE |\n"):
+        (study_dir / "plan.md").write_text(f"{QUESTIONS}\n\n## Eixos\n\n{section}", encoding="utf-8")
+        ok, problems = checks.check_phase_1("test")
+        assert ok, problems
+        assert checks._plan_axes("test") == ["mortalidade", "despesa"]  # the table header is not an axis
+
+
+def test_phase_1_needs_the_axes_section_the_orchestrator_splits_phase_2_by(study_dir: Path) -> None:
+    (study_dir / "plan.md").write_text(QUESTIONS, encoding="utf-8")
+    ok, problems = checks.check_phase_1("test")
+    assert not ok and "## Eixos" in problems[0]
+    (study_dir / "plan.md").write_text(f"{QUESTIONS}\n\n## Eixos\n\nOs eixos são mortalidade e despesa, em texto corrido.\n", encoding="utf-8")
+    assert not checks.check_phase_1("test")[0], "prose is not a parsable axes list"
+
+
+def test_phase_1_questions_and_axes_must_agree(study_dir: Path) -> None:
+    (study_dir / "plan.md").write_text(f"{QUESTIONS}\n\n## Eixos\n\n- `mortalidade` — INE\n- `outro` — INE\n", encoding="utf-8")
+    ok, problems = checks.check_phase_1("test")
+    assert not ok
+    assert any("'despesa'" in p and "não está" in p for p in problems) and any("'outro'" in p and "nenhuma pergunta" in p for p in problems)

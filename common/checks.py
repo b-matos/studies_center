@@ -56,6 +56,13 @@ def check_phase_1(slug: str) -> tuple[bool, list[str]]:
             problems.append(f"pergunta {i} não indica um eixo")
         if "fonte" not in block.lower():
             problems.append(f"pergunta {i} não indica uma fonte candidata")
+    axes = _plan_axes(slug)
+    if not axes:
+        problems.append("plan.md não tem uma secção `## Eixos` com os eixos em lista (- `slug` — organismo): o orquestrador divide a fase 2 por ela")
+    else:
+        used = set(re.findall(r"[Ee]ixo[:*\s`]*\s*([a-z0-9]+(?:-[a-z0-9]+)*)", text.split("## Eixos")[0]))
+        problems += [f"as perguntas usam o eixo '{a}', que não está em `## Eixos`" for a in sorted(used - set(axes))]
+        problems += [f"o eixo '{a}' de `## Eixos` não tem nenhuma pergunta" for a in axes if a not in used]
     return not problems, problems
 
 
@@ -67,12 +74,17 @@ TRANSIENT_REASON = re.compile(
 
 
 def _plan_axes(slug: str) -> list[str]:
-    """Axis slugs listed under '## Eixos' in plan.md (lines like: - `axis-slug` — organisation)."""
+    """Axis slugs listed under '## Eixos' in plan.md: bullets (`- `axis-slug` — organisation`) or table rows
+    (`| `axis-slug` | organisation |`), the slug backticked or not."""
     plan = _study_dir(slug) / "plan.md"
     if not plan.exists():
         return []
     section = re.search(r"^## Eixos\s*\n(.*?)(?=^## |\Z)", plan.read_text(encoding="utf-8"), re.MULTILINE | re.DOTALL)
-    return re.findall(r"^\s*[-*]\s*`([a-z0-9-]+)`", section.group(1), re.MULTILINE) if section else []
+    if not section:
+        return []
+    axes = re.findall(r"^\s*[-*]\s*`([a-z0-9-]+)`", section.group(1), re.MULTILINE)
+    axes += re.findall(r"^\s*\|\s*`?([a-z0-9]+(?:-[a-z0-9]+)*)`?\s*\|", section.group(1), re.MULTILINE)
+    return [a for a in dict.fromkeys(axes) if a not in ("eixo", "axis")]  # table header cells are not axes
 
 
 def check_phase_2(slug: str) -> tuple[bool, list[str]]:

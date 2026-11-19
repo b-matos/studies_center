@@ -1,0 +1,24 @@
+# Four candidate sources behind a local server, each with a different right answer:
+#   f01 good (CC BY 4.0)           -> tested, with the real licence and coverage
+#   f02 dead (404)                 -> excluded, with a definitive reason
+#   f03 non-commercial licence     -> never passed off as tested with a permissive licence
+#   f04 unavailable (HTTP 503)     -> transient: no row at all, and the summary says to retry later
+cases:
+  - id: four_candidates
+    description: Registers tested, dead, non-commercial and transient sources the way the platform's rules demand.
+    fixture: {upto_phase: 1}
+    remove: ["studies/mini-eval/sources.csv", "studies/mini-eval/breaks.csv", "studies/mini-eval/analysis", "studies/mini-eval/data"]
+    serve: researcher_pages
+    deny: [WebSearch]
+    tools: [Read, Write, Edit, WebFetch]
+    timeout: 900
+    prompt: |
+      Fase 2, unidade `hospitalizacoes` do estudo `mini-eval` (pasta studies/mini-eval/). Já há quatro fontes candidatas num servidor
+      local; testa o acesso a cada uma (ids atribuídos pelo orquestrador) e regista-as em studies/mini-eval/sources.d/hospitalizacoes.csv
+      como o teu agente manda. A organização é "Instituto de Estatística Fictício"; os dados são de Portugal.
+        f01  http://127.0.0.1:{port}/ok.csv        (licença: http://127.0.0.1:{port}/ok-license.html)
+        f02  http://127.0.0.1:{port}/missing.csv
+        f03  http://127.0.0.1:{port}/nc.csv        (licença: http://127.0.0.1:{port}/nc-license.html)
+        f04  http://127.0.0.1:{port}/flaky.csv
+      Termina com um resumo de no máximo 150 palavras.
+    graders: [researcher_registers_each_candidate_correctly, summary_short, writes_only_own_files, not_published]

@@ -21,9 +21,21 @@ Escreves `studies/<slug>/plan.md` para o estudo pedido, e só esse ficheiro.
    comparações regionais/internacionais, desigualdades e, quando fizer sentido, o efeito de
    choques (crises, pandemias, mudanças de política).
 4. Regista também, em `plan.md`, as decisões em aberto e as exclusões de âmbito.
-5. Termina `plan.md` com uma secção `## Eixos` que lista cada eixo (slug em minúsculas e
-   hífens) e o organismo principal da fonte candidata — o orquestrador usa-a para dividir o
-   trabalho da fase 2 sem reler o plano todo.
+5. Termina `plan.md` com uma secção `## Eixos` que lista cada eixo e o organismo principal da
+   fonte candidata — o orquestrador usa-a (e o código lê-a) para dividir o trabalho da fase 2.
+   **Formato exato: uma lista, não uma tabela nem texto corrido**, com o slug (minúsculas e
+   hífens) entre crases:
+
+   ```
+   ## Eixos
+
+   - `internamentos-evitaveis` — INE
+   - `despesa-saude` — Eurostat
+   ```
+
+   Os eixos desta lista são **exatamente** os que usas nas perguntas (`Eixo: despesa-saude`): o
+   `common.checks` da fase 1 recusa um eixo usado numa pergunta e ausente da lista, e um eixo da
+   lista sem nenhuma pergunta.
 
 ## Regras
 
@@ -33,4 +45,5 @@ Escreves `studies/<slug>/plan.md` para o estudo pedido, e só esse ficheiro.
   validar exaustivamente (isso é o `data-researcher`).
 - Escreve em português. A condição de conclusão desta fase (`uv run python -m common.checks
   <slug> 1`) exige 5–10 perguntas numeradas, cada uma com "eixo" e "fonte" mencionados.
-- Termina com um resumo de **no máximo 150 palavras**; não repitas o conteúdo do plano.
+- Termina com um resumo de **no máximo 150 palavras** (conta-as: o orquestrador só precisa de saber
+  que o plano está escrito e das decisões em aberto); não repitas o conteúdo do plano.

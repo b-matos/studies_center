@@ -12,6 +12,7 @@ sources.d/<axis>.csv: does it answer, what format, what columns, what time range
 from __future__ import annotations
 
 import io
+import re
 import sys
 
 import httpx
@@ -103,11 +104,34 @@ def probe_dadosgov(dataset: str) -> str:
     return "\n".join(lines)
 
 
+TIME_COLUMN = re.compile(r"time_period|date|data|year|ano|period|periodo|time", re.IGNORECASE)
+
+
+def _csv_summary(head: bytes, truncated: bool) -> list[str]:
+    """Columns, a sample, the time range and the distinct values of the small columns, from the preview: a researcher must
+    never take the coverage from the first rows alone."""
+    frame = pd.read_csv(io.BytesIO(head), on_bad_lines="skip")
+    lines = [f"columns: {list(frame.columns)}", frame.head(3).to_string(index=False)]
+    note = f" (preview of {len(frame)} rows, the file is longer: the range may be wider)" if truncated else f" ({len(frame)} rows)"
+    time_col = next((c for c in frame.columns if TIME_COLUMN.fullmatch(str(c))), None)
+    if time_col is not None and frame[time_col].notna().any():
+        values = frame[time_col].dropna()
+        lines.append(f"time range ({time_col}): {values.min()} .. {values.max()}{note}")
+    small = [c for c in frame.columns if c != time_col and frame[c].nunique() <= 50 and not pd.api.types.is_float_dtype(frame[c])]
+    lines += _dims(frame[small], set()) if small else []
+    return lines
+
+
 def probe_url(url: str) -> str:
     with httpx.Client(follow_redirects=True, timeout=30.0) as client, client.stream("GET", url) as response:
         content_type = response.headers.get("content-type", "?")
         size = response.headers.get("content-length", "?")
-        head = next(response.iter_bytes(PREVIEW_BYTES), b"")
+        head = b""
+        for chunk in response.iter_bytes():
+            head += chunk
+            if len(head) >= PREVIEW_BYTES:
+                break
+        truncated = len(head) >= PREVIEW_BYTES
         status = response.status_code
         if status == 429 or status >= 500:  # the server's problem, not proof that the source is missing
             raise httpx.HTTPStatusError(f"HTTP {status}", request=response.request, response=response)
@@ -115,9 +139,7 @@ def probe_url(url: str) -> str:
     if status >= 400:
         return "\n".join(lines)
     if "csv" in content_type or url.lower().endswith(".csv"):
-        frame = pd.read_csv(io.BytesIO(head), nrows=200)
-        lines.append(f"columns: {list(frame.columns)}")
-        lines.append(frame.head(3).to_string(index=False))
+        lines += _csv_summary(head, truncated)
     elif "json" in content_type:
         lines.append(f"json preview: {head[:300].decode('utf-8', 'replace')}")
     else:

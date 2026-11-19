@@ -9,7 +9,7 @@ Nothing here is committed work: each item says what it reuses, what is new and w
 | # | Item | Why now | Effort |
 | --- | --- | --- | --- |
 | 1 | Human review gate before publishing | **Done** (see section 1) | Small |
-| 2 | Evals for the agents | **Started** (historian, writer, verifier; see `evals/README.md`) | Medium |
+| 2 | Evals for the agents | **Done for all seven agents** (one case each; see `evals/README.md`) | Medium |
 | 3 | `/mito`: claim checking | Best return: reuses nearly everything, cheaper and more shareable than a study | Medium |
 | 4 | Living studies (scheduled re-extraction) | Keeps published numbers true; almost no token cost | Small |
 | 5 | Citation and discovery (DOI, RSS, share cards) | Cheap credibility | Small |
@@ -40,8 +40,8 @@ editorial review. Add a state between verified and published:
 
 ## 2. Evals for the agents
 
-**Status: framework and three cases implemented** (`evals/`: synthetic fixtures, sandboxes, code graders, a results history
-and a before/after report). Still to do: cases for the planner, data-researcher, extractor and analyst, and repeated runs
+**Status: implemented for all seven agents** (`evals/`: synthetic fixtures, sandboxes, code graders, a results history
+and a before/after report). Still to do: more cases per agent (harder traps, larger fixtures) and repeated runs
 across models to decide which agents can move from Opus to Sonnet. The text below is the original plan.
 
 Only deterministic code is tested today. Frozen fixtures (a commit per phase already exists for each study) plus code

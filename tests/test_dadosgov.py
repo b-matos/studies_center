@@ -93,3 +93,16 @@ def test_probe_url_reports_a_server_error_as_transient(monkeypatch: pytest.Monke
     monkeypatch.setattr("sys.argv", ["probe", "https://dados.gov.pt/api/1/datasets/r/x"])
     assert probe.main() == 3
     assert "TRANSIENT" in capsys.readouterr().out
+
+
+def test_probe_url_reports_the_whole_time_range_of_a_csv_not_just_the_first_rows(monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture) -> None:
+    body = "TIME_PERIOD,geo,value\n" + "\n".join(f"{y},PT,{y - 1900}.0" for y in range(2000, 2024)) + "\n"
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(200, text=body, headers={"content-type": "text/csv"})
+
+    real_client = httpx.Client
+    monkeypatch.setattr(probe.httpx, "Client", lambda **kw: real_client(transport=httpx.MockTransport(handler), **kw))
+    out = probe.probe_url("https://example.org/data.csv")
+    assert "time range (TIME_PERIOD): 2000 .. 2023 (24 rows)" in out
+    assert "geo (1): PT" in out

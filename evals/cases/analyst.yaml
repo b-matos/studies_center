@@ -1,0 +1,15 @@
+# Two series with planted breaks (a level shift in 2012 and a spike in 2020 in the first, a level shift in 2011 in the second).
+# The analyst must find them with the platform's tools, register charts with a kind and a why, and leave reproducible scripts.
+cases:
+  - id: charts_and_breaks
+    description: Scripts rerun to identical charts, phase 4 passes, the planted breaks are recorded without a flood of near-duplicates.
+    fixture: {upto_phase: 3}
+    remove: ["studies/mini-eval/analysis", "studies/mini-eval/breaks.csv", "studies/mini-eval/event_links.csv"]
+    tools: [Read, Write, Edit, Glob]
+    timeout: 1200
+    prompt: |
+      Fase 4 do estudo `mini-eval` (pasta studies/mini-eval/). Os dados limpos estão em data/clean/ (s1: internamentos evitáveis;
+      s2: despesa em saúde per capita), ambos de Portugal, anuais. Responde às perguntas de dados de plan.md (1, 2 e 4) com scripts em
+      analysis/, deteta as quebras com as ferramentas da plataforma, regista os gráficos (com `kind` e `why`) e escreve breaks.csv.
+      Termina com um resumo de no máximo 150 palavras.
+    graders: [analyst_phase4_passes, analyst_breaks_found, analyst_scripts_reproduce_the_charts, analyst_charts_trace_to_clean_data, summary_short, writes_only_own_files, not_published]

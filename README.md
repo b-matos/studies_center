@@ -378,7 +378,7 @@ server (queue and auto-push). They run in CI ([`tests.yml`](.github/workflows/te
 Larger directions (a `/mito` claim-checking command, a human review gate, living studies, citation and maps) are
 described in [`docs/ROADMAP.md`](docs/ROADMAP.md). The hardening list below is in order of impact on robustness:
 
-1. **Grow the evals.** `evals/` covers the historian, writer and verifier (see its README); add the planner, data-researcher, extractor and analyst. The original plan: frozen fixtures (one commit per phase is a ready-made starting point) and code graders:
+1. **Grow the evals.** `evals/` covers all seven agents with one case each (see its README); add harder traps and larger fixtures per agent. The original plan: frozen fixtures (one commit per phase is a ready-made starting point) and code graders:
    inject errors into an already-verified report to measure the `verifier`'s recall and false
    positives; "coincidence only" cases the `historian` must grade C; numbers outside
    `claims.csv` that the `writer` must not write. Run each case 3×, and compare before/after any

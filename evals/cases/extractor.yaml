@@ -1,0 +1,22 @@
+# An Eurostat-style CSV with a trap: ':' marks missing values, so the spec needs read_options (na_values) or the value column
+# stays text. The extractor must keep only Portugal and the EU-27 (total sex), label the codes, and let common.extract do the
+# download with a manifest (never writing raw files by hand).
+cases:
+  - id: csv_with_missing_markers
+    description: A correct spec for a CSV with ':' placeholders; clean parquet matches the source row by row, with provenance.
+    fixture: {upto_phase: 2}
+    remove: ["studies/mini-eval/data/raw", "studies/mini-eval/data/raw_manifest.csv", "studies/mini-eval/data/clean", "studies/mini-eval/analysis", "studies/mini-eval/breaks.csv"]
+    files:
+      studies/mini-eval/sources.csv: |
+        id,axis,name,organisation,url,format,license,temporal_coverage,geographic_coverage,status,exclusion_reason,verification_date
+        s1,vida,Esperança de vida à nascença,INE,http://127.0.0.1:{port}/data.csv,csv,CC BY 4.0,2010-2022,"Portugal, UE-27",tested,,
+    serve: extractor_pages
+    tools: [Read, Write, Edit, WebFetch]
+    timeout: 900
+    prompt: |
+      Fase 3, unidade `s1` do estudo `mini-eval` (pasta studies/mini-eval/). A fonte s1 está em sources.csv: um CSV em
+      http://127.0.0.1:{port}/data.csv (colunas geo, sex, TIME_PERIOD, OBS_VALUE); a página de origem, com um valor publicado para
+      conferir, está em http://127.0.0.1:{port}/page.html. Extrai só Portugal (`PT`) e a UE-27 (`EU27_2020`), sexo total (`T`);
+      indicador `life_expectancy_at_birth`, unidade `years`; rótulos legíveis `PT` -> `Portugal` e `EU27_2020` -> `European Union (27)`.
+      Usa o `common.extract`, como manda o teu agente. Termina com um resumo de no máximo 150 palavras.
+    graders: [extractor_output_correct, summary_short, writes_only_own_files, not_published]

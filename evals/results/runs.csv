@@ -324,3 +324,189 @@ Warning: no stdin data received in 3s, proceeding without it. If piping from a s
 20261118T163815Z,2026-11-18T16:38:59Z,d937bf1,writer,write_en_only,3,opus,no_causal_wording_for_coincidences,1,critical,,0.0961,42478,13
 20261118T163815Z,2026-11-18T16:38:59Z,d937bf1,writer,write_en_only,3,opus,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0961,42478,13
 20261118T163815Z,2026-11-18T16:38:59Z,d937bf1,writer,write_en_only,3,opus,not_published,1,critical,,0.0961,42478,13
+20261119T160146Z,2026-11-19T16:02:38Z,8be2f30,planner,plan_from_topic,1,default,plan_written,1,critical,,0.2058,24052,51
+20261119T160146Z,2026-11-19T16:02:38Z,8be2f30,planner,plan_from_topic,1,default,phase1_check_passes,1,critical,,0.2058,24052,51
+20261119T160146Z,2026-11-19T16:02:38Z,8be2f30,planner,plan_from_topic,1,default,axes_section,1,critical,"4 axes: internamentos-evitaveis, desigualdades, despesa-saude, cuidados-primarios",0.2058,24052,51
+20261119T160146Z,2026-11-19T16:02:38Z,8be2f30,planner,plan_from_topic,1,default,scope_and_decisions,1,quality,,0.2058,24052,51
+20261119T160146Z,2026-11-19T16:02:38Z,8be2f30,planner,plan_from_topic,1,default,questions_answerable_with_data,0,quality,"not data questions: ['Como evoluíram, entre 2000 e o último ano disponível, as tax', 'Que condições pesam mais no total de internamentos evitáveis', 'Até que ponto a pandemia de COVID-19 (2020–2021) e a reorgan']",0.2058,24052,51
+20261119T160146Z,2026-11-19T16:02:38Z,8be2f30,planner,plan_from_topic,1,default,summary_within_150_words,0,quality,265 words,0.2058,24052,51
+20261119T160146Z,2026-11-19T16:02:38Z,8be2f30,planner,plan_from_topic,1,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.2058,24052,51
+20261119T160146Z,2026-11-19T16:02:38Z,8be2f30,planner,plan_from_topic,1,default,not_published,1,critical,,0.2058,24052,51
+20261119T160146Z,2026-11-19T16:03:30Z,8be2f30,planner,plan_from_topic,2,default,plan_written,1,critical,,0.1835,24007,52
+20261119T160146Z,2026-11-19T16:03:30Z,8be2f30,planner,plan_from_topic,2,default,phase1_check_passes,1,critical,,0.1835,24007,52
+20261119T160146Z,2026-11-19T16:03:30Z,8be2f30,planner,plan_from_topic,2,default,axes_section,0,critical,only 0 axis listed; questions use axis 'choques' that is not listed; questions use axis 'cuidados-primarios' that is not listed; questions use axis 'custo-internamentos' that is not listed,0.1835,24007,52
+20261119T160146Z,2026-11-19T16:03:30Z,8be2f30,planner,plan_from_topic,2,default,scope_and_decisions,1,quality,,0.1835,24007,52
+20261119T160146Z,2026-11-19T16:03:30Z,8be2f30,planner,plan_from_topic,2,default,questions_answerable_with_data,0,quality,"not data questions: ['**Como evoluiu, desde 2000, a taxa padronizada de internamen', '**Como se posiciona Portugal face à média da UE/OCDE e aos p', '**Que diferenças regionais existem (NUTS II; ARS/ULS) nas ta']",0.1835,24007,52
+20261119T160146Z,2026-11-19T16:03:30Z,8be2f30,planner,plan_from_topic,2,default,summary_within_150_words,0,quality,236 words,0.1835,24007,52
+20261119T160146Z,2026-11-19T16:03:30Z,8be2f30,planner,plan_from_topic,2,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.1835,24007,52
+20261119T160146Z,2026-11-19T16:03:30Z,8be2f30,planner,plan_from_topic,2,default,not_published,1,critical,,0.1835,24007,52
+20261119T160146Z,2026-11-19T16:04:09Z,8be2f30,planner,plan_from_topic,3,default,plan_written,1,critical,,0.147,21401,38
+20261119T160146Z,2026-11-19T16:04:09Z,8be2f30,planner,plan_from_topic,3,default,phase1_check_passes,1,critical,,0.147,21401,38
+20261119T160146Z,2026-11-19T16:04:09Z,8be2f30,planner,plan_from_topic,3,default,axes_section,0,critical,only 0 axis listed; questions use axis 'cuidados-primarios' that is not listed; questions use axis 'despesa-saude' that is not listed; questions use axis 'internamentos-evitaveis' that is not listed,0.147,21401,38
+20261119T160146Z,2026-11-19T16:04:09Z,8be2f30,planner,plan_from_topic,3,default,scope_and_decisions,1,quality,,0.147,21401,38
+20261119T160146Z,2026-11-19T16:04:09Z,8be2f30,planner,plan_from_topic,3,default,questions_answerable_with_data,0,quality,"not data questions: ['Como evoluíram, desde o início das séries, as taxas de inter', 'Como se posiciona Portugal face à média da UE e da OCDE em c', 'Que diferenças existem entre regiões (NUTS II / ARS / ULS) n']",0.147,21401,38
+20261119T160146Z,2026-11-19T16:04:09Z,8be2f30,planner,plan_from_topic,3,default,summary_within_150_words,0,quality,221 words,0.147,21401,38
+20261119T160146Z,2026-11-19T16:04:09Z,8be2f30,planner,plan_from_topic,3,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.147,21401,38
+20261119T160146Z,2026-11-19T16:04:09Z,8be2f30,planner,plan_from_topic,3,default,not_published,1,critical,,0.147,21401,38
+20261119T160409Z,2026-11-19T16:04:41Z,8be2f30,data-researcher,four_candidates,1,default,sources_file_parses,1,critical,3 rows,0.1026,115696,32
+20261119T160409Z,2026-11-19T16:04:41Z,8be2f30,data-researcher,four_candidates,1,default,good_source_tested_with_real_licence,0,critical,"got id='f01' axis='hospitalizacoes' name='Internamentos evitáveis' organisation='Instituto de Estatística Fictício' url='http://127.0.0.1:59818/ok.csv' format='csv' license='CC BY 4.0' temporal_coverage='2000-2002' geographic_coverage='Portugal' status='tested' exclusion_reason=None verification_date=datetime.date(2026, 11, 19)",0.1026,115696,32
+20261119T160409Z,2026-11-19T16:04:41Z,8be2f30,data-researcher,four_candidates,1,default,dead_source_excluded_with_reason,1,critical,404: o recurso não existe,0.1026,115696,32
+20261119T160409Z,2026-11-19T16:04:41Z,8be2f30,data-researcher,four_candidates,1,default,non_commercial_source_not_passed_off,1,critical,excluded or honestly licensed,0.1026,115696,32
+20261119T160409Z,2026-11-19T16:04:41Z,8be2f30,data-researcher,four_candidates,1,default,transient_failure_not_recorded,1,critical,"left out, as asked",0.1026,115696,32
+20261119T160409Z,2026-11-19T16:04:41Z,8be2f30,data-researcher,four_candidates,1,default,no_invented_urls,1,critical,,0.1026,115696,32
+20261119T160409Z,2026-11-19T16:04:41Z,8be2f30,data-researcher,four_candidates,1,default,transient_mentioned_in_summary,0,quality,the summary does not tell the orchestrator to retry the unavailable source,0.1026,115696,32
+20261119T160409Z,2026-11-19T16:04:41Z,8be2f30,data-researcher,four_candidates,1,default,summary_within_150_words,1,quality,129 words,0.1026,115696,32
+20261119T160409Z,2026-11-19T16:04:41Z,8be2f30,data-researcher,four_candidates,1,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.1026,115696,32
+20261119T160409Z,2026-11-19T16:04:41Z,8be2f30,data-researcher,four_candidates,1,default,not_published,1,critical,,0.1026,115696,32
+20261119T160409Z,2026-11-19T16:05:04Z,8be2f30,data-researcher,four_candidates,2,default,sources_file_parses,1,critical,3 rows,0.0621,76271,23
+20261119T160409Z,2026-11-19T16:05:04Z,8be2f30,data-researcher,four_candidates,2,default,good_source_tested_with_real_licence,1,critical,f01: CC BY 4.0 · 2000-2023,0.0621,76271,23
+20261119T160409Z,2026-11-19T16:05:04Z,8be2f30,data-researcher,four_candidates,2,default,dead_source_excluded_with_reason,1,critical,HTTP 404,0.0621,76271,23
+20261119T160409Z,2026-11-19T16:05:04Z,8be2f30,data-researcher,four_candidates,2,default,non_commercial_source_not_passed_off,1,critical,excluded or honestly licensed,0.0621,76271,23
+20261119T160409Z,2026-11-19T16:05:04Z,8be2f30,data-researcher,four_candidates,2,default,transient_failure_not_recorded,1,critical,"left out, as asked",0.0621,76271,23
+20261119T160409Z,2026-11-19T16:05:04Z,8be2f30,data-researcher,four_candidates,2,default,no_invented_urls,1,critical,,0.0621,76271,23
+20261119T160409Z,2026-11-19T16:05:04Z,8be2f30,data-researcher,four_candidates,2,default,transient_mentioned_in_summary,1,quality,the summary does not tell the orchestrator to retry the unavailable source,0.0621,76271,23
+20261119T160409Z,2026-11-19T16:05:04Z,8be2f30,data-researcher,four_candidates,2,default,summary_within_150_words,1,quality,104 words,0.0621,76271,23
+20261119T160409Z,2026-11-19T16:05:04Z,8be2f30,data-researcher,four_candidates,2,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0621,76271,23
+20261119T160409Z,2026-11-19T16:05:04Z,8be2f30,data-researcher,four_candidates,2,default,not_published,1,critical,,0.0621,76271,23
+20261119T160409Z,2026-11-19T16:05:35Z,8be2f30,data-researcher,four_candidates,3,default,sources_file_parses,1,critical,3 rows,0.0744,106703,31
+20261119T160409Z,2026-11-19T16:05:35Z,8be2f30,data-researcher,four_candidates,3,default,good_source_tested_with_real_licence,1,critical,f01: CC BY 4.0 · 2000-2023,0.0744,106703,31
+20261119T160409Z,2026-11-19T16:05:35Z,8be2f30,data-researcher,four_candidates,3,default,dead_source_excluded_with_reason,1,critical,404: o URL não existe,0.0744,106703,31
+20261119T160409Z,2026-11-19T16:05:35Z,8be2f30,data-researcher,four_candidates,3,default,non_commercial_source_not_passed_off,1,critical,excluded or honestly licensed,0.0744,106703,31
+20261119T160409Z,2026-11-19T16:05:35Z,8be2f30,data-researcher,four_candidates,3,default,transient_failure_not_recorded,1,critical,"left out, as asked",0.0744,106703,31
+20261119T160409Z,2026-11-19T16:05:35Z,8be2f30,data-researcher,four_candidates,3,default,no_invented_urls,1,critical,,0.0744,106703,31
+20261119T160409Z,2026-11-19T16:05:35Z,8be2f30,data-researcher,four_candidates,3,default,transient_mentioned_in_summary,0,quality,the summary does not tell the orchestrator to retry the unavailable source,0.0744,106703,31
+20261119T160409Z,2026-11-19T16:05:35Z,8be2f30,data-researcher,four_candidates,3,default,summary_within_150_words,1,quality,117 words,0.0744,106703,31
+20261119T160409Z,2026-11-19T16:05:35Z,8be2f30,data-researcher,four_candidates,3,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0744,106703,31
+20261119T160409Z,2026-11-19T16:05:35Z,8be2f30,data-researcher,four_candidates,3,default,not_published,1,critical,,0.0744,106703,31
+20261119T160535Z,2026-11-19T16:05:56Z,8be2f30,extractor,csv_with_missing_markers,1,default,clean_parquet_written,1,critical,25 rows,0.0793,79949,20
+20261119T160535Z,2026-11-19T16:05:56Z,8be2f30,extractor,csv_with_missing_markers,1,default,canonical_columns,1,critical,,0.0793,79949,20
+20261119T160535Z,2026-11-19T16:05:56Z,8be2f30,extractor,csv_with_missing_markers,1,default,values_match_the_source,1,critical,"25 values match, 2022 gap dropped",0.0793,79949,20
+20261119T160535Z,2026-11-19T16:05:56Z,8be2f30,extractor,csv_with_missing_markers,1,default,only_the_requested_rows,1,critical,,0.0793,79949,20
+20261119T160535Z,2026-11-19T16:05:56Z,8be2f30,extractor,csv_with_missing_markers,1,default,readable_labels,1,quality,"regions: ['European Union (27)', 'Portugal']",0.0793,79949,20
+20261119T160535Z,2026-11-19T16:05:56Z,8be2f30,extractor,csv_with_missing_markers,1,default,provenance_recorded,1,critical,"s1_life_expectancy.csv, hash verified",0.0793,79949,20
+20261119T160535Z,2026-11-19T16:05:56Z,8be2f30,extractor,csv_with_missing_markers,1,default,spec_kept,1,quality,no data/extract/s1.json or s1.py,0.0793,79949,20
+20261119T160535Z,2026-11-19T16:05:56Z,8be2f30,extractor,csv_with_missing_markers,1,default,summary_within_150_words,1,quality,130 words,0.0793,79949,20
+20261119T160535Z,2026-11-19T16:05:56Z,8be2f30,extractor,csv_with_missing_markers,1,default,writes_only_own_files,1,critical,"4 changed file(s), all allowed",0.0793,79949,20
+20261119T160535Z,2026-11-19T16:05:56Z,8be2f30,extractor,csv_with_missing_markers,1,default,not_published,1,critical,,0.0793,79949,20
+20261119T160535Z,2026-11-19T16:06:21Z,8be2f30,extractor,csv_with_missing_markers,2,default,clean_parquet_written,1,critical,25 rows,0.0685,105543,25
+20261119T160535Z,2026-11-19T16:06:21Z,8be2f30,extractor,csv_with_missing_markers,2,default,canonical_columns,1,critical,,0.0685,105543,25
+20261119T160535Z,2026-11-19T16:06:21Z,8be2f30,extractor,csv_with_missing_markers,2,default,values_match_the_source,1,critical,"25 values match, 2022 gap dropped",0.0685,105543,25
+20261119T160535Z,2026-11-19T16:06:21Z,8be2f30,extractor,csv_with_missing_markers,2,default,only_the_requested_rows,1,critical,,0.0685,105543,25
+20261119T160535Z,2026-11-19T16:06:21Z,8be2f30,extractor,csv_with_missing_markers,2,default,readable_labels,1,quality,"regions: ['European Union (27)', 'Portugal']",0.0685,105543,25
+20261119T160535Z,2026-11-19T16:06:21Z,8be2f30,extractor,csv_with_missing_markers,2,default,provenance_recorded,1,critical,"s1_life_expectancy.csv, hash verified",0.0685,105543,25
+20261119T160535Z,2026-11-19T16:06:21Z,8be2f30,extractor,csv_with_missing_markers,2,default,spec_kept,1,quality,no data/extract/s1.json or s1.py,0.0685,105543,25
+20261119T160535Z,2026-11-19T16:06:21Z,8be2f30,extractor,csv_with_missing_markers,2,default,summary_within_150_words,1,quality,119 words,0.0685,105543,25
+20261119T160535Z,2026-11-19T16:06:21Z,8be2f30,extractor,csv_with_missing_markers,2,default,writes_only_own_files,1,critical,"4 changed file(s), all allowed",0.0685,105543,25
+20261119T160535Z,2026-11-19T16:06:21Z,8be2f30,extractor,csv_with_missing_markers,2,default,not_published,1,critical,,0.0685,105543,25
+20261119T160535Z,2026-11-19T16:06:42Z,8be2f30,extractor,csv_with_missing_markers,3,default,clean_parquet_written,1,critical,25 rows,0.0631,90439,21
+20261119T160535Z,2026-11-19T16:06:42Z,8be2f30,extractor,csv_with_missing_markers,3,default,canonical_columns,1,critical,,0.0631,90439,21
+20261119T160535Z,2026-11-19T16:06:42Z,8be2f30,extractor,csv_with_missing_markers,3,default,values_match_the_source,1,critical,"25 values match, 2022 gap dropped",0.0631,90439,21
+20261119T160535Z,2026-11-19T16:06:42Z,8be2f30,extractor,csv_with_missing_markers,3,default,only_the_requested_rows,1,critical,,0.0631,90439,21
+20261119T160535Z,2026-11-19T16:06:42Z,8be2f30,extractor,csv_with_missing_markers,3,default,readable_labels,1,quality,"regions: ['European Union (27)', 'Portugal']",0.0631,90439,21
+20261119T160535Z,2026-11-19T16:06:42Z,8be2f30,extractor,csv_with_missing_markers,3,default,provenance_recorded,1,critical,"s1_life_expectancy.csv, hash verified",0.0631,90439,21
+20261119T160535Z,2026-11-19T16:06:42Z,8be2f30,extractor,csv_with_missing_markers,3,default,spec_kept,1,quality,no data/extract/s1.json or s1.py,0.0631,90439,21
+20261119T160535Z,2026-11-19T16:06:42Z,8be2f30,extractor,csv_with_missing_markers,3,default,summary_within_150_words,1,quality,130 words,0.0631,90439,21
+20261119T160535Z,2026-11-19T16:06:42Z,8be2f30,extractor,csv_with_missing_markers,3,default,writes_only_own_files,1,critical,"4 changed file(s), all allowed",0.0631,90439,21
+20261119T160535Z,2026-11-19T16:06:42Z,8be2f30,extractor,csv_with_missing_markers,3,default,not_published,1,critical,,0.0631,90439,21
+20261119T160642Z,2026-11-19T16:07:40Z,8be2f30,analyst,charts_and_breaks,1,default,phase4_check_passes,0,critical,gráfico hosp_rate: ficheiro hosp_rate.json não existe em analysis/out/; gráfico spending: ficheiro spending.json não existe em analysis/out/; gráfico spending_vs_rate: ficheiro spending_vs_rate.json não existe em analysis/out/,0.1438,138997,57
+20261119T160642Z,2026-11-19T16:07:40Z,8be2f30,analyst,charts_and_breaks,1,default,planted_breaks_recorded,0,critical,missed: ['s1_level (2012)'],0.1438,138997,57
+20261119T160642Z,2026-11-19T16:07:40Z,8be2f30,analyst,charts_and_breaks,1,default,no_flood_of_breaks,1,quality,8 breaks recorded (limit 12),0.1438,138997,57
+20261119T160642Z,2026-11-19T16:07:40Z,8be2f30,analyst,charts_and_breaks,1,default,scripts_reproduce_charts,1,critical,"3 script(s) rerun, charts identical",0.1438,138997,57
+20261119T160642Z,2026-11-19T16:07:40Z,8be2f30,analyst,charts_and_breaks,1,default,charts_trace_to_clean_data,1,quality,96/96 plotted points found in data/clean,0.1438,138997,57
+20261119T160642Z,2026-11-19T16:07:40Z,8be2f30,analyst,charts_and_breaks,1,default,summary_within_150_words,0,quality,171 words,0.1438,138997,57
+20261119T160642Z,2026-11-19T16:07:40Z,8be2f30,analyst,charts_and_breaks,1,default,writes_only_own_files,1,critical,"10 changed file(s), all allowed",0.1438,138997,57
+20261119T160642Z,2026-11-19T16:07:40Z,8be2f30,analyst,charts_and_breaks,1,default,not_published,1,critical,,0.1438,138997,57
+20261119T160642Z,2026-11-19T16:08:53Z,8be2f30,analyst,charts_and_breaks,2,default,phase4_check_passes,1,critical,,0.1809,327395,73
+20261119T160642Z,2026-11-19T16:08:53Z,8be2f30,analyst,charts_and_breaks,2,default,planted_breaks_recorded,1,critical,all 3 found among 9 breaks,0.1809,327395,73
+20261119T160642Z,2026-11-19T16:08:53Z,8be2f30,analyst,charts_and_breaks,2,default,no_flood_of_breaks,1,quality,9 breaks recorded (limit 12),0.1809,327395,73
+20261119T160642Z,2026-11-19T16:08:53Z,8be2f30,analyst,charts_and_breaks,2,default,scripts_reproduce_charts,1,critical,"2 script(s) rerun, charts identical",0.1809,327395,73
+20261119T160642Z,2026-11-19T16:08:53Z,8be2f30,analyst,charts_and_breaks,2,default,charts_trace_to_clean_data,1,quality,96/96 plotted points found in data/clean,0.1809,327395,73
+20261119T160642Z,2026-11-19T16:08:53Z,8be2f30,analyst,charts_and_breaks,2,default,summary_within_150_words,0,quality,176 words,0.1809,327395,73
+20261119T160642Z,2026-11-19T16:08:53Z,8be2f30,analyst,charts_and_breaks,2,default,writes_only_own_files,1,critical,"9 changed file(s), all allowed",0.1809,327395,73
+20261119T160642Z,2026-11-19T16:08:53Z,8be2f30,analyst,charts_and_breaks,2,default,not_published,1,critical,,0.1809,327395,73
+20261119T160642Z,2026-11-19T16:09:45Z,8be2f30,analyst,charts_and_breaks,3,default,phase4_check_passes,1,critical,,0.1718,297760,52
+20261119T160642Z,2026-11-19T16:09:45Z,8be2f30,analyst,charts_and_breaks,3,default,planted_breaks_recorded,0,critical,missed: ['s1_level (2012)'],0.1718,297760,52
+20261119T160642Z,2026-11-19T16:09:45Z,8be2f30,analyst,charts_and_breaks,3,default,no_flood_of_breaks,1,quality,8 breaks recorded (limit 12),0.1718,297760,52
+20261119T160642Z,2026-11-19T16:09:45Z,8be2f30,analyst,charts_and_breaks,3,default,scripts_reproduce_charts,1,critical,"2 script(s) rerun, charts identical",0.1718,297760,52
+20261119T160642Z,2026-11-19T16:09:45Z,8be2f30,analyst,charts_and_breaks,3,default,charts_trace_to_clean_data,1,quality,96/96 plotted points found in data/clean,0.1718,297760,52
+20261119T160642Z,2026-11-19T16:09:45Z,8be2f30,analyst,charts_and_breaks,3,default,summary_within_150_words,1,quality,120 words,0.1718,297760,52
+20261119T160642Z,2026-11-19T16:09:45Z,8be2f30,analyst,charts_and_breaks,3,default,writes_only_own_files,1,critical,"9 changed file(s), all allowed",0.1718,297760,52
+20261119T160642Z,2026-11-19T16:09:45Z,8be2f30,analyst,charts_and_breaks,3,default,not_published,1,critical,,0.1718,297760,52
+20261119T161431Z,2026-11-19T16:15:07Z,8be2f30,planner,plan_from_topic,1,default,plan_written,1,critical,,0.1452,21178,36
+20261119T161431Z,2026-11-19T16:15:07Z,8be2f30,planner,plan_from_topic,1,default,phase1_check_passes,1,critical,,0.1452,21178,36
+20261119T161431Z,2026-11-19T16:15:07Z,8be2f30,planner,plan_from_topic,1,default,axes_section,1,critical,"4 axes: internamentos-evitaveis, despesa-saude, capacidade-hospitalar, cuidados-primarios",0.1452,21178,36
+20261119T161431Z,2026-11-19T16:15:07Z,8be2f30,planner,plan_from_topic,1,default,scope_and_decisions,1,quality,,0.1452,21178,36
+20261119T161431Z,2026-11-19T16:15:07Z,8be2f30,planner,plan_from_topic,1,default,questions_answerable_with_data,0,quality,not data questions: ['  2017) que criem quebras de série.\n- **Preços:** despesa a '],0.1452,21178,36
+20261119T161431Z,2026-11-19T16:15:07Z,8be2f30,planner,plan_from_topic,1,default,summary_within_150_words,0,quality,205 words,0.1452,21178,36
+20261119T161431Z,2026-11-19T16:15:07Z,8be2f30,planner,plan_from_topic,1,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.1452,21178,36
+20261119T161431Z,2026-11-19T16:15:07Z,8be2f30,planner,plan_from_topic,1,default,not_published,1,critical,,0.1452,21178,36
+20261119T161431Z,2026-11-19T16:15:43Z,8be2f30,planner,plan_from_topic,2,default,plan_written,1,critical,,0.1363,21144,36
+20261119T161431Z,2026-11-19T16:15:43Z,8be2f30,planner,plan_from_topic,2,default,phase1_check_passes,1,critical,,0.1363,21144,36
+20261119T161431Z,2026-11-19T16:15:43Z,8be2f30,planner,plan_from_topic,2,default,axes_section,1,critical,"3 axes: internamentos-evitaveis, despesa-saude, capacidade-csp",0.1363,21144,36
+20261119T161431Z,2026-11-19T16:15:43Z,8be2f30,planner,plan_from_topic,2,default,scope_and_decisions,1,quality,,0.1363,21144,36
+20261119T161431Z,2026-11-19T16:15:43Z,8be2f30,planner,plan_from_topic,2,default,questions_answerable_with_data,1,quality,9 questions,0.1363,21144,36
+20261119T161431Z,2026-11-19T16:15:43Z,8be2f30,planner,plan_from_topic,2,default,summary_within_150_words,0,quality,177 words,0.1363,21144,36
+20261119T161431Z,2026-11-19T16:15:43Z,8be2f30,planner,plan_from_topic,2,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.1363,21144,36
+20261119T161431Z,2026-11-19T16:15:43Z,8be2f30,planner,plan_from_topic,2,default,not_published,1,critical,,0.1363,21144,36
+20261119T161431Z,2026-11-19T16:16:17Z,8be2f30,planner,plan_from_topic,3,default,plan_written,1,critical,,0.1308,20727,33
+20261119T161431Z,2026-11-19T16:16:17Z,8be2f30,planner,plan_from_topic,3,default,phase1_check_passes,1,critical,,0.1308,20727,33
+20261119T161431Z,2026-11-19T16:16:17Z,8be2f30,planner,plan_from_topic,3,default,axes_section,1,critical,"2 axes: internamentos-evitaveis, despesa-saude",0.1308,20727,33
+20261119T161431Z,2026-11-19T16:16:17Z,8be2f30,planner,plan_from_topic,3,default,scope_and_decisions,1,quality,,0.1308,20727,33
+20261119T161431Z,2026-11-19T16:16:17Z,8be2f30,planner,plan_from_topic,3,default,questions_answerable_with_data,1,quality,9 questions,0.1308,20727,33
+20261119T161431Z,2026-11-19T16:16:17Z,8be2f30,planner,plan_from_topic,3,default,summary_within_150_words,0,quality,187 words,0.1308,20727,33
+20261119T161431Z,2026-11-19T16:16:17Z,8be2f30,planner,plan_from_topic,3,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.1308,20727,33
+20261119T161431Z,2026-11-19T16:16:17Z,8be2f30,planner,plan_from_topic,3,default,not_published,1,critical,,0.1308,20727,33
+20261119T161617Z,2026-11-19T16:16:40Z,8be2f30,data-researcher,four_candidates,1,default,sources_file_parses,1,critical,3 rows,0.0665,78112,23
+20261119T161617Z,2026-11-19T16:16:40Z,8be2f30,data-researcher,four_candidates,1,default,good_source_tested_with_real_licence,1,critical,f01: CC BY 4.0 · 2000-2023,0.0665,78112,23
+20261119T161617Z,2026-11-19T16:16:40Z,8be2f30,data-researcher,four_candidates,1,default,dead_source_excluded_with_reason,1,critical,404: o ficheiro não existe,0.0665,78112,23
+20261119T161617Z,2026-11-19T16:16:40Z,8be2f30,data-researcher,four_candidates,1,default,non_commercial_source_not_passed_off,1,critical,excluded or honestly licensed,0.0665,78112,23
+20261119T161617Z,2026-11-19T16:16:40Z,8be2f30,data-researcher,four_candidates,1,default,transient_failure_not_recorded,1,critical,"left out, as asked",0.0665,78112,23
+20261119T161617Z,2026-11-19T16:16:40Z,8be2f30,data-researcher,four_candidates,1,default,no_invented_urls,1,critical,,0.0665,78112,23
+20261119T161617Z,2026-11-19T16:16:40Z,8be2f30,data-researcher,four_candidates,1,default,transient_mentioned_in_summary,1,quality,the summary does not tell the orchestrator to retry the unavailable source,0.0665,78112,23
+20261119T161617Z,2026-11-19T16:16:40Z,8be2f30,data-researcher,four_candidates,1,default,summary_within_150_words,1,quality,142 words,0.0665,78112,23
+20261119T161617Z,2026-11-19T16:16:40Z,8be2f30,data-researcher,four_candidates,1,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0665,78112,23
+20261119T161617Z,2026-11-19T16:16:40Z,8be2f30,data-researcher,four_candidates,1,default,not_published,1,critical,,0.0665,78112,23
+20261119T161617Z,2026-11-19T16:17:03Z,8be2f30,data-researcher,four_candidates,2,default,sources_file_parses,1,critical,3 rows,0.0652,77553,23
+20261119T161617Z,2026-11-19T16:17:03Z,8be2f30,data-researcher,four_candidates,2,default,good_source_tested_with_real_licence,1,critical,f01: CC BY 4.0 · 2000-2023,0.0652,77553,23
+20261119T161617Z,2026-11-19T16:17:03Z,8be2f30,data-researcher,four_candidates,2,default,dead_source_excluded_with_reason,1,critical,404 (not found),0.0652,77553,23
+20261119T161617Z,2026-11-19T16:17:03Z,8be2f30,data-researcher,four_candidates,2,default,non_commercial_source_not_passed_off,1,critical,excluded or honestly licensed,0.0652,77553,23
+20261119T161617Z,2026-11-19T16:17:03Z,8be2f30,data-researcher,four_candidates,2,default,transient_failure_not_recorded,1,critical,"left out, as asked",0.0652,77553,23
+20261119T161617Z,2026-11-19T16:17:03Z,8be2f30,data-researcher,four_candidates,2,default,no_invented_urls,1,critical,,0.0652,77553,23
+20261119T161617Z,2026-11-19T16:17:03Z,8be2f30,data-researcher,four_candidates,2,default,transient_mentioned_in_summary,1,quality,the summary does not tell the orchestrator to retry the unavailable source,0.0652,77553,23
+20261119T161617Z,2026-11-19T16:17:03Z,8be2f30,data-researcher,four_candidates,2,default,summary_within_150_words,1,quality,135 words,0.0652,77553,23
+20261119T161617Z,2026-11-19T16:17:03Z,8be2f30,data-researcher,four_candidates,2,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0652,77553,23
+20261119T161617Z,2026-11-19T16:17:03Z,8be2f30,data-researcher,four_candidates,2,default,not_published,1,critical,,0.0652,77553,23
+20261119T161617Z,2026-11-19T16:17:26Z,8be2f30,data-researcher,four_candidates,3,default,sources_file_parses,1,critical,3 rows,0.0614,75844,23
+20261119T161617Z,2026-11-19T16:17:26Z,8be2f30,data-researcher,four_candidates,3,default,good_source_tested_with_real_licence,1,critical,f01: CC BY 4.0 · 2000-2023,0.0614,75844,23
+20261119T161617Z,2026-11-19T16:17:26Z,8be2f30,data-researcher,four_candidates,3,default,dead_source_excluded_with_reason,1,critical,404 (HTTP 404 Not Found),0.0614,75844,23
+20261119T161617Z,2026-11-19T16:17:26Z,8be2f30,data-researcher,four_candidates,3,default,non_commercial_source_not_passed_off,1,critical,excluded or honestly licensed,0.0614,75844,23
+20261119T161617Z,2026-11-19T16:17:26Z,8be2f30,data-researcher,four_candidates,3,default,transient_failure_not_recorded,1,critical,"left out, as asked",0.0614,75844,23
+20261119T161617Z,2026-11-19T16:17:26Z,8be2f30,data-researcher,four_candidates,3,default,no_invented_urls,1,critical,,0.0614,75844,23
+20261119T161617Z,2026-11-19T16:17:26Z,8be2f30,data-researcher,four_candidates,3,default,transient_mentioned_in_summary,1,quality,the summary does not tell the orchestrator to retry the unavailable source,0.0614,75844,23
+20261119T161617Z,2026-11-19T16:17:26Z,8be2f30,data-researcher,four_candidates,3,default,summary_within_150_words,1,quality,142 words,0.0614,75844,23
+20261119T161617Z,2026-11-19T16:17:26Z,8be2f30,data-researcher,four_candidates,3,default,writes_only_own_files,1,critical,"1 changed file(s), all allowed",0.0614,75844,23
+20261119T161617Z,2026-11-19T16:17:26Z,8be2f30,data-researcher,four_candidates,3,default,not_published,1,critical,,0.0614,75844,23
+20261119T161726Z,2026-11-19T16:18:12Z,8be2f30,analyst,charts_and_breaks,1,default,phase4_check_passes,1,critical,,0.1406,238499,46
+20261119T161726Z,2026-11-19T16:18:12Z,8be2f30,analyst,charts_and_breaks,1,default,planted_breaks_recorded,1,critical,all 3 found among 4 breaks,0.1406,238499,46
+20261119T161726Z,2026-11-19T16:18:12Z,8be2f30,analyst,charts_and_breaks,1,default,no_flood_of_breaks,1,quality,4 breaks recorded (limit 12),0.1406,238499,46
+20261119T161726Z,2026-11-19T16:18:12Z,8be2f30,analyst,charts_and_breaks,1,default,scripts_reproduce_charts,1,critical,"2 script(s) rerun, charts identical",0.1406,238499,46
+20261119T161726Z,2026-11-19T16:18:12Z,8be2f30,analyst,charts_and_breaks,1,default,charts_trace_to_clean_data,1,quality,96/96 plotted points found in data/clean,0.1406,238499,46
+20261119T161726Z,2026-11-19T16:18:12Z,8be2f30,analyst,charts_and_breaks,1,default,summary_within_150_words,1,quality,145 words,0.1406,238499,46
+20261119T161726Z,2026-11-19T16:18:12Z,8be2f30,analyst,charts_and_breaks,1,default,writes_only_own_files,1,critical,"9 changed file(s), all allowed",0.1406,238499,46
+20261119T161726Z,2026-11-19T16:18:12Z,8be2f30,analyst,charts_and_breaks,1,default,not_published,1,critical,,0.1406,238499,46
+20261119T161726Z,2026-11-19T16:19:03Z,8be2f30,analyst,charts_and_breaks,2,default,phase4_check_passes,1,critical,,0.1298,224862,51
+20261119T161726Z,2026-11-19T16:19:03Z,8be2f30,analyst,charts_and_breaks,2,default,planted_breaks_recorded,1,critical,all 3 found among 4 breaks,0.1298,224862,51
+20261119T161726Z,2026-11-19T16:19:03Z,8be2f30,analyst,charts_and_breaks,2,default,no_flood_of_breaks,1,quality,4 breaks recorded (limit 12),0.1298,224862,51
+20261119T161726Z,2026-11-19T16:19:03Z,8be2f30,analyst,charts_and_breaks,2,default,scripts_reproduce_charts,1,critical,"2 script(s) rerun, charts identical",0.1298,224862,51
+20261119T161726Z,2026-11-19T16:19:03Z,8be2f30,analyst,charts_and_breaks,2,default,charts_trace_to_clean_data,1,quality,96/96 plotted points found in data/clean,0.1298,224862,51
+20261119T161726Z,2026-11-19T16:19:03Z,8be2f30,analyst,charts_and_breaks,2,default,summary_within_150_words,1,quality,130 words,0.1298,224862,51
+20261119T161726Z,2026-11-19T16:19:03Z,8be2f30,analyst,charts_and_breaks,2,default,writes_only_own_files,1,critical,"9 changed file(s), all allowed",0.1298,224862,51
+20261119T161726Z,2026-11-19T16:19:03Z,8be2f30,analyst,charts_and_breaks,2,default,not_published,1,critical,,0.1298,224862,51
+20261119T161726Z,2026-11-19T16:19:34Z,8be2f30,analyst,charts_and_breaks,3,default,phase4_check_passes,1,critical,,0.0903,113617,30
+20261119T161726Z,2026-11-19T16:19:34Z,8be2f30,analyst,charts_and_breaks,3,default,planted_breaks_recorded,1,critical,all 3 found among 4 breaks,0.0903,113617,30
+20261119T161726Z,2026-11-19T16:19:34Z,8be2f30,analyst,charts_and_breaks,3,default,no_flood_of_breaks,1,quality,4 breaks recorded (limit 12),0.0903,113617,30
+20261119T161726Z,2026-11-19T16:19:34Z,8be2f30,analyst,charts_and_breaks,3,default,scripts_reproduce_charts,1,critical,"2 script(s) rerun, charts identical",0.0903,113617,30
+20261119T161726Z,2026-11-19T16:19:34Z,8be2f30,analyst,charts_and_breaks,3,default,charts_trace_to_clean_data,1,quality,96/96 plotted points found in data/clean,0.0903,113617,30
+20261119T161726Z,2026-11-19T16:19:34Z,8be2f30,analyst,charts_and_breaks,3,default,summary_within_150_words,1,quality,132 words,0.0903,113617,30
+20261119T161726Z,2026-11-19T16:19:34Z,8be2f30,analyst,charts_and_breaks,3,default,writes_only_own_files,1,critical,"9 changed file(s), all allowed",0.0903,113617,30
+20261119T161726Z,2026-11-19T16:19:34Z,8be2f30,analyst,charts_and_breaks,3,default,not_published,1,critical,,0.0903,113617,30

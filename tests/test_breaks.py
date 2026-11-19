@@ -1,7 +1,12 @@
 import numpy as np
 import pandas as pd
 
-from common.breaks import detect_level_shifts, detect_slope_changes, detect_spikes
+from common.breaks import (
+    detect_for_frame,
+    detect_level_shifts,
+    detect_slope_changes,
+    detect_spikes,
+)
 
 
 def _dates(n: int) -> pd.Series:
@@ -54,3 +59,25 @@ def test_detect_for_frame_returns_one_table_for_all_series() -> None:
     table = detect_for_frame(frame, group_by=["region"])
     assert set(table["region"]) == {"B"}  # only the real level shift is flagged
     assert table.iloc[0]["type"] == "level" and table.iloc[0]["date"] == "2015-01-01"
+
+
+def _trend_step_spike_frame() -> pd.DataFrame:
+    years = list(range(2000, 2024))
+    values = [520 - 4 * i - (60 if y >= 2012 else 0) - (45 if y == 2020 else 0) for i, y in enumerate(years)]
+    return pd.DataFrame({"date": pd.to_datetime([f"{y}-01-01" for y in years]), "region": "Portugal", "sex": "T", "value": values})
+
+
+def test_a_lasting_jump_on_a_trending_series_is_a_level_shift_and_a_reverting_one_a_peak() -> None:
+    table = detect_for_frame(_trend_step_spike_frame(), group_by=["region", "sex"])
+    by_year = {(pd.Timestamp(r.date).year, r.type) for r in table.itertuples()}
+    assert (2012, "level") in by_year, table
+    assert (2012, "peak") not in by_year
+    assert (2020, "peak") in by_year  # reverts the next year
+    step = table[(pd.to_datetime(table["date"]).dt.year == 2012) & (table["type"] == "level")].iloc[0]
+    assert -75 < step["magnitude"] < -45  # the step, not a trend artefact
+
+
+def test_a_steady_trend_alone_no_longer_produces_evenly_spaced_level_shifts() -> None:
+    years = list(range(2000, 2024))
+    df = pd.DataFrame({"date": pd.to_datetime([f"{y}-01-01" for y in years]), "region": "Portugal", "sex": "T", "value": [500 - 4 * i for i in range(len(years))]})
+    assert detect_for_frame(df, group_by=["region", "sex"]).query("type == 'level'").empty

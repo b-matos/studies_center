@@ -97,8 +97,8 @@ PLAN = """# Plano de estudo: internamentos evitáveis e despesa em saúde (fixtu
 
 ## Eixos
 
-- hospitalizacoes
-- despesa
+- `hospitalizacoes` — INE
+- `despesa` — INE
 
 ## Perguntas de investigação
 
@@ -262,3 +262,39 @@ Este estudo é fictício e serve apenas para avaliar agentes. As conclusões nã
 INE (fontes s1 e s2, licença CC BY 4.0).
 """
     (study / "report.pt.qmd").write_text(report, encoding="utf-8")
+
+
+# ---- fictional sources served locally for the data-researcher and extractor cases ------------------------------------
+
+RESEARCHER_PAGES = {
+    "ok.csv": "TIME_PERIOD,geo,value\n" + "\n".join(f"{y},PT,{500 - 3 * (y - 2000)}.0" for y in range(2000, 2024)) + "\n",
+    "ok-license.html": "<html><body><h1>Internamentos evitáveis</h1><p>Licença: CC BY 4.0. Atribuição: Instituto de Estatística Fictício.</p></body></html>",
+    "nc.csv": "TIME_PERIOD,geo,value\n2000,PT,1.0\n2001,PT,2.0\n",
+    "nc-license.html": "<html><body><p>Licença: CC BY-NC 4.0. Uso apenas não comercial.</p></body></html>",
+}
+RESEARCHER_STATUS = {"/flaky.csv": 503}  # a server that is down for now: transient, never proof the source is missing
+RESEARCHER_TRUTH = {"ok": "f01", "missing": "f02", "non_commercial": "f03", "transient": "f04"}
+
+EXTRACT_YEARS = list(range(2010, 2023))
+EXTRACT_GEO = {"PT": ("Portugal", 80.0), "ES": ("Spain", 82.5), "EU27_2020": ("European Union (27)", 80.8)}
+
+
+def extractor_rows() -> list[tuple[str, str, int, str]]:
+    rows = []
+    for geo, (_, base) in EXTRACT_GEO.items():
+        for sex, offset in (("T", 0.0), ("M", -2.7), ("F", 2.9)):
+            for y in EXTRACT_YEARS:
+                missing = (geo == "PT" and sex == "T" and y == 2022) or (geo == "ES" and sex == "M" and y == 2021)
+                rows.append((geo, sex, y, ":" if missing else f"{base + offset + 0.2 * (y - 2010):.1f}"))
+    return rows
+
+
+EXTRACTOR_CSV = "geo,sex,TIME_PERIOD,OBS_VALUE\n" + "\n".join(f"{g},{x},{y},{v}" for g, x, y, v in extractor_rows()) + "\n"
+EXTRACTOR_TRUTH = {(EXTRACT_GEO[g][0], y): float(v) for g, x, y, v in extractor_rows() if x == "T" and g in ("PT", "EU27_2020") and v != ":"}
+EXTRACTOR_PAGE = f"<html><body><h1>Esperança de vida à nascença</h1><p>Em 2020, em Portugal (total), foi de {EXTRACTOR_TRUTH[('Portugal', 2020)]:.1f} anos.</p></body></html>"
+
+ANALYST_TRUTH = {  # (keywords that identify the series, break year)
+    "s1_level": (("s1", "avoid", "hospital", "internament"), 2012),
+    "s1_peak": (("s1", "avoid", "hospital", "internament"), 2020),
+    "s2_level": (("s2", "spend", "despesa", "gasto"), 2011),
+}

@@ -61,7 +61,7 @@ def make_sandbox(case: dict, *, port: int | None = None, parent: Path | None = N
         shutil.copy2(REPO / name, root / name)
     fixture = case.get("fixture", {})
     study = fixtures.build(root, fixture.get("upto_phase", 4), links=fixture.get("links", False))
-    params: dict = {}
+    params: dict = {"port": port}
     if fixture.get("summaries"):  # what `common.state unit-start ... 6 pt` produces for the writer
         from common import summarize, trends
 
@@ -70,12 +70,13 @@ def make_sandbox(case: dict, *, port: int | None = None, parent: Path | None = N
     if fixture.get("pt_report"):  # what the `pt` unit leaves behind, so the `en` unit can be evaluated alone
         fixtures.add_pt_report(study)
     if fixture.get("verifier_claims"):
-        params = _verifier_claims(study, port or 0)
-    for rel in case.get("remove", []):
-        (root / rel).unlink(missing_ok=True)
+        params |= _verifier_claims(study, port or 0)
+    for pattern in case.get("remove", []):  # paths or globs, relative to the sandbox; directories go with their contents
+        for path in sorted(root.glob(pattern), reverse=True):
+            shutil.rmtree(path) if path.is_dir() else path.unlink(missing_ok=True)
     for rel, content in case.get("files", {}).items():
         (root / rel).parent.mkdir(parents=True, exist_ok=True)
-        (root / rel).write_text(content, encoding="utf-8")
+        (root / rel).write_text(content.replace("{port}", str(port or "")), encoding="utf-8")
     return root, params
 
 
@@ -92,11 +93,20 @@ def _verifier_claims(study: Path, port: int) -> dict:
             "claims_before": pd.read_csv(study / "claims.csv", dtype=str, keep_default_na=False).to_dict(orient="list")}
 
 
-def write_pages(directory: Path) -> Path:
+PAGE_SETS = {
+    "verifier_pages": (VERIFIER_PAGES, {}),
+    "researcher_pages": (fixtures.RESEARCHER_PAGES, fixtures.RESEARCHER_STATUS),
+    "extractor_pages": ({"data.csv": fixtures.EXTRACTOR_CSV, "page.html": fixtures.EXTRACTOR_PAGE}, {}),
+}
+
+
+def write_pages(directory: Path, name: str = "verifier_pages") -> tuple[Path, dict[str, int]]:
+    """Write a named set of fixture pages; returns (directory, paths that answer with a fixed HTTP status instead)."""
+    pages, statuses = PAGE_SETS[name]
     directory.mkdir(parents=True, exist_ok=True)
-    for name, html in VERIFIER_PAGES.items():
-        (directory / name).write_text(html, encoding="utf-8")
-    return directory
+    for filename, body in pages.items():
+        (directory / filename).write_text(body, encoding="utf-8")
+    return directory, statuses
 
 
 def load_cases(path: Path) -> list[dict]:

@@ -47,6 +47,14 @@ Para cada pergunta de `plan.md`:
 4. Corre o script (`uv run python studies/<slug>/analysis/<axis>.py`) e confirma que não
    falha antes de passar à pergunta seguinte. Imprime só o essencial (valores-chave), não
    tabelas inteiras.
+5. **Antes de terminares, corre `uv run python -m common.checks <slug> 4`** (a mesma condição que o
+   orquestrador aplica): se imprimir problemas (um gráfico registado cujo JSON não existe, um `kind`
+   que os dados não suportam, `breaks.csv` vazio), corrige-os. Cada gráfico registado tem de ter o
+   seu ficheiro em `analysis/out/`, criado pelo script e não à mão.
+6. Quebras: o `common.breaks` marca como `level` um degrau que se mantém e como `peak` um salto
+   que reverte no ano seguinte (um pico produz duas linhas, a subida e a recuperação: regista a
+   que mostra o evento). Os candidatos mais fortes (maior magnitude em relação à série) são os que
+   quase sempre valem registo; não os descartes só por parecerem "grandes demais".
 
 ## Bash
 
@@ -62,4 +70,4 @@ persistir, regista a fonte como `excluded` com o motivo.
 - Não editas `data/clean/` nem `sources.csv`.
 - A condição de conclusão desta fase exige pelo menos um gráfico registado por pergunta e
   `breaks.csv` preenchido.
-- Termina com um resumo de **no máximo 150 palavras**.
+- Termina com um resumo de **no máximo 150 palavras** (conta-as).

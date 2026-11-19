@@ -1,0 +1,15 @@
+# Offline: the planner may not search the web. It gets only a topic and must produce a valid, well-formed plan.
+cases:
+  - id: plan_from_topic
+    description: A valid plan (5-10 data questions, each with an axis and a source), an axes section the orchestrator can split by, scope and open decisions.
+    fixture: {upto_phase: 0}
+    remove: ["studies/mini-eval/plan.md", "studies/mini-eval/sources.csv", "studies/mini-eval/breaks.csv", "studies/mini-eval/analysis", "studies/mini-eval/data"]
+    deny: [WebSearch, WebFetch]
+    tools: [Read, Write, Edit, Glob]
+    bash: false
+    timeout: 900
+    prompt: |
+      Fase 1 do estudo `mini-eval` (pasta studies/mini-eval/). Tema: «Internamentos hospitalares evitáveis e despesa em saúde
+      em Portugal». Escreve studies/mini-eval/plan.md seguindo as regras do teu agente. Neste ambiente não tens internet: usa o
+      que sabes sobre fontes oficiais (INE, Eurostat, DGS, SNS) sem as validar. Termina com um resumo de no máximo 150 palavras.
+    graders: [planner_plan_valid, planner_axes_section, planner_scope_and_decisions, planner_questions_answerable, summary_short, writes_only_own_files, not_published]

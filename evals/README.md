@@ -20,6 +20,10 @@ model can break these silently, so they are measured before and after.
 
 | Agent | Case | What it checks |
 | --- | --- | --- |
+| `planner` | `plan_from_topic` | A plan that passes the phase 1 check, with a parsable `## Eixos` list consistent with the questions, a stated scope and open decisions, and data questions (not opinions) |
+| `data-researcher` | `four_candidates` | Four sources behind a local server: the good one tested with its real licence and coverage, the dead one excluded for a definitive reason, the non-commercial one never passed off as permissive, the transient (HTTP 503) one left out and flagged for retry |
+| `extractor` | `csv_with_missing_markers` | A CSV whose `:` placeholders break a naive spec: the clean parquet matches the source row by row (only Portugal and the EU-27, total sex, readable labels), with a verified manifest entry and the spec kept |
+| `analyst` | `charts_and_breaks` | Planted breaks (a level shift, a spike, a dip) are recorded without a flood of near-duplicates; phase 4 passes; every script reruns to byte-identical chart JSON; no notebooks |
 | `historian` | `coincidence_traps` | Events whose source only says they happened are never graded above C; an unrelated old event is never linked; no invented events; the event whose source states the effect is recognised (A or B); writes only its own files |
 | `writer` | `write_pt_en` | The phase 6 check passes; every number traces to an input; no invented URL; PT and EN use the same claim ids; no causal wording about coincidence-only events |
 | `writer` | `write_en_only` | The English unit alone: translates an existing Portuguese report, reuses every claim id, leaves `claims.csv` and the PT report untouched, adds or drops no figure, and is really English. Used to decide whether a cheaper model can write this unit |
@@ -48,8 +52,9 @@ rejects each kind of bad output: a grader that cannot fail is worse than none.
 
 - The verifier case needs `WebFetch` to reach `127.0.0.1`; if the tool refuses local addresses the run will show low recall
   (a finding about the case, not about the agent). Check the first real run.
-- Three cases cover three agents. The `planner`, `data-researcher`, `extractor` and `analyst` have none yet; the analyst's
-  chart choices are partly checked by `common.chartkinds` already.
+- Seven agents are covered, each by one case; more cases per agent (harder traps, larger fixtures) are the next step.
+- The closing summary of at most 150 words is measured (`summary_within_150_words`, a quality grader) and Opus does not obey it:
+  the planner stays at 180-200 words even when told to count. That belongs to the orchestrator (truncate in code), not to the prompt.
 - Fixtures are tiny on purpose; they test judgement rules, not scale.
 
 ## Decisions taken from the evals
@@ -60,3 +65,17 @@ rejects each kind of bad output: a grader that cannot fail is worse than none.
 - **English unit on Sonnet** (Nov 2026): `write_en_only` passed 10 of 10 graders in 3 of 3 runs with both models, at $0.06 against
   $0.10 per run, so the `/study` skill launches the writer's `en` unit with Sonnet. The fixture is small (8 claims); if a real
   study shows drift in the English report, rerun the case on a larger fixture before reverting.
+- **Four more agents measured** (Nov 2026), baseline then fix, 3 runs each (planner/analyst/researcher):
+  - `planner`: wrote the `## Eixos` section as a table in 2 of 3 runs, which the code could not read (phase 2 then silently skips its
+    "axis without a source" protection). The prompt now gives the exact list format, phase 1 requires a parsable axes list consistent
+    with the questions, and the axes parser also accepts tables. Valid axes: 33% to 100%.
+  - `data-researcher`: once recorded the coverage as 2000-2002 because `common.probe` of a CSV only showed the first rows. The probe
+    now prints the time range and the distinct values of the small columns. Right licence and coverage: 67% to 100%.
+  - `analyst`: missed the planted 2012 level shift in 2 of 3 runs. The cause was the tool, not the agent (see below). Planted breaks
+    found: 33% to 100%; phase 4 passing: 67% to 100%.
+  - `extractor`: 3 of 3 clean on the first measurement (including the `:` trap and provenance): no change needed.
+- **A bug in `common.breaks` found by the analyst eval** (Nov 2026): `ruptures.Pelt` was used with its default `jump=5`, which only
+  allows break points at multiples of 5 from the start of the series, so every PELT level shift and slope change was dated up to two
+  years off. Penalties also depended on the unit of the series (a rate in the hundreds produced ten breaks, a share below one
+  produced none), a persistent jump was labelled a `peak`, and a steady trend produced evenly spaced fake level shifts. Now `jump=1`,
+  scale-free penalties, a persistent jump is a `level` and one that reverts a `peak`, and level shifts are the persistent jumps.

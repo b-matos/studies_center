@@ -83,9 +83,20 @@ def append_rows(rows: list[dict]) -> None:
 class LocalSite:
     """Serve a directory of fixture pages on a free local port for the duration of a case."""
 
-    def __init__(self, directory: Path) -> None:
-        handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(directory))
-        handler.log_message = lambda *a, **k: None  # type: ignore[attr-defined]
+    def __init__(self, directory: Path, statuses: dict[str, int] | None = None) -> None:
+        overrides = statuses or {}
+
+        class Handler(http.server.SimpleHTTPRequestHandler):
+            def do_GET(self) -> None:
+                if self.path in overrides:
+                    self.send_error(overrides[self.path])
+                    return
+                super().do_GET()
+
+            def log_message(self, *args, **kwargs) -> None:
+                pass
+
+        handler = functools.partial(Handler, directory=str(directory))
         self.server = http.server.ThreadingHTTPServer(("127.0.0.1", 0), handler)
         self.port = self.server.server_address[1]
         threading.Thread(target=self.server.serve_forever, daemon=True).start()
@@ -95,7 +106,7 @@ class LocalSite:
 
 
 def run_case(agent: str, case: dict, *, run_index: int, batch: str, model: str | None, dry_run: bool, keep: bool) -> list[dict]:
-    site = LocalSite(sandbox.write_pages(Path(sandbox.tempfile.mkdtemp(prefix="eval-pages-")))) if case.get("serve") else None
+    site = LocalSite(*sandbox.write_pages(Path(sandbox.tempfile.mkdtemp(prefix="eval-pages-")), case["serve"])) if case.get("serve") else None
     port = site.port if site else None
     root, params = sandbox.make_sandbox(case, port=port)
     before = sandbox.snapshot(root)
