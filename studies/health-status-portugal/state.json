@@ -1,15 +1,10 @@
 {
   "schema_version": 2,
-  "current_phase": 8,
+  "current_phase": 4,
   "completed_phases": [
     1,
     2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8
+    3
   ],
   "phases": {
     "1": {
@@ -75,48 +70,35 @@
       "completed_at": "2026-11-10T16:58:42Z"
     },
     "4": {
-      "status": "completed",
+      "status": "pending",
       "attempts": 0,
       "units": {},
-      "last_problems": [],
-      "started_at": "2026-11-10T16:58:54Z",
-      "completed_at": "2026-11-10T17:05:14Z"
+      "last_problems": []
     },
     "5": {
-      "status": "completed",
+      "status": "pending",
       "attempts": 0,
       "units": {},
-      "last_problems": [],
-      "started_at": "2026-11-10T17:05:21Z",
-      "completed_at": "2026-11-10T17:07:47Z"
+      "last_problems": []
     },
     "6": {
-      "status": "completed",
+      "status": "pending",
       "attempts": 0,
-      "units": {
-        "pt": "done",
-        "en": "done"
-      },
-      "last_problems": [],
-      "started_at": "2026-11-10T17:07:56Z",
-      "completed_at": "2026-11-11T16:51:34Z"
+      "units": {},
+      "last_problems": []
     },
     "7": {
-      "status": "completed",
-      "attempts": 1,
-      "units": {},
-      "last_problems": [],
-      "started_at": "2026-11-11T16:51:49Z",
-      "completed_at": "2026-11-11T17:22:55Z"
-    },
-    "8": {
-      "status": "completed",
+      "status": "pending",
       "attempts": 0,
       "units": {},
-      "last_problems": [],
-      "started_at": "2026-11-11T17:23:06Z",
-      "completed_at": "2026-11-11T17:23:17Z"
+      "last_problems": []
+    },
+    "8": {
+      "status": "pending",
+      "attempts": 0,
+      "units": {},
+      "last_problems": []
     }
   },
-  "updated_at": "2026-11-11T17:23:17Z"
+  "updated_at": "2026-11-19T16:36:53Z"
 }
