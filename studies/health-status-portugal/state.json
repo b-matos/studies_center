@@ -8,7 +8,8 @@
     4,
     5,
     6,
-    7
+    7,
+    8
   ],
   "phases": {
     "1": {
@@ -109,11 +110,13 @@
       "completed_at": "2026-11-20T14:23:04Z"
     },
     "8": {
-      "status": "pending",
+      "status": "completed",
       "attempts": 0,
       "units": {},
-      "last_problems": []
+      "last_problems": [],
+      "started_at": "2026-11-20T14:23:13Z",
+      "completed_at": "2026-11-20T14:23:24Z"
     }
   },
-  "updated_at": "2026-11-20T14:23:04Z"
+  "updated_at": "2026-11-20T14:23:24Z"
 }
