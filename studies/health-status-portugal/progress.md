@@ -29,3 +29,6 @@ Análise refeita com o detetor corrigido (tendência+degrau, teste F). `breaks.c
 
 ## Fase 6 (redação, 2026-11-20)
 `report.pt.qmd` e `report.en.qmd` escritos sobre as 29 quebras novas (todas as ligações a eventos em grau C); degraus de ih01 (2013), ih03 (2011–2014) e eac16 (2011) confirmados, nenhum em 2018/2019. Removidas c221 e c231 (sem fonte). À 1.ª tentativa a porta recusou 10 gráficos em cada língua por tipo inadequado aos dados; trocados por smallMultiples, heatmap e tabelas; 2.ª tentativa passou. Para o autor: q02 e q03 ficaram em tabela e ficariam melhor em linhas; a nota de mortalidade-b001 em `breaks.csv`/`event_links.csv` fala de uma lacuna 2018–2021 na série de tumores que não existe (fases 4/5).
+
+## Fase 7 (verificação, 2026-11-20)
+`common.verify --apply` confirmou por código as 246 afirmações (cadeia de proveniência para `data`, excerto no repositório para `internal`, excerto na página para as restantes); 0 por resolver, por isso o `verifier` não foi necessário. `complete-phase 7` passou à primeira.

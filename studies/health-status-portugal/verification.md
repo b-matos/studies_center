@@ -179,7 +179,7 @@
 - c177: confirmed (automatic) - provenance chain proven; computed=213.18, recorded=213.18
 - c178: failed - a página do Diário da República é uma aplicação JavaScript sem texto estático; o excerto não pôde ser confirmado à mão
 - c179: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
-- c180: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c180: confirmed (automatic) - fuzzy match, score=98.85057471264368; not a data claim or missing calculation/clean_file
 - c181: failed - página do Diário da República sem texto estático (JavaScript), excerto não confirmável à mão; além disso o URL (Lei 63/2017) é uma alteração, não a Lei 37/2007
 - c182: failed - página do Diário da República sem texto estático (JavaScript), excerto não confirmável à mão
 - c183: failed - página do Diário da República sem texto estático (JavaScript), excerto não confirmável à mão; além disso o URL (Portaria 430/2023) não corresponde ao período 2016-2018
@@ -209,3 +209,69 @@
 - c207: confirmed (automatic) - internal: excerpt found in the repository file
 - c208: confirmed (automatic) - internal: excerpt found in the repository file
 - c209: confirmed (automatic) - internal: excerpt found in the repository file
+- c210: confirmed (automatic) - internal: excerpt found in the repository file
+- c211: confirmed (automatic) - internal: excerpt found in the repository file
+- c212: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c213: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c214: confirmed (automatic) - fuzzy match, score=98.85057471264368; not a data claim or missing calculation/clean_file
+- c215: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c216: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c217: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c218: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c219: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c220: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c221: confirmed (automatic) - fuzzy match, score=98.85057471264368; not a data claim or missing calculation/clean_file
+- c222: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c223: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c224: confirmed (automatic) - fuzzy match, score=98.85057471264368; not a data claim or missing calculation/clean_file
+- c225: confirmed (automatic) - exact substring match; not a data claim or missing calculation/clean_file
+- c226: confirmed (automatic) - internal: excerpt found in the repository file
+- c227: confirmed (automatic) - internal: excerpt found in the repository file
+- c228: confirmed (automatic) - internal: excerpt found in the repository file
+- c229: confirmed (automatic) - internal: excerpt found in the repository file
+- c230: confirmed (automatic) - internal: excerpt found in the repository file
+- c231: confirmed (automatic) - internal: excerpt found in the repository file
+- c232: confirmed (automatic) - internal: excerpt found in the repository file
+- c233: confirmed (automatic) - internal: excerpt found in the repository file
+- c234: confirmed (automatic) - internal: excerpt found in the repository file
+- c235: confirmed (automatic) - internal: excerpt found in the repository file
+- c236: confirmed (automatic) - internal: excerpt found in the repository file
+- c237: confirmed (automatic) - internal: excerpt found in the repository file
+- c240: confirmed (automatic) - provenance chain proven; computed=34.7, recorded=34.7
+- c241: confirmed (automatic) - provenance chain proven; computed=42.7, recorded=42.7
+- c242: confirmed (automatic) - provenance chain proven; computed=41.5, recorded=41.5
+- c243: confirmed (automatic) - provenance chain proven; computed=41.2, recorded=41.2
+- c244: confirmed (automatic) - provenance chain proven; computed=66.7, recorded=66.7
+- c245: confirmed (automatic) - provenance chain proven; computed=72.5, recorded=72.5
+- c246: confirmed (automatic) - provenance chain proven; computed=49.7, recorded=49.7
+- c247: confirmed (automatic) - provenance chain proven; computed=46.0, recorded=46.0
+- c248: confirmed (automatic) - provenance chain proven; computed=49.3, recorded=49.3
+- c249: confirmed (automatic) - provenance chain proven; computed=50.1, recorded=50.1
+- c250: confirmed (automatic) - provenance chain proven; computed=18.0, recorded=18.0
+- c251: confirmed (automatic) - provenance chain proven; computed=63.6, recorded=63.6
+- c252: confirmed (automatic) - provenance chain proven; computed=56.9, recorded=56.9
+- c253: confirmed (automatic) - provenance chain proven; computed=9.1, recorded=9.1
+- c254: confirmed (automatic) - provenance chain proven; computed=13.8, recorded=13.8
+- c255: confirmed (automatic) - provenance chain proven; computed=3.8, recorded=3.8
+- c256: confirmed (automatic) - provenance chain proven; computed=8.4, recorded=8.4
+- c257: confirmed (automatic) - provenance chain proven; computed=26.7, recorded=26.7
+- c258: confirmed (automatic) - provenance chain proven; computed=29.66, recorded=29.66
+- c259: confirmed (automatic) - provenance chain proven; computed=30.2, recorded=30.2
+- c260: confirmed (automatic) - provenance chain proven; computed=27.61, recorded=27.61
+- c261: confirmed (automatic) - provenance chain proven; computed=9.61, recorded=9.61
+- c262: confirmed (automatic) - provenance chain proven; computed=10.64, recorded=10.64
+- c263: confirmed (automatic) - provenance chain proven; computed=288.5, recorded=288.5
+- c264: confirmed (automatic) - provenance chain proven; computed=277.4, recorded=277.4
+- c265: confirmed (automatic) - provenance chain proven; computed=346.1, recorded=346.1
+- c266: confirmed (automatic) - provenance chain proven; computed=322.4, recorded=322.4
+- c267: confirmed (automatic) - provenance chain proven; computed=240.46, recorded=240.46
+- c268: confirmed (automatic) - provenance chain proven; computed=226.14, recorded=226.14
+- c269: confirmed (automatic) - provenance chain proven; computed=39.7, recorded=39.7
+- c270: confirmed (automatic) - provenance chain proven; computed=40.3, recorded=40.3
+- c271: confirmed (automatic) - provenance chain proven; computed=15.5, recorded=15.5
+- c272: confirmed (automatic) - provenance chain proven; computed=15.2, recorded=15.2
+- c273: confirmed (automatic) - provenance chain proven; computed=219.51, recorded=219.51
+- c274: confirmed (automatic) - provenance chain proven; computed=25.06000000000006, recorded=25.06
+- c275: confirmed (automatic) - provenance chain proven; computed=10.039999999999964, recorded=10.04
+- c276: confirmed (automatic) - internal: excerpt found in the repository file
+- c277: confirmed (automatic) - internal: excerpt found in the repository file
