@@ -12,6 +12,7 @@ Trends (`[t…]`, Theil-Sen slope + Mann-Kendall) come from `common.trends`; `Gr
 ## q01_life_expectancy
 
 Esperança de vida à nascença e aos 65 anos, Portugal e UE-27 (1960-2024) | axis: esperanca-de-vida | rows: 528 | 1960-01-01 to 2024-01-01
+chart kind: small_multiples | allowed: small_multiples, ranking, slope, dumbbell, table
 
 - European Union (27) | T | 0 | life_expectancy | YR | file=eac11.parquet clean_labels(sex='T',age='Y_LT1',indicator='life_expectancy') | n=23 2002:77.6 → 2024:81.5 (Δ+3.9) | min 77.6@2002 | max 81.5@2024 | trend +0.1556/yr [+0.1167, +0.2] increasing (MK p_adj=1.2e-06) [t0011]
 - European Union (27) | T | 65 | life_expectancy | YR | file=eac11.parquet clean_labels(sex='T',age='Y65',indicator='life_expectancy') | n=23 2002:17.8 → 2024:20.2 (Δ+2.4) | min 17.8@2002 | max 20.2@2024 | trend +0.08235/yr [+0.05556, +0.1167] increasing (MK p_adj=4.25e-05) [t0009]
@@ -29,6 +30,7 @@ Esperança de vida à nascença e aos 65 anos, Portugal e UE-27 (1960-2024) | ax
 ## q01_life_expectancy_regions
 
 Esperança de vida à nascença por região NUTS II (triénios, INE) | axis: esperanca-de-vida | rows: 91 | 2008-01-01 to 2020-01-01
+chart kind: small_multiples | allowed: line, small_multiples, ranking, slope, dumbbell, heatmap, table
 
 - Alentejo | - | - | life_expectancy_at_birth | years | file=ilm01.parquet | n=13 2008:78.58 → 2020:80.09 (Δ+1.51) | min 78.58@2008 | max 80.42@2018 | trend +0.1204/yr [+0.078, +0.195] increasing (MK p_adj=0.00118) [t0015]
 - Algarve | - | - | life_expectancy_at_birth | years | file=ilm01.parquet | n=13 2008:78.9 → 2020:79.99 (Δ+1.09) | min 78.9@2008 | max 80.38@2013 | trend +0.04042/yr [-0.04, +0.124] no_clear_trend (MK p_adj=0.552) [t0016]
@@ -41,6 +43,7 @@ Esperança de vida à nascença por região NUTS II (triénios, INE) | axis: esp
 ## q02_healthy_life_years
 
 Anos de vida saudável e peso na esperança de vida, Portugal e UE-27 (2004-2024) | axis: esperanca-de-vida | rows: 756 | 2004-01-01 to 2024-01-01
+chart kind: ranking | allowed: ranking, table
 
 - European Union (27) | T | - | healthy_life_years|hlth_hle=HLY_LE_Y0_PC | PC | file=eac10.parquet | n=21 2004:80.3 → 2024:79.9 (Δ-0.4) | min 75.8@2013 | max 80.3@2004 | trend +0.09212/yr [-0.05333, +0.1813] no_clear_trend (MK p_adj=0.341) [t0028]
 - European Union (27) | T | - | healthy_life_years|hlth_hle=HLY_LE_Y65_PC | PC | file=eac10.parquet | n=21 2004:51.5 → 2024:50.9 (Δ-0.6) | min 41.5@2009 | max 51.5@2004 | trend +0.3/yr [-0, +0.5222] no_clear_trend (MK p_adj=0.114) [t0030]
@@ -61,6 +64,7 @@ Anos de vida saudável e peso na esperança de vida, Portugal e UE-27 (2004-2024
 ## q03_causes_pt_eu
 
 Taxa de mortalidade padronizada por causa, Portugal e UE-27 (2011-2023) | axis: mortalidade | rows: 408 | 2011-01-01 to 2023-01-01
+chart kind: ranking | allowed: ranking, table
 
 - European Union (27) | T | TOTAL | all_causes | RT | file=ilm08.parquet clean_labels(sex='T',age='TOTAL',indicator='standardised_death_rate|icd10=TOTAL') | n=7 2013:1034.61, 2014:1006.92, 2015:1040.6, 2016:999.05, 2017:1005.68, 2022:1039.09, 2023:963.42 | trend -4.833/yr [-17.46, +6.63] no_clear_trend (MK p_adj=0.505) [t0088]
 - European Union (27) | T | TOTAL | cancer_C00_C97 | RT | file=ilm08.parquet clean_labels(sex='T',age='TOTAL',indicator='standardised_death_rate|icd10=C') | n=11 2013:261.22 → 2023:233.13 (Δ-28.09) | min 233.13@2023 | max 261.22@2013 | trend -3.203/yr [-3.715, -2.662] decreasing (MK p_adj=1.19e-06) [t0080]
@@ -81,16 +85,17 @@ Taxa de mortalidade padronizada por causa, Portugal e UE-27 (2011-2023) | axis: 
 ## q03_causes_regions
 
 Mortalidade padronizada por causa e região NUTS II (Eurostat, 2011-2023; Centro: PT16 até 2021, PT19 em 2023) | axis: mortalidade | rows: 476 | 2011-01-01 to 2023-01-01
+chart kind: heatmap | allowed: ranking, heatmap, table
 
 - Alentejo | T | TOTAL | cancer_C00_C97 | RT | file=derived | n=11 2011:247.55 → 2021:229.93 (Δ-17.62) | min 229.93@2021 | max 260.46@2015 | trend +0.01111/yr [-2.953, +1.54] no_clear_trend (MK p_adj=1) [t0096]
 - Alentejo | T | TOTAL | circulatory | RT | file=derived | n=11 2011:366.91 → 2021:285.97 (Δ-80.94) | min 285.97@2021 | max 366.91@2011 | trend -5.939/yr [-8.715, -1.782] decreasing (MK p_adj=0.00233) [t0110]
-- Alentejo | T | TOTAL | diabetes | RT | file=ih10.parquet clean_labels(sex='HM',age='75 - 84 anos',indicator='suicide_mortality_rate_nuts2013') cov=1/11 | n=11 2011:58.18 → 2021:37.74 (Δ-20.44) | min 37.74@2021 | max 61.5@2012 | trend -1.845/yr [-2.63, -0.1925] no_clear_trend (MK p_adj=0.0683) [t0103]
+- Alentejo | T | TOTAL | diabetes | RT | file=derived | n=11 2011:58.18 → 2021:37.74 (Δ-20.44) | min 37.74@2021 | max 61.5@2012 | trend -1.845/yr [-2.63, -0.1925] no_clear_trend (MK p_adj=0.0683) [t0103]
 - Alentejo | T | TOTAL | external_causes | RT | file=derived | n=11 2011:57.67 → 2021:57.89 (Δ+0.22) | min 50.56@2014 | max 74.34@2015 | trend +0.2283/yr [-1.047, +1.06] no_clear_trend (MK p_adj=0.671) [t0130]
 - Alentejo | T | TOTAL | respiratory | RT | file=derived | n=11 2011:117.18 → 2021:89.18 (Δ-28) | min 89.18@2021 | max 144.63@2012 | trend -4.854/yr [-7.617, -0.79] decreasing (MK p_adj=0.0491) [t0117]
 - Algarve | T | TOTAL | all_causes | RT | file=derived | n=9 2011:1035.43 → 2023:973.82 (Δ-61.61) | min 973.82@2023 | max 1086.43@2017 | trend -3.246/yr [-14.29, +8.23] no_clear_trend (MK p_adj=0.847) [t0121]
 - Algarve | T | TOTAL | cancer_C00_C97 | RT | file=derived | n=13 2011:254.85 → 2023:228.4 (Δ-26.45) | min 221.78@2022 | max 261.7@2016 | trend -1.802/yr [-3.492, +0.16] no_clear_trend (MK p_adj=0.121) [t0093]
 - Algarve | T | TOTAL | circulatory | RT | file=derived | n=13 2011:291.39 → 2023:226.51 (Δ-64.88) | min 226.51@2023 | max 293.19@2018 | trend -3.983/yr [-7.04, +0.2571] no_clear_trend (MK p_adj=0.184) [t0107]
-- Algarve | T | TOTAL | diabetes | RT | file=ih09.parquet clean_labels(sex='H',age='35 - 44 anos',indicator='suicide_mortality_rate') cov=1/13 | n=13 2011:31.69 → 2023:19.4 (Δ-12.29) | min 19.4@2023 | max 35.06@2013 | trend -1.252/yr [-1.566, -0.9] decreasing (MK p_adj=0.000314) [t0100]
+- Algarve | T | TOTAL | diabetes | RT | file=derived | n=13 2011:31.69 → 2023:19.4 (Δ-12.29) | min 19.4@2023 | max 35.06@2013 | trend -1.252/yr [-1.566, -0.9] decreasing (MK p_adj=0.000314) [t0100]
 - Algarve | T | TOTAL | external_causes | RT | file=derived | n=13 2011:48.34 → 2023:62.28 (Δ+13.94) | min 44.76@2012 | max 62.28@2023 | trend +1.252/yr [+0.58, +2.05] increasing (MK p_adj=0.00552) [t0127]
 - Algarve | T | TOTAL | respiratory | RT | file=derived | n=13 2011:109.4 → 2023:91.58 (Δ-17.82) | min 76.42@2021 | max 138.83@2012 | trend -3.574/yr [-6.012, +0.82] no_clear_trend (MK p_adj=0.149) [t0114]
 - Centro | T | TOTAL | all_causes | RT | file=derived | n=1 2023:843.22
@@ -101,9 +106,10 @@ Mortalidade padronizada por causa e região NUTS II (Eurostat, 2011-2023; Centro
 ## q03_causes_regions_2024
 
 Mortalidade padronizada por causa e região NUTS 2024 (INE, 2024) | axis: mortalidade | rows: 60 | 2024-01-01 to 2024-01-01
+chart kind: table | allowed: table
 
-- Portugal | HM | - | Causas de morte externas | per 100000 | file=eac16.parquet clean_labels(sex='T',age='Y_GE85',indicator='self_perceived_health|levels=B_VB|wstatus=NEMP') | n=1 2024:39.5
-- Portugal | HM | - | Diabetes mellitus | per 100000 | file=eac16.parquet clean_labels(sex='F',age='Y16-24',indicator='self_perceived_health|levels=FAIR|wstatus=SAL') | n=1 2024:17.5
+- Portugal | HM | - | Causas de morte externas | per 100000 | file=ilm02.parquet clean_labels(sex='HM',age='',indicator='standardised_mortality_rate|Causas de morte externas') | n=1 2024:39.5
+- Portugal | HM | - | Diabetes mellitus | per 100000 | file=ilm02.parquet clean_labels(sex='HM',age='',indicator='standardised_mortality_rate|Diabetes mellitus') | n=1 2024:17.5
 - Portugal | HM | - | Doenças do aparelho circulatório | per 100000 | file=ilm02.parquet clean_labels(sex='HM',age='',indicator='standardised_mortality_rate|Doenças do aparelho circulatório') | n=1 2024:169.5
 - Portugal | HM | - | Doenças do aparelho respiratório | per 100000 | file=ilm02.parquet clean_labels(sex='HM',age='',indicator='standardised_mortality_rate|Doenças do aparelho respiratório') | n=1 2024:75.2
 - Portugal | HM | - | Todas as causas de morte | per 100000 | file=ilm02.parquet clean_labels(sex='HM',age='',indicator='standardised_mortality_rate|Todas as causas de morte') | n=1 2024:863.9
@@ -115,12 +121,13 @@ Mortalidade padronizada por causa e região NUTS 2024 (INE, 2024) | axis: mortal
 - Alentejo | HM | - | Todas as causas de morte | per 100000 | file=ilm02.parquet clean_labels(sex='HM',age='',indicator='standardised_mortality_rate|Todas as causas de morte') | n=1 2024:1011.6
 - Alentejo | HM | - | Tumores malignos | per 100000 | file=ilm02.parquet clean_labels(sex='HM',age='',indicator='standardised_mortality_rate|Tumores malignos') | n=1 2024:214.5
 - Algarve | HM | - | Causas de morte externas | per 100000 | file=ilm02.parquet clean_labels(sex='HM',age='',indicator='standardised_mortality_rate|Causas de morte externas') | n=1 2024:46.7
-- Algarve | HM | - | Diabetes mellitus | per 100000 | file=ilm02.parquet clean_labels(sex='H',age='',indicator='standardised_mortality_rate|Diabetes mellitus') | n=1 2024:11.3
+- Algarve | HM | - | Diabetes mellitus | per 100000 | file=ilm02.parquet clean_labels(sex='HM',age='',indicator='standardised_mortality_rate|Diabetes mellitus') | n=1 2024:11.3
 - … 46 more series (regions, sexes, ages): see series.csv
 
 ## q03_premature_mortality
 
 Mortalidade prematura (30-70 anos) e antes dos 75 anos, Portugal (INE) | axis: mortalidade | rows: 87 | 2002-01-01 to 2024-01-01
+chart kind: line | allowed: line, small_multiples, ranking, slope, dumbbell, table
 
 - Portugal | HM | - | premature_mortality_rate_30_70 | per 100000 | file=ilm04.parquet | n=23 2002:357.5 → 2024:267.9 (Δ-89.6) | min 258.5@2020 | max 357.5@2002 | trend -2.018/yr [-3.167, -0.42] decreasing (MK p_adj=0.0205) [t0195]
 - Portugal | HM | - | standardised_mortality_rate_under75 | per 100000 | file=ilm03.parquet | n=6 2019:320, 2020:336.2, 2021:338.9, 2022:324.3, 2023:311.3, 2024:302.8 | trend -8.3/yr [-13.8, +9.45] no_clear_trend (MK p_adj=0.392) [t0198]
@@ -132,23 +139,25 @@ Mortalidade prematura (30-70 anos) e antes dos 75 anos, Portugal (INE) | axis: m
 ## q04_avoidable_mortality
 
 Mortalidade evitável (prevenível e tratável) por 100 000 hab., Portugal e UE-27 (2011-2023) | axis: mortalidade | rows: 156 | 2011-01-01 to 2023-01-01
+chart kind: small_multiples | allowed: small_multiples, ranking, slope, dumbbell, scatter, table
 
 - European Union (27) | T | - | preventable | RT | file=derived | n=13 2011:177.96 → 2023:150.85 (Δ-27.11) | min 150.85@2023 | max 200.83@2021 | trend -1.947/yr [-2.92, +0.46] no_clear_trend (MK p_adj=0.222) [t0203]
-- European Union (27) | T | - | treatable | RT | file=eac16.parquet clean_labels(sex='F',age='Y16-24',indicator='self_perceived_health|levels=VG_G|wstatus=POP') cov=1/13 | n=13 2011:103.39 → 2023:86.81 (Δ-16.58) | min 86.81@2023 | max 103.39@2011 | trend -1.159/yr [-1.672, -0.835] decreasing (MK p_adj=0.000618) [t0209]
+- European Union (27) | T | - | treatable | RT | file=derived | n=13 2011:103.39 → 2023:86.81 (Δ-16.58) | min 86.81@2023 | max 103.39@2011 | trend -1.159/yr [-1.672, -0.835] decreasing (MK p_adj=0.000618) [t0209]
 - Portugal | T | - | preventable | RT | file=derived | n=13 2011:149.25 → 2023:125.94 (Δ-23.31) | min 125.94@2023 | max 155.89@2021 | trend -0.9666/yr [-1.756, +0.1175] no_clear_trend (MK p_adj=0.184) [t0204]
-- Portugal | T | - | treatable | RT | file=eac02.parquet clean_labels(sex='F',age='Y_GE16',indicator='unmet_dental_needs|reason=NUMT_ND|quant_inc=QU4') cov=1/13 | n=13 2011:94.78 → 2023:74.24 (Δ-20.54) | min 74.24@2023 | max 94.78@2011 | trend -1.781/yr [-2.025, -1.583] decreasing (MK p_adj=8.93e-05) [t0210]
-- European Union (27) | F | - | preventable | RT | file=eac01.parquet clean_labels(sex='F',age='Y16-64',indicator='unmet_medical_needs|reason=NUMT_ND|quant_inc=TOTAL') cov=1/13 | n=13 2011:94.65 → 2023:87.11 (Δ-7.54) | min 86.27@2019 | max 119.45@2021 | trend -0.485/yr [-0.9633, +1.006] no_clear_trend (MK p_adj=0.426) [t0199]
-- European Union (27) | F | - | treatable | RT | file=eac12.parquet clean_labels(sex='T',age='',indicator='avoidable_mortality|mortalit=PRVT|icd10=A39') cov=1/13 | n=13 2011:87.61 → 2023:71.97 (Δ-15.64) | min 71.97@2023 | max 87.61@2011 | trend -1.166/yr [-1.468, -0.8875] decreasing (MK p_adj=2.45e-05) [t0205]
+- Portugal | T | - | treatable | RT | file=derived | n=13 2011:94.78 → 2023:74.24 (Δ-20.54) | min 74.24@2023 | max 94.78@2011 | trend -1.781/yr [-2.025, -1.583] decreasing (MK p_adj=8.93e-05) [t0210]
+- European Union (27) | F | - | preventable | RT | file=derived | n=13 2011:94.65 → 2023:87.11 (Δ-7.54) | min 86.27@2019 | max 119.45@2021 | trend -0.485/yr [-0.9633, +1.006] no_clear_trend (MK p_adj=0.426) [t0199]
+- European Union (27) | F | - | treatable | RT | file=ambiguous(2 candidates; do not use for a calculation) | n=13 2011:87.61 → 2023:71.97 (Δ-15.64) | min 71.97@2023 | max 87.61@2011 | trend -1.166/yr [-1.468, -0.8875] decreasing (MK p_adj=2.45e-05) [t0205]
 - European Union (27) | M | - | preventable | RT | file=derived | n=13 2011:269.67 → 2023:220.21 (Δ-49.46) | min 220.21@2023 | max 289.7@2021 | trend -3.724/yr [-5.165, -0.31] no_clear_trend (MK p_adj=0.0957) [t0201]
 - European Union (27) | M | - | treatable | RT | file=derived | n=13 2011:121.3 → 2023:103.35 (Δ-17.95) | min 103.35@2023 | max 121.3@2011 | trend -1.207/yr [-1.997, -0.7267] decreasing (MK p_adj=0.00341) [t0207]
-- Portugal | F | - | preventable | RT | file=eac02.parquet clean_labels(sex='F',age='Y45-64',indicator='unmet_dental_needs|reason=NUMT_ND|quant_inc=QU1') cov=1/13 | n=13 2011:70.03 → 2023:57.39 (Δ-12.64) | min 57.39@2023 | max 75.08@2021 | trend -0.3681/yr [-0.96, +0.3371] no_clear_trend (MK p_adj=0.426) [t0200]
+- Portugal | F | - | preventable | RT | file=derived | n=13 2011:70.03 → 2023:57.39 (Δ-12.64) | min 57.39@2023 | max 75.08@2021 | trend -0.3681/yr [-0.96, +0.3371] no_clear_trend (MK p_adj=0.426) [t0200]
 - Portugal | F | - | treatable | RT | file=derived | n=13 2011:80.66 → 2023:62.87 (Δ-17.79) | min 62.53@2022 | max 80.66@2011 | trend -1.47/yr [-1.785, -1.27] decreasing (MK p_adj=2.86e-06) [t0206]
 - Portugal | M | - | preventable | RT | file=derived | n=13 2011:240.39 → 2023:203.72 (Δ-36.67) | min 203.72@2023 | max 249.39@2021 | trend -1.449/yr [-2.608, -0.03667] no_clear_trend (MK p_adj=0.0957) [t0202]
-- Portugal | M | - | treatable | RT | file=eac01.parquet clean_labels(sex='F',age='Y_GE85',indicator='unmet_medical_needs|reason=NUMT_ND|quant_inc=QU1') cov=1/13 | n=13 2011:111.68 → 2023:87.41 (Δ-24.27) | min 87.41@2023 | max 111.68@2011 | trend -2.174/yr [-2.575, -1.747] decreasing (MK p_adj=2.45e-05) [t0208]
+- Portugal | M | - | treatable | RT | file=derived | n=13 2011:111.68 → 2023:87.41 (Δ-24.27) | min 87.41@2023 | max 111.68@2011 | trend -2.174/yr [-2.575, -1.747] decreasing (MK p_adj=2.45e-05) [t0208]
 
 ## q04_infant_mortality
 
 Mortalidade infantil, neonatal e perinatal por 1000 nados-vivos, Portugal e UE-27 (1960-2024) | axis: mortalidade | rows: 324 | 1960-01-01 to 2024-01-01
+chart kind: line | allowed: line, small_multiples, ranking, grouped_bars, slope, dumbbell, table
 
 - European Union (27) | - | - | infant | RT | file=ilm07.parquet clean_labels(sex='',age='',indicator='infant_mortality|indic_de=INFMORRT') | n=64 1961:38.2 → 2024:3.5 (Δ-34.7) | min 3.2@2021 | max 38.2@1961 | trend -0.4782/yr [-0.528, -0.4158] decreasing (MK p_adj=7.9e-28) [t0212]
 - Portugal | - | - | - | RT | file=ilm07.parquet clean_labels(sex='',age='',indicator='infant_mortality|indic_de=ENEOMORRT') | n=65 1960:15 → 2024:1.2 (Δ-13.8) | min 1@2022 | max 17@1968 | trend -0.2991/yr [-0.3325, -0.2634] decreasing (MK p_adj=3.08e-23) [t0211]
@@ -159,6 +168,7 @@ Mortalidade infantil, neonatal e perinatal por 1000 nados-vivos, Portugal e UE-2
 ## q04_infant_mortality_regions
 
 Taxa quinquenal de mortalidade infantil por região NUTS 2024 (INE; data = último ano da janela) | axis: mortalidade | rows: 85 | 2021-01-01 to 2025-01-01
+chart kind: heatmap | allowed: ranking, slope, dumbbell, heatmap, table
 
 - Portugal | - | - | infant_mortality_rate_5y | per 1000 live births | file=ilm06.parquet | n=5 2021:2.7, 2022:2.7, 2023:2.6, 2024:2.6, 2025:2.7
 - Alentejo | - | - | infant_mortality_rate_5y | per 1000 live births | file=ilm06.parquet | n=5 2021:3.1, 2022:3.2, 2023:3.2, 2024:3, 2025:2.9
@@ -174,6 +184,7 @@ Taxa quinquenal de mortalidade infantil por região NUTS 2024 (INE; data = últi
 ## q06_chronic_condition
 
 Doença crónica ou problema de saúde prolongado, 16+ anos, por sexo e idade (INE, 2004-2025) | axis: morbilidade | rows: 198 | 2004-01-01 to 2025-01-01
+chart kind: small_multiples | allowed: small_multiples, ranking, slope, dumbbell, table
 
 - Portugal | HM | 16 - 64 anos | chronic_condition_share | % | file=ih01.parquet | n=22 2004:23.9 → 2025:33.9 (Δ+10) | min 21.9@2006 | max 34.6@2022 | trend +0.6071/yr [+0.4667, +0.7222] increasing (MK p_adj=1.16e-05) [t0228]
 - Portugal | HM | 16+ | chronic_condition_share | % | file=ih01.parquet clean_labels(sex='HM',age='',indicator='chronic_condition_share') | n=22 2004:32.1 → 2025:44.1 (Δ+12) | min 30.8@2006 | max 44.7@2022 | trend +0.7062/yr [+0.5462, +0.8222] increasing (MK p_adj=1.38e-06) [t0234]
@@ -188,6 +199,7 @@ Doença crónica ou problema de saúde prolongado, 16+ anos, por sexo e idade (I
 ## q06_chronic_condition_regions
 
 Doença crónica, 16+ anos, por região NUTS 2024 (INE, 2024-2025) | axis: morbilidade | rows: 20 | 2024-01-01 to 2025-01-01
+chart kind: ranking | allowed: ranking, slope, dumbbell, table
 
 - Portugal | - | - | chronic_condition_share_nuts | % | file=ih02.parquet | n=2 2024:42.3, 2025:44.1
 - Alentejo | - | - | chronic_condition_share_nuts | % | file=ih02.parquet | n=2 2024:38.7, 2025:41
@@ -203,6 +215,7 @@ Doença crónica, 16+ anos, por região NUTS 2024 (INE, 2024-2025) | axis: morbi
 ## q06_self_perceived_health_eu
 
 Saúde autoavaliada (EU-SILC), Portugal e UE-27, por sexo e idade (2008-2025) | axis: morbilidade | rows: 2142 | 2008-01-01 to 2025-01-01
+chart kind: table | allowed: table
 
 - European Union (27) | T | Y16-64 | BAD | percent | file=eac16.parquet clean_labels(sex='T',age='Y16-64',indicator='self_perceived_health|levels=BAD|wstatus=POP') | n=16 2010:4.9 → 2025:4.4 (Δ-0.5) | min 4.2@2017 | max 5@2011 | trend -0.05/yr [-0.07778, -0] decreasing (MK p_adj=0.03) [t0273]
 - European Union (27) | T | Y16-64 | B_VB | percent | file=eac16.parquet clean_labels(sex='T',age='Y16-64',indicator='self_perceived_health|levels=B_VB|wstatus=POP') | n=16 2010:5.9 → 2025:5.5 (Δ-0.4) | min 5.1@2017 | max 6.1@2011 | trend -0.05/yr [-0.08889, -0] no_clear_trend (MK p_adj=0.0723) [t0275]
@@ -223,6 +236,7 @@ Saúde autoavaliada (EU-SILC), Portugal e UE-27, por sexo e idade (2008-2025) | 
 ## q06_self_rated_health_ine
 
 Autoapreciação do estado de saúde, 16+ anos, por sexo e idade (INE, 2004-2025) | axis: morbilidade | rows: 594 | 2004-01-01 to 2025-01-01
+chart kind: dumbbell | allowed: ranking, dumbbell, table
 
 - Portugal | HM | 16 - 64 anos | self_rated_health_distribution|Mau ou muito mau | % | file=ih03.parquet | n=22 2004:12.2 → 2025:5.8 (Δ-6.4) | min 5.8@2024 | max 12.3@2010 | trend -0.3154/yr [-0.36, -0.2778] decreasing (MK p_adj=2.33e-06) [t0393]
 - Portugal | HM | 16 - 64 anos | self_rated_health_distribution|Muito bom ou bom | % | file=ih03.parquet | n=22 2004:55 → 2025:66 (Δ+11) | min 55@2004 | max 67.1@2024 | trend +0.4429/yr [+0.3, +0.6] increasing (MK p_adj=5.17e-05) [t0375]
@@ -243,6 +257,7 @@ Autoapreciação do estado de saúde, 16+ anos, por sexo e idade (INE, 2004-2025
 ## q07_alcohol
 
 Consumo de álcool nos 12 meses anteriores: ocasiões de 6+ bebidas (INS 2014, 2019, 2025; % dos consumidores) | axis: fatores-de-risco | rows: 382 | 2014-01-01 to 2025-01-01
+chart kind: table | allowed: table
 
 - Portugal | HM | 15 - 24 anos | Mensalmente | % | file=derived | n=3 2014:15.6043, 2019:25.5903, 2025:23.7165
 - Portugal | HM | 15 - 24 anos | Nunca consumiu 6 ou mais bebidas numa única ocasião | % | file=derived | n=3 2014:36.5059, 2019:26.2931, 2025:20.2236
@@ -263,6 +278,7 @@ Consumo de álcool nos 12 meses anteriores: ocasiões de 6+ bebidas (INS 2014, 2
 ## q07_bmi
 
 Classes de índice de massa corporal, 18+ anos, por região, sexo e idade (INS, 2025; %) | axis: fatores-de-risco | rows: 1164 | 2025-01-01 to 2025-01-01
+chart kind: table | allowed: table
 
 - Portugal | HM | 15+ | Baixo peso | % | file=derived | n=1 2025:1.6447
 - Portugal | HM | 15+ | Excesso de peso - Grau I | % | file=derived | n=1 2025:19.6308
@@ -283,6 +299,7 @@ Classes de índice de massa corporal, 18+ anos, por região, sexo e idade (INS, 
 ## q07_daily_smokers_regions
 
 Fumadores diários, 15+ anos, por região NUTS 2024 e sexo (INS, 2025) | axis: fatores-de-risco | rows: 30 | 2025-01-01 to 2025-01-01
+chart kind: ranking | allowed: ranking, table
 
 - Portugal | HM | - | daily_smokers_share | % | file=ih04.parquet | n=1 2025:12.7
 - Portugal | H | - | daily_smokers_share | % | file=ih04.parquet | n=1 2025:17.3
@@ -303,6 +320,7 @@ Fumadores diários, 15+ anos, por região NUTS 2024 e sexo (INS, 2025) | axis: f
 ## q07_tobacco
 
 Condição perante o tabaco, 15+ anos, por região, sexo e idade (INS, 2025; % da população) | axis: fatores-de-risco | rows: 1086 | 2025-01-01 to 2025-01-01
+chart kind: table | allowed: table
 
 - Portugal | HM | 15 - 24 anos | Ex-fumadores | % | file=derived | n=1 2025:9.9846
 - Portugal | HM | 15 - 24 anos | Fumador diário | % | file=derived | n=1 2025:6.0021
@@ -314,7 +332,7 @@ Condição perante o tabaco, 15+ anos, por região, sexo e idade (INS, 2025; % d
 - Portugal | HM | 15+ | Nunca fumaram | % | file=derived | n=1 2025:61.8675
 - Portugal | HM | 25 - 34 anos | Ex-fumadores | % | file=derived | n=1 2025:19.9527
 - Portugal | HM | 25 - 34 anos | Fumador diário | % | file=derived | n=1 2025:16.667
-- Portugal | HM | 25 - 34 anos | Fumadores | % | file=eac02.parquet clean_labels(sex='T',age='Y45-54',indicator='unmet_dental_needs|reason=TXP|quant_inc=QU1') | n=1 2025:19.4996
+- Portugal | HM | 25 - 34 anos | Fumadores | % | file=derived | n=1 2025:19.4996
 - Portugal | HM | 25 - 34 anos | Nunca fumaram | % | file=derived | n=1 2025:58.9706
 - Portugal | HM | 35 - 44 anos | Ex-fumadores | % | file=derived | n=1 2025:26.5099
 - Portugal | HM | 35 - 44 anos | Fumador diário | % | file=derived | n=1 2025:15.6083
@@ -323,6 +341,7 @@ Condição perante o tabaco, 15+ anos, por região, sexo e idade (INS, 2025; % d
 ## q08_depressive_symptoms
 
 Sintomas depressivos, 15+ anos, por sexo e idade (INS 2014, 2019, 2025; % da população) | axis: saude-mental | rows: 167 | 2014-01-01 to 2025-01-01
+chart kind: table | allowed: table
 
 - Portugal | HM | 15 - 24 anos | Sem sintomas | % | file=derived | n=3 2014:95.8458, 2019:90.5177, 2025:91.266
 - Portugal | HM | 15+ | Sem sintomas | % | file=derived | n=3 2014:88.6775, 2019:87.8656, 2025:83.4956
@@ -343,8 +362,9 @@ Sintomas depressivos, 15+ anos, por sexo e idade (INS 2014, 2019, 2025; % da pop
 ## q08_suicide
 
 Taxa de mortalidade por suicídio por 100 000 hab., por região, sexo e idade (INE, 2002-2024) | axis: saude-mental | rows: 7380 | 2002-01-01 to 2024-01-01
+chart kind: heatmap | allowed: heatmap, table
 
-- Portugal | HM | 1 - 4 anos | suicide_rate | per_100000 | file=eac04.parquet clean_labels(sex='',age='',indicator='health_expenditure_by_financing|icha11_hf=HF122') | n=22 2003:0 → 2024:0 (Δ+0) | min 0@2003 | max 0@2003 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=1) [t2216]
+- Portugal | HM | 1 - 4 anos | suicide_rate | per_100000 | file=ih10.parquet clean_labels(sex='HM',age='1 - 4 anos',indicator='suicide_mortality_rate_nuts2013') cov=20/22 | n=22 2003:0 → 2024:0 (Δ+0) | min 0@2003 | max 0@2003 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=1) [t2216]
 - Portugal | HM | 15 - 24 anos | suicide_rate | per_100000 | file=ih10.parquet clean_labels(sex='HM',age='15 - 24 anos',indicator='suicide_mortality_rate_nuts2013') cov=19/21 | n=21 2002:4.3 → 2024:4.6 (Δ+0.3) | min 2.1@2011 | max 4.8@2022 | trend +0.04083/yr [-0.025, +0.1] no_clear_trend (MK p_adj=0.289) [t2076]
 - Portugal | HM | 25 - 34 anos | suicide_rate | per_100000 | file=ih10.parquet clean_labels(sex='HM',age='25 - 34 anos',indicator='suicide_mortality_rate_nuts2013') cov=21/23 | n=23 2002:8.9 → 2024:6.8 (Δ-2.1) | min 4.1@2006 | max 8.9@2002 | trend -0.01333/yr [-0.1, +0.07143] no_clear_trend (MK p_adj=0.841) [t2092]
 - Portugal | HM | 35 - 44 anos | suicide_rate | per_100000 | file=ih10.parquet clean_labels(sex='HM',age='35 - 44 anos',indicator='suicide_mortality_rate_nuts2013') cov=21/23 | n=23 2002:10.7 → 2024:6.7 (Δ-4) | min 6@2021 | max 10.9@2014 | trend -0.1273/yr [-0.2188, -0.05] decreasing (MK p_adj=0.0163) [t2110]
@@ -356,20 +376,21 @@ Taxa de mortalidade por suicídio por 100 000 hab., por região, sexo e idade (I
 - Portugal | HM | 75 e mais anos | suicide_rate | per_100000 | file=ih10.parquet clean_labels(sex='HM',age='75 e mais anos',indicator='suicide_mortality_rate_nuts2013') cov=21/23 | n=23 2002:33.5 → 2024:20 (Δ-13.5) | min 19.8@2022 | max 34.4@2003 | trend -0.6187/yr [-0.7308, -0.4] decreasing (MK p_adj=7.89e-05) [t2210]
 - Portugal | HM | 85 e mais anos | suicide_rate | per_100000 | file=ih10.parquet clean_labels(sex='HM',age='85 e mais anos',indicator='suicide_mortality_rate_nuts2013') cov=13/15 | n=15 2010:40.5 → 2024:22.4 (Δ-18.1) | min 22.4@2024 | max 40.5@2010 | trend -0.725/yr [-1.4, -0.1909] decreasing (MK p_adj=0.0362) [t2295]
 - Portugal | HM | all_ages | suicide_rate | per_100000 | file=ih10.parquet clean_labels(sex='HM',age='',indicator='suicide_mortality_rate_nuts2013') cov=21/23 | n=23 2002:11.6 → 2024:9 (Δ-2.6) | min 8.2@2006 | max 11.7@2014 | trend -0.05/yr [-0.1, +0.01667] no_clear_trend (MK p_adj=0.246) [t2190]
-- Portugal | H | 1 - 4 anos | suicide_rate | per_100000 | file=eac04.parquet clean_labels(sex='',age='',indicator='health_expenditure_by_financing|icha11_hf=HF122') | n=23 2002:0 → 2024:0 (Δ+0) | min 0@2002 | max 0@2002 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=1) [t2041]
+- Portugal | H | 1 - 4 anos | suicide_rate | per_100000 | file=ih10.parquet clean_labels(sex='H',age='1 - 4 anos',indicator='suicide_mortality_rate_nuts2013') cov=21/23 | n=23 2002:0 → 2024:0 (Δ+0) | min 0@2002 | max 0@2002 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=1) [t2041]
 - Portugal | H | 15 - 24 anos | suicide_rate | per_100000 | file=ih10.parquet clean_labels(sex='H',age='15 - 24 anos',indicator='suicide_mortality_rate_nuts2013') cov=17/19 | n=19 2003:5.6 → 2024:7.2 (Δ+1.6) | min 2.6@2011 | max 7.2@2022 | trend +0.15/yr [-0, +0.22] no_clear_trend (MK p_adj=0.0837) [t2228]
 - … 382 more series (regions, sexes, ages): see series.csv
 
 ## q09_unmet_dental
 
 Necessidades de cuidados dentários não satisfeitas por motivo e quintil de rendimento (EU-SILC, 2008-2025) | axis: acesso-e-recursos | rows: 6840 | 2008-01-01 to 2025-01-01
+chart kind: table | allowed: table
 
-- European Union (27) | T | Y16-64 | dental|TFAR|QU1 | percent | file=eac01.parquet clean_labels(sex='F',age='Y45-64',indicator='unmet_medical_needs|reason=TFAR|quant_inc=QU3') | n=9 2017:0 → 2025:0.1 (Δ+0.1) | min 0@2017 | max 0.1@2020 | trend +0.00625/yr [-0, +0.02] no_clear_trend (MK p_adj=0.0572) [t2436]
-- European Union (27) | T | Y16-64 | dental|TFAR|QU2 | percent | file=eac01.parquet clean_labels(sex='F',age='Y16-24',indicator='unmet_medical_needs|reason=TFAR|quant_inc=TOTAL') | n=9 2017:0 → 2025:0.1 (Δ+0.1) | min 0@2017 | max 0.1@2020 | trend -0/yr [-0, +0.02] no_clear_trend (MK p_adj=0.212) [t2508]
-- European Union (27) | T | Y16-64 | dental|TFAR|QU3 | percent | file=eac01.parquet clean_labels(sex='M',age='Y16-44',indicator='unmet_medical_needs|reason=TFAR|quant_inc=QU4') | n=9 2017:0 → 2025:0.1 (Δ+0.1) | min 0@2017 | max 0.1@2023 | trend +0.00625/yr [-0, +0.02] no_clear_trend (MK p_adj=0.0572) [t2580]
-- European Union (27) | T | Y16-64 | dental|TFAR|QU4 | percent | file=eac01.parquet clean_labels(sex='F',age='Y16-24',indicator='unmet_medical_needs|reason=TFAR|quant_inc=QU5') | n=9 2017:0 → 2025:0 (Δ+0) | min 0@2017 | max 0.1@2024 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=0.362) [t2652]
-- European Union (27) | T | Y16-64 | dental|TFAR|QU5 | percent | file=eac01.parquet clean_labels(sex='M',age='Y16-44',indicator='unmet_medical_needs|reason=GDOC_UNK|quant_inc=QU4') | n=9 2017:0 → 2025:0.1 (Δ+0.1) | min 0@2017 | max 0.1@2024 | trend -0/yr [-0, +0.01667] no_clear_trend (MK p_adj=0.0936) [t2724]
-- European Union (27) | T | Y16-64 | dental|TFAR|TOTAL | percent | file=eac01.parquet clean_labels(sex='M',age='Y16-44',indicator='unmet_medical_needs|reason=TFAR|quant_inc=QU4') | n=9 2017:0 → 2025:0.1 (Δ+0.1) | min 0@2017 | max 0.1@2023 | trend +0.00625/yr [-0, +0.02] no_clear_trend (MK p_adj=0.0572) [t2796]
+- European Union (27) | T | Y16-64 | dental|TFAR|QU1 | percent | file=eac02.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_dental_needs|reason=TFAR|quant_inc=QU1') | n=9 2017:0 → 2025:0.1 (Δ+0.1) | min 0@2017 | max 0.1@2020 | trend +0.00625/yr [-0, +0.02] no_clear_trend (MK p_adj=0.0572) [t2436]
+- European Union (27) | T | Y16-64 | dental|TFAR|QU2 | percent | file=eac02.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_dental_needs|reason=TFAR|quant_inc=QU2') | n=9 2017:0 → 2025:0.1 (Δ+0.1) | min 0@2017 | max 0.1@2020 | trend -0/yr [-0, +0.02] no_clear_trend (MK p_adj=0.212) [t2508]
+- European Union (27) | T | Y16-64 | dental|TFAR|QU3 | percent | file=ambiguous(3 candidates; do not use for a calculation) | n=9 2017:0 → 2025:0.1 (Δ+0.1) | min 0@2017 | max 0.1@2023 | trend +0.00625/yr [-0, +0.02] no_clear_trend (MK p_adj=0.0572) [t2580]
+- European Union (27) | T | Y16-64 | dental|TFAR|QU4 | percent | file=eac02.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_dental_needs|reason=TFAR|quant_inc=QU4') | n=9 2017:0 → 2025:0 (Δ+0) | min 0@2017 | max 0.1@2024 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=0.362) [t2652]
+- European Union (27) | T | Y16-64 | dental|TFAR|QU5 | percent | file=eac02.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_dental_needs|reason=TFAR|quant_inc=QU5') | n=9 2017:0 → 2025:0.1 (Δ+0.1) | min 0@2017 | max 0.1@2024 | trend -0/yr [-0, +0.01667] no_clear_trend (MK p_adj=0.0936) [t2724]
+- European Union (27) | T | Y16-64 | dental|TFAR|TOTAL | percent | file=ambiguous(3 candidates; do not use for a calculation) | n=9 2017:0 → 2025:0.1 (Δ+0.1) | min 0@2017 | max 0.1@2023 | trend +0.00625/yr [-0, +0.02] no_clear_trend (MK p_adj=0.0572) [t2796]
 - European Union (27) | T | Y16-64 | dental|TXP_TFAR_WLIST|QU1 | percent | file=eac02.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_dental_needs|reason=TXP_TFAR_WLIST|quant_inc=QU1') | n=9 2017:6.5 → 2025:6.4 (Δ-0.1) | min 6.3@2019 | max 7.5@2020 | trend -0/yr [-0.2, +0.1] no_clear_trend (MK p_adj=0.972) [t2472]
 - European Union (27) | T | Y16-64 | dental|TXP_TFAR_WLIST|QU2 | percent | file=eac02.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_dental_needs|reason=TXP_TFAR_WLIST|quant_inc=QU2') | n=9 2017:3.7 → 2025:4.6 (Δ+0.9) | min 3.7@2017 | max 5.1@2022 | trend +0.1146/yr [-0.05, +0.2667] no_clear_trend (MK p_adj=0.274) [t2544]
 - European Union (27) | T | Y16-64 | dental|TXP_TFAR_WLIST|QU3 | percent | file=eac02.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_dental_needs|reason=TXP_TFAR_WLIST|quant_inc=QU3') | n=9 2017:2.5 → 2025:3.1 (Δ+0.6) | min 2.4@2018 | max 3.5@2023 | trend +0.1/yr [-0, +0.22] no_clear_trend (MK p_adj=0.117) [t2616]
@@ -383,12 +404,13 @@ Necessidades de cuidados dentários não satisfeitas por motivo e quintil de ren
 ## q09_unmet_medical
 
 Necessidades de cuidados médicos não satisfeitas por motivo e quintil de rendimento (EU-SILC, 2008-2025) | axis: acesso-e-recursos | rows: 7344 | 2008-01-01 to 2025-01-01
+chart kind: table | allowed: table
 
 - European Union (27) | T | Y16-64 | medical|TFAR|QU1 | percent | file=eac01.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_medical_needs|reason=TFAR|quant_inc=QU1') | n=16 2010:0.2 → 2025:0.2 (Δ+0) | min 0.1@2016 | max 0.2@2010 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=0.397) [t2868]
 - European Union (27) | T | Y16-64 | medical|TFAR|QU2 | percent | file=eac01.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_medical_needs|reason=TFAR|quant_inc=QU2') | n=16 2010:0.1 → 2025:0.1 (Δ+0) | min 0@2022 | max 0.1@2010 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=0.448) [t2940]
 - European Union (27) | T | Y16-64 | medical|TFAR|QU3 | percent | file=eac01.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_medical_needs|reason=TFAR|quant_inc=QU3') | n=16 2010:0.1 → 2025:0.1 (Δ+0) | min 0@2017 | max 0.1@2010 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=0.456) [t3012]
-- European Union (27) | T | Y16-64 | medical|TFAR|QU4 | percent | file=eac01.parquet clean_labels(sex='M',age='Y35-44',indicator='unmet_medical_needs|reason=TFAR|quant_inc=TOTAL') | n=16 2010:0 → 2025:0.1 (Δ+0.1) | min 0@2010 | max 0.1@2012 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=0.86) [t3084]
-- European Union (27) | T | Y16-64 | medical|TFAR|QU5 | percent | file=eac01.parquet clean_labels(sex='M',age='Y16-29',indicator='unmet_medical_needs|reason=TFAR|quant_inc=QU5') | n=16 2010:0 → 2025:0 (Δ+0) | min 0@2010 | max 0.1@2024 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=0.264) [t3156]
+- European Union (27) | T | Y16-64 | medical|TFAR|QU4 | percent | file=eac01.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_medical_needs|reason=TFAR|quant_inc=QU4') | n=16 2010:0 → 2025:0.1 (Δ+0.1) | min 0@2010 | max 0.1@2012 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=0.86) [t3084]
+- European Union (27) | T | Y16-64 | medical|TFAR|QU5 | percent | file=eac01.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_medical_needs|reason=TFAR|quant_inc=QU5') | n=16 2010:0 → 2025:0 (Δ+0) | min 0@2010 | max 0.1@2024 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=0.264) [t3156]
 - European Union (27) | T | Y16-64 | medical|TFAR|TOTAL | percent | file=eac01.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_medical_needs|reason=TFAR|quant_inc=TOTAL') | n=16 2010:0.1 → 2025:0.1 (Δ+0) | min 0@2017 | max 0.1@2010 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=0.911) [t3228]
 - European Union (27) | T | Y16-64 | medical|TXP_TFAR_WLIST|QU1 | percent | file=eac01.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_medical_needs|reason=TXP_TFAR_WLIST|quant_inc=QU1') | n=16 2010:6.1 → 2025:3.5 (Δ-2.6) | min 2.8@2019 | max 7.1@2014 | trend -0.2389/yr [-0.3625, -0] no_clear_trend (MK p_adj=0.0888) [t2904]
 - European Union (27) | T | Y16-64 | medical|TXP_TFAR_WLIST|QU2 | percent | file=eac01.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_medical_needs|reason=TXP_TFAR_WLIST|quant_inc=QU2') | n=16 2010:3.8 → 2025:2.6 (Δ-1.2) | min 1.5@2017 | max 4.7@2013 | trend -0.1/yr [-0.2333, +0.1] no_clear_trend (MK p_adj=0.216) [t2976]
@@ -403,6 +425,7 @@ Necessidades de cuidados médicos não satisfeitas por motivo e quintil de rendi
 ## q09_unmet_poverty
 
 Necessidades não satisfeitas por limiar de risco de pobreza (EU-SILC, 2021-2025) | axis: acesso-e-recursos | rows: 360 | 2021-01-01 to 2025-01-01
+chart kind: table | allowed: table
 
 - European Union (27) | T | Y16-29 | unmet_needs|A_60 | percent | file=eac03.parquet clean_labels(sex='T',age='Y16-29',indicator='unmet_needs_by_poverty|reason=TXP_TFAR_WLIST|rskpovth=A_60') | n=5 2021:2.1, 2022:1.9, 2023:2.1, 2024:2.6, 2025:2.2
 - European Union (27) | T | Y16-29 | unmet_needs|B_60 | percent | file=eac03.parquet clean_labels(sex='T',age='Y16-29',indicator='unmet_needs_by_poverty|reason=TXP_TFAR_WLIST|rskpovth=B_60') | n=5 2021:4, 2022:4.4, 2023:3.2, 2024:4.4, 2025:4.7
@@ -423,44 +446,47 @@ Necessidades não satisfeitas por limiar de risco de pobreza (EU-SILC, 2021-2025
 ## q10_expenditure_by_function
 
 Despesa corrente em saúde por função de cuidados, % do total (1992-2025) | axis: acesso-e-recursos | rows: 267 | 2000-01-01 to 2025-01-01
+chart kind: small_multiples | allowed: small_multiples, dumbbell, table
 
-- European Union (27) | - | - | HC3 | PC_CHE | file=eac16.parquet clean_labels(sex='F',age='Y16-44',indicator='self_perceived_health|levels=FAIR|wstatus=UNE') cov=1/11 | n=11 2014:15.45 → 2024:17.21 (Δ+1.76) | min 15.4@2015 | max 17.21@2024 | trend +0.17/yr [+0.1083, +0.2467] increasing (MK p_adj=0.00464) [t3370]
-- European Union (27) | - | - | HC4 | PC_CHE | file=ilm08.parquet clean_labels(sex='F',age='TOTAL',indicator='standardised_death_rate|icd10=C81-C86') cov=1/11 | n=11 2014:5.06 → 2024:5.05 (Δ-0.01) | min 5.03@2021 | max 5.09@2022 | trend -0.002/yr [-0.008, +0.003333] no_clear_trend (MK p_adj=0.704) [t3372]
-- European Union (27) | - | - | HC5 | PC_CHE | file=eac10.parquet clean_labels(sex='M',age='',indicator='healthy_life_years|hlth_hle=LE_Y65') cov=1/11 | n=11 2014:19.02 → 2024:17.45 (Δ-1.57) | min 17.36@2022 | max 19.11@2015 | trend -0.2075/yr [-0.2667, -0.15] decreasing (MK p_adj=0.0011) [t3374]
-- European Union (27) | - | - | HC6 | PC_CHE | file=eac16.parquet clean_labels(sex='T',age='Y_GE75',indicator='self_perceived_health|levels=VGOOD|wstatus=NEMP') cov=2/11 | n=11 2014:2.99 → 2024:3.3 (Δ+0.31) | min 2.98@2015 | max 6.32@2021 | trend +0.04833/yr [+0.01, +0.3412] increasing (MK p_adj=0.0202) [t3376]
-- European Union (27) | - | - | HC7 | PC_CHE | file=eac01.parquet clean_labels(sex='F',age='Y16-44',indicator='unmet_medical_needs|reason=TXP_TFAR_WLIST|quant_inc=QU1') cov=1/11 | n=11 2014:3.92 → 2024:3.5 (Δ-0.42) | min 3.5@2024 | max 3.92@2014 | trend -0.045/yr [-0.055, -0.036] decreasing (MK p_adj=0.00162) [t3378]
-- European Union (27) | - | - | TOT_HC | PC_CHE | file=eac12.parquet clean_labels(sex='M',age='',indicator='avoidable_mortality|mortalit=PRVT|icd10=Q00-Q01_Q05') cov=1/11 | n=11 2014:100 → 2024:100 (Δ+0) | min 100@2014 | max 100@2014 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=1) [t3380]
-- Portugal | - | - | HC1 | PC_CHE | file=eac12.parquet clean_labels(sex='M',age='',indicator='avoidable_mortality|mortalit=TOTAL|icd10=ACUTE_PANC') cov=1/25 | n=25 2000:53.88 → 2024:61.91 (Δ+8.03) | min 53.52@2001 | max 61.91@2024 | trend +0.3458/yr [+0.2909, +0.3828] increasing (MK p_adj=2.43e-10) [t3368]
-- Portugal | - | - | HC2 | PC_CHE | file=eac01.parquet clean_labels(sex='F',age='Y25-29',indicator='unmet_medical_needs|reason=NTIME|quant_inc=QU3') cov=1/25 | n=25 2000:3.88 → 2024:4.06 (Δ+0.18) | min 3.85@2007 | max 4.97@2011 | trend +0.008239/yr [-0.01176, +0.03786] no_clear_trend (MK p_adj=0.412) [t3369]
-- Portugal | - | - | HC3 | PC_CHE | file=eac02.parquet clean_labels(sex='T',age='Y16-44',indicator='unmet_dental_needs|reason=TXP_TFAR_WLIST|quant_inc=TOTAL') cov=1/25 | n=25 2000:3.38 → 2024:5.13 (Δ+1.75) | min 2.97@2005 | max 5.15@2023 | trend +0.09742/yr [+0.075, +0.1169] increasing (MK p_adj=1.17e-06) [t3371]
-- Portugal | - | - | HC4 | PC_CHE | file=eac01.parquet clean_labels(sex='F',age='Y35-44',indicator='unmet_medical_needs|reason=TXP|quant_inc=QU1') cov=1/25 | n=25 2000:7.84 → 2024:7.55 (Δ-0.29) | min 7.51@2020 | max 8.6@2021 | trend -0.02823/yr [-0.04375, -0.01474] decreasing (MK p_adj=0.00959) [t3373]
-- Portugal | - | - | HC5 | PC_CHE | file=eac02.parquet clean_labels(sex='F',age='Y55-64',indicator='unmet_dental_needs|reason=TXP|quant_inc=QU2') cov=1/25 | n=25 2000:26.39 → 2024:16.81 (Δ-9.58) | min 16.81@2024 | max 26.55@2001 | trend -0.4349/yr [-0.488, -0.3791] decreasing (MK p_adj=6.08e-09) [t3375]
-- Portugal | - | - | HC6 | PC_CHE | file=eac16.parquet clean_labels(sex='M',age='Y25-34',indicator='self_perceived_health|levels=BAD|wstatus=POP') cov=2/25 | n=25 2000:2.69 → 2024:2.15 (Δ-0.54) | min 1.91@2019 | max 3.33@2022 | trend -0.02873/yr [-0.04111, -0.01714] decreasing (MK p_adj=0.00855) [t3377]
-- Portugal | - | - | HC7 | PC_CHE | file=eac01.parquet clean_labels(sex='F',age='Y16-29',indicator='unmet_medical_needs|reason=TXP|quant_inc=QU3') cov=1/25 | n=25 2000:1.87 → 2024:2.29 (Δ+0.42) | min 1.39@2003 | max 2.48@2020 | trend +0.02935/yr [+0.02143, +0.03929] increasing (MK p_adj=4.61e-06) [t3379]
-- Portugal | - | - | TOT_HC | PC_CHE | file=eac01.parquet clean_labels(sex='F',age='Y16-19',indicator='unmet_medical_needs|reason=NUMT_ND|quant_inc=QU5') cov=9/26 | n=26 2000:100 → 2025:100 (Δ+0) | min 100@2000 | max 100@2000 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=1) [t3381]
+- European Union (27) | - | - | HC3 | PC_CHE | file=derived | n=11 2014:15.45 → 2024:17.21 (Δ+1.76) | min 15.4@2015 | max 17.21@2024 | trend +0.17/yr [+0.1083, +0.2467] increasing (MK p_adj=0.00464) [t3370]
+- European Union (27) | - | - | HC4 | PC_CHE | file=derived | n=11 2014:5.06 → 2024:5.05 (Δ-0.01) | min 5.03@2021 | max 5.09@2022 | trend -0.002/yr [-0.008, +0.003333] no_clear_trend (MK p_adj=0.704) [t3372]
+- European Union (27) | - | - | HC5 | PC_CHE | file=derived | n=11 2014:19.02 → 2024:17.45 (Δ-1.57) | min 17.36@2022 | max 19.11@2015 | trend -0.2075/yr [-0.2667, -0.15] decreasing (MK p_adj=0.0011) [t3374]
+- European Union (27) | - | - | HC6 | PC_CHE | file=derived | n=11 2014:2.99 → 2024:3.3 (Δ+0.31) | min 2.98@2015 | max 6.32@2021 | trend +0.04833/yr [+0.01, +0.3412] increasing (MK p_adj=0.0202) [t3376]
+- European Union (27) | - | - | HC7 | PC_CHE | file=derived | n=11 2014:3.92 → 2024:3.5 (Δ-0.42) | min 3.5@2024 | max 3.92@2014 | trend -0.045/yr [-0.055, -0.036] decreasing (MK p_adj=0.00162) [t3378]
+- European Union (27) | - | - | TOT_HC | PC_CHE | file=derived | n=11 2014:100 → 2024:100 (Δ+0) | min 100@2014 | max 100@2014 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=1) [t3380]
+- Portugal | - | - | HC1 | PC_CHE | file=derived | n=25 2000:53.88 → 2024:61.91 (Δ+8.03) | min 53.52@2001 | max 61.91@2024 | trend +0.3458/yr [+0.2909, +0.3828] increasing (MK p_adj=2.43e-10) [t3368]
+- Portugal | - | - | HC2 | PC_CHE | file=eac05.parquet clean_labels(sex='',age='',indicator='health_expenditure_by_function|icha11_hc=HC14_24') cov=1/25 | n=25 2000:3.88 → 2024:4.06 (Δ+0.18) | min 3.85@2007 | max 4.97@2011 | trend +0.008239/yr [-0.01176, +0.03786] no_clear_trend (MK p_adj=0.412) [t3369]
+- Portugal | - | - | HC3 | PC_CHE | file=eac05.parquet clean_labels(sex='',age='',indicator='health_expenditure_by_function|icha11_hc=HC32') cov=1/25 | n=25 2000:3.38 → 2024:5.13 (Δ+1.75) | min 2.97@2005 | max 5.15@2023 | trend +0.09742/yr [+0.075, +0.1169] increasing (MK p_adj=1.17e-06) [t3371]
+- Portugal | - | - | HC4 | PC_CHE | file=derived | n=25 2000:7.84 → 2024:7.55 (Δ-0.29) | min 7.51@2020 | max 8.6@2021 | trend -0.02823/yr [-0.04375, -0.01474] decreasing (MK p_adj=0.00959) [t3373]
+- Portugal | - | - | HC5 | PC_CHE | file=derived | n=25 2000:26.39 → 2024:16.81 (Δ-9.58) | min 16.81@2024 | max 26.55@2001 | trend -0.4349/yr [-0.488, -0.3791] decreasing (MK p_adj=6.08e-09) [t3375]
+- Portugal | - | - | HC6 | PC_CHE | file=derived | n=25 2000:2.69 → 2024:2.15 (Δ-0.54) | min 1.91@2019 | max 3.33@2022 | trend -0.02873/yr [-0.04111, -0.01714] decreasing (MK p_adj=0.00855) [t3377]
+- Portugal | - | - | HC7 | PC_CHE | file=derived | n=25 2000:1.87 → 2024:2.29 (Δ+0.42) | min 1.39@2003 | max 2.48@2020 | trend +0.02935/yr [+0.02143, +0.03929] increasing (MK p_adj=4.61e-06) [t3379]
+- Portugal | - | - | TOT_HC | PC_CHE | file=derived | n=26 2000:100 → 2025:100 (Δ+0) | min 100@2000 | max 100@2000 | trend -0/yr [-0, -0] no_clear_trend (MK p_adj=1) [t3381]
 
 ## q10_health_expenditure
 
 Despesa corrente em saúde: % do PIB, PPC por habitante e estrutura por regime de financiamento (1992-2025) | axis: acesso-e-recursos | rows: 220 | 2000-01-01 to 2025-01-01
+chart kind: small_multiples | allowed: small_multiples, ranking, slope, dumbbell, table
 
 - European Union (27) | - | - | government_compulsory | PC_CHE | file=derived | n=11 2014:77.54 → 2024:80.33 (Δ+2.79) | min 77.54@2014 | max 80.78@2020 | trend +0.2983/yr [+0.085, +0.455] increasing (MK p_adj=0.0202) [t3384]
-- European Union (27) | - | - | household_out_of_pocket | PC_CHE | file=eac16.parquet clean_labels(sex='F',age='Y16-64',indicator='self_perceived_health|levels=FAIR|wstatus=NSAL') cov=1/11 | n=11 2014:16.39 → 2024:15.06 (Δ-1.33) | min 14.78@2020 | max 16.42@2015 | trend -0.1486/yr [-0.2317, -0.054] decreasing (MK p_adj=0.0219) [t3388]
+- European Union (27) | - | - | household_out_of_pocket | PC_CHE | file=derived | n=11 2014:16.39 → 2024:15.06 (Δ-1.33) | min 14.78@2020 | max 16.42@2015 | trend -0.1486/yr [-0.2317, -0.054] decreasing (MK p_adj=0.0219) [t3388]
 - European Union (27) | - | - | total | EUR_HAB | file=eac04.parquet clean_labels(sex='',age='',indicator='health_expenditure_by_financing|icha11_hf=TOT_HF') | n=11 2014:2657.45 → 2024:4074.88 (Δ+1417) | min 2657.45@2014 | max 4074.88@2024 | trend +139.1/yr [+103.7, +167.2] increasing (MK p_adj=1.19e-06) [t3382]
 - European Union (27) | - | - | total | PC_GDP | file=derived | n=11 2014:9.91 → 2024:10.16 (Δ+0.25) | min 9.79@2018 | max 10.79@2021 | trend +0.025/yr [-0.02333, +0.1175] no_clear_trend (MK p_adj=0.403) [t3390]
 - European Union (27) | - | - | total | PPS_HAB | file=eac04.parquet clean_labels(sex='',age='',indicator='health_expenditure_by_financing|icha11_hf=TOT_HF') | n=11 2014:2657.45 → 2024:4074.88 (Δ+1417) | min 2657.45@2014 | max 4074.88@2024 | trend +139.1/yr [+103.7, +167.2] increasing (MK p_adj=1.19e-06) [t3392]
-- European Union (27) | - | - | voluntary_schemes | PC_CHE | file=ilm08.parquet clean_labels(sex='F',age='TOTAL',indicator='standardised_death_rate|icd10=C22') cov=1/11 | n=11 2014:6.06 → 2024:4.61 (Δ-1.45) | min 4.36@2021 | max 6.06@2014 | trend -0.092/yr [-0.2314, -0.02] decreasing (MK p_adj=0.0491) [t3386]
-- Portugal | - | - | government_compulsory | PC_CHE | file=eac02.parquet clean_labels(sex='F',age='Y45-64',indicator='unmet_dental_needs|reason=NUMT_ND|quant_inc=QU1') cov=1/26 | n=26 2000:69.68 → 2025:62.65 (Δ-7.03) | min 60.81@2019 | max 71.89@2002 | trend -0.286/yr [-0.4641, -0.1236] decreasing (MK p_adj=0.00371) [t3385]
-- Portugal | - | - | household_out_of_pocket | PC_CHE | file=eac02.parquet clean_labels(sex='T',age='Y16-64',indicator='unmet_dental_needs|reason=TXP|quant_inc=QU1') cov=1/26 | n=26 2000:25.67 → 2025:27.77 (Δ+2.1) | min 23.31@2002 | max 30.2@2019 | trend +0.23/yr [+0.1467, +0.32] increasing (MK p_adj=0.00112) [t3389]
+- European Union (27) | - | - | voluntary_schemes | PC_CHE | file=derived | n=11 2014:6.06 → 2024:4.61 (Δ-1.45) | min 4.36@2021 | max 6.06@2014 | trend -0.092/yr [-0.2314, -0.02] decreasing (MK p_adj=0.0491) [t3386]
+- Portugal | - | - | government_compulsory | PC_CHE | file=derived | n=26 2000:69.68 → 2025:62.65 (Δ-7.03) | min 60.81@2019 | max 71.89@2002 | trend -0.286/yr [-0.4641, -0.1236] decreasing (MK p_adj=0.00371) [t3385]
+- Portugal | - | - | household_out_of_pocket | PC_CHE | file=derived | n=26 2000:25.67 → 2025:27.77 (Δ+2.1) | min 23.31@2002 | max 30.2@2019 | trend +0.23/yr [+0.1467, +0.32] increasing (MK p_adj=0.00112) [t3389]
 - Portugal | - | - | total | EUR_HAB | file=eac04.parquet clean_labels(sex='',age='',indicator='health_expenditure_by_financing|icha11_hf=TOT_HF') | n=25 2000:1075.75 → 2024:2764.83 (Δ+1689) | min 1075.75@2000 | max 2764.83@2024 | trend +58.78/yr [+41.38, +67.97] increasing (MK p_adj=3.5e-11) [t3383]
-- Portugal | - | - | total | PC_GDP | file=eac02.parquet clean_labels(sex='F',age='Y45-54',indicator='unmet_dental_needs|reason=TXP|quant_inc=QU2') cov=1/26 | n=26 2000:8.62 → 2025:10.39 (Δ+1.77) | min 8.62@2000 | max 11.22@2021 | trend +0.05316/yr [+0.025, +0.085] increasing (MK p_adj=0.00203) [t3391]
+- Portugal | - | - | total | PC_GDP | file=derived | n=26 2000:8.62 → 2025:10.39 (Δ+1.77) | min 8.62@2000 | max 11.22@2021 | trend +0.05316/yr [+0.025, +0.085] increasing (MK p_adj=0.00203) [t3391]
 - Portugal | - | - | total | PPS_HAB | file=derived | n=25 2000:1301.39 → 2024:3247.42 (Δ+1946) | min 1301.39@2000 | max 3247.42@2024 | trend +60.86/yr [+44.5, +73.89] increasing (MK p_adj=9.24e-13) [t3393]
-- Portugal | - | - | voluntary_schemes | PC_CHE | file=eac02.parquet clean_labels(sex='F',age='Y16-24',indicator='unmet_dental_needs|reason=TXP|quant_inc=TOTAL') cov=1/26 | n=26 2000:4.64 → 2025:9.59 (Δ+4.95) | min 4.64@2000 | max 11.39@2007 | trend +0.055/yr [+0.003333, +0.2] no_clear_trend (MK p_adj=0.0963) [t3387]
+- Portugal | - | - | voluntary_schemes | PC_CHE | file=derived | n=26 2000:4.64 → 2025:9.59 (Δ+4.95) | min 4.64@2000 | max 11.39@2007 | trend +0.055/yr [+0.003333, +0.2] no_clear_trend (MK p_adj=0.0963) [t3387]
 
 ## q10_health_personnel
 
 Médicos, enfermeiros, dentistas e farmacêuticos por 100 000 hab., Portugal (Eurostat) | axis: acesso-e-recursos | rows: 156 | 1960-01-01 to 2024-01-01
+chart kind: line | allowed: line, small_multiples, ranking, slope, dumbbell, table
 
-- Portugal | - | - | dentists_licensed | P_HTHAB | file=eac02.parquet clean_labels(sex='M',age='Y55-64',indicator='unmet_dental_needs|reason=NUMT_ND|quant_inc=QU5') cov=1/45 | n=45 1980:11.09 → 2024:123.54 (Δ+112.5) | min 10.29@1984 | max 123.54@2024 | trend +3.021/yr [+2.8, +3.221] increasing (MK p_adj=1.61e-19) [t3394]
+- Portugal | - | - | dentists_licensed | P_HTHAB | file=derived | n=45 1980:11.09 → 2024:123.54 (Δ+112.5) | min 10.29@1984 | max 123.54@2024 | trend +3.021/yr [+2.8, +3.221] increasing (MK p_adj=1.61e-19) [t3394]
 - Portugal | - | - | nurses_active | P_HTHAB | file=derived | n=21 2004:422.29 → 2024:767.54 (Δ+345.2) | min 422.29@2004 | max 767.54@2024 | trend +17.08/yr [+15.72, +18.37] increasing (MK p_adj=2.58e-18) [t3396]
 - Portugal | - | - | pharmacists_active | P_HTHAB | file=derived | n=25 1999:69.62 → 2024:159.9 (Δ+90.28) | min 69.62@1999 | max 159.9@2024 | trend +3.758/yr [+3.231, +3.95] increasing (MK p_adj=2.7e-20) [t3397]
 - Portugal | - | - | physicians_licensed | P_HTHAB | file=derived | n=65 1960:75.65 → 2024:591.35 (Δ+515.7) | min 75.65@1960 | max 591.35@2024 | trend +7.532/yr [+7.085, +8.052] increasing (MK p_adj=3.01e-28) [t3395]
@@ -468,6 +494,7 @@ Médicos, enfermeiros, dentistas e farmacêuticos por 100 000 hab., Portugal (Eu
 ## q10_hospital_beds
 
 Camas hospitalares por 100 000 hab., Portugal e UE-27 (Eurostat) | axis: acesso-e-recursos | rows: 56 | 1985-01-01 to 2024-01-01
+chart kind: line | allowed: line, small_multiples, grouped_bars, slope, table
 
 - European Union (27) | - | - | hospital_beds_total | P_HTHAB | file=derived | n=16 2009:582.07 → 2024:507.35 (Δ-74.72) | min 507.35@2024 | max 582.07@2009 | trend -4.619/yr [-4.974, -4.332] decreasing (MK p_adj=5.57e-12) [t3398]
 - Portugal | - | - | hospital_beds_total | P_HTHAB | file=derived | n=40 1985:395.92 → 2024:330.98 (Δ-64.94) | min 330.98@2024 | max 407.01@1989 | trend -2.105/yr [-2.52, -1.761] decreasing (MK p_adj=2.85e-09) [t3399]
@@ -475,6 +502,7 @@ Camas hospitalares por 100 000 hab., Portugal e UE-27 (Eurostat) | axis: acesso-
 ## q10_resources_regions
 
 Camas hospitalares e médicos por 100 000 hab., por região NUTS II (Eurostat, até 2020) | axis: acesso-e-recursos | rows: 421 | 1993-01-01 to 2020-01-01
+chart kind: small_multiples | allowed: small_multiples, ranking, dumbbell, scatter, heatmap, table
 
 - Portugal | - | - | hospital_beds_total | P_HTHAB | file=derived | n=28 1993:395.5 → 2020:352.88 (Δ-42.62) | min 331.91@2014 | max 398.44@1996 | trend -2.369/yr [-3.104, -1.604] decreasing (MK p_adj=1.25e-05) [t3400]
 - Portugal | - | - | physicians | P_HTHAB | file=derived | n=28 1993:280.9 → 2020:562.24 (Δ+281.3) | min 280.9@1993 | max 562.24@2020 | trend +9.389/yr [+7.695, +11.12] increasing (MK p_adj=1.1e-27) [t3408]

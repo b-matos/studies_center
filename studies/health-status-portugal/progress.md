@@ -26,3 +26,6 @@ Análise refeita com o detetor corrigido (tendência+degrau, teste F). `breaks.c
 
 ## Fase 5 (refeita, 2026-11-19)
 `event_links.csv` refeito sobre as 29 quebras novas (35 linhas): 12 ligadas em grau C, 17 sem evento; nenhuma A/B. Quebras de inquérito (ih01, ih03, eac16) ligadas ao Memorando em C, com a nota de que o artefacto de método não está excluído. `common.verify events` confirmou 4 eventos; 3 por confirmar (gripe 2014/15, Lei do SNS, saúde oral), portanto não podem ser citados. `complete-phase 5` passou.
+
+## Fase 6 (redação, 2026-11-20)
+`report.pt.qmd` e `report.en.qmd` escritos sobre as 29 quebras novas (todas as ligações a eventos em grau C); degraus de ih01 (2013), ih03 (2011–2014) e eac16 (2011) confirmados, nenhum em 2018/2019. Removidas c221 e c231 (sem fonte). À 1.ª tentativa a porta recusou 10 gráficos em cada língua por tipo inadequado aos dados; trocados por smallMultiples, heatmap e tabelas; 2.ª tentativa passou. Para o autor: q02 e q03 ficaram em tabela e ficariam melhor em linhas; a nota de mortalidade-b001 em `breaks.csv`/`event_links.csv` fala de uma lacuna 2018–2021 na série de tumores que não existe (fases 4/5).
