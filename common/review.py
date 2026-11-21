@@ -72,7 +72,10 @@ def content_digest(study_dir: Path) -> str:
         path = study_dir / name
         h.update(name.encode() + b"\0" + (path.read_bytes() if path.exists() else b"") + b"\0")
     meta = read_meta(study_dir)
-    h.update(json.dumps({k: meta.get(k) for k in DIGEST_META}, ensure_ascii=False, sort_keys=True).encode())
+    seen = {k: meta.get(k) for k in DIGEST_META}
+    if meta.get("tags"):  # only when present, so approvals given before tags existed keep matching
+        seen["tags"] = sorted(map(str, meta["tags"]))
+    h.update(json.dumps(seen, ensure_ascii=False, sort_keys=True).encode())
     return h.hexdigest()
 
 

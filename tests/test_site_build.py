@@ -310,3 +310,25 @@ def test_public_build_needs_the_authors_approval_not_just_the_status(build_mod) 
     text = (site_dir / "index.pt.qmd").read_text(encoding="utf-8")
     assert "approved-1" in text
     assert "self-published" not in text and "edited-later" not in text
+
+
+def test_tags_show_as_chips_on_the_card_and_the_study_page_with_a_translated_label(build_mod) -> None:
+    mod, site_dir, studies_dir = build_mod
+    _make_study(studies_dir, "estudo-piloto", status="ready_for_review")
+    meta = studies_dir / "estudo-piloto" / "study.yml"
+    meta.write_text(meta.read_text(encoding="utf-8") + "tags:\n- pilot\n- outra\n", encoding="utf-8")
+
+    studies = mod.load_studies()
+    mod.write_index(studies, "pt", {"ready_for_review"})
+    mod.write_index(studies, "en", {"ready_for_review"})
+    assert '<span class="tag-chip tag-pilot">piloto</span>' in (site_dir / "index.pt.qmd").read_text(encoding="utf-8")
+    en = (site_dir / "index.en.qmd").read_text(encoding="utf-8")
+    assert '<span class="tag-chip tag-pilot">pilot</span>' in en and ">outra</span>" in en  # unknown tags show as written
+    header = mod._inject_study_header("---\ntitle: x\n---\n\nbody\n", studies[0], "pt", False)
+    assert "tag-chip tag-pilot" in header
+
+
+def test_a_study_without_tags_renders_no_chip(build_mod) -> None:
+    mod, _site_dir, studies_dir = build_mod
+    _make_study(studies_dir, "sem-tags", status="published")
+    assert mod.tag_chips(mod.load_studies()[0], "pt") == ""

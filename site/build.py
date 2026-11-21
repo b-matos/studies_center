@@ -100,6 +100,18 @@ def visible_studies(studies: list[dict], statuses: set[str] | None = None) -> li
     return [s for s in studies if s.get("status") in statuses and (s.get("status") != "published" or review.is_approved(s["_dir"]))]
 
 
+TAG_LABELS = {"pilot": {"pt": "piloto", "en": "pilot"}}  # known tags get a translated label; any other tag is shown as written
+
+
+def tag_chips(study: dict, lang: str) -> str:
+    """`tags:` in study.yml as small chips next to the status badge (the card and the study page)."""
+    chips = []
+    for tag in study.get("tags") or []:
+        label = TAG_LABELS.get(str(tag), {}).get(lang, str(tag))
+        chips.append(f'<span class="tag-chip tag-{html.escape(str(tag))}">{html.escape(label)}</span>')
+    return "".join(chips)
+
+
 def write_index(studies: list[dict], lang: str, statuses: set[str] | None = None) -> None:
     copy = INDEX_COPY[lang]
     visible = visible_studies(studies, statuses)
@@ -128,7 +140,7 @@ def write_index(studies: list[dict], lang: str, statuses: set[str] | None = None
             date = html.escape(str(s.get("date", "")))
             status = html.escape(str(s.get("status", "")))
             meta = (f'<span class="study-card-meta"><span class="badge-estado badge-{status}">{status}</span>'
-                    f"<span>{date}</span></span>"
+                    f"{tag_chips(s, lang)}<span>{date}</span></span>"
                     f'<span class="study-card-title">{title}</span>'
                     f'<span class="study-card-summary">{summary}</span>')
             if (s["_dir"] / f"report.{lang}.qmd").exists():
@@ -162,6 +174,7 @@ def _inject_study_header(qmd_text: str, study: dict, lang: str, has_data: bool) 
     status = html.escape(str(study.get("status", "")))
     parts = [
         f'<span class="badge-estado badge-{status}">{status}</span>',
+        tag_chips(study, lang),
         f'<span>{copy["date"]} {html.escape(str(study.get("date", "")))}</span>',
     ]
     if has_data:
