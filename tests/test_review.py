@@ -128,19 +128,17 @@ def test_cli_legacy_is_recorded_by_the_author_and_needs_a_name(studies: Path, ca
     assert json.loads((studies / "review.json").read_text())["legacy"] is True
 
 
-def test_tags_are_part_of_the_approved_content_but_old_approvals_keep_matching(tmp_path) -> None:
+def test_tags_do_not_change_the_approved_digest(tmp_path) -> None:
     import yaml
 
     from common import review as rv
 
     d = tmp_path / "s"
     d.mkdir()
-    (d / "study.yml").write_text(yaml.safe_dump({"title_pt": "a", "title_en": "b", "summary_pt": "c", "summary_en": "d"}), encoding="utf-8")
+    meta = {"title_pt": "a", "title_en": "b", "summary_pt": "c", "summary_en": "d"}
+    (d / "study.yml").write_text(yaml.safe_dump(meta), encoding="utf-8")
     plain = rv.content_digest(d)
-    meta = rv.read_meta(d)
-    meta["tags"] = []
-    (d / "study.yml").write_text(yaml.safe_dump(meta), encoding="utf-8")
-    assert rv.content_digest(d) == plain, "an empty tags list must not change the digest"
-    meta["tags"] = ["pilot"]
-    (d / "study.yml").write_text(yaml.safe_dump(meta), encoding="utf-8")
-    assert rv.content_digest(d) != plain, "adding a tag after approval must void it: readers see the tag"
+    (d / "study.yml").write_text(yaml.safe_dump({**meta, "tags": ["pilot"]}), encoding="utf-8")
+    assert rv.content_digest(d) == plain, "a label is not content: tagging must not void an approval"
+    (d / "study.yml").write_text(yaml.safe_dump({**meta, "title_pt": "changed"}), encoding="utf-8")
+    assert rv.content_digest(d) != plain

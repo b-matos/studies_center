@@ -1,0 +1,15 @@
+{
+  "approved_by": "BM",
+  "approved_at": "2026-11-21T09:58:23Z",
+  "checked": [
+    "report_pt",
+    "report_en",
+    "limitations",
+    "removed_claims",
+    "strong_links",
+    "licences",
+    "editorial"
+  ],
+  "digest": "6b770044fe195beeb5ae2909c36f350952f36f7361ad0dfcce014a43f9dbcefc",
+  "legacy": false
+}
